@@ -29,7 +29,6 @@ body {
   background: var(--bg-gradient);
   background-attachment: fixed;
   color: var(--text);
-  max-width: 480px;
   margin: 0 auto;
   min-height: 100vh;
   padding-bottom: 80px;
