@@ -1,7 +1,7 @@
 const RECIPES = [
   {
-    id: "2-filets-mignon-de-porc-de-400-g-chacun-environ",
-    title: "7 CS de vinaigre de riz",
+    id: "sel-et-poivre-du-moulin",
+    title: "Sel et poivre du moulin",
     emoji: "🥩",
     cat: "viande",
     chef: "julieandrieu.officiel",
@@ -9,7 +9,7 @@ const RECIPES = [
     time: "45min",
     serves: "6 pers.",
     difficulty: "Facile",
-    image: "",
+    image: "img/DdA_jsgDV0E.jpg",
     link: "https://www.instagram.com/julieandrieu.officiel/reel/DdA_jsgDV0E/",
     linkType: "instagram",
     veggie: false,
@@ -18,7 +18,7 @@ const RECIPES = [
       { qty: "2", name: "filets mignon de porc de 400 g chacun environ", rayon: 'epicerie' },
       { qty: "1 kg", name: "de prunes Lovita (pas trop mûres)", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -31,7 +31,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "",
+    image: "img/Dc5iTxYNcPc.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/Dc5iTxYNcPc/",
     linkType: "instagram",
     veggie: true,
@@ -53,12 +53,12 @@ const RECIPES = [
       { qty: "4/", name: "versez dans un moule et enfournez 35 min à 180 déjà chaud . Laissez tiédir", rayon: 'epicerie' },
       { qty: "6/", name: "faire revenir le reste des fruits rouges avec une pointe de miel", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "4-cuisses-de-poulet-100-francais",
-    title: "Cuisson : 1 h à 180°C, puis 20 min à 200°C",
+    id: "tirage-au-sort-le-1109-et-reglement-du-jeu-disponi",
+    title: "Tirage au sort le 11/09 et règlement du jeu disponible sur g",
     emoji: "🥩",
     cat: "viande",
     chef: "louloukitchen_",
@@ -66,7 +66,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "",
+    image: "img/Dc3tBCdhTuX.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/Dc3tBCdhTuX/",
     linkType: "instagram",
     veggie: false,
@@ -88,12 +88,12 @@ const RECIPES = [
       { qty: "QS", name: "Likez ce post", rayon: 'epicerie' },
       { qty: "QS", name: "Commentez sous cette publication", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "400-g-de-fraises",
-    title: "70 g de sucre glace⁠",
+    id: "deroule",
+    title: "Déroulé : ⁠",
     emoji: "🍰",
     cat: "dessert",
     chef: "franceinter",
@@ -101,7 +101,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "",
+    image: "img/Dc2sXpCCD21.jpg",
     link: "https://www.instagram.com/franceinter/reel/Dc2sXpCCD21/",
     linkType: "instagram",
     veggie: false,
@@ -117,7 +117,7 @@ const RECIPES = [
       { qty: "QS", name: "Prise de vue et son : Didier Mariani et Hélène Beraud⁠", rayon: 'epicerie' },
       { qty: "QS", name: "Montage : Xavier Chocron", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -130,7 +130,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "",
+    image: "img/Dc0mK7bAoIX.jpg",
     link: "https://www.instagram.com/frgaudry/reel/Dc0mK7bAoIX/",
     linkType: "instagram",
     veggie: true,
@@ -138,7 +138,7 @@ const RECIPES = [
     ingredients: [
       { qty: "QS", name: "Le secret ? La pâte maison démoniaque de mon amie Tina de @b", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -151,7 +151,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "",
+    image: "img/DcyuTkHuYvz.jpg",
     link: "https://www.instagram.com/viviana_pisacane/reel/DcyuTkHuYvz/",
     linkType: "instagram",
     veggie: true,
@@ -159,7 +159,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -172,7 +172,7 @@ const RECIPES = [
     time: "1h",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "",
+    image: "img/Dcvc1hEA5FH.jpg",
     link: "https://www.instagram.com/frgaudry/reel/Dcvc1hEA5FH/",
     linkType: "instagram",
     veggie: false,
@@ -186,12 +186,12 @@ const RECIPES = [
       { qty: "1", name: "gousse de vanille", rayon: 'epicerie' },
       { qty: "500", name: "grammes de mirabelles", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "ca-cest-la-recette-de-ma-salade-de-vermicelles-qui",
-    title: "ça c’est la recette de ma salade de vermicelles qui fait tou",
+    id: "recette-de-monelle-godaert",
+    title: "Recette de Monelle Godaert",
     emoji: "🍝",
     cat: "pates",
     chef: "not_so_superflu",
@@ -199,7 +199,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "",
+    image: "img/Da01FrWorRK.jpg",
     link: "https://www.instagram.com/not_so_superflu/reel/Da01FrWorRK/",
     linkType: "instagram",
     veggie: true,
@@ -207,12 +207,12 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "des-recettes-directement-du-potager-a-lassiette-ce",
-    title: "Des recettes directement du potager à l’assiette, c’est vrai",
+    id: "recette-de-monelle-godaert-DcjMNF",
+    title: "Recette de Monelle Godaert",
     emoji: "🍝",
     cat: "pates",
     chef: "not_so_superflu",
@@ -220,7 +220,7 @@ const RECIPES = [
     time: "25min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "",
+    image: "img/DcjMNFGoPVI.jpg",
     link: "https://www.instagram.com/not_so_superflu/reel/DcjMNFGoPVI/",
     linkType: "instagram",
     veggie: true,
@@ -228,7 +228,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -241,7 +241,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "",
+    image: "img/DcjDlVBtmEg.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DcjDlVBtmEg/",
     linkType: "instagram",
     veggie: false,
@@ -257,12 +257,12 @@ const RECIPES = [
       { qty: "5", name: "tomates cerises", rayon: 'epicerie' },
       { qty: "1 cac", name: "de paprika fumé mélangé à 3 cas d’huile d’olive", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "une-recette-a-retenir-et-a-refaire-tellement-elle-",
-    title: "Une recette à retenir et à refaire tellement elle est incroy",
+    id: "recette-de-monelle-godaert-Da53JW",
+    title: "Recette de Monelle Godaert",
     emoji: "🍰",
     cat: "dessert",
     chef: "not_so_superflu",
@@ -270,7 +270,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "",
+    image: "img/Da53JWPIBvj.jpg",
     link: "https://www.instagram.com/not_so_superflu/reel/Da53JWPIBvj/",
     linkType: "instagram",
     veggie: true,
@@ -278,7 +278,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -291,7 +291,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "",
+    image: "img/DcfW_8oNeTP.jpg",
     link: "https://www.instagram.com/lesdubuissonencuisine/reel/DcfW_8oNeTP/",
     linkType: "instagram",
     veggie: false,
@@ -308,7 +308,7 @@ const RECIPES = [
       { qty: "QS", name: "* Sel", rayon: 'epicerie' },
       { qty: "QS", name: "* Poivre noir.  La recette est en story à la une dans la rub", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -321,7 +321,7 @@ const RECIPES = [
     time: "25min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "",
+    image: "img/DceA51Gs8DL.jpg",
     link: "https://www.instagram.com/steflequellec/reel/DceA51Gs8DL/",
     linkType: "instagram",
     veggie: false,
@@ -329,7 +329,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -342,7 +342,7 @@ const RECIPES = [
     time: "15min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "",
+    image: "img/DcdMnR2sZ_J.jpg",
     link: "https://www.instagram.com/kitchenfactoryprod/reel/DcdMnR2sZ_J/",
     linkType: "instagram",
     veggie: true,
@@ -364,7 +364,7 @@ const RECIPES = [
       { qty: "1", name: "mixer + 1 passette,", rayon: 'epicerie' },
       { qty: "1", name: "moule à Tatin,", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -377,7 +377,7 @@ const RECIPES = [
     time: "10min",
     serves: "2 pers.",
     difficulty: "Facile",
-    image: "",
+    image: "img/DcL8DOWNwpW.jpg",
     link: "https://www.instagram.com/jemangequoicesoir/reel/DcL8DOWNwpW/",
     linkType: "instagram",
     veggie: false,
@@ -385,7 +385,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -398,7 +398,7 @@ const RECIPES = [
     time: "25min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "",
+    image: "img/DcJTo4It0qG.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DcJTo4It0qG/",
     linkType: "instagram",
     veggie: false,
@@ -414,11 +414,11 @@ const RECIPES = [
       { qty: "QS", name: "Tomate cerises", rayon: 'epicerie' },
       { qty: "QS", name: "Miel", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "16-kg-de-paleron-jutilise-du-shell-roast-prime-ou-",
+    id: "cuisson",
     title: "⏱️ Cuisson :",
     emoji: "🍰",
     cat: "dessert",
@@ -427,7 +427,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "",
+    image: "img/DcG0D7_NZ23.jpg",
     link: "https://www.instagram.com/fettacuisine_nyc/reel/DcG0D7_NZ23/",
     linkType: "instagram",
     veggie: false,
@@ -449,7 +449,7 @@ const RECIPES = [
       { qty: "QS", name: "½ c. à café de cumin moulu", rayon: 'epicerie' },
       { qty: "1", name: "c. à café d’ail en poudre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -462,7 +462,7 @@ const RECIPES = [
     time: "15min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "",
+    image: "img/DbQuWhPIoms.jpg",
     link: "https://www.instagram.com/maison_et_poesie/reel/DbQuWhPIoms/",
     linkType: "instagram",
     veggie: true,
@@ -470,12 +470,12 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "900-g-de-cuisses-de-poulet-pilons-et-hauts-de-cuis",
-    title: "900 g de cuisses de poulet (pilons et hauts de cuisse, désos",
+    id: "deroule-DbtoUg",
+    title: "Déroulé :",
     emoji: "🥩",
     cat: "viande",
     chef: "franceinter",
@@ -483,7 +483,7 @@ const RECIPES = [
     time: "2min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "",
+    image: "img/DbtoUgCFJOu.jpg",
     link: "https://www.instagram.com/franceinter/reel/DbtoUgCFJOu/",
     linkType: "instagram",
     veggie: false,
@@ -501,7 +501,7 @@ const RECIPES = [
       { qty: "1", name: "bouquet de basilic thaï frais", rayon: 'epicerie' },
       { qty: "QS", name: "Déroulé :", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -514,7 +514,7 @@ const RECIPES = [
     time: "25min",
     serves: "8 pers.",
     difficulty: "Facile",
-    image: "",
+    image: "img/DbsZJcnDhe6.jpg",
     link: "https://www.instagram.com/julieandrieu.officiel/reel/DbsZJcnDhe6/",
     linkType: "instagram",
     veggie: true,
@@ -533,7 +533,7 @@ const RECIPES = [
       { qty: "500 g", name: "de tomates", rayon: 'epicerie' },
       { qty: "200 g", name: "de pâtes creuses (ziti, ditalini, pipe rigate…)", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -546,7 +546,7 @@ const RECIPES = [
     time: "15min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "",
+    image: "img/DbWBqI5MF_0.jpg",
     link: "https://www.instagram.com/maregionsud/reel/DbWBqI5MF_0/",
     linkType: "instagram",
     veggie: true,
@@ -563,12 +563,12 @@ const RECIPES = [
       { qty: "2", name: "beaux bouquets de basilic frais", rayon: 'epicerie' },
       { qty: "QS", name: "Un quart de litre d’huile d’olive", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "le-fiance-de-sophie-adore-le-vitello-tonnato-alors",
-    title: "Le fiancé de Sophie adore le vitello tonnato, alors je me su",
+    id: "recette-de-el-piex",
+    title: "Recette de EL PIEX",
     emoji: "🍽️",
     cat: "plat",
     chef: "el__piex",
@@ -576,7 +576,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "",
+    image: "img/DbD22WJofig.jpg",
     link: "https://www.instagram.com/el__piex/reel/DbD22WJofig/",
     linkType: "instagram",
     veggie: true,
@@ -584,12 +584,12 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "le-secret-de-ma-ligne-cette-recette-je-la-fais-plu",
-    title: "Le secret de ma ligne 😂 cette recette je la fais plusieurs f",
+    id: "recette-de-monelle-godaert-DbEOmG",
+    title: "Recette de Monelle Godaert",
     emoji: "🍽️",
     cat: "plat",
     chef: "not_so_superflu",
@@ -597,7 +597,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "",
+    image: "img/DbEOmGcIugz.jpg",
     link: "https://www.instagram.com/not_so_superflu/reel/DbEOmGcIugz/",
     linkType: "instagram",
     veggie: true,
@@ -605,7 +605,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -618,7 +618,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "",
+    image: "img/DbFnX9VMFam.jpg",
     link: "https://www.instagram.com/kitchenfactoryprod/reel/DbFnX9VMFam/",
     linkType: "instagram",
     veggie: true,
@@ -640,12 +640,12 @@ const RECIPES = [
       { qty: "1", name: "grande sauteuse,", rayon: 'epicerie' },
       { qty: "1", name: "plat de service.", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "mewenlm-thomasdarcos",
-    title: "@mewen.l.m @thomasdarcos",
+    id: "recette-de-francoisregis-gaudry",
+    title: "Recette de François-Régis Gaudry",
     emoji: "🍽️",
     cat: "plat",
     chef: "frgaudry",
@@ -653,7 +653,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "",
+    image: "img/DbDXtMbgm6o.jpg",
     link: "https://www.instagram.com/frgaudry/reel/DbDXtMbgm6o/",
     linkType: "instagram",
     veggie: true,
@@ -661,7 +661,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -674,7 +674,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "",
+    image: "img/DZR2NtuDjFO.jpg",
     link: "https://www.instagram.com/lepointfr/reel/DZR2NtuDjFO/",
     linkType: "instagram",
     veggie: false,
@@ -691,7 +691,7 @@ const RECIPES = [
       { qty: "QS", name: "Mélange quatre-épices contenant de la cannelle", rayon: 'epicerie' },
       { qty: "QS", name: "Sel", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -704,7 +704,7 @@ const RECIPES = [
     time: "25min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "",
+    image: "img/DardRfGIXvX.jpg",
     link: "https://www.instagram.com/lesdubuissonencuisine/reel/DardRfGIXvX/",
     linkType: "instagram",
     veggie: true,
@@ -712,7 +712,7 @@ const RECIPES = [
     ingredients: [
       { qty: "QS", name: "La recette se trouve sur cette page en story à la une.", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -725,7 +725,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "",
+    image: "img/DavM3poNtZ3.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DavM3poNtZ3/",
     linkType: "instagram",
     veggie: false,
@@ -742,12 +742,12 @@ const RECIPES = [
       { qty: "2/", name: "faites revenir les pavés de saumon. Reservez", rayon: 'epicerie' },
       { qty: "4/", name: "dressez les courgettes au fond d’une assiette, le saumon et la sauce.", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "250g-de-farine",
-    title: "250g de farine",
+    id: "glace-vanille",
+    title: "Glace vanille",
     emoji: "🍰",
     cat: "dessert",
     chef: "louloukitchen_",
@@ -755,7 +755,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "",
+    image: "img/Dakzx2mtGzj.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/Dakzx2mtGzj/",
     linkType: "instagram",
     veggie: true,
@@ -774,12 +774,12 @@ const RECIPES = [
       { qty: "QS", name: "Huile d’olive", rayon: 'epicerie' },
       { qty: "QS", name: "Cuisson : 35 min à 200", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "12-rue-des-porcelets-13200-arles",
-    title: "12 Rue des Porcelets, 13200 Arles",
+    id: "rdv-samedi-a-2000-et-dimanche-a-1200-sur-parisprem",
+    title: "️ Rdv samedi à 20:00 et dimanche à 12:00 sur @parispremiere ",
     emoji: "🥩",
     cat: "viande",
     chef: "ttbontv",
@@ -787,7 +787,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "",
+    image: "img/Daia7rzqwJM.jpg",
     link: "https://www.instagram.com/ttbontv/reel/Daia7rzqwJM/",
     linkType: "instagram",
     veggie: false,
@@ -795,7 +795,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -808,7 +808,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "",
+    image: "img/DZ1pBSTsd5z.jpg",
     link: "https://www.instagram.com/charlinedieteticienne/reel/DZ1pBSTsd5z/",
     linkType: "instagram",
     veggie: false,
@@ -819,7 +819,7 @@ const RECIPES = [
       { qty: "40 g", name: "d’huile d’olive", rayon: 'epicerie' },
       { qty: "QS", name: "Une pincée de sel", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -832,7 +832,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "",
+    image: "img/DaN6PC8s3DP.jpg",
     link: "https://www.instagram.com/cookonut_butter/reel/DaN6PC8s3DP/",
     linkType: "instagram",
     veggie: false,
@@ -854,11 +854,11 @@ const RECIPES = [
       { qty: "QS", name: "des haricots verts (vapeur)", rayon: 'epicerie' },
       { qty: "QS", name: "une boîte de thon égouttée", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "2-courgettes",
+    id: "un-petit-passage-au-frais-de-15-a-30-minutes-et-ce",
     title: "Un petit passage au frais de 15 à 30 minutes, et c’est encor",
     emoji: "🍝",
     cat: "pates",
@@ -867,7 +867,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "",
+    image: "img/DaPRQ1ZstGk.jpg",
     link: "https://www.instagram.com/hervecuisine/reel/DaPRQ1ZstGk/",
     linkType: "instagram",
     veggie: false,
@@ -887,7 +887,7 @@ const RECIPES = [
       { qty: "1", name: "gousse d’ail râpée", rayon: 'epicerie' },
       { qty: "1", name: "c. à café de gingembre frais râpé", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -900,7 +900,7 @@ const RECIPES = [
     time: "15min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "",
+    image: "img/DaUs0atspTf.jpg",
     link: "https://www.instagram.com/kitchenfactoryprod/reel/DaUs0atspTf/",
     linkType: "instagram",
     veggie: true,
@@ -920,7 +920,7 @@ const RECIPES = [
       { qty: "1", name: "saladier + 1 presse-ail + 1 fourchette,", rayon: 'epicerie' },
       { qty: "4", name: "assiettes de service.", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -933,7 +933,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "",
+    image: "img/DaNtW8QNcMR.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DaNtW8QNcMR/",
     linkType: "instagram",
     veggie: false,
@@ -948,7 +948,7 @@ const RECIPES = [
       { qty: "QS", name: "Huile d’olive , miel, zaatar, sumac ( ou paprika )", rayon: 'epicerie' },
       { qty: "QS", name: "Première cuisson : 30 min à 200 degrés + cuisson 12 min à 20", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -958,10 +958,10 @@ const RECIPES = [
     cat: "dessert",
     chef: "viviana_pisacane",
     chefName: "Viviana Pisacane TopChef17",
-    time: "4h",
+    time: "40min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/730776657_881805477757467_621021971298966519_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=106%26ig_cache_key=MzkzMDM1NzEwOTg0MTAyNjA5Mw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=H7H-I-FM3qgQ7kNvwFY0PRd%26_nc_oc=Adp4mNRUch3rTFWqWezFAp-4XrY7zvmc3RdI-pYuKflqlWkoVdXzbZ8Sp8WOddfOLPaXNyhmNN55wmLMJXR3tjUa%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=CNfBQ-YfP-9yWMNeMTP1IA%26_nc_ss=7a22e%26oh=00_AQIL24HUzOdkfhSDKjgg9XbsTDxOeMxtD56qvTKuIn_ITQ%26oe=6AAD9288%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DaLbvesgVwt.jpg",
     link: "https://www.instagram.com/viviana_pisacane/reel/DaLbvesgVwt/",
     linkType: "instagram",
     veggie: true,
@@ -969,12 +969,12 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "les-recettes-du-dimanche-tout-ce-que-jai-prepare-p",
-    title: "Les recettes du dimanche ! Tout ce que j’ai préparé pour nos",
+    id: "recette-de-monelle-godaert-DaJJuS",
+    title: "Recette de Monelle Godaert",
     emoji: "🍽️",
     cat: "plat",
     chef: "not_so_superflu",
@@ -982,7 +982,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/733542582_18417420313197228_7907851024923320916_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=106%26ig_cache_key=MzkyOTcxNDkxMzU1NzY2NjEwNjE4NDE3NDIwMzEwMTk3MjI4.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=DGZh4Rg4SkcQ7kNvwFnH_zy%26_nc_oc=AdraKLF8AEEaPUM2hFX6F24Hiy8ZJDEp3d0oYAYyL8jRLaBjvXOKW9XCR0LiVXLzdMeG099EXHEBhL6RCKsUJT8W%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=5WH0qJEiS7qiy-uUZQ-rmw%26_nc_ss=7a22e%26oh=00_AQLvhd7jp1SGC6JJZ5xtthanqA_q3KeGNb6WOaqjRUmaCw%26oe=6AADBDB9%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DaJJuSzKNk6.jpg",
     link: "https://www.instagram.com/not_so_superflu/reel/DaJJuSzKNk6/",
     linkType: "instagram",
     veggie: true,
@@ -990,7 +990,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -1003,7 +1003,7 @@ const RECIPES = [
     time: "15min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/704732117_18588452122056158_3344267620786180488_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=MzkwMzMwMzA3MTQ5NjI3Mjg5MjE4NTg4NDUyMTE2MDU2MTU4.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjg4Mi5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=xgsNrREtSX8Q7kNvwHEP-RB%26_nc_oc=AdoELj6oA_BmEgu3gWRWVFCkq6MPEcjjYfD_5yLntM-Wnw3a-CfXJS6JVqHoAMx_M5sFE6-8MHyse1Z74pNwn5Bd%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=DVttLsdxHyIU8wieNpwkpg%26_nc_ss=7a22e%26oh=00_AQLRMtAcH3DFPk5Rcmt3mEFLb4aYsfZ404UPT5o6hIFfNg%26oe=6AADB9F2%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DYrUXaDOfv8.jpg",
     link: "https://www.instagram.com/ericfrechon/reel/DYrUXaDOfv8/",
     linkType: "instagram",
     veggie: true,
@@ -1023,7 +1023,7 @@ const RECIPES = [
       { qty: "QS", name: "Vinaigre vin rouge 300gr", rayon: 'epicerie' },
       { qty: "QS", name: "Jus de citron frais 25gr", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -1036,7 +1036,7 @@ const RECIPES = [
     time: "25min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/730223320_18453323209115148_5250690303936149912_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=MzkyNjQ5MTYwMzc4NTQ4OTIxOTE4NDUzMzIzMjA2MTE1MTQ4.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=Sxm4gD4HoXwQ7kNvwF-a0Fa%26_nc_oc=AdrOIg2h96M16fF9HSuq_Ebzw87EvLJjXFF7JWODRTtfX2FUowjchYwP9GXk987Rca0nKyV-soc8n_NCfbLNjioo%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=rVAyNIiXT4hb7ogNA2nLJw%26_nc_ss=7a22e%26oh=00_AQJW3xFqw_Msjpw_RtSwfDCaMSVRQhRn1dQAM0eBJgupKQ%26oe=6AADBB3C%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DZ9s09pMBtD.jpg",
     link: "https://www.instagram.com/happycook.fr/reel/DZ9s09pMBtD/",
     linkType: "instagram",
     veggie: true,
@@ -1050,7 +1050,7 @@ const RECIPES = [
       { qty: "7 cl", name: "de sauce soja vieillie", rayon: 'epicerie' },
       { qty: "3 cl", name: "de fécule de pomme de terre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -1063,7 +1063,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/726937991_17900943078455014_3773150245489037910_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=MzkyNDI2NDcwNTc1NjQxOTU1MTE3OTAwOTQzMDc1NDU1MDE0.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=dqo4dQpttC4Q7kNvwHASTid%26_nc_oc=AdrXem-MWvOKJZWuxn3g-cQTbBjCBXqBoGgJthH4bOL777t8oqVIQ2GMb40Y2FXIvXn9kFqC1gt-qZtxDo8DntQY%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=sq-phevGSbV7ljLzJygUSg%26_nc_ss=7a22e%26oh=00_AQIllACkPSRTWENSBTD0ZPR9BimOr0ySPankBP5KivsAPg%26oe=6AADBDCE%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DZ1yfVPNtXf.jpg",
     link: "https://www.instagram.com/miraysway/reel/DZ1yfVPNtXf/",
     linkType: "instagram",
     veggie: false,
@@ -1083,7 +1083,7 @@ const RECIPES = [
       { qty: "1", name: "c. à café d’herbes de Provence", rayon: 'epicerie' },
       { qty: "QS", name: "Sel & poivre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -1096,7 +1096,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/726963374_18091528058458594_7169548050146134802_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=104%26ig_cache_key=MzkyNDUwNjI0MjIwNjI4OTg3NTE4MDkxNTI4MDU1NDU4NTk0.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjc2MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=g3iRBrDfC38Q7kNvwHQRl6l%26_nc_oc=Adq3b1PdG_YGa_BKwu21FrwBwCUuQluKKa2DtL34uSo-XFadqXJIsWmAcDjTDQt51raEZvvu8B5WEjarQTst2l6R%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=IvKJJRO8fy0va0CHG5Ya3Q%26_nc_ss=7a22e%26oh=00_AQKFhcGnrNYxYkd5H79U56HZyFDebu1aeVYerCZh3gQLnQ%26oe=6AAD9EC4%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DZ2paJlgk_T.jpg",
     link: "https://www.instagram.com/paillettesetchocolat_/reel/DZ2paJlgk_T/",
     linkType: "instagram",
     veggie: false,
@@ -1111,12 +1111,12 @@ const RECIPES = [
       { qty: "QS", name: "Des oeufs durs", rayon: 'epicerie' },
       { qty: "QS", name: "Basilic", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "ingredienti-x2",
-    title: "Ingredienti x2:",
+    id: "insalata-di-melone-anguria-cipolla-di-tropea-cetri",
+    title: "Insalata di melone, anguria, cipolla di Tropea, cetrioli, fe",
     emoji: "🍽️",
     cat: "plat",
     chef: "sebastian_fitarau",
@@ -1124,7 +1124,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/729657715_1659690075256505_5582244683985287827_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=MzkyODIyNzIwODk3NjAyNDcyMA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=Zozcbafi-6IQ7kNvwGQs3ub%26_nc_oc=Adqt5fvCikpBsOfLfVfXa4g22O6k1tYRDjdB_UIFBsfnSilNG8lyED5QNvrgBGw-3PPSv4_i0PHVxLHWuld77HPz%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=asRdzHFLeT7dEgFpTfzzVA%26_nc_ss=7a22e%26oh=00_AQKzjH6r6aG0EGnb8KHoKzyEsXNHwfstMj3svAJWbfqJLw%26oe=6AADBDE3%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DaD3dV8CkSQ.jpg",
     link: "https://www.instagram.com/sebastian_fitarau/reel/DaD3dV8CkSQ/",
     linkType: "instagram",
     veggie: true,
@@ -1141,12 +1141,12 @@ const RECIPES = [
       { qty: "QS", name: "Pepper, to taste", rayon: 'epicerie' },
       { qty: "QS", name: "Almonds, to taste", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "cette-recette-express-ultrasimple-a-chaque-fois-qu",
-    title: "Cette recette express ultra-simple, à chaque fois que je la ",
+    id: "recette-de-monelle-godaert-DZs2uQ",
+    title: "Recette de Monelle Godaert",
     emoji: "🍽️",
     cat: "plat",
     chef: "not_so_superflu",
@@ -1154,7 +1154,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/724776490_18415607110197228_796438397911040035_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=106%26ig_cache_key=MzkyMTc1MDA0ODU4MjU3OTYzNTE4NDE1NjA3MTA0MTk3MjI4.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=HD02eHo_igEQ7kNvwFviEpI%26_nc_oc=AdrZHxQh-oc60klETzKtRuqOIazoqxKZ4wdTm4PUkF_BKoJbZ5pwGQJsfsK8mcUWEo83LQUK4hwB1AQtKIaV4kr-%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=_WcO38XRlPzbpo1hW5xxag%26_nc_ss=7a22e%26oh=00_AQLzCjlEmiDfmVApyupb-pIViVctJYxbQakCjO5yaGXE3g%26oe=6AADA12D%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DZs2uQPorWz.jpg",
     link: "https://www.instagram.com/not_so_superflu/reel/DZs2uQPorWz/",
     linkType: "instagram",
     veggie: true,
@@ -1162,12 +1162,12 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "je-vous-donne-la-recette-de-ma-salade-de-haricots-",
-    title: "Je vous donne la recette de ma salade de haricots verts, j’u",
+    id: "recette-de-monelle-godaert-DaDfSf",
+    title: "Recette de Monelle Godaert",
     emoji: "🍰",
     cat: "dessert",
     chef: "not_so_superflu",
@@ -1175,7 +1175,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/729654100_18417005902197228_1386468466000215051_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=MzkyODEyMDkxMDM3NDIwNjQxNTE4NDE3MDA1ODk2MTk3MjI4.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=wDkoEeIYbiwQ7kNvwEKqnF6%26_nc_oc=AdoxHDrXPdzRW4Q0IiV3B6X26vqeUjxluFAoA7UUWZXkNvJy2TTfg6mKyr7ts4ooAPHoa_pk4rmANFSQdPWiRAXa%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=eJEHVtUVwG3eWiy2rJmuDg%26_nc_ss=7a22e%26oh=00_AQJyphoHoov6rmi5RQaCzTGuI9NJQ5qyB0I6L96Q4d4CLQ%26oe=6AADB700%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DaDfSfpo3vP.jpg",
     link: "https://www.instagram.com/not_so_superflu/reel/DaDfSfpo3vP/",
     linkType: "instagram",
     veggie: false,
@@ -1183,7 +1183,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -1196,7 +1196,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/731761358_18092356079567661_6116956505025661398_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=104%26ig_cache_key=MzkyNzkxNzk2ODIxMzAyMTgzMTE4MDkyMzU2MDc2NTY3NjYx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=JKgwtBmrFbsQ7kNvwHeKFHB%26_nc_oc=Adrq_CUl5oNbUjM2Kx1jENuHgZR4lrK_ZHUAxrccTxh5eAORDro4StOWHcNgxHNDjdCk6TlS8Gdf_NmyCv3-Oo-E%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=fJYHAPHEVsfv2_u9YRWakA%26_nc_ss=7a22e%26oh=00_AQKEWowqflf7DVXP6QUQfUAV6lP6PTnqA5EP3X4kqmqq8g%26oe=6AADA5E2%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DaCxJTCNhSH.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DaCxJTCNhSH/",
     linkType: "instagram",
     veggie: true,
@@ -1212,7 +1212,7 @@ const RECIPES = [
       { qty: "QS", name: "Huile d’olive", rayon: 'epicerie' },
       { qty: "QS", name: "Sel", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -1225,7 +1225,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/707433706_2243555396382235_6504003710274885956_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=101%26ig_cache_key=MzkwNzA2ODk3NjQ4MjY0NTUzMTIyMTQ4ODU2NjU3MTU0OTE%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=wZZ8YQ8-pggQ7kNvwEjtksp%26_nc_oc=AdoPTfUhlgXWP6EEaYIMvZbV2hkA_CpwLRAy5Lmh4OqhoJVKu2V1AKdXogEtfr91yN2XKeHjSHXvct5vhl-w2zLs%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=-nQeS0a0XuvSpVnMpHkeNA%26_nc_ss=7a22e%26oh=00_AQIMjlr7uIonA1MPJal2r-2KmpMPyxcCmkHSsMPZVBX4Tg%26oe=6AAD8FE0%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DY4soiYMnYb.jpg",
     link: "https://www.instagram.com/lesgourmandisesdeloubna/reel/DY4soiYMnYb/",
     linkType: "instagram",
     veggie: false,
@@ -1240,12 +1240,12 @@ const RECIPES = [
       { qty: "QS", name: "Sel, poivre", rayon: 'epicerie' },
       { qty: "QS", name: "Un filet d’huile d’olive", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "une-folie-cette-salade-je-tourne-avec-5-recettes-l",
-    title: "Une folie cette salade, Je tourne avec 5 recettes l’été quan",
+    id: "recette-de-lou-elsener",
+    title: "Recette de Lou Elsener",
     emoji: "🥗",
     cat: "entree",
     chef: "louloukitchen_",
@@ -1253,7 +1253,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/730304087_18092131106567661_8668568877721987571_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=104%26ig_cache_key=MzkyNjY0Nzg5NjM3MDczMTMwMzE4MDkyMTMxMTAzNTY3NjYx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMTYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=2fjMyJpkDQkQ7kNvwGrcfy8%26_nc_oc=Ado78O6-Hb0gldNcDPDEqXTj0VEXsROWSAAk0yQfw3yo4L8FoKWHw7ipCMOuTFS3ilQg-A9DSDdzItd2YJ5Pgoe5%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=NhRal0ALAoH3rxXCmfrvJQ%26_nc_ss=7a22e%26oh=00_AQL_ZYlz37fb0CMqGLaNgAxMatSDYcMFv5VJuPljPPzNIw%26oe=6AADB3F1%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DZ-QXUdNlkn.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DZ-QXUdNlkn/",
     linkType: "instagram",
     veggie: true,
@@ -1261,12 +1261,12 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "180-kcal-14g-de-proteines-6g-de-glucides-11g-de-li",
-    title: "180 kcal • 14g de protéines • 6g de glucides • 11g de lipide",
+    id: "les-ingredients",
+    title: "Les ingrédients",
     emoji: "🥗",
     cat: "entree",
     chef: "betty.sopk.pertedepoids",
@@ -1274,7 +1274,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/727057642_2495587517545965_311690679344363736_n.jpg?stp=dst-jpegr_e15_p480x480_tt6%26_nc_cat=111%26ig_cache_key=MzkyNDM3NjA2NjI3MTY4MDMzNQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5oZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=O70ylDI7bhwQ7kNvwG0pGHG%26_nc_oc=AdocJWnDdyxghRBQfYxT829PNJ9COxY06wkCLpwsl_54e82J_Mx8FGhr_PYPF9CAVJLPjARfVLAj7kBKfI33Aac0%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26se=-1%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=r1TVr6DHWCaufeqmXdhv2Q%26_nc_ss=7a22e%26oh=00_AQJzgTw-BUNK6EzDcGfTnb3wcMMgExyhsHd1olLAGzf3mg%26oe=6AADBEDE%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DZ2Lz1zKxdP.jpg",
     link: "https://www.instagram.com/betty.sopk.pertedepoids/reel/DZ2Lz1zKxdP/",
     linkType: "instagram",
     veggie: true,
@@ -1288,12 +1288,12 @@ const RECIPES = [
       { qty: "QS", name: "👉 Feuilles de basilic 🌿", rayon: 'epicerie' },
       { qty: "QS", name: "👉 Quelques graines", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "succombez-a-ces-cannelonis-genereux-et-gratines-qu",
-    title: "Succombez à ces cannelonis généreux et gratinés qui cachent ",
+    id: "recette-de-cuisine-actuelle",
+    title: "Recette de Cuisine Actuelle",
     emoji: "🍰",
     cat: "dessert",
     chef: "cuisineactuelle",
@@ -1301,7 +1301,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/725133055_18592674352051047_318427427735677568_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=106%26ig_cache_key=MzkyMTY2NzcwMDU0NDIyNDY4MzE4NTkyNjc0MzQ2MDUxMDQ3.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=nRD2IiJTXw0Q7kNvwF00p8t%26_nc_oc=AdqDMCeVB7nAeAjMHcy4VPwororKuAP8xa5YeH3GeAxdgXynhUNT0ZeTfkIGk1_iJtpvfToY6fWS23DvRl-iQcop%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=PZ6-nNwW3g0ZYSAJLI1Tdg%26_nc_ss=7a22e%26oh=00_AQLRmUl0yUvGArouPfcP5gK3WndlsbgyNBaYk_4YymkpfA%26oe=6AADC3E0%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DZsj_7qD72r.jpg",
     link: "https://www.instagram.com/cuisineactuelle/reel/DZsj_7qD72r/",
     linkType: "instagram",
     veggie: true,
@@ -1309,7 +1309,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -1322,7 +1322,7 @@ const RECIPES = [
     time: "25min",
     serves: "4 pers.",
     difficulty: "Avancé",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/719970265_17943294060222910_3600131492692697494_n.jpg?stp=dst-jpg_e15_tt6%26_nc_cat=106%26ig_cache_key=MzkxNjU1Mzc5OTUxMjI4OTY3MTE3OTQzMjk0MDU3MjIyOTEw.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjUwNC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=o8ZzQdEeKzoQ7kNvwHE-_-t%26_nc_oc=AdrjXqMatGNqtN6vaM00uyVAqlDhHg2A-C0yMfqeyUESUMao8RDsJNvz3yr8XaT5CSV0WHpZstMdGGXkFTl0sxXW%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=EAarboMy4Ca2Qrh-qrvJzQ%26_nc_ss=7a22e%26oh=00_AQIwl6VUT46EHjL3jgaEl1OXEedC_x2CC3XsG5fwcu5FbA%26oe=6AADBE3C%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DZaZO4LovGH.jpg",
     link: "https://www.instagram.com/__beurrenoisette/reel/DZaZO4LovGH/",
     linkType: "instagram",
     veggie: true,
@@ -1344,7 +1344,7 @@ const RECIPES = [
       { qty: "1", name: "petite branche de romarin", rayon: 'epicerie' },
       { qty: "QS", name: "Huile d'olive", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -1354,10 +1354,10 @@ const RECIPES = [
     cat: "entree",
     chef: "alexandra.galais",
     chefName: "Alexandra | Recettes végétariennes",
-    time: "1h",
+    time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/724101722_2604612856660857_954213475573265136_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=110%26ig_cache_key=MzkyMTYwNTAxNTUyNDQ5MTk0NA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=tsUhjuBmO0gQ7kNvwGCsynx%26_nc_oc=AdrF1ZezW60eqkBDYYOG7B7HWwAdDl35r8fexnTodniw1xN4Mq3gsjomr5zi-A5wJQigLI1xHEF1f26Y3DGZB_s-%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=XX1uo5BWk9pc_bolaF_WAA%26_nc_ss=7a22e%26oh=00_AQIUR8BDzMeSA6MApO4_yOD3oWMcQadg2OR8PRhHKL0Tmg%26oe=6AAD9995%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DZsVvvrukKo.jpg",
     link: "https://www.instagram.com/alexandra.galais/reel/DZsVvvrukKo/",
     linkType: "instagram",
     veggie: true,
@@ -1365,7 +1365,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -1378,7 +1378,7 @@ const RECIPES = [
     time: "25min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/719136056_17942794863222910_3990461549658315383_n.jpg?stp=dst-jpg_e15_tt6%26_nc_cat=111%26ig_cache_key=MzkxNDE0NDQ4Mjc2NDM2MTY1MTE3OTQyNzk0ODYwMjIyOTEw.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjUwNC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=oq72Tlir9VUQ7kNvwGE6jcD%26_nc_oc=Adrokt5uEw0q-ATVQL7aB1a73_4o9KG8rQXhUYODxYo5wIaih4WSZZn-nnbomu8N3h5G2el7hH_gcpGqsxItGQPv%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=LED_HwJgUOXeGznBHqeK-Q%26_nc_ss=7a22e%26oh=00_AQJv4eHKAszNplHqsi7mN1wKifFQyk4Ss_ZaFJqimgUtNA%26oe=6AAD95FE%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DZR1atGuY-z.jpg",
     link: "https://www.instagram.com/__beurrenoisette/reel/DZR1atGuY-z/",
     linkType: "instagram",
     veggie: true,
@@ -1394,7 +1394,7 @@ const RECIPES = [
       { qty: "QS", name: "Sel, poivre", rayon: 'epicerie' },
       { qty: "QS", name: "Huile de friture", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -1407,7 +1407,7 @@ const RECIPES = [
     time: "25min",
     serves: "2 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/723085317_18041757137801401_3914619445884184994_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=102%26ig_cache_key=MzkyMDYxMjk5NTI1MTE1MTkyMTE4MDQxNzU3MTM0ODAxNDAx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMTUuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=NbfSh7JNrMMQ7kNvwE6tew1%26_nc_oc=Ado2ByptT1gDCH0Jc_xyKPkNEB35FtgQCI0fKCBtb4nqd_BqyV29kHIVLJOqp8isUtxIyaxAPJv62nfV7-5M-oqS%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=ietmVWmZ9jFqBDszgO3c2A%26_nc_ss=7a22e%26oh=00_AQLzrlqFt-Tt71XQKX92SkA5vHLY7Sm2fFw3zAXz2JDERg%26oe=6AAD9B14%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DZo0L8zuaQx.jpg",
     link: "https://www.instagram.com/lesudatable/reel/DZo0L8zuaQx/",
     linkType: "instagram",
     veggie: true,
@@ -1429,7 +1429,7 @@ const RECIPES = [
       { qty: "QS", name: "➡️Les disposer sur une plaque de four recouverte de papier s", rayon: 'epicerie' },
       { qty: "QS", name: "➡️Ajouter de l’huile d’olive", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -1442,7 +1442,7 @@ const RECIPES = [
     time: "25min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/723999560_2122214651899004_5885535714623331030_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=105%26ig_cache_key=MzkxOTI0NzY3MDcxOTM3NzgxNQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=y5nDVaJ82b0Q7kNvwEorMAg%26_nc_oc=AdqVoIWNJO63WOq37Htl6HZiim0Bb05DhpbX8yaFSiMUE7LFL4-H6PuVnDHrct9JlTftLEYuijB_pdU25Q5gNA60%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=Lsk8mD-t9DWtQbLZA_rmjw%26_nc_ss=7a22e%26oh=00_AQJoT0gaClQ461vJcwXZRHq_6ID3fwR4gFDXO3TxH1sT1w%26oe=6AAD9247%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DZj9v3QAXGX.jpg",
     link: "https://www.instagram.com/mykitchenetteciebyaicha/reel/DZj9v3QAXGX/",
     linkType: "instagram",
     veggie: false,
@@ -1450,7 +1450,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -1463,7 +1463,7 @@ const RECIPES = [
     time: "25min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/730277768_18595708969002455_4053439051378331178_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=110%26ig_cache_key=MzkyMjEyMzE1ODI3MzYwNDk4MDE4NTk1NzA4OTYzMDAyNDU1.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMTYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=LH1pCfkFMw8Q7kNvwHDC-ef%26_nc_oc=Adp-uaI9DaKjkT_kKFy7ztXnmvLXSm8EhXkWk72jNU7oEKSpIM1RQHZ10g9VjOIKIyOhpPurNGNvBN0QJCl1qdaj%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=Voo54ph3IwSO6CL4EBT5Fw%26_nc_ss=7a22e%26oh=00_AQJ14WKdv-WH13jzPGPVpg1UtJto6XQ9DcFm0TUHPRSC7Q%26oe=6AADA262%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DZuLjtuOz10.jpg",
     link: "https://www.instagram.com/bigmammagroup/reel/DZuLjtuOz10/",
     linkType: "instagram",
     veggie: true,
@@ -1471,7 +1471,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -1484,7 +1484,7 @@ const RECIPES = [
     time: "5min",
     serves: "2 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/722858997_18561015970069136_414054333467307406_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=105%26ig_cache_key=MzkyMDE3NDc4NjQ4OTIyMDU5NzE4NTYxMDE1OTY3MDY5MTM2.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMTYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=dzE0aesKNQ0Q7kNvwGdpLc5%26_nc_oc=Adp4bY1L4UPvihHAVSQ_JOxUKiTWFuGPby7sQaQZ9EPeoMca6iiH0YRyC4JSBB7B9PYxM8Yur9moWE5r5OCFr-8S%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=OxGioINKPgDo4Qfyd8sIgg%26_nc_ss=7a22e%26oh=00_AQKjl9C8DytHCScmOZ2ISRKRSrTDC7gDHN_aviu-4G9rVA%26oe=6AAD9B4F%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DZnQjLGIf31.jpg",
     link: "https://www.instagram.com/couleurs_sud/reel/DZnQjLGIf31/",
     linkType: "instagram",
     veggie: true,
@@ -1499,7 +1499,7 @@ const RECIPES = [
       { qty: "QS", name: "Sel", rayon: 'epicerie' },
       { qty: "QS", name: "Poivre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -1512,7 +1512,7 @@ const RECIPES = [
     time: "25min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/723085059_18347688346300957_8406217918124335537_n.jpg?stp=cp6_dst-jpg_e15_p480x480_tt6%26_nc_cat=111%26ig_cache_key=MzkxOTk0MTcwNjI5MDYwMzIwNzE4MzQ3Njg4MzQzMzAwOTU3.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=isBmLEkM37YQ7kNvwHZpUUX%26_nc_oc=Ado5xcw8EoaGiyv8ATRrys4Vkt9lejYhB9JANSs6cUads4RH9ifoWWWo_GmrTlBA1VoYAvQ9sfUOp1wazDMqZtOk%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=jIesjAKuf9j2NTyvmV6mpw%26_nc_ss=7a22e%26oh=00_AQKVsDVWcy0MRsv_A1fzsM5lUSt1Agzy6_zQzcNao1ojDw%26oe=6AADAC5E%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DZmbjaPsKTH.jpg",
     link: "https://www.instagram.com/kitchenfactoryprod/reel/DZmbjaPsKTH/",
     linkType: "instagram",
     veggie: false,
@@ -1529,7 +1529,7 @@ const RECIPES = [
       { qty: "120g", name: "de crème liquide entière", rayon: 'epicerie' },
       { qty: "6 cl", name: "de bouillon cube de volaille", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -1542,7 +1542,7 @@ const RECIPES = [
     time: "15min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/711847614_18415083115176355_8341239471382452828_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=MzkxMDAxMDc2OTIxNjE0NTQ2MDE4NDE1MDgzMTEyMTc2MzU1.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=rQrIWgeC_4EQ7kNvwGVw67P%26_nc_oc=Adr5mHSbaLycMa6EuMmPpjf485yvzkv--0L5RKbQE0l-5ZfXEFrkO2R7b5yiqYqynQkmgRA94SygyT97_2YJ-PN6%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=CNcvB52PI8AsLTku2pTJJQ%26_nc_ss=7a22e%26oh=00_AQKF5-K_Msr5cqbOuAlul6r-lPguT2_aZTGxfVEafgo5RA%26oe=6AADC062%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DZDJhQXFIg0.jpg",
     link: "https://www.instagram.com/jow_fr/reel/DZDJhQXFIg0/",
     linkType: "instagram",
     veggie: false,
@@ -1556,12 +1556,12 @@ const RECIPES = [
       { qty: "QS", name: "Coriandre finement hachée⁠", rayon: 'epicerie' },
       { qty: "1", name: "poignée de cacahuètes hachées grossièrement", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "900-g-dabricots-denoyautes",
-    title: "* 900 g d’abricots dénoyautés",
+    id: "preparation",
+    title: "Préparation :",
     emoji: "🍰",
     cat: "dessert",
     chef: "oscar_heloise",
@@ -1569,7 +1569,7 @@ const RECIPES = [
     time: "20min",
     serves: "6 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/719491094_18012168761907610_474733200634013003_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=MzkxNTg1MTI2NzcyODI5NTYxOTE4MDEyMTY4NzU4OTA3NjEw.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEzMjAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=wEYVI28Wg44Q7kNvwHM0DU6%26_nc_oc=Adoj2tC7mhtD2YnesKVtnuzfIxteYc3fIxG7m7QfV_ralYfKLEFbGXx5vWSbHgE3SdI79qYZmVHwgDMgcepk5ese%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=nTm9e1M-S3-mpzMAaM7pyw%26_nc_ss=7a22e%26oh=00_AQLCeZPh10d6LdwwZ3kysspAIIGNlZl1RPhQNeLs-0ht3Q%26oe=6AADC0E9%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DZX5fseNUbD.jpg",
     link: "https://www.instagram.com/oscar_heloise/reel/DZX5fseNUbD/",
     linkType: "instagram",
     veggie: true,
@@ -1579,7 +1579,7 @@ const RECIPES = [
       { qty: "QS", name: "* 200 g de miel liquide de fleurs.", rayon: 'epicerie' },
       { qty: "QS", name: "* Jus d’un demi-citron (optionnel, selon votre goût)", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -1592,7 +1592,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/708876993_1517649643739083_7688048313153232727_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=110%26ig_cache_key=MzkwOTk4ODQ0MjkyMTE3Nzg1MDI0NzgxNjU5MDU5NTc4NzA%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=TkGA-Vt7k3AQ7kNvwHa-A1u%26_nc_oc=AdpHU372pAduMJkO1NvjgcyRs7Ulcoo7nH7BDJ7EV8KldM6Y2fAeoReygishdvqNWgW2otqsg_8GMtHjJTttvBnP%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=rKCC7hBPAh6PIhIokkuNeg%26_nc_ss=7a22e%26oh=00_AQJTAvCKbY38pz7iigvrklW67kDXzRPQrLlNaow_GEsf8w%26oe=6AADBEE3%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DZDEcXYMxL6.jpg",
     link: "https://www.instagram.com/charlie.ma.vie/reel/DZDEcXYMxL6/",
     linkType: "instagram",
     veggie: true,
@@ -1600,7 +1600,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -1613,7 +1613,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/714243386_1727889361968680_638515837006092302_n.jpg?stp=dst-jpegr_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzkxMzUwNzEwNzc2MzM1NzAyNTE1MjkyMDM2Mjg4MDg4Njg%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5oZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=1PF6WYAPG_QQ7kNvwFkMkpF%26_nc_oc=Ado3-vgsuJPd_1UrteH8dBlRzl7XmaW5UIkR2qb_rXCmRy7f8juLQ2tePFpszXnQb2tFlUAaJ468DED210Jb8nQs%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26se=-1%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=p5NGtOTrbp_gwVhTIKYHOQ%26_nc_ss=7a22e%26oh=00_AQIgkCsSxcr2MA4G5S1W0PMX3EatQ87e9rGVnHFnOHycDg%26oe=6AADBF3C%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DZPkfrYM4Vh.jpg",
     link: "https://www.instagram.com/steflequellec/reel/DZPkfrYM4Vh/",
     linkType: "instagram",
     veggie: false,
@@ -1621,7 +1621,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -1634,7 +1634,7 @@ const RECIPES = [
     time: "25min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/718062073_18594679516061228_6238218422385945544_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzkxMzQ1NDMxOTY3ODE0MzUwOTE4NTk0Njc5NTEzMDYxMjI4.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMDYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=U3xvNrPyDgIQ7kNvwHXoCE-%26_nc_oc=Ado6L3etcyYuDJSY6GV9v6onVkzb4lIRZkyG3FQJ6-Plp1zqv_102XJnGUmEu2lmsFu49SJBIACNwaOgHMfSs8Pi%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=e3KPCmVptFj9eRWZEWwiTQ%26_nc_ss=7a22e%26oh=00_AQIuhc4qrpPfIKp0PBgLb4-QaoHg6DQ6OysBht5fIp2XPQ%26oe=6AAD9AF2%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DZPYfgpIjwV.jpg",
     link: "https://www.instagram.com/xavier_pincemin/reel/DZPYfgpIjwV/",
     linkType: "instagram",
     veggie: true,
@@ -1642,7 +1642,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -1655,7 +1655,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/717582420_1536114241638812_3796757627374255852_n.jpg?stp=dst-jpegr_e15_p480x480_tt6%26_nc_cat=102%26ig_cache_key=MzkxMjkyMzk1MDA1NTkwNzY3ODE3NDIyNDI2NTM2MDE0ODM%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5oZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=jBwHK561zyEQ7kNvwFjC8dN%26_nc_oc=AdpQsq5gaA2UU2uuUkymjyoRZh9AIvngms5D9O4tXmZ2Kl1IsFyLUtAyjF_IAbNJkusSbUrsdAJEDl-I6PQgm6zQ%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26se=-1%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=EIzuWfY5LKU-j1IgZTavNQ%26_nc_ss=7a22e%26oh=00_AQJFwECeecsIc8iEHDsgdp_2ckgGOnrh2QibTmNEu6rdfg%26oe=6AAD9BE4%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DZNf5ncM2Fe.jpg",
     link: "https://www.instagram.com/steflequellec/reel/DZNf5ncM2Fe/",
     linkType: "instagram",
     veggie: false,
@@ -1663,7 +1663,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -1676,7 +1676,7 @@ const RECIPES = [
     time: "25min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/715443019_18089540597567661_6222350285447270337_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzkxMTQyOTQyNjQ0NDE3MTc2MzE4MDg5NTQwNTk0NTY3NjYx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=hJQnDLdzKikQ7kNvwEG5vMI%26_nc_oc=AdomPEV7kAxBLPx8cy3skQw1v3G-s94KAyGzahmKqhtLQeQiaFn3vJFmcn9uUki_FfYaShWNM7sIrJFomp6Q9Y5z%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=7c6VBA7ykqa__2-35HltOw%26_nc_ss=7a22e%26oh=00_AQIpc37FveSRzRyG_Vhvm1cenT8E70EwR8YTbmeUJcBkEQ%26oe=6AADBFDA%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DZIMFb3Nvnz.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DZIMFb3Nvnz/",
     linkType: "instagram",
     veggie: true,
@@ -1691,7 +1691,7 @@ const RECIPES = [
       { qty: "QS", name: "Tomates cerises", rayon: 'epicerie' },
       { qty: "QS", name: "Zaatar", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -1704,7 +1704,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/659079471_1482920190137370_5812331617428889926_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=102%26ig_cache_key=Mzg2OTM5MzkzMDE5ODc3Njc2OA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=0HWJUbk75k4Q7kNvwHCe2vw%26_nc_oc=AdqCuKebxt4VZ--mGK1H3URXzfqm_kXtP3rLC9ukp7lCRLcYTDqNkzFWrmg3MH_H01T9gAPMVRrd30BC40hy92rd%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=mtvUcYpMBySdPVSbJnTDXg%26_nc_ss=7a22e%26oh=00_AQLbfyo4lwjZkDPo2welSrB7zdGZJfPtPA8B1CJNTkgHmg%26oe=6AADC1B0%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DWy2UdRjPvA.jpg",
     link: "https://www.instagram.com/guillauminetherond/reel/DWy2UdRjPvA/",
     linkType: "instagram",
     veggie: true,
@@ -1718,7 +1718,7 @@ const RECIPES = [
       { qty: "30g", name: "de sucre", rayon: 'epicerie' },
       { qty: "QS", name: "un peu de jus de citron (optionnel)", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -1731,7 +1731,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/713243603_18345469477300957_7678233904157508134_n.jpg?stp=cp6_dst-jpg_e15_p480x480_tt6%26_nc_cat=103%26ig_cache_key=MzkwOTc3ODU5MTgwMDM2NDcxNzE4MzQ1NDY5NDcxMzAwOTU3.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=3LvYylcQseQQ7kNvwGBaLHt%26_nc_oc=Adr7FPlThAGx3VpRhHhI4g33PKKfhieL8VT_4wg8MXnnEpCuvpsrrr9c8MHAphkeNGf8eEYRXoJ__rUcoVJ0P2WJ%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=4yVPdz7E2IZojlcyu8C1iw%26_nc_ss=7a22e%26oh=00_AQJ3LR74VHVn9f6gltnV7Z5-JigSzJh2XIY_qgw6RyqkxQ%26oe=6AAD97B5%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DZCUuoSsA6t.jpg",
     link: "https://www.instagram.com/kitchenfactoryprod/reel/DZCUuoSsA6t/",
     linkType: "instagram",
     veggie: true,
@@ -1753,7 +1753,7 @@ const RECIPES = [
       { qty: "1", name: "petit saladier ou bol (facultatif),", rayon: 'epicerie' },
       { qty: "1", name: "sauteuse,", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -1766,7 +1766,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/692550271_17975325780042257_597018048289053070_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=103%26ig_cache_key=Mzg5NjIxMDA4MTA1NDA5MTQ2NzE3OTc1MzI1Nzc3MDQyMjU3.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=4s-KAddB3d4Q7kNvwEmSUgH%26_nc_oc=AdoaYxmTHaKgWQQ2nwSu9pBtL6_KcOWQeN6ozWpdeQAyxGsZz_I1CKu7veC-dGuq-jWpSPBydHycrIFCgkya9-4M%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=-wybR9dsdSjRJKgEmISJnw%26_nc_ss=7a22e%26oh=00_AQJdKU6bGGzN2LM4XajJjpCe1B6APTWqVzU78f-yaocSoQ%26oe=6AADB43B%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DYSHmz7hmjL.jpg",
     link: "https://www.instagram.com/mamy.etjordan/reel/DYSHmz7hmjL/",
     linkType: "instagram",
     veggie: true,
@@ -1778,7 +1778,7 @@ const RECIPES = [
       { qty: "1", name: "bâton de vanille", rayon: 'epicerie' },
       { qty: "10", name: "fraises (à votre convenance)", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -1791,7 +1791,7 @@ const RECIPES = [
     time: "3min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/707763634_17977165167042257_2627904736148473677_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=104%26ig_cache_key=MzkwNDkwNjkxODEzMTUzNjA4NjE3OTc3MTY1MTY0MDQyMjU3.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=AxLsOIjElgcQ7kNvwFb8wDc%26_nc_oc=AdozI6FmL4sKM7VmbjPAo5M1KVD4ABam7zuwoGoJO6GcF6faxr6kul7kVnctxduvZaCnFM0lAua1lcriDLw9HOlR%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=Bymoqtw7JtQ51dXvJXtcEg%26_nc_ss=7a22e%26oh=00_AQICaADb9ofGG07D4QlqmmLOzw1L8yOdaGXiNHbTqcGBEw%26oe=6AADB809%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DYxBCcoMhDW.jpg",
     link: "https://www.instagram.com/mamy.etjordan/reel/DYxBCcoMhDW/",
     linkType: "instagram",
     veggie: true,
@@ -1807,7 +1807,7 @@ const RECIPES = [
       { qty: "1/2", name: "gousse d’ail", rayon: 'epicerie' },
       { qty: "QS", name: "Persil, basilic", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -1820,7 +1820,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Avancé",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/706858973_18593227303042581_2981836398733007519_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=MzkwODM3ODQwNDMyMzk2NDA4OTE4NTkzMjI3MzAwMDQyNTgx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjg1Ni5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=ollby4FUM4IQ7kNvwH8YvPX%26_nc_oc=AdrrStkZIju4SzOWQ9H8RA99xLZjfspyQNNloHYXtKD6VdEHAWpuhzQbU89ioraP_R467vJreNDT8WC_OT6V22zI%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=SDKDWSIAF-nN4KLGhFVd9g%26_nc_ss=7a22e%26oh=00_AQLnzgRYyUVXz5igoJ1Imry9UpNlUZSBDUPqsgp63YlbUw%26oe=6AAD9D4C%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DY9WXOFibS5.jpg",
     link: "https://www.instagram.com/laurent.mariotte/reel/DY9WXOFibS5/",
     linkType: "instagram",
     veggie: true,
@@ -1828,7 +1828,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -1841,7 +1841,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/707012840_1304787685115666_4831660550988487902_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=103%26ig_cache_key=MzkwNDkyNDQwNDQxMTcyMTA0Mzk4NzU0MTM3NzU3NTA0OQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=7J322gKQvIIQ7kNvwGB41vY%26_nc_oc=Adqempv2G7QCR5uF8NSJwXY9Y-xGB90S0b-aztbYOz_4dvQ9lTEPjNZEoV9ZCZ1tUdhh9UyYMqSrCDNgrcQpZwCX%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=S8kK1YXkpHQT96iadsEu-g%26_nc_ss=7a22e%26oh=00_AQLBzytu1zwybS4xJYwuDPrcZaPH3fqkI1v51PA8Z54Waw%26oe=6AADA05E%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DYxFA5_tuVT.jpg",
     link: "https://www.instagram.com/albs.cook/reel/DYxFA5_tuVT/",
     linkType: "instagram",
     veggie: false,
@@ -1858,7 +1858,7 @@ const RECIPES = [
       { qty: "QS", name: "Huile de cuisson, sel et poivre", rayon: 'epicerie' },
       { qty: "QS", name: "Préparation", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -1871,7 +1871,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/686075170_18583714411056158_1324177891625663079_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=101%26ig_cache_key=Mzg5MTE1NDA0NTQ5NzQyMDk0NTE4NTgzNzE0NDA4MDU2MTU4.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjg2Ni5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=pvidrIk4Xe0Q7kNvwFigAmG%26_nc_oc=Adp7_HLnQWOr0Edue3nnxgGqtp9oXF4Je_gq-nw0eT5X9p1llQPMYx4BbDJGnTXONRWp5obmVm3lTo3uj811hLix%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=pkgVEzBC3r-Rk6-rX8g3gQ%26_nc_ss=7a22e%26oh=00_AQL2LmjEfohDVif1wcQOIUx6Tstb0WqF6T86nd4wQK-STg%26oe=6AADA12D%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DYAJ_z4MqyR.jpg",
     link: "https://www.instagram.com/ericfrechon/reel/DYAJ_z4MqyR/",
     linkType: "instagram",
     veggie: true,
@@ -1879,7 +1879,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -1892,7 +1892,7 @@ const RECIPES = [
     time: "15min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/700907719_18586431016056158_6823568701806176672_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=Mzg5ODI2MTA3NjgxMzQxNDAyMzE4NTg2NDMxMDEwMDU2MTU4.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjg4Ni5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=o78CQdxMFgAQ7kNvwEdD5vu%26_nc_oc=AdqvyrA63hLcDfauqv1GHeeQDl9GYjCzAVaaeO4lryy1QfGyUvry_0wFv_B0MIHXnOxAZ3fETX78ScMCZP0d1MR3%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=ckI-mzSeWuVaUlmeOnsV-g%26_nc_ss=7a22e%26oh=00_AQIo1W1rqhb_sqn319ihJGsh0dAPxxG5Wdl7H1ArnRUlPA%26oe=6AADAEF6%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DYZZ8ulMf6H.jpg",
     link: "https://www.instagram.com/ericfrechon/reel/DYZZ8ulMf6H/",
     linkType: "instagram",
     veggie: true,
@@ -1900,7 +1900,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -1913,7 +1913,7 @@ const RECIPES = [
     time: "15min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/703131650_18587096719056158_2006211585150702497_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=Mzg5OTg1ODk0NzYxNDU2MTQyMzE4NTg3MDk2NzE2MDU2MTU4.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjkwMi5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=Cl_vnqE1OzAQ7kNvwGKqSRT%26_nc_oc=Adp5-S0GfZ9RhRwN6Dq1K1rZocy4KAYhi4TbFVWZ0ijqTJO4QqLNhjrFh0wVkQ-qOFOvXNdxycAy6rhxMeV2BmmK%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=1CwIX_9VD-yKN5X6uN3Skw%26_nc_ss=7a22e%26oh=00_AQIIa0O0oq0DnREDFnSOFNg8unYZzMzvng1iZ7fIffh8hA%26oe=6AAD9E35%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DYfFQzusdSP.jpg",
     link: "https://www.instagram.com/ericfrechon/reel/DYfFQzusdSP/",
     linkType: "instagram",
     veggie: true,
@@ -1926,7 +1926,7 @@ const RECIPES = [
       { qty: "20", name: "grammes de sésame torréfié", rayon: 'epicerie' },
       { qty: "20", name: "grammes de sauce soja", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -1939,7 +1939,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/689672756_18585664258056158_3151565891666548352_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=104%26ig_cache_key=Mzg5NjIxNDIxMTAwMzY1MjQ5NDE4NTg1NjY0MjU1MDU2MTU4.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjg1Ni5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=qO32kK-DL3MQ7kNvwFAd4bx%26_nc_oc=AdoNZjmQHnnLvVXhy5gpWDXz3lNmyLaIFknvaVni0ViUbOZ2vqpOA4xaUFqtIyBMDspCafS7ACE6isHOHoPifFky%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=ElZh0DhB5ec7Cv2cPry6PQ%26_nc_ss=7a22e%26oh=00_AQLydkJkQCfIwxVdm3R5moZCY2lojwoP4K9SuCR1fP_HNg%26oe=6AADC203%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DYSIi6Ps5mO.jpg",
     link: "https://www.instagram.com/ericfrechon/reel/DYSIi6Ps5mO/",
     linkType: "instagram",
     veggie: false,
@@ -1947,7 +1947,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -1960,7 +1960,7 @@ const RECIPES = [
     time: "15min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/670402859_17970495801042257_3921568086869471564_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=Mzg2OTE1MTM3Nzg3MDU4NzEyMjE3OTcwNDk1Nzk4MDQyMjU3.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=4ODhD9oJcsoQ7kNvwHmODGz%26_nc_oc=AdqsTvLFSKAdNCbf2ZbUFUkZ2pyfqLF7GdjHK43cyB74AjsTNCo0uBOkeN1Nyg5gdurjUE8-Zw8k03xDliV2328f%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=AQtOk_2EUD-uJ9Dh6IdUhw%26_nc_ss=7a22e%26oh=00_AQKwzKhGIu92jK4x7o6S2IF5Wsr1_c5xD7yeiznL40VGiQ%26oe=6AAD974F%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DWx_K20MITy.jpg",
     link: "https://www.instagram.com/mamy.etjordan/reel/DWx_K20MITy/",
     linkType: "instagram",
     veggie: true,
@@ -1968,7 +1968,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -1981,7 +1981,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/706649948_18088283246567661_7240638384942346245_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzkwNDcxNzExMzQ2MDY1MzQwMzE4MDg4MjgzMjQzNTY3NjYx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMTYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=3sqdJ9IVyz4Q7kNvwEAQHG8%26_nc_oc=Adq3CY-7PIlxWkEKo0H7vyX6CFVvSrjkpGwadk46-xsJeikegIBdSm1I_fplhSWR9A-px2k6g9fi6TEiRYg-UF5e%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=vDDfkwoK0XE2JC0h2ojMGg%26_nc_ss=7a22e%26oh=00_AQIeC4nMl6Rp3cJK9y4QmGykqWQ1kwbMRdBzgQN_LbFN6Q%26oe=6AAD9B1F%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DYwV4bQNf1b.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DYwV4bQNf1b/",
     linkType: "instagram",
     veggie: true,
@@ -1992,7 +1992,7 @@ const RECIPES = [
       { qty: "4/5", name: "citron bio", rayon: 'epicerie' },
       { qty: "150g", name: "de glace vanille", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -2005,7 +2005,7 @@ const RECIPES = [
     time: "10min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/697077994_18097396052329998_7408461783266926232_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=105%26ig_cache_key=Mzg5NjczNzA1Njk3NjczMTU0MzE4MDk3Mzk2MDQ2MzI5OTk4.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=3RiJ6PtG5vsQ7kNvwEpmbLe%26_nc_oc=AdruvJkSaM6xvSK7NDne9wgsBlLJbqvP0zAtuaTit0Qar5G6tUalqh4b32HnfcjxiSlyR3PiB8UsBzmKt8cnvGmY%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=XznH7G7YaOO8xIOEdgqdpw%26_nc_ss=7a22e%26oh=00_AQL1qP5YcIUXV2fGnSjqPzQMn_Ln9QkYhk5aO9PusHySsw%26oe=6AAD9F9F%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DYT_bUgMv2X.jpg",
     link: "https://www.instagram.com/laviedunefitmum/reel/DYT_bUgMv2X/",
     linkType: "instagram",
     veggie: false,
@@ -2019,12 +2019,12 @@ const RECIPES = [
       { qty: "70g", name: "de sucre glace", rayon: 'epicerie' },
       { qty: "1 cac", name: "de graines de vanille", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "2-boites-de-biscuits-cuillere",
-    title: "2 boîtes de biscuits cuillère",
+    id: "150gr-de-creme-liquide",
+    title: "150gr de crème liquide",
     emoji: "🍽️",
     cat: "plat",
     chef: "adopteuncake",
@@ -2032,7 +2032,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/654201472_2169678446901520_8816957586806506953_n.jpg?stp=dst-jpegr_e15_p480x480_tt6%26_nc_cat=102%26ig_cache_key=Mzg1NTY5OTA3Njc1MTE1MzU3ODE4MjA0ODIxNjE3MzI5MjM3.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5oZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=-tvgc_ZLDDoQ7kNvwGBwX7l%26_nc_oc=AdrG8aBD_VXS42mBHiAn1fbWa4zfn5r5A-kn1mO8ADcAdBb-vucKmZNEyhVJZjJE_BukmIu2YaSgMbt-7AW1HC9j%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26se=-1%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=S63UtIxqu0dTSSPzxuJlzA%26_nc_ss=7a22e%26oh=00_AQLNd5pwO2l4P5vSN541ixeXhf5d2HabZk2njVBe-fj5UQ%26oe=6AADAA30%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DWCMeHGjdmq.jpg",
     link: "https://www.instagram.com/adopteuncake/reel/DWCMeHGjdmq/",
     linkType: "instagram",
     veggie: true,
@@ -2046,12 +2046,12 @@ const RECIPES = [
       { qty: "QS", name: "Du lait pour imbiber", rayon: 'epicerie' },
       { qty: "QS", name: "Des fruits pour la décoration", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "deux-recettes-de-salades-toutes-simples-et-trop-be",
-    title: "Deux recettes de salades toutes simples et trop belles que t",
+    id: "recette-de-monelle-godaert-DYnMxg",
+    title: "Recette de Monelle Godaert",
     emoji: "🍝",
     cat: "pates",
     chef: "not_so_superflu",
@@ -2059,7 +2059,7 @@ const RECIPES = [
     time: "25min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/704086622_18411106000197228_6454905750715761082_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzkwMjE0Mzc4MDg0Mjg1OTY0OTE4NDExMTA1OTk0MTk3MjI4.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=TLDKUwPHAQsQ7kNvwF5rYHh%26_nc_oc=Adqmq5jNSRja4oRIC6CwrRtqveHqcKukbSGvus8b3YwAXz4rj70_eemtnk1W5Up8NWEirxU6SM7u4T5Yp7pqAiWW%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=Wt9lY33GsAWiJxppldQRiw%26_nc_ss=7a22e%26oh=00_AQLAn0uDpRPjXWJZckK2xHjFkJBZ-PnU2sGFyyMGXy8pRQ%26oe=6AADC362%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DYnMxgfo2yB.jpg",
     link: "https://www.instagram.com/not_so_superflu/reel/DYnMxgfo2yB/",
     linkType: "instagram",
     veggie: true,
@@ -2067,7 +2067,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -2080,7 +2080,7 @@ const RECIPES = [
     time: "25min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/705968333_18464143753107965_162406872145053721_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=105%26ig_cache_key=MzkwMjAzOTA2MDA5MjMwMjI3NjE4NDY0MTQzNzUwMTA3OTY1.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExNTIuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=2gqRGqR1KokQ7kNvwH-eBRk%26_nc_oc=AdoLNJht_qUopFevRDGmGneXMvCZEdMT2YN4bXBzNuUu2WoWIKfYdzvv6q86ASUfcJ3uz9cil8QP2HXApM6ejqDM%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=vB8e5_Jwsos7-dB0TAEd0g%26_nc_ss=7a22e%26oh=00_AQIuoonJA5NyREsuKRjSL7-_WWCZkK_iqZ9OBwioqsz2iw%26oe=6AADA6F4%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DYm09nsgDPE.jpg",
     link: "https://www.instagram.com/demotivateurfood_fr/reel/DYm09nsgDPE/",
     linkType: "instagram",
     veggie: true,
@@ -2088,12 +2088,12 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "je-suis-fan-de-cette-salade-de-steak-virale-que-ja",
-    title: "Je suis fan de cette salade de steak virale que j’ai revisit",
+    id: "recette-de-lou-elsener-DYmFrK",
+    title: "Recette de Lou Elsener",
     emoji: "🥗",
     cat: "entree",
     chef: "louloukitchen_",
@@ -2101,7 +2101,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/702570232_27493593580248262_1608278030968850839_n.jpg?stp=dst-jpegr_e15_p480x480_tt6%26_nc_cat=103%26ig_cache_key=MzkwMTgzMTA4MzExNjE3NjM1MDE1MTQ2Nzg4NDY3MzEwNTA%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5oZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=nIoYSazU4HwQ7kNvwHTrx_z%26_nc_oc=AdovBD0L4qtYapJ0yaobMO3fDfG3Am_t23Jm7IBw0mLqEm7dznIqDZr_ZuDuM04-2LguLx6AyNQrZgMGEOKM8MEa%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26se=-1%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=tyWwkzgzt--4eOSJIpAJVg%26_nc_ss=7a22e%26oh=00_AQJpg_3kV1cTHgCPAYNmc82yC2hwa1-QPcXEaW82r78ZwA%26oe=6AAD93A3%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DYmFrKCt6Pe.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DYmFrKCt6Pe/",
     linkType: "instagram",
     veggie: false,
@@ -2109,7 +2109,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -2119,10 +2119,10 @@ const RECIPES = [
     cat: "dessert",
     chef: "lesgourmandisesdeloubna",
     chefName: "Loubna JAIBI",
-    time: "1h20",
+    time: "40min",
     serves: "6 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/682690913_18115128847774989_2344181549196310539_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=110%26ig_cache_key=Mzg4ODkxMTc3Mzk1MTEwNTg4NzE4MTE1MTI4ODQxNzc0OTg5.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIzMDYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=hFkI7F6Zq90Q7kNvwHibOFf%26_nc_oc=AdoMdZj8DGkgY4DvBCpXDmL7Gc_7ftpGjHm907fIfWdPRwMgVN1lgplVwOfgN-r-9xpJ_PJoRA5_4eO4ml5WErm0%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=w-iFO7Lk1aSvQ66tbXD97Q%26_nc_ss=7a22e%26oh=00_AQJY3tMKPbZwnXH5bNagq780Id0qWZNEh3s3bu214Y6p_g%26oe=6AADC082%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DX4MKdxMJtf.jpg",
     link: "https://www.instagram.com/lesgourmandisesdeloubna/reel/DX4MKdxMJtf/",
     linkType: "instagram",
     veggie: true,
@@ -2130,7 +2130,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -2143,7 +2143,7 @@ const RECIPES = [
     time: "2min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/703076209_18410713381197228_1042969056681256199_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=Mzg5NjM0MjY5NTg5NzA4Mjk1ODE4NDEwNzEzMzc1MTk3MjI4.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=q1o-3am-Vk0Q7kNvwHHbLZf%26_nc_oc=AdpZskU8l4RlQYIKxmBGyVV2YFMFP5OFLPtD7bwGvklhnFvGJku7NfacAx8n2Mbs-X3WXXFYssTgFtZSmiXRhMh5%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=mXCXC3FhBVLEevGtXyyL4A%26_nc_ss=7a22e%26oh=00_AQKVtZoX9pFoMCTzYFdYZ8Plt_VwoS3PfEXcdjjFbTDsqQ%26oe=6AADA1BF%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DYSlwnIIixO.jpg",
     link: "https://www.instagram.com/not_so_superflu/reel/DYSlwnIIixO/",
     linkType: "instagram",
     veggie: true,
@@ -2151,7 +2151,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -2164,7 +2164,7 @@ const RECIPES = [
     time: "25min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/700723480_18588714607061228_8090868437396917400_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=Mzg5ODkyNzkzODgwMjgxNTY0OTE4NTg4NzE0NjAxMDYxMjI4.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExODYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=A_KWqNuUuMUQ7kNvwGc2RhA%26_nc_oc=AdodSOLt5Mk3H5GWqDkehdygqZARAHnJ7SLcYo9vVBvz-wBCXDihek6Tc-3zFwax4Dou65ZjnUkuJlpu-njSsAKY%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=tRZAm93torZZUVwIFdH1-A%26_nc_ss=7a22e%26oh=00_AQJ_-jw6X6TtWqFpnCMtDvAnFp4w-62RuSTC_CJsoEIOWw%26oe=6AADB890%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DYbxk2NMBKh.jpg",
     link: "https://www.instagram.com/xavier_pincemin/reel/DYbxk2NMBKh/",
     linkType: "instagram",
     veggie: true,
@@ -2172,12 +2172,12 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "une-addiction-cette-salade-de-concombre-spicy-avec",
-    title: "Une addiction cette salade de concombre spicy avec la hariss",
+    id: "recette-de-lou-elsener-DYWue7",
+    title: "Recette de Lou Elsener",
     emoji: "🥗",
     cat: "entree",
     chef: "louloukitchen_",
@@ -2185,7 +2185,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/702894835_18087451289567661_7210914852715409171_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=Mzg5NzUwNjk2MjgwNjczMTk5OTE4MDg3NDUxMjg2NTY3NjYx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=6RjFBcpsSkUQ7kNvwGsrqE-%26_nc_oc=AdrVIzqcBXhv9gSJWEbUPOKxCRWTrhN_gjeD_-hm05nUusMeIXCVbigzlDXr_XPz2Ywc8LzZ3lLemhmh5NvOZuiw%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=JZ988dUfJsfO5jVP7fYoRQ%26_nc_ss=7a22e%26oh=00_AQKtjZetRLfg1krdrJOmaeClzWMOvdvoU5yye63ta00oWQ%26oe=6AADA119%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DYWue7LtPTf.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DYWue7LtPTf/",
     linkType: "instagram",
     veggie: true,
@@ -2193,7 +2193,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -2203,10 +2203,10 @@ const RECIPES = [
     cat: "dessert",
     chef: "fannymlacuisine",
     chefName: "Fanny Masri | Creatrice de recettes raffinées | Art de la table",
-    time: "1h",
+    time: "40min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/683465633_18406360372182676_6863834397371622761_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=Mzg4NDY0NzQxMTYyNTAwODM4MDE4NDA2MzYwMzY5MTgyNjc2.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMTcuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=xLPbAU1VJL4Q7kNvwGtgeJ6%26_nc_oc=Adri_Ef99bShh0CJui_U35gvVusfbvDzxKdR1tXiZqRwcjpRjGH4vMTMN8Pu5EVoMbpf7tBAhzOiCgDEzjLy7789%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=FSK1L9gkjMqTF4Hu3y-dUg%26_nc_ss=7a22e%26oh=00_AQJUTv7u53xYi0iLssiXbWJeIeXd_VyzwAM9jIPYP7Nc2Q%26oe=6AADAA13%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DXpCj03jJz8.jpg",
     link: "https://www.instagram.com/fannymlacuisine/reel/DXpCj03jJz8/",
     linkType: "instagram",
     veggie: false,
@@ -2224,7 +2224,7 @@ const RECIPES = [
       { qty: "2 cs", name: "de concentré de tomate", rayon: 'epicerie' },
       { qty: "QS", name: "Eau", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -2237,7 +2237,7 @@ const RECIPES = [
     time: "9min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/651541110_1162650532500868_5487493523055833990_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=Mzg1NDIzOTc0MTEzNTA5MzI4OTE4NTc5NDIzNzE4MDI1MTk4.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=zxGU_fmyT9kQ7kNvwEmXH_u%26_nc_oc=AdpqLPV_A9ok-hz3MvGokJlK1yUPMrnWyq-AObDrt3CD6HOgRpRgQO2BGerCLXpEFoDMXwAstYN4L6SHiPgsDXcf%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=rKmux-SgKzOYkmQlXHblMw%26_nc_ss=7a22e%26oh=00_AQIseN0z6u5J2hbM1IPMDfwze0FYvlDss6f9R_PPiNgQfQ%26oe=6AAD95F1%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DV9Ap-5jP4p.jpg",
     link: "https://www.instagram.com/juliensebbag/reel/DV9Ap-5jP4p/",
     linkType: "instagram",
     veggie: false,
@@ -2245,7 +2245,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -2258,7 +2258,7 @@ const RECIPES = [
     time: "25min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/684243685_18085873157567661_2085187547788967051_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=Mzg5MDQxNjY1NzEyNTI2MzAyNjE4MDg1ODczMTU0NTY3NjYx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIzMDYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=Tsflg7CCXtEQ7kNvwEPo8Cm%26_nc_oc=AdoBUEPWlfJVkEvNUckSHjMJtQrkBU4yXNPZ-D7bqH_A5d9aO4d2IoBWONLdWqd7a7c7H9KBQdk3NnDyRPdJ9ObA%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=VTtwIN7dB85f6Y9wHh-NtQ%26_nc_ss=7a22e%26oh=00_AQLWDphR_VdRNgfLfEqOqy7eaQgTlCt33-z39HM2DrRW8Q%26oe=6AAD9097%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DX9iVZcNsay.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DX9iVZcNsay/",
     linkType: "instagram",
     veggie: false,
@@ -2272,7 +2272,7 @@ const RECIPES = [
       { qty: "QS", name: "Des spaghettis", rayon: 'epicerie' },
       { qty: "QS", name: "Huile d’olive ( 4 litres 🤣)", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -2282,10 +2282,10 @@ const RECIPES = [
     cat: "viande",
     chef: "benjaminfurno",
     chefName: "Benjamin Furno",
-    time: "6h",
+    time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/703433634_18595575622062041_1636532701652029708_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=101%26ig_cache_key=Mzg4NzU3MzQxMzMyMDAxMzM5MjE4NTk1NTc1NjE5MDYyMDQx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExMTIuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=mnSrnu_XvuMQ7kNvwEnrfoX%26_nc_oc=AdrHjWOfA9cZDO7L1WjRay0X_9wvMGRB5D46PgWTqO1NKd-4PY8y1ysdXo-Vw-GxDUmztfibVzA99PhksWTmpV1C%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=Y-u1Ikma-MxIOGRaSBLYCQ%26_nc_ss=7a22e%26oh=00_AQJQhGYk8-GLF_hXVZIwhf-6TTow_O6dGygVMhL-OrcVbw%26oe=6AADA658%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DXzb2wTMTZQ.jpg",
     link: "https://www.instagram.com/benjaminfurno/reel/DXzb2wTMTZQ/",
     linkType: "instagram",
     veggie: false,
@@ -2306,7 +2306,7 @@ const RECIPES = [
       { qty: "50g", name: "de parmesan", rayon: 'epicerie' },
       { qty: "QS", name: "Persil", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -2319,7 +2319,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/684252963_1572617644507015_6115913385123697473_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=111%26ig_cache_key=Mzg4NzIxMTE3MzE5NDE0MTUyMTEzMjE4MjU2Njk3OTk2NjI%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=e8qNwVC-nW8Q7kNvwGbVMcn%26_nc_oc=AdrofPkiaNvV4CmOahjxHYRF7hWt36mwQjUdnaKTHlf7jD684_W6aruRwRkigVP-TeH37kG1F32xS9GwV3bDzZpK%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=9DKCLimBOHwJYAo0d7uoyA%26_nc_ss=7a22e%26oh=00_AQIY7JrpyV0iUcU6G4BK1QwoEJgkozbDkYLJ7AbrknHNig%26oe=6AAD9E19%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DXyJfd5Ko9R.jpg",
     link: "https://www.instagram.com/abdelalaouiofficiel/reel/DXyJfd5Ko9R/",
     linkType: "instagram",
     veggie: true,
@@ -2330,7 +2330,7 @@ const RECIPES = [
       { qty: "1", name: "citron", rayon: 'epicerie' },
       { qty: "1", name: "orange •1c à c de cumin en poudre •sel/poivre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -2343,7 +2343,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/685993799_18085943279567661_388357592189196522_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=110%26ig_cache_key=Mzg4NjYwNzgxNDc3MTQ5NzkyMzE4MDg1OTQzMjc2NTY3NjYx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=5J0kh2ZZiiYQ7kNvwEC41Jq%26_nc_oc=Adojkbi2hgq_mMBwf474gBHr2ygbAu5WXyRidpqhzSg8tOk5EmNFdL2jt_WCxNzoo3-ddvTXmO8vZkh04EL2Z5c1%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=OljCG0smhJQArEiFsc3goA%26_nc_ss=7a22e%26oh=00_AQJeNVql6inkEJ8eXjox-DUaUVR5aMSsYGH0E4eWGBl5Aw%26oe=6AADB303%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DXwATcktlvD.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DXwATcktlvD/",
     linkType: "instagram",
     veggie: true,
@@ -2351,7 +2351,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -2364,7 +2364,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/675423273_18590100901025198_2194988046681635278_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=Mzg4MjQ3MzQwOTQ5ODM3MzI0OTE4NTkwMTAwODk1MDI1MTk4.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIzMDQuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=lk0fwHKxx3QQ7kNvwGk2tre%26_nc_oc=AdrMCJZWJB5RIgH6NYuENz-2qsVw87_IulN3SqNPVTu0rFR15em8QrmvHgXVg-K192BfIYvtTSfINBesmawIFJ6-%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=T8TXjXb84a1o4zXSLAufsg%26_nc_ss=7a22e%26oh=00_AQIGioif6RQmrkNEHsyIHfHaEx-SWV9gOr1aw58yhR8n8Q%26oe=6AADC2A7%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DXhUP7nDNyB.jpg",
     link: "https://www.instagram.com/juliensebbag/reel/DXhUP7nDNyB/",
     linkType: "instagram",
     veggie: false,
@@ -2372,12 +2372,12 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "vos-legumes-herbes-doivent-etre-en-parfait-etat",
-    title: "Vos légumes / herbes doivent être en parfait état",
+    id: "recette",
+    title: "Recette",
     emoji: "🥗",
     cat: "entree",
     chef: "slideforfood",
@@ -2385,7 +2385,7 @@ const RECIPES = [
     time: "2min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503326531_691501037184803_4205285072095135093_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=111%26ig_cache_key=MzQwODQzMzc5ODQxMDUzOTQ4Mw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjkwMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=qa2v-NCVDvgQ7kNvwGQPvd9%26_nc_oc=AdpGQTeVsvZX8Pf8rMlNwSgRWv52y8arNZisQGKqsym4sWK4YuK-d6wEsxnS8FWnLlLsDytXICGpsAs2uu-ariIY%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=7b6yg_HxVkoS6bG4iUUyBA%26_nc_ss=7a22e%26oh=00_AQJzFhzF3PVVDb8fO2z9ZHAIHaIwkqP0_u_dsLWu2D8kLA%26oe=6AADA3EB%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C9NMHsishHb.jpg",
     link: "https://www.instagram.com/slideforfood/reel/C9NMHsishHb/",
     linkType: "instagram",
     veggie: true,
@@ -2393,7 +2393,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -2406,7 +2406,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/682023109_18340315378300957_3178200984435185537_n.jpg?stp=cp6_dst-jpg_e15_p480x480_tt6%26_nc_cat=106%26ig_cache_key=Mzg4NjU4MzM1NTk5NzgyMDk0NDE4MzQwMzE1Mzc1MzAwOTU3.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=xWIzztnVq4AQ7kNvwE_13Pj%26_nc_oc=AdoXXRbM9xdLVe5MtOyD4noDtzt-bAsuHGzGzwkrA-hlTirIlOHfPELnq8I6elpN3X9J5mluJCyXfMQGSa8ktQTq%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=IYy-ESOaLBOOVt-FUQi7Tw%26_nc_ss=7a22e%26oh=00_AQI0Xdd3j5C4gp4zZPU8YqaL6kCKw2g_M3pcyK2vqV7-IQ%26oe=6AADB070%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DXv6vhkMhgQ.jpg",
     link: "https://www.instagram.com/kitchenfactoryprod/reel/DXv6vhkMhgQ/",
     linkType: "instagram",
     veggie: true,
@@ -2428,7 +2428,7 @@ const RECIPES = [
       { qty: "3", name: "œufs,", rayon: 'epicerie' },
       { qty: "12 cl", name: "de lait entier,", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -2441,7 +2441,7 @@ const RECIPES = [
     time: "15min",
     serves: "4 pers.",
     difficulty: "Avancé",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/682719010_18340018789300957_7825229477562934885_n.jpg?stp=cp6_dst-jpg_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=Mzg4NTE3NTA2NzAyMTk2NzkzNDE4MzQwMDE4Nzg2MzAwOTU3.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=Ql5mUKMxH4oQ7kNvwGRupBc%26_nc_oc=Adq-Rs2ijk2TWCfm8ubG_3rhekX7Q8TXDXOeJ3jxEp-qmZZiZGRSNVv-frfjuopBapyXDsAKaUrxN7hfAV0Sdibf%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=g8GIWRM18erV1uci6IZJgA%26_nc_ss=7a22e%26oh=00_AQLzIz0rpmuEsAHYrCFsYRy8UE5NDYL-fD5IKRwENS82bw%26oe=6AADB9AB%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DXq6iOQDII-.jpg",
     link: "https://www.instagram.com/kitchenfactoryprod/reel/DXq6iOQDII-/",
     linkType: "instagram",
     veggie: false,
@@ -2458,7 +2458,7 @@ const RECIPES = [
       { qty: "1", name: "râpe Microplane + 1 passette + 1 mortier,", rayon: 'epicerie' },
       { qty: "1", name: "râpe Microplane.", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -2471,7 +2471,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/660149868_18111762271774989_4802016193349335663_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=103%26ig_cache_key=Mzg2NDMxNjQyMzUwMjA2ODIzNTE4MTExNzYyMjY1Nzc0OTg5.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIyNjguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=qtMtyR44wAgQ7kNvwEQbIVb%26_nc_oc=AdqHUUdg71HEC0h9yBnd9v3xutL7XoZR3BWhpdkKZUIcBsF1YPhcDn34vv2TOHRKe98FzRsRNGJ_hQ-wGR9ftwHK%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=Bs6Omd63SY6lO3DV-Qb5Ow%26_nc_ss=7a22e%26oh=00_AQJkM3uo97BDxj2EU9cK2EJzCwpMmHgKTRASyScRHHoQ6g%26oe=6AADB37D%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DWgz1AqjHoL.jpg",
     link: "https://www.instagram.com/lesgourmandisesdeloubna/reel/DWgz1AqjHoL/",
     linkType: "instagram",
     veggie: false,
@@ -2488,7 +2488,7 @@ const RECIPES = [
       { qty: "1", name: "c. à c. de sumac", rayon: 'epicerie' },
       { qty: "2", name: "c.à.s Huile d’olive", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -2501,7 +2501,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/683661021_18084923411567661_3249809918850946674_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=Mzg4NDYxNjIwNDU3OTkxMDkyODE4MDg0OTIzNDA1NTY3NjYx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjk2OC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=v_t_IOEBbLoQ7kNvwHAy_Jc%26_nc_oc=Adp83NxtRznK1G9l3nwxeLNZ0t0acvABG7uovHCsCZ4nTGnn9vW_5BFfqiZdNxUAf8zAYwPXpbJAVQoCq_ywHpyb%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=aTOLvbqpS5bkHFt4c73KuA%26_nc_ss=7a22e%26oh=00_AQJ4omQx0KmebOFcda89TNhv6p6hSu5LLWhIufnl7vvrgg%26oe=6AAD98D8%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DXo7dtCtjUQ.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DXo7dtCtjUQ/",
     linkType: "instagram",
     veggie: false,
@@ -2520,20 +2520,20 @@ const RECIPES = [
       { qty: "QS", name: "Herbes : coriandre persil ciboulette ( ce que vous aimez )", rayon: 'epicerie' },
       { qty: "QS", name: "Citron vert", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
     id: "le-meilleur-de-ma-semaine",
     title: "LE MEILLEUR DE MA SEMAINE",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🍽️",
+    cat: "***",
     chef: "frgaudry",
     chefName: "François-Régis Gaudry",
-    time: "40min",
+    time: "30min",
     serves: "4 pers.",
-    difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/681928974_18591538720028753_3889091277223172781_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=Mzg4NDM0MzQ2MTU0NTU0MDI4Mg%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNTc2LnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=6XZXuqBmvYAQ7kNvwEFOCoL%26_nc_oc=Adr54gPPN304SYksB_Nh9dFSqV7vLfhUBVX79j28NUMQps9EdAClRThqrqFne6UPG6IEbB0SXSLnDjexsveEnzxK%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=wdb2JqneJTn9BDnOVvYXNQ%26_nc_ss=7a22e%26oh=00_AQImDNxZpmdNJ9ts7YDfM6XGDvsb5dx-2dOQ9RUjt8-OOQ%26oe=6AADAFD0\n🔥LE MEILLEUR DE MA SEMAINE🔥\n\nAvec ma bande de @ttbontv, on était en vadrouille à Arles cette semaine pour une spéciale Camargue ! ➡️ Bientôt sur @parispremiere 📺\n\n2 et 3) Le tournage a démarré fort autour d’une asperge blanche à la texture merveilleuse chez @inari.arles, la table de @celine_pham_ et sa bande\n4) Les cookies de @mazettearles, coffee shop engagé et enjoué\n5) Riche sélection de vins naturels chez @cavebienvivantarles\n6 et 7) Les assiettes ensoleillées et partageuses de @paourestaurant\n8) À la recherche de l’artichaut de Provence aux @jardinsdecidamos\n9 à 11) La bistronomie à l’arlésienne et les vins vivants chez @mesa_arles\n12) Le tea time grandiose de @yohan.soriano, nouveau chef pâtissier de @larlatan\n13 et 14) Les tacos à l’effilochée de guardiane de Toro de Gastón @taqueriaelluchon \n15 à 18) Tournage à la @chassagnette avec @armsfeelgood et ses assiettes printanières @nathandoumaux. Et tout ça le jour de l’annniversaire de Mina !\n19) c’est de l’amour… @antonycointre\n20) À très très vite dans Très Très Bon spécial Camargue ! @minasndrm @valentine.oud @antonycointre \n\n#arles #camargue%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    difficulty: "Facile",
+    image: "img/DXn-rUYiCcR.jpg",
     link: "https://www.instagram.com/frgaudry/p/DXn-rUYiCcR/",
     linkType: "instagram",
     veggie: false,
@@ -2541,7 +2541,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -2554,7 +2554,7 @@ const RECIPES = [
     time: "25min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/675436969_18582946564002167_6231589297083996185_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=102%26ig_cache_key=Mzg4MjM0ODIxNDA3MDM0NDcyOQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNzIwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=NB2RVOdL8h4Q7kNvwEF2ef8%26_nc_oc=AdpDeAoS49t4IQkWbCgkndH397xfhTNmNpI8NU0Z_q3ZBTKVSw-w1sT_g4ce4GDpcfUsM_2KhqltbxT_Gks19cOn%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=WBNsYAXCyScioIct_-KQUA%26_nc_ss=7a22e%26oh=00_AQJybWHt46pJkvEyL2G0ZqrHC2FPIeLdK0pBN_Y-XN3TEw%26oe=6AADB3E0\nMy favourite kind of cooking at the moment: one pan, into the oven - not much to do but wait.\n\nThis week’s recipes are exactly that. Two mezze-style dishes for the middle of the table: soft saffron courgettes with tzatziki, and smoky aubergines with olives and tomatoes - collapsed, jammy, and best at room temperature with bread alongside. (The Greeks call that last part papara - a more poetic way of saying you’ll want a whole loaf.) The aubergines improve overnight, so make them the day before if you can.\n\nBoth recipes in this week’s Substack - find them via the link in bio.%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DXi6SAkCLFw.jpg",
     link: "https://www.instagram.com/ottolenghi/p/DXi6SAkCLFw/",
     linkType: "instagram",
     veggie: true,
@@ -2562,7 +2562,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -2575,7 +2575,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/683781276_18445142668114826_3812222089896464543_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=Mzg4MzcwMTIzNTQxMzgwMTgxNTE4NDQ1MTQyNjYyMTE0ODI2.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=tb38u628nA4Q7kNvwG9E4d5%26_nc_oc=AdrMmYZsVHPG-Pe-gHKAro5_0g47i_a62RzxJUl6wkh-wLo6A-wrp70i3Y5RSzF0zqQZ5JhxKQURWlW4KvmqgjaH%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=xWh3xcyrG1exr5_bfvHEpQ%26_nc_ss=7a22e%26oh=00_AQJoYyXsXre5GdNULTmFurPrKTc-do8kf94G3x1hP-GYFw%26oe=6AADAEEE%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DXlrbJmldtX.jpg",
     link: "https://www.instagram.com/lepointfr/reel/DXlrbJmldtX/",
     linkType: "instagram",
     veggie: false,
@@ -2591,7 +2591,7 @@ const RECIPES = [
       { qty: "QS", name: "Sel", rayon: 'epicerie' },
       { qty: "QS", name: "Poivre du moulin", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -2604,7 +2604,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/657428650_984656130668917_3930243798620266349_n.jpg?stp=dst-jpegr_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=Mzg4Mjk2MjAxNTkxMTEyOTk5ODEzMzczOTQ0Mjg0NDgzNDg%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5oZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=yJMsrviFHdMQ7kNvwFAXmq-%26_nc_oc=AdohEl3A_Tv5FrQyhHoHch4wEkcSuITX1dyVj83EgAR7Ae2uvM7Qyc1UPBn74q9oJMWGqK08CJEAfb1dagOyWTWP%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26se=-1%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=UzaKqyMFvFmHpQ9NErxogw%26_nc_ss=7a22e%26oh=00_AQJmvvQ8JI8bti1-efHZu0WNRJtOwttPC0eMtQdXbKS58g%26oe=6AAD9619%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DXjDWFyt7OO.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DXjDWFyt7OO/",
     linkType: "instagram",
     veggie: true,
@@ -2620,7 +2620,7 @@ const RECIPES = [
       { qty: "QS", name: "Cuisson : 40 min à 210", rayon: 'epicerie' },
       { qty: "QS", name: "Retrouvez-moi à Cannes sur la Plage Nespresso dans moins d’u", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -2633,7 +2633,7 @@ const RECIPES = [
     time: "5min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/681430463_18582823036042581_8643489260867724504_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=111%26ig_cache_key=Mzg4MjQ2OTU1MzE3MTE5MjM5MjE4NTgyODIzMDMzMDQyNTgx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExNTQuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=kzxASrdOjMUQ7kNvwGTAmRa%26_nc_oc=AdpWEVyh-A5pfTggH1yFkLK1g2VlOzIb7yxU0fKlqCppc8ntpxsa_SxWfalR_ohUO4Iz4-M53GyjoV5a3UJVa8Jg%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=n-EAHqXAzFnYeFuNCN9ynA%26_nc_ss=7a22e%26oh=00_AQLEYKqbUXwLQ1TowtOi0O5ISqovBr51nh69erUks28rtw%26oe=6AADB267%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DXhTX0ICdpI.jpg",
     link: "https://www.instagram.com/laurent.mariotte/reel/DXhTX0ICdpI/",
     linkType: "instagram",
     veggie: true,
@@ -2649,7 +2649,7 @@ const RECIPES = [
       { qty: "QS", name: "¼ de c. à café de noix de muscade moulue", rayon: 'epicerie' },
       { qty: "QS", name: "Sel, poivre, muscade", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -2662,7 +2662,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/674461567_1277365684592734_676578204046581774_n.jpg?stp=dst-jpegr_e15_p480x480_tt6%26_nc_cat=105%26ig_cache_key=Mzg4MjI2MzYwMjM4NzE0ODE4OTk1MzE0NDI0NDE4MzU0MA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5oZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=m8R78FgXsDoQ7kNvwE911yu%26_nc_oc=AdoJ1CVUT1OOlZFb2COtHJtlnZorkAWofHoHDQdU3vlv_-vpvidbSebHlDaEPmCizlYiwSMQoPhsjRUd9stdVFE_%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26se=-1%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=MKtKKicHcv2THneaEPxFbw%26_nc_ss=7a22e%26oh=00_AQL6v9-NqWkwyGhYkmJXUU894zY7oLDxIAWJTn3ywwre8w%26oe=6AADBC75%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DXgki1gtt2d.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DXgki1gtt2d/",
     linkType: "instagram",
     veggie: false,
@@ -2678,7 +2678,7 @@ const RECIPES = [
       { qty: "QS", name: "Sauce :", rayon: 'epicerie' },
       { qty: "QS", name: "Skyr/ œufs durs, Houmous, huile d’olive, citron, sel poivre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -2691,7 +2691,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/670746485_1037554475453394_7047771287555674705_n.jpg?stp=dst-jpegr_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=Mzg4MDk5MjQ0MzE3ODUyMDM4NDE0ODM4MjE2MDk4MDkzMzM%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5oZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=ScqZUzfEeA0Q7kNvwHLBgRj%26_nc_oc=Adowa6g5eZVvXcScaJW05hKmMlmCJ67dIChJAWyRBxHNJQSVshO27zQofzvgcStDLpctWsN2vysJsixPk8xcSRY0%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26se=-1%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=G168xXu5LEJQfzxp9pJGqg%26_nc_ss=7a22e%26oh=00_AQKaKuk-AjYiZFTkTR0JpzngmE2lGGTp4zkeF23nVYHGgQ%26oe=6AADB0BE%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DXcDhCPoY9A.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DXcDhCPoY9A/",
     linkType: "instagram",
     veggie: true,
@@ -2711,7 +2711,7 @@ const RECIPES = [
       { qty: "QS", name: "Cuissons aubergines : 40 min à 200", rayon: 'epicerie' },
       { qty: "QS", name: "Cuisson tarte : 35 min à 200, laissez bien refroidir", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -2724,7 +2724,7 @@ const RECIPES = [
     time: "35min",
     serves: "30 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/672412632_18096035819471887_4123660393517664431_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=Mzg4MDMxMDI3MDgwNjI4NjQ4NzE4MDk2MDM1ODEzNDcxODg3.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=c3ugFQYzg8wQ7kNvwGz6fc0%26_nc_oc=AdqkzwwBLtTEkf9tJOLyFfuxxA2MHGAwqkHPlVcUm9JZ6JjuEG9sNr1g0kqWHHKjaRkv7aRt8rHjL2JH3Ktyr_zP%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=ysvBCzIeEUC7MVDxLw6d6Q%26_nc_ss=7a22e%26oh=00_AQIlDrzD_shQuKASUNeeSYuIDZk9XrPTSnvHkZ4TGU8fjg%26oe=6AADA6B4%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DXZoaHttWCX.jpg",
     link: "https://www.instagram.com/les_tips_de_cam/reel/DXZoaHttWCX/",
     linkType: "instagram",
     veggie: true,
@@ -2732,11 +2732,11 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "recette",
+    id: "recette-DXCeKE",
     title: "Recette :",
     emoji: "🐟",
     cat: "poisson",
@@ -2745,7 +2745,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/670648129_1160634826111474_4722662941772711580_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=Mzg3Mzc5MTI2MjkwNjEzMDAxMQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=zEoXBRxdaOgQ7kNvwEP4amw%26_nc_oc=AdqbDnA2_TL66ssX1es1pgi2BzRgEtjocdprOvA6qqAY29z8tfeggsiivDJPgEpEZOA_9zylrzWruKlMrzt-gyYc%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=4ZbDb4E1-h3SurK82NLW3A%26_nc_ss=7a22e%26oh=00_AQLXuma3qKopL1S1dLHEUju-50IYuwV8Sq3I19DH3w-YHg%26oe=6AAD9F5E%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DXCeKEfiB5b.jpg",
     link: "https://www.instagram.com/heleneinparis.official/reel/DXCeKEfiB5b/",
     linkType: "instagram",
     veggie: false,
@@ -2753,7 +2753,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -2766,7 +2766,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/671184949_18338875666300957_1917683669153947643_n.jpg?stp=cp6_dst-jpg_e15_p480x480_tt6%26_nc_cat=105%26ig_cache_key=Mzg4MDA2MDA0NTk4MzgwODMyMzE4MzM4ODc1NjYwMzAwOTU3.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=H24X-uKkVNEQ7kNvwFGu4OK%26_nc_oc=Adr4GTa42ez2xUWSiEFZe_PHmNyR66HiY6QpJMhAfiy3788wrMMfnDt1q90Ma1aAby-BOffYfZ_deTuoumax3Re0%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=5xbp7xGT13-jw7-Ef35YHQ%26_nc_ss=7a22e%26oh=00_AQIf5nG4SoXfYQ3PbNiLHDUWUjIzzTuGUo4QnfyW7NOB4A%26oe=6AAD9B20%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DXYvg3sDPtD.jpg",
     link: "https://www.instagram.com/kitchenfactoryprod/reel/DXYvg3sDPtD/",
     linkType: "instagram",
     veggie: true,
@@ -2786,7 +2786,7 @@ const RECIPES = [
       { qty: "1", name: "assiette creuse + 4 ramequins + cuillères à soupe,", rayon: 'epicerie' },
       { qty: "1", name: "râpe Microplane.", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -2799,7 +2799,7 @@ const RECIPES = [
     time: "10min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/670567748_2537440483381260_8710413145716360591_n.jpg?stp=dst-jpegr_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=Mzg3NzE5NzA3NTU3Mjk4ODYwNDk3MzIzNTU4ODk4MjUzMA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5oZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=G7W0Q5WTuZcQ7kNvwHe7ol7%26_nc_oc=AdrJ_dfVR9D-ncNiI89-8u85bemQgEm8ZtsLjvtg547iSJn-dAQbCwxjwvlo4HBYL29nqs3bsi6u06CN4CscfY-G%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26se=-1%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=VCvNWjY78-T1luk3TdRgaw%26_nc_ss=7a22e%26oh=00_AQJVBsVPJKkYiM7-gDTJlbxKXzY7RqFtKB6EdLRDx-t_5A%26oe=6AADBF91%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DXOkjKtthq8.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DXOkjKtthq8/",
     linkType: "instagram",
     veggie: false,
@@ -2810,7 +2810,7 @@ const RECIPES = [
       { qty: "QS", name: "Du fromage frais ou du cottage cheese", rayon: 'epicerie' },
       { qty: "QS", name: "Pignons  de pins", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -2823,7 +2823,7 @@ const RECIPES = [
     time: "25min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/670559613_18338153473300957_2289868342199603352_n.jpg?stp=cp6_dst-jpg_e15_p480x480_tt6%26_nc_cat=101%26ig_cache_key=Mzg3NjQ2ODczNTI4NDYzODEzMTE4MzM4MTUzNDcwMzAwOTU3.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=AKufR3D0Kp8Q7kNvwFT2mh2%26_nc_oc=AdoLshefQNT0K8woShMlr2UiS5q2OSU4ecqxiru_hoB1svSoP120dsjqDRbpErWGLwre7MjislR3DPkJ207WOAu_%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=lMQlVlq4bQLUPN7vvoprIg%26_nc_ss=7a22e%26oh=00_AQKSAaFlFj_Z6ih4s5-fcIo3TJySGs5Ewv1h-15HObSNMg%26oe=6AADAEAE%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DXL-8a9jHGz.jpg",
     link: "https://www.instagram.com/kitchenfactoryprod/reel/DXL-8a9jHGz/",
     linkType: "instagram",
     veggie: true,
@@ -2841,7 +2841,7 @@ const RECIPES = [
       { qty: "1", name: "batteur électrique,", rayon: 'epicerie' },
       { qty: "4", name: "assiettes à dessert + cuillères à soupe.", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -2854,7 +2854,7 @@ const RECIPES = [
     time: "15min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/670335042_18338033311300957_4684039490183641762_n.jpg?stp=cp6_dst-jpg_e15_p480x480_tt6%26_nc_cat=101%26ig_cache_key=Mzg3NTg3MTczOTYxMjAxNzg0OTE4MzM4MDMzMzA4MzAwOTU3.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=pfqvGd2lIdgQ7kNvwGOOBtT%26_nc_oc=Adqr9rIish9R87f4jXY69Zyt0Rm73vTloQEySmbrGAL_8ovFN-C_6wdBmgasfLDpyLbA5IdmmDQ1NQg_6GZQGA5q%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=N6uODL_NaDVF6bXnVFcgcA%26_nc_ss=7a22e%26oh=00_AQJrv8v9UBt-UAdnn5vpi5O2rCeh-rWzuyBzc32FGR9qYw%26oe=6AADAAAC%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DXJ3M_ajLS5.jpg",
     link: "https://www.instagram.com/kitchenfactoryprod/reel/DXJ3M_ajLS5/",
     linkType: "instagram",
     veggie: true,
@@ -2875,7 +2875,7 @@ const RECIPES = [
       { qty: "1", name: "saladier + 1 spatule,", rayon: 'epicerie' },
       { qty: "4", name: "coupes à glace en verre+ cuillères à soupe.", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -2885,10 +2885,10 @@ const RECIPES = [
     cat: "viande",
     chef: "louloukitchen_",
     chefName: "Lou Elsener",
-    time: "4h",
+    time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/670648638_18083688404567661_8146838363373266754_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=Mzg3NTkxNTQ4MzczMDgwMDc0ODE4MDgzNjg4NDAxNTY3NjYx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjk0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=-qtvrhW7i_IQ7kNvwEfvCVB%26_nc_oc=AdoevowIOOWTk2dIxItftUYvvDGDYsZaVc7zt0cfUp0w9xw3K6BXrMGJvbKaQU0P4OF1uw8V462r5qBTJgKFOw4Q%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=Q9pQb2VdnIwPCryBTGHq3g%26_nc_ss=7a22e%26oh=00_AQI5jo2kgFgx6EgZ4zoxDX0UjmpTErHM7aTGZeO7ldf8EA%26oe=6AAD9C22%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DXKBJjTNfBs.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DXKBJjTNfBs/",
     linkType: "instagram",
     veggie: false,
@@ -2908,7 +2908,7 @@ const RECIPES = [
       { qty: "QS", name: "Oignon nouveau", rayon: 'epicerie' },
       { qty: "QS", name: "Citron vert", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -2921,7 +2921,7 @@ const RECIPES = [
     time: "5min",
     serves: "2 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/670962916_18581585995010490_1328749035067424195_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=111%26ig_cache_key=Mzg3MzA0NzQwNjIyMDE3OTE0NzE4NTgxNTg1OTkyMDEwNDkw.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=03eObVUadssQ7kNvwHODP1K%26_nc_oc=AdrA77Kd97bfne_hw5CoXlBx6xIPNN3xEXcAGTgtM0rxf3jIh2iSq4cKYYMPt2GW8B6GQQKkFPwcSq8_LLVlU7bV%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=wCTp5rpUntqfdU5SKAzeVw%26_nc_ss=7a22e%26oh=00_AQJa0W9KPlc9lB7XQrxuUxRpYpLirZyh71lUiIV6qKxLKw%26oe=6AADBF34%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DW_1Bh-AHbL.jpg",
     link: "https://www.instagram.com/steflequellec/reel/DW_1Bh-AHbL/",
     linkType: "instagram",
     veggie: true,
@@ -2929,7 +2929,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -2942,7 +2942,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/669733418_18083027201567661_5587862947856109963_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=Mzg3MzA1MjUyNjI4NjA3NjMxNTE4MDgzMDI3MTk1NTY3NjYx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyNzYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=puXAOftLFSIQ7kNvwH2Ib3M%26_nc_oc=Ado3bxxjJDeBbgNOsKGWMpneZO3vgCkjS-RbevGi_9lUaw0SieeA3oqv4cL4XiUDT552lr4oCAfIehntw-MkbqIL%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=M63VeOYMhBGNJZq3SYnl8A%26_nc_ss=7a22e%26oh=00_AQK1qbdTD-XrqKSRKQW_sYxLhdcConcKkAqcpBjFPV3kTQ%26oe=6AAD97C9%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DW_2MCZtfmb.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DW_2MCZtfmb/",
     linkType: "instagram",
     veggie: false,
@@ -2957,7 +2957,7 @@ const RECIPES = [
       { qty: "QS", name: "Piment d’espelette", rayon: 'epicerie' },
       { qty: "QS", name: "Riz à sushi", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -2970,7 +2970,7 @@ const RECIPES = [
     time: "3min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/661599361_18404635429197228_4433076779130216501_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=105%26ig_cache_key=Mzg3MTAwMjA3ODM2OTg1NTM3NjE4NDA0NjM1NDI2MTk3MjI4.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=57nKqQwhTWwQ7kNvwFYXaO4%26_nc_oc=Adon2NreUCJG_khS1KsT8h4-kboOdZdbNHX2o14KLE7FPkQH8BE6gGCfTVhtFq4NlMvaHrL9mErlKWhvwbeGorK1%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=i55c3MnQU1A4gG7onVrzug%26_nc_ss=7a22e%26oh=00_AQLj-sfWaWunbQvatAiCuyQfuUiQROg6smI8NAfcwd_4wg%26oe=6AADB69B%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DW4j-F-CLeQ.jpg",
     link: "https://www.instagram.com/not_so_superflu/reel/DW4j-F-CLeQ/",
     linkType: "instagram",
     veggie: false,
@@ -2992,7 +2992,7 @@ const RECIPES = [
       { qty: "QS", name: "Laisser cuire encore 3–5 minutes", rayon: 'epicerie' },
       { qty: "QS", name: "Ajouter du persil frais haché", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -3005,7 +3005,7 @@ const RECIPES = [
     time: "25min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/669654323_2182425469223291_1766067651255611056_n.jpg?stp=dst-jpegr_e15_p480x480_tt6%26_nc_cat=102%26ig_cache_key=Mzg3MDY2NjEwMzU3NDY0MDg2NDg1NDEwNTIyNzY5MDgxNA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5oZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=zqpHpUMwGmgQ7kNvwHNAiCs%26_nc_oc=Adrif6ues6P-91A48DjFaQHDMPLzQeSrKOz75XudLn5JXxc-4iCNajgagIS1mJdX3Fl-3FEEGe7K5ssdHRlBKG1J%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26se=-1%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=lddFEwKyBu8j9jujl8viXg%26_nc_ss=7a22e%26oh=00_AQKj8FlEgCGk6L8Ev55qkhbT-HIIQrgSP2W67OhMvUhYOA%26oe=6AAD957D%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DW3XlBDtjjg.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DW3XlBDtjjg/",
     linkType: "instagram",
     veggie: true,
@@ -3018,12 +3018,12 @@ const RECIPES = [
       { qty: "QS", name: "Un sachet de levure chimique", rayon: 'epicerie' },
       { qty: "1 /", name: "râpez les courgettes, dégorgez les dans un torchon pour retirez l’eau", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "comme-la-chasse-aux-oeufs-lagneau-de-paques-est-un",
-    title: "Comme la chasse aux oeufs, l'agneau de Pâques est une tradit",
+    id: "recette-de-brut",
+    title: "Recette de Brut.",
     emoji: "🍰",
     cat: "dessert",
     chef: "brutofficiel",
@@ -3031,7 +3031,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/661542340_18420088180126910_88261816921361636_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=Mzg2ODUzMjgxMjE4MTE1OTgxNDE4NDIwMDg4MTc3MTI2OTEw.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=x9g-Bs5i1BUQ7kNvwFQQ6Ce%26_nc_oc=AdrPTCdzNpCjlSkmpNtxxU0M-_56l6Veu-ET3iZiRLPlM_3CeyHPLJMO4O88TN8HwRVoy7ELWW-s8LXL_DpiBXsl%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=YpZfksJUi1DZxq_NH4_zkQ%26_nc_ss=7a22e%26oh=00_AQJuL5v791tgT3J3rqxa5nlvh7iqFDZ1yK8QW54CODl2Hw%26oe=6AADBEE2%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DWvyhioAD-G.jpg",
     link: "https://www.instagram.com/brutofficiel/reel/DWvyhioAD-G/",
     linkType: "instagram",
     veggie: false,
@@ -3039,7 +3039,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -3049,10 +3049,10 @@ const RECIPES = [
     cat: "dessert",
     chef: "steflequellec",
     chefName: "Stephanie Le Quellec",
-    time: "3h",
+    time: "40min",
     serves: "6 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/658981108_18579637861010490_4565800685203073387_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=102%26ig_cache_key=Mzg2NzI1NjQ4MDEzODkxODgzNTE4NTc5NjM3ODU1MDEwNDkw.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjc5OC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=_hy0ZRAB86cQ7kNvwGlSOJC%26_nc_oc=AdpWPDAlF4RIXHAPwbfadtZxzod5YKudbpiKKZMVsX-S9NObGAOn_IsMnRwGxFJ9uEBQUvspezyApsgCpx9BfwLm%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=-BTeM3XGRpl3AGKWflmgLQ%26_nc_ss=7a22e%26oh=00_AQJal_AK3ktN9TcYJ1hRcffcC5dgbG4LH-F3Ibxu01uU_Q%26oe=6AAD8FD4%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DWrQUdyAfuz.jpg",
     link: "https://www.instagram.com/steflequellec/reel/DWrQUdyAfuz/",
     linkType: "instagram",
     veggie: false,
@@ -3060,12 +3060,12 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "200-g-de-chocolat-noir",
-    title: "200 g de chocolat noir⁠",
+    id: "une-demi-cuillere-a-cafe-de-fleur-de-sel",
+    title: "Une demi cuillère à café de fleur de sel⁠",
     emoji: "🍰",
     cat: "dessert",
     chef: "franceinter",
@@ -3073,7 +3073,7 @@ const RECIPES = [
     time: "40min",
     serves: "8 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/658958071_18566296483044985_3713632285202583633_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=Mzg2NjkxNjY3NzgyMDc2MTg0MjE4NTY2Mjk2NDc3MDQ0OTg1.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=brhvtWqXMfIQ7kNvwEHDZug%26_nc_oc=AdqR3q3uNi_Wbcs0ocspSQhqJjWz52D0pbBd1g4dNZOPwt4yExK8QGVFcxFUQHeDFwEBZIp9zihK5IMVFuol4HC6%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=uwSrEftVDBpHCCKfW92nrw%26_nc_ss=7a22e%26oh=00_AQLO2FdzUZCVAADQNznYjrZUoiLLZSUt05-4-pGho1K80g%26oe=6AADAF36%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DWqDDsNikby.jpg",
     link: "https://www.instagram.com/franceinter/reel/DWqDDsNikby/",
     linkType: "instagram",
     veggie: true,
@@ -3093,7 +3093,7 @@ const RECIPES = [
       { qty: "QS", name: "Prise de vue et son : Maxime Soulard et Jules Benveniste⁠", rayon: 'epicerie' },
       { qty: "QS", name: "Montage : Hélène Béraud", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -3106,7 +3106,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/658885400_18335957914300957_5196329749881364662_n.jpg?stp=cp6_dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=Mzg2NTY0MDM3NDk3OTI3Njg1MTE4MzM1OTU3OTExMzAwOTU3.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=rST_U2WADRQQ7kNvwFZkjLx%26_nc_oc=AdrBpV9lIIIUqMJrq6bTdBkhEBhafzr2lnsZfQcoIVCh_MsDCE3axdqk5t4qCVjpHCbBXyQbbXo9Xfv3J9x18lZM%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=cN3kDxwa7KjdDH70pNy-NA%26_nc_ss=7a22e%26oh=00_AQKsgvUqK5sZxgbSnEfmAVnekSNrabPgrvvgUefObNTQQA%26oe=6AADB581%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DWlg3CkDDAz.jpg",
     link: "https://www.instagram.com/kitchenfactoryprod/reel/DWlg3CkDDAz/",
     linkType: "instagram",
     veggie: false,
@@ -3128,7 +3128,7 @@ const RECIPES = [
       { qty: "1", name: "cuil. à soupe de sucre cassonade,", rayon: 'epicerie' },
       { qty: "1", name: "cuil. à soupe de pâte de crevettes,", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -3141,7 +3141,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/660794896_18081596960567661_1956091871082129193_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=Mzg2NDMyMDA1NjYyNzczNjgwODE4MDgxNTk2OTU0NTY3NjYx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEzMjAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=ZShhJMWIpk4Q7kNvwHdZ6Ef%26_nc_oc=Adrie4n2NLJ0yeklqhKbaJFSLh_41mVnOE3u_ybi-tUc64TY9_A1cW4BxV_1o_GsuI55W1K2V1doRFCO1rRGvY0L%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=25I3KmV69ghQry2M5yqxpw%26_nc_ss=7a22e%26oh=00_AQLUPYJYiVKkO2AiFQ81yR4tPRvHHcc_KYmhYQzh9FjDOg%26oe=6AAD9194%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DWg0p4RtrDo.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DWg0p4RtrDo/",
     linkType: "instagram",
     veggie: false,
@@ -3158,7 +3158,7 @@ const RECIPES = [
       { qty: "50g", name: "de farine", rayon: 'epicerie' },
       { qty: "QS", name: "Un petit pot de crème liquide entière", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -3171,7 +3171,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/652834929_18455696992100839_4282503320554770637_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=105%26ig_cache_key=Mzg1NDIzMjc5MTAzMDQ5MDU1NTE4NDU1Njk2OTg5MTAwODM5.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIxNTYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=RzzllbrbPZ4Q7kNvwF4oFik%26_nc_oc=Adr3cllQXJaFu9UNCVTKQyr5_J-bBnUAUI3W7pkSy7eigfovzZudfNW6SLkzdMBmXCxcaCFLlHzd-r3iam7_m2f1%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=JuxUFWyJ3mhOrSkOo3NFZw%26_nc_ss=7a22e%26oh=00_AQKCjjzkcugv5tR9pd8JXAkuJV4VxvHmNN65RBgVpApmhw%26oe=6AADB9B7%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DV8_E2HCOW7.jpg",
     link: "https://www.instagram.com/justine_piluso/reel/DV8_E2HCOW7/",
     linkType: "instagram",
     veggie: false,
@@ -3183,7 +3183,7 @@ const RECIPES = [
       { qty: "1", name: "cuillère à soupe de mélange d’herbes séchées", rayon: 'epicerie' },
       { qty: "QS", name: "Pincée de sel", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -3193,10 +3193,10 @@ const RECIPES = [
     cat: "plat",
     chef: "saroukitchen",
     chefName: "Saroukitchen",
-    time: "2h30",
+    time: "3h",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/656237173_919626817601913_6625471113981110658_n.jpg?stp=dst-jpegr_e15_p480x480_tt6%26_nc_cat=105%26ig_cache_key=Mzg2MTUxOTE0MDQ3NzgxNjA0ODE3ODczNDY5NzI5NTY4NTM0.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5oZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=PtrW7AHyfyEQ7kNvwHnClfK%26_nc_oc=AdqSF7Ygi3t7Iofv1-W74X6NrzEP3mSrxyaAXUNvEATzy3HX_5QMXu6GGx69GtwFJfTXYwAvBQViyQlyRlH6q_yI%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26se=-1%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=O-BmhdvK-_HKWza_klVjJQ%26_nc_ss=7a22e%26oh=00_AQKn7TwTTri4rlN8PtEkGdABZB_ouMxFu13Hs39xtWQOhg%26oe=6AADAC39%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DWW3zL1jUzw.jpg",
     link: "https://www.instagram.com/saroukitchen/reel/DWW3zL1jUzw/",
     linkType: "instagram",
     veggie: true,
@@ -3204,7 +3204,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -3217,7 +3217,7 @@ const RECIPES = [
     time: "4min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/656013058_18576177772042581_7871052913026082442_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=Mzg2Mjc1MzY0MjM0ODE1NDg5NTE4NTc2MTc3NzY2MDQyNTgx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjkwMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=iltRYiVbtHkQ7kNvwF7DiQJ%26_nc_oc=AdovqbmHy9vmuz-FHOmwdYWogRm7Tvq9hJhz2g6WnVp9iP8ArOAjsFrawkQEcgzk91jiDaaNUpqSmvC9peF_G7xT%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=cLmaqLlcoRaNvQFsV1WGwA%26_nc_ss=7a22e%26oh=00_AQI_8SKNss6uPywhb_-nwMs5bxacF4c8XJbLZUCQUGl8Dw%26oe=6AADC3CF%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DWbQfjTAhAP.jpg",
     link: "https://www.instagram.com/laurent.mariotte/reel/DWbQfjTAhAP/",
     linkType: "instagram",
     veggie: false,
@@ -3236,7 +3236,7 @@ const RECIPES = [
       { qty: "1", name: "bouquet garni", rayon: 'epicerie' },
       { qty: "QS", name: "Sel et poivre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -3249,7 +3249,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/654857653_3123896357801732_4615239430962097623_n.jpg?stp=dst-jpegr_e15_p480x480_tt6%26_nc_cat=103%26ig_cache_key=Mzg2MjcxMzI2NzUwMzE0OTY0OTE2NDI1ODQyNDA0OTM0NTU%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5oZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=B5wyRse-KQEQ7kNvwEPxJ1Z%26_nc_oc=AdrqAPixtkUgyQ9eARr3MnIPZdd8sR5f9S_CiA0BJI49qRdndPhj1vq9AucT8gu5rPtuCDTP6J2OXdUOTKKZyBml%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26se=-1%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=J4RDo2uvz6ppyT3odst69Q%26_nc_ss=7a22e%26oh=00_AQIN75OpgOzfx11pgCwEnA9t27Xdq6dsLDfmPQH-fXDfbg%26oe=6AADB5E8%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DWbHUBStrJR.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DWbHUBStrJR/",
     linkType: "instagram",
     veggie: true,
@@ -3269,7 +3269,7 @@ const RECIPES = [
       { qty: "QS", name: "Huile d’olive", rayon: 'epicerie' },
       { qty: "QS", name: "Basilic", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -3282,7 +3282,7 @@ const RECIPES = [
     time: "25min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/658924774_18577739227010490_6604076200100463385_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=Mzg2MjIwNTg1Nzk0OTQxNzM2ODE4NTc3NzM5MjIxMDEwNDkw.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=Q4yDOA_8dSwQ7kNvwGZFap8%26_nc_oc=AdonkkjzMsv47d0tI1I6QcTqCv4mHwaUlLkwy3aiBGD6aAm6sLppyPsbQtnifO2cXoezZWL3r0gfvn5ypfZuFVIV%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=a0VzaliqSqjEuFJzQUH92A%26_nc_ss=7a22e%26oh=00_AQJsVPX5a2S6Z4BQcNLoM9CxvQH_pM6M_L14c4hPWk4Tkw%26oe=6AADB8CA%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DWZT8PUgf-Y.jpg",
     link: "https://www.instagram.com/steflequellec/reel/DWZT8PUgf-Y/",
     linkType: "instagram",
     veggie: false,
@@ -3290,11 +3290,11 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "les-ingredients",
+    id: "les-ingredients-DWL3yn",
     title: "Les ingrédients :",
     emoji: "🍰",
     cat: "dessert",
@@ -3303,7 +3303,7 @@ const RECIPES = [
     time: "3min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/656391799_18438910399114826_7816383088817102759_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=106%26ig_cache_key=Mzg1ODQyMjg3NzA3OTA0ODE0ODE4NDM4OTEwMzk2MTE0ODI2.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=r_gt4u9TbqcQ7kNvwFVR-mJ%26_nc_oc=Adr_nZW-fwgF0XVJAKLEYBXByXh3rbhSQONiBp5sapKC1ONzUsUk0_vTeQuMcjDhvfDvpZh8toN1J5bJmt7pOfpY%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=mreGtGl1eR0bQzvJ69giCg%26_nc_ss=7a22e%26oh=00_AQLKvnZpXXNgacMQFPsBbwIiNNsODOduZzbibxEiCGKsfQ%26oe=6AADC2F3%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DWL3yn1iY_U.jpg",
     link: "https://www.instagram.com/lepointfr/reel/DWL3yn1iY_U/",
     linkType: "instagram",
     veggie: false,
@@ -3321,12 +3321,12 @@ const RECIPES = [
       { qty: "QS", name: "Sel", rayon: 'epicerie' },
       { qty: "QS", name: "Poivre du moulin", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "1-yaourt-grec",
-    title: "1 yaourt grec",
+    id: "le-jus-d12-citron",
+    title: "Le jus d’1/2 citron",
     emoji: "🐟",
     cat: "poisson",
     chef: "not_so_superflu",
@@ -3334,7 +3334,7 @@ const RECIPES = [
     time: "30min",
     serves: "3 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/656290079_1324472779519050_2857904818274858593_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=101%26ig_cache_key=Mzg1OTk5OTczMDU2Njc0NDcyMzE4NDAxNTMwMjM3MTk3MjI4.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=OJbdpkG3yCoQ7kNvwGkc_MU%26_nc_oc=AdoqbK53FUSQQIVfKvKt189YBgQP511PrHPqPwbh-4Td_22O6F56_cXjnGoxph2NGXHzsuCQW7OI39L2emT8ETbC%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=Rdrb7yRh5IrjJ7pGlg7ItQ%26_nc_ss=7a22e%26oh=00_AQLdBDSdpbQpDPUC9FQ65nalx7UArwMKb_Q4xbmZMG_5JQ%26oe=6AAD9F87%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DWReU3FiMqT.jpg",
     link: "https://www.instagram.com/not_so_superflu/reel/DWReU3FiMqT/",
     linkType: "instagram",
     veggie: false,
@@ -3342,7 +3342,7 @@ const RECIPES = [
     ingredients: [
       { qty: "QS", name: "Pour la sauce", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -3355,7 +3355,7 @@ const RECIPES = [
     time: "5min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/650999294_18571914616042581_3984634193833342519_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=101%26ig_cache_key=Mzg1Mjc4MzgwNDU5MDc0MjgzNjE4NTcxOTE0NjAxMDQyNTgx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjkwMi5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=IcpTHBb9U9IQ7kNvwGGXX4A%26_nc_oc=Adr0alWPXKKbAGBmKT3aRhjxKCl3Em16_H5skz6jGLN7Nx3HYRO0JJRA5iq1d1-C5IMP4--SlNVFYiMpeXkDZTWz%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=2UyeE9rlkhT5_19StrIqAw%26_nc_ss=7a22e%26oh=00_AQKaEj-dtZeeYRwVS2BLnX4gRJrXbboBD3QO7en3mMJBBw%26oe=6AAD979F%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DV31nUVAl00.jpg",
     link: "https://www.instagram.com/laurent.mariotte/reel/DV31nUVAl00/",
     linkType: "instagram",
     veggie: true,
@@ -3369,7 +3369,7 @@ const RECIPES = [
       { qty: "QS", name: "Piment en flocon (Peperoncino)", rayon: 'epicerie' },
       { qty: "QS", name: "Gros sel, poivre, vinaigre blanc", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -3382,7 +3382,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/652840412_17901977607395507_705398588598836652_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=111%26ig_cache_key=Mzg1NzkyMDU2NDU1NzYxMzMzMjE3OTAxOTc3NjAxMzk1NTA3.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjU0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=8t2ZcdNtOPUQ7kNvwFxzDgX%26_nc_oc=Adoiz9thUbYieYdJ6Wv95UjoHJpAiPIGG2Wgk1aeGKqTT1M92n4ttAPYhNb9B9pxble2Zm4fAok1A7XxENdlMEDI%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=SNjJEUw1xujsVl8IA6h7Ig%26_nc_ss=7a22e%26oh=00_AQJ1-yYLeXjnEBpgh6nldrRttQx60Rl8ukqiqnJmo5BvQA%26oe=6AADB08A%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DWKFlA2IYkU.jpg",
     link: "https://www.instagram.com/joe.le.jardinier/reel/DWKFlA2IYkU/",
     linkType: "instagram",
     veggie: true,
@@ -3390,7 +3390,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -3403,7 +3403,7 @@ const RECIPES = [
     time: "15min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/654729271_18576622336058637_4720982524928962494_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=106%26ig_cache_key=Mzg1ODMxMDM3MTQyMDEyMjM2MzE4NTc2NjIyMzMzMDU4NjM3.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjc1OC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=9pIh5v0TWUwQ7kNvwEltTe1%26_nc_oc=Adqqv8i342_-KhDe60gYatNvksaH24nPLNQJcweAnc32TWrt_DPQQIEU0UODioNLhvKxtfg9mRQuq64C6hFCdx4N%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=mFRMEtdPAfs0d6zlCLoZcg%26_nc_ss=7a22e%26oh=00_AQJZcMyEcAsSAHk_Iqqry5VhptF2bx4qit0_c9Tyv8eZfQ%26oe=6AADC54B%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DWLeNcxs6z7.jpg",
     link: "https://www.instagram.com/cyrillignac/reel/DWLeNcxs6z7/",
     linkType: "instagram",
     veggie: false,
@@ -3411,7 +3411,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -3424,7 +3424,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/655974167_1571654713939560_4949797930313245101_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=Mzg1NjkyMTc0MzAyNjA4MjU4NTE3OTI5MjgxMDIxMjM1OTkx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=zpDPIk7r690Q7kNvwEr-6Uq%26_nc_oc=AdrmO2yK_4K_dPYfbdgBv_Eib7P1MzQV2eU2z4QiecGuovo2Ok8gvDewEyKpc092NHVCw3FupgrQbDZpb2hwx3S-%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=HclKHjBEnoUs1_INGkkdIg%26_nc_ss=7a22e%26oh=00_AQKht6Ux0zo5OGP0g_lL9gWlrO0HWpyIHnxJ36CAN072cQ%26oe=6AADBDDB%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DWGiePzjNMZ.jpg",
     link: "https://www.instagram.com/enrangdoignons/reel/DWGiePzjNMZ/",
     linkType: "instagram",
     veggie: true,
@@ -3432,7 +3432,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -3445,7 +3445,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/655907680_1413868010024830_4739882297868586921_n.jpg?stp=dst-jpegr_e15_p480x480_tt6%26_nc_cat=106%26ig_cache_key=Mzg1NzY0NzA5NjU2NzIyODQ0OTI3NjYyMDE3OTcwNjM2NzE%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5oZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=CUQfymvqfQoQ7kNvwFCwo2e%26_nc_oc=AdqQ5WDCsYRfE-6XE1WqgzC-2wBpFiSJQOb2wUTiBXAi2Vxtqh06gEvk3gDs4jjzfblqLJUXKrdIdv3URBpBQFLu%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26se=-1%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=hJkW1OgqHYPMTVRvO-KfaA%26_nc_ss=7a22e%26oh=00_AQIzTDb6TowKTBIH3SUq2kN0sUI7G90kBXivUYp-JTshQw%26oe=6AADBB6E%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DWJHZh7tOgh.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DWJHZh7tOgh/",
     linkType: "instagram",
     veggie: true,
@@ -3453,7 +3453,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -3466,7 +3466,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/654018019_18079704470567661_1611550558975723085_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=Mzg1NDc2MDYxODM3MTYwNDE0MDE4MDc5NzA0NDY3NTY3NjYx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyODguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=KmqxMBXEpA0Q7kNvwF7OdpR%26_nc_oc=Ado075KRg99YWoQc7bd9sBJnrTz3-rAitAhulnE86TqgUrrWCDjM4eQ0i21WlGRh3OXN1N9O1aewf-WlPpXi3APv%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=xKZO3vVkeJDDA-ZVgAlOyg%26_nc_ss=7a22e%26oh=00_AQIFdj8A6Zw6i-s75wyohgsKazlbHZ-q2lu1L8Gfat195w%26oe=6AADA8E6%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DV-3FvoNF6s.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DV-3FvoNF6s/",
     linkType: "instagram",
     veggie: true,
@@ -3486,7 +3486,7 @@ const RECIPES = [
       { qty: "2", name: "œufs", rayon: 'epicerie' },
       { qty: "1/", name: "coupez une courgette et demi  en brunoise et l’autre en rondelle", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -3499,7 +3499,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/654026354_18079601711567661_1161828298572954903_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=104%26ig_cache_key=Mzg1NDIwMTMzMTIyNzI1MzA4NTE4MDc5NjAxNzA1NTY3NjYx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIxNjAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=1YavVqqxYp8Q7kNvwEyfWH1%26_nc_oc=AdoTjipnJ-pr4lPaYnuviTalof-z7OPl7-oO7oq7rQrqDRmlslU6jLPbl_wZ8rH92zwIG6dEKu0FiT2UoKRA-mqF%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=-lO7Vu-xO3LWEy5LCSC-7g%26_nc_ss=7a22e%26oh=00_AQLvF9kLK2exIyzb5jWM5f4WGF7JHB0p7bW4053g6wgcMg%26oe=6AADC61A%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DV837C4o1ld.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DV837C4o1ld/",
     linkType: "instagram",
     veggie: true,
@@ -3507,7 +3507,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -3520,7 +3520,7 @@ const RECIPES = [
     time: "15min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/649627920_1602084260910444_6856959817263998765_n.jpg?stp=dst-jpegr_e15_p480x480_tt6%26_nc_cat=105%26ig_cache_key=Mzg1MjA3NTI0MTQ3MjU2MDIxNQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5oZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=vb7EADTRJI4Q7kNvwFoQ5XS%26_nc_oc=AdrjZPrIOXt8YgXO9hFKDaOgF4Wti83AufOo-eBZYw2Ubx7rn9M5rVD0XxlrCrUA8rpvIYG3y3O6rl56lQORLUGp%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26se=-1%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=kWnXSNtjHkHmuJDZ3VIj4g%26_nc_ss=7a22e%26oh=00_AQJ3_TRTUNjWrX1aJzeEKxp93mR73Zg0A13dW6CCKIfBSw%26oe=6AADB30E%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DV1UgXgDIxX.jpg",
     link: "https://www.instagram.com/steflequellec/reel/DV1UgXgDIxX/",
     linkType: "instagram",
     veggie: true,
@@ -3528,7 +3528,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -3541,7 +3541,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/640446232_18382811284082633_188654023894258883_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=MzgzOTc0NTMwODA0NTE5NDU4NDE4MzgyODExMjgxMDgyNjMz.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjI4MzAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=lMyBDm3lGfwQ7kNvwG3fwAu%26_nc_oc=Adpu47yuFuLba0xCe3wJeyys8JxdsgLRbG0rwuYcqD82lHBzVXwTsuFHJioirevYh7HkvzSTDzANLthyAJCHBO0V%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=uZHF0Gc2v2x2i7OBIYET0Q%26_nc_ss=7a22e%26oh=00_AQJREf4uTlgJ4tk9Mx-5YBNqBEX-PD7sJBSc0moION6JsA%26oe=6AAD9EEF%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DVJhAOKAbVY.jpg",
     link: "https://www.instagram.com/casseroleetchocolat/reel/DVJhAOKAbVY/",
     linkType: "instagram",
     veggie: true,
@@ -3559,7 +3559,7 @@ const RECIPES = [
       { qty: "50 g", name: "de comté râpé", rayon: 'epicerie' },
       { qty: "30 g", name: "de noix", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -3572,7 +3572,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/621467044_1866782273957134_7345298300345290623_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=MzgxODAyMzk4ODIxNjA4MzAwMg%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=YvJEp4fuwkcQ7kNvwGUm7B4%26_nc_oc=Ado3005xMLE2BU3HQ9ydicNhyW4TJyK_ndbINj0sC_yanJ7GRpEqA3R9YV3scpubH0ZTf0VnHdVfJIP0xUqp8mc1%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=9e5merkJ3Ux7cJDwYSaFSg%26_nc_ss=7a22e%26oh=00_AQKnsRq5syJXw5GwhGr4_XD-auxvt8GzlyEBKa1ayesNkg%26oe=6AADBFD1%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DT8WJapijI6.jpg",
     link: "https://www.instagram.com/abdelalaouiofficiel/reel/DT8WJapijI6/",
     linkType: "instagram",
     veggie: true,
@@ -3584,7 +3584,7 @@ const RECIPES = [
       { qty: "QS", name: "Un filet de sauce sriracha 🌶️", rayon: 'epicerie' },
       { qty: "QS", name: "Aneth fraîche 🌿", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -3597,7 +3597,7 @@ const RECIPES = [
     time: "1min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/631472914_18024927371801401_6654811269829592997_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=111%26ig_cache_key=MzgzMDg5MjcyNjI4ODQ5MzQ3NTE4MDI0OTI3MzY1ODAxNDAx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjMyMTIuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=LktmwYxVwwMQ7kNvwF4bVNF%26_nc_oc=Ado6qEgYU9HkIte86iWNe27nnqMG7PJluxN46_31cx5XzTGGOjR1AzvPoyiX2cuDSj7ENzjc4SDwQ1qRnKzU3p5o%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=yY5_6TYTHj60dq_wvgZRnQ%26_nc_ss=7a22e%26oh=00_AQLuf0P64LlW6Ra-Y0W7dBWgMHSY2lG3dFsp_xwuswfDQA%26oe=6AADBB14%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DUqEKM7Dauj.jpg",
     link: "https://www.instagram.com/lesudatable/reel/DUqEKM7Dauj/",
     linkType: "instagram",
     veggie: false,
@@ -3615,7 +3615,7 @@ const RECIPES = [
       { qty: "QS", name: "🍀Huile d’olive", rayon: 'epicerie' },
       { qty: "QS", name: "🍀Sel et poivre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -3628,7 +3628,7 @@ const RECIPES = [
     time: "4min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/641068425_18452649148100839_6154522254444095213_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=101%26ig_cache_key=Mzg0MTE4NjQzNTg5NDM3MzA2ODE4NDUyNjQ5MTQyMTAwODM5.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIxNTYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=OdUdyxzSUsMQ7kNvwEP49D6%26_nc_oc=AdqtVSh6FsvTyMI2JU51i35tu_uzR-mtUjN2U-tw9UOsiAgPlTR8xzg7a-iL6-SRkVnw_sTXGj_Txg-QOrfYZfZ0%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=um3t1PbGLU78SN5-tITbcA%26_nc_ss=7a22e%26oh=00_AQJsKwrVJzuMhZvkmGI-c5yj5YsdXfGI6Vh_wjhvfUzoeg%26oe=6AADAA7D%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DVOorZDiGrM.jpg",
     link: "https://www.instagram.com/justine_piluso/reel/DVOorZDiGrM/",
     linkType: "instagram",
     veggie: false,
@@ -3650,7 +3650,7 @@ const RECIPES = [
       { qty: "30 g", name: "noisettes", rayon: 'epicerie' },
       { qty: "40 g", name: "parmesan râpé", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -3663,7 +3663,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/648693778_18568219537019602_2604661106329299718_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=104%26ig_cache_key=Mzg0ODE2MzE4MDY2MzA4MTM4MTE4NTY4MjE5NTM0MDE5NjAy.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjc1MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=_msxhzJ9_ecQ7kNvwGu_y7g%26_nc_oc=Adpe5Urmd7CPT5Mc-aaBzsXA4JFL79mBrCcUwbC1ekZc_hNTjU4Y7gUYwTM8BpatU4kb0hDqURW7usRftA9tLZaj%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=ouSidc8VVvw0gr1q47uMvQ%26_nc_ss=7a22e%26oh=00_AQJWMThYag7Jl_lHreRvTtxMfMrXd4FkIZf39IleVm6k6g%26oe=6AADBDE1%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DVnbAY9KQml.jpg",
     link: "https://www.instagram.com/angeleferreuxmaeght/reel/DVnbAY9KQml/",
     linkType: "instagram",
     veggie: false,
@@ -3674,7 +3674,7 @@ const RECIPES = [
       { qty: "1", name: "botte de persil frais", rayon: 'epicerie' },
       { qty: "QS", name: "Ricotta fumée ( ou fêta )", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -3687,7 +3687,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/645634738_1625967648718510_5606856916503568662_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=104%26ig_cache_key=Mzg0NTUzNTYyNDc3MDEzMjQ0Mw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=n6722MCWzI4Q7kNvwFHkIJR%26_nc_oc=AdqTDh5LhgDHjD4Bf_8wZPFJyxIZnMdCuk-RgUeIUuWYyri4rSA9xha-qRE5Zdlyz5aDSJUUl7FyKLIDMwavciSI%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=cOgejSRYeU1EWgAqmwv6MA%26_nc_ss=7a22e%26oh=00_AQKAJY1WqF5uuEAGkr0yzdeypRQYGXh4QPbh4KtXhoqZaQ%26oe=6AADC5F8%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DVeFka1iJnb.jpg",
     link: "https://www.instagram.com/justine_piluso/reel/DVeFka1iJnb/",
     linkType: "instagram",
     veggie: true,
@@ -3709,7 +3709,7 @@ const RECIPES = [
       { qty: "1", name: "bouquet menthe", rayon: 'epicerie' },
       { qty: "30 ml", name: "sauce soja", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -3722,7 +3722,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/649227015_18454585831100839_5409725260289232364_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=Mzg0OTg5MTkzNTY5MTUwOTQzMjE4NDU0NTg1ODI4MTAwODM5.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIxNTYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=bB022C-h9yAQ7kNvwFXOsyH%26_nc_oc=Adrd7mE7n-canSbI_PnGRIN2utBorieyvDp1Bss7APU9hkNvXQt3VvyuU_eM9qUu0ztWTfbokGY_yNJeX1SeZeK2%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=LrkDxpKftXAc2cucnDaGzw%26_nc_ss=7a22e%26oh=00_AQIrzOiKWbWwgxfFro42Mx8bcyz-MYBKKt0Qa-NZiTw_Zg%26oe=6AADA2DC%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DVtkFFiiI64.jpg",
     link: "https://www.instagram.com/justine_piluso/reel/DVtkFFiiI64/",
     linkType: "instagram",
     veggie: false,
@@ -3735,7 +3735,7 @@ const RECIPES = [
       { qty: "60 g", name: "d’huile d’olive", rayon: 'epicerie' },
       { qty: "1", name: "pincée de sel", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -3748,7 +3748,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/648107206_18078697895567661_7710440317587523725_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=Mzg0OTEyODIxNDc4MjM0Mzk3ODE4MDc4Njk3ODkyNTY3NjYx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyNTIuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=91KG-HwjCowQ7kNvwGIASRK%26_nc_oc=Adr4kjnnzOLoxR0j6ZP0nn8xR-vKt7otnrWTM5cR8kRC7Wf6E0J4CSzL7r0VVoJRDyp7o0GuBmmffo72LuJGxbVb%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=md2fG2NLZ4BLfcre86YsVw%26_nc_ss=7a22e%26oh=00_AQJX90KzvUY71hYrIXQQXLAVPBkjceYVvDO6aEQF47EJ5w%26oe=6AADA014%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DVq2bfBCPsq.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DVq2bfBCPsq/",
     linkType: "instagram",
     veggie: true,
@@ -3765,7 +3765,7 @@ const RECIPES = [
       { qty: "QS", name: "Jus de citron", rayon: 'epicerie' },
       { qty: "QS", name: "marinade : huile d’olive sel paprika", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -3778,7 +3778,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/649241292_18567885289056158_1613957518061475550_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=103%26ig_cache_key=Mzg0ODQyMzU1NDMwNDIwMzkxNjE4NTY3ODg1MjgzMDU2MTU4.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjg4NC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=5xbo0_XL7JYQ7kNvwEiq_8y%26_nc_oc=Adpeyn-lI42DMIK0kpMJagYjakZPlxGF0_vGwevRA-BRvSqnUQ8S6xilYhV_nLxyKCgJ0OVSz9WmRnzto911ry2h%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=TNT8n81B3haBeOqpHg7_DQ%26_nc_ss=7a22e%26oh=00_AQKQaCzyBH7Mu7Oc56pGx_5ox1hwIiz_PbA8WLH3afJAeA%26oe=6AAD9490%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DVoWNUzjFyM.jpg",
     link: "https://www.instagram.com/ericfrechon/reel/DVoWNUzjFyM/",
     linkType: "instagram",
     veggie: true,
@@ -3786,7 +3786,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -3799,7 +3799,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/645829138_18330991558300957_4833261687173617537_n.jpg?stp=cp6_dst-jpg_e15_p480x480_tt6%26_nc_cat=103%26ig_cache_key=Mzg0NjAzMTY5NjQ2MjY0MjI3NDE4MzMwOTkxNTUyMzAwOTU3.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=XeVa32X6J1IQ7kNvwEasxdz%26_nc_oc=Adq8rwfzP0UYl2Y7TpJnQu092JxtGUmJX1ZsOFj98JPUZL_aO2nVfB4xy8exSCsMP4ny_ySE8AuM0b83YU6wpObZ%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=hmvaRZNnJ2K6GxGdVfZcWQ%26_nc_ss=7a22e%26oh=00_AQI3N2Jm4CNFpSfIrUIPU8-vm1xH5GY-IsXtcEZHUo2f8A%26oe=6AADBC9A%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DVf2XNmjHxi.jpg",
     link: "https://www.instagram.com/kitchenfactoryprod/reel/DVf2XNmjHxi/",
     linkType: "instagram",
     veggie: false,
@@ -3819,7 +3819,7 @@ const RECIPES = [
       { qty: "1", name: "cocotte avec le couvercle + 1 spatule", rayon: 'epicerie' },
       { qty: "1", name: "plat de présentation", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -3832,7 +3832,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/643722109_18330649405300957_7162614454576971753_n.jpg?stp=cp6_dst-jpg_e15_p480x480_tt6%26_nc_cat=111%26ig_cache_key=Mzg0NDA3ODk0MDQ1Nzg1MzM4MDE4MzMwNjQ5NDAyMzAwOTU3.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=EltzQ88zGi4Q7kNvwGtE2SC%26_nc_oc=Adqg3H2i6Wc3RHbK9zx6OjqEnA889SMGymDYt2SsJdbl57q1GWatbK3hf8ZAO81jyF02cOfnmoSLHcQi8E4AAC84%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=bDCpqBGZkINS6QX3qsL_HA%26_nc_ss=7a22e%26oh=00_AQLdTw99Td4yDPSLniJoJLZnWlgBNVpXOpD4LZPLeP22Lw%26oe=6AADAC77%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DVY6W32jOHE.jpg",
     link: "https://www.instagram.com/kitchenfactoryprod/reel/DVY6W32jOHE/",
     linkType: "instagram",
     veggie: true,
@@ -3851,12 +3851,12 @@ const RECIPES = [
       { qty: "1", name: "planche à découper + 1 grand couteau,", rayon: 'epicerie' },
       { qty: "1", name: "plat à pâtisserie + 1 zesteur.", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "cest-trop-je-vais-le-faire-3-fois-par-semaine-mon-",
-    title: "C’est trop je vais le faire 3 fois par semaine mon dieu c’es",
+    id: "recette-de-lou-elsener-DVN7F3",
+    title: "Recette de Lou Elsener",
     emoji: "🍽️",
     cat: "plat",
     chef: "louloukitchen_",
@@ -3864,7 +3864,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/643534327_18077410685567661_1282703198662331142_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=111%26ig_cache_key=Mzg0MDk4NTk0NTY1NTMwNDM3NTE4MDc3NDEwNjc5NTY3NjYx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEzMDQuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=MwURxVOP5mIQ7kNvwFSbf5o%26_nc_oc=AdqOdJ4SSJL_xjL_xijmW91bHH0hPZH3Y7Jb7xsnJi3vjyivt04uVhG3L8_Lxn_kVD1JWTM5uZYA5j2D0rGLToSN%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=E0ujUIwQPJdMLsaDyJWrjA%26_nc_ss=7a22e%26oh=00_AQLJ1t0lxgZze_PrR94DCgsGEKKCeIN9ZjAipBprKlewAg%26oe=6AAD9C0A%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DVN7F3-DWC3.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DVN7F3-DWC3/",
     linkType: "instagram",
     veggie: true,
@@ -3872,7 +3872,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -3885,7 +3885,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/643566722_18077934656567661_8677988845028275863_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=Mzg0MDIyNzc2NTA1MjU4NjU3MjE4MDc3OTM0NjUzNTY3NjYx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=pzgq8ENud08Q7kNvwFJmuaL%26_nc_oc=Adr0u9BmSYhdKrOG0Uowdmps84g1C9iMpj1nsRHNWiJ4Alwhi0c4AC0LcTVJAfqvFoH2JCV6XTgsbuaE0tZNbVKQ%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=cmKIQECZyANRzxNn0DNpNQ%26_nc_ss=7a22e%26oh=00_AQJHnFj_c1GACWwkrhuFEIBtqT2TTfeTjooVc40KDRmeAQ%26oe=6AADC2B7%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DVLOs5QjTpM.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DVLOs5QjTpM/",
     linkType: "instagram",
     veggie: true,
@@ -3893,7 +3893,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -3906,7 +3906,7 @@ const RECIPES = [
     time: "4min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/639781525_18563507170011090_3736853753397317974_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzgzNjExMzcxMDI1OTk1MDg1MDE4NTYzNTA3MTY0MDExMDkw.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjk4Mi5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=5O3MOhbuV_QQ7kNvwEFkY81%26_nc_oc=AdoMj6K-IkYWYDptqtzVighif7LTRUkVAn8we2ivOD6686Gc5Bohlpj7gv-d3uJcy2bKSX8azH9O8DRFWmLEGXif%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=lB0lNKXKAIMrAyJdccAUKQ%26_nc_ss=7a22e%26oh=00_AQJ3gEpvCrQcf0PTUEOJ3aFzSTs0zt0jur9XSP2XpWQHIQ%26oe=6AADB100%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DU8nRhKDNUC.jpg",
     link: "https://www.instagram.com/thedailysaby/reel/DU8nRhKDNUC/",
     linkType: "instagram",
     veggie: true,
@@ -3924,7 +3924,7 @@ const RECIPES = [
       { qty: "1", name: "cuillère à café de curcuma (ou paprika)", rayon: 'epicerie' },
       { qty: "1", name: "cuillère à café de cumin (facultatif)", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -3937,7 +3937,7 @@ const RECIPES = [
     time: "25min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/632245282_18106922710774989_4642724737335574843_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=104%26ig_cache_key=MzgzMjMxMTQ0Mzk1NDA5NDkwNDE4MTA2OTIyNzA3Nzc0OTg5.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyOTAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=zIEiawXXGy0Q7kNvwH3y4bs%26_nc_oc=AdqwFfVscH4SP-0y_MlG8uyXUMDoJvUzdYsg9tZ5a_x8WNGMyyzsDxpKrO1lTKZdRANSXxtf-r2MoMQBaq3fDMJ-%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=oIWeTeweLtZFx-Blh5pgLQ%26_nc_ss=7a22e%26oh=00_AQLT5pj-vcja_2IWBWEZ__M80-OsaK6X7OeIJPORz3QFbg%26oe=6AAD9FD2%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DUvGvQtjFM4.jpg",
     link: "https://www.instagram.com/lesgourmandisesdeloubna/reel/DUvGvQtjFM4/",
     linkType: "instagram",
     veggie: false,
@@ -3948,7 +3948,7 @@ const RECIPES = [
       { qty: "QS", name: "Dressing au lait de coco :", rayon: 'epicerie' },
       { qty: "QS", name: "Vinaigrette citronnée au sumac :", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -3958,10 +3958,10 @@ const RECIPES = [
     cat: "plat",
     chef: "louloukitchen_",
     chefName: "Lou Elsener",
-    time: "20h50",
+    time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/638285816_18076866626567661_8963611000608631731_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=103%26ig_cache_key=MzgzNjE5OTY1MTM4OTU0MjAwMjE4MDc2ODY2NjIwNTY3NjYx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=nif6BNVoQVgQ7kNvwFe8G0w%26_nc_oc=Adp8opyIW8FEXrxQefvW2o4p3q5T76-5cqTjp0nKTrXoCYPhkC8FVTtfp1o_4DvXYHrA1PdwtTW95cDInFqtbw0s%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=mi0Cr51x03BlBLhgSPdwsQ%26_nc_ss=7a22e%26oh=00_AQId28U1Q5mZLOaBd-ExLc_tez3J_rjs2BV-Y8VA6g96rQ%26oe=6AAD9566%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DU860IEjQ5y.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DU860IEjQ5y/",
     linkType: "instagram",
     veggie: true,
@@ -3969,7 +3969,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -3982,7 +3982,7 @@ const RECIPES = [
     time: "10min",
     serves: "3 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/621736468_818310614572641_3083381569194099318_n.jpg?stp=dst-jpegr_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=MzgxNTgwMjAyODU5Mzc3ODc4MTE4NTU1Mjc5MjAyMDQzMDAy.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5oZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=5Q9h4itoHdcQ7kNvwGmp8Km%26_nc_oc=AdpgoyuTvPuPZxC5HcIGHOOgiyHFkgKpwbfyZ9KoYnu1W7Hi32i1qTN7WiLRROm7XofVyYRlvVIgcVz4NirHVNlm%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26se=-1%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=AWM8RwKX93W2BGxlUE_L-A%26_nc_ss=7a22e%26oh=00_AQJjS2-pIG-bMcdOYRwgjb-k1oIOJHcVGfWB8z2JmRcXVw%26oe=6AADA91E%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DT0c7pfjBBd.jpg",
     link: "https://www.instagram.com/epicurienne_green/reel/DT0c7pfjBBd/",
     linkType: "instagram",
     veggie: true,
@@ -4003,7 +4003,7 @@ const RECIPES = [
       { qty: "1", name: "petite poignée de graines de grenade", rayon: 'epicerie' },
       { qty: "1", name: "petite poignée de pistaches concassées", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -4016,7 +4016,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/633746802_18100518995500477_2279671328711122152_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=102%26ig_cache_key=MzgzMjk0ODE3MTI1MzU5NjE2MTE4MTAwNTE4OTg5NTAwNDc3.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExMTIuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=5LqIPezQKToQ7kNvwG0T56X%26_nc_oc=AdpJ1j0ngPq6r1eGdV0eDqGsHeBs5fYErmCrXpya_9etV6C0EiBfOy0xXif4uicMVTi3w5EP_vq5CO9yskOKsT34%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=Bp8o5a_mzRjv9MJHMZj0PA%26_nc_ss=7a22e%26oh=00_AQKOPRsnjvaXjCI9eVmElRTTxOWF0H6VGf-H89CG4RS6AA%26oe=6AADA66E%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DUxXg3ODcAB.jpg",
     link: "https://www.instagram.com/melting.green/reel/DUxXg3ODcAB/",
     linkType: "instagram",
     veggie: true,
@@ -4024,7 +4024,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -4037,7 +4037,7 @@ const RECIPES = [
     time: "25min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/627860211_18557225473029926_3804228266905629007_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=105%26ig_cache_key=MzgyNDU0NDYzNjEwMzA5Nzg5NDE4NTU3MjI1NDcwMDI5OTI2.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwNTIuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=lRq7IuXoClgQ7kNvwFQUR-K%26_nc_oc=AdolhOlwieZSn2lEToYMaxQ-R6_-Dl4rGwHczu0M8S0Pcv5fkPo7wAOLFH-AE4EkYMXUyvLiyeDW9GtALOq61S84%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=8F62fL6INznfMsEYuXbhXw%26_nc_ss=7a22e%26oh=00_AQIrU5CguKEGlm6Mo00NG4mcmVAMFFbrnbaCeXaob6xDqw%26oe=6AAD8FC9%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DUTgxVOjP4m.jpg",
     link: "https://www.instagram.com/jeansulpice/reel/DUTgxVOjP4m/",
     linkType: "instagram",
     veggie: true,
@@ -4055,7 +4055,7 @@ const RECIPES = [
       { qty: "QS", name: "Égoutter sur du papier absorbant.", rayon: 'epicerie' },
       { qty: "QS", name: "Saler.", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -4068,7 +4068,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/629353735_994928329640603_3299898491699616966_n.jpg?stp=dst-jpegr_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=MzgzMjI2MDcxMjAxODU3MTIzNTE3OTQyNTU2NzQ3MTMxODQ1.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5oZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=u4RoJL74H4QQ7kNvwEoSbf2%26_nc_oc=AdrzVDgRpv8m1uDqgxEuODOT2ZYAdLdYjr7er-iWIro3i1uI6QeSp_GUBpwlq0ZKZbKozHCz5Tgjmb_VVScLjHWD%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26se=-1%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=GdYXcBef9NtBQJ9KdzvmvA%26_nc_ss=7a22e%26oh=00_AQL2eUU5R-3j8GAr91TJBVsydZsbQz136HpTcoIYoBv0cg%26oe=6AADBE2A%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DUu7NA6jW_j.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DUu7NA6jW_j/",
     linkType: "instagram",
     veggie: true,
@@ -4084,7 +4084,7 @@ const RECIPES = [
       { qty: "150g", name: "de beurre", rayon: 'epicerie' },
       { qty: "1 cas", name: "d’arôme vanille", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -4097,7 +4097,7 @@ const RECIPES = [
     time: "25min",
     serves: "2 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/634886339_18563494648058637_8200503834046737000_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=105%26ig_cache_key=MzgzMjIxODM3MTQwODgzNDQxNDE4NTYzNDk0NjQyMDU4NjM3.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIyNjguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=rxc8-zNo02IQ7kNvwE4VspW%26_nc_oc=Adoln2twuO_If7BaL2b3W4u20Twgbk7FfVdG-Z-nLGIqrZQ_7A_lL-tPwwFBR4cXIAgsUVrm0IgBwxkAonjdaftf%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=2KfffAaFxLFDCaPR-8gHag%26_nc_ss=7a22e%26oh=00_AQKxKM7Dn3OfVmoOS-0OGG5iyyC8UFQvasvx6D0hDPCAgg%26oe=6AADBD1E%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DUuxk4JjK9u.jpg",
     link: "https://www.instagram.com/cyrillignac/reel/DUuxk4JjK9u/",
     linkType: "instagram",
     veggie: true,
@@ -4119,12 +4119,12 @@ const RECIPES = [
       { qty: "QS", name: "Sel fin et poivre du moulin.", rayon: 'epicerie' },
       { qty: "1", name: "citron jaune non traité,", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "400-g-de-pois-chiches-bios-cuits-et-egouttes",
-    title: "400 g de pois chiches bios cuits et égouttés⁠",
+    id: "deroule-DUr_E1",
+    title: "Déroulé : ⁠",
     emoji: "🫕",
     cat: "sauce",
     chef: "franceinter",
@@ -4132,7 +4132,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/630176470_18550636990044985_1689884044653085282_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=102%26ig_cache_key=MzgzMTQzMzMxNjg0Mzk5NTEwOTE4NTUwNjM2OTg0MDQ0OTg1.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=yWitf3CFOr8Q7kNvwEw4kIP%26_nc_oc=Adq4G2orrFtGckS_8WhC19SRnmML1QZHon_j_zKjQ24u-B-Tf7pqOmrk9rKaN4vdsZrfV6B9dWMl7O7wABN5uv9q%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=pA89NWtDsYIQuHzWb4bLzg%26_nc_ss=7a22e%26oh=00_AQLRVthwk2cVD0OGRiOt8IJaWP9sTbtST_w69FIMqPs0Kg%26oe=6AADAF46%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DUr_E1HFT_l.jpg",
     link: "https://www.instagram.com/franceinter/reel/DUr_E1HFT_l/",
     linkType: "instagram",
     veggie: true,
@@ -4151,7 +4151,7 @@ const RECIPES = [
       { qty: "QS", name: "Prise de vue et son : Didier Mariani et Jules Benveniste⁠", rayon: 'epicerie' },
       { qty: "QS", name: "Montage : Jules Benveniste⁠", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -4164,7 +4164,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/622636797_18554251432009635_6870246789673321427_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=102%26ig_cache_key=MzgyMDE3MzQ5NjU2MzE2Njg3NjE4NTU0MjUxNDI5MDA5NjM1.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjMzOTAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=HKmRWOsO9UcQ7kNvwF2wanA%26_nc_oc=AdoIj1reElSjdLTVGb0oeAGeQcFee4xLTh2yRO3puaH4JiVWQxppFfQFEnMsERfo8hGErWU6g_svBxwGgKw28e9w%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=WwcxKFJj3BsOwWNPuTATJA%26_nc_ss=7a22e%26oh=00_AQJL7STz8jId0FzNWhigyoAinvm9nYKPwB4UGHWYT8dz3w%26oe=6AAD9697%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DUD-44TAm6c.jpg",
     link: "https://www.instagram.com/clemfoodie/reel/DUD-44TAm6c/",
     linkType: "instagram",
     veggie: true,
@@ -4172,7 +4172,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -4185,7 +4185,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/581983095_17994913526847386_6340013832851681595_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=Mzc2ODUyODQxNDAzNTIxMzc2MTE3OTk0OTEzNTIzODQ3Mzg2.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjU0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=n2wyyrq_B4YQ7kNvwFD1NJM%26_nc_oc=AdoOHuv2lztnMoeu9uQ8ZmqMv7oPAAE6DrqpoLEccjFAijyBigl4iuZEndoZiQfAK63SeCka5NrplbRd2Mr-OGEN%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=a_r8Kw1N21Tud_vRqP6gfw%26_nc_ss=7a22e%26oh=00_AQK0wKwv-G9CEpFh24NwV6V9BqJ2jzhLNALq6_idjM3ugw%26oe=6AADB973%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DRMgKBEiP3B.jpg",
     link: "https://www.instagram.com/patisseriekiltac/reel/DRMgKBEiP3B/",
     linkType: "instagram",
     veggie: true,
@@ -4193,7 +4193,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -4206,7 +4206,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/628118845_18559985473042581_5042696889504806676_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzgzMTA1NTA5NTY1NTcwODY5NTE4NTU5OTg1NDY3MDQyNTgx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjkwMi5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=l6-3VtWq4iMQ7kNvwF7ofxJ%26_nc_oc=Adr4VHQP-asAWMYUNkjYslsaRFzUfTpMZ8wmAAOnmPy7sgt6TZYTBT4tYgwY9VXt77_P-AiPKJRV8ephMkgxe9hR%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=aeHZbAPFkfWOgofMzoUvIQ%26_nc_ss=7a22e%26oh=00_AQKV2XVwvJfoZBlyERyomrnPnJTPMrAe7UFl104pNlDnIQ%26oe=6AADBD3B%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DUqpE_LgjgX.jpg",
     link: "https://www.instagram.com/laurent.mariotte/reel/DUqpE_LgjgX/",
     linkType: "instagram",
     veggie: false,
@@ -4214,7 +4214,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -4224,10 +4224,10 @@ const RECIPES = [
     cat: "poisson",
     chef: "steflequellec",
     chefName: "Stephanie Le Quellec",
-    time: "50h",
+    time: "30min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/631467822_1447405623579045_4856189621410082325_n.jpg?stp=dst-jpegr_e15_p480x480_tt6%26_nc_cat=101%26ig_cache_key=MzgzMTA2NTU3MzI2MjY2NzI3Ng%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5oZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=BGlYHy1bBm8Q7kNvwEHIhRi%26_nc_oc=Adp7LZ_wMzJfQa2t7lWaEREB5DVUzLPHPbxaAmnpYgAN61tH8TFMbG6WLUNZunaVmpNAWKbLJEBJbCQne2482RZs%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26se=-1%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=YtnU6S74Xu-bQ40hFSlvrg%26_nc_ss=7a22e%26oh=00_AQILrPbRYCrhZfZjWUAJHqztuE0miBStOIcnv8EjPjnvhA%26oe=6AADA71B%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DUqrddNjK4M.jpg",
     link: "https://www.instagram.com/steflequellec/reel/DUqrddNjK4M/",
     linkType: "instagram",
     veggie: false,
@@ -4235,7 +4235,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -4248,7 +4248,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/631352011_18075687743567661_7682594258238699011_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=110%26ig_cache_key=MzgyOTM4MTU5Mjg4ODc1Mjc1ODE4MDc1Njg3NzM3NTY3NjYx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIxNjAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=oErt-bNf2LoQ7kNvwEPuZWF%26_nc_oc=Adpg5p0RpLiGrW48TLS5yC49v7k2vVzVu0BVCW-4mnNMORzEAML2i9fu0YtTBNSfgetRpHUURPxH1BVxKBs_9eTX%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=BIGzRrw-Wq3f3ZDZ7tVeAw%26_nc_ss=7a22e%26oh=00_AQJdLlq7PvpucWtWQ3NkZQ0R-a8q8TkZjXy8W24a06OPkg%26oe=6AADC197%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DUkskURjbp2.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DUkskURjbp2/",
     linkType: "instagram",
     veggie: false,
@@ -4263,7 +4263,7 @@ const RECIPES = [
       { qty: "QS", name: "Épices :", rayon: 'epicerie' },
       { qty: "QS", name: "Huile d’olive sel paprika zaatar ,du sumac", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -4276,7 +4276,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/625884106_17885566047440292_8336789273422920039_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=106%26ig_cache_key=MzgyNjY3MTY4MDgwNjcyMDAzOTE3ODg1NTY2MDQ0NDQwMjky.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjU0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=V3s82v-MeSYQ7kNvwHsrmn2%26_nc_oc=AdonDFCWv_KgOSP4mScsN7wAQ-JcofyLxiiy6Df5Dbr5e0ePWRyKlbcVrbrGCYLdNWvhIidymkH903nXeRnGqkRi%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=IVN2kVp2BWC7-wa0RmjiBA%26_nc_ss=7a22e%26oh=00_AQJREUrGTtIn9TqILqup8os_BmUzWrDfbW4o4Sfnx9JYyw%26oe=6AADC230%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DUbEZ5-iBIn.jpg",
     link: "https://www.instagram.com/comment.cuisiner/reel/DUbEZ5-iBIn/",
     linkType: "instagram",
     veggie: false,
@@ -4284,12 +4284,12 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "le-principe",
-    title: "Le principe ?",
+    id: "sirop-cru-de-citron",
+    title: "[SIROP CRU] de citron",
     emoji: "🍽️",
     cat: "plat",
     chef: "c.lairdutemps",
@@ -4297,7 +4297,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/631375526_18393816394145011_4870690101447526937_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=101%26ig_cache_key=MzgyNzg0MTMwNDcxNDEyMDQ3NTE4MzkzODE2Mzg4MTQ1MDEx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExMzQuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=zTa2OZjZfJYQ7kNvwE__dp7%26_nc_oc=AdpA7Duyphh8W-CW0NOZUxW9oN81WObJPdPBVEBebtMCcW6mpZPj1dSKvpvbRr-ZNd-byR8D5_ngCbK-Fsx3T1Dc%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=eD4-C-lqzlYliwets7iTxQ%26_nc_ss=7a22e%26oh=00_AQJfav8W_ZBdatOxBbF_Bn92wIpvYfUCJtrn5gU31UkTzw%26oe=6AADBB01%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DUfOWLIDY0b.jpg",
     link: "https://www.instagram.com/c.lairdutemps/reel/DUfOWLIDY0b/",
     linkType: "instagram",
     veggie: true,
@@ -4305,7 +4305,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -4318,7 +4318,7 @@ const RECIPES = [
     time: "5min",
     serves: "2 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/629833946_17963124200993358_3859204152033371049_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=104%26ig_cache_key=MzgyNTk0NDQyNTE1MTY0NDYwODE3OTYzMTI0MTk3OTkzMzU4.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExNTQuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=LB8ZBVZY0zIQ7kNvwEOWWX6%26_nc_oc=AdpEkV7rh3ZqeOrw6VYm7wBiZbUbh4hUYoyjCBIo8C8pxHAtLwJCWtsoX35c-nZ-72QrdP3rBof8uo9KnKJRgvzK%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=MzwMUB_rb8PgfIDaPL7dTw%26_nc_ss=7a22e%26oh=00_AQI9mPFUyNQXyvXWi5GD8Pv7g-HitpxilLI2JYalqEUz6A%26oe=6AADADB3%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DUYfC8XjMPA.jpg",
     link: "https://www.instagram.com/margaukitchen/reel/DUYfC8XjMPA/",
     linkType: "instagram",
     veggie: false,
@@ -4340,12 +4340,12 @@ const RECIPES = [
       { qty: "QS", name: "Ajouter le cabillaud", rayon: 'epicerie' },
       { qty: "QS", name: "Laisser cuire encore 5 minutes à couvert", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "4-crepes",
-    title: "4 crêpes⁠",
+    id: "sel-et-poivre",
+    title: "Sel et poivre⁠",
     emoji: "🥩",
     cat: "viande",
     chef: "franceinter",
@@ -4353,7 +4353,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/625886286_18548620366044985_6605224336612169299_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzgyNjM1OTQ1NDk1NTUxMjE5NjE4NTQ4NjIwMzYwMDQ0OTg1.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=0s5zImkS6sMQ7kNvwG6E_KS%26_nc_oc=AdqQ6xAQu5ZrEw1dyA3Etw-997cDmTLj5O0d7aFcumwsGxO3PM8su85u9xrU63JR5FvkWQK0dWfRnwM_jAKFucGm%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=Xuwqr21rAM8QdATKrlbK2Q%26_nc_ss=7a22e%26oh=00_AQLmMUEHnTtQzkCoDIOKL9ZWpKEt0mcIcCjVCwSGLhA9yg%26oe=6AADABD7%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DUZ9aa_lKGE.jpg",
     link: "https://www.instagram.com/franceinter/reel/DUZ9aa_lKGE/",
     linkType: "instagram",
     veggie: false,
@@ -4373,7 +4373,7 @@ const RECIPES = [
       { qty: "QS", name: "Prise de vue et son : Didier Mariani et Jules Benveniste⁠", rayon: 'epicerie' },
       { qty: "QS", name: "Montage : Maxime Soulard", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -4386,7 +4386,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/616114823_18021689996801401_8900728269088682320_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=MzgxMDAyNTA1MTc2MDk2NzQyNDE4MDIxNjg5OTkwODAxNDAx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjMyMTIuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=5ilCPOL9cq8Q7kNvwH8rjsE%26_nc_oc=AdpfjkxiuZrM-SaSDF6IuMjnUIPInX9GfX-mCnKRGkJeqyzTheWFq_mp0C1EmilYBgljGrnhTmzBT5Np-vqnFSFt%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=mep20E_dqGnkOTGkAuIS7w%26_nc_ss=7a22e%26oh=00_AQKzrF2mAC4Qxon-PqBo1BwQc_XuMuSAdfILFEZedg02AA%26oe=6AADAA78%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DTf7ZkjjT8A.jpg",
     link: "https://www.instagram.com/lesudatable/reel/DTf7ZkjjT8A/",
     linkType: "instagram",
     veggie: true,
@@ -4408,7 +4408,7 @@ const RECIPES = [
       { qty: "QS", name: "➡️Battre les œufs, ajouter la crème liquide", rayon: 'epicerie' },
       { qty: "QS", name: "➡️Saler et poivrer", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -4421,7 +4421,7 @@ const RECIPES = [
     time: "15min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/618538452_18022021280801401_7570119953977606852_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=105%26ig_cache_key=MzgxMjY4Njg2NTczNjE4NDMzNzE4MDIyMDIxMjc3ODAxNDAx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIyNjguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=4wCqUNdKyigQ7kNvwGwc8XQ%26_nc_oc=Ado2n9wLPV4B1gfKDQj58JvcwnMDp3knl_wwtkTqpP9kMDyo9eoqD8D8P-XqB73yCBbJn7WO5Us_K84ZWFXIoJjo%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=Dhx1eculk7epmQ60dmSvIQ%26_nc_ss=7a22e%26oh=00_AQJ6PtMQKW_dBMy2q4PuuGSbruxzsV9GKnIavbcW6jUxpw%26oe=6AADB160%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DTpYoEAALIR.jpg",
     link: "https://www.instagram.com/lesudatable/reel/DTpYoEAALIR/",
     linkType: "instagram",
     veggie: false,
@@ -4443,12 +4443,12 @@ const RECIPES = [
       { qty: "QS", name: "➡️Verser la sauce", rayon: 'epicerie' },
       { qty: "QS", name: "➡️Ajouter un plus d’origan", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "4-poireaux-ou-blancs-de-poireaux-si-vous-voulez-pa",
-    title: "4 poireaux ou blancs de poireaux si vous voulez pas faire l’",
+    id: "les-verts-de-poireaux-de-lhuile-de-pepin-de-raisin",
+    title: "Les verts de poireaux + de l’huile de pépin de raisin ou oli",
     emoji: "🥗",
     cat: "entree",
     chef: "louloukitchen_",
@@ -4456,7 +4456,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/628339099_18075101912567661_6031296545684525595_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=110%26ig_cache_key=MzgyNTAzNTk4MTA0OTY0MDg0MDE4MDc1MTAxOTA5NTY3NjYx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjMyMTYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=mCiQmr1VYdkQ7kNvwHRWyM3%26_nc_oc=Adp2KxfkaaKqYqImoBQi3OWWNDiLUpxWXgoCnLOFMKDJY0KXuo0zs-2xoH-Gdl7oLrNt81skepkmRr4iKjQY0g7B%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=m80bzEzksP_unvBK8fXAmQ%26_nc_ss=7a22e%26oh=00_AQKlOI789eGF9r5vrcZuh2R5m-i3WpLM51t4Bv6R_4f9jQ%26oe=6AADC4F5%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DUVQfV3jTeI.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DUVQfV3jTeI/",
     linkType: "instagram",
     veggie: true,
@@ -4472,7 +4472,7 @@ const RECIPES = [
       { qty: "QS", name: "Pour l’huile verte :", rayon: 'epicerie' },
       { qty: "QS", name: "Les verts de poireaux + de l’huile de pépin de raisin ou oli", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -4485,7 +4485,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/621013121_18555160294049443_4186632561711226183_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=MzgxODUzODAyNTAxMDYwMTMzNTE4NTU1MTYwMjg4MDQ5NDQz.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMTUuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=_H0LKu0MQxsQ7kNvwE9ylAG%26_nc_oc=Adqq5cyrvLzGgPuYeWutI8KCuinmOpJ12GhzjHl0oM3qOPTMlHU3yL5sWj2fcQXv-LKoeMX4WkjpcWcZNHKFsNTh%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=M2yocEoEjAtKIyT8YlPCPA%26_nc_ss=7a22e%26oh=00_AQKSq6f87rLtoEeo3ffEHHRazj3XBiP2E04g6pKTrdRCHg%26oe=6AADABBC%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DT-LBouFB13.jpg",
     link: "https://www.instagram.com/lefooding/reel/DT-LBouFB13/",
     linkType: "instagram",
     veggie: false,
@@ -4507,12 +4507,12 @@ const RECIPES = [
       { qty: "QS", name: "DÉROULÉ⁠", rayon: 'epicerie' },
       { qty: "1.", name: "Éplucher les poires, les épépiner, puis les tailler à la mandoline. ⁠", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "warm-bean-salad-and-harissa-baked-rice-with-hispi-",
-    title: "Warm bean salad and harissa baked rice with hispi cabbage an",
+    id: "recette-de-yotam-ottolenghi",
+    title: "Recette de Yotam Ottolenghi",
     emoji: "🍽️",
     cat: "plat",
     chef: "ottolenghi",
@@ -4520,7 +4520,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/616333320_18554154172002167_1923494308208602630_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=106%26ig_cache_key=MzgxMTkyODIyOTc1MDAxNTIxOQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNzIwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=zvdNN0zYFh8Q7kNvwGhr6o6%26_nc_oc=Adq8VV9ekwEFoGxlDxUW9heoI2cJB4JhAvdD1POCKOGt5IRcap9qnpUGUh8xJrlEbvZglpgNjdbOya0qmETVJ33T%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=l-7V5P9clflwzbePweVKmQ%26_nc_ss=7a22e%26oh=00_AQJXM9ggzmD0FPRXIToIlJUPAgNePsWd92h5dDA4xJhJYA%26oe=6AADBA0F\nWarm bean salad and harissa baked rice with hispi cabbage and black chickpeas - this week has been all about beans…again.\n\nHow to cook with pulses part 2. New recipes in the Ottolenghi newsletter. Through the link in bio.%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DTmsK7HCNya.jpg",
     link: "https://www.instagram.com/ottolenghi/p/DTmsK7HCNya/",
     linkType: "instagram",
     veggie: true,
@@ -4528,7 +4528,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -4541,7 +4541,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/624712308_884866677251558_8753465813134310218_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=102%26ig_cache_key=MzgyMDg4NjM3NzU2NzQwMTk4Nw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=LcafYW8omxgQ7kNvwFjHkmj%26_nc_oc=AdqXXKLv4CpxAz6kcn_Z91cdSS052aaVWWdu0DSCHSEYhLIVeXc308Fd2iKEyETrYnGpXH0WK4_Fj5Y3Otb4OQnJ%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=KD-s0k9FnFM9pC5KO-hWKQ%26_nc_ss=7a22e%26oh=00_AQL6M8u6Slrr_O1M-7GRiRvEC6zPkqg330_MuB9a6TremQ%26oe=6AADA299%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DUGg-qeCLgD.jpg",
     link: "https://www.instagram.com/ottolenghi/reel/DUGg-qeCLgD/",
     linkType: "instagram",
     veggie: true,
@@ -4549,12 +4549,12 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "10-g-de-piment-vert",
-    title: "10 g de piment vert⁠",
+    id: "c-a-c-de-graines-de-cumin",
+    title: "½ c. à c. de graines de cumin⁠",
     emoji: "🫕",
     cat: "sauce",
     chef: "franceinter",
@@ -4562,7 +4562,7 @@ const RECIPES = [
     time: "15min",
     serves: "6 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/625639643_18545893981044985_3527157366150180794_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=110%26ig_cache_key=MzgyMTI4NjE1NTU2Mzk0OTY4OTE4NTQ1ODkzOTc1MDQ0OTg1.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=znGaVou4LaQQ7kNvwFkoQ3r%26_nc_oc=Adowbe9FNCe8Dv9n8GnJ3qYX4toh5CF-4-AqQCSeCSh7QekIYU5lhmn5pp7NE0Yd1FyAKrO0JzPyuXjZ4NUNuGVP%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=EOpURCN-Jb_08keZNiYkhg%26_nc_ss=7a22e%26oh=00_AQIuTST46AZWYxVIrzXXwNj7XMKEq9zCHd0SlxQjXuUHAw%26oe=6AADC482%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DUH74Mvgd55.jpg",
     link: "https://www.instagram.com/franceinter/reel/DUH74Mvgd55/",
     linkType: "instagram",
     veggie: true,
@@ -4582,7 +4582,7 @@ const RECIPES = [
       { qty: "QS", name: "Prise de vue et son : Didier Mariani et Hélène Béraud⁠", rayon: 'epicerie' },
       { qty: "QS", name: "Montage : Didier Mariani", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -4595,7 +4595,7 @@ const RECIPES = [
     time: "1h",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/598226144_1592150458801271_7923160571769737776_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=101%26ig_cache_key=Mzc4NjgyOTEzNTA0NjU0OTg2Mw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=q_97UzxxCmYQ7kNvwH3-_wq%26_nc_oc=AdpAP0f2hQGBhORcEdvKOZFe0bhbeXCxq4sPnAnIltO1VDMrTXpNcwhqgE5GRCql72w0dpl5Ethc_1vJitzeGWQx%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=eur-a3QgYY2MnjTO1u8iNQ%26_nc_ss=7a22e%26oh=00_AQIPAoOD1fyFTCjWzto5_htmy36quBhWpluP5f1zpwVxtA%26oe=6AADB8AA%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DSNhQjrjKFn.jpg",
     link: "https://www.instagram.com/steflequellec/reel/DSNhQjrjKFn/",
     linkType: "instagram",
     veggie: false,
@@ -4603,7 +4603,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -4616,7 +4616,7 @@ const RECIPES = [
     time: "15min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/621755049_18557096596058637_3179305091258981695_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=106%26ig_cache_key=MzgxNjk5Nzg0MzU1NTMyMzkyMTE4NTU3MDk2NTkzMDU4NjM3.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=gkAo4KpyucAQ7kNvwEdusQI%26_nc_oc=Adql_gy82ebjhaZ7KW4qqBD5IasUc4p__L6UqBVmI-gx8M_XTJOY4atkdOLFJGG2I5d3x3bRJGF4Nr9HA5t-f7RN%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=RXBBqT-Ca3xqwF7TmxWjUg%26_nc_ss=7a22e%26oh=00_AQKBKAVUuR0JPUdiS69-c6oysSwew7kjApa4f-JMln1W-A%26oe=6AADB5A8%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DT4s1C9jBAR.jpg",
     link: "https://www.instagram.com/cyrillignac/reel/DT4s1C9jBAR/",
     linkType: "instagram",
     veggie: true,
@@ -4628,7 +4628,7 @@ const RECIPES = [
       { qty: "10 cl", name: "de lait entier,", rayon: 'epicerie' },
       { qty: "30 cl", name: "de crème liquide entière à plus de 30% M.G.", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -4641,7 +4641,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/620812665_18435668665129198_3554075848427949442_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=104%26ig_cache_key=MzgxNDg2MzkwNzc1MjkyOTc1NDE4NDM1NjY4NjYyMTI5MTk4.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=evcxdli3ta0Q7kNvwGvxcUm%26_nc_oc=AdqfEtzGo0MUQwz8VXG3_mqRORT1sk-Ix8IhOBi9Pmhn8n19iBDkyoQzNrikJrmYDoNP1WpanO7mWOQ61INf5Usp%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=TWFI6u7r4ljAxmBeBmrcMQ%26_nc_ss=7a22e%26oh=00_AQKOnZvo22w4lKgO-1SfTRLgUuG2TDtT9Q9F9KO97H49xw%26oe=6AADC4A6%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DTxHoMYEmna.jpg",
     link: "https://www.instagram.com/julieandrieu.officiel/reel/DTxHoMYEmna/",
     linkType: "instagram",
     veggie: true,
@@ -4655,7 +4655,7 @@ const RECIPES = [
       { qty: "1/2 CC", name: "de sel", rayon: 'epicerie' },
       { qty: "QS", name: "Dressage : avec les légumes de saison que vous avez sous la ", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -4668,7 +4668,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/618052808_18554776822010490_6639201829748465389_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=110%26ig_cache_key=MzgxMTQ3MTY3MTAxODkxNjQ5NzE4NTU0Nzc2ODE2MDEwNDkw.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExNzkuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=N7Va-jeD5hUQ7kNvwEYPjQu%26_nc_oc=AdoCLQ5zIMTBrXxyMEvoZvx9a-BbIGCtt-j7H7ChLKrHxGWE1brz7H0Sj2FwXDhoozJAmcH2wCsC3rAsrN8z7MlX%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=CmY1FJOjJZELfzaK5dNmlw%26_nc_ss=7a22e%26oh=00_AQLWcGoSkfcM4_qOYxrYfmdAbknIrLsf1QQUCtwwM_fqbQ%26oe=6AAD9C13%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DTlEUpujAqR.jpg",
     link: "https://www.instagram.com/steflequellec/reel/DTlEUpujAqR/",
     linkType: "instagram",
     veggie: true,
@@ -4676,12 +4676,12 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "si-jamais-vous-voulez-une-recette-simple-et-rapide",
-    title: "Si jamais vous voulez une recette simple et rapide de sauce ",
+    id: "recette-de-brut-DTphQ4",
+    title: "Recette de Brut.",
     emoji: "🫕",
     cat: "sauce",
     chef: "brutofficiel",
@@ -4689,7 +4689,7 @@ const RECIPES = [
     time: "15min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/589904608_18405255388126910_8890474296209981683_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=MzgxMjcyNDg1NTc2MjY3NjQ0NzE4NDA1MjU1Mzg1MTI2OTEw.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=usLVbkLFAFEQ7kNvwGQtJKX%26_nc_oc=Adpr-q3GrsTsY4dJq7bpMbTULEHA2B5xHAM7wyEmwosnU3_WdSX0oLcf3F6_qpUROUpILMwWmoBy5j1vuvmhCDPc%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=Lhj93TDjtbuHKBtbt44O4A%26_nc_ss=7a22e%26oh=00_AQIn1V2f_3FPvUH583XJFtpHU2v9U_eZWzOmDR_2Za2Jtg%26oe=6AADA91E%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DTphQ4-CWrf.jpg",
     link: "https://www.instagram.com/brutofficiel/reel/DTphQ4-CWrf/",
     linkType: "instagram",
     veggie: true,
@@ -4697,7 +4697,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -4710,7 +4710,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/572780926_1882549116012076_8795035969523802734_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=Mzc1ODU0ODM5MTUyNjE1MDQwNzIwNTA5MjQzMTkwMDMwMTY%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=JRRoCwivtuoQ7kNvwG0zmjF%26_nc_oc=AdpfpSAAF3KB0yqohF5MjLq_7z_vNtFzSvWGU4TTaFeCUW5Fg4emh_-jZA-z2H-y7Nq7RrAwHU5ARSTMAzvZeXEb%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=VV4pnW5UfCWqsKx-3iEj2A%26_nc_ss=7a22e%26oh=00_AQLHuk4hC3ufj1W5uqNki4Ha2RqAxfyMIY8A8jF7CAvB1Q%26oe=6AADB9D4%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DQpC9k0CDEH.jpg",
     link: "https://www.instagram.com/comment.cuisiner/reel/DQpC9k0CDEH/",
     linkType: "instagram",
     veggie: false,
@@ -4718,7 +4718,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -4728,10 +4728,10 @@ const RECIPES = [
     cat: "viande",
     chef: "jecuisinesimple",
     chefName: "",
-    time: "3h",
+    time: "2h",
     serves: "8 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/587623223_18068270183611026_7921900170728021402_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=Mzc3NTk0ODgxODI1MzM3Nzc1MTE4MDY4MjcwMTc3NjExMDI2.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjU0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=bt6usaMU7pIQ7kNvwHuqTdl%26_nc_oc=Adr319YfvOM946cL4VpuoGL3f7TrOy-oKvesmGYfd8GnP74ENz2XGhw10I1auJJLkVpL1l5RvpPn80Gb3IqXADjl%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=Yb17QgEyLsZSbdCEX2ceVQ%26_nc_ss=7a22e%26oh=00_AQLBwwSIEZ13mCmqnWwm4Qe2Caxlt4U5GeFSecjvUQwoGA%26oe=6AADA8EA%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DRm3XHCDHDX.jpg",
     link: "https://www.instagram.com/jecuisinesimple/reel/DRm3XHCDHDX/",
     linkType: "instagram",
     veggie: false,
@@ -4741,12 +4741,12 @@ const RECIPES = [
       { qty: "QS", name: "Puis 1 bonne heure de plus à 145°", rayon: 'epicerie' },
       { qty: "QS", name: "Et voilà il n'y a plus qu'à se régaler 🤤", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "3-pomelos",
-    title: "3 pomelos ⁠",
+    id: "deroule-DTR3Jn",
+    title: "Déroulé : ⁠",
     emoji: "🍽️",
     cat: "plat",
     chef: "franceinter",
@@ -4754,7 +4754,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/610789298_18541899418044985_7352058956756245502_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=MzgwNjA2NTcxMzg5NTc5OTM1MzE4NTQxODk5NDE1MDQ0OTg1.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=_qsGRVORWU0Q7kNvwFGvguC%26_nc_oc=AdoSbku2C8gY_fspNdQoss4wAwzhe2Tn7KmldRgb3j0SKtNHdL4RiLuyEUCmPdvJ-rJYh0JMHX8-PWkRBcrQHRV8%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=Fki-161Yfr9DTYm_YEe9Aw%26_nc_ss=7a22e%26oh=00_AQJpIcR0FV_YrTI6BRLeyGBr0ho8PonT2lybrEt9bvLyjg%26oe=6AADB6C5%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DTR3Jn0jXo5.jpg",
     link: "https://www.instagram.com/franceinter/reel/DTR3Jn0jXo5/",
     linkType: "instagram",
     veggie: true,
@@ -4776,12 +4776,12 @@ const RECIPES = [
       { qty: "QS", name: "Régie culinaire : @thomasdarcos, @valentine_brisvalter⁠", rayon: 'epicerie' },
       { qty: "QS", name: "Coordination éditoriale : @marielle_gaudry⁠", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "rediffusion-retour-sur-la-recette-qui-a-rendu-tout",
-    title: "[Rediffusion] Retour sur la recette qui a rendu tout le mond",
+    id: "recette-de-france-inter",
+    title: "Recette de France Inter",
     emoji: "🍽️",
     cat: "plat",
     chef: "franceinter",
@@ -4789,7 +4789,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/608902833_18540055726044985_7809116343582511756_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=Mzc5ODUzMTM5Nzc4MzYzMDgzNTE4NTQwMDU1NzIzMDQ0OTg1.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=WV0VnPoqgSIQ7kNvwHH-aa1%26_nc_oc=AdrkNDDkLQHlqIxBatP11lBiNmQ6Tot34JKQQswX8p-F9bGq9IAhSdlio1IAy4VJnTuH8T9uzQAMETroW8Qu8cnA%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=DooRCx0Vq75Ya2fE5cfyyg%26_nc_ss=7a22e%26oh=00_AQJUbecOzsh8AMFkth1ra1C-7eb8O5armO4qfKzQSkk8uQ%26oe=6AADB07D%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DS3GC5JD7Pz.jpg",
     link: "https://www.instagram.com/franceinter/reel/DS3GC5JD7Pz/",
     linkType: "instagram",
     veggie: true,
@@ -4797,7 +4797,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -4810,7 +4810,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/607411835_18557818528028753_2703101089338156389_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=101%26ig_cache_key=Mzc5ODE3NjE4OTI2NTc4NzYzMjE4NTU3ODE4NTI1MDI4NzUz.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=dKqDCou4b_YQ7kNvwFr238Y%26_nc_oc=Ado8CmR5KPuJLZLOz8bf2glcww4EqnYrRIZCbYIXMigJiX0nWVJzOsnEzS7OOm-m9xb3yJFv3JkSGUL7mAguR2kM%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=_8MaugsO8y-6fvdojOvzHw%26_nc_ss=7a22e%26oh=00_AQKUjNvhJjp63R54UsHXefQbeCxIFetvp9JqMw8huH4GoQ%26oe=6AADBD1E%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DS11R7biLrw.jpg",
     link: "https://www.instagram.com/frgaudry/reel/DS11R7biLrw/",
     linkType: "instagram",
     veggie: true,
@@ -4818,12 +4818,12 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "enfournez-des-tranches-de-butternut-assaisonnees-a",
-    title: "- Enfournez des tranches de butternut assaisonnées à 200 °C ",
+    id: "recette-de-cuisineaz",
+    title: "Recette de CuisineAZ",
     emoji: "🫕",
     cat: "sauce",
     chef: "cuisineaz",
@@ -4831,7 +4831,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/584363592_18545651854028685_3988276237047404742_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=104%26ig_cache_key=Mzc5NDAyNzI4MDA1ODE2ODM2NDE4NTQ1NjUxODQ1MDI4Njg1.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExNTIuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=oEqgKtqY7ckQ7kNvwH9VpFN%26_nc_oc=AdqIUCH0JVgnQb2zYcmGCtRY0Y41qo_sT2UeGAyEnHFwxu6qTZtL7x4mTwsgWHgF00Ct-s9lxkZR2i-wKAe3NfyI%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=nFy_h72mGcqO2MJxML5QHw%26_nc_ss=7a22e%26oh=00_AQIUV6t5MJw52yF4Ouaw_wNgMRneiy7z5kRV0EpQcPKSQw%26oe=6AAD96D1%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DSnF7WoAjQs.jpg",
     link: "https://www.instagram.com/cuisineaz/reel/DSnF7WoAjQs/",
     linkType: "instagram",
     veggie: false,
@@ -4840,7 +4840,7 @@ const RECIPES = [
       { qty: "QS", name: "Enfournez des tranches de butternut assaisonnées à 200 °C 20", rayon: 'epicerie' },
       { qty: "QS", name: "Garnissez les feuilles de brick de farce, refermez et enfour", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -4853,7 +4853,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/605287557_18544082035051047_2882140954271244560_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=101%26ig_cache_key=Mzc5NDEzOTk2NTkyNDQyMzk3MjE4NTQ0MDgyMDI5MDUxMDQ3.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=1b5PAFTHKakQ7kNvwFwye_S%26_nc_oc=AdqVJKK-ZOpG5NfY9j29n8FEf8fFQuTKokfqTtiTCXfPMCO4zySdMqoBt7BjjSbmkHJs5lHBhzBIWJeKmaF-7nAw%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=GaY-8Gft_xmS_eb5YKXYUw%26_nc_ss=7a22e%26oh=00_AQJRe10Fawn9RtKqcjauo93nrxqCI-d13ntjuk6ebWASdQ%26oe=6AADA52A%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DSnfjJhCbkk.jpg",
     link: "https://www.instagram.com/cuisineactuelle/reel/DSnfjJhCbkk/",
     linkType: "instagram",
     veggie: true,
@@ -4867,12 +4867,12 @@ const RECIPES = [
       { qty: "QS", name: "Sirop d’érable", rayon: 'epicerie' },
       { qty: "QS", name: "Persil", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "300-g-de-chocolat-noir-70-100-g-pour-realiser-la-p",
-    title: "300 g de chocolat noir 70% + 100 g pour réaliser la plaque c",
+    id: "deroule-DSt0BW",
+    title: "Déroulé :⁠",
     emoji: "🍰",
     cat: "dessert",
     chef: "franceinter",
@@ -4880,7 +4880,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/604112698_18539448838044985_481992696997152689_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=Mzc5NTkxODg1MTc5NzI5MjkwNjE4NTM5NDQ4ODM1MDQ0OTg1.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=Hs7JqP3rQsMQ7kNvwE8pgi0%26_nc_oc=AdopC40Ys8KlFwOH0W2ctyY2qQOrGwirdEjeYQ8Zfb1RFFdOnfTtX5HU-g_IDAJrP9dxZUagMrZsYHF-2e9XFjuA%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=0nRqSftDq3tfMjjxm9NsIQ%26_nc_ss=7a22e%26oh=00_AQJxFywdHJAX1dQooUKfWIQWlqeq4fbSEYE6lA0Wj7G0Fw%26oe=6AADAC0C%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DSt0BWFlhdq.jpg",
     link: "https://www.instagram.com/franceinter/reel/DSt0BWFlhdq/",
     linkType: "instagram",
     veggie: true,
@@ -4898,7 +4898,7 @@ const RECIPES = [
       { qty: "QS", name: "Prise de vue et son : Didier Mariani et Xavier Chocron⁠", rayon: 'epicerie' },
       { qty: "QS", name: "Montage : Xavier Chocron⁠", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -4911,7 +4911,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/604242558_18542114302004693_4587084777729285619_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=Mzc5MjQ0Nzk4MTEwNzI4Njk5NTE4NTQyMTE0Mjk5MDA0Njkz.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=h8n2ZJ7FmpoQ7kNvwH3DZVL%26_nc_oc=AdqRotxtycydmUP9UNF8AZlMAFqg45RFzKZZyhTM2txaJRhbGSmmB8JuJWGTCCJg_84j9-giGA5l5o9xUwoaJeOy%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=FfribSV-ESvNlpRCY8aV1g%26_nc_ss=7a22e%26oh=00_AQLh04K8VlZvb_PJbG6sNCwli9ApXXWw-fj6u-D7cozXxA%26oe=6AADB843%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DShe1h3DBPT.jpg",
     link: "https://www.instagram.com/tarayrenorbert/reel/DShe1h3DBPT/",
     linkType: "instagram",
     veggie: false,
@@ -4926,12 +4926,12 @@ const RECIPES = [
       { qty: "500g", name: "Pâte feuilletée", rayon: 'epicerie' },
       { qty: "QS", name: "Moutarde", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "brut-food-un-plat-de-noel-festif-a-moins-de-10-par",
-    title: "BRUT. FOOD — Un plat de Noël festif à moins de 10 € par pers",
+    id: "recette-de-brut-DShh-C",
+    title: "Recette de Brut.",
     emoji: "🍽️",
     cat: "plat",
     chef: "brutofficiel",
@@ -4939,7 +4939,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/605018083_18402045400126910_7382006218903973812_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=103%26ig_cache_key=Mzc5MjQ2MTc1OTU3MjEwMzc1ODE4NDAyMDQ1Mzk0MTI2OTEw.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=517kC9_2LG0Q7kNvwGLCRhO%26_nc_oc=AdoyUSV1pz9YlPZxSKhSGNBra-DshlX5ZAhDB9DlcdP-ep7mvWOuyEbcBtO0objlzUywDhm56VP4Q_WBmBnR67Nb%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=xbf5Y5fkudiaLgqGZ53ovg%26_nc_ss=7a22e%26oh=00_AQKeGT8uKZ2BGx5gnb5kaesBdoVpmVBlpsLnlNmN-JQ10Q%26oe=6AADBDE6%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DShh-CDjFJO.jpg",
     link: "https://www.instagram.com/brutofficiel/reel/DShh-CDjFJO/",
     linkType: "instagram",
     veggie: true,
@@ -4947,7 +4947,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -4960,7 +4960,7 @@ const RECIPES = [
     time: "10h",
     serves: "6 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/603896568_18431857198129198_107689867310501312_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=103%26ig_cache_key=Mzc5MTE0Nzg1ODUyNzgxODQ5NTE4NDMxODU3MTkyMTI5MTk4.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=GgX30KACvTYQ7kNvwHA4iR7%26_nc_oc=Adqt797fwT7PDeupGc09na7zPrr1gxuF_4XP5OHCpKAk8gjSjH-2NqIBqyxN6EbhyEXOrp23tY4jmxdr_hRo7giD%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=vwxTcdXV_3x8_RJDKePYMw%26_nc_ss=7a22e%26oh=00_AQJWGeZa9t6LCuSGg_ALwu7w-JdiybIKD4p9o4G2aJhceg%26oe=6AADB936%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DSc3OQWiJL_.jpg",
     link: "https://www.instagram.com/julieandrieu.officiel/reel/DSc3OQWiJL_/",
     linkType: "instagram",
     veggie: false,
@@ -4977,7 +4977,7 @@ const RECIPES = [
       { qty: "3", name: "étoiles de badiane", rayon: 'epicerie' },
       { qty: "1 CC", name: "de gingembre en poudre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -4990,7 +4990,7 @@ const RECIPES = [
     time: "40min",
     serves: "6 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/586709559_1582745466083793_623803852149942332_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=Mzc4NjU2MjY2MDI2ODI3MzMzMzEzNjYwNjAwODc3ODgxOTQ%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=Zn9En6YSjpMQ7kNvwEnbqh3%26_nc_oc=AdpzQTmdptpBO8hZh8DwntPTquFZsoBSHNr6a3ev_vH_FyLs2hXZBl-HYgqtMhzeJ2DuWY97kmpSFCZGAH9VJ_pK%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=Dgrc7o4hX7XUF42qzItFiw%26_nc_ss=7a22e%26oh=00_AQJky_o0NLlymiQRY_G8Da-sBnCTqZTwcWCx8ySzxhv9YQ%26oe=6AADBB02%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DSMkq1tDG61.jpg",
     link: "https://www.instagram.com/enrangdoignons/reel/DSMkq1tDG61/",
     linkType: "instagram",
     veggie: true,
@@ -5010,7 +5010,7 @@ const RECIPES = [
       { qty: "10", name: "feuilles de pâte filo", rayon: 'epicerie' },
       { qty: "QS", name: "Huile d’olive", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -5023,7 +5023,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/587796438_18547979473042581_4961871787678131078_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=111%26ig_cache_key=Mzc4OTcyNzExNTAyOTY2NTU4OTE4NTQ3OTc5NDY3MDQyNTgx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjg2NC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=-q-sfzJW_zgQ7kNvwH3wuF1%26_nc_oc=Adpp4Pe7h-l77Ga6c--3B5WZaZm4_uAHZ8FYGoeNrtunzthS6y_vJrbKAcdLF4GOXj986fVFDg91xXqQd31DGnx2%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=J99UE4zalE_EhCJvS4T0yw%26_nc_ss=7a22e%26oh=00_AQLV5IUKSicw_siBhOjbT7SKBj-baSODF0ZhnkdnnP0Mjw%26oe=6AADAADD%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DSX0Lt3Alc1.jpg",
     link: "https://www.instagram.com/laurent.mariotte/reel/DSX0Lt3Alc1/",
     linkType: "instagram",
     veggie: true,
@@ -5037,7 +5037,7 @@ const RECIPES = [
       { qty: "1", name: "sachet de levure chimique", rayon: 'epicerie' },
       { qty: "QS", name: "Matériel : Moule à manquer de 22 cm de diamètre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -5050,7 +5050,7 @@ const RECIPES = [
     time: "40min",
     serves: "6 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/587817566_1192600995573575_3405625947415655535_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=103%26ig_cache_key=Mzc4ODk5NjQ4Mjg2NzkzODE2MA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=T35NIwltrcAQ7kNvwEEg3jb%26_nc_oc=AdrDk2LFUrew_8z38KMYs7EIJOwx3qfiBWUB3cDxIh7cra2c26zRZTtVb8owXu0Y7fHvpioCSpRH3sZ1bvFCLmSQ%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=yGrfh-rs1x2Lfw_7Tce6Ew%26_nc_ss=7a22e%26oh=00_AQJHdkUN3ihfqH2G4JUHHrGFAf-uRTjutb9WYHzpyrXDqA%26oe=6AAD9C60%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DSVODnojENw.jpg",
     link: "https://www.instagram.com/steflequellec/reel/DSVODnojENw/",
     linkType: "instagram",
     veggie: false,
@@ -5058,7 +5058,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -5071,7 +5071,7 @@ const RECIPES = [
     time: "20min",
     serves: "2 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/601606656_18069885014567661_4811999669380681399_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=Mzc4NzM1MDY0NTM0MzYxMDk0NjE4MDY5ODg1MDExNTY3NjYx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=RUuxYCZWJeQQ7kNvwFwrwRT%26_nc_oc=AdqkVhIT6QchaEwofqXP4uSO2JSDscW726zqjsLBoxhjsrJXQ645aYj-Ji7N9p4J02v5szrx2COe6LFXkOZSyk13%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=bX0uMAJTI-zlDlVuClWV-g%26_nc_ss=7a22e%26oh=00_AQJTCCd4oSvCSbioCVli6p5qffD7RsfgTzVTGYYLjJ81LQ%26oe=6AADBF9D%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DSPX1h_jWhC.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DSPX1h_jWhC/",
     linkType: "instagram",
     veggie: true,
@@ -5079,12 +5079,12 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "1-potimarron-de-2-kg",
-    title: "1 potimarron de 2 kg",
+    id: "huile-de-tournesol",
+    title: "Huile de tournesol",
     emoji: "🥗",
     cat: "entree",
     chef: "julieandrieu.officiel",
@@ -5092,7 +5092,7 @@ const RECIPES = [
     time: "8min",
     serves: "8 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/586651741_18430403845129198_8096645327247988102_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=102%26ig_cache_key=Mzc4NDQ2OTIyNTQ2MjE4OTIyNjE4NDMwNDAzODQyMTI5MTk4.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=GRRl5nTMWGIQ7kNvwHfwxPC%26_nc_oc=AdqjRpAuzWbPN3p2RQ_wESy9kj4fz8yOnnSLQHlzJfKo4vUJ20SdWbVUsKpxvVwo_xyxb9Zmm2sQbzx5p-dnOuPO%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=0007cFZF_ygpA0PboqzRlQ%26_nc_ss=7a22e%26oh=00_AQJPrx6oUfiI1odyUUpOVHIdVKqBE2mgjAtkdKdMzs9-Hg%26oe=6AADA5FD%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DSFIrWnEkyq.jpg",
     link: "https://www.instagram.com/julieandrieu.officiel/reel/DSFIrWnEkyq/",
     linkType: "instagram",
     veggie: true,
@@ -5112,7 +5112,7 @@ const RECIPES = [
       { qty: "1", name: "cuillère à soupe de crème crue", rayon: 'epicerie' },
       { qty: "QS", name: "En option :  15 cl de cidre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -5125,7 +5125,7 @@ const RECIPES = [
     time: "15min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/597888804_1422411219303295_2480342401903912575_n.jpg?stp=dst-jpegr_e15_p480x480_tt6%26_nc_cat=105%26ig_cache_key=Mzc4NDYzODM5MTU4MjAyNTczNQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5oZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=U8YcH3q3tKQQ7kNvwHeD6Gk%26_nc_oc=AdqAK0da7Klu0-CRiXA4_NNPSP9O_OkkdREPgHeua9xzSf2O9NBLG-ny9Jfm9HsYdasGcyXUhfFOIyM1mNWIICWr%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26se=-1%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=eDcp27oCkOagRjlhAkHGMA%26_nc_ss=7a22e%26oh=00_AQIJb862RypiJxFrj32491R4CH3PQNPNbo7XFTXX1gjvBA%26oe=6AAD90BC%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DSFvJC1jWgH.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DSFvJC1jWgH/",
     linkType: "instagram",
     veggie: true,
@@ -5139,7 +5139,7 @@ const RECIPES = [
       { qty: "25cl", name: "de crème liquide légere", rayon: 'epicerie' },
       { qty: "20g", name: "de beurre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -5152,7 +5152,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/589308793_1989553545235577_5621387853004456549_n.jpg?stp=dst-jpegr_e15_p480x480_tt6%26_nc_cat=106%26ig_cache_key=Mzc4MTU1MzQxOTI0OTg1NTIzMTIyNzY1MTk0NDI3NzUzNDU%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5oZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=MO-jcMNAGmkQ7kNvwE4OtqM%26_nc_oc=AdrNR2A5JsR5Ae6g_EMaRkmZ6wEBeUOywoPw50B27zGiCvoxA1Shqni-hDhxesuV_VVbUxsQnb3ivyRBTaoAaErr%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26se=-1%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=AzFT_GFOI6ODY9zVgO5OHQ%26_nc_ss=7a22e%26oh=00_AQKeU_z3QYtRpumr4EI_TnSQU6cKuS7Q2hxwP-xHYeQy8A%26oe=6AADA62A%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DR6xsydjSr_.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DR6xsydjSr_/",
     linkType: "instagram",
     veggie: true,
@@ -5167,7 +5167,7 @@ const RECIPES = [
       { qty: "200g", name: "de farine", rayon: 'epicerie' },
       { qty: "1", name: "sachet de levure chimique", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -5180,7 +5180,7 @@ const RECIPES = [
     time: "40min",
     serves: "6 pers.",
     difficulty: "Avancé",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/588900291_1846400632905117_7529159980110276146_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=106%26ig_cache_key=Mzc3ODAwMzI3ODYzMTExMzUyMDE1NTY3NTkyMDg5OTczMDY%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=Frr79x10vocQ7kNvwH9J09q%26_nc_oc=Adri_4JZCRIdTgyc-G9P7xl1-7gPt0LMbUgf73pSvjm9u6LAlPHFJtw5x7lUUCt6CS4xylV2bmDTcgApBOTPI-Q-%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=lPV-RLns-CPFucjDGnTcYA%26_nc_ss=7a22e%26oh=00_AQLwC4Zpvn-7YvMU5Rsm6X9bSedM2Fqo-1iiZ9QkPZlZLw%26oe=6AADA8C3%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DRuKfcXEZMw.jpg",
     link: "https://www.instagram.com/enrangdoignons/reel/DRuKfcXEZMw/",
     linkType: "instagram",
     veggie: true,
@@ -5199,7 +5199,7 @@ const RECIPES = [
       { qty: "10 g", name: "de beurre", rayon: 'epicerie' },
       { qty: "QS", name: "Ajoutez de la poudre de noisette dans la pâte pour un goût p", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -5212,7 +5212,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/587269180_852444443809161_6028503088035665351_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=104%26ig_cache_key=Mzc3Nzk2OTYzMDIyMDkzNzUzOQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=cBaeX1Sr0oUQ7kNvwG9G62b%26_nc_oc=AdrSpsGRTSAU_4vSBk1meKWpZQXw9h7l5yIDJkc4AwztPJw2IXRFQsIMbcvu_LWCByayvKMJwLEhkcuEGM5iEmtj%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=76zla4tIBule662SdZsGAw%26_nc_ss=7a22e%26oh=00_AQJ4sLCzy1r7F6fr12BF2-v5L6aWQnXQpOqYjuOfu_T-cw%26oe=6AADAC46%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DRuC1y1iGlD.jpg",
     link: "https://www.instagram.com/frgaudry/reel/DRuC1y1iGlD/",
     linkType: "instagram",
     veggie: true,
@@ -5225,7 +5225,7 @@ const RECIPES = [
       { qty: "1", name: "c. à s. rase de fécule de maïs ou de pomme de terre", rayon: 'epicerie' },
       { qty: "1,2 kg", name: "de pain de la veille", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -5238,7 +5238,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/590902613_18535760176044985_3462773997334514679_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=105%26ig_cache_key=Mzc4MDY5ODU3MDQxNzI3MTI3NzE4NTM1NzYwMTczMDQ0OTg1.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=qU-6iWzza6kQ7kNvwGz0GUI%26_nc_oc=Adra1CD1RoeeoqrK67cvNCkPT1tPxPZkgpMzSgPJeENq2CnzHFKGE7ZceGeNfJlbef69DXLLSwhZvKW4Igyr8puE%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=wKV3ZVotjvlCRSRKmhafKw%26_nc_ss=7a22e%26oh=00_AQIVuRtFRxawESYr_Dtibcef36Ayoth-2zCLzMJQSuh_fg%26oe=6AADAADD%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DR3vVGcjHHt.jpg",
     link: "https://www.instagram.com/franceinter/reel/DR3vVGcjHHt/",
     linkType: "instagram",
     veggie: true,
@@ -5260,7 +5260,7 @@ const RECIPES = [
       { qty: "QS", name: "Prise de vue et son : Didier Mariani et Hélène Beraud⁠", rayon: 'epicerie' },
       { qty: "QS", name: "Montage : Xavier Chocron", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -5270,10 +5270,10 @@ const RECIPES = [
     cat: "poisson",
     chef: "acha_happybody",
     chefName: "Anne-Charlotte Boukachabine",
-    time: "48h",
+    time: "30min",
     serves: "6 pers.",
     difficulty: "Avancé",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/588763349_25814728568144688_1022155420560619533_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=105%26ig_cache_key=Mzc3OTU1MTk0MTkxNTg0NzMwNQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=WuBavsmkm5oQ7kNvwEErSpj%26_nc_oc=AdpgegM8JVwhzj-RIyZNfxt3EtjdslEqIignNyqmaFncPVYauwyfA2mH1wBkTNQM7AtQQmJdJ2LFri5BNRCDRFTK%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=xh0YrxxjHPMYc9umMtBTNw%26_nc_ss=7a22e%26oh=00_AQIGHddirlLTh9zQM-4klmgK5wMfnUt0USDPNnfTF23BdA%26oe=6AAD9622%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DRzqndcCCqJ.jpg",
     link: "https://www.instagram.com/acha_happybody/reel/DRzqndcCCqJ/",
     linkType: "instagram",
     veggie: false,
@@ -5288,7 +5288,7 @@ const RECIPES = [
       { qty: "60 ml", name: "d’huile d’olive", rayon: 'epicerie' },
       { qty: "QS", name: "Poivre noir ou baies roses", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -5301,7 +5301,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/589004931_18068670149567661_5312949619867890672_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=104%26ig_cache_key=Mzc4MDA5NjE0MDUwMzc4ODgzNzE4MDY4NjcwMTQ2NTY3NjYx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExMDYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=BktT8n7xFooQ7kNvwH2MUZH%26_nc_oc=AdqWaxLuw2O3BlnttW1mpmHXMu_FL8PKWEZG9iidBYg8TKY25abn9CrS5ZjIumdBO9pH45AlaYS0buVIwMGGwfTs%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=MHeoq3-EaUrPOLoStMijJw%26_nc_ss=7a22e%26oh=00_AQKyuMxD2uGd9IyZaxu84MgBjFHhrcbMLXwZY-Re9mlQdw%26oe=6AADC0C5%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DR1mWl3ja0l.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DR1mWl3ja0l/",
     linkType: "instagram",
     veggie: false,
@@ -5315,7 +5315,7 @@ const RECIPES = [
       { qty: "1", name: "betterave", rayon: 'epicerie' },
       { qty: "1", name: "avocat", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -5328,7 +5328,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/587970946_18082926149471456_8766264098362975977_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=101%26ig_cache_key=Mzc3ODYzMDYyNDM4Nzg2NjUxNzE4MDgyOTI2MTUyNDcxNDU2.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjMyMTIuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=CFQ7oyg8MFwQ7kNvwGDTlNR%26_nc_oc=Adp31k1hZEIkZBnRTrUWuYHdIgJvm8pAy4EAv3lVn9gxR_Y830V2df55hwEkxYhckOT1qsQ5aP2to5w1-A3-z9Sd%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=493G4SVBKEs6lQQcsEv6Ow%26_nc_ss=7a22e%26oh=00_AQJVm3pBKIyuXJcbfH3ynIIoBmPtLEYFNCBhqmT7Jie4fg%26oe=6AAD95C2%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DRwZIhoDR-V.jpg",
     link: "https://www.instagram.com/whoogys/reel/DRwZIhoDR-V/",
     linkType: "instagram",
     veggie: true,
@@ -5339,7 +5339,7 @@ const RECIPES = [
       { qty: "1càs", name: "d’huile d’olive", rayon: 'epicerie' },
       { qty: "QS", name: "Sel et poivre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -5352,7 +5352,7 @@ const RECIPES = [
     time: "2h",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/589598290_18068504324567661_4589289691405274360_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=104%26ig_cache_key=Mzc3ODgyMTcyNzE3OTAyODc4MDE4MDY4NTA0MzE4NTY3NjYx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=wzj6eGa2MWwQ7kNvwE2LoT3%26_nc_oc=Adqat4IFgTEAZ5oMmTwyleHTL2W-xXzLS85nYMfaxDeHv9ti6ol95rlo3HkT2YzlTYwMywWl2CGw3QC2Fta2TihW%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=FHqD1BSWd_nQLq6p7n-Lfw%26_nc_ss=7a22e%26oh=00_AQKY-zfdU2gvdvOeNh4I5OFB2a4_TILThEKfdH-E-acsEg%26oe=6AADBDC9%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DRxElb-CLks.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DRxElb-CLks/",
     linkType: "instagram",
     veggie: false,
@@ -5367,12 +5367,12 @@ const RECIPES = [
       { qty: "1 cas", name: "de curcuma, 1 cas de gingembre , 1 cas de paprika", rayon: 'epicerie' },
       { qty: "1 cas", name: "de fond de veau", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "100-g-de-haricots-rouges",
-    title: "100 g de haricots rouges⁠",
+    id: "sel-et-poivre-DRltxX",
+    title: "Sel et poivre ⁠",
     emoji: "🥗",
     cat: "entree",
     chef: "franceinter",
@@ -5380,7 +5380,7 @@ const RECIPES = [
     time: "45min",
     serves: "6 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/588649230_18534610099044985_5770455035651741159_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=106%26ig_cache_key=Mzc3NTYyNTE2NzI0MjgxNDY3NzE4NTM0NjEwMDk2MDQ0OTg1.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=ALl8GcebLBAQ7kNvwFz9ieM%26_nc_oc=AdqPjwBeDXq5FYaHSvciOwjxnnKQJArIW_KLCDwqCJEEyQ_vs4Yhzu2P02WK_tkfrJmrzfGqdOv5f81Dzkyem2lk%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=aiz4uD9IydHv1Wu8TCRNqw%26_nc_ss=7a22e%26oh=00_AQIeqIXkcIFhapk2PJnbpqaJulndro_yG8yrGKdGPQqihg%26oe=6AAD9F11%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DRltxXiiGTV.jpg",
     link: "https://www.instagram.com/franceinter/reel/DRltxXiiGTV/",
     linkType: "instagram",
     veggie: true,
@@ -5402,7 +5402,7 @@ const RECIPES = [
       { qty: "QS", name: "Sel et poivre ⁠", rayon: 'epicerie' },
       { qty: "QS", name: "Déroulé : ⁠", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -5415,7 +5415,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/561889257_18531629524038086_364238725213573219_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=103%26ig_cache_key=Mzc0MDQxMDQ3MzMzMTA2MTU3MzE4NTMxNjI5NTE4MDM4MDg2.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMDIuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=NHDXKOyfVsMQ7kNvwFVcTri%26_nc_oc=AdpRowj_STMB_6Qu_3pCY_D0ufJpZWR2d5mpFr5QNrfwwB45L8m_EGiGFcxpYzvM7wFNWKfGugu6_Hb4H4YE2pzE%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=pXFL6shTGPqQWJKAxYedkA%26_nc_ss=7a22e%26oh=00_AQKDBe32vMruHWIfNEEZ82pV45_o9nIQlUae8uTPS8DlAQ%26oe=6AAD981E%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DPom4IJDHNF.jpg",
     link: "https://www.instagram.com/leo_hokfelt/reel/DPom4IJDHNF/",
     linkType: "instagram",
     veggie: false,
@@ -5423,7 +5423,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -5436,7 +5436,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/587281481_18428540227129198_5163017364868087720_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=106%26ig_cache_key=Mzc3NDUzODMyMzcwNDU1MTc5OTE4NDI4NTQwMjIxMTI5MTk4.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=L1JM_6DxMRcQ7kNvwHItG5n%26_nc_oc=AdrqEZlwjkHFvjc5y-ZrhIzGXQ2RH-IsSTIgmX6g2rqLNY0EID3rcCaGnW0ZD89AMogUL4YZzzKX9YH7-KtCNsAP%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=TAkt68M5AY5nhwNojqBSSw%26_nc_ss=7a22e%26oh=00_AQIn6njzpd8yhi9ozz_mNUDh-tx2A0YD-4y2UlpPyuohPQ%26oe=6AADA390%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DRh2ptnghl3.jpg",
     link: "https://www.instagram.com/julieandrieu.officiel/reel/DRh2ptnghl3/",
     linkType: "instagram",
     veggie: false,
@@ -5444,7 +5444,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -5457,7 +5457,7 @@ const RECIPES = [
     time: "24h",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/587202808_18067916540567661_3204614954242252163_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=111%26ig_cache_key=Mzc3NDQ3Njk2MDQ2NzAwMjM2MTE4MDY3OTE2NTM0NTY3NjYx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjk2OC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=Oa-bGzzhgZoQ7kNvwFJFV0l%26_nc_oc=AdoviYnMoF5r6cxSFJtDFZQwYoKZ7Z-jMPod4SdMltlNGWyxAUZEbyai3VOb6oduNgVc8cjFTi6SK9sOX3CGKuW2%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=pdve1eY6k4bZg4irwYtUYQ%26_nc_ss=7a22e%26oh=00_AQJ37lkfH3-LVESWH4FawDxu0HkDXzp8Ti-qhcvJPe2svg%26oe=6AAD9E4F%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DRhoswpiCP5.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DRhoswpiCP5/",
     linkType: "instagram",
     veggie: false,
@@ -5471,7 +5471,7 @@ const RECIPES = [
       { qty: "QS", name: "Un peu de poivre", rayon: 'epicerie' },
       { qty: "2 cas", name: "de miel/ 1 morceau de gingembre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -5484,7 +5484,7 @@ const RECIPES = [
     time: "1min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/581519481_18418722127114826_8415832134393287233_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=104%26ig_cache_key=Mzc2NzA0ODc2ODQ4Mzc2MzA3NDE4NDE4NzIyMTI0MTE0ODI2.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=9Vl2l6WfxXMQ7kNvwFVdN0V%26_nc_oc=AdquBiESZHYni5HBvXL-CQkGj9Fqx6jOz40J6K4DghlTFEOP9Hv6lVaRaY_9pIMpxdUumbhl9waQLurIpgZgMBDz%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=A6NwKhrhyldmpuGrLcmp0Q%26_nc_ss=7a22e%26oh=00_AQIp7R26ViNbLXhToR8jvfEohihRpL_fdTNet0YTnXwG_A%26oe=6AADA6DE%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DRHPuVxDCOC.jpg",
     link: "https://www.instagram.com/lepointfr/reel/DRHPuVxDCOC/",
     linkType: "instagram",
     veggie: true,
@@ -5499,7 +5499,7 @@ const RECIPES = [
       { qty: "QS", name: "Poivre du moulin", rayon: 'epicerie' },
       { qty: "QS", name: "Fleur de sel", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -5512,7 +5512,7 @@ const RECIPES = [
     time: "3min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/580544358_1356603452668056_4489813074392698596_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=105%26ig_cache_key=Mzc2NTYyOTQ3NTg5NjU0ODIwMQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=tV4ljRxCFDkQ7kNvwEsless%26_nc_oc=Adq5p51i28mmx_MR2f_aOaxIvC8ohPSKkx0YvDn2qWvAkXb6AjmfNz1x-wsjvZMqxT0eBj4PgEs5CqNf6YLNeJas%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=G-KWj30NZUnMbM2BGxgI3w%26_nc_ss=7a22e%26oh=00_AQJOB4KJBYYcOMFDhNVJ7lrbQAQfK0JL83qJWF_NbVUagQ%26oe=6AADBF5F%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DRCNA6ijdtp.jpg",
     link: "https://www.instagram.com/mesdames.media/reel/DRCNA6ijdtp/",
     linkType: "instagram",
     veggie: true,
@@ -5534,12 +5534,12 @@ const RECIPES = [
       { qty: "QS", name: "Poivre", rayon: 'epicerie' },
       { qty: "QS", name: "Décorer de feuilles de coriandre. 🌿", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "zoeladiet-nous-montre-comment-faire-le-peche-migno",
-    title: "@zoeladiet nous montre comment faire le péché mignon de Yann",
+    id: "recette-de-c-a-vous",
+    title: "Recette de C à Vous",
     emoji: "🍽️",
     cat: "plat",
     chef: "c_a_vous",
@@ -5547,7 +5547,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/598154192_18543431095014578_1884889756597221602_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=Mzc2MjAwNTc5MjA4MjY1ODY3MDE4NTQzNDMxMDkyMDE0NTc4.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=Wz8x-wFJyy8Q7kNvwGu-umU%26_nc_oc=Ado4Zy1dFs4wnGttFPJkaJFM9fZmZbNHUIb38BBOFZR1wdHM38fX7q8d3Akr55xf9-lUaFZvrfqbE_MDl0kkecKG%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=EOdr4gB8kPpk_1egAFlzHA%26_nc_ss=7a22e%26oh=00_AQKjiB6odvHbSe73JWclWT3ah0SdyYq8JLD4lTt208WWIg%26oe=6AAD9953%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DQ1VFYADIVu.jpg",
     link: "https://www.instagram.com/c_a_vous/reel/DQ1VFYADIVu/",
     linkType: "instagram",
     veggie: true,
@@ -5555,12 +5555,12 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "le-chef-arnaud-donckele-nous-partage-la-recette-du",
-    title: "Le chef Arnaud Donckele nous partage la recette d’un de ses ",
+    id: "recette-de-clique",
+    title: "Recette de Clique",
     emoji: "🍰",
     cat: "dessert",
     chef: "cliquetv",
@@ -5568,7 +5568,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/572208663_18535686412049286_3207487289273864440_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=Mzc1NzY0MzQwMjcwMDUxNTgyMzE4NTM1Njg2NDA2MDQ5Mjg2.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=nBVY_Q3FQQMQ7kNvwHyH61h%26_nc_oc=AdqVN9ChkZa3dfDzPw8kaEnjMaUQz86OOF1d0FUFSX3SACq1OHOCV_oo0MmgL9JqYBZ3ftzHyAF41wt1dA_8D1xM%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=Ue-VQ97e7bZES89CQXpncw%26_nc_ss=7a22e%26oh=00_AQI788GeRkX9MopInZNkPv3TG1uQkmeazZEFJHtGusVmBw%26oe=6AAD95AA%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DQl1MQSjenv.jpg",
     link: "https://www.instagram.com/cliquetv/reel/DQl1MQSjenv/",
     linkType: "instagram",
     veggie: true,
@@ -5576,7 +5576,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -5589,7 +5589,7 @@ const RECIPES = [
     time: "1h",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/571857187_18541557646052026_4876178039007044885_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=106%26ig_cache_key=Mzc1NjIwNzk2NTk1MTk2NTI1MTE4NTQxNTU3NjQzMDUyMDI2.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjU1MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=HfSZYJ5vq-kQ7kNvwHNXmNd%26_nc_oc=Ado_UOQ2glwjyLymAP0JGyDg_oTKMCv1hAftERnK_FpLoGY07aSEVRftoAAKuisb0JTmlWOdFYNqiyRu8flX5ou3%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=iPwW1LC7o8okphvOc73lLg%26_nc_ss=7a22e%26oh=00_AQIIY42FHjJCRwB5UtHuEbOfXUSSM4HrQUIxKUSDxpWmWg%26oe=6AADB13F%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DQguz5pDzhD.jpg",
     link: "https://www.instagram.com/marmiton_org/reel/DQguz5pDzhD/",
     linkType: "instagram",
     veggie: true,
@@ -5603,12 +5603,12 @@ const RECIPES = [
       { qty: "3", name: "Gervita (ou 3 fromages blancs)", rayon: 'epicerie' },
       { qty: "QS", name: "Quelques noisettes ou noix de pécan (option)", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "recette-dautomne-reconfortante-45-une-courge-butte",
-    title: "🍁 Recette d’automne réconfortante 4/5 ! Une courge butternut",
+    id: "recette-de-cuisineaz-DQkDoK",
+    title: "Recette de CuisineAZ",
     emoji: "🍰",
     cat: "dessert",
     chef: "cuisineaz",
@@ -5616,7 +5616,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/571018663_18536869159028685_3171010635436017546_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=111%26ig_cache_key=Mzc1NzE0Mzk0MzU3OTkwMTg4MzE4NTM2ODY5MTUzMDI4Njg1.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExNTIuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=lCtk81knayoQ7kNvwFBkAdF%26_nc_oc=AdpZHvKlGoylS5aFbDW3ZahIQA1dk6w5yT5cEuo3RMuA4VTY4H53ZKR3S-hBrqiVeU4C8MCS6FKkrwUW9N5EJ7Pz%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=B73p_HFo-cb0VLJqtH36-Q%26_nc_ss=7a22e%26oh=00_AQKru4jI6kn3a6G_HK5JRh7gLHnnjYkr1G3TggUP5e2v4g%26oe=6AADC55F%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DQkDoKvFx-7.jpg",
     link: "https://www.instagram.com/cuisineaz/reel/DQkDoKvFx-7/",
     linkType: "instagram",
     veggie: true,
@@ -5624,7 +5624,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -5637,7 +5637,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/572778510_798391022828914_1964256952478319204_n.jpg?stp=dst-jpegr_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=Mzc1MjczNzY0ODE3MjQzMjk1MjEzNDY0NjM0NTcwMzUzNTQ%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5oZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=ze63WHNDnC4Q7kNvwGyrxJC%26_nc_oc=Adr-g-a_hiq13o2QIZ-NOXJiFK6anQAqrs5RcGYwrwQErxmXUBGBgKme0HRceZmMBUAzWjpXU8tc0_iW7sf_0EEd%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26se=-1%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=46ftGBaHkJ9U9Ym2GfQYbg%26_nc_ss=7a22e%26oh=00_AQLHXvZ7bydhZKuyskz12SgpLR7Lmw14sJkxcc1eL8sMdw%26oe=6AADA215%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DQUZwIWjX44.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DQUZwIWjX44/",
     linkType: "instagram",
     veggie: true,
@@ -5651,7 +5651,7 @@ const RECIPES = [
       { qty: "1", name: "tête d’ail", rayon: 'epicerie' },
       { qty: "2/", name: "enfournez 45 min à 190", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -5664,7 +5664,7 @@ const RECIPES = [
     time: "15min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/567009209_1507203453811982_6836939274616053620_n.jpg?stp=dst-jpegr_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=Mzc0ODE5ODU0MjA3NTI2MTE5ODE4NjE0MjkzODE0MjkxNjU%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5oZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=CVTRrR4zHSgQ7kNvwFm5BXG%26_nc_oc=Adpeov13DuFiWb3hONWiwOir3kM9SRw6dXsNq6CTbIo58Vd66_NdJEd_8cKu7nD9VwC75avMIsUdcjmR7ynPwMV5%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26se=-1%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=dGVaxRqnvGXedl6Q_CBaeA%26_nc_ss=7a22e%26oh=00_AQLt09BJyg_55KQ4CI7XmPsbYEorP8FIKZI44h3m2TEbBw%26oe=6AAD97CD%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DQERrcYCHEO.jpg",
     link: "https://www.instagram.com/lacuisinedelouise_/reel/DQERrcYCHEO/",
     linkType: "instagram",
     veggie: true,
@@ -5677,7 +5677,7 @@ const RECIPES = [
       { qty: "2 càc", name: "de câpres", rayon: 'epicerie' },
       { qty: "QS", name: "ciboulette", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -5690,7 +5690,7 @@ const RECIPES = [
     time: "8min",
     serves: "2 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/566647032_18538088446052026_5019286950494515191_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=105%26ig_cache_key=Mzc0NDc2MTk1OTcwMzczOTIyMjE4NTM4MDg4NDQwMDUyMDI2.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=NnndeFf-71kQ7kNvwGEjyeV%26_nc_oc=AdrM3xcOgDydZJRF65-lFeluZYDAn5O9MX1DhwVsL1TxU7hVPcj0sPRfHNS35Yg8gPIRn3ktyHNORaTmc1E_JLX0%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=X37lAHFeOZgsQVNCQw6OYA%26_nc_ss=7a22e%26oh=00_AQIFDd4ZeWVREyJzUHh0xG_FnNhm0qn_j2Hq2el81YKalw%26oe=6AADAF64%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DP4ESloiXtW.jpg",
     link: "https://www.instagram.com/marmiton_org/reel/DP4ESloiXtW/",
     linkType: "instagram",
     veggie: false,
@@ -5709,7 +5709,7 @@ const RECIPES = [
       { qty: "120g", name: "de crème", rayon: 'epicerie' },
       { qty: "QS", name: "Persil", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -5722,7 +5722,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/571853699_18538984912042581_5286290814869143869_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=Mzc1MzQ5MDA2MDU3NDYxMzI2NzE4NTM4OTg0OTAzMDQyNTgx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjU0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=-_fNKI8xQxsQ7kNvwEEONkx%26_nc_oc=AdpmM9KKlYzq8dCfKGyWHF-jC-fILeoeReugGITFJYptWsICJAC5-uvcXMZgb84UPMmIo02mKd5mSRnkgIkiQ4mi%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=3nJqSTBxIiswJgXLIQSLbw%26_nc_ss=7a22e%26oh=00_AQI9Kefc9NNfycrvSBmiJ7y2iU7H3qeSKthlzeMFj7ai1w%26oe=6AADC1BC%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DQXE1LAgl8T.jpg",
     link: "https://www.instagram.com/laurent.mariotte/reel/DQXE1LAgl8T/",
     linkType: "instagram",
     veggie: true,
@@ -5732,7 +5732,7 @@ const RECIPES = [
       { qty: "QS", name: "Huile d’olive", rayon: 'epicerie' },
       { qty: "QS", name: "Sel, poivre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -5745,7 +5745,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/569080014_1494862051721228_4590743951534486491_n.jpg?stp=dst-jpegr_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=Mzc0OTYyODAxNzYyNzcyMjE1NA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5oZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=O6r_864QG8cQ7kNvwGymXrY%26_nc_oc=AdoNfK_RA6nRDrC46MHTVrvqc0AnTdSgjRst6oePVvxJ-QyRIKn_hScZrm0Hqrv0jUFPqnyTh2vlMTrbtsyRx3Ga%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26se=-1%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=FUrOpJTV-vpB2-NqdZnXPA%26_nc_ss=7a22e%26oh=00_AQJRj7Xl2xDkk1SkIVQU5V9sXu-BVI-jZYP1GBKF8ZY5pw%26oe=6AADA225%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DQJWtDOjXGq.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DQJWtDOjXGq/",
     linkType: "instagram",
     veggie: true,
@@ -5766,7 +5766,7 @@ const RECIPES = [
       { qty: "QS", name: "Cuisson : 35 min à 200", rayon: 'epicerie' },
       { qty: "QS", name: "Temps de repos pâte au frais : 30 min", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -5779,7 +5779,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/568409169_1300057811426135_1908556240121795288_n.jpg?stp=dst-jpegr_e15_p480x480_tt6%26_nc_cat=110%26ig_cache_key=Mzc0NzYxMzYxMzc1OTE3NjMxMTExNDkyNDI1NjY3MzQ1NDI%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5oZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=lLNSwe7SjZUQ7kNvwGf_TjX%26_nc_oc=AdpT49PDC_fuERVGgjRxKApwpohtM1i82KowZpCw_r0PPs5Nlo4ge9wAQc8L7YuJKn8JA-4mRc_-SDixgVUkOAg6%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26se=-1%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=4u2AIkj58tY8_Gm7ny5V5Q%26_nc_ss=7a22e%26oh=00_AQL-NEQzgxkzlKmyuJiksp22ltRRCDA47FbP8ZMy6Iz2nw%26oe=6AADC77C%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DQCMrnbiJ53.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DQCMrnbiJ53/",
     linkType: "instagram",
     veggie: true,
@@ -5794,7 +5794,7 @@ const RECIPES = [
       { qty: "QS", name: "Pour le bouillon de tomate :", rayon: 'epicerie' },
       { qty: "QS", name: "Mélangez 1 cas de concentré de tomate, 1 cas de cumin dans 2", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -5807,7 +5807,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/563270378_1975231723271353_1317084913644577097_n.jpg?stp=dst-jpegr_e15_p480x480_tt6%26_nc_cat=104%26ig_cache_key=Mzc0MjU1Nzg1OTkzOTM2MDA5MzEzNDE3NDU4NTA2NTUzMzQ%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5oZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=OI59_vDuabQQ7kNvwEfuaE_%26_nc_oc=AdpnqkzkUY0mEhoJM2AAjDGI8Ft_4ew93sHMEGiqu3ttFClzHk1Y6Yt3UA12mDkN4Um9S0JR99c2xzdMpajSO2jo%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26se=-1%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=UzHRiwQ7REMnYmIt_kVYng%26_nc_ss=7a22e%26oh=00_AQLFXClKR-H8H0h6a7YWepAZcSjGzGG-sT9DaFSOcdL90g%26oe=6AAD9207%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DPwPItxCB1d.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DPwPItxCB1d/",
     linkType: "instagram",
     veggie: false,
@@ -5822,7 +5822,7 @@ const RECIPES = [
       { qty: "1 cac", name: "de sel", rayon: 'epicerie' },
       { qty: "1 cac", name: "de paprika", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -5835,7 +5835,7 @@ const RECIPES = [
     time: "10min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/603087371_18070291157567661_4628587181722350067_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=110%26ig_cache_key=Mzc0MTY2OTQ5Nzc5NjEyMTAyNjE4MDcwMjkxMTUxNTY3NjYx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=lL_my3B0RJkQ7kNvwG3GyN1%26_nc_oc=AdppRbRVa8EACFz5f8lp2wHsauurVOdKhH8-ebmXti7W_pheUI7K2m-dB_SPEZn50KsU6boeJIN2GMgAQOTYBKgC%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=R6gsUPZlLQ0D9JQda2TgBA%26_nc_ss=7a22e%26oh=00_AQJusWgmtL2ynwIb6fGu3rDTBr0XX1RNQYxlTROXvb3d6g%26oe=6AADB9CC%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DPtFJWDDVHC.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DPtFJWDDVHC/",
     linkType: "instagram",
     veggie: false,
@@ -5853,7 +5853,7 @@ const RECIPES = [
       { qty: "1 cac", name: "de gingembre . 1 cas de sel", rayon: 'epicerie' },
       { qty: "1/", name: "saisissez la viande dans de l’huile de tournesol", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -5866,7 +5866,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/558875738_4070628133253479_4390417403759422256_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzczNTc2NzM2MzY2MTY0NTIzNA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=LuyG3xKmHOwQ7kNvwGh6EXE%26_nc_oc=AdpEIkr5gocMoLil29BtIvua3oV59Lp-0hcSYGPp9viuRDsSqap4CoB5Wc6YIWT-yBIqquwbzj2XUeqR8igYiL36%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=C3-LcoiKFe53quJ7-x52eA%26_nc_ss=7a22e%26oh=00_AQJrEnSpIHEvOkxoFa1jTJYGbQ6YwArBgsjhdpPrkq_MxA%26oe=6AAD9794%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DPYHJ_SjMWy.jpg",
     link: "https://www.instagram.com/mangemieuxvismieux/reel/DPYHJ_SjMWy/",
     linkType: "instagram",
     veggie: false,
@@ -5877,7 +5877,7 @@ const RECIPES = [
       { qty: "QS", name: "🍱 Batch Cooking", rayon: 'epicerie' },
       { qty: "QS", name: "📚 Guides & ebooks", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -5890,7 +5890,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/561282040_18534801841058637_7723137848113079099_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=104%26ig_cache_key=MzczNzk4NzU3MzI2OTQ1OTIwNw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNzIwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=TVihoYfaAEwQ7kNvwF3__ak%26_nc_oc=Adpylrwr-sdWe2LTsFe4gYUpiY5hTReVJHoEgT9NsuHp19U5lUjwbDohqcPCXSEpMNsbngjEiksCP1PokmLo_Nip%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=ZtUseDtJfX_QY8g8IO5Amg%26_nc_ss=7a22e%26oh=00_AQLpO8x0PPqTAE2gQZNcN4l5QPmDp54-tUkTiRUtS8vU6A%26oe=6AAD9BF1%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DPgAzfXjMYg.jpg",
     link: "https://www.instagram.com/cyrillignac/p/DPgAzfXjMYg/",
     linkType: "instagram",
     veggie: true,
@@ -5898,12 +5898,12 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "potimarron",
-    title: "•\tPotimarron",
+    id: "la-recette-DPYoaz",
+    title: "La recette :",
     emoji: "🥩",
     cat: "viande",
     chef: "elleatable",
@@ -5911,7 +5911,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/558441260_18369792148158456_9136396864864897544_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=MzczNTkxMzY1NDgzNjA2NTQwNTE4MzY5NzkyMTQyMTU4NDU2.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=59RJRl15L-gQ7kNvwFHlzF5%26_nc_oc=AdpgDdaNp49_5OFFT-cVRAUZ5qir6gDaqGbrTIQADUQp6Ll5iFU0HvjsNaMCiSnYf1OCSMMmcD04xXgvoYR-ceJu%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=dUmjAz9WZMi1BVFM-j7YKw%26_nc_ss=7a22e%26oh=00_AQIxPmsSDjesBpvwC6MeUY0P7PrsedJkkmhUZm8aC1_8CA%26oe=6AADBB43%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DPYoazkCPR9.jpg",
     link: "https://www.instagram.com/elleatable/reel/DPYoazkCPR9/",
     linkType: "instagram",
     veggie: false,
@@ -5930,7 +5930,7 @@ const RECIPES = [
       { qty: "QS", name: "Piment d’Espelette", rayon: 'epicerie' },
       { qty: "QS", name: "Burrata", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -5943,7 +5943,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/561500572_2903382639863901_6520605597425166894_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=MzczNjYwODg4NzcyNzE5NDI0ODcwNTkzNzk5NTA5MjA4OA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=Uhz8czzkLCUQ7kNvwGtloD0%26_nc_oc=Adpftk5c-WiOeXlitg6xjjYQufN1vI5BHZZ54cR4g-a-Y7QagXg5TpMaEHKmKuiQaSIe-P0jgrgCO0HrDXMStqRc%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=DYf-VuP9Vok1FeVHhgvqjg%26_nc_ss=7a22e%26oh=00_AQKUIOa5akHIFnaUSy7DiJXl8Cz0Vjd22HJma0mGsZFW6w%26oe=6AADA7BA%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DPbGfxpjACI.jpg",
     link: "https://www.instagram.com/c_a_vous/reel/DPbGfxpjACI/",
     linkType: "instagram",
     veggie: true,
@@ -5951,7 +5951,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -5964,7 +5964,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/559971350_18061718426567661_8177985467911066623_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=MzczNjc1ODQ4ODIyNDIzOTg1MjE4MDYxNzE4NDIwNTY3NjYx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIyNjguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=nJ_vJ5YM6DwQ7kNvwEdYOUh%26_nc_oc=AdrZlXkYrTcvRN0fIoItY-ptgCneISnetnWl5aoSSoqoR2tfJBRTVdFyP9rRfX1lmayT3nBvLkhK614mlBZ4tkkd%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=u91oUvrZ1iR5msPR3IYRig%26_nc_ss=7a22e%26oh=00_AQJYHL0fMFv1RENSLatqcgvqosx9tBheicfxSkGvXmZmAA%26oe=6AADB10C%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DPbogv-CBDs.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DPbogv-CBDs/",
     linkType: "instagram",
     veggie: false,
@@ -5979,7 +5979,7 @@ const RECIPES = [
       { qty: "QS", name: "Cuisson légumes : 45 min à 190", rayon: 'epicerie' },
       { qty: "QS", name: "Rajouter le poisson sur le dessus pour 15 min à 180", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -5992,7 +5992,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/557598757_840903215766520_5318682142474581525_n.jpg?stp=dst-jpegr_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=MzczNDQyMTMyMTI4ODYyOTIwODEwODc3ODgwMTY5MDA0MzI%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5oZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=nJJnaMX0KaEQ7kNvwHOSbRP%26_nc_oc=AdpDzzA3N5RWbEn8Nox4N-QLo_XG-xUu-YmPOEm-BDs2SNGc9hGgawKNPYAC_WCzhsQuh9JtFt6lrMrtBF10bkXc%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26se=-1%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=2oYP31lt73TJiQTRvPzB7g%26_nc_ss=7a22e%26oh=00_AQKmD0eOZ1xclp8JcO0K0VBTVURmRlkPnJlFWY07yPkbIQ%26oe=6AAD9209%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DPTVGfpDbvY.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DPTVGfpDbvY/",
     linkType: "instagram",
     veggie: false,
@@ -6010,7 +6010,7 @@ const RECIPES = [
       { qty: "QS", name: "Jus d’un citron vert", rayon: 'epicerie' },
       { qty: "1 cas", name: "d’huile de sésame si possible sinon huile d’olive", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -6023,7 +6023,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/557322451_1630073658426560_7379366746927994531_n.jpg?stp=dst-jpegr_e15_p480x480_tt6%26_nc_cat=111%26ig_cache_key=MzczMzEzMzIzNzkyMTc5ODc2OTExMTExNDk2NjQ0ODE4NDI%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5oZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=b1HQhzZForMQ7kNvwHBhHqU%26_nc_oc=AdpxjI6zAKbUEAg4aD2sjCJjWz_8xDkbSwJ0ko43kBjkVd77IH6cOwsu2wX6KFIlB-Uh1yhzoeTUvsJx2G90xnoE%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26se=-1%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=GQJEBuBY_5Hvtx3vsumKtw%26_nc_ss=7a22e%26oh=00_AQLi6-RkubAgO1y1Julew4c2BASYAdyaSH1VPFVRG35CIw%26oe=6AAD98B8%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DPOwOahiFpx.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DPOwOahiFpx/",
     linkType: "instagram",
     veggie: true,
@@ -6044,7 +6044,7 @@ const RECIPES = [
       { qty: "QS", name: "Un peu de fromage frais", rayon: 'epicerie' },
       { qty: "QS", name: "Ciboulette", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -6057,7 +6057,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/554216114_18361255894155634_6285356376190128119_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=106%26ig_cache_key=MzczMDI2NDQ1MzEzNzgyNzU1NDE4MzYxMjU1ODg4MTU1NjM0.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExNjYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=ZjKlTVG_U6AQ7kNvwFOKt0m%26_nc_oc=Adp1KhluRHU_xznE_IfGcvVqbzbGJRaGum5MH1ev_anoDDRfwjsAPvk6prvIW2VgKl9lZ3igr9UOA1i7hbg4Zxeg%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=fnDSPESPXDY--EtBL-Narg%26_nc_ss=7a22e%26oh=00_AQItGsw8G9rfmIUDsrUN7Bezp_mPQSXDHTV8eTuOebh6EQ%26oe=6AADA050%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DPEj8GfjAbi.jpg",
     link: "https://www.instagram.com/kinette_beautyfood/reel/DPEj8GfjAbi/",
     linkType: "instagram",
     veggie: true,
@@ -6065,7 +6065,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -6078,7 +6078,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/554771038_809016698181615_8508921685596432777_n.jpg?stp=dst-jpegr_e15_p480x480_tt6%26_nc_cat=104%26ig_cache_key=MzczMDk1MTMzMDczMTk0MzIxMw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5oZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=MdNrhPRHFrAQ7kNvwGnr6wB%26_nc_oc=Adp-T1IDAFWszjwNGoK3wl2MhJV21bkhLR5jAXLmVD0Xvf0QeUIUxFhd9frqquAT-q63hRgSFbgpdC0Y9vVKvTOK%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26se=-1%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=AVNj4MsLRdr2EliR39d2zg%26_nc_ss=7a22e%26oh=00_AQJCUMMyKKXnLo3IgAtGtsAWRlzjlbDPRnv6axevrSdVaA%26oe=6AADC792%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DPHAHfGjGUt.jpg",
     link: "https://www.instagram.com/steflequellec/reel/DPHAHfGjGUt/",
     linkType: "instagram",
     veggie: true,
@@ -6086,12 +6086,12 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "la-tarte-fine-aux-pommes-cest-toute-mon-enfance-ce",
-    title: "La tarte fine aux pommes c’est toute mon enfance… c’est la p",
+    id: "recette-de-eric-frechon",
+    title: "Recette de Eric Frechon",
     emoji: "🍰",
     cat: "dessert",
     chef: "ericfrechon",
@@ -6099,7 +6099,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/553512891_18528010453056158_1040049319204788402_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=101%26ig_cache_key=MzczMTQ0NDA0ODE2MzgwMDA4NzE4NTI4MDEwNDQ3MDU2MTU4.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjE4ODguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=omxLX6xJ8QEQ7kNvwHwJXrQ%26_nc_oc=Adp3xRo_ngjlIof3zd_mQ0y4LhI-_3IL8Vl7XvBNMK_79JqcdVxJyp53HCAIpBkD57x-zceU7S9ZF1-pqWPYDmsI%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=vW0CyH9lhZR_4VqVg9Iaeg%26_nc_ss=7a22e%26oh=00_AQJlKZJJwO8dQpJ1cTZQnSM8hzzZfmisQFBiRz3cf6ToEw%26oe=6AADA149%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DPIwJd-DIQX.jpg",
     link: "https://www.instagram.com/ericfrechon/reel/DPIwJd-DIQX/",
     linkType: "instagram",
     veggie: true,
@@ -6107,12 +6107,12 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "4-grosses-aubergines",
-    title: "4 grosses aubergines",
+    id: "moussaka",
+    title: "MOUSSAKA",
     emoji: "🥩",
     cat: "viande",
     chef: "laurent.mariotte",
@@ -6120,7 +6120,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/557787021_18532170178042581_8914329935940668926_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=102%26ig_cache_key=MzczMjI1OTU4NDM5NjYzNjk1ODE4NTMyMTcwMTcyMDQyNTgx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjU0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=SwqMcltwIUcQ7kNvwFSo6rv%26_nc_oc=AdqOL8yt1oEQcRXmsVTV3MQrD-l8P9IE7AXT5wznjzj4N4pDO9Jrx2uBVKvRuJ8ndIOXZ-FrZgmgHq4erR6q0OPg%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=q6Z7xY9L8u7gUzTP8kRn9A%26_nc_ss=7a22e%26oh=00_AQIY63SFy6cIKyONoOJo1AmMCThVHh1vuW9-5y98BcKAVQ%26oe=6AAD9EB0%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DPLplFRgjMe.jpg",
     link: "https://www.instagram.com/laurent.mariotte/reel/DPLplFRgjMe/",
     linkType: "instagram",
     veggie: false,
@@ -6140,7 +6140,7 @@ const RECIPES = [
       { qty: "50 cl", name: "de lait entier", rayon: 'epicerie' },
       { qty: "1", name: "cuil. à café de noix de muscade moulue", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -6153,7 +6153,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/521148742_18515366017056158_5236528916031129475_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=105%26ig_cache_key=MzY4NzUwNDgyODgwMDY2ODUzODE4NTE1MzY2MDExMDU2MTU4.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyNzYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=tD_5jO81-a0Q7kNvwHaoTrM%26_nc_oc=AdrlQCfY2IIcwKv3mqPYQLwnNOz88UThv_loyT_HX4eoKBUB04HH9wTSMV-vAQnrKIdjibZF_Ea8pg1rf408C08R%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=PCAw27AjhYbJSPuYlXwd-Q%26_nc_ss=7a22e%26oh=00_AQJDEHPVdf6XYjFNFMkVHmzweMbBDcSsLw5dHx35ZaKcdQ%26oe=6AADB321%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DMsphrEM5N6.jpg",
     link: "https://www.instagram.com/ericfrechon/reel/DMsphrEM5N6/",
     linkType: "instagram",
     veggie: true,
@@ -6161,7 +6161,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -6174,7 +6174,7 @@ const RECIPES = [
     time: "15min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/554835547_18532750402058637_4492039120938169479_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=101%26ig_cache_key=MzczMDc5Nzc3MjI5NjQ3NDMxNDE4NTMyNzUwMzk2MDU4NjM3.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExNTIuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=fwEBmbUcaeMQ7kNvwFsInLh%26_nc_oc=AdpnMMcTZwPGJVvK1bIMdQ5qgNfJ4DomqpXWXEAh95o_kSoYVYOzPFKEBE7RLtU2IwSlHb9jR0eeS6DQn12rC6kp%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=lDMpS3H1EFQcVuRO_mU-kw%26_nc_ss=7a22e%26oh=00_AQJd6GBEZlGU00ebbm8N7uNpwqFRgH6hqiv6gsLoQlf_5w%26oe=6AADC6B8%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DPGdM6qjM7K.jpg",
     link: "https://www.instagram.com/cyrillignac/reel/DPGdM6qjM7K/",
     linkType: "instagram",
     veggie: true,
@@ -6186,7 +6186,7 @@ const RECIPES = [
       { qty: "40 g", name: "de beurre doux", rayon: 'epicerie' },
       { qty: "1", name: "citron vert", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -6199,7 +6199,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/551089590_1528459401656436_3600740634097172061_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=MzcyNjQzMTA4MDExMTk0MzU5Nw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=_Yjg3zdf-fIQ7kNvwECbuU9%26_nc_oc=AdoO5ttBM5azowlQA0hDq1U_v-3Swq9TqTzP9EoX37JOqBZ0A-LLcp_V6OzhrfgYYrsKMc-9yD2qzakMbFJUv_jR%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=FbCN_ctRboH8urezGn-x0A%26_nc_ss=7a22e%26oh=00_AQKMCUyMHIZSe6Z3d1lDsdp30FC0RzIiZU_gP9aWVOwrrA%26oe=6AAD972B%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DO28VLqDC-t.jpg",
     link: "https://www.instagram.com/casalitaaa/reel/DO28VLqDC-t/",
     linkType: "instagram",
     veggie: true,
@@ -6217,7 +6217,7 @@ const RECIPES = [
       { qty: "QS", name: "Sel & poivre", rayon: 'epicerie' },
       { qty: "1", name: "filet d’huile d’olive", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -6230,7 +6230,7 @@ const RECIPES = [
     time: "25min",
     serves: "6 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/540439745_18418584538107965_4047775989196337035_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=102%26ig_cache_key=MzY5OTEwMTQ1MDQ2Mzk5NDgzMDE4NDE4NTg0NTMyMTA3OTY1.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjI4MjYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=fgUQMksn2FYQ7kNvwHPe5LQ%26_nc_oc=AdryvcNcR_pf8SIWZVBGft1BLdXVsiWlUDQMRsMcmh6hdcgaFheAQ2zU8Mu4IpFlqKJVXtcz_GuYV-3ndSYnC1j_%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=rffV3TOrs2zRjJqtRb6cmQ%26_nc_ss=7a22e%26oh=00_AQJqVLa6UQQj6N7SUWPItIXq28fL9Q4UYHxJZ4fkSxr1fA%26oe=6AAD9E89%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DNV2SunCePO.jpg",
     link: "https://www.instagram.com/demotivateurfood_fr/reel/DNV2SunCePO/",
     linkType: "instagram",
     veggie: false,
@@ -6251,7 +6251,7 @@ const RECIPES = [
       { qty: "1/2", name: "C A C de curcuma", rayon: 'epicerie' },
       { qty: "1/2", name: "C A C de piment d'Espelette", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -6264,7 +6264,7 @@ const RECIPES = [
     time: "10min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/553263829_18068160302254379_4200383989077614172_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=101%26ig_cache_key=MzcyOTMzNzg2MzIzNDUxNzI2ODE4MDY4MTYwMjk5MjU0Mzc5.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=GOf0R2uH_jcQ7kNvwHGaCoK%26_nc_oc=AdqkfLeNyd7LLJp8J4rP8kRl1MyYDlDloSUdMJUbkdOfwH2BWqJToj_h1OB0jJgfPkMbd3DYT1Et7iEbgsPjRjtW%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=JjYsAwbITZ--Tu48QewyGQ%26_nc_ss=7a22e%26oh=00_AQL3_eIHH7z-xdTQsaA4qQdFl5ux-PmheU6Kni3eYBkVCQ%26oe=6AADAACE%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DPBRQcZgfkU.jpg",
     link: "https://www.instagram.com/famillehealthy/reel/DPBRQcZgfkU/",
     linkType: "instagram",
     veggie: false,
@@ -6284,7 +6284,7 @@ const RECIPES = [
       { qty: "QS", name: "Sel & poivre", rayon: 'epicerie' },
       { qty: "QS", name: "Une poignée de ciboulette hachée", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -6297,7 +6297,7 @@ const RECIPES = [
     time: "20min",
     serves: "6 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/551332407_18546317734002323_2895052011259258999_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=101%26ig_cache_key=MzcyNTkxOTIzNjYyODQ0NTczNTE4NTQ2MzE3NzI4MDAyMzIz.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjMwNjQuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=tXOo-4LqaJMQ7kNvwFJK8A4%26_nc_oc=AdqCOBhVFlK2dskIJOnwVueCDGPKq6okKq3eD9cr7CSa5si6TDSW6jDKKwmQoyjtzCbMJU3_VQ098mg-BtoKgU-R%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=K4BUKOh8TY7QKrQrfHa_lA%26_nc_ss=7a22e%26oh=00_AQLDVoLK33SrewrhRBLk9OrF8GwF4uDr8TXtAoxANDJw8Q%26oe=6AADAA89%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DO1H84RCHon.jpg",
     link: "https://www.instagram.com/auxdelicesdupalais/reel/DO1H84RCHon/",
     linkType: "instagram",
     veggie: false,
@@ -6319,7 +6319,7 @@ const RECIPES = [
       { qty: "2", name: "cubes de bouillon de légumes ou de boeuf", rayon: 'epicerie' },
       { qty: "1,5 L", name: "d’eau", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -6332,7 +6332,7 @@ const RECIPES = [
     time: "2h",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/540970885_18220438183305419_5311724528676863476_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzcxMDgwMzEwMjgzNzU2NjE3MzE4MjIwNDM4MTc3MzA1NDE5.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjU0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=AVBtSdQXS6sQ7kNvwG-RfXW%26_nc_oc=AdoK9UiOlmu_fdLcIwdoZAhxahJdImFcRzk8LHWcDvMURCB-kZHCmUa03wOKYoh7etWNkDw7RAH9pZfGQM29jxYo%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=OVHn5Otq1qXxFiY70GhaoA%26_nc_ss=7a22e%26oh=00_AQKUU8O9mDq7KAxSugxgEJTPvgR5fiX2SRa3w-TTSHrmDw%26oe=6AADACEF%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DN_a8LoDOrd.jpg",
     link: "https://www.instagram.com/leslicious.food/reel/DN_a8LoDOrd/",
     linkType: "instagram",
     veggie: false,
@@ -6347,7 +6347,7 @@ const RECIPES = [
       { qty: "2 CS", name: "d'huile d'olive", rayon: 'epicerie' },
       { qty: "QS", name: "Thym & laurier, sel & poivre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -6360,7 +6360,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/552355653_18534512326004649_5550963119258604607_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=MzcyODA5MDA4NjIxNTU0NTAwMA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNzIwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=qBcg1_LZhPkQ7kNvwFQLiiq%26_nc_oc=Adok4BAx42MVDT7WN4-bi_S-i-HvOQpxevmDkXnbvVui8FEG-h9GCjBvh22l5hQZYb0ZC7M-SbIDjlUBT4sC-aw7%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=-MnLRdqznrg8_ZUd6JeArg%26_nc_ss=7a22e%26oh=00_AQKa7wmMEU7S6TKDG5kB3pDxkNHAE-AnqY2n2MQJWeSueg%26oe=6AADA502\nQuattro ricette di melanzane ripiene. Non so se sono pronta a salutarle e a dar loro l’arrivederci alla prossima estate 😅. \nQuale di queste ricette ti ha fatto venire più voglia di melanzane ripiene??\n\nMelanzane con ragù e besciamella\n1 melanzana\nQualche cucchiaio di ragu (ricetta nel mio sito)\n60 g di provola\n2 cucchiai di parmigiano\nOlio evo\nSale e pepe\n \nPer la besciamella \n150 g latte\n15 g burro\n15 g farina\nSale e noce moscata\n\nRicetta melanzana ripiena rustica\n4 melanzane\n80 g formaggio (io provolone)\n1 cipolla\nOlio evo\nSale pepe\nBasilico e menta\n1 fetta di pane casereccio\n\n3 melanzane lunghe\n3 patate medie lesse (le mie erano rosse)\n2 scatolette di Tonno da 60 g\n2 cucchiai di pecorino romano grattugiato\n100 g di provola a dadini\nQualche foglia di basilico\nSale e pepe\nCirca 20 pomodorini\nOlio evo\n\nParmigiano express\n2 melanzane medio piccole,\n350 g salsa di pomodoro\n2 mozzarelle\n50 g parmigiano \n1 spicchio d’aglio\nOlio evo\nSale\nPepe\nBasilico.\n\n#melanzane #ricette #italianfood #cucina #ricettefacili%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DO81ooOCDEn.jpg",
     link: "https://www.instagram.com/cosatipreparopercena/p/DO81ooOCDEn/",
     linkType: "instagram",
     veggie: true,
@@ -6368,7 +6368,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -6381,7 +6381,7 @@ const RECIPES = [
     time: "5min",
     serves: "4 pers.",
     difficulty: "Avancé",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/550767798_18525711889028588_7155040331730026014_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=104%26ig_cache_key=MzcyNTE3NzE3NTQwNzEyMjgzNzE4NTI1NzExODg2MDI4NTg4.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=-r_i4lzGysEQ7kNvwF_KAnM%26_nc_oc=AdqJ1ApfFx1bz5im8yfNkgfRJ-XsTnOU--tPyBIifdVYoj7B36GbRSD9VG3_23NYwf-Azfj8MfXBKg1SsjriFWWM%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=yX2ve4aBEUYUJblPr-ou2A%26_nc_ss=7a22e%26oh=00_AQKkIWc3VpoaH3g0e6sI28Pr5yVaAoevCAszDsmXcQpnVQ%26oe=6AAD99CB%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DOyfOd5iNmV.jpg",
     link: "https://www.instagram.com/belqisvl/reel/DOyfOd5iNmV/",
     linkType: "instagram",
     veggie: true,
@@ -6397,7 +6397,7 @@ const RECIPES = [
       { qty: "QS", name: "* Parmesan frais râpé : 40 g", rayon: 'epicerie' },
       { qty: "QS", name: "* Ciboulette : 2 c. à soupe ciselée", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -6410,7 +6410,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/551042054_18533743600004649_1323151158901367415_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=111%26ig_cache_key=MzcyNTkxNzg5MTA3MDgwMDMyOQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNzIwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=wo-Hhttd6wkQ7kNvwF02o7N%26_nc_oc=Adq7nrhPkbqdXmJLhJKxkAlfgVRuF_TTVQuvBVnlZrCYIvhg7t_s1jdXtTrBAiB0o9cOWF9FatZMghwhfMM9XAZy%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=HPFwHR5Eo2nUJZaHs0O8DQ%26_nc_ss=7a22e%26oh=00_AQKExK1Zw0n2Fd3MVK9XEsehDy7d977W-3TfaBjzBvaHsQ%26oe=6AADBA98\nTre ricette con i Finocchi che stanno tornando di stagione ☺️😋😋😋😋 quale preparerai per prima? \n\nFinocchi al parmigiano\n\n2 finocchi\nParmigiano reggiano abbondante (circa 4 cucchiai colmi)\n2 cucchiai di pecorino romano\nNoce moscata\nSale e pepe\nOlio extra vergine di oliva a sentimento\n\nFinocchi e ceci al cartoccio\nX 4 cartocci\n2 finocchi\n200 g di pomodorini in lattina\n480 g ceci cotti\nOlive e capperi a piacere\n4 spicchi d’aglio\nOlio sale pepe e infine origano.\n\nFinocchi e cipollotti alla mediterranea \n2 finocchi\n10 pomodorini\n2 cipollotti\n15 olive nere\n1/2 fetta di pane casereccio\n2 cucchiai di pecorino romano\nolio evo\nsale e pepe\n\n#finocchi #ricette #cucina #vegetarianfood #vegetarian%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DO1HtrADJgQ.jpg",
     link: "https://www.instagram.com/cosatipreparopercena/p/DO1HtrADJgQ/",
     linkType: "instagram",
     veggie: true,
@@ -6418,7 +6418,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -6431,7 +6431,7 @@ const RECIPES = [
     time: "15min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/553387726_18309020059300957_3703830066601287901_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=104%26ig_cache_key=MzcyNzkyMDgzMzA4ODcyNTMzMTE4MzA5MDIwMDU2MzAwOTU3.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=hXk9et9pFEgQ7kNvwFJaVky%26_nc_oc=AdqmdY1FcD6vn9DWxRghFJKLRkkzl2G4u0YRVgomAk4eIXHSqr3uJV_wToPiijA4XHT7qO1_w4Pfz9JNaGYzGig8%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=BzEluqsioO8KqEMt4hymlQ%26_nc_ss=7a22e%26oh=00_AQLQB2mDUjvrOyss010Uz85Z0nk7Sm48MPrz-AmYE-k43Q%26oe=6AADC00C%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DO8PD8PCCFT.jpg",
     link: "https://www.instagram.com/kitchenfactoryprod/reel/DO8PD8PCCFT/",
     linkType: "instagram",
     veggie: false,
@@ -6453,7 +6453,7 @@ const RECIPES = [
       { qty: "1", name: "cuil. à soupe de graines de sésame toastées", rayon: 'epicerie' },
       { qty: "QS", name: "Quelques feuilles de coriandre fraîche", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -6466,7 +6466,7 @@ const RECIPES = [
     time: "10min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/548335201_17864801031460854_269094854393595125_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=101%26ig_cache_key=MzcyMTU1NTA1NDU1MDQ2NjcxOTE3ODY0ODAxMDI4NDYwODU0.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMDYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=EnFJwi21a2IQ7kNvwHbUQz1%26_nc_oc=Adofx3qmuHBGLf-P_UIVqun79AvFjVoYm_e-AiwF62yIwYUAV51bYiFIG9rvbnSMI29ZG1QilcOKTP8E4v0_B2ms%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=1mMW5ynpOfj9xQsnG193KQ%26_nc_ss=7a22e%26oh=00_AQJEtiQbAMLzunx0ePqS6PeQuYKMXgG60x8VcOih9eb-tQ%26oe=6AADBEFB%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DOlnpq-ikCf.jpg",
     link: "https://www.instagram.com/phebs.cookchill/reel/DOlnpq-ikCf/",
     linkType: "instagram",
     veggie: false,
@@ -6485,7 +6485,7 @@ const RECIPES = [
       { qty: "QS", name: "🥛 10 cl de crème fraîche", rayon: 'epicerie' },
       { qty: "QS", name: "🍗 10 cl de bouillon de volaille", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -6498,7 +6498,7 @@ const RECIPES = [
     time: "40min",
     serves: "8 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/547830593_18064554770599318_5009534703811853490_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=110%26ig_cache_key=MzcxODc0NzU2MTYyNTcwODA4NzE4MDY0NTU0NzY3NTk5MzE4.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=B5aw9uQ10egQ7kNvwFUza5c%26_nc_oc=AdrQTrp3A8wc9FTGX6T1IsNkSTLZigMS418LsuCE-VPLkZXtXZdi1vSk6TwdeSdsKUwe5kn1XdMQp1TGZ4lgKHBk%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=ub-zVzKX82g-q79NOfEoBA%26_nc_ss=7a22e%26oh=00_AQKnhu_laRkmchIioIalBUeH2RQ8Lv4u9zc0JEPOPhXldw%26oe=6AADA6EA%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DObpTRcDOY3.jpg",
     link: "https://www.instagram.com/dr.jimmy.mohamed/reel/DObpTRcDOY3/",
     linkType: "instagram",
     veggie: true,
@@ -6516,7 +6516,7 @@ const RECIPES = [
       { qty: "QS", name: "Saupoudrer de cacao en poudre.", rayon: 'epicerie' },
       { qty: "QS", name: "Découper en 8 parts.", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -6529,7 +6529,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/552751465_1869810103890781_6288601635666449742_n.jpg?stp=dst-jpegr_e15_p480x480_tt6%26_nc_cat=104%26ig_cache_key=MzczMDEwOTYzMjc1MzgwMTY0MzEyMjY5OTAzMDI4MDcwOTE%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5oZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=dghB0dHbqQsQ7kNvwHcNWWm%26_nc_oc=Ado5CR99CuEw3iGn8xnSizdQqd-yjLi4tO1FT5oKSw2oz4hiykO6lLY2HlrO7AsibRqx9V4SygzqRcJya_deNNop%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26se=-1%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=wm6XZWFyiGqm5bjVT8vYqw%26_nc_ss=7a22e%26oh=00_AQKrFXuT29Mr-ZMSu-mGXu8YvwjepQHdFaANGnDBV--Ejg%26oe=6AAD9B2B%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DPEAvKxjZmr.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DPEAvKxjZmr/",
     linkType: "instagram",
     veggie: true,
@@ -6545,7 +6545,7 @@ const RECIPES = [
       { qty: "1/", name: "découpez le chou en 4", rayon: 'epicerie' },
       { qty: "QS", name: "4/versez le beurre fondu dans un ramequin sur une gousse d’a", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -6558,7 +6558,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/552555636_18529824001061228_5448778395807639449_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=105%26ig_cache_key=MzcyNzkxMDY2NTk3MDA0MjkxNjE4NTI5ODIzOTk1MDYxMjI4.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjkzMi5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=SsjQVYx5ksAQ7kNvwGVjSw4%26_nc_oc=AdoRl1kp1wqDRQGsYk6t7SHlmt5mDf9SAPzIhBANFKrNTi8MPllSB6jiUiykqimwfonl5DdjAm8IylrsC35nitHV%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=FcCrbcgCPnZ7ToOLUjkqnw%26_nc_ss=7a22e%26oh=00_AQI5aSVOK14BGroiGad_613cf6rAZ3i3oRuxvfAGxe_FLg%26oe=6AADBE0D%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DO8Mv_XiMgk.jpg",
     link: "https://www.instagram.com/xavier_pincemin/reel/DO8Mv_XiMgk/",
     linkType: "instagram",
     veggie: true,
@@ -6566,7 +6566,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -6579,7 +6579,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/552025872_18059911784567661_2314137471317415067_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=MzcyNzMzODEyMTY5NzE4OTE2MjE4MDU5OTExNzgxNTY3NjYx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=OX2u_P_rkXgQ7kNvwG6sCx6%26_nc_oc=Adp7f45Jswu7wQMkwDLLEzwFN313VZnTPsrlPZnKm6LrafGpv3QugZ5nVbvkUBkfSvB5W8oliSjNissSW4-AYr7P%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=EF9kQn711FrCVx0uiINSmw%26_nc_ss=7a22e%26oh=00_AQJqWED_HmFcENQwAtHFVNp_FJf01fpQa8BWZTTBcL4JIA%26oe=6AAD9B5A%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DO6KkX9iF0q.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DO6KkX9iF0q/",
     linkType: "instagram",
     veggie: false,
@@ -6601,7 +6601,7 @@ const RECIPES = [
       { qty: "1 cas", name: "de zaatar", rayon: 'epicerie' },
       { qty: "1 cas", name: "de sel", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -6614,7 +6614,7 @@ const RECIPES = [
     time: "10min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/548688450_18529853992058637_5493765877385064234_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=103%26ig_cache_key=MzcyMDU4MjY0NzIzNzA5NjQxNDE4NTI5ODUzOTg2MDU4NjM3.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMjYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=EQF4ufIx_eAQ7kNvwH4hyN2%26_nc_oc=Adq-0pbGeZJ91kJFrZa3ZRU5aFkXaKoIDID7bq_vhB-u6Uhl38ljD9RZTSxmkjAydQ4-wjiVGWvtg_Qxt0tWz3TV%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=psW2iNg7VeXG3tAHAHDj0g%26_nc_ss=7a22e%26oh=00_AQLrkMi9adm0bppQ_pOb2AsXveXp50x9DbrUpjz6CKQjQg%26oe=6AAD9280%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DOiKjSGDLPe.jpg",
     link: "https://www.instagram.com/cyrillignac/reel/DOiKjSGDLPe/",
     linkType: "instagram",
     veggie: false,
@@ -6631,7 +6631,7 @@ const RECIPES = [
       { qty: "1", name: "cuil. à soupe de gros sel de cuisine", rayon: 'epicerie' },
       { qty: "QS", name: "Fleur de sel et piment d’Espelette", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -6644,7 +6644,7 @@ const RECIPES = [
     time: "25min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/548487214_18059067458567661_9196410300138846266_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=110%26ig_cache_key=MzcxOTM2NjY2NzUyOTY1MjM1NDE4MDU5MDY3NDUyNTY3NjYx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=VFx2qnTqniwQ7kNvwG7mbnB%26_nc_oc=AdpOGNezZMNnLGxzQXRiVyXUxXiT7qHKhk3bJNTihKQpEMQPN0D-ScY26pN72MjsHX8D41NithiKsowaJpfhhdH0%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=qSagtQ-K0WfiuYD-8oJ7Iw%26_nc_ss=7a22e%26oh=00_AQKin1ntpaI-3H5yBEoV-Yms3yyG-AsFdkKe5G9T66GuMA%26oe=6AADA8A8%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DOd2EcviIiC.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DOd2EcviIiC/",
     linkType: "instagram",
     veggie: false,
@@ -6656,7 +6656,7 @@ const RECIPES = [
       { qty: "1 cac", name: "de curcuma/ paprika/ un cube bouillon ( poulet ou légumes)", rayon: 'epicerie' },
       { qty: "QS", name: "Un pot de crème liquide entière", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -6669,7 +6669,7 @@ const RECIPES = [
     time: "15min",
     serves: "3 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/540072659_1302197471643881_7132736436185612130_n.jpg?stp=dst-jpegr_e15_p480x480_tt6%26_nc_cat=110%26ig_cache_key=MzcxMjg0Mjg5NzEyNjExMTg3Nw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5oZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=lz2WxSCtwhMQ7kNvwH80iKN%26_nc_oc=AdrIDmuq2YsYVesyFkFrRT-mOvHtiH-P1_E1o-nWKm3ttrKJ3w8Jm7uPX7aBF93RivY3E04Y4j-YmV0KYvwAk4Q3%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26se=-1%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=zrlUu8F8HPoyjx6QVGcgrA%26_nc_ss=7a22e%26oh=00_AQLdiaiDCZUWpM2ub9yK_-Dtjv95BUxlW9AQr3LQfcN4CQ%26oe=6AADB15A%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DOGqvGGCLqF.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DOGqvGGCLqF/",
     linkType: "instagram",
     veggie: true,
@@ -6684,7 +6684,7 @@ const RECIPES = [
       { qty: "1", name: "petite boîte de lait de coco", rayon: 'epicerie' },
       { qty: "1", name: "verre de riz thaï", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -6697,7 +6697,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/543077257_18057683507567661_8413305891680451109_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=104%26ig_cache_key=MzcxNDI5MzMyOTA2NTE2ODI4NTE4MDU3NjgzNTAxNTY3NjYx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=eRDFTVjDluAQ7kNvwGsXWj9%26_nc_oc=Adp-JIOnD_kqTsQFxPGovECCLeNFYGkmU9JkKSbhCYZZmjdOrrD0Ic_rJTBzNv6NjroCxanH0YvLlHHQs3TMq8Qc%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=c_nNSaSa986J6J7Zn7F7Rw%26_nc_ss=7a22e%26oh=00_AQLb8hjzckMOy-etH0WspJxePfM0-il7CtO_7ogOBrQx4w%26oe=6AADBB57%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DOL0hqGiE2d.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DOL0hqGiE2d/",
     linkType: "instagram",
     veggie: true,
@@ -6718,7 +6718,7 @@ const RECIPES = [
       { qty: "2/", name: "mélangez courgette oignon avec œuf farine, fêta et mozzarella. Sel et épices", rayon: 'epicerie' },
       { qty: "4/", name: "enfournez 30 min à 180", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -6731,7 +6731,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/538983969_18056542718567661_7411523435796454573_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=105%26ig_cache_key=MzcwNzA0MzI3MjM5ODUyNDQ4MzE4MDU2NTQyNzE1NTY3NjYx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIyNzAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=83_RIazxQ7QQ7kNvwGc8n0K%26_nc_oc=AdoJtMnAiT_0XACiPnYu8RCq1liKaxQd1f_U9o9UAMcNyFvPbq3T18lcq04gj7rGv80EzBy6-0P_N9E2aLs7I2LD%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=HfgXATPx1gcUjKwnDz7c_A%26_nc_ss=7a22e%26oh=00_AQLT2zJRTX8FHT3RBa6XXZ9_sfIUMPV8eiw36jvU1UtA2Q%26oe=6AAD9CBA%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DNyEDcqUNBD.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DNyEDcqUNBD/",
     linkType: "instagram",
     veggie: false,
@@ -6753,7 +6753,7 @@ const RECIPES = [
       { qty: "QS", name: "Option en plus : olives noires ou kalamata et anchois", rayon: 'epicerie' },
       { qty: "QS", name: "4- enfournez 40 min à 180 ( je préchauffe pas le four )", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -6766,7 +6766,7 @@ const RECIPES = [
     time: "20min",
     serves: "6 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/537016991_18523979881042581_1349770245565988010_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=MzcwNDg5OTQ0NzA0MzA4MTY3ODE4NTIzOTc5ODc1MDQyNTgx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExNzkuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=CcNL9ni72JwQ7kNvwEAG_pO%26_nc_oc=AdpAhgzdigFUQ75L1zQQE-x9wppzKkCizudpH8Q_VvSQ7Uty_sUv4mqbQy_T97q7BTXP-f9S3brb8qCeB9SYONo3%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=aol5R4kKyX8vrgO5upHWqA%26_nc_ss=7a22e%26oh=00_AQK7MpSY9GkfHR9y9HmAZZoBLg7nIFe0AOMLQZQuepJfGw%26oe=6AADC790%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DNqcmrti0XO.jpg",
     link: "https://www.instagram.com/laurent.mariotte/reel/DNqcmrti0XO/",
     linkType: "instagram",
     veggie: true,
@@ -6785,7 +6785,7 @@ const RECIPES = [
       { qty: "QS", name: "Huile de pépins de raisin", rayon: 'epicerie' },
       { qty: "QS", name: "Sel, poivre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -6798,7 +6798,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/535833493_18056035874567661_5069526562532993576_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=101%26ig_cache_key=MzcwMzk3NDEwODQ5NTc3OTQyNzE4MDU2MDM1ODY4NTY3NjYx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIyNjguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=qf0BQ7Wse4QQ7kNvwHOyz8K%26_nc_oc=AdrtmZCjk6qja20309xjBN-OTCZkrEF834cb-B2Woby9HalcRb9ztbde4TJGi-togIyDSO7pPQR_o00R9-q6MQSF%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=cXHBD19-YhZyoRodG0EJkw%26_nc_ss=7a22e%26oh=00_AQJMvwmbBhQ2G-ZX3VvFLIhloLezk_UEq_oUUZx9a0HPHA%26oe=6AADA642%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DNnKNPCIpZj.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DNnKNPCIpZj/",
     linkType: "instagram",
     veggie: true,
@@ -6806,7 +6806,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -6819,7 +6819,7 @@ const RECIPES = [
     time: "40min",
     serves: "8 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/534191053_18412071373129198_4844358337300272655_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=105%26ig_cache_key=MzcwMjcyNTczNzUzNTg3NDE3NDE4NDEyMDcxMzY3MTI5MTk4.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=zfpIt88bc2MQ7kNvwG1TWAw%26_nc_oc=AdpBqyKpYD2aQOgGa5I5_Z6y_7DqbvMmT7K6IdtD5neKmteg0qBAWAhEZW28u5Am_g50K_gL-yYT_2jin_WijRJF%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=-Wj60Lh2yx1LdSuA1k2kwA%26_nc_ss=7a22e%26oh=00_AQKQl9_6KLxgnufIlQIM1ARgKq_a7y0rUhRdBhXRRlhjZQ%26oe=6AADB79A%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DNiuXC-haR-.jpg",
     link: "https://www.instagram.com/julieandrieu.officiel/reel/DNiuXC-haR-/",
     linkType: "instagram",
     veggie: true,
@@ -6836,7 +6836,7 @@ const RECIPES = [
       { qty: "200 g", name: "de chocolat noir 85%", rayon: 'epicerie' },
       { qty: "QS", name: "Cacao amer en poudre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -6849,7 +6849,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/523328803_18515931538056158_4193740673595584853_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=110%26ig_cache_key=MzY4Mzg3NjgwMTYzNDMxMjA1ODE4NTE1OTMxNTM1MDU2MTU4.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjM5NTguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=6KFJFx4ng2QQ7kNvwH_KsYX%26_nc_oc=AdqiAnP8WBztTaL1NvE0i-64WZe2eSjp8q247VhnBNVk1o4kzEkIf-i9Gpq3KeTXbpX3PP7oyhHxWTJQsNhZ9-bZ%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=qToOG-k0brfWr0CRKTtVwg%26_nc_ss=7a22e%26oh=00_AQJhEAi1yEGKSs9L-8xb-zYLu36pheYBsWopziJObjkGow%26oe=6AADB5EE%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DMfwm7dtx96.jpg",
     link: "https://www.instagram.com/ericfrechon/reel/DMfwm7dtx96/",
     linkType: "instagram",
     veggie: true,
@@ -6857,12 +6857,12 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "160-g-de-sucre-glace",
-    title: "160 g de sucre glace⁠",
+    id: "materiel",
+    title: "MATÉRIEL⁠",
     emoji: "🍰",
     cat: "dessert",
     chef: "franceinter",
@@ -6870,7 +6870,7 @@ const RECIPES = [
     time: "1h",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/504350202_764713402885228_1087457127784145700_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=MzY0NDAxODIyNjk4OTM1ODIyMw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=ii25D976OPwQ7kNvwHKoo6h%26_nc_oc=Adr8JzWMH1NUy24TknKTeSRgxKpvAtibQZxhDiNazwI_nu2K541uE3S65d3U3Gq-8Vdk5sLR09s8x46EKS1tuwnA%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=NBlfUPOjQHArgdloaKf-gw%26_nc_ss=7a22e%26oh=00_AQInLklGsi5ObaNXVVeBlumFWuZiZeePMgOtlCMux48_Tg%26oe=6AAD9E7A%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DKSJ0VGv9yP.jpg",
     link: "https://www.instagram.com/franceinter/reel/DKSJ0VGv9yP/",
     linkType: "instagram",
     veggie: false,
@@ -6890,12 +6890,12 @@ const RECIPES = [
       { qty: "QS", name: "Verser l’appareil par-dessus pour bien recouvrir tous les fr", rayon: 'epicerie' },
       { qty: "QS", name: "Déguster ce clafoutis tiède ou froid et servir à la cuillère", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "de-fines-escalopes-de-lexcellent-veau-corse-de-cyr",
-    title: "De fines escalopes de l’excellent veau corse de Cyrille Prov",
+    id: "recette-de-francoisregis-gaudry-DNNNMH",
+    title: "Recette de François-Régis Gaudry",
     emoji: "🥩",
     cat: "viande",
     chef: "frgaudry",
@@ -6903,7 +6903,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/531277491_18528794566028753_1455123537788920543_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=105%26ig_cache_key=MzY5NjY2MDE3MTk4NzIwMzU1Mg%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNzIwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=XbXNuYggjR4Q7kNvwHQ8Ezd%26_nc_oc=AdpekyKy2Ws6kkrhVa_y12fSAbG0CnfxVjnNPd8XSM6WBKAGpLvCzCaEdDfRmQUV1k3n_b5ywBXe4s85ir8wnaZM%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=LXro6ti2RhOhuNs8jy4a8g%26_nc_ss=7a22e%26oh=00_AQIFbws3SsgfIPU-cahi_ge_hqxhmvlOG4CwFRky5jDErw%26oe=6AADC2E9\nDe fines escalopes de l’excellent veau corse de Cyrille Provent et son équipe à la @laboucherie_de_saintflorent, de fines tranches de jambon de Parme et des feuilles de sauge du jardin… pour préparer l’un de mes plats préférés de l’été : les saltimbocca alla romana !\n\nRecette emblématique de Rome, ces « saute-en-bouche » demandent un peu de doigté au moment du montage mais se cuisent aller-retour en quelques minutes avec un peu de beurre et un trait de vin blanc : du vermentinu de Patrimoniu évidemment !\n\n#corse #corsica #rome #roma #saltimbocca%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DNNNMHdoz9K.jpg",
     link: "https://www.instagram.com/frgaudry/p/DNNNMHdoz9K/",
     linkType: "instagram",
     veggie: false,
@@ -6911,7 +6911,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -6921,10 +6921,10 @@ const RECIPES = [
     cat: "plat",
     chef: "mohamedcheikh_",
     chefName: "Mohamed Cheikh | محمد شيخ",
-    time: "24h",
+    time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/503720122_18511376386006964_1229135545518654534_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=106%26ig_cache_key=MzY1MzQ1OTgxMzIxOTg5MzgxNDE4NTExMzc2MzgwMDA2OTY0.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjM0NTAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=K5QX6doFLFUQ7kNvwGsn6cL%26_nc_oc=AdoWJtZJKIZ0Dg_iFZaZYePNJoYUd-f53dZhBEapKp6xtNiSFbjTOnCtLnWpQJw1gwx2WiFK61G9dbCDUWakL6JY%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=jG_V2GP0ChZvIq55B8fFzw%26_nc_ss=7a22e%26oh=00_AQJVpIw5ry9WEPDmniu_GS5ZcFgHXTQY8HNqDwwKOxKHCg%26oe=6AADB9C6%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DKzslfgIwI2.jpg",
     link: "https://www.instagram.com/mohamedcheikh_/reel/DKzslfgIwI2/",
     linkType: "instagram",
     veggie: true,
@@ -6938,7 +6938,7 @@ const RECIPES = [
       { qty: "50 CL", name: "Glaçons", rayon: 'epicerie' },
       { qty: "1", name: "P Blanc d’œuf", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -6951,7 +6951,7 @@ const RECIPES = [
     time: "5min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/529443940_18520064749042581_4656262774223388434_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=MzY5MzI0Nzk3MDkxODc3MDMzMDE4NTIwMDY0NzQ2MDQyNTgx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExNTIuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=fpCPymOby_MQ7kNvwGaghIQ%26_nc_oc=AdrJikMrklwNsThUWDUKZHnXJT-jiRNJ6lwnhebI1WzreygwtNdpl88EFTNkfs_pEu5j3MXZHKUdYruUR5EITRVM%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=c8n2uB_UPflpSpwgRamexg%26_nc_ss=7a22e%26oh=00_AQKXy8faTsRJOqH_z497ignFy8gnuyQQoJTp152Od2DHag%26oe=6AAD905E%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DNBDXY-C6aa.jpg",
     link: "https://www.instagram.com/laurent.mariotte/reel/DNBDXY-C6aa/",
     linkType: "instagram",
     veggie: true,
@@ -6959,7 +6959,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -6972,7 +6972,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/528679588_18512812408054914_2285932447174170619_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=MzY5NDc1MDA0MDY4MTc3MDY3OA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIyNjguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=bmobQWsl09oQ7kNvwG-bf6s%26_nc_oc=AdqwRRS7g5DzUA7tJhx55c8eLVMO2kPi0bdZs9QoFFu2Juv_ymNSwgn9cW9RNb4GnfoPY-Be1Zm4c5Hu2fBPHAeM%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=upkhQZnwZ373oo4hIb1PSg%26_nc_ss=7a22e%26oh=00_AQKGDE_6lALWUFoqbfIak4aFzPBp0ABzDN-O7Bj_MGJOxQ%26oe=6AADB5AE%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DNGY5Ycsm62.jpg",
     link: "https://www.instagram.com/chefsimonezanoni/reel/DNGY5Ycsm62/",
     linkType: "instagram",
     veggie: true,
@@ -6980,7 +6980,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -6993,7 +6993,7 @@ const RECIPES = [
     time: "3h",
     serves: "12 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/523328470_18517897822042581_7788600805060810179_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=111%26ig_cache_key=MzY4NDYzNzczMDMwODQwNTE1MzE4NTE3ODk3ODE2MDQyNTgx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExNTIuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=VI2v3zxnuqUQ7kNvwHDZ1AD%26_nc_oc=AdpOMdwbmp8tNzX-l9uUVwNT0UUrrDAwcp9DpFJ373qyNptKmmVrV655hroh2WrzaqrnfcPGjYI-bvh8IYzT1bY2%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=HBPwe4yShfe6_KqysJZkAQ%26_nc_ss=7a22e%26oh=00_AQI8VIBfX5GUuqRmFMYAjBhP4HsNZM-iZ03252GkPUWCcw%26oe=6AAD99A0%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DMidn5hCLeh.jpg",
     link: "https://www.instagram.com/laurent.mariotte/reel/DMidn5hCLeh/",
     linkType: "instagram",
     veggie: false,
@@ -7008,7 +7008,7 @@ const RECIPES = [
       { qty: "1", name: "citron", rayon: 'epicerie' },
       { qty: "QS", name: "Ficelle de cuisson", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -7021,7 +7021,7 @@ const RECIPES = [
     time: "15min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/525180063_18520414777010490_6674743694077727843_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=104%26ig_cache_key=MzY4NTI2NjE4NTU1MTE0NTYzMQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjE0NDAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=euVTTxkeWLgQ7kNvwG9VQLJ%26_nc_oc=AdowgZ0NWLcF2Wy7GOwVMGNnLBT1GCs6pBhffue0g4YVetMap9ATfCyOXhWsf96_DBSZiIBC20sMJk-0GMaAdLJt%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=Buu6xS0f5U8bThNhqmkG5Q%26_nc_ss=7a22e%26oh=00_AQK9mCAU4XlGVLTqc2tvV82bGlReHJCoeq3UZB8Ts6sVqA%26oe=6AAD905D%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DMkshIEiOqf.jpg",
     link: "https://www.instagram.com/steflequellec/reel/DMkshIEiOqf/",
     linkType: "instagram",
     veggie: false,
@@ -7029,7 +7029,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -7042,7 +7042,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/518818381_18518234650010490_775448988337265167_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzY3NjU0NDM3MzI3NTMyMjA4NA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExNzkuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=UDdmv2pn5NYQ7kNvwE_W0Fr%26_nc_oc=AdqrDUyFGpZxwXAZD0foz7XHjhqFh0LL147rOuiXIpOTy921pvGxakX0CJK3riMlkE7gESw0LIh55odEZWj5sD-b%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=0z8HtQ7WfesVh02TfqZpNg%26_nc_ss=7a22e%26oh=00_AQI6NIybMSFRpatGrG6L5JHFaJO5qs4PXHwYcGA-ae_sSA%26oe=6AADB1F7%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DMFtaDaCWbk.jpg",
     link: "https://www.instagram.com/steflequellec/reel/DMFtaDaCWbk/",
     linkType: "instagram",
     veggie: true,
@@ -7050,7 +7050,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -7063,7 +7063,7 @@ const RECIPES = [
     time: "125h",
     serves: "6 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/523902560_18520502548010490_1929670355036294779_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=101%26ig_cache_key=MzY4NTk5NDU0NTY1MzM5MzcxOQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjE0NDAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=-2cecybH7ScQ7kNvwENoCR8%26_nc_oc=AdrmSu-gGoxUuDgvBHQ9YfQ8UmF_LGCr4mkgtykc306siHfOcyKtNapMixoHRFJi5lglv1C8L8bZSsqfWC6ApCej%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=HDItWlDzFaiO5hZRmtNq0Q%26_nc_ss=7a22e%26oh=00_AQKd9jSCkc7-XXdLEYZTiCQ2FXFkSTi0_3i5Rnz4JDii0g%26oe=6AAD9EFC%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DMnSIKRsqk3.jpg",
     link: "https://www.instagram.com/steflequellec/reel/DMnSIKRsqk3/",
     linkType: "instagram",
     veggie: true,
@@ -7071,7 +7071,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -7084,7 +7084,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/517149324_18348731560087082_6894116842454539619_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=101%26ig_cache_key=MzY3NTcyNjkxMDc1OTAxMzg1NA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMDYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=KT-7b61LTjMQ7kNvwGBwCH7%26_nc_oc=Adqt_WbSBfpmXhgKiSgNsQSbezXEqU657xQxBwgyxjd3l1JTBv_yYUOFM9sC3CgkLdBBup0zAfNxP9OBXQERT07p%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=rYKt_rH-TBOWAfVbghnpsQ%26_nc_ss=7a22e%26oh=00_AQLcC7RCxA9P_Hn1hr3Wm9YBK7VFg8zdphFEYNn4B09BIg%26oe=6AAD93EC%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DMCziaHIo3e.jpg",
     link: "https://www.instagram.com/maison.lamotte/reel/DMCziaHIo3e/",
     linkType: "instagram",
     veggie: false,
@@ -7092,7 +7092,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -7105,7 +7105,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/520952974_18052215803567661_7566546862534963062_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=104%26ig_cache_key=MzY3ODA1ODYzOTY3OTA2Nzg0Ng%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=D9dDyT8gbrAQ7kNvwEh8j_z%26_nc_oc=AdoJ-XWWqWvncHx6KggUmgZhmqwYP2qSYL3k6BzPwwH-CQeU9R1HNkGcO35Knd_SCHjnAiE6tYzL2upiCQstcodT%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=YJbs8xxwnnCKNGRBMlDHtQ%26_nc_ss=7a22e%26oh=00_AQLaSEuW1JXz5jyjKymhSrcGz89UQDFnsh_sB4byxbyQfQ%26oe=6AADA860%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DMLFth5IJbG.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DMLFth5IJbG/",
     linkType: "instagram",
     veggie: true,
@@ -7113,7 +7113,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -7126,7 +7126,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/520247910_18052620788567661_1740751667938490762_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=MzY4MDA1ODczNzA5NTIwNjk0MDE4MDUyNjIwNzgyNTY3NjYx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjMyMTYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=ht60dWVwTnUQ7kNvwEtdlG3%26_nc_oc=AdpIpQm0TsggltZ15_ieGAAb9mGRe4551Y3MV80EA4g_40jA391hRwoAraCf4GBllqa7Pg2t_gGzJi2dOtGHKuct%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=_p_f4vKWkdgGn-ZrPHYm3g%26_nc_ss=7a22e%26oh=00_AQLUiv5AozuxKh8H7JdpzvfqOcR0VYMKd2rscE9cRB6qlQ%26oe=6AADA45D%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DMSMexxIegc.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DMSMexxIegc/",
     linkType: "instagram",
     veggie: true,
@@ -7134,12 +7134,12 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "pour-un-pique-nique-ou-un-barbecue-ca-marche-toujo",
-    title: "Pour un pique nique ou un barbecue ça marche toujours 💛",
+    id: "recette-de-lou-elsener-DMN85f",
+    title: "Recette de Lou Elsener",
     emoji: "🍽️",
     cat: "plat",
     chef: "louloukitchen_",
@@ -7147,7 +7147,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/525619970_18053802260567661_3563584007709826566_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=101%26ig_cache_key=MzY3ODg2NDMwMzk5NzM0NjAwNzE4MDUzODAyMjU0NTY3NjYx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEzMTguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=4OLDJgpGfZgQ7kNvwEajbNF%26_nc_oc=AdrQc1jZEzvRNGn7IQ1nKaCVCsxgwHlf8HiADFZDzRR8HDbKQY7OfZkIqVOM-QWYWjQvzjgq_qHAhuBButjbqpfZ%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=b0BL6oGPkKgsP0MdDzHshw%26_nc_ss=7a22e%26oh=00_AQIqZjjJrqLGd4jIfHgiPelkwDxiOLJUjrQvV8Cxh_2F2g%26oe=6AADC62C%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DMN85fQoGDX.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DMN85fQoGDX/",
     linkType: "instagram",
     veggie: true,
@@ -7155,7 +7155,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -7168,7 +7168,7 @@ const RECIPES = [
     time: "45min",
     serves: "2 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/521160252_18524298184028753_3664392377892325975_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzY3ODgwNTk3NTQxMzkzNDI0OTE4NTI0Mjk4MTgxMDI4NzUz.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=rJBopHXhN_0Q7kNvwEbtmwo%26_nc_oc=AdphgYAI-jSObWqOpMmKGwPPYM36JxCBwy2X80WrBJfjLehGj9-z8_evZR3tUmPHtMLkAwz0VW7-Gmp-ZbQ-Q057%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=hmb6ofXbxQZunUtCVrGdCQ%26_nc_ss=7a22e%26oh=00_AQLUOMCdofA-A_3ym7iE4HNnbn9_kKZX5glrqiENRxG19g%26oe=6AAD9E90%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DMNvosiIcip.jpg",
     link: "https://www.instagram.com/frgaudry/reel/DMNvosiIcip/",
     linkType: "instagram",
     veggie: false,
@@ -7176,7 +7176,7 @@ const RECIPES = [
     ingredients: [
       { qty: "QS", name: "Pour 2 personnes", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -7189,7 +7189,7 @@ const RECIPES = [
     time: "12min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/519942460_18299795593300957_2310275663887319639_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=MzY3Nzg1MDk3MDQ4Njk3MjgwMQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=YOtlhOUfBCAQ7kNvwFWMySI%26_nc_oc=Adqxa5BxGOCAYRpRS4qFnMeyoC5gewMoQwhKR9wqwPm6IGWOGlX2Z52TEHcBX829bh4fbAS-7_PR3UYbwfoImpAm%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=PFKy6DGMrxldTyO6D5DFNw%26_nc_ss=7a22e%26oh=00_AQI4YqYRX5fhC3Bc1Wp0QMOS8Vgt_efSkE6zcRtrO3ooew%26oe=6AAD9326%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DMKWfi4s6GB.jpg",
     link: "https://www.instagram.com/kitchenfactoryprod/reel/DMKWfi4s6GB/",
     linkType: "instagram",
     veggie: true,
@@ -7211,12 +7211,12 @@ const RECIPES = [
       { qty: "50g", name: "de jus de citron jaune", rayon: 'epicerie' },
       { qty: "1", name: "gousse d’ail épluchée et dégermée", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "cest-la-saison-des-salades-et-pour-saffranchir-des",
-    title: "C’est la saison des salades et pour s’affranchir des classiq",
+    id: "recette-de-julie-andrieu-profil-officiel",
+    title: "Recette de Julie Andrieu, Profil Officiel",
     emoji: "🍝",
     cat: "pates",
     chef: "julieandrieu.officiel",
@@ -7224,7 +7224,7 @@ const RECIPES = [
     time: "25min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/537600968_18412442950129198_8644030159753598246_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=106%26ig_cache_key=MzY3NzM1NTc1MTk5MDQ1MTc2OTE4NDEyNDQyOTQ0MTI5MTk4.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjkwMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=9acKLG7THvUQ7kNvwHShkhx%26_nc_oc=Adr33uzH5k-u1ZqnZSiup98pW7FFn7DUdkSI3qnzPYTLP8IeCJ8q8hxRpwongL6NQ1FKw6A9FlDD3R-t4LVAKnA_%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=7g5ebQ_VXmNfCnQH9azc7A%26_nc_ss=7a22e%26oh=00_AQIXo_iNeybUA2L26n1hG5oUho_WkQYobEvnFgBtyQPDyQ%26oe=6AADB0A8%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DMIl5KuIV45.jpg",
     link: "https://www.instagram.com/julieandrieu.officiel/reel/DMIl5KuIV45/",
     linkType: "instagram",
     veggie: true,
@@ -7232,7 +7232,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -7242,10 +7242,10 @@ const RECIPES = [
     cat: "entree",
     chef: "frgaudry",
     chefName: "François-Régis Gaudry",
-    time: "1h",
+    time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/518203914_18522996937028753_2722937692164080643_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=111%26ig_cache_key=MzY3MzczNDAyNTEwNDczMDMxNTE4NTIyOTk2OTMxMDI4NzUz.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyOTAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=i18MJkN-sdYQ7kNvwFnwTNT%26_nc_oc=Adq1Vb4EFdzRUupn4aLI55hFgHH2s6L8a_7OYZGhbZh212sgxiPT3obEGlNCzfWgk2RMxCqjG3qo70iR6qXoWJCk%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=2Rr9kHg1Fz6BfYjMaxWIFg%26_nc_ss=7a22e%26oh=00_AQJT9G0L-y8IDlfltXbYczxqsb2qKFoLT3ztefgl9sBbmg%26oe=6AADADAC%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DL7uaGtoijL.jpg",
     link: "https://www.instagram.com/frgaudry/reel/DL7uaGtoijL/",
     linkType: "instagram",
     veggie: true,
@@ -7253,12 +7253,12 @@ const RECIPES = [
     ingredients: [
       { qty: "QS", name: "Pour 4 personnes", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "1-grosse-courgette-ou-2-petites",
-    title: "1 grosse courgette ou 2 petites",
+    id: "recette-de-lou-elsener-DLz57M",
+    title: "Recette de Lou Elsener",
     emoji: "🥬",
     cat: "accompagnement",
     chef: "louloukitchen_",
@@ -7266,7 +7266,7 @@ const RECIPES = [
     time: "25min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.82787-15/516393498_18051082205567661_1665001368042438814_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=MzY3MTUzMjg3Nzg2MjAzMTg3OA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIyNjguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=m-5bxthpn5QQ7kNvwFFyuNu%26_nc_oc=Ado-EMCMaAbc3O0os9SGsv-qVE7d8rMDw5HdCQnI07gnBvxk1aVlE5ifnJw-pcHIgPs5s9XJ8W5czHWsTv7v3lG1%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=biRiFVqkdnd1fWe2wvzA4A%26_nc_ss=7a22e%26oh=00_AQLmBNSOFXtTt2VtD2Om439f2D9MtluG9FISlzyuj-sz5w%26oe=6AADBDFC%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DLz57MmIlIG.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DLz57MmIlIG/",
     linkType: "instagram",
     veggie: true,
@@ -7280,20 +7280,20 @@ const RECIPES = [
       { qty: "1 cas", name: "d’huile d’olive", rayon: 'epicerie' },
       { qty: "QS", name: "Sel", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "250-g-de-faisselle-de-chez-fromage-gourmet",
-    title: "- 250 g de faisselle de chez Fromage Gourmet",
+    id: "preparation-DLnICJ",
+    title: "Préparation :",
     emoji: "🍽️",
     cat: "plat",
     chef: "pourdebon",
     chefName: "Pourdebon.com",
-    time: "2h",
+    time: "35min",
     serves: "4 pers.",
     difficulty: "Avancé",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/514581139_18467502904078962_9221499526979566552_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=MzY2NzkzNTc1MzExNzgxNTkzNw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=f1pl7D0e4ZAQ7kNvwEvmEfH%26_nc_oc=AdrK4uF_T9nHfGpuD45xIe7UFmwfgxMrSenqT9wJ-ejxYZ6JRhAlL6KmyuHWpFaVr7o9w4Hyrc7NAu6VnKLyid7T%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=ZKE2iu8u6IFKNoEgXJyRMw%26_nc_ss=7a22e%26oh=00_AQKGJvKbWx_wztcJ_Zc-4qOo7MQlk6MJi13LGJ3shJv2xw%26oe=6AADA7C8%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DLnICJHitSB.jpg",
     link: "https://www.instagram.com/pourdebon/reel/DLnICJHitSB/",
     linkType: "instagram",
     veggie: true,
@@ -7308,7 +7308,7 @@ const RECIPES = [
       { qty: "1", name: "c.à.c. d’huile de noix (facultatif)", rayon: 'epicerie' },
       { qty: "QS", name: "Sel et poivre au goût", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -7318,10 +7318,10 @@ const RECIPES = [
     cat: "dessert",
     chef: "kitchenfactoryprod",
     chefName: "Kitchen Factory Production 🍽",
-    time: "20h20",
+    time: "40min",
     serves: "4 pers.",
     difficulty: "Avancé",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/509719227_18297906595300957_8716101329512923602_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=MzY2NjI3NTgwMDc1NjQwMzM4MA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=VtdyozFZ4JsQ7kNvwFjQM9a%26_nc_oc=AdoBQnoJtSoDm8kbf3BEWTXTXNAiKldQLDfji4cnWkmQLUSF2resySpEWZpejj4-0IzfbY-sCBX4edBfGKjwwVzf%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=tqLnwKfqKf-jn6ad7wQLaQ%26_nc_ss=7a22e%26oh=00_AQIyDf1L1HyFR_fFvsM27Glux_k84CF11aYQslBF_MvRvA%26oe=6AADA19E%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DLhOmqAsjy0.jpg",
     link: "https://www.instagram.com/kitchenfactoryprod/reel/DLhOmqAsjy0/",
     linkType: "instagram",
     veggie: true,
@@ -7336,12 +7336,12 @@ const RECIPES = [
       { qty: "QS", name: "½ litre de sorbet fraise", rayon: 'epicerie' },
       { qty: "50g", name: "d’amandes effilées torréfiées", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "3-grosses-aubergines",
-    title: "3 grosses aubergines",
+    id: "huile-dolive",
+    title: "Huile d’olive",
     emoji: "🥩",
     cat: "viande",
     chef: "franceinter",
@@ -7349,7 +7349,7 @@ const RECIPES = [
     time: "12min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/504613035_18504469876044985_836297335822244065_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=102%26ig_cache_key=MzY2NDMxMjI1NjMxMzA5MDE2ODE4NTA0NDY5ODczMDQ0OTg1.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=xO6mIUGdHywQ7kNvwEcu-R7%26_nc_oc=Ado2HJb7dOjAP0VvWAriOxnTJNK4xqeIynNkNP6m2XZbKIX-xe29pYt8EJkGTL7zb50w035SOZMTXQk2An8p7ptr%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=t_p-88ObehUIo_-nbsb-PA%26_nc_ss=7a22e%26oh=00_AQJecpXnW7OzCULvf4GOl6EN_wzJaV7-l_qcoj1NJqG8yw%26oe=6AADA2D9%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DLaQJUvpuB4.jpg",
     link: "https://www.instagram.com/franceinter/reel/DLaQJUvpuB4/",
     linkType: "instagram",
     veggie: false,
@@ -7369,7 +7369,7 @@ const RECIPES = [
       { qty: "QS", name: "Huile d’olive", rayon: 'epicerie' },
       { qty: "QS", name: "Sel, poivre du moulin", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -7382,7 +7382,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/510933420_18513218947061228_5440812084936654843_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=111%26ig_cache_key=MzY2MzQwNTY5NTE4NDg0NzkxNTE4NTEzMjE4OTQxMDYxMjI4.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMDIuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=gjDKDjw2fL8Q7kNvwHCyXw-%26_nc_oc=AdowmE-2Q5ptcm3i0jJ96mukZV-b-zz_qwD4AERA9SlJCH2oXF0wL89aL4rr0vObZL2Ls14Ed4p4wNhcA3fQWu5b%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=hjAycWGdStZiDdjL-GAL2A%26_nc_ss=7a22e%26oh=00_AQJpEnK4isKIPx2edMc46mDFIvafF_rJyHurslTuSrSXMA%26oe=6AAD9B70%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DLXCBH5osQr.jpg",
     link: "https://www.instagram.com/xavier_pincemin/reel/DLXCBH5osQr/",
     linkType: "instagram",
     veggie: false,
@@ -7390,7 +7390,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -7403,7 +7403,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/489907739_17863160448380759_3105481794077320147_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=103%26ig_cache_key=MzYwNjg0MzE5MjM2OTMyNzg0Mw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=c81_AbR2LygQ7kNvwECYeqo%26_nc_oc=AdoIxkVwUtwpK66LVZj0mnp5t6bgqcn3H4qmnUn-Cm2BmTzw2lOv6Lsji1rQZRBBy358rZZf9lxLCnQhOOV_bJ-Q%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=uo_iYFK-9ZnsTHRj_sFGqQ%26_nc_ss=7a22e%26oh=00_AQLA4hZvRZjC2yKquWP7Um-SwBPjun1r65QCnryhhLeB-w%26oe=6AADBE7B%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DIOFMYJta7j.jpg",
     link: "https://www.instagram.com/bay_wf/reel/DIOFMYJta7j/",
     linkType: "instagram",
     veggie: false,
@@ -7411,12 +7411,12 @@ const RECIPES = [
     ingredients: [
       { qty: "QS", name: "🥕 Pour les légumes :", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "la-dolce-vita-15-aujourdhui-pour-notre-serie-de-re",
-    title: "La dolce vita 1/5 🇮🇹 Aujourd’hui, pour notre série de recett",
+    id: "recette-de-cuisineaz-DLSUgQ",
+    title: "Recette de CuisineAZ",
     emoji: "🍽️",
     cat: "plat",
     chef: "cuisineaz",
@@ -7424,7 +7424,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/510995825_1044382151150625_1202638526239415337_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=103%26ig_cache_key=MzY2MjA3OTYyNDk0Nzg3Njc1NA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=gg70z5c_ztgQ7kNvwG_ZffO%26_nc_oc=AdqaxDmZ-sjeGjt4nDN-ZsnDxHgyysCyiatreDi2edjS_ScXOOs0e2qJESopxxUkXlWlYCEGnkMFgY3XWzPYxMv3%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=BmTKCTUMbFGQpN0yT8N-fg%26_nc_ss=7a22e%26oh=00_AQKyqeVmIQjnityiV0aWy7NCl2jv2MDm6o_0h_YE45ynHw%26oe=6AADBD29%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DLSUgQwNsOS.jpg",
     link: "https://www.instagram.com/cuisineaz/reel/DLSUgQwNsOS/",
     linkType: "instagram",
     veggie: true,
@@ -7432,12 +7432,12 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "cest-la-pleine-saison-des-abricots-et-ca-ne-dure-q",
-    title: "C’est la pleine saison des abricots. Et ça ne dure que trois",
+    id: "recette-de-brut-DLKNfq",
+    title: "Recette de Brut.",
     emoji: "🍰",
     cat: "dessert",
     chef: "brutofficiel",
@@ -7445,7 +7445,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/498628152_18376395676126910_7319931194852578730_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=MzY1OTc5Njk5NzM5NTI2NTgyMTE4Mzc2Mzk1NjczMTI2OTEw.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=CWraoCmOJ7UQ7kNvwEd0tz9%26_nc_oc=AdoWx8bFXnu5WQ4vfDz29D_cxQniplWGFRboZwQ8J81fA-2hmHON8PWPRZ1KYG6_SFr-U9hVGoKbjgiktwzMg83q%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=htMrVUiwk1lBj2Um8ICcZw%26_nc_ss=7a22e%26oh=00_AQLmIresv43-Q3jfCaUu2o3YKH7xBldM8Cs7xmw269Eg7A%26oe=6AADAA59%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DLKNfqLyTkd.jpg",
     link: "https://www.instagram.com/brutofficiel/reel/DLKNfqLyTkd/",
     linkType: "instagram",
     veggie: true,
@@ -7453,7 +7453,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -7466,7 +7466,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Avancé",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/504870643_18513626800058637_3838292807694511328_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=104%26ig_cache_key=MzY1Njg1OTg4Njg1MTE1MDg0MTE4NTEzNjI2Nzk3MDU4NjM3.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIyNjguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=sCChmrkAB5EQ7kNvwGwEnPz%26_nc_oc=Ado4N58aN664ne3aVGPOMQVxqsAv4GFeMbpjmCZjibIabIHkDkmL_Yg2xvj3PwiE9lgw5KjuC-eJhLbR7sNbJMeK%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=uhW_PxnS74CYEtiBQp_apA%26_nc_ss=7a22e%26oh=00_AQJGu-EhmBHXbnbOPviJswXaSnj7BhZE6-qKa1FMUHByxQ%26oe=6AADC424%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DK_xrE1I1P5.jpg",
     link: "https://www.instagram.com/cyrillignac/reel/DK_xrE1I1P5/",
     linkType: "instagram",
     veggie: true,
@@ -7479,12 +7479,12 @@ const RECIPES = [
       { qty: "1", name: "cuil. à soupe de sucre glace", rayon: 'epicerie' },
       { qty: "100 g", name: "de purée de fraises", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "500-g-de-fusilli",
-    title: "500 g de fusilli",
+    id: "poivre-du-moulin",
+    title: "Poivre du moulin",
     emoji: "🍝",
     cat: "pates",
     chef: "franceinter",
@@ -7492,7 +7492,7 @@ const RECIPES = [
     time: "25min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/506063535_1053929119651498_4209830051167032653_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=101%26ig_cache_key=MzY1NDE2NTExODU0MDgxNzg1Ng%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=Swog1bkSTWQQ7kNvwHJM8sy%26_nc_oc=AdqrR3JYh2m8kfOo_mTr3mef4DEXyv8sZQHdsOOgJ24qte7rwrt_800NVl9c-i0Ct7irlShUYRI8HuETnpRkqId-%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=N-D-83GxytmWh2XjWRg8Wg%26_nc_ss=7a22e%26oh=00_AQIeKN6dBqzrDtKtbcOskldBEbS1oPlOX63mlXeaqzGANA%26oe=6AADB720%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DK2M9CRP6XA.jpg",
     link: "https://www.instagram.com/franceinter/reel/DK2M9CRP6XA/",
     linkType: "instagram",
     veggie: false,
@@ -7511,20 +7511,20 @@ const RECIPES = [
       { qty: "QS", name: "Sel", rayon: 'epicerie' },
       { qty: "QS", name: "Poivre du moulin", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "100-g-de-roquette",
-    title: "100 g de roquette",
+    id: "quelques-feuilles-de-sauge",
+    title: "Quelques feuilles de sauge",
     emoji: "🥩",
     cat: "viande",
     chef: "franceinter",
     chefName: "France Inter",
-    time: "4h",
+    time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/504567955_18500543608044985_9123536437641254450_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=103%26ig_cache_key=MzY0OTA5MTUyOTQyMTEzOTk3MTE4NTAwNTQzNjA1MDQ0OTg1.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjkwMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=oKFT-r_PuVkQ7kNvwEpeUi4%26_nc_oc=Adq31uB9_FZ1O3udkkCOsL5twNBUL9i2HBh0eU6X7foX3jZPHU2Q73Bq0o3Ria1GlIP1Ne5xzJudJNC9p8Fqmvg1%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=WeaeUDBGyr5PjgL6uYkOWA%26_nc_ss=7a22e%26oh=00_AQIg0tcerlmEMVBQqeV70Eo1SyTF7U-eJK9DGpuIaApoIg%26oe=6AAD9B7B%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DKkLWmMCLAD.jpg",
     link: "https://www.instagram.com/franceinter/reel/DKkLWmMCLAD/",
     linkType: "instagram",
     veggie: false,
@@ -7542,7 +7542,7 @@ const RECIPES = [
       { qty: "QS", name: "Huile d’olive", rayon: 'epicerie' },
       { qty: "QS", name: "Fleur de sel, poivre du moulin", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -7555,7 +7555,7 @@ const RECIPES = [
     time: "40min",
     serves: "6 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/504608917_1220790139780187_4805965591064174396_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=104%26ig_cache_key=MzY0NTI1NjMxOTI5ODY3OTA0MQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=giqVejq-Q4cQ7kNvwGmHl57%26_nc_oc=AdpslYQClMbk2GmLAm2Rp2MHSCnNEKfhXQwyYDk1XRwFSaEw2nTvSpGIr0O8RejOAV5-q9OOzIvTQ6Ia2E0OV2mo%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=M5XUAW1mGuAiZFQS8X05Og%26_nc_ss=7a22e%26oh=00_AQLv8X9LNZMn2JfgWLNtEERT9G6o-EWRY5nWg0Z2XZi9qg%26oe=6AADC162%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DKWjU8bC7EB.jpg",
     link: "https://www.instagram.com/lepointfr/reel/DKWjU8bC7EB/",
     linkType: "instagram",
     veggie: true,
@@ -7570,12 +7570,12 @@ const RECIPES = [
       { qty: "20 g", name: "de farine", rayon: 'epicerie' },
       { qty: "10 g", name: "de poudre de vanille", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "une-rejouissante-halte-sur-la-terrasse-de-beoubist",
-    title: "Une réjouissante halte sur la terrasse de @beoubistrot, la t",
+    id: "recette-de-francoisregis-gaudry-DKbZJF",
+    title: "Recette de François-Régis Gaudry",
     emoji: "🍽️",
     cat: "plat",
     chef: "frgaudry",
@@ -7583,7 +7583,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/503095871_18515918233028753_3375137757748828983_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=104%26ig_cache_key=MzY0NjYxNDEzODIzODY5OTQwMA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNzIwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=d5BDMvb9HzAQ7kNvwGvaFfu%26_nc_oc=AdrVNPRvPUpm0Oddm3HJNlF_2NHzeYAKI2If4blp99baAhArBuRj5M18e_ApQUJVtAfvd_OUApVUTXDj8OoMpIx_%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=WEj5Y2aDGFlAyEJh5K89tQ%26_nc_ss=7a22e%26oh=00_AQLPsN8hX-zbE4tOEsEsVVRlF7E5WYkDNJtz6fhZdBqngw%26oe=6AADA3B0\nUne réjouissante halte sur la terrasse de @beoubistrot, la table de Marie Petit-Doux qui a eu la bonne idée de ressusciter la maison de son grand-père. \n\nUne bistronomie ensoleillée et des vins vivants servis par Ricco dans un lieu franchement beau ➡️ à retrouver bientôt dans notre Spéciale Très Très Bon Avignon 📺\n\n@ttbontv @parispremiere%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DKbZJFRIpsw.jpg",
     link: "https://www.instagram.com/frgaudry/p/DKbZJFRIpsw/",
     linkType: "instagram",
     veggie: true,
@@ -7591,7 +7591,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -7601,10 +7601,10 @@ const RECIPES = [
     cat: "entree",
     chef: "kitchenfactoryprod",
     chefName: "Kitchen Factory Production 🍽",
-    time: "20h20",
+    time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/502631395_18294079597300957_2224533858895575766_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=111%26ig_cache_key=MzY0Mzk3MDc1NTA1ODg4NTc5Mw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=x9712Hdie2sQ7kNvwFTKzUK%26_nc_oc=AdpDP_3B9ctn0XUUeQ3Rb5QKhCcu3htR2_yuNNbehS5qh3PyDIk815ISTt4bSEkG_DakILn6i__CoyHhoiRLHYEU%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=bUijFfE-OU4nkTjjQLYbKw%26_nc_ss=7a22e%26oh=00_AQJ6Ptvsa56z7oqOQ0NNZ1uQv3T-5gBjsSREcPkLmPEN0Q%26oe=6AADC24C%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DKR_BhbMmSh.jpg",
     link: "https://www.instagram.com/kitchenfactoryprod/reel/DKR_BhbMmSh/",
     linkType: "instagram",
     veggie: true,
@@ -7623,12 +7623,12 @@ const RECIPES = [
       { qty: "QS", name: "Huile d’olive", rayon: 'epicerie' },
       { qty: "QS", name: "Sel fin et poivre du moulin", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "4-oeufs",
-    title: "- 4 oeufs",
+    id: "la-recette-complete-sur-youtube",
+    title: "La recette complète sur Youtube !",
     emoji: "🥗",
     cat: "entree",
     chef: "europe1",
@@ -7636,7 +7636,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/501080271_18511179553039769_2675007675726199894_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzYzOTUxODQ1ODQ0NzA4NzAyMQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjU0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=GI5uJnzNdaAQ7kNvwHj3d1s%26_nc_oc=Ado0-6qDEAtjrEl-p-gY5g87E89_e0973ryNSrZfEdzh-EUz8kZ3SX2MUNlnt1M2m5sovdfG_C7quI8Bl91dNBhO%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=rBObxjj0fDo7QzEaWxJ1bQ%26_nc_ss=7a22e%26oh=00_AQLCvCLjMTpUqafe5JxPN7snhYchDNDZ7FjfYCIdyi4TIQ%26oe=6AADA3D2%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DKCKsFFN0Wt.jpg",
     link: "https://www.instagram.com/europe1/reel/DKCKsFFN0Wt/",
     linkType: "instagram",
     veggie: false,
@@ -7655,7 +7655,7 @@ const RECIPES = [
       { qty: "QS", name: "Huile d’olive", rayon: 'epicerie' },
       { qty: "QS", name: "Fleur de sel", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -7668,7 +7668,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/500848979_18046166075567661_9201938653965230993_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=111%26ig_cache_key=MzY0MTgxMjk5NzQ3ODk4NTQyNQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=cPdm2EyGyIYQ7kNvwGv0B9w%26_nc_oc=Adpmm1kA4cVyscPlr0cByfQ1Vsalpu6CfNwOC63WIOAVKpg4AqbhIVK2NGpoVG38pa4_y_ka4Z2b5T6A3FuJXc4a%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=_d9LOm2y065N35cME32jxA%26_nc_ss=7a22e%26oh=00_AQKuYErLK-KZbTVp1DkZASylngWYC1jTrmf0F-kP9Ukh9A%26oe=6AADAF89%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DKKUaBFIq7R.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DKKUaBFIq7R/",
     linkType: "instagram",
     veggie: false,
@@ -7690,12 +7690,12 @@ const RECIPES = [
       { qty: "1 cac", name: "d’ail semoule ( important )", rayon: 'epicerie' },
       { qty: "QS", name: "Sel poivre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "meilleur-combo-lete-que-ca-connais-pas-apres-mes-m",
-    title: "Meilleur combo l’été que ça ? Connais pas ! Après mes mésave",
+    id: "recette-de-lou-elsener-DJv68f",
+    title: "Recette de Lou Elsener",
     emoji: "🍽️",
     cat: "plat",
     chef: "louloukitchen_",
@@ -7703,7 +7703,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/497900309_18045028199567661_4107101117721951127_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=MzYzNDM4MjY2ODQ1NTU2MzUwNA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=6sY0oMY4vkEQ7kNvwH7qaox%26_nc_oc=AdoF35e-M75VbWvrr45ul2y7CAShDkmA35GiAQ_bf2A8sIRvhyywlJbkTij_lro3ECL0m-KqmdcgtZIw61RywTYR%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=FH4ujfiqLBDaoPwcpH8LqA%26_nc_ss=7a22e%26oh=00_AQJ6hwap4IWOqc22I6VbbWelErvsxJwwPJtLxa7cSuwmLg%26oe=6AADB3CF%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DJv68f7IVDw.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DJv68f7IVDw/",
     linkType: "instagram",
     veggie: true,
@@ -7711,7 +7711,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -7724,7 +7724,7 @@ const RECIPES = [
     time: "10min",
     serves: "3 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/499913312_18045483503567661_1417460074402853298_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=105%26ig_cache_key=MzYzNzQ2NTMxODgzNzk1NzM3Mg%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=iJUvv-yw6qoQ7kNvwGQiqck%26_nc_oc=Adoj4nNcEzLVzPH4ngH9ZLS8IkKk2pxoJT2KaA_cvyl3BlltRUhTCM4zzNDKtF7FSYukI12vW0k-W7f3xbY7mpS5%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=kfKiCDMpIkD5c8c0tKDLEA%26_nc_ss=7a22e%26oh=00_AQJTAwOXtzi9gNjEC4BkD_HETB9HBUpwsGnlW6Gz_tAjrw%26oe=6AAD9335%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DJ63290I7L8.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DJ63290I7L8/",
     linkType: "instagram",
     veggie: false,
@@ -7743,7 +7743,7 @@ const RECIPES = [
       { qty: "QS", name: "Parmesan", rayon: 'epicerie' },
       { qty: "3/", name: "rajoutez le poulet,", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -7756,7 +7756,7 @@ const RECIPES = [
     time: "2min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/500998173_3009335002580150_5738731136267714311_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=111%26ig_cache_key=MzYzODc1MTY5MjUzODkxNjgzMTEzOTE5ODA4NDE5Mjg2NTI%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=G05tmZsU_yoQ7kNvwGaZlto%26_nc_oc=AdrFulQqjyNR7x3As8ns5QZuErpqzeR1Cnj560Ue1rZ121Yen9wLD9dgTUrsrUIVYqGw45tOHzlA3vpr7sYBDI5k%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=P3dTjtxi-pC_f9IDNxD7Dw%26_nc_ss=7a22e%26oh=00_AQKyiyguL-D1ET2yrNtncw-DzS7M5AiiWhurfFy8a6qtJQ%26oe=6AADBBAC%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DJ_cWKroi_f.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DJ_cWKroi_f/",
     linkType: "instagram",
     veggie: true,
@@ -7772,7 +7772,7 @@ const RECIPES = [
       { qty: "4/", name: "decoupez la tranche de pain en crouton et faites revenir dans une poêle", rayon: 'epicerie' },
       { qty: "5/", name: "badigeonnez de miel la tomate, disposez l’a sur le pesto et degustez", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -7785,7 +7785,7 @@ const RECIPES = [
     time: "24h",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/500918044_18384496465142670_405982163367061363_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=102%26ig_cache_key=MzYzOTQ4ODgxNzQ4NDg1MzE5Mg%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNzIwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=LTB7jibddVAQ7kNvwHJoyeb%26_nc_oc=AdpDkT2yZS0j_eBIx0HcciGOeLbgNosSlTEDGUf6JQN2MBC9LTx8txpZtgBIG1F01-yKD7AuIsLLWU_1MKMJRb3F%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=jSQwdfzCPfUJ3Rd_7NboEw%26_nc_ss=7a22e%26oh=00_AQLaV1zCwzHktCxCaitX9JkcrzlFwLfEOy1kV7peGArTug%26oe=6AADA288%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DKCECynMDSX.jpg",
     link: "https://www.instagram.com/margot.combat/p/DKCECynMDSX/",
     linkType: "instagram",
     veggie: true,
@@ -7800,12 +7800,12 @@ const RECIPES = [
       { qty: "2", name: "tranches de concombre", rayon: 'epicerie' },
       { qty: "3", name: "tranches de citron jaune", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "1-paquet-de-feuille-de-riz-18-cm-rondes",
-    title: "1 paquet de feuille de riz (18 cm, rondes)",
+    id: "huile-de-tournesol-DKAIQJ",
+    title: "Huile de tournesol",
     emoji: "🥩",
     cat: "viande",
     chef: "franceinter",
@@ -7813,7 +7813,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/504183833_730461866118724_5130817519604627200_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzYzODk0NDc5MzM2NDE0MTkzNA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=GTPN3CN6E30Q7kNvwHjw_Fb%26_nc_oc=Adr4O9vFbiajKa2NUx1eClRIzQEM6jN6X08YiIKcayelAQ4moUgGVrpBbH717GYXNtLQfANt4RQQxntsu6CDQBhh%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=aQ0WcUWmkDRQocxppzlw7A%26_nc_ss=7a22e%26oh=00_AQJ3tNeN6_rXWhDK8OvXQH5i0TN2LKt-qzcbW2_1IU559A%26oe=6AADA253%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DKAIQJ1uhdu.jpg",
     link: "https://www.instagram.com/franceinter/reel/DKAIQJ1uhdu/",
     linkType: "instagram",
     veggie: false,
@@ -7830,7 +7830,7 @@ const RECIPES = [
       { qty: "1", name: "cébette ou ciboule", rayon: 'epicerie' },
       { qty: "QS", name: "Huile de tournesol", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -7843,7 +7843,7 @@ const RECIPES = [
     time: "10min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503653661_749468624418216_7800669987694900357_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=102%26ig_cache_key=MzM3NjMwNDI5MTQzNTYwMDY3OA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=-3KlY2lrPH0Q7kNvwE4a4QO%26_nc_oc=Adq0jBV1mfq-4WmH5p-s5pNinrKD16mBzYH9wGgrpl-sWptwSTEx7yyp4WPY9B5Q1KSmZM8UkyJfDl_wlBTvol_h%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=s685ufLky9WkIXQGB2fsFw%26_nc_ss=7a22e%26oh=00_AQL2GwO8eGT9LLuS9NZIGfP964wxMTIKCmZT0abw1R3Bwg%26oe=6AAD9DB1%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C7bCt1YpVsm.jpg",
     link: "https://www.instagram.com/lagostinafrance/reel/C7bCt1YpVsm/",
     linkType: "instagram",
     veggie: true,
@@ -7857,12 +7857,12 @@ const RECIPES = [
       { qty: "50g", name: "sucre semoule", rayon: 'epicerie' },
       { qty: "1", name: "citron vert", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "100-g-de-beurre-sale",
-    title: "100 g de beurre salé",
+    id: "recette-de-julie-andrieu-profil-officiel-DJW7ew",
+    title: "Recette de Julie Andrieu, Profil Officiel",
     emoji: "🍽️",
     cat: "plat",
     chef: "julieandrieu.officiel",
@@ -7870,7 +7870,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/495503495_18397982656129198_5544591403296667252_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=110%26ig_cache_key=MzYyNzM0ODE0ODMzNDI5MzMwNDE4Mzk3OTgyNjUzMTI5MTk4.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=5fdg7W9b4mcQ7kNvwGP_NdW%26_nc_oc=AdqtGfrp--bEdmll90ti8SdHJVlr9xYX47xerakIR15dgurhAYAhFGQTO3D9529fUJhMjv3hwAvAKiMEglsE3JB_%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=jpiVEHKSzHvrJrfhZSaTwA%26_nc_ss=7a22e%26oh=00_AQIbmYdyxmF2zEOlB484xOPI3eN34t-lUszyITHqsktm7g%26oe=6AAD9FD9%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DJW7ewiIvE4.jpg",
     link: "https://www.instagram.com/julieandrieu.officiel/reel/DJW7ewiIvE4/",
     linkType: "instagram",
     veggie: false,
@@ -7880,7 +7880,7 @@ const RECIPES = [
       { qty: "200 g", name: "de cassonade", rayon: 'epicerie' },
       { qty: "160 g", name: "de crème liquide entière", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -7893,7 +7893,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/491468796_18290040340300957_5682284193200364265_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=MzYyMDU5NzA5MjU0ODg5NTQ0NQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=YH0I9ITPjrIQ7kNvwH0n-PI%26_nc_oc=Adr4tWbl3abJNcr35n_bptJV8JSngkQnFU71pTPid9SRvQ8GaN-o_2iVXO_JP6EuNv7l6Ds1Le7e90w1IsDDGeZM%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=IIp1Zf_5imF_O8KxOZ09tg%26_nc_ss=7a22e%26oh=00_AQLIJgXzIGr-TmvaivK5zgw8zM1U14dIqlLqCKLpLO-7Sg%26oe=6AADA4CC%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DI-8d94MGLV.jpg",
     link: "https://www.instagram.com/kitchenfactoryprod/reel/DI-8d94MGLV/",
     linkType: "instagram",
     veggie: true,
@@ -7910,7 +7910,7 @@ const RECIPES = [
       { qty: "QS", name: "Sucre glace", rayon: 'epicerie' },
       { qty: "QS", name: "Quelques amandes effilées torréfiées", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -7923,7 +7923,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/491413298_18500256661020113_7880429461085266246_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=105%26ig_cache_key=MzYxNzY4OTkyODQzOTI5NzA1Nw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNzIwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=vLCDgatCwC0Q7kNvwGz3Q0p%26_nc_oc=AdrnNUFN8hIRYqxS30-47WiM2hY5bfx5A2M_DsPahb9QGyaO7XtSoEeZnmMs2alv7TY6kf4DqdGCR2T56Sc7m4IG%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=19V8oAp3FyxAkvROwRMizw%26_nc_ss=7a22e%26oh=00_AQIwjagNxIjdiQtxM2aqRRe7lgIzofMP3LHo9cptGkDoqw%26oe=6AADB6AB\nUn dîner pour 6 de rêve, en une heure chrono 💜\n\nSardinade au citron %26 crudités, asperges blanches en papillotes, lasagnes épinards, ricotta citronnée et truite fumée, farandole de gâteaux. \n\nÉpluchez vos asperges blanches, disposez-les par 3 dans du papier sulfu avec un peu d’huile d’olive, des zestes de citron, des copeaux de parmesan, de la menthe fraîche, du sel et du poivre. Refermez vos papillotes et glissez les dans le four, 45 minutes à 180 degrés. \n\nPendant ce temps-là, occupez-vous des lasagnes : faites revenir 4 échalotes et deux gousses d’ail dans un peu d’huile d’olive, salez et poivrez, faites tomber beaucoup d’épinards frais, puis ajoutez la ricotta préalablement fouettée avec le zeste et le jus d’un citron bio, de la livèche et de la noix de muscade. Beurrez un plat à gratin, déposez un premier étage de lasagnes, puis des épinards et de la truite fumée, puis des lasagnes et des épinards uniquement, puis des lasagnes et des épinards et truite fumée, bref un étage sur deux avec truite, 6 étages en tout. Terminez avec un peu de parmesan, et hop, 30 minutes à 180 degrés.\n\nToujours pendant ce temps, fouettez un pot de fromage frais avec une boîte de sardines à l’huile d’olive, le jus et zeste d’un citron bio, du basilic, er du poivre, et parce que j’ai regardé « With love, Megan » sur Netflix, des fleurs séchées. Servez avec les crudités de votre choix. 😂\n\nEnfin, pour le dessert, demandez au meilleur pâtissier de votre entourage de l’apporter. Dans mon cas, belle maman. \n\nEnjoy 🤍%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DI0nkMcIjZq.jpg",
     link: "https://www.instagram.com/enrangdoignons/p/DI0nkMcIjZq/",
     linkType: "instagram",
     veggie: false,
@@ -7931,7 +7931,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -7941,10 +7941,10 @@ const RECIPES = [
     cat: "entree",
     chef: "kitchenfactoryprod",
     chefName: "Kitchen Factory Production 🍽",
-    time: "20h20",
+    time: "20min",
     serves: "4 pers.",
     difficulty: "Avancé",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/491462916_18289322830300957_1815111279574373384_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=103%26ig_cache_key=MzYxNjI3ODEzNDg0MDcxNzY5MQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=J-dW2jjTQpcQ7kNvwFdcnXg%26_nc_oc=Adon06psrz4ChWlbOlIOh1msbR8ejhC-OW1cDv7CASXDEKtfDwaGHo8_xj7r4P4KtGaYRGj1wdtls4G3xgw1nbnF%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=qPT3j_zkNrymUqPgEbLo_w%26_nc_ss=7a22e%26oh=00_AQI-s9n1SpGjuRaa-i4CS79KPQUsHjaUto3fYLcy3N9sdg%26oe=6AADBAE9%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DIvmc3EMXF7.jpg",
     link: "https://www.instagram.com/kitchenfactoryprod/reel/DIvmc3EMXF7/",
     linkType: "instagram",
     veggie: true,
@@ -7960,11 +7960,11 @@ const RECIPES = [
       { qty: "QS", name: "Quelques feuilles de menthe", rayon: 'epicerie' },
       { qty: "1", name: "citron jaune", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "comme-la-chasse-aux-oeufs-lagneau-de-paques-est-un-DIqrXJ",
+    id: "comme-la-chasse-aux-oeufs-lagneau-de-paques-est-un",
     title: "Comme la chasse aux oeufs, l'agneau de Pâques est une tradit",
     emoji: "🍰",
     cat: "dessert",
@@ -7973,7 +7973,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/491422538_18368703592126910_1533365634138176292_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=104%26ig_cache_key=MzYxNDg5MjM1Nzk5NDM3NjU0NA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=344A3jfNZiEQ7kNvwGp0-Os%26_nc_oc=AdruoQIfanyQ711mo8j0XLFEoNjHEDIlRUXeXagw2W9TDSfWoQC_3JiPeGDz7L1tCYV1DZgEMlzgRZ7-XEXF5Z7G%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=pWFT6_XXv1EzBPNy27mp3g%26_nc_ss=7a22e%26oh=00_AQIPCZaUGeSX_V4k5espySVPMnQgBx_V8OninhpRSeK-EQ%26oe=6AADAF59%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DIqrXJzh21g.jpg",
     link: "https://www.instagram.com/brutofficiel/reel/DIqrXJzh21g/",
     linkType: "instagram",
     veggie: false,
@@ -7981,7 +7981,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -7994,7 +7994,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/491893436_18500203063061228_547159000221847505_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=MzYxMzU2ODMwNTg5NzQzMTE4MjE4NTAwMjAzMDU3MDYxMjI4.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=eodaipJvegkQ7kNvwF6HEiW%26_nc_oc=AdowxF2jW7oG7QclVSotKSHM-X7Trfes0sK_DBtVdCwe21MarL9Vs13pGyiFt9mDpNY9FyBl0u5xxZklne6X9ApB%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=icOrfWzGpH4bPXr-uncFSg%26_nc_ss=7a22e%26oh=00_AQJsYl8jfMxmq5lNhP9vrrmbUeB-Et4ugW4HpyBB3AP7kQ%26oe=6AADA7D4%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DIl-TqMoGCO.jpg",
     link: "https://www.instagram.com/xavier_pincemin/reel/DIl-TqMoGCO/",
     linkType: "instagram",
     veggie: true,
@@ -8002,7 +8002,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -8015,7 +8015,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/491441320_18491691373054914_8310977643113574737_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=105%26ig_cache_key=MzYwOTk1ODQ1NDI0NDk3NjY3OQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIyNjguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=ll_lfjEAr0wQ7kNvwGIuow0%26_nc_oc=AdoJApOa2mL6v4No2ibMbzh3WnW-gpdJxWczg7cpTXg92Y89KxxYYUybNPs5bLu5_iAv7bmt2Y00uNE1Rl2IPkBT%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=MTTMAAiO7st53q-ksqcMXA%26_nc_ss=7a22e%26oh=00_AQLvnFzwpjXNYc42zn1dn4bwIVOSrpwC768MpUqthQKlDQ%26oe=6AADC41B%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DIZJhZ3MKgn.jpg",
     link: "https://www.instagram.com/chefsimonezanoni/reel/DIZJhZ3MKgn/",
     linkType: "instagram",
     veggie: true,
@@ -8023,7 +8023,7 @@ const RECIPES = [
     ingredients: [
       { qty: "QS", name: "Ça vous tente ?", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -8036,7 +8036,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/489570170_18394265893129198_6127883342712312495_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=102%26ig_cache_key=MzYwODUwNDI3Nzk2NTg2ODEzMjE4Mzk0MjY1ODkwMTI5MTk4.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=G_CtF9DO968Q7kNvwH_sSOT%26_nc_oc=AdrhQm3CKalIT8Vx2sh-mk7dgtgnaywEdSw5sRDSdZSqoHXWz_9DFA3GYDONKqt5HqIfbfVvJqqRmVd6v0Ocx2kr%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=RoQ-03ud9FHvkuSKPJIMgQ%26_nc_ss=7a22e%26oh=00_AQLJHuRPS4zuhSL-eQi3Qw5759s3ZDOtTs9NIimrcspBXA%26oe=6AADA0C6%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DIT-4Wqogxk.jpg",
     link: "https://www.instagram.com/julieandrieu.officiel/reel/DIT-4Wqogxk/",
     linkType: "instagram",
     veggie: true,
@@ -8050,12 +8050,12 @@ const RECIPES = [
       { qty: "1", name: "oeuf (50 g)", rayon: 'epicerie' },
       { qty: "2", name: "pincées de sel", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "1-beau-poulet-fermier-des-landes-coupe-en-morceaux",
-    title: "1 beau poulet fermier (des Landes) coupé en morceaux",
+    id: "environ-20-cl-deau-ou-de-bouillon-de-volaille",
+    title: "Environ 20 cl d’eau ou de bouillon de volaille",
     emoji: "🥩",
     cat: "viande",
     chef: "julieandrieu.officiel",
@@ -8063,7 +8063,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/489849621_18394451155129198_3791008630207529537_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=MzYwNzc3OTQ2NjU0OTQwMjA4MjE4Mzk0NDUxMTQ5MTI5MTk4.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=_YvgQoxV4_4Q7kNvwE_5djb%26_nc_oc=AdrAOSMH5IuCfFPpePJVNHE2G74SOIKvtzexd1cFkNVWnSJm7KSZajWQeMjDAOMI-_T3jg_lhFILSqrlfgZ0j2-U%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=Oyj3_NabUtZBsj991JR5ig%26_nc_ss=7a22e%26oh=00_AQK6sOh-Jrrvu4_SrCJbQGlbsBX4b-xyMh7MCcAx1btUSQ%26oe=6AADA629%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DIRaE9boBni.jpg",
     link: "https://www.instagram.com/julieandrieu.officiel/reel/DIRaE9boBni/",
     linkType: "instagram",
     veggie: false,
@@ -8085,7 +8085,7 @@ const RECIPES = [
       { qty: "40 g", name: "de beurre", rayon: 'epicerie' },
       { qty: "QS", name: "Gingembre râpé", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -8098,7 +8098,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/488662545_18498123475061228_1945488449783361386_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=101%26ig_cache_key=MzYwNjE2NDAwMDI2NTYyNDg0NA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMDYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=-th_sT6VKFgQ7kNvwE8c4mj%26_nc_oc=AdrquaAGVkoRhdZ0YviLxrFb04kPI7T7QyL36JaGUm0poQ1DLLSW3vu720IYbDSbK-C13B2ewQT9rv_A6lVBxOs1%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=6NG_J_DwlIT2dPlDMFRKnw%26_nc_ss=7a22e%26oh=00_AQI2Ix6U1picDSgKMoerFkGmCvtCKCxRoT5PVr-urhm9iA%26oe=6AAD9AC2%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DILqw1Nol0M.jpg",
     link: "https://www.instagram.com/xavier_pincemin/reel/DILqw1Nol0M/",
     linkType: "instagram",
     veggie: false,
@@ -8106,7 +8106,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -8119,7 +8119,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/486942441_18496428646002167_5067336046809833210_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=MzU5NjkyMzQyOTg5NDM0Njg5NA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIyNjguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=Um9fBPrQA_kQ7kNvwGHwPJw%26_nc_oc=AdqrfUi8iyfzBGqg2UYBnYe6p2r2AVo4ufxO2hVOruCINbnzVarGqAhqCXSHbkUGtamNkRKDARXdJyCz-fOkARgz%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=LjQKFOcImJZG2pgyRstpIg%26_nc_ss=7a22e%26oh=00_AQLJK7_etThaibf71Xco4OZv6L9E_1glQaPl9Bgl2rpG6w%26oe=6AADB342%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DHq1s1bIdiO.jpg",
     link: "https://www.instagram.com/ottolenghi/reel/DHq1s1bIdiO/",
     linkType: "instagram",
     veggie: true,
@@ -8127,7 +8127,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -8140,7 +8140,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/488079077_18462351190070044_2977564520844131117_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=111%26ig_cache_key=MzYwMTgxNjA1NjczNzM3Mzc2NQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=5OBd1MknCbEQ7kNvwGaQR7L%26_nc_oc=AdoTRfqYZ-aU04z35X4t7mKyfWoWaWniCwXujqfd414nvaFtBmSo0EWEO4_V26xBSCJ06GkZl-mUOfHP0lLKWnGr%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=S-gT1wkXUX4HiFF_OKMbNA%26_nc_ss=7a22e%26oh=00_AQJ8HGFbZkzm7dDM39Nf4fRJkRN6tOSAQqyqS52OaUo58w%26oe=6AAD9F05%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DH8OJ7QIR5F.jpg",
     link: "https://www.instagram.com/matthias_marc/reel/DH8OJ7QIR5F/",
     linkType: "instagram",
     veggie: true,
@@ -8148,7 +8148,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -8161,7 +8161,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/487732054_18286997209300957_4174440659524710390_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzYwMTc3MzMzODU2NTgzMTMyNQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=dLsI4XSqsegQ7kNvwEJmNQ3%26_nc_oc=Adqzo_4DKwUmMV3OmJt4vEHM_Dz5AgT1eMXChfVWsbT1NKdD0pKyEg5JBHfgXo9pkey4D3-0ZOQLW6VJzjIOGE9D%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=Z9VrhiOqGJMyFzoRIEXF9w%26_nc_ss=7a22e%26oh=00_AQIwYAKfNWtJIkSu1vGUYIxPALQn0IhxFVvHYJ-bTzohow%26oe=6AADC78E%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DH8EcS2sGqd.jpg",
     link: "https://www.instagram.com/kitchenfactoryprod/reel/DH8EcS2sGqd/",
     linkType: "instagram",
     veggie: true,
@@ -8176,12 +8176,12 @@ const RECIPES = [
       { qty: "1", name: "fève tonka", rayon: 'epicerie' },
       { qty: "2", name: "gousses de vanille", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "this-recipe-for-rhubarb-fool-ish-with-black-tea-cr",
-    title: "This recipe for Rhubarb fool (...ish) with black tea cream w",
+    id: "recette-de-yotam-ottolenghi-DH6Rfc",
+    title: "Recette de Yotam Ottolenghi",
     emoji: "🍽️",
     cat: "plat",
     chef: "ottolenghi",
@@ -8189,7 +8189,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/488438776_18497720026002167_8962288229495287460_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=MzYwMTI2Nzc3OTk0NDMwNzczMg%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjE5MDAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=9B8ZAvU47LoQ7kNvwFfiyQs%26_nc_oc=AdoIgrAH1FDTXyYrKnyCH586OKdVWMx_v7WcNwNdvlWflxOEBXLKVzmHh810NicgpZl4rQoe2F0Sn8TsivAQLrbt%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=uy9sS2UqUX9hiiBWD4WUfQ%26_nc_ss=7a22e%26oh=00_AQKAhTdGXstbEWvSb8x0YezNs9Q3D4-7sJFpBagqd9nazg%26oe=6AAD9F7E%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DH6Rfcso9wU.jpg",
     link: "https://www.instagram.com/ottolenghi/reel/DH6Rfcso9wU/",
     linkType: "instagram",
     veggie: true,
@@ -8197,7 +8197,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -8210,7 +8210,7 @@ const RECIPES = [
     time: "10min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/487850762_18286882051300957_1369272335647116258_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=MzYwMTA0Mzg3ODI1ODQ4NDQ3OQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=GBFQaztZ-1QQ7kNvwHm90q2%26_nc_oc=Adr2uYe0WawldzIRgTJiS7P7YwKQqE5nnV0BZDdCZNnEg0T6ku8M5Gxc-NKgeoxGFTHIPbUYP_vNjrdaL4Q750KT%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=1_fR1KfboHzohJ2Q3u_Rxg%26_nc_ss=7a22e%26oh=00_AQK3KL9WrmE7_SVMVJAdmsMuCV4svDuR_8Zit5MJR-u7cQ%26oe=6AAD90C4%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DH5elQAMST_.jpg",
     link: "https://www.instagram.com/kitchenfactoryprod/reel/DH5elQAMST_/",
     linkType: "instagram",
     veggie: false,
@@ -8231,7 +8231,7 @@ const RECIPES = [
       { qty: "QS", name: "Huile d’olive", rayon: 'epicerie' },
       { qty: "QS", name: "Sel fin", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -8244,7 +8244,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/487775669_18392691412129198_4294177133195177555_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=105%26ig_cache_key=MzYwMDUzOTE0NTQ3ODU0Nzc4NzE4MzkyNjkxNDA2MTI5MTk4.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=M4Go_eZrTzkQ7kNvwEvZqyr%26_nc_oc=AdrYf8HmkuHY4ROwOn-_s__KB8oGNlnpfRbicXs5EDZ6tDckBZ99w8eVxyZBVvtAP2HLso9v6j4hrypX_z4H5VrL%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=ctS6i6oyUnUym1ncYEM8Mg%26_nc_ss=7a22e%26oh=00_AQJZ3BEZjmPqZtSAt17grg5109hw1Zhi31jkzm_fZFtz4A%26oe=6AADAD08%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DH3r0a-IylL.jpg",
     link: "https://www.instagram.com/julieandrieu.officiel/reel/DH3r0a-IylL/",
     linkType: "instagram",
     veggie: true,
@@ -8255,12 +8255,12 @@ const RECIPES = [
       { qty: "170 g", name: "de sucre", rayon: 'epicerie' },
       { qty: "200 g", name: "(20 cl) de crème liquide", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "recette-DHfknH",
-    title: "- RECETTE -",
+    id: "des-sables-de-parmesan-croustillants-et-pleins-de-",
+    title: "Des sablés de parmesan croustillants et pleins de saveurs !",
     emoji: "🍽️",
     cat: "plat",
     chef: "angeleferreuxmaeght",
@@ -8268,7 +8268,7 @@ const RECIPES = [
     time: "15min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/483164936_18489593266019602_5550381132328799196_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=103%26ig_cache_key=MzU5Mzc1MjA0NDkzNTUzMDc3MDE4NDg5NTkzMjYzMDE5NjAy.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEzNzguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=nDse60WVsG0Q7kNvwGsYVEn%26_nc_oc=AdohvKG1VwGRC0zIz94hVvjkCN3ntVnUPOYpbroyUPnnyUwm8LLlBiRXssQFPZXAMHOkRODsOlzF5s25yt2yFdxi%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=G_EMOk-KP1K5H6WpbuEpvQ%26_nc_ss=7a22e%26oh=00_AQJM7oB9Cbr2OVCjKgQSin3JCAoqIFrpy-6SJn1CrdGvLg%26oe=6AADC38E%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DHfknHBN0kS.jpg",
     link: "https://www.instagram.com/angeleferreuxmaeght/reel/DHfknHBN0kS/",
     linkType: "instagram",
     veggie: true,
@@ -8279,7 +8279,7 @@ const RECIPES = [
       { qty: "QS", name: "Saupoudrez d’origan ou graines de carvi", rayon: 'epicerie' },
       { qty: "QS", name: "Faites-les cuire à 170°C pendant 15min.", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -8292,7 +8292,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/485527450_18496031419058637_5949442368152309541_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=102%26ig_cache_key=MzU5MzA5ODg4NzY5MDM2NjE3NA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIyNjguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=yBM7MlmnCuEQ7kNvwHFs5a3%26_nc_oc=AdoQU2lcmvQAuBMbz604GeEf2lThWKpZ7xz_syrEl_OPGmBmSbyxecm7wasz8T45D-T1b20tLRT-S4TVHsoQ7au7%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=71BOMeZmb7PmOp-YSFQYkA%26_nc_ss=7a22e%26oh=00_AQJ0j_Bt-O2imZz1VZ-41C70IuGKuEo9qKDJbBtopmhDoA%26oe=6AADB10F%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DHdQGa7oqze.jpg",
     link: "https://www.instagram.com/cyrillignac/reel/DHdQGa7oqze/",
     linkType: "instagram",
     veggie: true,
@@ -8314,7 +8314,7 @@ const RECIPES = [
       { qty: "15 g", name: "de sucre en poudre", rayon: 'epicerie' },
       { qty: "1", name: "gousse de vanille", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -8327,7 +8327,7 @@ const RECIPES = [
     time: "35min",
     serves: "6 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/484379762_18044463653599318_6246500288943229832_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=104%26ig_cache_key=MzU4ODk2NTM5NzkzODcyNzE5MQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjkzOC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=a6dzNCZZKoIQ7kNvwEn8Z0H%26_nc_oc=Adp7lnHlBynFN5hObKvo7W8knOCD5dmARdwya2e0YJbzIjcpHUSQ0rVJ74GdBU7F487BQfGOd42jeeDUBboSPMjx%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=peUAlpJusZXuM2qFWhbavw%26_nc_ss=7a22e%26oh=00_AQLPCrj2cXQIG5Ar5j8GkyUFBiJT25yNiG05Z7ddpYyBAA%26oe=6AADBC81%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DHOkQOnTmkX.jpg",
     link: "https://www.instagram.com/dr.jimmy.mohamed/reel/DHOkQOnTmkX/",
     linkType: "instagram",
     veggie: true,
@@ -8340,7 +8340,7 @@ const RECIPES = [
       { qty: "QS", name: "Zeste d’un citron", rayon: 'epicerie' },
       { qty: "QS", name: "Gousse de Vanille 1 ou essence", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -8353,7 +8353,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/502738796_1745532149506482_8133907941230870470_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=MzU4ODI0MDYzMjcxNzk5NzIyMA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=-Ibve2qrI34Q7kNvwGfusPo%26_nc_oc=AdrCO-w2Hz_i7P9YeY-2r5a65_WBfk5iB1KxL5-nhEyI3L9KDgrhdjTa1b67o5rCaI6k8rgv5hGPPAQjyjYRMr6l%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=QMjQSyhjD-6meRZdlUyxcw%26_nc_ss=7a22e%26oh=00_AQIHnWcXz8P6sBtlhRM9M2oBwWJtZ_8zddF-bJJ6A0PYFA%26oe=6AADBA19%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DHL_dgZx3Sk.jpg",
     link: "https://www.instagram.com/franceinter/reel/DHL_dgZx3Sk/",
     linkType: "instagram",
     veggie: true,
@@ -8369,7 +8369,7 @@ const RECIPES = [
       { qty: "2", name: "pincées de piment en poudre ⁠", rayon: 'epicerie' },
       { qty: "QS", name: "Sel, poivre ⁠", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -8382,7 +8382,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/481600260_18490230187023665_8104918612312724875_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=MzU3NDQzNTA5MjQ0OTI4OTU1Mw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=lR9ciHcSBfkQ7kNvwHWipPR%26_nc_oc=AdqcTjkU67rCylaxeJ2TETgzETPDB95lr8EkeFdh0HFHcyLjXzxWxsKWr0ne1OLzVZFmUd4n7v6kjnqfoMCYwc-q%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=iekZXQonnpM3MtRhfFkz_w%26_nc_ss=7a22e%26oh=00_AQIdKULazUSi5LhmOBuHWrp8KTcLeiDy6eKnSikQmdmhag%26oe=6AAD9B04%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DGa8cdGIWVR.jpg",
     link: "https://www.instagram.com/chiara_serpaggi/reel/DGa8cdGIWVR/",
     linkType: "instagram",
     veggie: true,
@@ -8390,7 +8390,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -8403,7 +8403,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/482629847_18283314832300957_8334929230959484163_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=105%26ig_cache_key=MzU4MDA0OTkzNjEzMDA0MTcwNg%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=wRypavneQnMQ7kNvwGc5_GL%26_nc_oc=AdrIgXulwNgjR4Cp58JPyeghuqQNXN5CjZPy6ueNNcT1drMXFgktGSFzXt5sYJpMdixZLHEacV4AdwOndFScbRip%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=KIndidWbRnD4r4YFAUi4jQ%26_nc_ss=7a22e%26oh=00_AQKdeKHiE0deoVjSZoKgorp4wgCpijouhUQC4HX0hYYqWA%26oe=6AAD9600%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DGu5HLxMOdq.jpg",
     link: "https://www.instagram.com/kitchenfactoryprod/reel/DGu5HLxMOdq/",
     linkType: "instagram",
     veggie: true,
@@ -8424,7 +8424,7 @@ const RECIPES = [
       { qty: "3 cl", name: "de coulis de fruits de la passion", rayon: 'epicerie' },
       { qty: "QS", name: "De la glace vanille", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -8437,7 +8437,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/481667745_18484548700010308_271582987410196235_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=101%26ig_cache_key=MzU3NDUwMDIxNDY1NjE1MTczMzE4NDg0NTQ4Njk0MDEwMzA4.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjYxMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=y-nAH0bAkCcQ7kNvwEuNCqa%26_nc_oc=AdqXhI769LcYD6cmts6aNjN7VtvN7Wjq7xnBil7JFwI0ci3SElCeAkZ0FPUU3f0wJ322R6oxYoPEJX3ndZAx_HGY%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=AKIAJy1EY0VVBpIw0B-jiw%26_nc_ss=7a22e%26oh=00_AQJFZKg22PGHSuNiWViyNY2UmMQaU_f6XpzFovLTPjh1fg%26oe=6AADC5BD%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DGbLQG4IzC1.jpg",
     link: "https://www.instagram.com/cerfdellier/reel/DGbLQG4IzC1/",
     linkType: "instagram",
     veggie: true,
@@ -8445,12 +8445,12 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "30-minutes-cuisson-comprise-bonne-cuisine-les-amis",
-    title: "30 minutes cuisson comprise ! Bonne cuisine les amis !",
+    id: "recette-de",
+    title: "Recette de ",
     emoji: "🫕",
     cat: "sauce",
     chef: "laurent.mariotte",
@@ -8458,7 +8458,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/482025050_18489051955042581_1524567893704615652_n.jpg?stp=dst-jpg_e15_tt6%26_nc_cat=103%26ig_cache_key=MzU3NzM3MDg2NDYwMzc2OTA3NDE4NDg5MDUxOTUyMDQyNTgx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjMyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=X1lgu6cy_V8Q7kNvwFFdk4p%26_nc_oc=AdqtnJK09_PXDYevtxQ49UT6NfMpgpk83MCc32uY9S-JRjxEWv2C3TyevhYesT8WnBU7epFbsRSIY36AfamiLV7P%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=2zeSuWOB79vruQgx5pQRIA%26_nc_ss=7a22e%26oh=00_AQK7aZ7YIUx9Pgu64B0X5Er93ieWg2Kha_tBvoPQCb4kRg%26oe=6AADBF30%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DGlX9j-iijy.jpg",
     link: "https://www.instagram.com/laurent.mariotte/reel/DGlX9j-iijy/",
     linkType: "instagram",
     veggie: true,
@@ -8466,7 +8466,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -8479,7 +8479,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/474040281_18037647392599318_4429020967297473859_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzU0Njk4NjI2OTIxNTkxODU4Mw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExNzguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=ijXdH_j54pMQ7kNvwF4cfpk%26_nc_oc=AdoUQ1v_FboVUVHxXsLLxGVHLjwQ6tZAuIdHU2d9qLHWVOBQlKqggHWGQn6eXEZnXJg-OAsAJyqFqxFuSRSiXDTT%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=8b3vZ_6kQilDCc9FfvQPGg%26_nc_ss=7a22e%26oh=00_AQIBJ_-vkjDQgQvXtDTzTgYQbKDZI3sPJKznM91UyfM2hw%26oe=6AADA150%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DE5bTgXzYn3.jpg",
     link: "https://www.instagram.com/dr.jimmy.mohamed/reel/DE5bTgXzYn3/",
     linkType: "instagram",
     veggie: true,
@@ -8487,7 +8487,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -8500,7 +8500,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/476822419_18280607830300957_3567442253176226494_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=106%26ig_cache_key=MzU2NDgzMDg2NjY1MzA0NDc1Mw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=VOksylownG8Q7kNvwGwMJ6T%26_nc_oc=AdoZiESK6OgP50pMuad-xDHEN-1Xfnp-fac1hWW6q5QP0O9t1bMwEQEA7JkjpkyG0y7d1YlyoegUzFqlh-ed-2k_%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=QpX_e3N1M4dfmU1jGH9Zhg%26_nc_ss=7a22e%26oh=00_AQIQBNEe_-mKpPnZhD2o06WMLwpQ48cxEJbbeQmL6jEmfg%26oe=6AADAFA8%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DF40skzM-AR.jpg",
     link: "https://www.instagram.com/kitchenfactoryprod/reel/DF40skzM-AR/",
     linkType: "instagram",
     veggie: false,
@@ -8518,12 +8518,12 @@ const RECIPES = [
       { qty: "1", name: "botte de ciboulette", rayon: 'epicerie' },
       { qty: "QS", name: "Fleur de sel", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "temps-de-preparation-20-minutes",
-    title: "Temps de préparation : 20 minutes",
+    id: "pad-thai",
+    title: "PAD THAÏ",
     emoji: "🍝",
     cat: "pates",
     chef: "cyrillignac",
@@ -8531,7 +8531,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/476181770_18487640842058637_6163208029575446728_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=101%26ig_cache_key=MzU2MjY2MzgwNTkyMjE4MzY1MjE4NDg3NjQwODM5MDU4NjM3.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIyNjguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=2o2KMfjkwkMQ7kNvwFrFXQz%26_nc_oc=AdqpGHvEr8KyLpYU-jOLImHst0JVecJDzr5hQI8aa4_cdw8zMIymYFjqpCLN1pv3UKQGtuZx8w7SBmRXoYO8URey%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=qQkFZ9kLMj7SBi6HEs07RQ%26_nc_ss=7a22e%26oh=00_AQLGG9LK41hZVv4PI3rmVny0GMmItEKQI31roqLw0ViYPQ%26oe=6AADC736%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DFxH9sOIgnk.jpg",
     link: "https://www.instagram.com/cyrillignac/reel/DFxH9sOIgnk/",
     linkType: "instagram",
     veggie: false,
@@ -8553,7 +8553,7 @@ const RECIPES = [
       { qty: "15cl", name: "de vinaigre de riz blanc", rayon: 'epicerie' },
       { qty: "2", name: "cuil. à soupe de sauce de piment sriracha", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -8566,7 +8566,7 @@ const RECIPES = [
     time: "5min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/475165162_18484752727020113_5305730060382302938_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=MzU2MTIyMzg1MzM5Mjk5MTE3Mg%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=-Y61QeXSM8cQ7kNvwEwrW2H%26_nc_oc=Ado0bk5DEG2uWzoJqGm3NRKAgObPgqvnPeryF176x0RIhrXtpPskGggSdAUMuOpntb_evXfcG7lH58AzBruUzFfe%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=N4XBv5ZLcX0DubHp5O5BdA%26_nc_ss=7a22e%26oh=00_AQIFsKP32fFJBCLL_wJILsM4AektbfqoQYzdg0gxRnEUXw%26oe=6AAD96C5%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DFsAjn7IxPE.jpg",
     link: "https://www.instagram.com/enrangdoignons/reel/DFsAjn7IxPE/",
     linkType: "instagram",
     veggie: true,
@@ -8574,7 +8574,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -8587,7 +8587,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/474823611_18485392096058637_2920546786021460699_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzU1MzI2MzIzNDE2MTIyNzYxNDE4NDg1MzkyMDkzMDU4NjM3.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIyNjguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=T3zTcDlqBc8Q7kNvwHxgB3m%26_nc_oc=AdrYajmlWhQoqEeFNlZgoVt621Ls85RpJeaX3M6I_KdFzNDi1nt9oBfD8Dp5dneE0vW9AItbVqc-te5y4UwOxdCL%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=gKWRwIO4_fOj1DTvnZ8bPw%26_nc_ss=7a22e%26oh=00_AQI4mZS0XDThxyv77Hk-FsrPZIwNGhvyHsCLjxIoAQfATA%26oe=6AADB528%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DFPuhXhorde.jpg",
     link: "https://www.instagram.com/cyrillignac/reel/DFPuhXhorde/",
     linkType: "instagram",
     veggie: false,
@@ -8605,7 +8605,7 @@ const RECIPES = [
       { qty: "QS", name: "Huile d’olive", rayon: 'epicerie' },
       { qty: "QS", name: "Sel fin et poivre du moulin", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -8615,10 +8615,10 @@ const RECIPES = [
     cat: "dessert",
     chef: "mohamedcheikh_",
     chefName: "Mohamed Cheikh | محمد شيخ",
-    time: "2h",
+    time: "40min",
     serves: "6 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/473610653_18483633568006964_1795669956631594910_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=110%26ig_cache_key=MzU0ODE0ODIxODI3MzYwMTEzNg%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=H389ddMDDF0Q7kNvwHwYmwt%26_nc_oc=AdpvNeeZAfDS128uGvjMJD_Bp3EFwugm6739NXb-K48m2s9iPBWTnjws5fGwbMk14oUpn8Lml43M9226wPLwCYtG%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=YdIhAy_xbiy9PMDhFreWEA%26_nc_ss=7a22e%26oh=00_AQJpc6ElEFqLcbzO_WEX1efMzyVMVWgJ8MVWskYqMXQktw%26oe=6AADC47F%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DE9jgFwohZw.jpg",
     link: "https://www.instagram.com/mohamedcheikh_/reel/DE9jgFwohZw/",
     linkType: "instagram",
     veggie: true,
@@ -8640,12 +8640,12 @@ const RECIPES = [
       { qty: "QS", name: "Verser le tout dans un saladier.", rayon: 'epicerie' },
       { qty: "QS", name: "Ajouter le beurre et mixer à l’aide d’un mixeur plongeant.", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "la-legende-raconte-que-du-temps-de-leur-presence-e",
-    title: "🍲 La légende raconte que du temps de leur présence en Inde 🇮",
+    id: "recette-de-julie-andrieu-profil-officiel-DE7y98",
+    title: "Recette de Julie Andrieu, Profil Officiel",
     emoji: "🥗",
     cat: "entree",
     chef: "julieandrieu.officiel",
@@ -8653,7 +8653,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/502969395_1476481510251344_6677989265738145439_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzU0NzY1MzI5MTAyMDgzMjY1Mw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=JKVa6yqQf3UQ7kNvwExeQMS%26_nc_oc=Adq82qDTGidCPTAsZg3ajiM4fxITjTBAWv1pRDjS10Tv-vwvaLh_Z53gWFv5SGJskhcruVpqCafGL5osH1pFC4C4%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=8uVswqvr3fPqCgWYvlgFrw%26_nc_ss=7a22e%26oh=00_AQK2Zm0cN_8UhR8xtB30dgyi7P099V0VY7MO9VYqILRs0w%26oe=6AAD95C4%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DE7y981is-N.jpg",
     link: "https://www.instagram.com/julieandrieu.officiel/reel/DE7y981is-N/",
     linkType: "instagram",
     veggie: true,
@@ -8661,12 +8661,12 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "4-c-a-s-dhuile-dolive",
-    title: "4 c. à s. d'huile d'olive",
+    id: "servir-immediatement",
+    title: "Servir immédiatement.",
     emoji: "🥗",
     cat: "entree",
     chef: "franceinter",
@@ -8674,7 +8674,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503323755_1011052454119027_2718791919030719443_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=110%26ig_cache_key=MzU0NzY1MzI3NzUxOTIwNDkxNw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=ZWCssirL7fcQ7kNvwFZH6sh%26_nc_oc=AdpA1S3CzXgTFfezhYg9y_fFs5IkEwWaUE3-Ku4qnAiha4-tHbXrQeZPjCG2s5AcRuocXml1FVh1llgmjt0Z6Iq4%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=p62cYHw9FAP9O03vVCmTsA%26_nc_ss=7a22e%26oh=00_AQKYSdYw9PoloAULJKcrGvqC9VqhpO63qKrXnQVFXCHn-A%26oe=6AAD9153%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DE7y9wQyFI1.jpg",
     link: "https://www.instagram.com/franceinter/reel/DE7y9wQyFI1/",
     linkType: "instagram",
     veggie: true,
@@ -8690,7 +8690,7 @@ const RECIPES = [
       { qty: "100 g", name: "de kumquats", rayon: 'epicerie' },
       { qty: "3", name: "c. à s. de pistaches torréfiées", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -8703,7 +8703,7 @@ const RECIPES = [
     time: "10min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/473614321_18277592155300957_7872794139756569919_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=MzU0NjY5MzQyMzA5MzMyMzk4OA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=ss_gq9N2opQQ7kNvwHoHm7g%26_nc_oc=Adpsh4z8aP7Lbr2KNPwmySBsCIgAABzcxcPjRGyk4nZ71J0FUjcE6htLQ28zY_lr80lshWvxX5Rs4QDjkoamQ8GW%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=bnNtzst0sbelB1vUmBv9uQ%26_nc_ss=7a22e%26oh=00_AQKAIC_NbYIprPZHpoSzyZXWzKGBIhDcTGSyR-O1J04ebQ%26oe=6AAD9C80%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DE4YuCKsRjU.jpg",
     link: "https://www.instagram.com/kitchenfactoryprod/reel/DE4YuCKsRjU/",
     linkType: "instagram",
     veggie: false,
@@ -8720,7 +8720,7 @@ const RECIPES = [
       { qty: "QS", name: "Sel fin et poivre du moulin", rayon: 'epicerie' },
       { qty: "QS", name: "Gros sel", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -8733,7 +8733,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/505480355_545225135314264_35507558890526946_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzU0NDQyMjEyOTA5NDMzMjE5Mw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=l5hnsr2lpiwQ7kNvwHIrU5b%26_nc_oc=AdpjetvVc6M4T-V07Az8h0gcOUCIsdblEtX1QtKURbHVvKbwa_0VuE2qx_2L7hBFjBgzE2PR6S7mKXZquRwsjj79%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=z2_pfd_g5T3lyd1F0DknIw%26_nc_ss=7a22e%26oh=00_AQJm9o_SsN5TQ04InzfU4ZPk9ySijFV1h-umSEQdaKa_mQ%26oe=6AAD9E2B%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DEwUSWys48h.jpg",
     link: "https://www.instagram.com/ninametayer/reel/DEwUSWys48h/",
     linkType: "instagram",
     veggie: true,
@@ -8741,7 +8741,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -8754,7 +8754,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/472950808_18475838962019089_4758798676544300736_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=MzU0MzQ2NjAwOTQ0NjQwNjE1ODE4NDc1ODM4OTU5MDE5MDg5.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExNzAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=TejOzruKBB8Q7kNvwFjjHKs%26_nc_oc=Adok-BLJN1p_8jyrwjBGwZ3wFekrnx765gVtz-6HkgAAKLPgK3nDVOlqqzeGvFOh1ucms8LffiZqhvSknVF6DtvD%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=On5Sna1YceBcs48DEqLxJQ%26_nc_ss=7a22e%26oh=00_AQL-T6aN3C61CpW4dPFesX-tkerXfw___hfbw0TC-x_5VA%26oe=6AAD9A82%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DEs64--uVgO.jpg",
     link: "https://www.instagram.com/kalie.graves.art/reel/DEs64--uVgO/",
     linkType: "instagram",
     veggie: true,
@@ -8762,7 +8762,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -8775,7 +8775,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/472456545_18276846178300957_3547862744769505021_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=106%26ig_cache_key=MzU0MjUxMTEwODQxODk4MzY1MA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=r1EwXld69rIQ7kNvwF0krpv%26_nc_oc=Adp9nKnJBwCSFGP7YFRdmhbhjYjifprmpX8EC38rqZX_Bo-ZsaiGD45PlAkhkYU018keeTxttAN29Qe6IuFSkcco%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=vGGI9XqNFB_qeYR6VcXt1A%26_nc_ss=7a22e%26oh=00_AQI9tjt3tV-UAWnjD3OnTuVUyUiB0GE_DZs9Qme3YzkGaQ%26oe=6AADA75E%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DEphxWGMFbi.jpg",
     link: "https://www.instagram.com/kitchenfactoryprod/reel/DEphxWGMFbi/",
     linkType: "instagram",
     veggie: false,
@@ -8795,7 +8795,7 @@ const RECIPES = [
       { qty: "100 g", name: "d’eau", rayon: 'epicerie' },
       { qty: "100 g", name: "de sucre en poudre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -8808,7 +8808,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503799434_4063826873906852_5668506153969328783_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=103%26ig_cache_key=MzU0MjU4MDA2Mjk1MDQyNjM1OQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=CVHOc8JJtYEQ7kNvwGY-1yj%26_nc_oc=AdpthaTannlHEsTIEs7XWy0T5_XLmTaPW-bUiT-lLlq4BlK560yflDkXST50sVwCfo9MojaF30Z17DLrdQO7PfVj%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=gpwSFflgA74Mm3sfYl-fwg%26_nc_ss=7a22e%26oh=00_AQIkraQch5apzLp41kcnE1YIGUONJBSP0VBPqhMcbqPRHg%26oe=6AADB67D%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DEpxcxAiob3.jpg",
     link: "https://www.instagram.com/franceinter/reel/DEpxcxAiob3/",
     linkType: "instagram",
     veggie: true,
@@ -8823,7 +8823,7 @@ const RECIPES = [
       { qty: "QS", name: "Huile riche en oméga 3 (lin, chanvre, noix, colza)", rayon: 'epicerie' },
       { qty: "QS", name: "Sel, poivre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -8836,7 +8836,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503989115_9450756211695085_2332103311810487898_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=MzUzODc4OTY2MDcwMzA5OTk3Mg%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=u0enFSplRqoQ7kNvwHoomuz%26_nc_oc=AdqlvrC5RbLGAGTzokr0Fxxddk21mZvjk5qsfE80Ry165b7YkzTPG4Vbk-x4OQzH70zC3bByRulQSJIyOswdIVSo%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=4X85bN670GW67kp_2mYVNw%26_nc_ss=7a22e%26oh=00_AQKNbeWmdrYqeluMRX5dcjwtpX39ZyxqfS8D-6jo-bS7ug%26oe=6AAD99E9%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DEcTnJ1CIxE.jpg",
     link: "https://www.instagram.com/brutofficiel/reel/DEcTnJ1CIxE/",
     linkType: "instagram",
     veggie: true,
@@ -8844,12 +8844,12 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "propolis-miel-ravintsara-voici-quelques-remedes-na",
-    title: "Propolis, miel, ravintsara… voici quelques remèdes naturels ",
+    id: "recette-de-jimmy-mohamed",
+    title: "Recette de Jimmy Mohamed",
     emoji: "🍽️",
     cat: "plat",
     chef: "dr.jimmy.mohamed",
@@ -8857,7 +8857,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/472304538_18036198458599318_168557313182662738_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=MzUzODMyNDg3MzU2MjYxNDk0OQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExNzguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=frx0J9sj3ogQ7kNvwFzaodw%26_nc_oc=AdqEzOsMjL2DTv-h9pf9AX73OEoLoMAeSOrx0nTjDcAe_CRswOR07xpCFCqCkoQQapm_qWV7fIPmJ9Ws_-5gyFva%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=zGKxo--NYCb0e1AX5iqCxw%26_nc_ss=7a22e%26oh=00_AQJpeQFRGn8yWBGQmSV_5Pc80oIZQWvWPKNkqfZwucSvYg%26oe=6AADBDD1%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DEap7nEoOyl.jpg",
     link: "https://www.instagram.com/dr.jimmy.mohamed/reel/DEap7nEoOyl/",
     linkType: "instagram",
     veggie: true,
@@ -8865,12 +8865,12 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "2-pates-feuilletees",
-    title: "* 2 pâtes feuilletées",
+    id: "preparation-DEVKsU",
+    title: "Préparation :",
     emoji: "🍰",
     cat: "dessert",
     chef: "mesdames.media",
@@ -8878,7 +8878,7 @@ const RECIPES = [
     time: "45min",
     serves: "6 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/501706715_1051202353585282_6681910000733408080_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=105%26ig_cache_key=MzUzNjc4MDEwODAxNjgzMzc2Mg%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=LlAaqkG6qh0Q7kNvwFriW5R%26_nc_oc=Ado4x4FmnRggeq5JAfjuY1479RvCK1dq8FrtJHLMWE-OOfo8wirzG3vDTbiQpmhEsCPl9uw5Hg22Obk7QNqeCrju%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=2u4ASRA2DDLQUOf7acZ-ew%26_nc_ss=7a22e%26oh=00_AQJNaTf-mChJah1uB0mLWavcDyZ3DOdpB4EbaJpNyZ-OzA%26oe=6AADB9D2%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DEVKsUDAtTi.jpg",
     link: "https://www.instagram.com/mesdames.media/reel/DEVKsUDAtTi/",
     linkType: "instagram",
     veggie: false,
@@ -8891,12 +8891,12 @@ const RECIPES = [
       { qty: "QS", name: "* 125 g de sucre glace", rayon: 'epicerie' },
       { qty: "QS", name: "* 2 œufs battus", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "recette-DERk7r",
-    title: "- RECETTE -",
+    id: "bonne-annee-2025",
+    title: "Bonne année 2025 !",
     emoji: "🥗",
     cat: "entree",
     chef: "angeleferreuxmaeght",
@@ -8904,7 +8904,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/470917214_18475447564019602_5432066653387406437_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=103%26ig_cache_key=MzUzNTc2OTYxMzU4OTgwNDAwNw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjE2NTIuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=611T7Bvi8ZkQ7kNvwHiGVYv%26_nc_oc=AdrgycLWSnGKqWKsAkHdaTXom3tmraKlzTWCMpUVL3xbc03Yt2J7sbDZJzC5anGRuzKSBpE2A2uatrKVf3A6PI5X%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=YLMsatVc0CfmNhOoIlJt8Q%26_nc_ss=7a22e%26oh=00_AQLObJHkNvm_K21S6I3t4Ak0X2kmPetWEH5aPDhJIXW5pQ%26oe=6AADBAA1%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DERk7rxo_Pn.jpg",
     link: "https://www.instagram.com/angeleferreuxmaeght/reel/DERk7rxo_Pn/",
     linkType: "instagram",
     veggie: true,
@@ -8921,7 +8921,7 @@ const RECIPES = [
       { qty: "3", name: "c. à soupe de tamari", rayon: 'epicerie' },
       { qty: "QS", name: "Jus d’1/2 citron", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -8934,7 +8934,7 @@ const RECIPES = [
     time: "9min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/470921276_18481910833061072_1649324580612775444_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=105%26ig_cache_key=MzUyOTUxODk4MTAzNDI0ODgwOTE4NDgxOTEwODI3MDYxMDcy.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyNzQuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=35FiwWeXPikQ7kNvwHxu2DO%26_nc_oc=Ado6YkuQVS34bCXzl1Glf3pX5wzDlCjdQo8KrNPJZ0K9uTwDmcATtv1xSHXqcdYZK-47HZHhv0mIRLpzZLMl0KMr%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=6FdyhdE1V4zGld54ThRoqQ%26_nc_ss=7a22e%26oh=00_AQKG0z2HCycvfrJOkyvvc0ohOxsRySo9PcglT9Boso2zKw%26oe=6AAD9D8F%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DD7XtAki4pp.jpg",
     link: "https://www.instagram.com/leparisdalexis/reel/DD7XtAki4pp/",
     linkType: "instagram",
     veggie: false,
@@ -8954,12 +8954,12 @@ const RECIPES = [
       { qty: "QS", name: "* 10 cl d’huile d’olive", rayon: 'epicerie' },
       { qty: "QS", name: "* Sel et piment d’Espelette", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "zoestene",
-    title: "@zoe_stene",
+    id: "recette-de-le-bonbon",
+    title: "Recette de Le Bonbon",
     emoji: "🍽️",
     cat: "plat",
     chef: "le_bonbon",
@@ -8967,7 +8967,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503796011_1647585339233106_6122269244134737451_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=MzUzNTg2MDUyNjM3MTkwNDA2NQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=Gts9SjaDDDQQ7kNvwECCSea%26_nc_oc=AdpWzrnqkC_2crBjnAPgA9Zjj-_qlbsKssyrb-2xN1k7TCHsC8Ib-LXcVVj0IGMkUvRO5wcUajZvddRq5uKj_Wbp%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=49PWN_9D8lyHU1dLukw9ww%26_nc_ss=7a22e%26oh=00_AQJi5z13CQNulC__Y5-iaxlxLlhkO_X3PvnmGkouJ2NKGQ%26oe=6AADA4F3%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DER5mo5uRpB.jpg",
     link: "https://www.instagram.com/le_bonbon/reel/DER5mo5uRpB/",
     linkType: "instagram",
     veggie: true,
@@ -8975,7 +8975,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -8988,7 +8988,7 @@ const RECIPES = [
     time: "15min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/470897832_18478043146027173_3699775063069537725_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=105%26ig_cache_key=MzUyNTcwNDYyOTQ0NDg4OTk2NQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIzMDQuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=l5ww21WPEWEQ7kNvwHG0JZT%26_nc_oc=AdoBB0iExlImmbMriBcbNF54ga43Icx-ORufYqB_1d2jqVoMyAVx99muu5KCu34bjUxPM14Da5-5IeLwvppOeNfR%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=jv6FG2eo0wk8ZD7lIDocug%26_nc_ss=7a22e%26oh=00_AQJN8DyZMz7YKSk6hczHUbNELyus8Z_qtY_q7Ft_xBS_Eg%26oe=6AADC547%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DDt0a41A01t.jpg",
     link: "https://www.instagram.com/juanarbelaezchef/reel/DDt0a41A01t/",
     linkType: "instagram",
     veggie: true,
@@ -9000,7 +9000,7 @@ const RECIPES = [
       { qty: "QS", name: "Huile d’olive", rayon: 'epicerie' },
       { qty: "QS", name: "Sel", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -9013,7 +9013,7 @@ const RECIPES = [
     time: "25min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/470901513_18479212753027173_6620736535093594480_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=103%26ig_cache_key=MzUzMDE3MjYyNzE4NjA2NzkzMw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjE2NTYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=DPH3gtZkYaAQ7kNvwGIk3jO%26_nc_oc=AdpqV5AxBoqYJiUfpImiA2pimbc2xMAa-mS8D9IjONMlfGo8QMHuqtYAFqISbgOoyYSchRC51bUSxsmKPg2FgCJK%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=W7o0jMyq_UeRIvV7R8gzkQ%26_nc_ss=7a22e%26oh=00_AQJlCg10K01XRwckpD1ZUC9JrZNV9JZ9_TsyrZnj5YIE_Q%26oe=6AADB10E%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DD9sUz_O6nd.jpg",
     link: "https://www.instagram.com/juanarbelaezchef/reel/DD9sUz_O6nd/",
     linkType: "instagram",
     veggie: true,
@@ -9021,12 +9021,12 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "portedrapeau-de-la-gourmandise-et-grande-gagnante-",
-    title: "Porte-drapeau de la gourmandise et grande gagnante de la pre",
+    id: "recette-de-madame-figaro-paris",
+    title: "Recette de Madame Figaro Paris",
     emoji: "🍰",
     cat: "dessert",
     chef: "madamefigarofr",
@@ -9034,7 +9034,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/470041349_18482701492032716_2103648631223695209_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=103%26ig_cache_key=MzUyMTYzODgyOTk2MzQzNjAwOQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEzMjAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=PqSutvWJV74Q7kNvwFLXqeh%26_nc_oc=AdodMmh3knUgudFGbRmTLUl_yDxLSwo48ZKwgZwYljetwjf9bQ3sr8Ffr0HPqCiF782Zz2ARNK6f8LEyBWUK5h0Q%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=B1fw9mjWDwPPsPftVHiEWw%26_nc_ss=7a22e%26oh=00_AQJP-B_Y2S58VkSa08XXY6HKKzR8cCrcdTPFF9dbIA7kHg%26oe=6AADBB3F%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DDfX9t_MV_p.jpg",
     link: "https://www.instagram.com/madamefigarofr/reel/DDfX9t_MV_p/",
     linkType: "instagram",
     veggie: true,
@@ -9042,7 +9042,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -9055,7 +9055,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503321680_687194767257403_4136192626562389189_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=MzUzMTY4MDY1NzcxNDgwMDI3MA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=hyjGU3j827kQ7kNvwFybEr9%26_nc_oc=AdrdKeVZ-0YHtulJ7tz758K72ihqd84-iBlagV0q7MXt5LDFjRDEerth3A_WdCqJeiMTnmjN-U1Sr2CyFx8RGYXN%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=fPBNLYePoLxSGxmfmRS_Vg%26_nc_ss=7a22e%26oh=00_AQJENaTw091sm8z28IDJm-fI1cFPQi8KIUL7HHwTfWuBYA%26oe=6AADC01A%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DEDDNi3NWaO.jpg",
     link: "https://www.instagram.com/elleatable/reel/DEDDNi3NWaO/",
     linkType: "instagram",
     veggie: false,
@@ -9066,12 +9066,12 @@ const RECIPES = [
       { qty: "90g", name: "de beurre", rayon: 'epicerie' },
       { qty: "1", name: "gousse de vanille de Madagascar", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "attention-aux-ustensiles-de-cuisine-que-vous-utili",
-    title: "Attention aux ustensiles de cuisine que vous utilisez. Le pl",
+    id: "recette-de-jimmy-mohamed-DEF9YN",
+    title: "Recette de Jimmy Mohamed",
     emoji: "🍽️",
     cat: "plat",
     chef: "dr.jimmy.mohamed",
@@ -9079,7 +9079,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/471694649_18035110241599318_7300618339822894856_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=MzUzMjQ5OTQyNzQ4Njg3NTU1Nw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExNzguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=K0K9Hvp6wJ0Q7kNvwEBdHRX%26_nc_oc=Adr64nrucXE5lpekf16JUDVNoiNK8CnjAL2SIvaPReGv8n4xv6MqszNNqB6txRIMN38h3JUbxfNUccfPpxsseDn_%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=2qZJNL86MdbJ0VGKOPNsSw%26_nc_ss=7a22e%26oh=00_AQIY1-d5kDvMcT8G1aR6jZQj-RSoYuyqtt-xWrC-YmB1wA%26oe=6AADB5C8%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DEF9YNooD-l.jpg",
     link: "https://www.instagram.com/dr.jimmy.mohamed/reel/DEF9YNooD-l/",
     linkType: "instagram",
     veggie: true,
@@ -9087,7 +9087,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -9100,7 +9100,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503357603_1236398211469531_5600734861013398862_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=101%26ig_cache_key=MzUyNjcxMTM1OTM4MDkyMjE2Nw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=_o_9xRv2NQIQ7kNvwGUumSo%26_nc_oc=AdoJTxmlIVBBhzcNC325LSLrOT_NzCjjOyMep0drcnznk5d8Q7m5drn6V6UOkGAGdC_vlbr_xCKaLIA1S3ilk18G%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=SFlPDofPJx0ZU3DT8qXH2g%26_nc_ss=7a22e%26oh=00_AQIIKg_gxSbMKjBb6K3OSGWXjbWV9x3Ax_Lba0KwYrPneg%26oe=6AAD9DCF%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DDxZUvJPB83.jpg",
     link: "https://www.instagram.com/cuisineactuelle/reel/DDxZUvJPB83/",
     linkType: "instagram",
     veggie: false,
@@ -9121,7 +9121,7 @@ const RECIPES = [
       { qty: "QS", name: "Sel", rayon: 'epicerie' },
       { qty: "QS", name: "Poivre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -9134,7 +9134,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/470370235_18476839648044707_267635444543914720_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=MzUyNDk4ODkwMjQwNjQ2NDg5MQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjMyMTYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=QVg8Rg5nKyMQ7kNvwG0pZNp%26_nc_oc=AdrBFx-yE8-ILuz_KrXp1n3IRo0mj6Zel9YHhVaoxBf_Uf7qLeLLiIVJc_fiqVBIgrFNGbXeFk9UYcQwMOjrHRo-%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=ObKOwZaE-P-NCuaRNcLb9Q%26_nc_ss=7a22e%26oh=00_AQK-cp6L3mZ2ZzOqd9YyHUNSZ_wfiyRTfePg-ZtA17pWCA%26oe=6AADAC8A%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DDrRrsFIaV7.jpg",
     link: "https://www.instagram.com/julienduboue/reel/DDrRrsFIaV7/",
     linkType: "instagram",
     veggie: false,
@@ -9142,7 +9142,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -9155,7 +9155,7 @@ const RECIPES = [
     time: "2h",
     serves: "6 pers.",
     difficulty: "Avancé",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/502945727_590509167403177_4903723791414712609_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzUyMzUyNDE1NjM4MzIwNTc3Nw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=QZMTRA3P1oIQ7kNvwFPmdvV%26_nc_oc=AdoilH2zwOyDOE3ZaWNhPC1RClybCEwa1UrMjVP9unnZoiH_PvjfKKKqS8peFb3B2wf2iCUKmvOMN8s1sEsg8F8R%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=o8mlKNE1HrWthJ-KLGJHiQ%26_nc_ss=7a22e%26oh=00_AQJjYDEV7jC5V5-D1sF8B5lhwVkOms_z1f9SBHrnsifeHg%26oe=6AADC131%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DDmEo1CupmR.jpg",
     link: "https://www.instagram.com/lepointfr/reel/DDmEo1CupmR/",
     linkType: "instagram",
     veggie: true,
@@ -9167,7 +9167,7 @@ const RECIPES = [
       { qty: "1", name: "grosse cuillère à soupe d’armagnac", rayon: 'epicerie' },
       { qty: "1", name: "grosse cuillère à soupe de cognac", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -9180,7 +9180,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/470158426_18470933032004693_2656888788284271537_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=111%26ig_cache_key=MzUyMzU1NTY0ODI3MjkwMDI2NQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=WRUqJpPDGjIQ7kNvwHmMu3N%26_nc_oc=Adr0DeIBE5lTNPRNmZAOMnzRTRUcgDizHRfwquEznd8c3Qkr9tp1Jr_CPFw6NpQwBk-TdjPNXEbPQhkwyXdh-CTS%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=aUenfL49okVjpSwKNEX9RQ%26_nc_ss=7a22e%26oh=00_AQIhvvcoh_wHxNeM2tK1204tdALXN4S38PPDdPJ3TamrDQ%26oe=6AAD9256%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DDmLzGJoKCp.jpg",
     link: "https://www.instagram.com/tarayrenorbert/reel/DDmLzGJoKCp/",
     linkType: "instagram",
     veggie: true,
@@ -9191,12 +9191,12 @@ const RECIPES = [
       { qty: "QS", name: "Sel", rayon: 'epicerie' },
       { qty: "QS", name: "Poivre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "decouvrez-une-super-recette-de-chorba-une-soupe-or",
-    title: "Découvrez une super recette de chorba, une soupe originaire ",
+    id: "recette-de-france-inter-DDhrJ7",
+    title: "Recette de France Inter",
     emoji: "🥗",
     cat: "entree",
     chef: "franceinter",
@@ -9204,7 +9204,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503003464_2189239951562832_4610891478415086575_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=MzUyMjI4NjE4MjQ2NjE3MDI1Ng%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=1pxJgU7yzjIQ7kNvwGYoJNl%26_nc_oc=Ado7O5eQDlSaHAfJhVfWNBWdOu3uIoMAL4MpbxZCWD4FRJgiFN4H2xJ6wGHJTZMRcWlbskX4ilkFv17DsdynXpFF%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=0--2V2cAVErQuAIpwNdKNg%26_nc_ss=7a22e%26oh=00_AQIy6mkKh3QzjPqsrdAkLRRyVUdob1rkkb8jZ2gl4ogGyw%26oe=6AADAA1B%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DDhrJ7_Ka2Q.jpg",
     link: "https://www.instagram.com/franceinter/reel/DDhrJ7_Ka2Q/",
     linkType: "instagram",
     veggie: true,
@@ -9212,12 +9212,12 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "calendrier-de-lavent-jour-8-des-verrines-de-crevet",
-    title: "Calendrier de l'avent - Jour 8 🎄 Des verrines de crevettes p",
+    id: "recette-de-cuisineaz-DDT1WR",
+    title: "Recette de CuisineAZ",
     emoji: "🐟",
     cat: "poisson",
     chef: "cuisineaz",
@@ -9225,7 +9225,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503058937_2092766031208803_3610717590250999552_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=102%26ig_cache_key=MzUxODM5MDM2MTM4NzI1MzU1Nw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMDIuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=IchxCj_PR_UQ7kNvwERAbtl%26_nc_oc=AdqEInWe9LHkih8m2b1swYrQCDXYeBwY_PMWaUbS52T4hBtJdSiG4Dv6YXgM5A1rXM_Hobck6O98DsWZCvIZ2UoX%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=d0T_iI_h1WcmUgPu89XHOw%26_nc_ss=7a22e%26oh=00_AQJQk2TEghlxQ63oCwBssLpOB_gGEO-JJTsuCb5QTf1JGA%26oe=6AADAE82%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DDT1WR3pT81.jpg",
     link: "https://www.instagram.com/cuisineaz/reel/DDT1WR3pT81/",
     linkType: "instagram",
     veggie: false,
@@ -9233,7 +9233,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -9246,7 +9246,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/469640095_18366208303142204_583394248728889472_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=MzUxNzcyNTcwMTAxNDE3MTA4MQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=wlawrNJKGrwQ7kNvwGFXIgn%26_nc_oc=Adr5iNqk5gfJWTSUdUOhLkP1qNNEi2lPt91_OaJTiF0LuCQkzO_WJznDYyR1rJVUBGDcZ1LL5kP0PTLvbKuqHh4i%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=s1H0PiSKFZEC_rvSF4CKzQ%26_nc_ss=7a22e%26oh=00_AQKK81iAKHg6U1tpuw3h1mZ8PW_-oagG6TWwRW1a202l2g%26oe=6AADBA70%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DDReOMqNi3J.jpg",
     link: "https://www.instagram.com/charlinedieteticienne/reel/DDReOMqNi3J/",
     linkType: "instagram",
     veggie: true,
@@ -9254,7 +9254,7 @@ const RECIPES = [
     ingredients: [
       { qty: "700 g", name: "de potimarron", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -9267,7 +9267,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/469586799_18470285680030919_1513520758297671708_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=104%26ig_cache_key=MzUxODQ1Mzk1Njc5MzIxMTgyMQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIyNjguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=xRAc_Uu3qqgQ7kNvwEuqVhM%26_nc_oc=Adq1GM55s3QJs8_Rvgc7sZkb3MdJ3mkE-quC_Df8Ezf-ydxW_wB4X0xFQyuxa8UhZzFbwg0Fz2nFZ7JaxjLJ8t_Z%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=7AsZWKqoEiA4D359JjFvmA%26_nc_ss=7a22e%26oh=00_AQLI4aKLa8Z1xo_roO6a2CduCYfPNURL3rix_RxnnQTZtA%26oe=6AAD9464%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DDUDzttOhut.jpg",
     link: "https://www.instagram.com/willyskitchen/reel/DDUDzttOhut/",
     linkType: "instagram",
     veggie: true,
@@ -9289,7 +9289,7 @@ const RECIPES = [
       { qty: "QS", name: "* 3 Anis étoilé", rayon: 'epicerie' },
       { qty: "QS", name: "* 6 Clous de girofle", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -9302,7 +9302,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/469635429_18470017051051047_3693414334852125040_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=MzUxNzE4NDc0ODc0MjI4ODgyMw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=Hxo6DLEFVZ8Q7kNvwGI0kej%26_nc_oc=Adq9SUgBq_YWbVYzJYCqJbe1B4-NH9nw5_QgnbQ_HR33ixAPbVXT99eHjAst4s9GOGhPziQd8Eiwi0piV-i9QTJp%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=2M41OeMYAMtld5ghptg5Xg%26_nc_ss=7a22e%26oh=00_AQKW7Hgh2W0kkL_QwWhohsbJSEVr31rb_hTNOR-kRXEhzg%26oe=6AADA40C%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DDPjOTmNKW3.jpg",
     link: "https://www.instagram.com/cuisineactuelle/reel/DDPjOTmNKW3/",
     linkType: "instagram",
     veggie: false,
@@ -9310,7 +9310,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -9323,7 +9323,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/498032517_1268895481485079_7692186135252862140_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzUxNjU2NjMwNjI1MDI1MDU3Nw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=VK917Qx835sQ7kNvwEfKPQu%26_nc_oc=AdoefVAF8XAigAq2CqNOl0o3eHmRG4DaFuOtdnS3JQHLp07gvrDVEG-woY_TvYOJIFa-5jQt7R0RpzgfcVfsfDr9%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=sFPtRtXv8iZ6SX3xSxdfSQ%26_nc_ss=7a22e%26oh=00_AQKiFjPCd0fjMDgJ7pGYXiw0dxjD4aVZDoyUl6y1eEtfcA%26oe=6AADB4E3%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DDNWmyJJ1lR.jpg",
     link: "https://www.instagram.com/cuisineactuelle/reel/DDNWmyJJ1lR/",
     linkType: "instagram",
     veggie: true,
@@ -9334,7 +9334,7 @@ const RECIPES = [
       { qty: "QS", name: "Sel", rayon: 'epicerie' },
       { qty: "QS", name: "Poivre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -9347,7 +9347,7 @@ const RECIPES = [
     time: "12min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/468561277_17973278615801401_5755551257375743098_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzUxMjEzNDA2MTg2ODI3NTAxNDE3OTczMjc4NjA5ODAxNDAx.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExMjYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=ZvmWIq2hZWwQ7kNvwEGR5j1%26_nc_oc=AdqZvqezonr-uvG4E26qLB31hr5HoDIa3IcV-QKhN_MFKpC97-7OhQdXGKuLdkTUEJc691y-5rg1Z-MHe_QTjcCE%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=AHkJdcdB8-9auc5AhH59DQ%26_nc_ss=7a22e%26oh=00_AQLHUQZs2rgZqKJNHXVMORxx6Zi0XRsi-np9-nVI79VAuA%26oe=6AAD9189%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DC9m1I5NVVG.jpg",
     link: "https://www.instagram.com/lesudatable/reel/DC9m1I5NVVG/",
     linkType: "instagram",
     veggie: false,
@@ -9369,7 +9369,7 @@ const RECIPES = [
       { qty: "QS", name: "🍀1 pincée de piment d’Espelette", rayon: 'epicerie' },
       { qty: "QS", name: "🍀Sel et poivre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -9382,7 +9382,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/469087154_18475391779058637_3800289798440832350_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=110%26ig_cache_key=MzUxNTc4OTczNTA1MTE2Mzc1Mw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=3PbpWwAKMrEQ7kNvwH1tlmv%26_nc_oc=AdqH2df8en4eTV13aCKrsTk2W9ZQ93W_oazMp5z9LggLYnn0u6C5qCVdcgwuVaIs3bHsjMdGfGfbT-JoSU8K08SM%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=3dzPIAFRaAIBoL172LruZw%26_nc_ss=7a22e%26oh=00_AQL1HB9D745SuZisymEBcMV67m1CrVBHpIWvk7rnrXW5mQ%26oe=6AADC766%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DDKmCL2sHhp.jpg",
     link: "https://www.instagram.com/cyrillignac/reel/DDKmCL2sHhp/",
     linkType: "instagram",
     veggie: false,
@@ -9399,7 +9399,7 @@ const RECIPES = [
       { qty: "2", name: "gousses d’ail épluchées et dégermées", rayon: 'epicerie' },
       { qty: "QS", name: "Quelques branches de thym", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -9412,7 +9412,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/468348995_18326769019155634_231318958889413174_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=102%26ig_cache_key=MzUxMDAxMTM3NjIyMDY2MTQzMzE4MzI2NzY5MDE2MTU1NjM0.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIxNjAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=426IKQwbe4cQ7kNvwHy4ibU%26_nc_oc=AdpBKygqYBKVHNPtdG3bz9LSNcn1gJ38zFHAVrIe12SvZeIZxihcFfZ9LOJDXlrbAScdp7VVw3xhqIdDwdCVWf3A%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=ET_I2-ISsi9ttwKmS4lNvg%26_nc_ss=7a22e%26oh=00_AQI4FB56-leTkTc1QGJXMJYtFBGS_k5MDKWFC__1xc8z6g%26oe=6AADBED6%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DC2EL_1Nma5.jpg",
     link: "https://www.instagram.com/kinette_beautyfood/reel/DC2EL_1Nma5/",
     linkType: "instagram",
     veggie: false,
@@ -9420,7 +9420,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -9433,7 +9433,7 @@ const RECIPES = [
     time: "45min",
     serves: "6 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/500323248_1064040445576975_7498171082233921157_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzUxMjEzOTc1Mzc4OTEyNTQ3NA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=PXolqI_I4qsQ7kNvwHFaWyA%26_nc_oc=AdoIIZKP1ATG_s-RuBakRKC18mgB-jYV4EjeqGnnBjbD82N2YRbuGAB9uq4cTLGU6s1JnwP18UabA4Ct5R495CGf%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=b5tqAAeQnhqxp36ObhHi9A%26_nc_ss=7a22e%26oh=00_AQLCc01Hv5nvcYakewOhoGhSXtXEtnS0Mw4hbT0UdAzkiA%26oe=6AADC43B%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DC9oH96IPNi.jpg",
     link: "https://www.instagram.com/franceinter/reel/DC9oH96IPNi/",
     linkType: "instagram",
     veggie: false,
@@ -9441,7 +9441,7 @@ const RECIPES = [
     ingredients: [
       { qty: "QS", name: "Riz : riz thaï", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -9454,7 +9454,7 @@ const RECIPES = [
     time: "25min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/468660638_18476290102055334_6236615469514731599_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=104%26ig_cache_key=MzUxMDcwNDAwNjM2NjI1NTM1Mw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=qVpVCxlJ9SIQ7kNvwHo18IV%26_nc_oc=AdofUep8d-CvN0deIPLsG-Sna7e8bb4LEzck_rrsff5DhAAJlf4y7nocz_iNHa8TuJIwguMZia9ZsjKtS7CRRmH8%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=_jrYbCXEWvhUjIWCWbNVxA%26_nc_ss=7a22e%26oh=00_AQItwuMIr5VD3k0Ko2GO-ESL7PbcfL8aBd83zysKRLvGyQ%26oe=6AADBD5C%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DC4hrF7AFj5.jpg",
     link: "https://www.instagram.com/doitin_paris/reel/DC4hrF7AFj5/",
     linkType: "instagram",
     veggie: false,
@@ -9462,7 +9462,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -9475,7 +9475,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/468660656_18270766300300957_5615278199778238118_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=105%26ig_cache_key=MzUxMDQ4NDA1MjM3ODU0MjU3NQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=tSuUHV2zID4Q7kNvwF16tlC%26_nc_oc=AdpSgmcmJnB0qV9zsnYXOGfQfBZ80M8ChtVFuzvDUOcmZ7MvfVOWMgbyK6ybml8Dy2r52Xdie37dZVU2X8vQbkJO%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=2ftyArBbQVmIoS-asj7Hdw%26_nc_ss=7a22e%26oh=00_AQKrSir7hsXgTnJdFMs8SgO7usaTF66IUWShO0ki6fsJKA%26oe=6AAD9565%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DC3vqVzsmHv.jpg",
     link: "https://www.instagram.com/kitchenfactoryprod/reel/DC3vqVzsmHv/",
     linkType: "instagram",
     veggie: false,
@@ -9493,7 +9493,7 @@ const RECIPES = [
       { qty: "QS", name: "Piment d’Espelette", rayon: 'epicerie' },
       { qty: "QS", name: "Sel fin et poivre du moulin", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -9506,7 +9506,7 @@ const RECIPES = [
     time: "15min",
     serves: "3 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/505425188_1039227488312812_8565111628005617416_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=MzQ4MjQ0Njc5NzgwOTQ0OTgzMTEwMzkyMjc0NjQ5Nzk0ODE%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=2pWZ2d_hvB4Q7kNvwH_GXzs%26_nc_oc=AdorWHw0XID3nrGaP8RWioEEiaBNpDfrQSZy-XuXKd7RwGyksfWTvosbSHtnr0PF_pPt35K54WrXSELedf2kr9E8%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=pt3uUkYXoD6RAegcnbtz_Q%26_nc_ss=7a22e%26oh=00_AQLIu8kCujYQjjQ5YtPKmSMOMg1fa_9Z_L5-Ms1yK4_ZzQ%26oe=6AADB0D5%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DBUIulsoPtn.jpg",
     link: "https://www.instagram.com/mohamedcheikh_/reel/DBUIulsoPtn/",
     linkType: "instagram",
     veggie: false,
@@ -9528,7 +9528,7 @@ const RECIPES = [
       { qty: "30 CL", name: "Eau", rayon: 'epicerie' },
       { qty: "QS", name: "PM Sel", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -9541,7 +9541,7 @@ const RECIPES = [
     time: "5min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/468458949_17964210542818831_8448101795103256465_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzUwOTk5NzkwMjA0Mjk1MTAzNQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=hL8b1PUvnUkQ7kNvwGNsSPn%26_nc_oc=AdqICew4M8YVVXuWzCBGLIatZXDczfLLf7wB4KUg_RpPLhAVhVKBXprbPJFE4rpTCIr8G3FptiZOayprxECVFcVJ%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=3BWjI7CMHYqZ8xvnXHyqzA%26_nc_ss=7a22e%26oh=00_AQI5kwXUjyLllsWYIWSn0vYnSfNShnabOUvnQTMQX98h6w%26oe=6AAD9730%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DC2BH7Bou17.jpg",
     link: "https://www.instagram.com/belly.media/reel/DC2BH7Bou17/",
     linkType: "instagram",
     veggie: true,
@@ -9556,7 +9556,7 @@ const RECIPES = [
       { qty: "6", name: "œufs", rayon: 'epicerie' },
       { qty: "3", name: "pincées de noix de muscade râpée", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -9569,7 +9569,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/467921708_18471679084042581_2322273775678406316_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzUwOTc4MzU5MDA2MDQxMjEwOQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjkwMi5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=_tpPOTBnuyQQ7kNvwHTQ6H9%26_nc_oc=Adq-wy-CWDMPMsfHTM2wsr-Y1s71LpQsvGRs1IcRQnAQ9ppVg51yHYglYO85qpGlF10PcQmZU_lRTE0A7cgcycpu%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=Fe4mAa2tPVbz4CVIu4lwlA%26_nc_ss=7a22e%26oh=00_AQKUbInh40CxrYbw0OkGLPXBgEVuZgK8n3ptG8_D-5qTtA%26oe=6AADB5EB%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DC1QZRcC8zN.jpg",
     link: "https://www.instagram.com/laurent.mariotte/reel/DC1QZRcC8zN/",
     linkType: "instagram",
     veggie: true,
@@ -9577,7 +9577,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -9590,7 +9590,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/468312981_18270643549300957_8906923717464718220_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=MzUwOTc5NTI1MDUzODM5NTY0Mg%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=nyd4fquPX5wQ7kNvwHGZNPf%26_nc_oc=AdrHw8-BNqU2jzK_IPsi11oggfjM2uoyYTtZuph2dUh0AAB82IDlE9PU0raawTpY2JNRcTPnSuOb6Q6bRxjWlTgd%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=HzAJnIwWg39ANCgJ0mZ0YA%26_nc_ss=7a22e%26oh=00_AQKS_DCQw-eZKPBE6DNgWYj-Fh11Ai2J2-KvxLoSKdpYSQ%26oe=6AADAF91%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DC1TC9Gsbf6.jpg",
     link: "https://www.instagram.com/kitchenfactoryprod/reel/DC1TC9Gsbf6/",
     linkType: "instagram",
     veggie: false,
@@ -9608,7 +9608,7 @@ const RECIPES = [
       { qty: "QS", name: "Huile d’olive", rayon: 'epicerie' },
       { qty: "QS", name: "Sel fin et poivre du moulin", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -9621,7 +9621,7 @@ const RECIPES = [
     time: "35min",
     serves: "6 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503806296_686962193952349_8474045506584493784_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=103%26ig_cache_key=MzQ5OTgyNDAwMDQ4MjM1MTIxNw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjg4MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=Fa_qEPooJ2oQ7kNvwE0GV38%26_nc_oc=Adp-xQd3lRgLmuWc1HSuGJtbsEUm-JjY5I-V6Nh25nHEydHtHkZPMatBb3qy5CCd_dqcHBs1Bw9SnLFEZPjAyK6K%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=gewL5rN_MOrSVgFpW-Sg4g%26_nc_ss=7a22e%26oh=00_AQLd3wkjs0Z7QFCCHhh5DrC_zMM-XM08DuGYuc4vK6TA0w%26oe=6AADAEA4%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DCR32K1Ixhx.jpg",
     link: "https://www.instagram.com/lacuisinedegarance/reel/DCR32K1Ixhx/",
     linkType: "instagram",
     veggie: false,
@@ -9636,7 +9636,7 @@ const RECIPES = [
       { qty: "1", name: "œuf", rayon: 'epicerie' },
       { qty: "QS", name: "huile de cuisson + huile d’olive", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -9649,7 +9649,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/467635278_18467392531042992_1243338793332571153_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzUwNDg4NjM2MzgxMzEzNjQzNw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=LrHLvTiVn7gQ7kNvwGL4oIx%26_nc_oc=Adq0W4zbgcftkwPVXhCl-G_3DCcFzV09v32bvmaYJVToD8ep-O3rRd9IDuIeV-9NcIHk3XuvQyTXh4O0doElLX9N%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=t_OJ-OHFCzYO3NC7DxylLQ%26_nc_ss=7a22e%26oh=00_AQI9A55XnY06SM_FGuPaYh3WBsy23_fGkE8vrq7BqnrE0w%26oe=6AADABD2%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DCj25QFMUg1.jpg",
     link: "https://www.instagram.com/zoeladiet/reel/DCj25QFMUg1/",
     linkType: "instagram",
     veggie: true,
@@ -9657,7 +9657,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -9670,7 +9670,7 @@ const RECIPES = [
     time: "10min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/491412355_1408159787045669_8759405759474063952_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=MzQ5NDY5MDkzNTc5MjgyMDg1Ng%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=Jc5n035EiegQ7kNvwGMrMM6%26_nc_oc=Adrdn4JKfVI0fS6Yiz6fJUASXLbOvvplWjXatSNtE4U3bEQuhZHZM4AxVSkK3_zSpp4Z9hF6h4c-Ph-gSRNT75-s%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=0I2y-RkAWgqHi_U1k9b1yg%26_nc_ss=7a22e%26oh=00_AQI_AqLGUmInO0FzLCZP0KtXO2MiyY7cFd2ws-kGeGLZ-w%26oe=6AADB866%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DB_ouPztWJ4.jpg",
     link: "https://www.instagram.com/750grammes/reel/DB_ouPztWJ4/",
     linkType: "instagram",
     veggie: true,
@@ -9688,12 +9688,12 @@ const RECIPES = [
       { qty: "QS", name: "Sel ou sel fin", rayon: 'epicerie' },
       { qty: "QS", name: "Poivre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "300-g-de-sucre-en-poudre",
-    title: "300 g de sucre en poudre",
+    id: "gousse-de-vanille",
+    title: "½ gousse de vanille",
     emoji: "🍰",
     cat: "dessert",
     chef: "franceinter",
@@ -9701,7 +9701,7 @@ const RECIPES = [
     time: "10min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503054495_1893635611432969_5439955994529288453_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=MzUwMTk5MzEyNTE0NTMwNzc3Mw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=1kNNPBFF76MQ7kNvwFpNmC0%26_nc_oc=Adrl7nFoV8x4WcoznTJvCxPT0dqugcTCP0yLcGUBOEshtD0xq90ym2ciVO3R99ZfJO9IcgwAPhuuuLvnwEIEpmUU%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=u192BEvwZnW55rxK6xfQGA%26_nc_ss=7a22e%26oh=00_AQKCQeXcq_PsPd2PdBvid7E8zY309lga-ipjhG3zurtDAw%26oe=6AADB4AB%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DCZlDFmJWp9.jpg",
     link: "https://www.instagram.com/franceinter/reel/DCZlDFmJWp9/",
     linkType: "instagram",
     veggie: true,
@@ -9712,12 +9712,12 @@ const RECIPES = [
       { qty: "QS", name: "I pate brisée", rayon: 'epicerie' },
       { qty: "QS", name: "Beurre pour le moule", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
     id: "coleslaw",
-    title: "COLESLAW 🥬",
+    title: "COLESLAW",
     emoji: "🍽️",
     cat: "plat",
     chef: "xavier_pincemin",
@@ -9725,7 +9725,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/466420554_18470326480061228_2264740710006869795_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=MzUwMTIzMjY0ODA2MDIzNTkzNw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=Xth2-2U7XkUQ7kNvwGXUfVS%26_nc_oc=Adp_YVZHn_vh5RcOnOM0EODudSsiEIdF5PYpZgCtvkG2ROJ8-U4FbrDPHwTyjK81ti8Fh329cId4Mk0vs801xHpg%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=6EeZZ9LxhgkWmsL2BkTMMg%26_nc_ss=7a22e%26oh=00_AQK8FpFUMZUBegXeWx9rsqk2WWFSbXz53L6eftQ8kBOhuQ%26oe=6AAD9210%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DCW4IsHoXCh.jpg",
     link: "https://www.instagram.com/xavier_pincemin/reel/DCW4IsHoXCh/",
     linkType: "instagram",
     veggie: true,
@@ -9733,7 +9733,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -9746,7 +9746,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/466929307_18269032000300957_6102221720978254684_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=105%26ig_cache_key=MzUwMTA0NjY3MzQxODgyMzAwNQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=bKkBguZaYxYQ7kNvwGA9MoD%26_nc_oc=Adrwpsig3yAf1NdO99YbSHty5uQiAMgz5Phe5unaFrVL5ABy-a7swAtl7pSuwCr8etkI1JE0huoIaKnmdh0s6L7E%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=bDpfOQ_U8hVs_aOBqpDvBw%26_nc_ss=7a22e%26oh=00_AQIGi_sKm2o6jA1Lqij_nVC5UlAF3jWUHcREAsedMJXuUA%26oe=6AADBA62%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DCWN2ZvMSVd.jpg",
     link: "https://www.instagram.com/kitchenfactoryprod/reel/DCWN2ZvMSVd/",
     linkType: "instagram",
     veggie: false,
@@ -9768,12 +9768,12 @@ const RECIPES = [
       { qty: "QS", name: "Huile neutre", rayon: 'epicerie' },
       { qty: "QS", name: "Sel fin et poivre du moulin", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "si-jamais-vous-voulez-une-recette-simple-et-rapide-DCWUl6",
-    title: "Si jamais vous voulez une recette simple et rapide de sauce ",
+    id: "recette-de-brut-DCWUl6",
+    title: "Recette de Brut.",
     emoji: "🫕",
     cat: "sauce",
     chef: "brutofficiel",
@@ -9781,7 +9781,7 @@ const RECIPES = [
     time: "15min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.75761-15/466737385_18347462569126910_3022897531303997398_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=MzUwMTA3NjMyNjc2NzQ0MjIwMA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=WCY6jpYx8kkQ7kNvwESd8a_%26_nc_oc=Adpl4-0516qzKxMm_VwDW37DvpRkktq0STdySgnSNAaUNyOVUKPBkW7WlYycfqd3l3A-iuu-mdTI75Iq9GVkX1yZ%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=meG8iwypV68jjq2mn6IgIA%26_nc_ss=7a22e%26oh=00_AQJb9Xa_3ure1yv81E0D8HNKn2xgTqTwbGOcyYbriFqr_Q%26oe=6AADAB1B%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DCWUl6kgLkY.jpg",
     link: "https://www.instagram.com/brutofficiel/reel/DCWUl6kgLkY/",
     linkType: "instagram",
     veggie: true,
@@ -9789,7 +9789,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -9802,7 +9802,7 @@ const RECIPES = [
     time: "25min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/502948237_1808841606655328_8379695991890941825_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=102%26ig_cache_key=MzQ4ODA2MjY1Njc3MTM0MTUxMA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=Aynnsrx8NTAQ7kNvwG0UmP1%26_nc_oc=AdpIuo1LIaag0Nfwy428s_KgrDt1BEWqmeY2ivpdfhuViU-vGqm11o08rEgFXafo6KF1zU38Zu8FIfmMI0GPeUd7%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=-hyeHFlXJ7PCcXg8TWOcPg%26_nc_ss=7a22e%26oh=00_AQINWLnyOWeI0ecuQmWbDluLl-Nf67974X5t3MVCSuBuNQ%26oe=6AADAA90%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DBoFoF7KTzG.jpg",
     link: "https://www.instagram.com/lepointstyle/reel/DBoFoF7KTzG/",
     linkType: "instagram",
     veggie: true,
@@ -9810,7 +9810,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -9823,7 +9823,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/502994363_1138717021347345_5131160300894302634_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=MzQ5ODkyNjY5MjgwNDk2NTEyMzExMzg3MTcwMTgwMTQwMTI%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjkwMi5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=lzwpEq5Y9a8Q7kNvwHu4mhm%26_nc_oc=AdqKf9N916iwsY6wIMo700WHxjBiPP0cN6Pe6-TWOs98auIAMD5QDzlf0nlBKVAcZ_ToFhUFBupkSwi0uQhjYYoU%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=e0LtBzhy44WoKel-CAGLsA%26_nc_ss=7a22e%26oh=00_AQLyotmYwkSH_CbRJWyG1qHvH0tP6xFZCJ3dKi6ixuYjSA%26oe=6AAD9A0E%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DCOr0n7xbMD.jpg",
     link: "https://www.instagram.com/vferniot/reel/DCOr0n7xbMD/",
     linkType: "instagram",
     veggie: true,
@@ -9831,7 +9831,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -9844,7 +9844,7 @@ const RECIPES = [
     time: "15min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503274084_1072252161458552_2333707620410123429_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=MzQ5OTY1ODM2MDI2Mjk5MzA0MA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=p1-tXTOty6MQ7kNvwHGTmqk%26_nc_oc=AdrdVNIXUzf_arFGUIuB5zD1_EQ77OMFTxlcSa7njill2Qh5m6ajDIQsbjY-2cYgG0nFXOqtm34SlPcwfe04my-R%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=G2ICXivmiHTmLAkWInOy5w%26_nc_ss=7a22e%26oh=00_AQI3VSu5ov1_0G3eFAGWjooXEMxkHQhj0pjXTgh2zkx3Gw%26oe=6AADB917%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DCRSLyWs6SQ.jpg",
     link: "https://www.instagram.com/kitchenfactoryprod/reel/DCRSLyWs6SQ/",
     linkType: "instagram",
     veggie: true,
@@ -9863,7 +9863,7 @@ const RECIPES = [
       { qty: "20 g", name: "de gingembre râpé", rayon: 'epicerie' },
       { qty: "QS", name: "Du beurre pour le moule", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -9876,7 +9876,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503584016_2482670888743251_6141101443197430772_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=106%26ig_cache_key=MzQ5ODkwNDMxOTA1OTk0Nzc0Nw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=hOTlYSzz7YgQ7kNvwH6O5V9%26_nc_oc=AdrxUpbh2OeglsXcT72_CZXcrdZhZYZJAFcNhR0k6uuXecbtKv9czotnPbVvMTiK43ydH6_WzfpQMlVzb75hd11u%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=_qtEegg-HpkcGsjj49pSLw%26_nc_ss=7a22e%26oh=00_AQIGv4jYc7VPhjz2AAebfqWX_1IlsaAaPVvWnR2SFNU7jg%26oe=6AADC346%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DCOmvCwpfDj.jpg",
     link: "https://www.instagram.com/marmiton_org/reel/DCOmvCwpfDj/",
     linkType: "instagram",
     veggie: false,
@@ -9898,7 +9898,7 @@ const RECIPES = [
       { qty: "30g", name: "de beurre", rayon: 'epicerie' },
       { qty: "QS", name: "Le reste de farce", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -9911,7 +9911,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/502717755_1716773215603743_6834025678863387936_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=103%26ig_cache_key=MzQ5NzYyNTg1NzM0Mjc2NjMwNg%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=H-E2a-1j_IgQ7kNvwEBO3V3%26_nc_oc=AdrSkY3ks2tQkOD1CtCZfRyx4fRG71BapgJXU-yYWQgxDlC3MwulH2SZlS9FbxQCJ29D2rQNajVzv97k4HG-2I6X%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=ZqIJIlbCd8gxqanWIBqn-Q%26_nc_ss=7a22e%26oh=00_AQIiErhC5YmOUjk9VQ6PkE6k5KGRyPnp3v4eGsZ13hTOzA%26oe=6AADB0F7%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DCKEC-gIvzi.jpg",
     link: "https://www.instagram.com/mohamedcheikh_/reel/DCKEC-gIvzi/",
     linkType: "instagram",
     veggie: false,
@@ -9931,12 +9931,12 @@ const RECIPES = [
       { qty: "QS", name: "Quelques branches de thym", rayon: 'epicerie' },
       { qty: "QS", name: "Quelques noix de cajou et quelques graines de nigelle pour l", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "250g-de-farine-DCCoDP",
-    title: "250g de farine",
+    id: "un-peu-de-sucre-facultatif",
+    title: "Un peu de sucre (facultatif)",
     emoji: "🍰",
     cat: "dessert",
     chef: "dr.jimmy.mohamed",
@@ -9944,7 +9944,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/497096425_1827325841334459_1568045398118097225_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzQ5NTUzMjQwNTk3Njk5NjM5Ng%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExNzguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=AG2UScqw560Q7kNvwGFc942%26_nc_oc=AdqQrHvoSe7NezYX3U3OdQS0yueJoYiRBYUpJVOjXxS5QXGDLwHJVZ3XuMbzYeWeHR-Ux9J6-4vZIrz3CQ0Oh4SC%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=fGzPMj8ZbVf9QbJr9iJq4A%26_nc_ss=7a22e%26oh=00_AQLTawauixVCSXcdCZ5_qsBTl0MAADrgQcIU7JphOyWyfQ%26oe=6AADA01B%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DCCoDP_IBos.jpg",
     link: "https://www.instagram.com/dr.jimmy.mohamed/reel/DCCoDP_IBos/",
     linkType: "instagram",
     veggie: true,
@@ -9952,7 +9952,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -9965,7 +9965,7 @@ const RECIPES = [
     time: "20min",
     serves: "6 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/491463397_502700476165787_2516798049886738608_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=104%26ig_cache_key=MzQ5NjcwMjA4NTgyODc3MTMxMA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=a9QC9y7ERnIQ7kNvwHmUQqw%26_nc_oc=AdorxNApu1iU-vSwNg5KlMFS4jTLCfFD7DnFlKiFkzSZVp7j_qFkt3ZUJ9hpC8AIfzQZNY3rVsattRKslqoQe8z-%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=iaW195UuwPFZnsuPv65nCw%26_nc_ss=7a22e%26oh=00_AQI_dXwl7FrEIuo9YGrt9ZysnpX5HQ2EfsiniB06Ukb2OQ%26oe=6AADA723%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DCGyAVPMP3u.jpg",
     link: "https://www.instagram.com/kitchenfactoryprod/reel/DCGyAVPMP3u/",
     linkType: "instagram",
     veggie: true,
@@ -9984,12 +9984,12 @@ const RECIPES = [
       { qty: "6", name: "à 8 marrons glacés", rayon: 'epicerie' },
       { qty: "1", name: "dizaine de petites meringues", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "2-c-a-c-de-graines-de-coriandre-grossierement-pile",
-    title: "2 c. à c. de graines de coriandre grossièrement pilées",
+    id: "materiel-DCHjON",
+    title: "Matériel",
     emoji: "🍝",
     cat: "pates",
     chef: "franceinter",
@@ -9997,7 +9997,7 @@ const RECIPES = [
     time: "25min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503324775_1294756308904026_5088432442026929854_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=101%26ig_cache_key=MzQ5NjkxODU0NDM5MzEwNzA5MQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=qZa1hi2OpmwQ7kNvwF0PHeV%26_nc_oc=Adr-IIXaQtDnDfybp-fNyOpmY6EBNK_LYjf8URI7uyNnzcxmeCV0bBgGEvMPIk0dra1a-KCYrLq0DCmacuQvteWq%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=ZoGLByERjG2-6QcQSZlBoQ%26_nc_ss=7a22e%26oh=00_AQK5OdQ4Zke1SH4yk-mu4OkuzQiMzGQ_9BcM_LYC9l5lBQ%26oe=6AAD93A5%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DCHjON_BvaT.jpg",
     link: "https://www.instagram.com/franceinter/reel/DCHjON_BvaT/",
     linkType: "instagram",
     veggie: false,
@@ -10012,7 +10012,7 @@ const RECIPES = [
       { qty: "8", name: "filets d’anchois au sel", rayon: 'epicerie' },
       { qty: "9 cl", name: "d’huile d’olive (90 g)", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -10025,7 +10025,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503281655_1428406118155533_3566332752810381288_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=102%26ig_cache_key=MzQ5NTQyNTgyOTYxNjg3NTMzMQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=zrGPiCiiAtIQ7kNvwFvIEOK%26_nc_oc=AdoTgDoACRluEj7Uo3BuwbdWWq28EpbU5-RuqBpzK8xTn--zuSCLljI4ws4z3Tf4taqCD9yQJetkJWuk57lgXqSG%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=oMFF9Mywl0CSOR_Fg705mg%26_nc_ss=7a22e%26oh=00_AQKHWaVVl4WaEAKO9lWmEwBr3I1c56kmKJeUP6bsdimNgg%26oe=6AAD9B5E%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DCCP0XBCfdD.jpg",
     link: "https://www.instagram.com/not_so_superflu/reel/DCCP0XBCfdD/",
     linkType: "instagram",
     veggie: true,
@@ -10033,7 +10033,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -10046,7 +10046,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.2885-15/464270266_570578522017108_7859447414721363654_n.jpg?stp=dst-jpg_e15_p160x160_tt6%26cb=677c4ff2-a8e71d2d%26efg=eyJ2ZW5jb2RlX3RhZyI6IkFELmltYWdlX3VybGdlbi43MjAuc2RyLnZpZGVvX2FkZGl0aW9uYWxfY292ZXJfZnJhbWUuYzIifQ%26_nc_ht=instagram.fctt1-1.fna.fbcdn.net%26_nc_cat=104%26_nc_oc=Q6cZ2gFIKCV5yqUSN51XgqtmHNUCNSueg8OFDErlIwufDk6avRb396ZK7zWYko1tVw6ISQMMi3dEAtfAfLQbQ3tli7mr%26_nc_ohc=FCDQrhVTfmsQ7kNvwExJDP1%26_nc_gid=8fdFDbyyO3qKn6s0Jjom0A%26edm=ALQROFkBAAAA%26ccb=7-5%26oh=00_AQLbxdWTJqH66NmW8-saGH8Ldx7rKUHd_YKTKhdR-8nIcg%26oe=6AAD9F4B%26_nc_sid=fc8dfb%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DBdhoS7MfR0.jpg",
     link: "https://www.instagram.com/marmiton_org/reel/DBdhoS7MfR0/",
     linkType: "instagram",
     veggie: true,
@@ -10060,12 +10060,12 @@ const RECIPES = [
       { qty: "4,86 g", name: "de fleur de sel", rayon: 'epicerie' },
       { qty: "50,99 g", name: "de beurre doux (mou)", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "320-g-de-farine-tout-usage-pour-le-plan-de-travail",
-    title: "- 320 g de farine tout usage + pour le plan de travail",
+    id: "melanger-la-farine-le-sucre-et-le-sel-a-laide-dun-",
+    title: "Mélanger la farine, le sucre et le sel à l’aide d’un robot m",
     emoji: "🍰",
     cat: "dessert",
     chef: "franceinter",
@@ -10073,7 +10073,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503338178_741592048317761_5305049850566712039_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=105%26ig_cache_key=MzQ5MTg1MjIxODg2NzIzOTM5OA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=bzGBzIUaMCkQ7kNvwGA0fow%26_nc_oc=AdoIPwEuBTJBYHi5aNT2DLarM692otBaqaI2NdmHJ7clUbZmsJIx5STuxWKQl3819vioj_005xcHsFuxTS2rjjAf%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=PnEoPLom-W7P1hni1Yfi2A%26_nc_ss=7a22e%26oh=00_AQI921xFPAP_X5vmsoKVjub4-3Twalq7hxsZ2UCgv_9NwQ%26oe=6AADA0A5%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DB1jRepvcnm.jpg",
     link: "https://www.instagram.com/franceinter/reel/DB1jRepvcnm/",
     linkType: "instagram",
     veggie: true,
@@ -10095,7 +10095,7 @@ const RECIPES = [
       { qty: "1", name: "demi-c. à c. de sel", rayon: 'epicerie' },
       { qty: "1", name: "pincée de clous de girofle moulus", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -10108,7 +10108,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503301644_1777884152765428_6717618606133547528_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=102%26ig_cache_key=MzQ5MTY0NTA1OTQzMDkyNzk5MTE3Nzc4ODQxNDk0MzIwOTU%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=mi2c6BY6nnEQ7kNvwG_kZtH%26_nc_oc=Adoe3vvivoCr3VdHN_f9CNuakRu11V7PSYq9y9_0Q_JV8RKLFxqqKBtOOif0rCP128FuIMPiHyS6p8xy5YgG9ypf%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=PAUixT3iwvsJwRL3RK-7nw%26_nc_ss=7a22e%26oh=00_AQLFEPBAmK8ggvt28pDcG2l0tD16b5SJO-QUaIGGL5MYFw%26oe=6AADA1F4%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DB00K6ZIM53.jpg",
     link: "https://www.instagram.com/xavier_pincemin/reel/DB00K6ZIM53/",
     linkType: "instagram",
     veggie: true,
@@ -10116,7 +10116,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -10129,7 +10129,7 @@ const RECIPES = [
     time: "25min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/502970830_3639440896188525_8490243134049064493_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=106%26ig_cache_key=MzQ3OTE3Mjk5MjQxNjgzMzA5OQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjU0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=pIzw6zYkTVQQ7kNvwFrzWlu%26_nc_oc=AdqEmh0YuuAtqjoImilDtuzPUL4nEMtpvsZxV7Pc2-SkEVBhqiczke22NUmTbnvsRclpwVddUOT6ahcHc6OJR33m%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=NRIx89ibeWRHim5FCSWtow%26_nc_ss=7a22e%26oh=00_AQJb1UmBs9b4DRKuH4euHzdoVTJCnHwbCSmwlYnoOJ65OQ%26oe=6AADC8DD%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DBIgWc1I15L.jpg",
     link: "https://www.instagram.com/megalowfood/reel/DBIgWc1I15L/",
     linkType: "instagram",
     veggie: true,
@@ -10137,7 +10137,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -10150,7 +10150,7 @@ const RECIPES = [
     time: "15min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/504469599_1053385966247870_8877590956060246890_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=103%26ig_cache_key=MzQ4OTY0MDkxODcyOTQ2Nzg4MQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIyNjguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=0pVZb4f4-lMQ7kNvwFiLvz6%26_nc_oc=Adp4yL0F92NGfY12PIxygNAxoxncNdRaNfhlYcn_u3JipoC7cWf_jLUfCrTccz9XUnjfjHPj82J49tR5rFl0AFaI%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=4shGTEzIcSK7uq_RKt3k9w%26_nc_ss=7a22e%26oh=00_AQJCBoS-jsMe_hqhrJaFBH9Hc3Z3I8JCyJPV3EkHlkVJvA%26oe=6AADBAFD%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DBtse06iafp.jpg",
     link: "https://www.instagram.com/byagathe_foodie/reel/DBtse06iafp/",
     linkType: "instagram",
     veggie: false,
@@ -10165,7 +10165,7 @@ const RECIPES = [
       { qty: "1", name: "gousse d’ail", rayon: 'epicerie' },
       { qty: "1 cac", name: "de piment d’espelette", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -10178,7 +10178,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/501509180_676141081993470_7320121229493289091_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=MzQ4OTY2NzYwNzQ0MDg4MDQ0NQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=Gx-ainav5G8Q7kNvwE0Ag-9%26_nc_oc=AdoUEWow6c8vhoBWJZMUrN9Xrw7AB6VgoVwm63MK_gOTbokpkKXA0ywpD9bYL9RqlSxahc8xDVrVdE1mmEQ51RG6%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=rkFcT90RuMM2arsFcEFMxQ%26_nc_ss=7a22e%26oh=00_AQKCdp2RwtcCVGgr3hLq3A3tVfv0sUKCgqTTtJ5OqKRhYA%26oe=6AADA576%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DBtyjMts3M9.jpg",
     link: "https://www.instagram.com/kitchenfactoryprod/reel/DBtyjMts3M9/",
     linkType: "instagram",
     veggie: false,
@@ -10200,12 +10200,12 @@ const RECIPES = [
       { qty: "QS", name: "¼ de litre de bouillon de volaille cube", rayon: 'epicerie' },
       { qty: "QS", name: "Huile d’olive", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "600-g-champignons-de-paris",
-    title: "600 g champignons de Paris",
+    id: "materiel-DBjXzm",
+    title: "Matériel",
     emoji: "🥗",
     cat: "entree",
     chef: "franceinter",
@@ -10213,7 +10213,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/491459923_1256953505950779_6397318749100405754_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzQ4NjczNTIzNzE0MTA3MjMxMg%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=xOY9qeK6ESUQ7kNvwFJwaw0%26_nc_oc=AdrAXtgs9TGfEuPyAjPDpuEsTW3VZRtIdkuG1-s0EQDGJccor-H9NAAqGIvTlYCm0vHwd7VOw2Hhf1pIEj_YMkO-%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=XP2LU5LX_wObCU5hR9vuMA%26_nc_ss=7a22e%26oh=00_AQIcNcSfqjv8DKBiy6s1q2oufTscCsAgNWjoGy3rVkmMZQ%26oe=6AADB31C%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DBjXzmDoYm4.jpg",
     link: "https://www.instagram.com/franceinter/reel/DBjXzmDoYm4/",
     linkType: "instagram",
     veggie: true,
@@ -10226,7 +10226,7 @@ const RECIPES = [
       { qty: "4", name: "c. à s. (150 g) de miso blanc bio (épiceries asiatiques)", rayon: 'epicerie' },
       { qty: "1", name: "litre d’eau", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -10239,7 +10239,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/505120565_517161594722524_8835628659613200943_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzQ4NDU2MjE0NTcwNzg0NTI1NzUxNzE2MTU4NDcyMjUyNQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=0nkAS6u85hsQ7kNvwGgMz_Q%26_nc_oc=Adqd8juVEf8Ibeu6J1Sh1313sx8YOXLrrq-KVchjdDyEWig110k0mZsW7gkYCLRibgPRCjGUgZj3qFpymbjCBM6d%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=R3EXUdBHPn6qzbrFx3hjcQ%26_nc_ss=7a22e%26oh=00_AQKuOzE4tvdiWlyNTdScLmvwFP29ewTqDAI4Y065LpMD6g%26oe=6AAD9EF9%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DBbps88sGaJ.jpg",
     link: "https://www.instagram.com/xavier_pincemin/reel/DBbps88sGaJ/",
     linkType: "instagram",
     veggie: true,
@@ -10247,12 +10247,12 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "des-adeptes-de-ce-burger",
-    title: "Des adeptes de ce burger ?",
+    id: "big-mac",
+    title: "BIG MAC",
     emoji: "🥗",
     cat: "entree",
     chef: "mohamedcheikh_",
@@ -10260,7 +10260,7 @@ const RECIPES = [
     time: "20min",
     serves: "6 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/505493075_737456082152743_517411664814068211_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=103%26ig_cache_key=MzQ4MzExODQ0ODcyMTA2MjY4NjczNzQ1NjA3NTQ4NjA3Nw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjMyNDYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=LkH92CO11AIQ7kNvwFBoYu3%26_nc_oc=AdrEi5tqOeAfPgKPJjoa5ZIMqHAW9TapeKYXjDLYL4OEiF3OMKGr07viAm8JbDpA52GnTuXi8v574tFU1tNKqGNG%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=y44XXFujDnh6wXQgord31w%26_nc_ss=7a22e%26oh=00_AQIRQrDD5or7WYZFBHVwn3NPrmm-9hkHu287CW6QpC5yRA%26oe=6AAD9F49%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DBWhcZWoOse.jpg",
     link: "https://www.instagram.com/mohamedcheikh_/reel/DBWhcZWoOse/",
     linkType: "instagram",
     veggie: true,
@@ -10282,7 +10282,7 @@ const RECIPES = [
       { qty: "6", name: "P Pains hamburger 3 tranches", rayon: 'epicerie' },
       { qty: "12", name: "P Steaks hachés", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -10295,7 +10295,7 @@ const RECIPES = [
     time: "10min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/496859070_2161315257667040_6565546300215765753_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzQ2MzUxOTAxMjk0NzM4NTM3Nw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=RzQxHQiuXrsQ7kNvwGiJvM_%26_nc_oc=Adq4C5s5DeMnhFXP1sFXmdTrIzWJMwq582VEA53XuPpc0vE-JUfhvM5PP6YqssiB-KzUQfoX2ziv9qA7mYc6l_bG%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=7NiMg0KF2yjCJA354rt7nQ%26_nc_ss=7a22e%26oh=00_AQL1qhCnnimRNuOEo_RnyoHxt6Yag7RYnjxr32vQSL4BIw%26oe=6AADACD2%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DAQ5DEXilwh.jpg",
     link: "https://www.instagram.com/elleatable/reel/DAQ5DEXilwh/",
     linkType: "instagram",
     veggie: true,
@@ -10308,7 +10308,7 @@ const RECIPES = [
       { qty: "1/2", name: "cuillère à thé de sel", rayon: 'epicerie' },
       { qty: "30g", name: "eau glacée", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -10321,7 +10321,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503178717_9905212959547870_2140501225940809853_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=MzQ4MDI3NTM5MzM1MDcwNzY0Mg%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=N_GY7Muwk5kQ7kNvwGW2mHX%26_nc_oc=AdpMTWk5qMbu-yo4rt5t9H_FbaHh2-rr1Wi7Nkv7fmOzdzCoJzbMzu8iJe9VGH0VPbaBdd-WaXiHA2c9sDdJv4au%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=RYceKiP4KGMS2FgC_3tbgQ%26_nc_ss=7a22e%26oh=00_AQKPhtw9MHwJONxiSauDmryRmah8Iy70eCt8vZ1f2x11Tw%26oe=6AADBECC%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DBMbAftM6m6.jpg",
     link: "https://www.instagram.com/cuisineactuelle/reel/DBMbAftM6m6/",
     linkType: "instagram",
     veggie: true,
@@ -10333,12 +10333,12 @@ const RECIPES = [
       { qty: "110g", name: "Sucre en poudre", rayon: 'epicerie' },
       { qty: "1", name: "gousse Vanille", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "3-cas-de-graines-de-chia",
-    title: "- 3 c.a.s de graines de chia",
+    id: "lien-en-bio",
+    title: "️ Lien en bio",
     emoji: "🍽️",
     cat: "plat",
     chef: "mesdames.media",
@@ -10346,7 +10346,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/502670553_1208510891062870_2312901823281701409_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=101%26ig_cache_key=MzQ4MTQ4NzY5OTcwODQ0Mzk2MQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=WqwATnbhny8Q7kNvwFG3Kch%26_nc_oc=AdqlGuyDqQ6jxhjpCL1lZZIJPvWTh_fbmrRQEw080vA5NFYNR5h-LTJc6qVMxQmiJutgOEBgQlAvl73V5UhuEPMB%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=2BsnzKSYCGirqg12VBPlVA%26_nc_ss=7a22e%26oh=00_AQI1ycK61JsJGx-jEf6rJ7na1XCigLoXUIg_9ksKxK4Isw%26oe=6AADC59F%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DBQup3_A305.jpg",
     link: "https://www.instagram.com/mesdames.media/reel/DBQup3_A305/",
     linkType: "instagram",
     veggie: true,
@@ -10357,7 +10357,7 @@ const RECIPES = [
       { qty: "1", name: "c.a.c de miel", rayon: 'epicerie' },
       { qty: "1", name: "fruit de saison (kiwi, poire, abricot…)", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -10370,7 +10370,7 @@ const RECIPES = [
     time: "6min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/508327363_1894199188083500_8880687496005204128_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=101%26ig_cache_key=MzQ4MDE4NzE5MzgzODg1MzA4Mw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIyNjguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=SG1zyPdcC5EQ7kNvwE7su5U%26_nc_oc=AdpjARkPSzyWbyyrDXEglwGEVBESiy9KiTeqXvL0v89rhSxBWHSGgkV22VY18HWkbEQ_cMRB-GaPPI_VZyd8tvUs%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=C0hNDa8GUazLEF_0R2npsQ%26_nc_ss=7a22e%26oh=00_AQKBf1YHU6vKXTAbA31Z3s1Rv3hG0aV4WjmKhDerwlQ_og%26oe=6AADBC88%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DBMG9BgoNvb.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DBMG9BgoNvb/",
     linkType: "instagram",
     veggie: true,
@@ -10388,7 +10388,7 @@ const RECIPES = [
       { qty: "1/", name: "faire cuire 5/6 min dans l’eau bouillante les carottes épluchées", rayon: 'epicerie' },
       { qty: "2/", name: "mélangez dans un bol: l’huile, l’ail haché, le miel, le sel et la sauce soja", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -10401,7 +10401,7 @@ const RECIPES = [
     time: "15min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/505725144_1535381020773242_4216838690837327807_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=101%26ig_cache_key=MzQ4MDAyNTE0MjIzMjQ1MDIxNA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIyNjguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=UZu5iAaExG4Q7kNvwE2fRX_%26_nc_oc=AdrVCQF0oohCI7S4IaW7X2vBC4iyVYxO3n6ttbnoCqeH6nyu7wJD-CX6yCLXKXqRuQ1Ws8jK4_RaYpDGGXRJkE5x%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=RnFB9nSaf-8nlC1K2o5BdA%26_nc_ss=7a22e%26oh=00_AQJldC3LThNWti_2DVbbhyTUC0aAJH8xxSu8r1ImOQdpPw%26oe=6AAD91DC%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DBLiG3MMYSm.jpg",
     link: "https://www.instagram.com/cyrillignac/reel/DBLiG3MMYSm/",
     linkType: "instagram",
     veggie: true,
@@ -10423,7 +10423,7 @@ const RECIPES = [
       { qty: "QS", name: "Pour la sauce chocolat et amandes", rayon: 'epicerie' },
       { qty: "8 cl", name: "de lait", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -10433,10 +10433,10 @@ const RECIPES = [
     cat: "entree",
     chef: "kitchenfactoryprod",
     chefName: "Kitchen Factory Production 🍽",
-    time: "20h20",
+    time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503025629_30502086606056335_9101112898286057774_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=MzQ4MDczOTI0NTE0NjEwODUzNw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=PDtBTbE6BroQ7kNvwF2rjKr%26_nc_oc=Adq9KUjIjyFo1z6b-t6fwDbCZc-7chOcKs4560EaMIx2yOzXKCHObfW3dQ2fzNdlSHpo9_M16P_Lq01LNnqv8_ve%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=isqpsP8RP1UMC_HwZUb-dw%26_nc_ss=7a22e%26oh=00_AQLAfyfi8YejMD51ulmeJSArSsQZUtyQ5qNkyJ40sDUReQ%26oe=6AADA3F1%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DBOEebWsfJ5.jpg",
     link: "https://www.instagram.com/kitchenfactoryprod/reel/DBOEebWsfJ5/",
     linkType: "instagram",
     veggie: false,
@@ -10455,12 +10455,12 @@ const RECIPES = [
       { qty: "15g", name: "de beurre", rayon: 'epicerie' },
       { qty: "1", name: "salade", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "temps-de-preparation-12-minutes",
-    title: "Temps de préparation : 12 minutes",
+    id: "houmous",
+    title: "HOUMOUS",
     emoji: "🥩",
     cat: "viande",
     chef: "kitchenfactoryprod",
@@ -10468,7 +10468,7 @@ const RECIPES = [
     time: "12min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/502709648_1075756987809681_4799793649047994527_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=106%26ig_cache_key=MzQ3OTUwMTcwOTQ3NjM0MDA0MQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=yFvx2JXavlAQ7kNvwFooamC%26_nc_oc=AdqKdI4G8N-Af-rMTTxdot9HVepUY-9eSm7aTv2PZY4Sq7x8CuFCkZZh3nRVtnFbs9Q_bdtM5U0g064_Je-PB1YK%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=8Acvb1eQlH8rk5teB_cRnw%26_nc_ss=7a22e%26oh=00_AQLYWg47mRnDXwJEbQXW4pX-qhSGLpqL1QGLiqcVLPwUlA%26oe=6AADC66A%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DBJrF6cs6FJ.jpg",
     link: "https://www.instagram.com/kitchenfactoryprod/reel/DBJrF6cs6FJ/",
     linkType: "instagram",
     veggie: false,
@@ -10490,7 +10490,7 @@ const RECIPES = [
       { qty: "7 g", name: "de sucre", rayon: 'epicerie' },
       { qty: "200 g", name: "de farine", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -10503,7 +10503,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/506347460_1275255924243676_4432467098117933949_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=110%26ig_cache_key=MzQ3NzEyMjI3OTk1MjA2OTM2NTEyNzUyNTU5MTc1NzcwMTA%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=sw5UOififu8Q7kNvwE_KYsK%26_nc_oc=AdrejZJZmeKvkelFg76LozGi24uaWQyie6Lte7urT328poQPom78XDmNnVpYSeKTF-SKsPHaGZv6OA2zC3s_DsDp%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=IqhvhdAlf5TZ8qUQNQ4_Rg%26_nc_ss=7a22e%26oh=00_AQLBcg_W3NjN9-aiZW9xEwduW2M3LTkvXrZx4NrgN_rrhA%26oe=6AADB409%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DBBOEqBI7L1.jpg",
     link: "https://www.instagram.com/xavier_pincemin/reel/DBBOEqBI7L1/",
     linkType: "instagram",
     veggie: true,
@@ -10511,12 +10511,12 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "direction-ma-cuisine-du-sudouest-pour-preparer-ens",
-    title: "Direction ma cuisine du Sud-Ouest pour préparer ensemble un ",
+    id: "recette-de-julie-andrieu-profil-officiel-DA_PXY",
+    title: "Recette de Julie Andrieu, Profil Officiel",
     emoji: "🍰",
     cat: "dessert",
     chef: "julieandrieu.officiel",
@@ -10524,7 +10524,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503292977_722410696907701_4373843085071665974_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=106%26ig_cache_key=MzQ3NjU2NTAxNDgzMzMzOTU5Mg%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=zRhHz7D9cdcQ7kNvwE_6lga%26_nc_oc=AdoubN0EMcvjCvbStEfie6jJ7zfyoeZyWrlzRDaKJMlKUNT-ZPn2O_4roBahjl4ooiBEGAO2XJ2i4l-YPl69hO2M%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=y4FB4hWDQVj4ftooXR1Kyg%26_nc_ss=7a22e%26oh=00_AQJAg-hgDV-IAYCHdpY1eyHSRyw1DabupPHmsCgtWJrIVQ%26oe=6AADC81F%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DA_PXYbsRzI.jpg",
     link: "https://www.instagram.com/julieandrieu.officiel/reel/DA_PXYbsRzI/",
     linkType: "instagram",
     veggie: true,
@@ -10532,12 +10532,12 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "250-g-de-spaghettis",
-    title: "250 g de spaghettis",
+    id: "poivre",
+    title: "Poivre",
     emoji: "🍝",
     cat: "pates",
     chef: "franceinter",
@@ -10545,7 +10545,7 @@ const RECIPES = [
     time: "1min",
     serves: "2 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503508388_1460922374901827_1079058202071389896_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzQ3NjU5NTIyNDkyNzYwNzAyMA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=OEuC5nARbl4Q7kNvwHd5xyv%26_nc_oc=Adp7OzYXeBwAmkpnjavg4-617dieC_qxJa4zDq7QzbcYImu0y51zTkghGkQ-2g9XJ2tLnVfSVgk7Xq5cdCUotI_E%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=22QJd4F0s1ZiTnJdVgvOhA%26_nc_ss=7a22e%26oh=00_AQL43XS-v5nYtT7Yrm7T84mCad4AsYzH6k4Mpy8oPJLNXw%26oe=6AADA52E%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DA_WO_xoRjs.jpg",
     link: "https://www.instagram.com/franceinter/reel/DA_WO_xoRjs/",
     linkType: "instagram",
     veggie: true,
@@ -10559,7 +10559,7 @@ const RECIPES = [
       { qty: "2", name: "c. à s. de sauce soja salée", rayon: 'epicerie' },
       { qty: "QS", name: "Poivre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -10572,7 +10572,7 @@ const RECIPES = [
     time: "5min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/504022963_2093831784417072_8785808082854619859_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=106%26ig_cache_key=MzQ3NTA3MjYxNTkwNDAxNjQ0OQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=hLJlYzYR0bEQ7kNvwGkHNj5%26_nc_oc=AdpIzMULwB1frIZrXg-Cr4mR40emMStdIPgBt2_Aax9pa9uZw7DSAiOxTHGFuMlqR07TB4i7mnAsFO4MIEqylcGX%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=hEN-Da0ZHdHyjOb9oC7jcg%26_nc_ss=7a22e%26oh=00_AQIRMvDAlgxM-QOhj8-xBGxpDfRkJp20QSJKljs9i2CJTA%26oe=6AADB48D%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DA58CHnpXhB.jpg",
     link: "https://www.instagram.com/appetizing.tv/reel/DA58CHnpXhB/",
     linkType: "instagram",
     veggie: true,
@@ -10580,7 +10580,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -10593,7 +10593,7 @@ const RECIPES = [
     time: "25min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/506297446_1034971621730255_5786277336466793897_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=MzQ3NTE0NDg0ODI4NjIyNjE2Mw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIyNjguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=dG3TUIoYulUQ7kNvwFHS7XS%26_nc_oc=Adp5MK8NkNSYixA9C-RAsYL4_u9e64rrGctoSmYQIEyPsFDihlbDz0YX1SNiwy2q6HS2iqHKSv7ebIT8Fvt5sQaV%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=1HiGIubDMkIO-M5LGV3UFg%26_nc_ss=7a22e%26oh=00_AQLkcWGXpvOE5djDdNg__DzDTSm3UpzKw_BfSL4AUMvcdg%26oe=6AADAE60%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DA6MdPRIRbz.jpg",
     link: "https://www.instagram.com/chef_theo_lignani/reel/DA6MdPRIRbz/",
     linkType: "instagram",
     veggie: true,
@@ -10610,7 +10610,7 @@ const RECIPES = [
       { qty: "1", name: "mozza di bufala", rayon: 'epicerie' },
       { qty: "QS", name: "Comté", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -10623,7 +10623,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/491467820_2433340883711966_8908427797257156988_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=MzQ3NTg0MDA4NDI5Nzc0NjczMQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=s4-KEgIn9XAQ7kNvwG0goYu%26_nc_oc=AdrnTzUS6hzEOa2epDZaLQdGq9dUyNlGdiM8FHC4KkWj_E0xNmiOy7x0I-ycf7rTZPY2Af8OLPEd3zd5APPL7cyA%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=qKr_e5o4GXtABL9SAli7LQ%26_nc_ss=7a22e%26oh=00_AQI0OlIjaD_QzUjZps38tW304r4focMAMzIM2AKVrkOh2A%26oe=6AADA0C4%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DA8qiQQoYkr.jpg",
     link: "https://www.instagram.com/julieandrieu.officiel/reel/DA8qiQQoYkr/",
     linkType: "instagram",
     veggie: true,
@@ -10631,7 +10631,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -10644,7 +10644,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/508260454_1400740004508964_7906335144367479297_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=MzQ3MTQ4NzUzNzI1MjQ2MTc1NjE0MDA3Mzk5OTc4NDIyOTg%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwNzguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=uXpON10Bo8MQ7kNvwE9KEul%26_nc_oc=Adp3roEbYwKEf96zNMgZmWj37YdCUr_UHEQP9snMY3dGKXwVAY71Qkj3zjC5gjE_lJ3czXi61lFrcGRpjqbvLaO0%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=z3TELyu_tZvJXgYpuN7Zhw%26_nc_ss=7a22e%26oh=00_AQJosy_0keP7fjy9vUOsPj90Vqoe5i21PFFa7tY550h4Zw%26oe=6AADA46E%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DAtM4W8IOy8.jpg",
     link: "https://www.instagram.com/xavier_pincemin/reel/DAtM4W8IOy8/",
     linkType: "instagram",
     veggie: true,
@@ -10652,7 +10652,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -10665,7 +10665,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/504453537_1221302602801270_3274416766321681028_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=104%26ig_cache_key=MzQ3MjA2MDIwMzcyMjMzMjE5OTEyMjEzMDI1ODYxMzQ2MDU%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=bgM6mwy412YQ7kNvwHZYbLr%26_nc_oc=AdpnTnsamWqfajc310DAjQBnCHROQj75-XiN-vtgCvWp51ZR70mxM3cnfrQxaeRXDIRshYODl9dYZ1olagTPrQtQ%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=PiVCcHbhPWmVfgFyiZSoTQ%26_nc_ss=7a22e%26oh=00_AQKDrkxgtiHl0M-1ddchcFtl4dCNk99YiFZYtkJ_c8TW3A%26oe=6AAD9DFC%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DAvPFwJo9gn.jpg",
     link: "https://www.instagram.com/xavier_pincemin/reel/DAvPFwJo9gn/",
     linkType: "instagram",
     veggie: true,
@@ -10673,7 +10673,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -10686,7 +10686,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503488308_1075260274489626_2888572232432551261_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=110%26ig_cache_key=MzQ2NjQ0Nzg5ODg0NjIxNjAzMQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjU0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=IH-Iyc_vr40Q7kNvwHxfyEl%26_nc_oc=Adr3N9fRkLmX18c0UK0jFbGGPM1WME9RoleQxbc9CWoKySqHtE4VK9p7Vg6DZvFri2zTt4oBte5PhILjR40tiOrs%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=EtYX2fWrikBBnNe8SzGKyg%26_nc_ss=7a22e%26oh=00_AQL2yvjRT2YrtVfg-SxXegnoUhUgNWuIPaavaedk8cA8kQ%26oe=6AADA15B%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DAbS_97IL9f.jpg",
     link: "https://www.instagram.com/patisseriekiltac/reel/DAbS_97IL9f/",
     linkType: "instagram",
     veggie: true,
@@ -10694,7 +10694,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -10707,7 +10707,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/504158189_2129503227477701_4505067845794031536_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=105%26ig_cache_key=MzQ3MjI2NTI5NjcxNTM3NjY1Ng%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=suUXv5kiqcUQ7kNvwGDOs-D%26_nc_oc=AdobvmY2kHn_uFHffCVCJMu5GVD8O2GhzZRNokrPjVPIf8ACP9UgFoS76zQikIzyvj2RsZR_9NmB2AFE-fpVvvr1%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=oSIz5SLVyo9KyUmW18vLzA%26_nc_ss=7a22e%26oh=00_AQKA1OoBRsD3hf9ccs14PGaIUIc_AMyoWVlt96kGh_Y_hg%26oe=6AADC148%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DAv9uP4ougQ.jpg",
     link: "https://www.instagram.com/casa_zanoni/reel/DAv9uP4ougQ/",
     linkType: "instagram",
     veggie: false,
@@ -10715,7 +10715,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -10728,7 +10728,7 @@ const RECIPES = [
     time: "10min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/504428153_1814192969519178_5094472861663984941_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=110%26ig_cache_key=MzQ2OTg3Mzk4MDkyMTU0NDA3MA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIyNjguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=YjIELwGUi9gQ7kNvwGYZebS%26_nc_oc=AdqEZ_D8SujCTXEUSVriTQ5TpLf0P53rA9mSt7TtXwVm8QJCL2WMJ74PPOhaP_lzQF1YEZuqIxIgMtoljEwLpBJr%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=fJrL7og1-fHuY3cMMYLpJw%26_nc_ss=7a22e%26oh=00_AQKyuKOmyCPnOVo5g1neGJUyfTloa_qutiARR47u01ZmJg%26oe=6AADC6F1%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DAneABgMv2G.jpg",
     link: "https://www.instagram.com/cyrillignac/reel/DAneABgMv2G/",
     linkType: "instagram",
     veggie: false,
@@ -10743,12 +10743,12 @@ const RECIPES = [
       { qty: "2", name: "cuil. à soupe d’huile d’olive", rayon: 'epicerie' },
       { qty: "1", name: "cuil. à café de vinaigre balsamique blanc", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "masterclass-le-chef-etoile-jeanfrancois-piege-part",
-    title: "Masterclass : le chef étoilé Jean-François Piège partage un ",
+    id: "recette-de-france-inter-DAZC8X",
+    title: "Recette de France Inter",
     emoji: "🐟",
     cat: "poisson",
     chef: "franceinter",
@@ -10756,7 +10756,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503806515_1099271308652338_6300833995951371528_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=MzQ2NTgxNDMzMjkyODA5NTcxMQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=tmboY87kAHkQ7kNvwHmPDDb%26_nc_oc=AdpSZZtn5LRJrszlC3kUL3uKgyiOEEQJYmymzXEFKCyherbg0pWFUT574USA7Jfc6BM7C3gC2oYBtnqCH7F1astF%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=BTXap41vrv6wO1RtlqOSiQ%26_nc_ss=7a22e%26oh=00_AQJ-JslI0PMUKLPvqRGi7VkTU19fu1i3IG-45TzTiL-fQw%26oe=6AADBA8E%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/DAZC8XrovXf.jpg",
     link: "https://www.instagram.com/franceinter/reel/DAZC8XrovXf/",
     linkType: "instagram",
     veggie: false,
@@ -10764,7 +10764,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -10777,7 +10777,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/505379468_1283343243310362_6761180175137545682_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=104%26ig_cache_key=MzQ1NTY0ODEwMzUxMjc2NDc3OQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=ifGpJJ_GzuQQ7kNvwH6Hlvb%26_nc_oc=AdrB7Clp1xFm9bwi3IFDKmwVrIrkgYCxVc6NQN8u7x2Q177UNf2Z9UFEROcRHJZI5883VV64kphPH-Q11hL4I8wm%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=RojX9Vfpm6FbZbRJOaggkA%26_nc_ss=7a22e%26oh=00_AQKnqpbEN6xnGNJ3IWeO8nK93T3uUV4EhYY4oVh8_bTkcg%26oe=6AADBFE7%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C_07aQuoXFr.jpg",
     link: "https://www.instagram.com/diegoalary/reel/C_07aQuoXFr/",
     linkType: "instagram",
     veggie: true,
@@ -10785,12 +10785,12 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "la-meilleure-des-recettes-pour-lautomne-qui-approc",
-    title: "La meilleure des recettes pour l’automne qui approche 🍂🍁🍐 le",
+    id: "recette-de-monelle-godaert-C_3JKq",
+    title: "Recette de Monelle Godaert",
     emoji: "🍽️",
     cat: "plat",
     chef: "not_so_superflu",
@@ -10798,7 +10798,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/504179551_3632681753700333_7105727048361758772_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=MzQ1NjI3MTU1NDQ5NjIyMzQ3Mg%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=Nk-hcyX0WwoQ7kNvwEUgXmU%26_nc_oc=AdrSr6f_Os2PpKTQILM6BFR73JfY_DjcjgE2uYGONacA6YpTM9vwIYgNIdJD3CI5GAy10yw1JxcxGWg9g7MIYNAy%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=pUsoNSpylkQWaLZqMSWANQ%26_nc_ss=7a22e%26oh=00_AQIypE1PJYbUO4Pn5mRFYegCCx1xVvlNFQ4fM8hge2lwgw%26oe=6AADA207%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C_3JKqtCNjw.jpg",
     link: "https://www.instagram.com/not_so_superflu/reel/C_3JKqtCNjw/",
     linkType: "instagram",
     veggie: true,
@@ -10806,12 +10806,12 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "huitres-pochees-leche-de-tigre-avec-leau-des-huitr",
-    title: "Huîtres pochées, leche de tigre avec l’eau des huîtres, pomm",
+    id: "recette-de-matthias-marc",
+    title: "Recette de Matthias Marc",
     emoji: "🍽️",
     cat: "plat",
     chef: "matthias_marc",
@@ -10819,7 +10819,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/505490243_2326633331071273_2582190570847594752_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=MzQ1NTQxMTE0MjYzMzk4MjQzOA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyNDIuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=2BCr56gfhToQ7kNvwH0l1L4%26_nc_oc=Adp3O5y9ttGitcLo7oX89j_-kFlcMKtxKNmJipcJX7y5eWNmCEdjssqKtm9BdpcM_s1rTq9IvMYsurzX6zBVaOnl%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=diar4Wrs3IDaiRkBbm4T5g%26_nc_ss=7a22e%26oh=00_AQIgKOBCmgiVEVq9ADowaezUJySIieOBhDzLM-2sm6hHog%26oe=6AADBA9A%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C_0FiBtoAnm.jpg",
     link: "https://www.instagram.com/matthias_marc/reel/C_0FiBtoAnm/",
     linkType: "instagram",
     veggie: true,
@@ -10827,7 +10827,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -10840,7 +10840,7 @@ const RECIPES = [
     time: "15min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/504490279_708933188551650_3176393689961350403_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzQ1NTM0MjEzMzAwNDc3OTAzOQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=b2ITRJmyTWIQ7kNvwF_aAYb%26_nc_oc=Adro4yihTt3M_Bz6_YqNGs92DztSaGwvBGblEnKlmyhGXS8FbSmaPgsHIyKqv3pglWXw99qJmSjgEoVTcgFVAO2s%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=d-swqQkcIPrCDEOyC-8QDA%26_nc_ss=7a22e%26oh=00_AQLF9CEcWYnP_P2kLk6hI3bTWj6MVlvu8eG3zjA7lvM4XA%26oe=6AADA6A7%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C_z11zfML4f.jpg",
     link: "https://www.instagram.com/cyrillignac/reel/C_z11zfML4f/",
     linkType: "instagram",
     veggie: true,
@@ -10862,7 +10862,7 @@ const RECIPES = [
       { qty: "100 g", name: "de tahini", rayon: 'epicerie' },
       { qty: "2", name: "gousses d’ail épluchées", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -10875,7 +10875,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/504426116_747073754335602_5531415271744291946_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=MzQ0MTgwNTc0OTQxMjU2NDc3Ng%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=xHxbO6fYW54Q7kNvwGB_HX8%26_nc_oc=AdqcCgie3iaIBR6d8M_aGX2R8DAMm4CNCZKOkocynr1N29pjw8uAJAb94ZHrfeWmxgoVkFpGdoWYALIF8jDBzrwM%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=rSUyljpGy9PcAvWpV4Lfew%26_nc_ss=7a22e%26oh=00_AQI8wuj-9uw6EMCOGFrssMh8DbMDKDExf5SIZPuwnnuQ_g%26oe=6AADC519%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C_DwBf3og8o.jpg",
     link: "https://www.instagram.com/casa_zanoni/reel/C_DwBf3og8o/",
     linkType: "instagram",
     veggie: true,
@@ -10883,7 +10883,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -10896,7 +10896,7 @@ const RECIPES = [
     time: "10min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503945321_637681239293295_6957717501579231356_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=111%26ig_cache_key=MzQ0NDUxMTEyMTAyNjg3Mjc4NQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIyNjguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=Xvdm9xEfvHwQ7kNvwFPr-TN%26_nc_oc=Adr2lrDSZYjzyDmALGoAGEveUuuaEJxknlRUoRq3AmnZ6DHQiBYQhz9t-oMBxVb5RpFtawCzgwSvg6Yr7n6Xzp0z%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=-rL4lcFXEWCKswM0OQUX_w%26_nc_ss=7a22e%26oh=00_AQIHY0yCaLQ1hjGqrW6l8xbNFB63PZ4pPJ0YJScuUVM_ag%26oe=6AADABC7%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C_NXJ1hsHXR.jpg",
     link: "https://www.instagram.com/cyrillignac/reel/C_NXJ1hsHXR/",
     linkType: "instagram",
     veggie: true,
@@ -10916,12 +10916,12 @@ const RECIPES = [
       { qty: "QS", name: "Quelques feuilles de coriandre", rayon: 'epicerie' },
       { qty: "1", name: "citron jaune", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "recette-de-sardines-facile-a-faire-tres-rapide-et-",
-    title: "Recette de sardines facile a faire tres rapide et surtout sa",
+    id: "recette-de-khaoutarcuisine",
+    title: "Recette de Khaoutar_cuisine",
     emoji: "🐟",
     cat: "poisson",
     chef: "khaoutar.cuisine",
@@ -10929,7 +10929,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/504196706_634138909790781_5471992564151240895_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=111%26ig_cache_key=MzQzODE4MDU5NTAwMDI1NDE2NQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIyNjguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=b62EKzoQaYwQ7kNvwH8V9td%26_nc_oc=AdpE86SYbOWV3CA60beaoBLOZN-cn1eQXaqEV46lB0iOvcRrpz1Lu79jTCJvtq9kJKLUbD3j0t7FmfBb7fCYJvWf%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=sitHjoxFxSk5Oc83NVPDGw%26_nc_ss=7a22e%26oh=00_AQKq19brlBT8xFbxCUGWcelgXsFkXsEl6FcBCSTcSxBIDQ%26oe=6AADA36F%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C-23wjuoZ7V.jpg",
     link: "https://www.instagram.com/khaoutar.cuisine/reel/C-23wjuoZ7V/",
     linkType: "instagram",
     veggie: false,
@@ -10937,7 +10937,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -10950,7 +10950,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/508191488_2074395646381225_7010053966354343081_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=106%26ig_cache_key=MzQ0MjUwMzQyODg0MTA5OTY4Mg%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIyNjguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=mh4J8krovNcQ7kNvwGdRh8M%26_nc_oc=AdrVzSVsX1yBdqL9bJL-bBxVs6xTthP4luiFr0khI6GBZ-P9lxonWe-4nCFEsrnFY-mZSX2ao_a_mw6gXBi_-Gg2%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=oA5u4pdCoa1JUKZbEChwfg%26_nc_ss=7a22e%26oh=00_AQKk8ju408AMqag2ohYIvPYNbWsrn9mbaMxEeQIKPlzctw%26oe=6AADC321%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C_GOqEeI1Gi.jpg",
     link: "https://www.instagram.com/ottolenghi/reel/C_GOqEeI1Gi/",
     linkType: "instagram",
     veggie: true,
@@ -10958,7 +10958,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -10971,7 +10971,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/504467167_1358910841843818_7662162887356505164_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=105%26ig_cache_key=MzQ0MjMxNDk1OTQ2MTIzNTM4MA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIwNDYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=D25TP6CuMUEQ7kNvwGO1BV7%26_nc_oc=AdpWclwQdDMEx6dAoJL3PiMHkm0NTC0DAvr7PJ1evww2dga4OkLflYLLJoOya16m6y1KqP4evr6y4H35ddhQkbcg%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=-OeufUjlV-iC_-lOKgm0tg%26_nc_ss=7a22e%26oh=00_AQJAUWzP97rSrMgig5iIk9BoUbzt2fdl1Yo_G4jn_DPy8A%26oe=6AAD951C%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C_Fjzerszq0.jpg",
     link: "https://www.instagram.com/cyrillignac/reel/C_Fjzerszq0/",
     linkType: "instagram",
     veggie: false,
@@ -10993,7 +10993,7 @@ const RECIPES = [
       { qty: "2", name: "cuil. à soupe de graines de tournesol", rayon: 'epicerie' },
       { qty: "3", name: "cuil. à soupe de graines de cumin", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -11006,7 +11006,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/498938832_1412744940149086_7783462055768544196_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=110%26ig_cache_key=MzM5MTA4NjcxNzQ0MTMyODkzNQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=XTw9os5IKwIQ7kNvwEUp0Rc%26_nc_oc=Adqxxp12xTEC1jcwWk7-3BHr10XZ1VEGAUEo9MM5dPYnwuJLRIij1LCgblpOA2TERfifVepl4HgdG4PHDlI8xZWq%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=3vd47rpZxrbhYdNQPWV4pA%26_nc_ss=7a22e%26oh=00_AQJrD86yCgP8ZuRTcMhgOCuPgo36Fhd_n1qe8bAzjZq8nQ%26oe=6AADC1A3%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C8Pj2cboscn.jpg",
     link: "https://www.instagram.com/diegoalary/reel/C8Pj2cboscn/",
     linkType: "instagram",
     veggie: true,
@@ -11014,7 +11014,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -11027,7 +11027,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/505120466_721685513681257_3191780129071370230_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=105%26ig_cache_key=MzQ0MDg5OTU4NzU0NzA5MjI3MjcyMTY4NTUwMzY4MTI1OA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=QGG8eqFeTGEQ7kNvwHHKW8C%26_nc_oc=AdpFp1H9p8wklHDo8BS4bqxATgGLaDkDS6boD0oan15AvNK5PwXZCNu8ilrCNe2826nVuifD4j7bZd5HkJ4OfZOj%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=0B6pPKtHfbArU8ZfBFXZ2Q%26_nc_ss=7a22e%26oh=00_AQIbTJA4wctDXwJKTB82RBbnni1Xf6fjOfuNZFPNYAKDyw%26oe=6AADBE20%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C_Ah_G3iFUw.jpg",
     link: "https://www.instagram.com/pourdebon/reel/C_Ah_G3iFUw/",
     linkType: "instagram",
     veggie: true,
@@ -11039,7 +11039,7 @@ const RECIPES = [
       { qty: "1", name: "c.à.c. de sel", rayon: 'epicerie' },
       { qty: "QS", name: "Poivre noir", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -11049,10 +11049,10 @@ const RECIPES = [
     cat: "plat",
     chef: "pourdebon",
     chefName: "Pourdebon.com",
-    time: "1h",
+    time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503974482_1618849538684415_919875060367643180_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=111%26ig_cache_key=MzQzODkwMzM2MTY1ODM3ODExMjE2MTg4NDk1Mjg2ODQ0MTY%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=JU4lGGDIciYQ7kNvwHKIo_J%26_nc_oc=AdpaUFkLdlnBKiDhCpZUp3MNdQpKRfnZ1LkocLjeN49dOMYp_QF_42WT3MOACo6S8p7icb6KbSj9YPOvf168PQkw%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=GD6EwwiHmmVL-PwoupmpJQ%26_nc_ss=7a22e%26oh=00_AQKYTmiPtuB3MG_3OZY1deNpr3on6DWunSfQtTNO3ffAxg%26oe=6AADBC5B%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C-5cGMoi1eA.jpg",
     link: "https://www.instagram.com/pourdebon/reel/C-5cGMoi1eA/",
     linkType: "instagram",
     veggie: true,
@@ -11062,7 +11062,7 @@ const RECIPES = [
       { qty: "500 ml", name: "d’eau", rayon: 'epicerie' },
       { qty: "300 g", name: "de sucre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -11075,7 +11075,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/504145199_2296736210742421_1634882452226570415_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=101%26ig_cache_key=MzQzNjQ4MzM0MDYwODc2NzIzNQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=6Gexge41HQkQ7kNvwEQkK06%26_nc_oc=AdpQ-dq4LxQE3-dj1DhCkrMQsrU04q1WDL2n8PKyXaZLv6Xpm3nwt05Ks8fGQU_VYYNAbLISk8o-Y1fIvX7y4kxB%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=YZ1nDf_HCfSlUgrWt6utIA%26_nc_ss=7a22e%26oh=00_AQLLGWRLTlfb4HHd1-77YuRoLAI6cUFTISgZEWOCw-21xg%26oe=6AADB70F%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C-w12QZiIUD.jpg",
     link: "https://www.instagram.com/marietnz_/reel/C-w12QZiIUD/",
     linkType: "instagram",
     veggie: true,
@@ -11083,7 +11083,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -11096,7 +11096,7 @@ const RECIPES = [
     time: "15min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/506067283_1773841673167771_203575299502515051_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=MzQzNzIzMzczNzQ5MjAzNzgzOQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExNTIuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=LHnXJy-IyQMQ7kNvwG2gfAi%26_nc_oc=AdrYo9OLImDyzABQ2ViBZZEdA57VSDFkSrkc1Ls9RueVVjB43QXCL0nxzkMJGNccQwuT9ly6bdt1bmpGE9deJuLU%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=_x6EOdVJB5NAqaX2pPxBgQ%26_nc_ss=7a22e%26oh=00_AQLMg9BFaV5DcQWmilcJyG5RS1RdYFYYMCUU0iBYWmZO5Q%26oe=6AADAC8B%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C-zgd99M4DP.jpg",
     link: "https://www.instagram.com/cyrillignac/reel/C-zgd99M4DP/",
     linkType: "instagram",
     veggie: true,
@@ -11118,7 +11118,7 @@ const RECIPES = [
       { qty: "1", name: "petit piment thaï rouge ou ½ cuil. à café de flocons de piment rouge", rayon: 'epicerie' },
       { qty: "QS", name: "Une douzaine d’olives vertes dénoyautées", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -11131,7 +11131,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/504167981_716282837467775_3317442980380743513_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=MzQzNDMxOTEzODY5NDE0MjQ5Nw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIwNzQuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=A2OlOTXqPc8Q7kNvwFtuOlD%26_nc_oc=AdpennOiqlnODxddfUq5-RR99WK04pFlLOarOTu7y6M_65R41OnXqpqHnOyg6JTQbNqw5Tqeej1J3B47NWOwyJBw%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=Jr7v3w2IxxXbpsAg-IBSJA%26_nc_ss=7a22e%26oh=00_AQKOXE6G5Ee5To9fKIQ7uUnOlFmKnwO63XSnwSic1B64wA%26oe=6AADC4FD%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C-pJw-TMJoh.jpg",
     link: "https://www.instagram.com/cyrillignac/reel/C-pJw-TMJoh/",
     linkType: "instagram",
     veggie: true,
@@ -11144,7 +11144,7 @@ const RECIPES = [
       { qty: "50 g", name: "de sucre en poudre", rayon: 'epicerie' },
       { qty: "50 cl", name: "de crème liquide entière montée en chantilly avec 20 g de sucre glace", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -11157,7 +11157,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503646643_1269930447889278_1792443795036937573_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=101%26ig_cache_key=MzQyMDYwNTY3NTQzNTc3NTY0Ng%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=CXS-VsuOcg8Q7kNvwHtG_uu%26_nc_oc=Adq98yhtDu1qO_0mJb1_YvYQeX2he6h4G3ICixCPDc4mdpQN4FcKmc3ZssqfMTeB3vEfALLdfRxlsLiicgw-2WIo%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=ghMM-NGhj_ZRrP7RVe7NcA%26_nc_ss=7a22e%26oh=00_AQKISEJHTL4xPJ1wlJQwAgQgMuzUlprncDn9TM04fQiggg%26oe=6AADA2C9%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C94br0ZCNae.jpg",
     link: "https://www.instagram.com/pourdebon/reel/C94br0ZCNae/",
     linkType: "instagram",
     veggie: true,
@@ -11171,7 +11171,7 @@ const RECIPES = [
       { qty: "1", name: "cuillère à café de cumin bio", rayon: 'epicerie' },
       { qty: "QS", name: "Un peu de glace pilée", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -11184,7 +11184,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/502655540_23957661920541386_5060339777594680465_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=MzQxOTg1MDQxODkyODQ1MzI4Mw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIxNDguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=LP9PaJ6h0T8Q7kNvwEWnUpv%26_nc_oc=Adr3pCo4QcT4ggpD9UKuRYUayyMbeKRMM2aopo6aZk2YWOy4NlVQrbN9RyX17An-fwIfkU6xdVqmcmHeTHgGrcGx%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=HbCAmhlRSusU6XLdIULFNA%26_nc_ss=7a22e%26oh=00_AQKWLbgXWT36V-iyPCzVpQO0Ix0o5BHWhoeQOo4KP0LuUw%26oe=6AAD9420%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C91v9Y9M4aj.jpg",
     link: "https://www.instagram.com/cyrillignac/reel/C91v9Y9M4aj/",
     linkType: "instagram",
     veggie: true,
@@ -11202,7 +11202,7 @@ const RECIPES = [
       { qty: "1", name: "barquette de groseilles blanches", rayon: 'epicerie' },
       { qty: "1", name: "barquette de mûres", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -11215,7 +11215,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503013228_2425223611197302_4367926710180260077_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=101%26ig_cache_key=MzQxNzE2MjM0OTczMjI3NDg5OQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=5xy52ZEzatQQ7kNvwE8xAXy%26_nc_oc=AdqrVfDV_0s4KQ8r2UcYZU7ZautELFaOAQRaVSmwB6RQRiztmpGlvyjD8RPlwBGFdvrU9TPkGhQtUBYhodpclE2k%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=kodUeeIQ9LMomVe0XW4zGA%26_nc_ss=7a22e%26oh=00_AQIWxLzgSMB5P5EPubJ7M_wQ8O43jD0wKJleJZWlTrTZjw%26oe=6AAD9FE9%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C9sMw1boaLT.jpg",
     link: "https://www.instagram.com/chefsimonezanoni/reel/C9sMw1boaLT/",
     linkType: "instagram",
     veggie: true,
@@ -11223,7 +11223,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -11236,7 +11236,7 @@ const RECIPES = [
     time: "25min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/624183687_1206012088394223_3322686403917730263_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=MzQxNDk4MjIyNTY0OTczNjEzOA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNzIwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=PqClLwdXQcYQ7kNvwFRfFGL%26_nc_oc=AdocWkbN2WJWbUP9_TbuHbN3nipAtOR8Dg7QrfBLLIa9gAE80wCvIWeas-Uf349wBdkNrt3U1GqTI_NaL3-656GJ%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=ylpdQ5XLEM_JwMQj-qOrrw%26_nc_ss=7a22e%26oh=00_AQI99NM2a2e7aHrdVkD-n9bM5lga9ZB0Bm4DaBXbso8sZw%26oe=6AAD9830\nToss the ingredients for this simple Smoky confit tomato and lemon pasta into a roasting pan along with a pool of oil, and the oven will gently simmer and ‘confit’ while you get the pasta underway. It’s foolproof in method and bursting with flavour.\n\nRecipe for NYT subscribers through the link in bio.%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C9kdO75o8fO.jpg",
     link: "https://www.instagram.com/ottolenghi/p/C9kdO75o8fO/",
     linkType: "instagram",
     veggie: true,
@@ -11244,7 +11244,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -11257,7 +11257,7 @@ const RECIPES = [
     time: "25min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503262201_1104359201725004_2427277006583697816_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=111%26ig_cache_key=MzQwMzM2MDczNzc5MzgwOTgzNQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=D775kxoK0ZAQ7kNvwGJOoyZ%26_nc_oc=AdoCSOWmxordtniF2Rk0FxURIVCW4SoPC8Q9CTCllzW0zaD6LE5J71QBQIfXYbR6rI8uY82NPKRoqkxWG5FuSJzD%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=A6NGBSq0BOwJp95TZ25hzQ%26_nc_ss=7a22e%26oh=00_AQI0_sxatNZGpXDR9jtUO_8Vk9mqepRhR2bdAHbL-O1DBg%26oe=6AADC461%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C87Ko8qth2r.jpg",
     link: "https://www.instagram.com/annecharlottepontabry/reel/C87Ko8qth2r/",
     linkType: "instagram",
     veggie: true,
@@ -11265,7 +11265,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -11278,7 +11278,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503763704_1206495774605492_988512505122557964_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzQxNjE5NTQ0ODY0MjI2ODI5OQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=Sf479JbrfngQ7kNvwEZxshU%26_nc_oc=AdpWIw59YgYlrxZwmfRSGJ_lfDmH4GcXnPGdEX6N2MuLuguk0o8NMI658nK_4Oa07Pku6Qda5geCqWbKhbEP6ibb%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=mHmgQ4WtQYZr4ZS5AgP9GA%26_nc_ss=7a22e%26oh=00_AQIL62TwH0xUQUve4Ls-3Jr8Hc_dV_PMNP6NZCNh4Hgn8A%26oe=6AAD982F%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C9ow6knoOyL.jpg",
     link: "https://www.instagram.com/cyrillignac/reel/C9ow6knoOyL/",
     linkType: "instagram",
     veggie: false,
@@ -11294,7 +11294,7 @@ const RECIPES = [
       { qty: "1", name: "oignon rouge", rayon: 'epicerie' },
       { qty: "QS", name: "Fleur de sel et poivre du moulin", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -11307,7 +11307,7 @@ const RECIPES = [
     time: "2min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/501900028_1751903699064404_3872262696817445969_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=MzQxNDI4MzkzMDAzNjE4MDU0NQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=JnL3yRlCST8Q7kNvwHmFnQR%26_nc_oc=AdoCVoQcEzH8icHyaJvyNjSx4uggjR3x4EiCrtOZgox5rTa8cQPHPy5416B35amwmYiVDhpdQUlLBzvQdqz2vadh%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=zsullaOL51ohr3KcHSnqJQ%26_nc_ss=7a22e%26oh=00_AQJU02lGVBQIy-2aRBkzJCs5nLiOFznaEmI--rZ9FE4TGw%26oe=6AADC375%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C9h-SUMIZZB.jpg",
     link: "https://www.instagram.com/enrangdoignons/reel/C9h-SUMIZZB/",
     linkType: "instagram",
     veggie: false,
@@ -11315,7 +11315,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -11328,7 +11328,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/502992388_1024975336391773_3088157555265635621_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=111%26ig_cache_key=MzQxMjYwMjIyODU3OTYzMTkwNQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=N4QjCxoFHcIQ7kNvwGPcTs7%26_nc_oc=Adp9qRUh1rRMDVDy6VaV97mBr5HE8gkC4toZobiC42tiu6yCl6NLcgYFnkVcSYxK4Btzs3IwnDsKU1g6puX-T_Xw%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=ufz72u51twAv9M7Rz5HD0g%26_nc_ss=7a22e%26oh=00_AQJazEgi9Ud3u2UR18TDl_igMCs5RG8bsaASW4tGO6ipSQ%26oe=6AADBA8A%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C9b_6VqMgMh.jpg",
     link: "https://www.instagram.com/cyrillignac/reel/C9b_6VqMgMh/",
     linkType: "instagram",
     veggie: false,
@@ -11346,12 +11346,12 @@ const RECIPES = [
       { qty: "QS", name: "Quelques feuilles de basilic", rayon: 'epicerie' },
       { qty: "QS", name: "Huile d’olive", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "recette-dete-le-salmorejo-verde-mal-prononce-mais-",
-    title: "Recette d’été : le salmorejo verde, mal prononcé 😅, mais ext",
+    id: "recette-de-monelle-godaert-C9XLG9",
+    title: "Recette de Monelle Godaert",
     emoji: "🍽️",
     cat: "plat",
     chef: "not_so_superflu",
@@ -11359,7 +11359,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/506358465_1210787160313790_8011383412141586681_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=105%26ig_cache_key=MzQxMTI0NDA5OTEwOTAxMzUzMw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=rco7ntetTEwQ7kNvwHTPqnH%26_nc_oc=Adr7gpQOTc2jlDkw5-pAFcw5_Q0Bxgv61ze5HRTm6W3KMkRBO6Ak7OJVZ9lM0T3C3wWFDcMyBiDSnxlOMf_vsu9n%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=F1uzz2LoATagQ5YhycPpAQ%26_nc_ss=7a22e%26oh=00_AQKrSmeaJ5g9riB5agT1wcPmqET4g1N9Tg3Wny9Fmof8Zw%26oe=6AADC2DF%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C9XLG9Bikgd.jpg",
     link: "https://www.instagram.com/not_so_superflu/reel/C9XLG9Bikgd/",
     linkType: "instagram",
     veggie: true,
@@ -11367,7 +11367,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -11380,7 +11380,7 @@ const RECIPES = [
     time: "5min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/499688618_1043514487308171_4080518133833055093_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=102%26ig_cache_key=MzQwOTk3ODMxNTY5MjQyMDkzMQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExNzguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=V9DGVv0tdqIQ7kNvwFewHmX%26_nc_oc=AdoWR6Xi6nUwz9ayyoR9G5TPbreVL9a3fzDYazguHUAqoofg5GzlXtybMHHIT2-bB9qVdx1sG4YSBxrJFt4oIphx%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=gtJrbtrfjndLHte_obzdbA%26_nc_ss=7a22e%26oh=00_AQK5pgd5CSKMPSf63lh977DwhT6YtydHShvp-3MNX77BtQ%26oe=6AAD948B%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C9SrTYWoa9D.jpg",
     link: "https://www.instagram.com/dr.jimmy.mohamed/reel/C9SrTYWoa9D/",
     linkType: "instagram",
     veggie: false,
@@ -11388,7 +11388,7 @@ const RECIPES = [
     ingredients: [
       { qty: "QS", name: "Videz poivrons, aubergines et courgettes", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -11401,7 +11401,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503250657_716402760749029_7306829920053436660_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=MzQxMDYzMTI1NDE2MjUyNDM3NA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=0y6LxxSCU1oQ7kNvwHdLrYO%26_nc_oc=AdqTc0h1kPIGMuugmgT-GbHN3_X-F4n6tVQsLBd-h5akVG72S1Yg81zTPCVVBYXC2MF6WLT22cm9cR3x0FHEy4Fi%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=dNHCxk7mDpPDIJQxcgZ-oA%26_nc_ss=7a22e%26oh=00_AQLAI-49T53wckpB1djvt9W4I9g94VIeeVGCT92lxyZBdA%26oe=6AADBB44%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C9U_w4sM8jW.jpg",
     link: "https://www.instagram.com/franceinter/reel/C9U_w4sM8jW/",
     linkType: "instagram",
     veggie: true,
@@ -11409,7 +11409,7 @@ const RECIPES = [
     ingredients: [
       { qty: "1 kg", name: "d’abricots de Provence", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -11422,7 +11422,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503282688_1133574278801088_7993687014616313256_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=103%26ig_cache_key=MzQwODQ1OTAyODUwNTM2MTk5Ng%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=BXfgrhOeJaIQ7kNvwHMEXpl%26_nc_oc=Adpkx7wFca8LPW3oX6JFPnvtjGyEhvRjni12T1mmtfBpQL9DFN6k459biWjn25JAauqwaWoNa38a7VhBGz0HfEd3%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=28MCnXWn88BpR5b7qnzaOA%26_nc_ss=7a22e%26oh=00_AQJsITlB3No0oEwoDT6KsQQlZC1TgSjRH6vD_xvxAMGFYg%26oe=6AADA465%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C9NR215iP5M.jpg",
     link: "https://www.instagram.com/pourdebon/reel/C9NR215iP5M/",
     linkType: "instagram",
     veggie: true,
@@ -11436,7 +11436,7 @@ const RECIPES = [
       { qty: "QS", name: "Pour la garniture :", rayon: 'epicerie' },
       { qty: "1", name: "pot de crème fraîche épaisse", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -11449,7 +11449,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/502729097_1052242586365051_6703421714733171236_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=106%26ig_cache_key=MzQwODQ3ODYzNDgzMTM1MTMyMw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=XjLJ8EWWftoQ7kNvwGWndTz%26_nc_oc=AdohDl04iXb4BAtgCV0qaA1mwSqfoHBDIKCrWWdusErCCEE7msA4dFClO5upBmF_c1KZaWsjKSSsauOTwp2lqCYo%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=eieDrPENS4nXJc8L2fSEKQ%26_nc_ss=7a22e%26oh=00_AQIv2s5Cc5f-_5guUIrJOSBwjmlqTiU_42OVbQJguIr13Q%26oe=6AADAB70%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C9NWUJtoY4b.jpg",
     link: "https://www.instagram.com/enrangdoignons/reel/C9NWUJtoY4b/",
     linkType: "instagram",
     veggie: true,
@@ -11457,7 +11457,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -11470,7 +11470,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/502380135_1837830450118584_8497508649057066146_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=104%26ig_cache_key=MzQwNTY1NzY5MTczNjYyNTM4Mg%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExMTAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=_9CZFPVyTjkQ7kNvwFw8IBy%26_nc_oc=Adr9bI3mpkvTLGHQFk5EQqJuAEQ3xWTKCeXPimucLYZW2V3pi-tl7DvSOjuOjKP3QroUxd-RvjzsTlwwaCz7IQl6%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=9csHLsTG-qJL_oEGU5UScQ%26_nc_ss=7a22e%26oh=00_AQJbTk5Wn1UbITIo_MuqmJ_JZEtG_6XKDIzWeqTk72nqMA%26oe=6AADAAEF%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C9DU6BuidDm.jpg",
     link: "https://www.instagram.com/minimal.quotidien/reel/C9DU6BuidDm/",
     linkType: "instagram",
     veggie: true,
@@ -11478,7 +11478,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -11491,7 +11491,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503829723_1470838100759520_5010831420798394478_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=MzQwNDU0OTE4ODkyMjAyMjIyOA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjYwOC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=Az2PIORdyB8Q7kNvwGfDbbT%26_nc_oc=AdpaeNAuDXJuwjMIqcHU2FtsXxNdjRcM4x9KVyKsL4HkUd8ED5e_H-1PvM3CkVmPdK6KA0ATVbsSwvxDRKVd-JFw%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=OtuKPkmhufuEMe1wxyVMNA%26_nc_ss=7a22e%26oh=00_AQJDpLpIP6toqvfjX2csWrR8mlSdvam9B-6oYtRfSJw5FA%26oe=6AADB060%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C8_Y3MCCplU.jpg",
     link: "https://www.instagram.com/laurent.mariotte/reel/C8_Y3MCCplU/",
     linkType: "instagram",
     veggie: true,
@@ -11499,7 +11499,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -11512,7 +11512,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/483046701_700267302661276_4497787917973883817_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=110%26ig_cache_key=MzQwMTczMTg1Njg4Mjc0MDYzNg%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=QY_P_vpvn3MQ7kNvwF-iHS1%26_nc_oc=AdqeJejxmHvTdm04Te3Tm2WF3yyHq1RUYvZt4n4qY3CVBXZg2lkozCJ7UJvKc9YvehqTU6GbUOM0AbY7apdSQ73S%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=8ZS_PjSjjfJNp73XYT67LQ%26_nc_ss=7a22e%26oh=00_AQIkFOXcMhzCsB__9CZGhH4XtyNrX3VVyLLM6H-6PxDjsg%26oe=6AADB95B%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C81YRnGoC2c.jpg",
     link: "https://www.instagram.com/cyrillignac/reel/C81YRnGoC2c/",
     linkType: "instagram",
     veggie: false,
@@ -11534,7 +11534,7 @@ const RECIPES = [
       { qty: "QS", name: "Huile d’olive", rayon: 'epicerie' },
       { qty: "QS", name: "Le jus d’un citron jaune", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -11547,7 +11547,7 @@ const RECIPES = [
     time: "20min",
     serves: "5 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/502050419_2174748886271875_3547373688068440026_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=104%26ig_cache_key=MzM5OTc2NDg5NTQyNjA1MzIwMQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjMzNzYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=hmorUtZAPlUQ7kNvwETvxCb%26_nc_oc=Adq8YfqmP_MZL1XhpMlWTwtwMi8jixs28rxc5JZIs466Llr_Cwywqn7v0PZcahGFwWcVDmvK4h3EWilFCqqSYDE2%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=cf2aQu_Xq3Apk-oOlmXz6g%26_nc_ss=7a22e%26oh=00_AQLtRGVRA2q7jXbPyrorv3AXYF6BwcBcfmD7nAxH-0S39g%26oe=6AAD9920%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C8uZCjftoRR.jpg",
     link: "https://www.instagram.com/mesbrouillonsdecuisine/reel/C8uZCjftoRR/",
     linkType: "instagram",
     veggie: true,
@@ -11555,7 +11555,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -11568,7 +11568,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503117362_1196854248395031_1518606817349387142_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=111%26ig_cache_key=MzM5ODg2MzY0NjcyNjY3MzEzOQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyNjYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=ZmUD-dwOqzEQ7kNvwEsVlhx%26_nc_oc=Ado-4TAYpDcGQN3dPoepOt5Kvcaz4q50UAgcSMGwzTmHjopVaItNcqdlTEJLk78tF-3aOEAaddwDS80DRoJIj_By%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=65tv5JezBduza3JI2vTo_A%26_nc_ss=7a22e%26oh=00_AQJqIiRAmwM_KQILJtG9iOBHFZandlDTQMZUk2lbqMSG3A%26oe=6AADA63B%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C8rMHqPIdLz.jpg",
     link: "https://www.instagram.com/whoogys/reel/C8rMHqPIdLz/",
     linkType: "instagram",
     veggie: true,
@@ -11583,7 +11583,7 @@ const RECIPES = [
       { qty: "1", name: "branche de romarin", rayon: 'epicerie' },
       { qty: "QS", name: "fleur de sel", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -11596,7 +11596,7 @@ const RECIPES = [
     time: "30min",
     serves: "6 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/501656950_1224394015763473_1780510746484104296_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=110%26ig_cache_key=MzM5NjkyNDYyMzc3MjA2MjEzNQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjMwNTQuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=yp6yb2COINEQ7kNvwF1kA6W%26_nc_oc=AdqjoLC9HtibvWO89lnPNteRqmcIHpwccsdpkAIqhlPQFswro_93bf9LO1sr4ya3l4_L-6HMt6rUD4FxDuhfFJI0%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=tJ8bcrB6dgUHcGqMrVa1mg%26_nc_ss=7a22e%26oh=00_AQLISR-0oLEiBYg_znmc4b7vSt5MAwYfhiVPoTWUOgJcOg%26oe=6AADC120%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C8kTPKYthG3.jpg",
     link: "https://www.instagram.com/camillechamignon/reel/C8kTPKYthG3/",
     linkType: "instagram",
     veggie: true,
@@ -11604,7 +11604,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -11617,7 +11617,7 @@ const RECIPES = [
     time: "2h",
     serves: "6 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503936954_9957587020998013_3973186126978176440_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=104%26ig_cache_key=MzM4MDkxMjc1MDUwMDk0ODk5OA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExMzAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=jlpREOOrL5EQ7kNvwGVSMe4%26_nc_oc=AdqElQvZDFJUZxnacs6JJoISpBaCjT2sjGM4XF15c9B3qRm5ACvrTCBRi1GsKpYIfp8J920aZBC4Y_O1M539D8ZO%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=PIQkLBN7HhrE9tc3yfPufA%26_nc_ss=7a22e%26oh=00_AQLybemm5r8UDM5EyjF-kVeUV7dMP5Gav9UCfm_HqfiVZA%26oe=6AADB141%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C7rajvWMqwG.jpg",
     link: "https://www.instagram.com/annegrousset/reel/C7rajvWMqwG/",
     linkType: "instagram",
     veggie: true,
@@ -11627,12 +11627,12 @@ const RECIPES = [
       { qty: "150g", name: "de blancs d’œufs (environ 5 œufs) • 150g de sucre semoule", rayon: 'epicerie' },
       { qty: "150g", name: "de sucre glace", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "temps-de-preparation-12-minutes-C7i-dL",
-    title: "Temps de préparation : 12 minutes",
+    id: "houmous-C7i-dL",
+    title: "HOUMOUS",
     emoji: "🥩",
     cat: "viande",
     chef: "cyrillignac",
@@ -11640,7 +11640,7 @@ const RECIPES = [
     time: "12min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503288821_24143896411882761_4037285139370800484_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=MzM3ODUzNzM1NDQ2Mjc1NDIzMQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=CIjwldugQpMQ7kNvwE4KckT%26_nc_oc=AdrmSmuL74YPhIKGqv2RYj1CaGufm1HTllwCAtc6wKKbnQAxRgXQ1FCSmbGo6Agz6KuQwelwDFOiASKF7r41IdVE%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=Ij0dwLFMD2oGD42W0FI0tw%26_nc_ss=7a22e%26oh=00_AQI2utAFvO9y2PE1DCkHt1olvlI9U6bdWo7sagPxKvjIMg%26oe=6AADC6E9%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C7i-dLZI_W3.jpg",
     link: "https://www.instagram.com/cyrillignac/reel/C7i-dLZI_W3/",
     linkType: "instagram",
     veggie: false,
@@ -11662,7 +11662,7 @@ const RECIPES = [
       { qty: "QS", name: "Pour les pains pitas :", rayon: 'epicerie' },
       { qty: "10 cl", name: "d’eau tiède", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -11675,7 +11675,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/500130474_1271537431278891_2624335012500521286_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzM3NzA5MzU0MzE5MDU2NDc3Ng%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjMyMTYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=Ub3fyiserEsQ7kNvwHCMJj7%26_nc_oc=AdqEQF7a6LIfG9xhwcR23f03CPiHe_gYexbmaDWys95K-4LawTsCFGceC-wAn2uuJTYUhvq2ATAiBGWZQGWpyBzf%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=FEqjqWowLMLPcv1pOEzxLQ%26_nc_ss=7a22e%26oh=00_AQL8vAXvhwDLghmHC4l7LnZx9zZH0ktyZ5aIXQHEz5gERg%26oe=6AADBEA8%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C7d2K9XI4-o.jpg",
     link: "https://www.instagram.com/julienduboue/reel/C7d2K9XI4-o/",
     linkType: "instagram",
     veggie: true,
@@ -11683,7 +11683,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -11696,7 +11696,7 @@ const RECIPES = [
     time: "16min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503203709_1980485162483376_2441851145203958820_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=111%26ig_cache_key=MzM2OTMyNTg4Njk2NzM4MTkxMA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjMzNjguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=rO06-bo-NKIQ7kNvwGD0Pmb%26_nc_oc=AdrUmBYpjd8Jia4IAFQC2COASM9jmgzKW1_xAI5fUf0aMhisiITfwRUCyEvSYpcb22JWh9GXSzRzupoiRiO3RXlL%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=cA5AYBSgnr5x-pePBZ69Og%26_nc_ss=7a22e%26oh=00_AQIpYghUNwB96Ypanym67E1R-PkNozTe8CcU0Akswn4qsA%26oe=6AADB384%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C7CQArxN_-W.jpg",
     link: "https://www.instagram.com/mesbrouillonsdecuisine/reel/C7CQArxN_-W/",
     linkType: "instagram",
     veggie: true,
@@ -11704,12 +11704,12 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "500gde-fraises",
-    title: "500g de fraises",
+    id: "les-gourmands-vont-adorer",
+    title: "Les gourmands vont adorer",
     emoji: "🍰",
     cat: "dessert",
     chef: "cuisineactuelle",
@@ -11717,7 +11717,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/500608658_577533841636682_3140992392015525816_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=MzM0NDY2MTczNzY4NzU3ODI0OA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=6Dohp9U00aAQ7kNvwE4Zp-U%26_nc_oc=AdrxBnTwaorFOwrRpKTnTtMRkdXoI4pBdUkTkuuSYDUxiTImcfn1fl_ZE4acrmdB05trgIkcPPHS7D9o8wOn6zc2%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=t8JI0rl4Tdr5w0jG3X4kZg%26_nc_ss=7a22e%26oh=00_AQJ1dWIXyYjJdM8XxmDaUu8FTX1aTe1CRavklb0XXbAj6w%26oe=6AAD9DBD%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C5qoCEwtXaI.jpg",
     link: "https://www.instagram.com/cuisineactuelle/reel/C5qoCEwtXaI/",
     linkType: "instagram",
     veggie: true,
@@ -11725,7 +11725,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -11738,7 +11738,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/491456474_996242842679435_5808007919038711422_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=111%26ig_cache_key=MzM2NzYzOTE3MTk3Mzk0NjE1Mg%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=Wfg37CztswAQ7kNvwE-xGuS%26_nc_oc=AdpBcJ7E1xa_dmz1kkiXsPoYyCO1FkpcIjLRcx2wyiDX7Yz1S56SMIqCLK-yVSsXdTCZgOEwy0bylLnIOqZgwtfc%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=zJ1vtlQeGnFpDuvTmrra8g%26_nc_ss=7a22e%26oh=00_AQK7pM1TupfRlSJDO0qQotNhU_SxwXOnXcy-IKTRuPUnBQ%26oe=6AADBA68%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C68QfwBMpso.jpg",
     link: "https://www.instagram.com/acha_happybody/reel/C68QfwBMpso/",
     linkType: "instagram",
     veggie: true,
@@ -11754,7 +11754,7 @@ const RECIPES = [
       { qty: "QS", name: "huile neutre", rayon: 'epicerie' },
       { qty: "QS", name: "sel, poivre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -11767,7 +11767,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503088729_739015565323566_4223794033950782194_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=MzMzNDU2NTY0MDcxNzkyMjU3NA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExMjQuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=qOgY8fJ9fywQ7kNvwEahQYv%26_nc_oc=Adq5b7to8qwlInsm8etaagHrfhW1xIzu1TlzXLyyLeP6-luiTVLQN5UHvvmEW7PFtQr2GyKVnj7HDMwzWhKmvBLh%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=e-h-Mk4iJQ4atgzTE2wlUg%26_nc_ss=7a22e%26oh=00_AQI42iN9d948rJKCWkyU7O-bIfkGtlTO77e3GY5ZRUDvbw%26oe=6AADA372%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C5GwchvNvEO.jpg",
     link: "https://www.instagram.com/abdelalaouiofficiel/reel/C5GwchvNvEO/",
     linkType: "instagram",
     veggie: true,
@@ -11782,7 +11782,7 @@ const RECIPES = [
       { qty: "1", name: "càs. de paprika doux et de curcuma", rayon: 'epicerie' },
       { qty: "2", name: "càs. de crème tahini @nomie", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -11795,7 +11795,7 @@ const RECIPES = [
     time: "1h",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/502055210_24102378369360153_6006239616142599919_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=106%26ig_cache_key=MzM0NzU5MzY4OTM2MTE4MjYxNg%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExMjQuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=KLMP3mLTZtQQ7kNvwGYeNQI%26_nc_oc=Ado5mZgT6X4uXFPrRpU_bYxP4kJK1KOxn1P3obP2qH42_HVS1_vmHm5TZtnfXG0V0wseNLleTwgepMxWbABopS-z%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=tBoxQy_3qCn_CuZmreedOQ%26_nc_ss=7a22e%26oh=00_AQLWMbj4BTYeJEPb8Sj2dthyvA0rpjnWe2cMo44TsK3qbQ%26oe=6AADBDD7%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C51Crlitm-Y.jpg",
     link: "https://www.instagram.com/abdelalaouiofficiel/reel/C51Crlitm-Y/",
     linkType: "instagram",
     veggie: true,
@@ -11805,7 +11805,7 @@ const RECIPES = [
       { qty: "40g", name: "de fécule de maïs et 100gr de sucre glace", rayon: 'epicerie' },
       { qty: "1", name: "cuillère à s. d’eau de fleur d’oranger", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -11818,7 +11818,7 @@ const RECIPES = [
     time: "6h",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/501815806_954177986669732_9090902781377798592_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=MzM0NTkwNjQ0MTU1NzExNTc0NQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjU0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=Q4RkN5qGI1IQ7kNvwHsQFGG%26_nc_oc=AdqwVD5Ct9svXR-_1l4wbIbDbvDQT1UuywnRSlXiJfsE8Gu4QLAmWOaFqjUUhtHZoTMVreBNW8svFUbrM2kKavGV%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=34UPFdsth1-j11Dn4gFAPA%26_nc_ss=7a22e%26oh=00_AQIVsCDTeS04OulUK-4H6BfPn-VkZqu8THSjvMUqrSxaxA%26oe=6AADA154%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C5vDC5ktANh.jpg",
     link: "https://www.instagram.com/peugeot_tristan/reel/C5vDC5ktANh/",
     linkType: "instagram",
     veggie: true,
@@ -11827,7 +11827,7 @@ const RECIPES = [
       { qty: "500 g", name: "de fraises bien sucrées", rayon: 'epicerie' },
       { qty: "120 g", name: "de fromage blanc ou de yaourt grec pour plus de gourmandise", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -11840,7 +11840,7 @@ const RECIPES = [
     time: "4h",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503128120_1365391811398372_6946727132425076999_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=MzM0MDkyODg1ODg2NzI5MTcxNg%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=tIGxkN32xmcQ7kNvwEFgmbG%26_nc_oc=AdrDnXsLP63WxqNHXdulZMdSmzLeTvdzvYaX9sfspDCL6Be1WbfCvhGAsz9g4gWSF0VTOp1MobL9W6jOTcEC_wzH%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=oxO07u5AqB2KWqKIjCxZOQ%26_nc_ss=7a22e%26oh=00_AQL_3GnyR7pIhqO5lUtIlrox_DuFkagUt-bwR4I5vA4QZA%26oe=6AADA54C%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C5dXRicotZE.jpg",
     link: "https://www.instagram.com/diegoalary/reel/C5dXRicotZE/",
     linkType: "instagram",
     veggie: true,
@@ -11857,7 +11857,7 @@ const RECIPES = [
       { qty: "1/2", name: "verre d'eau", rayon: 'epicerie' },
       { qty: "1", name: "piment oiseau", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -11870,7 +11870,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503063930_595765719674372_3437309369349966737_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=MzEyOTMwNzYzMTY2MjY5NTU4Nw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=U2rodMUeQjgQ7kNvwHegV5m%26_nc_oc=AdrgJ2c55Uj_NjsksHh9hjLxuwv51G6y5dwFEwbetab9hPw009TALM-LzFJI_0WPfwVKkRcbT5sf3YPnRCv4hVMF%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=l8PTrV4WureCdix6Usa1YA%26_nc_ss=7a22e%26oh=00_AQKKUphxbh4zBS20JxXEgEm3OftvxVrNJ4rhdHxAgMY_DA%26oe=6AADB38C%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/CttiLYSLISj.jpg",
     link: "https://www.instagram.com/lacoccinellegourmande/reel/CttiLYSLISj/",
     linkType: "instagram",
     veggie: true,
@@ -11878,12 +11878,12 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "collaboration-remuneree-lespommesdeterreeu",
-    title: "*collaboration rémunérée @lespommesdeterre.eu",
+    id: "pommes-de-terre-rissolees-oignons-caramelises-et-c",
+    title: "Pommes de terre rissolées, oignons caramélisés et crème de f",
     emoji: "🍰",
     cat: "dessert",
     chef: "missmaggieskitchen",
@@ -11891,7 +11891,7 @@ const RECIPES = [
     time: "6min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/500947696_721221051064248_7907309092330605818_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=101%26ig_cache_key=MzMzNDU3Mzk1NzA4Mjc5NzQwNA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExNTQuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=2NUNFkDJ3ucQ7kNvwG3c_vB%26_nc_oc=Adqzy9_lNYrrYH8tlGN2j9WWyUS7-_fDBuEowuaqdSCgh5juiM9IuFJcuBaXQLWVsHBsIimCZr-WH9ig8DHP_Ndg%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=Im-NKJ_SsicMqVJRZrX9rw%26_nc_ss=7a22e%26oh=00_AQK-daCXCyOyTkS33IgpZ565WE11OuGEG26z4E8WtOdduw%26oe=6AADBBD4%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C5GyVi9MFVc.jpg",
     link: "https://www.instagram.com/missmaggieskitchen/reel/C5GyVi9MFVc/",
     linkType: "instagram",
     veggie: true,
@@ -11913,12 +11913,12 @@ const RECIPES = [
       { qty: "QS", name: "Lavez les pommes de terre et essuyez-les.", rayon: 'epicerie' },
       { qty: "QS", name: "Servez de suite!", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "1-roast-lamb-with-potatoes-and-fennel",
-    title: "1. Roast lamb with potatoes and fennel",
+    id: "recipes-in-the-link-in-bio",
+    title: "Recipes in the link in bio.",
     emoji: "🍽️",
     cat: "plat",
     chef: "ottolenghi",
@@ -11926,7 +11926,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/624736700_2415085495661554_8441671389081211662_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=101%26ig_cache_key=MzMzMzg0MjI2MjY1MzI2MTMzMQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNzIwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=OxwChVftw0gQ7kNvwG2L-Q-%26_nc_oc=AdrGk7sFXrZo-63kt9n_QfFH-9DPY9G7c5rTPne50CpbPrKRnoRVMlz4ENJjGlcp3a893-RHOVkIl_m7bTCm3jGj%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=eE-YzqkOvpfk6yBefwG7Mw%26_nc_ss=7a22e%26oh=00_AQLjsn8nVRFgb3HkFGW3fsCAJsUvuS1COEmdQmg_u6y94A%26oe=6AADA498\nWe were all about Easter this week in the OTK. If you’re planning your long weekend menu, here’s the collection of our favourite Easter dishes:\n\n1. Roast lamb with potatoes and fennel\n2. Roast pepper salad with anchovies and toasted almonds\n3. Caramelised fennel and grape tart tatin with saffron and olives\n4. Chocolate mousse\n\nRecipes in the link in bio.%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C5ENTSJI0vr.jpg",
     link: "https://www.instagram.com/ottolenghi/p/C5ENTSJI0vr/",
     linkType: "instagram",
     veggie: true,
@@ -11934,7 +11934,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -11947,7 +11947,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503323275_671624799186934_4066517460051813182_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=MzMxNTA5MzcxNjgwMjQ2MTAxMQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=zSi3C-trPf8Q7kNvwG6O0If%26_nc_oc=AdrYoZCCBo0qDP6NPk5HdX28zIRC8YAv4hytk0Bs87N_ukgw6Y9xUNKiCQnE3qYMgk8Ltl0j6bZeL65ZHjTczpX6%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=fkmChM3DFQVoO6LBejD-gA%26_nc_ss=7a22e%26oh=00_AQKfANoqJxUUvCuHPoumQ1_oz4VHC8GHpD2ZMyCxQkdfUw%26oe=6AADBC4A%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C4BlCvbI91T.jpg",
     link: "https://www.instagram.com/diegoalary/reel/C4BlCvbI91T/",
     linkType: "instagram",
     veggie: false,
@@ -11955,12 +11955,12 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "aujourdhui-la-meilleure-patissiere-du-monde-niname",
-    title: "Aujourd'hui, la meilleure pâtissière du monde @ninametayer n",
+    id: "recette-de-marmiton",
+    title: "Recette de Marmiton",
     emoji: "🍽️",
     cat: "plat",
     chef: "marmiton_org",
@@ -11968,7 +11968,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/502340209_9877345179021508_7719623543767962795_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=MzMxMDQ4NTc3MzUyOTU3MTM4OA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=KIch2uHQqIEQ7kNvwHbdBkW%26_nc_oc=Ado2mP8vD9-hlOJx4SgK-x_ydhABghTujOwX80CgFExZfmlaQh0qBBJOoJRoCaRCZQ9ZH3zOeG_FgWoCppJP1d76%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=YY7odKJed9qJU3rD_ideHQ%26_nc_ss=7a22e%26oh=00_AQKaEExgbFofYJmNA9WDRI_kx7el8jNOndFPmIPitNVNKg%26oe=6AADA26A%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C3xNUV1NuA8.jpg",
     link: "https://www.instagram.com/marmiton_org/reel/C3xNUV1NuA8/",
     linkType: "instagram",
     veggie: true,
@@ -11976,7 +11976,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -11989,7 +11989,7 @@ const RECIPES = [
     time: "5min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/498567534_1783164918933852_6919918514978219788_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=101%26ig_cache_key=MzI5NzU3NTI1Nzg5OTAzNjc2MQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExNTIuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=wk77hcgoZy4Q7kNvwFOlANq%26_nc_oc=Adpg9Rbt-R7jk1W5PPcuWxBhsCsR6FjYeoz71slBBWw5bfyY2xqiNnRrcvgJNI1gXH_NGMIfG5WyMsDfQLPhALiB%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=z_cjaZoNbU4H4fsRGnDTBQ%26_nc_ss=7a22e%26oh=00_AQLTqjPm6tLSVnBcfzIpeYreGeA1qRRVpbEteWS0g5wzaA%26oe=6AADB90F%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C3DVznLMHBZ.jpg",
     link: "https://www.instagram.com/mamma_pavlova/reel/C3DVznLMHBZ/",
     linkType: "instagram",
     veggie: true,
@@ -11999,12 +11999,12 @@ const RECIPES = [
       { qty: "QS", name: "Puis vitesse 8 pendant 5 min", rayon: 'epicerie' },
       { qty: "QS", name: "Et enfin vitesse 10 pendant 2 min", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "recette-tendance-du-dimanche-la-salade-de-pommes-d",
-    title: "Recette tendance du dimanche : la salade de pommes de terre ",
+    id: "recette-de-monelle-godaert-C3Nnde",
+    title: "Recette de Monelle Godaert",
     emoji: "🥗",
     cat: "entree",
     chef: "not_so_superflu",
@@ -12012,7 +12012,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503012239_564456763089118_6807843653245709853_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=110%26ig_cache_key=MzMwMDQ2NzY1MTg4OTQzMjgwMg%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjU3Ni5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=dgYOqId2-g0Q7kNvwHmxom-%26_nc_oc=Adom3CmRLDi8gUeUFhwGPlzjX3jRHqUv887rI_RunjXB3kX0xyIJP6vepf61IMbF3w1rV_vaQNEeCQ5lrpEKrLgH%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=todhWZPyiLqfqh71LjA1Hw%26_nc_ss=7a22e%26oh=00_AQIFFQlDyE-rALPij7C5juTr1fA2_PoEBre7CYFd7YNJSg%26oe=6AADB20B%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C3Nnde_iYji.jpg",
     link: "https://www.instagram.com/not_so_superflu/reel/C3Nnde_iYji/",
     linkType: "instagram",
     veggie: true,
@@ -12020,7 +12020,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -12033,7 +12033,7 @@ const RECIPES = [
     time: "10min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/502189470_716247800880198_4885859172678635955_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzI5OTU3NzM5NDMxNzMyNjgwNA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIyNjguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=SkVK8mU8MdcQ7kNvwEx6QGY%26_nc_oc=AdpLa6t5KdL9eV4QkSgavsPZ6LrOu9JHo-V0eubyhqKDl6UzxKXtTPPQMeF8z0LjTddZEWSQMeYoHss0-8hkwJ_j%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=u9L9_GnebCMdl20xwa0kig%26_nc_ss=7a22e%26oh=00_AQK5lhe4eeHq1G0JO2o1TP_lg2zbFwKjZ3STlNRLGKy1AQ%26oe=6AADC42C%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C3KdCiBMXnU.jpg",
     link: "https://www.instagram.com/acha_happybody/reel/C3KdCiBMXnU/",
     linkType: "instagram",
     veggie: true,
@@ -12049,12 +12049,12 @@ const RECIPES = [
       { qty: "3", name: "œufs", rayon: 'epicerie' },
       { qty: "190g", name: "de crème entière", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "145-g-de-beurre-demisel",
-    title: "145 g de beurre demi-sel",
+    id: "preparation-C22wBw",
+    title: "Préparation :",
     emoji: "🍰",
     cat: "dessert",
     chef: "iletaitunefoislapatisserie",
@@ -12062,7 +12062,7 @@ const RECIPES = [
     time: "45min",
     serves: "8 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/501079207_1261812298890790_4031565075483896997_n.jpg?stp=dst-jpg_e15_tt6%26_nc_cat=107%26ig_cache_key=MzI5NDAzMTQwNDMxNTYyNTY2MA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjUyOC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=qxpyr3ujk6sQ7kNvwFze4Qn%26_nc_oc=Adp6bMTe03DdLPw6qlYY4nySwvcfJ6qkehINrVpzYC53eUzU_ly77Z1rYfUkQ6UuD3BAjzpdiT_FChFkhdWAFMjP%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=bD_afqsZMPhEwU1vrz3_Qg%26_nc_ss=7a22e%26oh=00_AQJ-LhsLYihJGsFaRCv-NNW0tIgmM7HpHFIXP0hvoIv3SA%26oe=6AADA353%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C22wBwVNsi8.jpg",
     link: "https://www.instagram.com/iletaitunefoislapatisserie/reel/C22wBwVNsi8/",
     linkType: "instagram",
     veggie: true,
@@ -12077,7 +12077,7 @@ const RECIPES = [
       { qty: "40 g", name: "de sucre de canne complet", rayon: 'epicerie' },
       { qty: "25 g", name: "de farine", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -12090,7 +12090,7 @@ const RECIPES = [
     time: "15min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/502977922_740096441687618_1746190626056058282_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=MzI5MDE0MzQ3MDc5MzE4NjI3Nw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=xGRXyLT9j20Q7kNvwHOz_-e%26_nc_oc=Ado_gDJXExQU_890gBlMyCduIzZcKduS1xPg66bnpbDTWL_Z6fwQCWSi5GWY-wVTEy0_x6g1U-MdHJvWIL4OSpLF%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=g45NnjYo6aup0wnt5KoheA%26_nc_ss=7a22e%26oh=00_AQKh73TcoajqiNlPf6cMy5V-rl9-qHp4RN5a9gj-PR79wQ%26oe=6AADB103%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C2o8A4Estvl.jpg",
     link: "https://www.instagram.com/cyrillignac/reel/C2o8A4Estvl/",
     linkType: "instagram",
     veggie: false,
@@ -12112,7 +12112,7 @@ const RECIPES = [
       { qty: "QS", name: "Huile d’olive", rayon: 'epicerie' },
       { qty: "QS", name: "Vinaigre de vin rouge", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -12125,7 +12125,7 @@ const RECIPES = [
     time: "15min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/504166445_1256029445885158_1726077690723123550_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=106%26ig_cache_key=MzI3Mjk1MDg1NzcyNzA2NTYxMw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjMxODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=K-hVu7Gj5pIQ7kNvwEoZwCW%26_nc_oc=AdqjnTap3a4hfOEN-Ns4Wuo2EEMRuIM8ZRWdqve7kXs2BL6nquWVV9E-zmRD51GfP8vL5sC40T6aUcW9nmtMjzwC%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=95GzJzeiHrZkn8DBOsFtKg%26_nc_ss=7a22e%26oh=00_AQJYiLWRKD22_xjAmbQ4M6wMGerug4WjC9P8d-fR8kCNAg%26oe=6AAD974D%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C1r23baIb4N.jpg",
     link: "https://www.instagram.com/les_recettes_de_margaux/reel/C1r23baIb4N/",
     linkType: "instagram",
     veggie: false,
@@ -12141,7 +12141,7 @@ const RECIPES = [
       { qty: "QS", name: "* 1 c. à c. de fécule de maïs", rayon: 'epicerie' },
       { qty: "QS", name: "* 15 cl d’eau", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -12154,7 +12154,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503288682_1263192035220471_5149789625222949874_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=110%26ig_cache_key=MzI3MjIzNjE3MTQ2MjMwMjc3Nw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExNTIuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=eFMT7RCKGMUQ7kNvwFIZACl%26_nc_oc=Adr4E7RGfQzzFnCs1jmfgkeD83yA9ELCZxOb6wT95_scvsM6XRdv8i8yKeuqyY9JNNxOf0QeRi4DvEuTXWTGTnRF%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=-LmBxmhlxfdJLoV1vk2_EQ%26_nc_ss=7a22e%26oh=00_AQLNixM3JAeUC9uadT9r126HahXnHzQwuDpOByDs-bpCmA%26oe=6AADA314%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C1pUXX9Mdw5.jpg",
     link: "https://www.instagram.com/cyrillignac/reel/C1pUXX9Mdw5/",
     linkType: "instagram",
     veggie: false,
@@ -12176,7 +12176,7 @@ const RECIPES = [
       { qty: "80 g", name: "de sucre glace", rayon: 'epicerie' },
       { qty: "12 g", name: "de fécule de maïs", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -12189,7 +12189,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/500961213_755905323645687_856872996927447161_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=101%26ig_cache_key=MzI2MzU0NzIyNjUxNjA3ODQ3Ng%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=GMwGYSonl_kQ7kNvwGZFuzF%26_nc_oc=AdpKFmxd4DOWGCDv43YUzzkjnMj94H47zwdQRVxMY30W09xK9Si7ASHzi8z28ex-paqmPLzFEu3wdBQWJvLFQqPl%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=jGsyp9zFN5gJgFgc0juFyA%26_nc_ss=7a22e%26oh=00_AQK4De_y2FX-S30oF8ipqe7Fvj8I13NtXGCK51B1L6QuPQ%26oe=6AADB663%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C1KculYM7-M.jpg",
     link: "https://www.instagram.com/cyrillignac/reel/C1KculYM7-M/",
     linkType: "instagram",
     veggie: false,
@@ -12211,7 +12211,7 @@ const RECIPES = [
       { qty: "10", name: "+ 30 g de beurre", rayon: 'epicerie' },
       { qty: "1", name: "cuil. à café de concentré de tomates", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -12224,7 +12224,7 @@ const RECIPES = [
     time: "1min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/495720427_1390247058975114_732574079418767284_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=104%26ig_cache_key=MzI2MDY1NjI1MTkwMDIzOTYzNQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=NUg81_Gi0jMQ7kNvwGuzYHM%26_nc_oc=AdqCjKgpcoh7ISrmvfNUY4qmCSVDKrWe9nYSRMY4y927c1vBklzyb-G7MT9nTbzd5KGBxGbqGGgV5WGTnOAgcdwB%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=IzKaN1G_k8yGqf4hgEqy4w%26_nc_ss=7a22e%26oh=00_AQI0ozGbMoLRlpmFECDt7yvPCoJrYQBqUBYaYd191GsHVg%26oe=6AADB4E0%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C1ALZXdK58T.jpg",
     link: "https://www.instagram.com/labande___/reel/C1ALZXdK58T/",
     linkType: "instagram",
     veggie: true,
@@ -12237,20 +12237,20 @@ const RECIPES = [
       { qty: "QS", name: "Incorporez cette préparation au chocolat fondu tiède.", rayon: 'epicerie' },
       { qty: "QS", name: "Réservez 1 nuit au réfrigérateur.", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
     id: "ma-pavlova-de-noel-C086nE",
     title: "MA PAVLOVA DE NOËL ️",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🍽️",
+    cat: "***",
     chef: "willyskitchen",
     chefName: "William  👨🏼‍🍳",
-    time: "40min",
+    time: "30min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503297129_1464830574872628_1944612010055251064_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=102%26ig_cache_key=MzI1OTczODAwMTUzOTkxMTY3Ng%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIyNjguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=B441olQju6YQ7kNvwEi2ZKR%26_nc_oc=AdqJ7uHLZiTuHakdj1VY0lRt_UZlxTx6PeFaQDGNRykLFbxcva79tVkNN85anjf04OjNSRe3lx55K9TLicB-a2rC%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=ojuoXaxyambdGFxNLti5Sw%26_nc_ss=7a22e%26oh=00_AQIHHhOoYA7ulo273p6PRWfja-JaLppAfW7WBy2zC9hg9Q%26oe=6AADB726%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C086nEKoM_8.jpg",
     link: "https://www.instagram.com/willyskitchen/reel/C086nEKoM_8/",
     linkType: "instagram",
     veggie: true,
@@ -12272,12 +12272,12 @@ const RECIPES = [
       { qty: "QS", name: "* 3 Anis étoilé", rayon: 'epicerie' },
       { qty: "QS", name: "* 6 Clous de girofle", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "6-blancs-dufs",
-    title: "6 blancs d’œufs",
+    id: "le-jus-dune-orange",
+    title: "Le jus d’une orange",
     emoji: "🥗",
     cat: "entree",
     chef: "camillechamignon",
@@ -12285,7 +12285,7 @@ const RECIPES = [
     time: "20min",
     serves: "8 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/501899870_1606887483601404_5119066940401302577_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=105%26ig_cache_key=MzIzOTY4ODc5MzMyMDMzOTA5Ng%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjMyNzguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=rJX-bhWLloAQ7kNvwF0IaqG%26_nc_oc=Adpk2ujvKx-j83QcWGgmQOim8vURj0DmwY17dx8JcQwIxLaYl8OGheBc-7Zh_1m9issJdMdHzIMfy8O34VztPnKE%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=pumWHNfS2eNLRvnOrs3NHw%26_nc_ss=7a22e%26oh=00_AQKW-D96OGUU0_W4iEh4gYizDv_iWvJdbA_qXHbl95G8lw%26oe=6AADB1CD%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/Cz1r8r8rDaY.jpg",
     link: "https://www.instagram.com/camillechamignon/reel/Cz1r8r8rDaY/",
     linkType: "instagram",
     veggie: true,
@@ -12293,7 +12293,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -12306,7 +12306,7 @@ const RECIPES = [
     time: "15min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/499516566_1023469236126061_3646363512225880748_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=103%26ig_cache_key=MzI1NTU3MjcwMDIzODg2MTkzNw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=L6ZOSBbsKREQ7kNvwEXocXN%26_nc_oc=AdpOhEPR7IO7I2kaBE3ndlX6Shb24KT7uvtlpIS7xKXfU87tKhub18SdvTCzgCvNl03O8k3H2TBCCLAQbmzxTwyQ%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=7vNElqPrbUmAlJIUNkAupg%26_nc_ss=7a22e%26oh=00_AQKR1xNdOhqeKSIjm9hvADNdLUCtrHmIFjySKU3Gad0hNQ%26oe=6AADADAC%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C0uHh9CMlZx.jpg",
     link: "https://www.instagram.com/cyrillignac/reel/C0uHh9CMlZx/",
     linkType: "instagram",
     veggie: false,
@@ -12321,7 +12321,7 @@ const RECIPES = [
       { qty: "1", name: "cuil. à soupe d’huile", rayon: 'epicerie' },
       { qty: "QS", name: "Sucre glace", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -12334,7 +12334,7 @@ const RECIPES = [
     time: "3min",
     serves: "4 pers.",
     difficulty: "Avancé",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/502348024_1481766066528834_2141807904461541801_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=103%26ig_cache_key=MzI0OTc5MDc4NTQwMTc2MzY1MA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=i6JFmgfctG4Q7kNvwEDjj-j%26_nc_oc=Adpr_S4K4yT_FvwhqLzgY2u3hddv5jpP0l0v-J6XVc5f1GA-hRg0Oa0bqWfQpN2Ir2KVXFpp4SNq8aCVUl4PU57Q%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=J_SFeZKAaE464wksCSqMmw%26_nc_ss=7a22e%26oh=00_AQIsIHc17S5evTZQiIP8GGLSu1mg_R63tIkX8TGCd-hKfw%26oe=6AADB7E6%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C0Zk4BONbdC.jpg",
     link: "https://www.instagram.com/750grammes/reel/C0Zk4BONbdC/",
     linkType: "instagram",
     veggie: true,
@@ -12356,7 +12356,7 @@ const RECIPES = [
       { qty: "50 g", name: "de beurre", rayon: 'epicerie' },
       { qty: "2", name: "jaunes d'œufs", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -12369,7 +12369,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503831854_1186946703205362_4368007213712664480_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=MzI1MjY3MTkxOTk4NjczNDYxMA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=rewE8R4Q238Q7kNvwEnKuW4%26_nc_oc=AdomXLdxik6HIkFH94B_MZ5IIqlloKsM3kSTcst1d6jY2mdOcpQpn8lwjECogqJRm2qoVZQQaOvazFGL0BjofjIS%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=lBONGHdfNqvXDe_AT4SEaw%26_nc_ss=7a22e%26oh=00_AQLk_tYbuKc-mIyz9Kni0sYfuhNCVU_RWaQe68qkAfD-Qw%26oe=6AAD9AF1%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C0jz-C5snYS.jpg",
     link: "https://www.instagram.com/cyrillignac/reel/C0jz-C5snYS/",
     linkType: "instagram",
     veggie: true,
@@ -12388,12 +12388,12 @@ const RECIPES = [
       { qty: "80 g", name: "de beurre demi-sel coupé en petits cubes", rayon: 'epicerie' },
       { qty: "20 cl", name: "de crème liquide", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "4-recettes-au-choix-dont-1-vegetarienne",
-    title: "4 recettes au choix (dont 1 végétarienne).",
+    id: "prix",
+    title: "PRIX :",
     emoji: "🍽️",
     cat: "plat",
     chef: "leparisdalexis",
@@ -12401,7 +12401,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/500771663_725504253250552_1933929514751239910_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=104%26ig_cache_key=MzI1MTIxMTczMTI4MjcwMzgxOA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyNTAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=LMkU4MDgPT0Q7kNvwHFTdcT%26_nc_oc=Adq61LOIlAp-1ARAoOEmxBbbjHdbGaoJeuP4LwAlhbelo0DwgJDdWQ-S0gvIYzVMA25WC8wEaO-wRNaxFr_ZUpfg%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=YTOvujQQMFQ6cMF9ynt5zA%26_nc_ss=7a22e%26oh=00_AQJAFjpzfnlJy7ksHJmzs3ch-ZyvuNR9uvK-vaeK_g-a0Q%26oe=6AADB780%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C0en9gMsDXK.jpg",
     link: "https://www.instagram.com/leparisdalexis/reel/C0en9gMsDXK/",
     linkType: "instagram",
     veggie: true,
@@ -12413,12 +12413,12 @@ const RECIPES = [
       { qty: "QS", name: "Desserts : 4,95€", rayon: 'epicerie' },
       { qty: "QS", name: "Boissons : 2€ à 7€", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "si-jamais-vous-voulez-une-recette-simple-et-rapide-Czosjs",
-    title: "Si jamais vous voulez une recette simple et rapide de sauce ",
+    id: "recette-de-brut-Czosjs",
+    title: "Recette de Brut.",
     emoji: "🫕",
     cat: "sauce",
     chef: "brutofficiel",
@@ -12426,7 +12426,7 @@ const RECIPES = [
     time: "15min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/499407550_1234140405072355_6497050029719588271_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=103%26ig_cache_key=MzIzNjAzMjI5OTM0NTY5NDYxMg%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=EyIzn-ScWU8Q7kNvwG5lwBb%26_nc_oc=AdpUGNSrxwmODG8WNTnsgtyZe80UOBgR_owEf7Uz2nUjA1Si991r5P-AYcxTRN3t7AOEr5kTEYkWkayEc41FKdPc%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=9ILISkHmyufgtXA122dmqA%26_nc_ss=7a22e%26oh=00_AQK4u6V8MeB8-M26KuzgtkURMyl6UFpBOK7oQXzO1L9zqQ%26oe=6AADA7CA%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/CzosjskMM-U.jpg",
     link: "https://www.instagram.com/brutofficiel/reel/CzosjskMM-U/",
     linkType: "instagram",
     veggie: true,
@@ -12434,7 +12434,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -12447,7 +12447,7 @@ const RECIPES = [
     time: "20min",
     serves: "2 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503302764_1242537294056751_8257069571345030283_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=103%26ig_cache_key=MzI0ODMyMDc5MjE5OTAzOTgzOA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=qwSdRG8nvkIQ7kNvwHchoRP%26_nc_oc=Adok8th2M_uMX4fN-oyjoeD37qUsdlBaLb6P6AEdOE1R-zR1Xbt_apwBSxNkPHOjHhx2QXl13VfiUyQQnbSV9Qsz%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=LpEjkiJnESmPtwJoKWTLEw%26_nc_ss=7a22e%26oh=00_AQKV4JJ6LsquozEkXhjfj27j47KPdBuLX1ACIFbeJhBsJA%26oe=6AAD9CCD%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C0UWozXigte.jpg",
     link: "https://www.instagram.com/pourdebon/reel/C0UWozXigte/",
     linkType: "instagram",
     veggie: false,
@@ -12463,7 +12463,7 @@ const RECIPES = [
       { qty: "1", name: "cuillère à soupe de farine", rayon: 'epicerie' },
       { qty: "QS", name: "Sel et poivre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -12476,7 +12476,7 @@ const RECIPES = [
     time: "10min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/500421548_1685169838768553_7579280471324397791_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzI0ODQxMzQxMDU3ODk3MjcxNw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwMTQuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=nUrttp4zu2sQ7kNvwHszTPq%26_nc_oc=AdoL_KOKF4s8GERHc-IVZgdArAFKGClGXirOWpAnk3lKiT5MhjyU3Ek5wG4gqsdtwS6CiwQBrQf-TwKnPq6i2PJ9%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=7d4Iq_pMRdjF7xh-k4cyrA%26_nc_ss=7a22e%26oh=00_AQLLk7uWBoAbrmRIVyWlmo2FMZLuqpM8er_PzNwjIsD0uw%26oe=6AADAE36%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C0Ursk9LMAt.jpg",
     link: "https://www.instagram.com/thesocialfood/reel/C0Ursk9LMAt/",
     linkType: "instagram",
     veggie: true,
@@ -12487,7 +12487,7 @@ const RECIPES = [
       { qty: "QS", name: "Les écorces de yuzu confits-", rayon: 'epicerie' },
       { qty: "QS", name: "La chantilly-", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -12500,7 +12500,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503316871_1926454698174679_3679770128657660057_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=102%26ig_cache_key=MzIzNTI3NjM3NzM0OTQzNzY2MQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIyNjguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=ZLzi3ghrX5wQ7kNvwGWs5e4%26_nc_oc=AdoDMREZuXiPr8YtVAqHaWs1pkKukl2KTOhdupidPx1iaEpQky3_Hjf79VD2q_YsNqk4Q67zIVR-e2TGdpkR7PG5%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=MkPsSXNY-ee0z4Dhzs9E5Q%26_nc_ss=7a22e%26oh=00_AQIpqsaown0e-W52HJHV8-fo2AUfJ-wTCBHX_izhGW9ogw%26oe=6AAD9BA9%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/CzmArlWIDjd.jpg",
     link: "https://www.instagram.com/qistoh_/reel/CzmArlWIDjd/",
     linkType: "instagram",
     veggie: true,
@@ -12508,7 +12508,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -12521,7 +12521,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/498718608_1729951427948465_7493872324809353254_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=110%26ig_cache_key=MzI0MzA1MDk2NDMzNTY5Njk4Nw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjU0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=cMXfelwtXHsQ7kNvwFC3Vu1%26_nc_oc=AdqZwO5LhWjaakK2Som3KxOoiydEikCyX8kjqeEfA4JhX9-QrpenQDwzUgnV-NaD-_dJCEAEhroCESXch1-DJuKo%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=mW_Ny__APoJywlMNpZmzXA%26_nc_ss=7a22e%26oh=00_AQKYXiC1b6Rgq-g2Xf-TxVBv-qDM2-jVTf0uqpMwe1xRmA%26oe=6AADB234%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C0Boattt5xb.jpg",
     link: "https://www.instagram.com/simonauscher/reel/C0Boattt5xb/",
     linkType: "instagram",
     veggie: true,
@@ -12529,7 +12529,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -12542,7 +12542,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503753464_684734941029030_7996456915570373352_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzI0NjE1MDQxMzcxODY4NjQ4OA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=jsXgEkVONMYQ7kNvwGDNlHv%26_nc_oc=Adqey2vLljLLiM-_VbBYiRZYdkWrmk_FP8gPEVvlhmMW1DnbwVMuK4cLrUnxR7QXBaIMkDEq4PbEKoCE0O9Zvd_1%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=2wrS0M-wJbgrXuUZAIKnZw%26_nc_ss=7a22e%26oh=00_AQIPhav3u-j6RzY7eVhpI5tiVJyCcFI77tQP2wiCMt5Gaw%26oe=6AADB672%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C0MpJo5MIsY.jpg",
     link: "https://www.instagram.com/cyrillignac/reel/C0MpJo5MIsY/",
     linkType: "instagram",
     veggie: false,
@@ -12563,7 +12563,7 @@ const RECIPES = [
       { qty: "100 g", name: "de beurre de Bresse AOP froid coupés en cubes", rayon: 'epicerie' },
       { qty: "5 cl", name: "de crème de Bresse AOP semi-épaisse", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -12576,7 +12576,7 @@ const RECIPES = [
     time: "20min",
     serves: "6 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/504509803_774161525120308_2222704468284014494_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzI0NTQxNjE2Njk3MjQwMDc0Nw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=ZRugAd6-WG8Q7kNvwGNnUUJ%26_nc_oc=AdoawDJt_CYz9jVzB5LnR2ynzxuPuH1rc8fL-nRlZ0y-cR93c3t7mFT2SJ7AQJy-1nXnyBnHsiWuF6htXNRYuKhP%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=M0uSHm5JcX3uuq-zeOn3CQ%26_nc_ss=7a22e%26oh=00_AQLUEso7SrKUhH0fKeHX8FXs-lHMcLqrfnZLZq6Sjm5G0w%26oe=6AADC9DF%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C0KCM8UsyRr.jpg",
     link: "https://www.instagram.com/cyrillignac/reel/C0KCM8UsyRr/",
     linkType: "instagram",
     veggie: true,
@@ -12593,12 +12593,12 @@ const RECIPES = [
       { qty: "2", name: "œufs", rayon: 'epicerie' },
       { qty: "QS", name: "Le jus et les zestes d’1/2 citron jaune", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "la-recette-de-la-terrine-de-saumon-pour-noel-de-ch",
-    title: "La recette de la Terrine de Saumon pour Noël de Chef Philipp",
+    id: "recette-de-meilleur-du-chef",
+    title: "Recette de Meilleur du Chef",
     emoji: "🐟",
     cat: "poisson",
     chef: "meilleurduchef",
@@ -12606,7 +12606,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/500148769_1618249342200680_1151223253149888798_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=111%26ig_cache_key=MzI0MzE2NDE0NTYxNDQzNDgzNQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=_QkyagePUtAQ7kNvwG2P6L3%26_nc_oc=AdqutvamV5rInvu_do5H6wAmHlPrONw7ZkPnOlLar02bY1zFDnCrqDEpKRsZbSaWrmqkXVqGhmVZ-jNyiac41xzS%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=8QbTLiXSdAoAlB3Wrt6TwA%26_nc_ss=7a22e%26oh=00_AQKEexNRf9ISnrLNlVWWA882xwEC7gW7k4bBhAZYH2QQBQ%26oe=6AADA354%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C0CCJt_obIT.jpg",
     link: "https://www.instagram.com/meilleurduchef/reel/C0CCJt_obIT/",
     linkType: "instagram",
     veggie: false,
@@ -12614,7 +12614,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -12627,7 +12627,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/496279117_1473145517200241_1242306675500548810_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzI0MzI0MzEwMjExMjM1ODIyNw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=srbOD3WiwQ8Q7kNvwHKeyeY%26_nc_oc=Adqp0HqY8VKJqQTYi_ZJt7sj5IOIpnTF43oIo1LMPJWteMvKICGN-VH8E6aR8MkXpmjLI2jYkCL639qy3mPvcB0P%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=6n2FIgIFwNJfDNNHHVKxAw%26_nc_ss=7a22e%26oh=00_AQJdE99TcIC5MAENs-sz5YKB1eY0xO6o8SKZ3AjYBG3-Qg%26oe=6AAD958A%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/C0CUGr9pJ9T.jpg",
     link: "https://www.instagram.com/cyrillignac/reel/C0CUGr9pJ9T/",
     linkType: "instagram",
     veggie: false,
@@ -12647,7 +12647,7 @@ const RECIPES = [
       { qty: "QS", name: "Sel fin et poivre du moulin", rayon: 'epicerie' },
       { qty: "QS", name: "Piment d’Espelette", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -12660,7 +12660,7 @@ const RECIPES = [
     time: "15min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/504492874_745199007926284_5634446171786507968_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=104%26ig_cache_key=MzIzNTI3MjAxODAwODAxNjYyMQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=xUVqI9u3URkQ7kNvwHuFYCH%26_nc_oc=AdrpAmvnNYzPdtwJCfBtHNx8r3v5We-xDrAz6ljeBh2-bzCCsdrLSCiLuRPCJka3QGDvD6zzfLXgc-hVR75n3KkZ%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=FwOfmsYFgk3kLIaHjk7c1A%26_nc_ss=7a22e%26oh=00_AQJTvw96CHpQQeUNiGwpkQTlAmlWXGPxq2r9ssjfngcb_Q%26oe=6AADB14C%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/Czl_sJZIQbt.jpg",
     link: "https://www.instagram.com/cyrillignac/reel/Czl_sJZIQbt/",
     linkType: "instagram",
     veggie: false,
@@ -12680,12 +12680,12 @@ const RECIPES = [
       { qty: "QS", name: "Fleur de sel et piment d’Espelette", rayon: 'epicerie' },
       { qty: "QS", name: "Paprika fumé", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "recette-CzgRTh",
-    title: "- RECETTE -",
+    id: "on-enrobe-le-tout-avec-la-sauce-puis-on-y-ajoute-l",
+    title: "On enrobe le tout avec la sauce, puis on y ajoute les lentil",
     emoji: "🥗",
     cat: "entree",
     chef: "angeleferreuxmaeght",
@@ -12693,7 +12693,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503607519_968594328530523_8131479174640231334_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=MzIzMzY2MDY0MDkyNzE4OTE0MQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExNTQuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=wGDYJ4iHKkMQ7kNvwFsmlam%26_nc_oc=AdpMLbJrsu7vico_ty5lyhPJux5WwaaRNWrMbssseAJSWhBHWqUFDFQTEp_lzxJq5U5R2xs1gF7rZLSYfSBOWp9u%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=tQdhTjBnwonhmTrVPeNR6Q%26_nc_ss=7a22e%26oh=00_AQILZ2Sw9x8i-DSQYcYVfNKjITy46CK0DGO1iwpuXrfD1Q%26oe=6AADBA1E%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/CzgRThioIiV.jpg",
     link: "https://www.instagram.com/angeleferreuxmaeght/reel/CzgRThioIiV/",
     linkType: "instagram",
     veggie: true,
@@ -12715,12 +12715,12 @@ const RECIPES = [
       { qty: "1/2", name: "citron pressé", rayon: 'epicerie' },
       { qty: "QS", name: "Poivre du moulin", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "4-plaques-de-ravioles-du-dauphine",
-    title: "– 4 plaques de ravioles du Dauphiné",
+    id: "gratin-de-ravioles-au-poireau",
+    title: "[ GRATIN DE RAVIOLES AU POIREAU ]",
     emoji: "🍰",
     cat: "dessert",
     chef: "sandrabssi",
@@ -12728,7 +12728,7 @@ const RECIPES = [
     time: "5min",
     serves: "3 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/495196295_1406885367182739_8540846066275213161_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=102%26ig_cache_key=MzIyOTI5NDcwOTM2NDAyMjA3OA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjMzMDYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=LWv85clxjicQ7kNvwHRzijz%26_nc_oc=Adr5lcgJCk93OSSzW1sVcTceL5PbD5l85GqmEfKahTgD8sASuB0rNqR1OR8lIbLYLIUu_kurdSYmgXKQwfG8JhFm%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=T4n6SnT0x3eWRCxX8yBWjQ%26_nc_ss=7a22e%26oh=00_AQIW6WX__88WJWsi0JugjzvfDA9UFytTh8fQ-5ye1Zyuig%26oe=6AADB2A8%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/CzQwm26sNs-.jpg",
     link: "https://www.instagram.com/sandrabssi/reel/CzQwm26sNs-/",
     linkType: "instagram",
     veggie: true,
@@ -12744,7 +12744,7 @@ const RECIPES = [
       { qty: "QS", name: "– Sel, poivre", rayon: 'epicerie' },
       { qty: "QS", name: "– Huile d’olive", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -12757,7 +12757,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503818587_2194340777740856_5620896052125605232_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=101%26ig_cache_key=MzIyOTU2MTkxOTM4NzA2NjgxMg%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExNTIuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=gxSWdXS9ulUQ7kNvwHpN2Hp%26_nc_oc=AdqSfT_7AKkxLRLA2yp2UHhDZ5qrim_yrmuC_jKM8xQvNkLkxEqYC-a1mx3LEvaUxLODbqMVp0xwgNLmAY6hLIKP%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=ks97ICLQdYasQCE492VxcA%26_nc_ss=7a22e%26oh=00_AQKstbI39jWeYeEjH1A5hyXvROqlSPwt-HY_As3LFIAPxA%26oe=6AADBDE2%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/CzRtXRpMeG8.jpg",
     link: "https://www.instagram.com/elenaola_/reel/CzRtXRpMeG8/",
     linkType: "instagram",
     veggie: true,
@@ -12773,7 +12773,7 @@ const RECIPES = [
       { qty: "QS", name: "360gr de beurre", rayon: 'epicerie' },
       { qty: "QS", name: "50gr de sucre roux", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -12786,7 +12786,7 @@ const RECIPES = [
     time: "20min",
     serves: "7 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503349618_711867324720309_1588035093101167033_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzIyOTQ2MDMyNjYxNTUwNzY4Nw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=akgTCMHVCWQQ7kNvwG8bsS3%26_nc_oc=AdpaHvBeypZrZNUhJMahHNF7NjmxJvYtelvb1mg3P3136jgDhtQj68FcIUZU_lJoGNl9krqvm9c_ZtGwOFq974dg%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=4lFkptbkeBPwiwVI3SlWjA%26_nc_ss=7a22e%26oh=00_AQIEYKvTixqg6TBmQ42XKzt4yhsqtXar4ol9IVTfSGmL_A%26oe=6AADB35E%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/CzRWQ6AImLn.jpg",
     link: "https://www.instagram.com/lacuisinedebibou/reel/CzRWQ6AImLn/",
     linkType: "instagram",
     veggie: true,
@@ -12794,7 +12794,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -12807,7 +12807,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/502752404_650833417956501_2117151511819165371_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzIyMzQzNzc4NzI4NTEwMTI3Mw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=s5Vv1dbyN4cQ7kNvwHgRx54%26_nc_oc=Adp33KP1qwMBXxKsDDOvV4jRwkY8xVosnoSPg9Jsbl0soRUJ2ADXt5z4yIBrzioRv5Fb6a80mXNiHMqdXDrPsXG6%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=ORS23ztM5a8B2hnNeXxbtw%26_nc_ss=7a22e%26oh=00_AQL6oEvEzicFPbYRpeF4w4fr-ADzl5NfEom7yV8AqDNIVA%26oe=6AADB201%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/Cy785bKsxrZ.jpg",
     link: "https://www.instagram.com/cyrillignac/reel/Cy785bKsxrZ/",
     linkType: "instagram",
     veggie: false,
@@ -12829,7 +12829,7 @@ const RECIPES = [
       { qty: "QS", name: "Huile neutre", rayon: 'epicerie' },
       { qty: "QS", name: "Poivre du moulin", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -12842,7 +12842,7 @@ const RECIPES = [
     time: "25min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503187965_1121607393062980_5448623703773486973_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=106%26ig_cache_key=MzIxNjIzMjQzMDczNjk3MDQzNA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyNDIuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=CJR9ZK_OloUQ7kNvwEAt9G-%26_nc_oc=AdqIsMDjRGbwv-Sb_RKkTK3_HOT3TMwHLsyCJ1k7sGDMXmtKqa4VpSL3iYpfJTroFnvoyc6T65d0opUjGRG3znx_%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=OURAP_FilPbQfAweU-wpvQ%26_nc_ss=7a22e%26oh=00_AQJSWpTL3RhPspM0LkG44_kSiHoymGX9riDo7xr-JynEPQ%26oe=6AADB931%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/CyiWlr9KxLC.jpg",
     link: "https://www.instagram.com/m6officiel/reel/CyiWlr9KxLC/",
     linkType: "instagram",
     veggie: true,
@@ -12859,7 +12859,7 @@ const RECIPES = [
       { qty: "1", name: "citron jaune", rayon: 'epicerie' },
       { qty: "QS", name: "Huile d’olive", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -12872,7 +12872,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/502249061_630077660056493_7201071165619458020_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=102%26ig_cache_key=MzIxNTc2NjI4NTI3NzkwMTQwNA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyNDIuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=jUERVpxmdJwQ7kNvwEof5LQ%26_nc_oc=Adp4pOqxgKe1m0d4Rn41VkRMVD41gHbOUs36Srd5AjoydXCJEcaBq45ZFiGi3XEVJgYVHJ4AAsBqaHevaQCz5VpA%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=hAjUjukex7lgXhC-CBIpww%26_nc_ss=7a22e%26oh=00_AQJbrGElDVzW8tTBUW_SXpGJcdXpeln2P9vNoyZtWgibdg%26oe=6AADB117%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/CygsmYKqrJc.jpg",
     link: "https://www.instagram.com/m6officiel/reel/CygsmYKqrJc/",
     linkType: "instagram",
     veggie: true,
@@ -12894,12 +12894,12 @@ const RECIPES = [
       { qty: "50 g", name: "de feuilles de coriandre, persil, menthe", rayon: 'epicerie' },
       { qty: "100 g", name: "d’eau", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "yotam-ottolenghi-est-une-star-planetaire-de-la-cui",
-    title: "Yotam Ottolenghi est une star planétaire de la cuisine. Qui ",
+    id: "recette-de-france-inter-CyalLQ",
+    title: "Recette de France Inter",
     emoji: "🍽️",
     cat: "plat",
     chef: "franceinter",
@@ -12907,7 +12907,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503753676_1763559444535025_6348976929360158128_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=MzIxNDA0NDc4NTU2MzE0OTcyNw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjkwMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=4oduN816cPYQ7kNvwGzo-nr%26_nc_oc=AdrIxfkZDcWlgJR9OxA_ZOmMJKIv-hA7TW6z97U24ogxB9o1xF5MVcjhz0cPWUNVS7wAr_s_g-dfSb0oxT3qu3Fd%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=pv6ZPulpt_XcjnhlQvCpzw%26_nc_ss=7a22e%26oh=00_AQKFYAr8TJmAZDzdfNQD5YZIFpkM8ikjFcv9Y8K1xj-Qag%26oe=6AADC1A2%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/CyalLQnsCWf.jpg",
     link: "https://www.instagram.com/franceinter/reel/CyalLQnsCWf/",
     linkType: "instagram",
     veggie: true,
@@ -12915,7 +12915,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -12928,7 +12928,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/502984875_672821702179942_2456783067613496124_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=102%26ig_cache_key=MzIxMDU3NzMzNDM0NzM2NjM0MQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjE4MDAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=JIm3tOX8_AcQ7kNvwH2dN6H%26_nc_oc=AdpFLwFA0HjCVSF2BxnHcRg6LvQgE8x2_ChT75iQi3XmzUYt-XemwG0j2Uhtm_eF1boiyEW7Z-AZeWjFjkgb48NO%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=qq_cl-a7zDpUJhvt07zTyQ%26_nc_ss=7a22e%26oh=00_AQK95-UP6qmeaAsLrFsSksu9SAlzc73LyRp7zcDZG--GkQ%26oe=6AADA052%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/CyOQxNBsf_F.jpg",
     link: "https://www.instagram.com/thecheftomy/reel/CyOQxNBsf_F/",
     linkType: "instagram",
     veggie: true,
@@ -12939,7 +12939,7 @@ const RECIPES = [
       { qty: "250ml", name: "d’eau pour le mixage", rayon: 'epicerie' },
       { qty: "QS", name: "Épices au choix", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -12952,7 +12952,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503147864_1356264275597438_1076056016654189123_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzIwNzcwNjg5NzE2NTY2ODM2Mg%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIxNDIuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=U02nLTKPBXQQ7kNvwG9ePrz%26_nc_oc=AdpCyLVYN_i3KbkZaFpkaPaEqWdGz5QtVhUfnSf8eV7SfJ4SIkiD-7J7kjvYo-fBRwDJap1LZXHWrxyLgNg4FogI%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=tjuL4rIHLUY6XxL9xssdzA%26_nc_ss=7a22e%26oh=00_AQJvMTP9jParDAXg46TqtKuT_4rUhcvzkzoIGXx8XFgk2w%26oe=6AADC2F7%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/CyEEG2FIVAK.jpg",
     link: "https://www.instagram.com/debo_gateaux/reel/CyEEG2FIVAK/",
     linkType: "instagram",
     veggie: true,
@@ -12968,7 +12968,7 @@ const RECIPES = [
       { qty: "QS", name: "miel liquide", rayon: 'epicerie' },
       { qty: "QS", name: "Pistaches concassées (ou amandes)", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -12981,7 +12981,7 @@ const RECIPES = [
     time: "25min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/499297352_580667471270020_9163524291026565448_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=102%26ig_cache_key=MzIwODkyNTcyOTE3Njc2MzUxMA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIyNjguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=TVNacEpYvWAQ7kNvwHCHas4%26_nc_oc=AdqdewA-_wDgZshLA5KnjrfZHAcgopL3WkuQvX50IdvJHzCAnNFn68slffxYLmxNhaevjRcpQk_mRtHJZd1m8Zo0%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=nsyWp-nRVzW424_Xne2O-g%26_nc_ss=7a22e%26oh=00_AQI7Cv6AHeiGer_O3VpEb0yuqYETWZ4YE01ttNolCEIOdQ%26oe=6AADACD3%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/CyIZPL2MTx2.jpg",
     link: "https://www.instagram.com/charlie.ma.vie/reel/CyIZPL2MTx2/",
     linkType: "instagram",
     veggie: true,
@@ -12989,7 +12989,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -13002,7 +13002,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/501799583_1380152563315435_337213703955233466_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=105%26ig_cache_key=MzIwOTE1Mjc5NzYwNDUzNzQ2NA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyNDIuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=BVnU4hceRDcQ7kNvwEwb38-%26_nc_oc=Adp7hAugWgMHeugIbPauolfRShXXDgxTNUTnBZGjI_2tOJcz_ndb44asOdRzuXj_-Q4GsYysAUPjIqrTFRNouxau%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=Xdn8axRQ8mK7QM17x6Ot5Q%26_nc_ss=7a22e%26oh=00_AQIda7P_MxueqeC9y-XourcYlqX6A98eCE9QD9HLJ_Mm9w%26oe=6AADC30F%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/CyJM3dzK2R4.jpg",
     link: "https://www.instagram.com/m6officiel/reel/CyJM3dzK2R4/",
     linkType: "instagram",
     veggie: false,
@@ -13024,7 +13024,7 @@ const RECIPES = [
       { qty: "20 g", name: "de beurre", rayon: 'epicerie' },
       { qty: "QS", name: "Huile d’olive", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -13037,7 +13037,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/500565600_734776749209711_5459593784819451080_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzIwODE2ODczODAwMjYyOTE1MA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExNjIuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=J_bfJY1s0GIQ7kNvwHA-gy7%26_nc_oc=AdoSsarLpxgsYAoNas6XaywJeRNQzazRM2sfhnEc2d0jV4-TbAOwKp05FmBtUKb03lTlCaOdjOndc31pi3XGSbE7%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=FHYi2IhYN4TsSlNVLXRAyQ%26_nc_ss=7a22e%26oh=00_AQLDPFFmZE35JbfJQHCA_9eNTUT1Ub94ZJCWnJLQbNzicg%26oe=6AAD98E6%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/CyFtHg4KPIe.jpg",
     link: "https://www.instagram.com/labande___/reel/CyFtHg4KPIe/",
     linkType: "instagram",
     veggie: true,
@@ -13047,7 +13047,7 @@ const RECIPES = [
       { qty: "QS", name: "Versez dans un moule beurré et enfournez, en baissant la tem", rayon: 'epicerie' },
       { qty: "QS", name: "Faites cuire 20 min et attendez 15 min avant de démouler (ou", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -13060,7 +13060,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503656266_1630087674376207_5583321087900928159_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=MzIwNzAyNjY2NDI5NzE4ODI0Mg%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=yTeDj_pqmMIQ7kNvwGUloYV%26_nc_oc=AdpR7iCmXa9yn0gvQ0KT09YHVvs1hwPH2CzMDzcAAb-jJfzCiHVThpCeWlDOg9R3m1YXHmJpy-lh15Xiqtgk-Q4c%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=uZLG6xQogl6Q_xZkgsXoTw%26_nc_ss=7a22e%26oh=00_AQKuBGH2A0K2w9h2sIRQeqT1gk24aZemAjmOeiSoHsr3Fg%26oe=6AADA4FB%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/CyBpcJ2o8uS.jpg",
     link: "https://www.instagram.com/diegoalary/reel/CyBpcJ2o8uS/",
     linkType: "instagram",
     veggie: true,
@@ -13068,7 +13068,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -13081,7 +13081,7 @@ const RECIPES = [
     time: "35min",
     serves: "3 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/499973691_1137310455098774_8225468761618801830_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzIwNjA1MzAwODM4MjI3ODM5NQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIxNzguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=2XvP8WWPoCUQ7kNvwE_mxzc%26_nc_oc=AdqLP8QEGyluQmiAoBKutAIEagrSUwmAeJMtLbj21zDeTkf-151F30cwXlWviH6Tadcfjq5vGNr37EuZhIOrNtCI%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=iqjZbZ_bP5sgJTe45W_3_g%26_nc_ss=7a22e%26oh=00_AQInJdCVVEBONawKpqJ9Obzgcd-cI2CFSKl7IDutYAlIFQ%26oe=6AAD9C59%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/Cx-MDmHsrr7.jpg",
     link: "https://www.instagram.com/charlie.ma.vie/reel/Cx-MDmHsrr7/",
     linkType: "instagram",
     veggie: false,
@@ -13089,7 +13089,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -13102,7 +13102,7 @@ const RECIPES = [
     time: "25min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/501957395_663016756553235_6514323594668625213_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=MzIwNTU3MjEwMDA5NjE1MDA3Ng%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=nwW89rDahzAQ7kNvwGdqQzn%26_nc_oc=AdqqUDxetGvsgVyM5ivougWF-BjL2EdfdS2256oYHw37T1rGi_3YGFEPDoghq8QjO_D2xIFTI_vSNlNX9kRGf3mM%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=BpPztdF-n4eh9E_JfOy90w%26_nc_ss=7a22e%26oh=00_AQJ2LjgudAvptgkrCsSAVTIKI-gZbxG4CRPIgiNxE5q0WA%26oe=6AAD9E2E%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/Cx8etdYIko8.jpg",
     link: "https://www.instagram.com/diegoalary/reel/Cx8etdYIko8/",
     linkType: "instagram",
     veggie: true,
@@ -13110,7 +13110,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -13123,7 +13123,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/498021420_1254225516328057_7944610663164603912_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=106%26ig_cache_key=MzIwMjUwMzI2OTU2OTEwMjYzOQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjE4MDAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=1ABLfSxtyi8Q7kNvwFKgjwk%26_nc_oc=AdpXDrCJU1u6CDGaIQU_YaSrh-7BlinyGx1TL9HqJUfT3VoTcDI8w0oOTE2UR1Ld4FikioJ2CtHzZlMLeRLlwLjz%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=oxY75enOksllWQNpqUDnIw%26_nc_ss=7a22e%26oh=00_AQKZeSiFP6J_zQ9aK-nKKnd4UxUbgfHXwfMmz6qw7LDZ6A%26oe=6AADA078%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/Cxxk8GOsYMv.jpg",
     link: "https://www.instagram.com/thecheftomy/reel/Cxxk8GOsYMv/",
     linkType: "instagram",
     veggie: true,
@@ -13145,7 +13145,7 @@ const RECIPES = [
       { qty: "1", name: "courgette", rayon: 'epicerie' },
       { qty: "1", name: "grande carotte", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -13158,7 +13158,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503747405_654470781085907_4477591782942349294_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=MzE5OTc0NzQwNTA1Mjk2NDg4NA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=8gecWir02zQQ7kNvwFe6gUx%26_nc_oc=AdqO-rjJIrxTbNm5ttf0goj58TJLF9kaM1GAfuFBTVvb8kKjAdkazhcuRmCkfOLEd2aQtGtY2jxiOEE_pSi0nOK_%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=yqX3yUDv9qkJrBdhtqFgEw%26_nc_ss=7a22e%26oh=00_AQLRCs4LN8s3RIBNCi9zgguUBOdj7j-8Jst0hzMF2f81LA%26oe=6AADB46A%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/CxnyU_ZKPAU.jpg",
     link: "https://www.instagram.com/m6officiel/reel/CxnyU_ZKPAU/",
     linkType: "instagram",
     veggie: false,
@@ -13180,7 +13180,7 @@ const RECIPES = [
       { qty: "QS", name: "Huile d’olive", rayon: 'epicerie' },
       { qty: "QS", name: "Vinaigre de vin rouge", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -13193,7 +13193,7 @@ const RECIPES = [
     time: "2min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/502247821_737187331976305_4623897182744951299_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=MzE5NzU1MTk2NTYyMDA1NjA5Mg%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyNjguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=1rb6UPcLlaEQ7kNvwHHuEV7%26_nc_oc=AdoNC6Wze9xCpt2pxQMkg2aRZWvBVEKhuAgDU294R2013T2kJ0fZYr8eqWXCDzDit8NQ11q1-s146p1MTUY9UnMy%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=qiYyX-DVNwy6ifT0xwWtkw%26_nc_ss=7a22e%26oh=00_AQIO1PQuILsmAjeGNJ8bYK5jztvXjzGky8gp6X_UdwNmzA%26oe=6AADB949%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/Cxf_JJForAc.jpg",
     link: "https://www.instagram.com/frgaudry/reel/Cxf_JJForAc/",
     linkType: "instagram",
     veggie: false,
@@ -13208,7 +13208,7 @@ const RECIPES = [
       { qty: "QS", name: "Noix de muscade râpée", rayon: 'epicerie' },
       { qty: "QS", name: "Sel et poivre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -13221,7 +13221,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503329263_1774326886511838_5036368576284080509_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=MzE5NDY3NjcyNTAzMDgzMTIzMA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjU0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=mSKB8R9LpvsQ7kNvwHBhYuY%26_nc_oc=AdoERhGviBjk5BAIdw4KdGcHuKXgKNFEuTKTmPx6sE3D-NvkZcJaK9rAkwcxuuzMu4qscRS8_HCZhQzpvh4zioEZ%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=UVO8bXJklO32-5aJY1VXfg%26_nc_ss=7a22e%26oh=00_AQL58uuZ27jS5ze7ZWoiT_VCNrceEf42xL5ZU8Z2OPtHYw%26oe=6AADC3F1%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/CxVxY4nq8R-.jpg",
     link: "https://www.instagram.com/m6officiel/reel/CxVxY4nq8R-/",
     linkType: "instagram",
     veggie: false,
@@ -13243,7 +13243,7 @@ const RECIPES = [
       { qty: "QS", name: "Huile neutre", rayon: 'epicerie' },
       { qty: "QS", name: "Sel fin et poivre du moulin", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -13256,7 +13256,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/491430347_1397306671459846_4585677969261882665_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=MzE4OTU5NzkxODg5NjY4OTI1Mg%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjgyOC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=0TyJoQrgf6MQ7kNvwEyxX67%26_nc_oc=AdpuaYl74q1sis93D9aVLBrOc8Ta4wh-1LH5aZhhR0aBSdBhG9iKpJMi12X35eR977fxyxN46vKsPMKghn6P6v7G%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=kEvGsgbRsPizn1K8ydwUpg%26_nc_ss=7a22e%26oh=00_AQJW6CIpqg_mCsjKF6ty-ZCY_jPh6kzjcmgyz3AueW2LhQ%26oe=6AAD9870%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/CxDumh0KZBk.jpg",
     link: "https://www.instagram.com/m6officiel/reel/CxDumh0KZBk/",
     linkType: "instagram",
     veggie: false,
@@ -13264,12 +13264,12 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "francoisregis-gaudry-partage-la-recette-de-lun-de-",
-    title: "François-Régis Gaudry partage la recette de l'un de ses dess",
+    id: "recette-de-france-inter-Cwr3ED",
+    title: "Recette de France Inter",
     emoji: "🍽️",
     cat: "plat",
     chef: "franceinter",
@@ -13277,7 +13277,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/496849416_1240910967821577_1582113223293154112_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=102%26ig_cache_key=MzE4Mjg3OTczMjc1NDU1MjE2Mg%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=iiSNVX_I3MUQ7kNvwHWVYgR%26_nc_oc=Adr7ZbC_DI2G020DpmUH60PkG59cvy-mtPuYPh8XJeckDatCItqJVVOY8t1E0XgM2i6bJtvw8ldgwCqhaZxRdyTV%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=77KiWbpN2blZLZ2FosUrIA%26_nc_ss=7a22e%26oh=00_AQJxL98bsVdAr_8FsPtV_L6PTjwM9t-mblgncMBUX5FcTA%26oe=6AADC804%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/Cwr3EDZoBVi.jpg",
     link: "https://www.instagram.com/franceinter/reel/Cwr3EDZoBVi/",
     linkType: "instagram",
     veggie: true,
@@ -13285,7 +13285,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -13298,7 +13298,7 @@ const RECIPES = [
     time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/499625339_980736167248355_589565213059061753_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=109%26ig_cache_key=MzE2NjQwMTA2ODIxMjM1MjkyMg%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIyNjguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=0ig_1WXw5QcQ7kNvwHf7pcz%26_nc_oc=AdoCISkT51waI7YJMR2REZzwi2uv0kTDEzNaTuga0yZQguAQKS8tu6xuLZVHHVULJonHByEvhQ4SB0t0W2yECVXS%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=YirHujVFyduVZQCqNjG7kg%26_nc_ss=7a22e%26oh=00_AQI6esq27s7S6xGp5tFlfr46dHRxrj4phDsrqaAcduOoaw%26oe=6AADB104%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/CvxUP7HNvea.jpg",
     link: "https://www.instagram.com/juanarbelaezchef/reel/CvxUP7HNvea/",
     linkType: "instagram",
     veggie: false,
@@ -13306,12 +13306,12 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "ma-fregola",
-    title: "- Ma fregola",
+    id: "et-voila-le-tour-est-joue-et-on-se-sent-deja-en-va",
+    title: "Et voilà, le tour est joué et on se sent déjà en vacances !",
     emoji: "🍝",
     cat: "pates",
     chef: "luanabelmondo.officiel",
@@ -13319,7 +13319,7 @@ const RECIPES = [
     time: "10min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/504289673_4125642771014051_5209143209583770285_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=103%26ig_cache_key=MzE2NTc2OTAwNTU5OTY2MjIzNA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=UCJTsttJxdQQ7kNvwHcgDqm%26_nc_oc=AdoXTlgcQf90B2mp6xgiEJfI9_a-DzBHeLqNj4pHPhAYxfxOWzu_KUUjyK2q8LW8Hk_m0hCqIBilVkJo6GUCuyw7%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=MBWaGZr4qy-sEOtQxCJ2Lw%26_nc_ss=7a22e%26oh=00_AQIMAHpWpGtpXGPzhDevYu0dTtUj7jeDyuwIsnA4WKyFJw%26oe=6AADB7D4%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/CvvEiM7taCa.jpg",
     link: "https://www.instagram.com/luanabelmondo.officiel/reel/CvvEiM7taCa/",
     linkType: "instagram",
     veggie: false,
@@ -13331,7 +13331,7 @@ const RECIPES = [
       { qty: "QS", name: "Des tomates cerises (rouges et jaunes pour encore plus de co", rayon: 'epicerie' },
       { qty: "QS", name: "Des olives", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -13344,7 +13344,7 @@ const RECIPES = [
     time: "4min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/501363518_1687280541924312_244131910703915204_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=111%26ig_cache_key=MzE1NTQ4NjYzOTQwMzM4NTUzMA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjI3NDAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=yZ7Z5Lc8xEAQ7kNvwELRRIP%26_nc_oc=Adpp5yv_MiNjschtRXbJRkiVrvNhyFX-CQW0ENWTLc4YdOiwCL9sZDudKb7U6eisOaPrUzyzFz-xJ71HVSiB26ED%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=-RDg5ujWiwxYfUz6j33fDw%26_nc_ss=7a22e%26oh=00_AQJPq9HG4uVmcVJAkAiKPijfhTOD0qlZKUsKBxNF4275_Q%26oe=6AADA50B%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/CvKimFLIUK6.jpg",
     link: "https://www.instagram.com/les_recettes_de_margaux/reel/CvKimFLIUK6/",
     linkType: "instagram",
     veggie: false,
@@ -13366,7 +13366,7 @@ const RECIPES = [
       { qty: "QS", name: "Préparez la découpe des crudités.", rayon: 'epicerie' },
       { qty: "QS", name: "Décortiquez les crevettes et coupez les en deux.", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -13379,7 +13379,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/491424188_1358579912043725_1395189190563962662_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=MzE0Nzk4OTMyNTM1NzgyNzY5MA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=tHGUcMA50iEQ7kNvwH90_7x%26_nc_oc=AdqCkpKbbLhsw6qVmB067KbV42NR4Ihuxg_C12IfTn1IPZd6R0y9jsC3g7bGQifksOsx8O9C5DkwogFLc2wyw8yQ%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=WnecaxTLXAQzBAsezo7SAg%26_nc_ss=7a22e%26oh=00_AQKPGhRL1NUac_6z0dH3OAJKAiB1oINOMjMHlvBIhxPS-g%26oe=6AAD9301%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/Cuv55zWrMZq.jpg",
     link: "https://www.instagram.com/hervecuisine/reel/Cuv55zWrMZq/",
     linkType: "instagram",
     veggie: true,
@@ -13394,7 +13394,7 @@ const RECIPES = [
       { qty: "30 g", name: "de beurre", rayon: 'epicerie' },
       { qty: "1", name: "cuillère à soupe de rhum facultatif", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -13407,7 +13407,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/498159841_1013038257646660_113046286740744493_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=MzE1NDYwODIwMzEyMjExNTc2Mw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=W7ro2xh0fwsQ7kNvwHTI5TM%26_nc_oc=AdpQrhb2F8L468RhWVfI9nTOh_N37C57juPvK8qXCi6qaZJ-bZ9b3hQJRHmSdUExAmoJQO80H8l3rmYk9jmXzAbz%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=sfchm0czma8DE8mZezLoPw%26_nc_ss=7a22e%26oh=00_AQK6wE-WVKbkHgxy4989ZOitJUEVZFq6lC5MXUgwhNx9NA%26oe=6AADC6EF%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/CvHa3JooISz.jpg",
     link: "https://www.instagram.com/julieandrieu.officiel/reel/CvHa3JooISz/",
     linkType: "instagram",
     veggie: true,
@@ -13415,7 +13415,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -13428,7 +13428,7 @@ const RECIPES = [
     time: "40min",
     serves: "3 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/502510004_886379846985153_6183140383860189331_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=111%26ig_cache_key=MzE0OTA0MDAxNjA2NzY1Mzg4Mw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExNTQuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=G2jOdbYluQ0Q7kNvwEUK6BV%26_nc_oc=Adq8Vt6QxX8NAG1H8jMBlHPrCbE-SkNT0NQnw_KSUPpI539DmXXcjTBK3nw_yu1uEQW7jMpnn2miVxlcyLc4Nn2L%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=mC7CSuYO939sBXmk2D8R0g%26_nc_ss=7a22e%26oh=00_AQJV2i5lL3Mp4YbPtQvo1O0MadcoItx8lYchkCp4M9-SeA%26oe=6AADC75A%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/CuzozXVM_D7.jpg",
     link: "https://www.instagram.com/abdelalaouiofficiel/reel/CuzozXVM_D7/",
     linkType: "instagram",
     veggie: true,
@@ -13441,7 +13441,7 @@ const RECIPES = [
       { qty: "QS", name: "Sel", rayon: 'epicerie' },
       { qty: "1", name: "baguette tradition", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -13454,7 +13454,7 @@ const RECIPES = [
     time: "25min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503040553_1467969011236473_3896945512326652822_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=111%26ig_cache_key=MzE0NTE1Nzc3MDIwMzA0ODQ4Nw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwNzMuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=e1XKXyIn_PMQ7kNvwGfWiXM%26_nc_oc=AdqFscUsx_g30r0z5wrbc6w42WL8RQc3Ceb_yU3L97AA0Ya2kGAcH9FnoQQYqbGutuXTLlgszFegsneHWhitNaNf%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=WQfre_R1E0VWjfzxMNBs-Q%26_nc_ss=7a22e%26oh=00_AQIASAI3l2OxZr38jMJhpT5Gu7wFNb5m_VioMrC2usG9Aw%26oe=6AAD9794%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/Cul2FQHgyon.jpg",
     link: "https://www.instagram.com/frgaudry/reel/Cul2FQHgyon/",
     linkType: "instagram",
     veggie: true,
@@ -13462,12 +13462,12 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "12-concombre-epluche-et-epepine",
-    title: "- 1/2 concombre épluché et épépiné.",
+    id: "recette-de-annecharlotte-pontabry",
+    title: "Recette de Anne-Charlotte Pontabry",
     emoji: "🥗",
     cat: "entree",
     chef: "annecharlottepontabry",
@@ -13475,7 +13475,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/501716047_1886879405422428_2959810558337401518_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=101%26ig_cache_key=MzEzNzEwNTI2NTQwNzkwNDM5Mw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=9cgGtyq6IUgQ7kNvwHJ8k0Q%26_nc_oc=Ado-QO02t9HY__2CwfybNggajeA425qgWlHGSh4POoOVnoU0plBQcBuBZ8u-SzWcWZMYtleTeKipQ2pVaQ3ZwhkQ%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=_Q_w1g--VKBKjLoqW5N9hQ%26_nc_ss=7a22e%26oh=00_AQLZiyqDHwA8sDWr1ADocwhdzayg_7ZFQV3bkT2YLUlGOA%26oe=6AADAAB7%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/CuJPJ4npUqJ.jpg",
     link: "https://www.instagram.com/annecharlottepontabry/reel/CuJPJ4npUqJ/",
     linkType: "instagram",
     veggie: true,
@@ -13488,7 +13488,7 @@ const RECIPES = [
       { qty: "2", name: "ou 3 cuillères à soupe de vinaigre de vin", rayon: 'epicerie' },
       { qty: "1/2", name: "cuillère à café de sel", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -13501,7 +13501,7 @@ const RECIPES = [
     time: "30min",
     serves: "3 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503043512_733452639111705_7554539549551701970_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=111%26ig_cache_key=MzEzNTkxOTk0NzUzMDc1NTkxNg%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjk2NC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=uOEWmXuNKAoQ7kNvwEnI6MT%26_nc_oc=Ado7ikN1UiRjI89xmNDRGrmlWzhIwGuWVCBHH306kw85EyfA6_Rxcn-52cLKX6LSzZTvg7vbmJ_0OEwBTHEzmTjL%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=-tPaui8nT90dGNgg0Kv2Gg%26_nc_ss=7a22e%26oh=00_AQJOWUMJgRhBbwEF1E-AkA0FYAxkUmZ_-Cl3nJQGv40Cow%26oe=6AADA0F6%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/CuFBpPUod9M.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/CuFBpPUod9M/",
     linkType: "instagram",
     veggie: true,
@@ -13516,7 +13516,7 @@ const RECIPES = [
       { qty: "QS", name: "Pour la sauce :", rayon: 'epicerie' },
       { qty: "2 cas", name: "de Yaourt grec ou skyr ou fromage blanc", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -13529,7 +13529,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/501955858_1256517472765587_3907228410260992647_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=103%26ig_cache_key=MzEzNTE2NjcwNzgyNjYxMTQ1MQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjkwMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=VqoJ6uIaAEkQ7kNvwHDuwzj%26_nc_oc=Adqo-xIcMbco73Tjd1bXkpASkbredQr1ScVm5opbJttHbzFPdYvbPNyKtB6_IlQ113vg45_6Em3leRfdC6jvvHfc%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=CwDs-WBVTwsZ9q4hOcEm1g%26_nc_ss=7a22e%26oh=00_AQKoS55ok-jegbRn4TCr_mTZ5FAvWhDflEhpP5NOjmHE5Q%26oe=6AADBDC1%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/CuCWYKLotT7.jpg",
     link: "https://www.instagram.com/diegoalary/reel/CuCWYKLotT7/",
     linkType: "instagram",
     veggie: true,
@@ -13537,7 +13537,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -13550,7 +13550,7 @@ const RECIPES = [
     time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/501751681_1739275816994853_6132734554473830298_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=105%26ig_cache_key=MzEzNjY3NDA5MTU5NDAwODEyNg%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIxNDcuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=KHTfJoQFaU8Q7kNvwFZIQ1i%26_nc_oc=AdqSHZcy2LBl0VU8VZ1bKgwe2gl5LfnD08M1CEf1JAfRZTWIij36MsXu1RfLp5g4FxwMLa-kEI9ar2HLci2g3AxK%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=Ix3ki3L5GY7fD6hWHB289A%26_nc_ss=7a22e%26oh=00_AQI0w12Ooq6OMWZJVi2T79d9Fa12PaR6wWf1sB9UY8f2jA%26oe=6AADAE00%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/CuHtHetocY-.jpg",
     link: "https://www.instagram.com/frgaudry/reel/CuHtHetocY-/",
     linkType: "instagram",
     veggie: false,
@@ -13563,7 +13563,7 @@ const RECIPES = [
       { qty: "1", name: "pincée de piment en poudre", rayon: 'epicerie' },
       { qty: "1", name: "quinzaine de feuilles de menthe", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -13576,7 +13576,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/498589898_1071493464825780_1148046110105103286_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=102%26ig_cache_key=MzEzMTU5NjQ5ODA5ODQwNzg3Ng%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIyNjguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=BtAvE2Ia6qYQ7kNvwFGZ544%26_nc_oc=AdoUNxJNIH5WaZDUdkQVO4LHrMxlQpezTEgUK0cVAmiG3pqo7ez5TBHq5jIAVPag0WjC4OxMK2PHAgzplX0v6c6U%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=8JljFkqRbe0MXGnqIJ1SSw%26_nc_ss=7a22e%26oh=00_AQJBhgrDjQQejLueOf42LunZTPkOhpq75UsZtkcXFUyGZQ%26oe=6AADC8C3%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/Ct1qmxRA0nE.jpg",
     link: "https://www.instagram.com/cuisineactuelle/reel/Ct1qmxRA0nE/",
     linkType: "instagram",
     veggie: true,
@@ -13584,12 +13584,12 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "hiver-2006-je-debarque-incognito-a-la-chassagnette",
-    title: "Hiver 2006 : je débarque incognito à la @chassagnette. Arman",
+    id: "recette-de-francoisregis-gaudry-Ct3Eee",
+    title: "Recette de François-Régis Gaudry",
     emoji: "🐟",
     cat: "poisson",
     chef: "frgaudry",
@@ -13597,7 +13597,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/623459356_1207754328003307_3837967362039610737_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=111%26ig_cache_key=MzEzMTk5MDQ5OTEzOTgwNzU4MQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNzIwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D%26_nc_ohc=DaTtP3SLTN0Q7kNvwHQsiEJ%26_nc_oc=AdpRZlpuylyt9cOHlgVShLerioviCFRlaxmXrj7EfnDLaXxWnoJDAPqvhTq7dZuqvQQm2S8qQouXoftT29Fn6ZXC%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=xZTcK96vGqfYS6kJnCgPYQ%26_nc_ss=7a22e%26oh=00_AQKfk-XeYO35QsRAB9Ic1oh2hj3qcq4ryQaUi49DmI0EBw%26oe=6AADB423%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/Ct3EeezoFaQ.jpg",
     link: "https://www.instagram.com/frgaudry/p/Ct3EeezoFaQ/",
     linkType: "instagram",
     veggie: false,
@@ -13605,7 +13605,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -13618,7 +13618,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/502713756_1348223922938636_8163856867896827437_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=MzEyMTQyMTk4NDc5ODM0NDk0OQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=O-r0TXuZke4Q7kNvwEfIHtK%26_nc_oc=Adp0ModK9G5S_s2MeJmHEdcRBiOzXmIhNIUE3dECNl5DPfe4kLwUh4P5TRfMb6gfWOXRgQSqoSzpOi5Hg21am0Jp%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=7U8A7iFH-XhjJw1SHBhF_A%26_nc_ss=7a22e%26oh=00_AQJlQei8eNWgpD5vnhBjXx-Lum6y1Nlq6XJjlpHJhQWrpw%26oe=6AADB757%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/CtRhMHWAAb1.jpg",
     link: "https://www.instagram.com/cuisineactuelle/reel/CtRhMHWAAb1/",
     linkType: "instagram",
     veggie: true,
@@ -13632,7 +13632,7 @@ const RECIPES = [
       { qty: "QS", name: "Sel", rayon: 'epicerie' },
       { qty: "QS", name: "Poivre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -13645,7 +13645,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/502095276_685716781055339_4422151819296175253_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=101%26ig_cache_key=MzEyNDM0NzgwMTk0NDUwMzM3MA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjM1MTIuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=ZF3Qy6OvIJEQ7kNvwHdLfja%26_nc_oc=Adq_EqQnBqGlanpEuHLFG6jKDjFM3f-sl4vDLUylGlF_MHPi1Hv83lA3TMWgMaiXRDG9UxpmnmmDnjCBfeRBIhvF%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=UQoK-JWWFNrXpXMZK7GYzA%26_nc_ss=7a22e%26oh=00_AQJ-4xD93U9jlXh827V2ESKhP0P7CrpCrdWBqsOMA_h9Mg%26oe=6AADAE6F%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/Ctb6cW5rLRK.jpg",
     link: "https://www.instagram.com/pourdebon/reel/Ctb6cW5rLRK/",
     linkType: "instagram",
     veggie: true,
@@ -13653,12 +13653,12 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "comme-le-chantait-yves-montand-il-est-bien-court-l",
-    title: "Comme le chantait Yves Montand, il est bien court, le temps ",
+    id: "recette-de-julie-andrieu-profil-officiel-Ctb6xp",
+    title: "Recette de Julie Andrieu, Profil Officiel",
     emoji: "🍰",
     cat: "dessert",
     chef: "julieandrieu.officiel",
@@ -13666,7 +13666,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/505420960_1777629852787486_993748391163627359_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=101%26ig_cache_key=MzEyNDM0OTI2NDg1ODI2NDQzNA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjc2MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=Qefd7NR61kAQ7kNvwEZ5_dM%26_nc_oc=AdoVhdw6MdKqa7r6IRdDf6dQkl4f8HCKALV241lQMmyVzo8Pq1ymBaCr34X93NmXHBTWpetXeTJbalnV6sCWoJLT%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=amrzG1x9BJSOzlEk4cqlDQ%26_nc_ss=7a22e%26oh=00_AQLvaQGrwRtWOe_mxd4vRThyrEJI0OQJDDOZ0PcotSpOYA%26oe=6AAD9EA3%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/Ctb6xpWITNy.jpg",
     link: "https://www.instagram.com/julieandrieu.officiel/reel/Ctb6xpWITNy/",
     linkType: "instagram",
     veggie: true,
@@ -13674,7 +13674,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -13687,7 +13687,7 @@ const RECIPES = [
     time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503319594_1454260685743528_5290401449392674257_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=110%26ig_cache_key=MzEyMjcwOTM4Njc2NjU4Mzk2Ng%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExNTIuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=CwRkMRSijqQQ7kNvwE8rVT8%26_nc_oc=Ado7Xow8TXlK9uOKljcZ3f6QWYfDnlzXeDVIriFSAoGyQJVQ3OAH7oHJLRYlGArNXWnUl9Cl7dhWnIFdM6vcEgSX%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=1sHB8kPtQcXv7RtKSU5V_w%26_nc_ss=7a22e%26oh=00_AQKiDLLjH90b-mEMFTTScHpayORClmvUGMyhcQnZ53NgPw%26oe=6AAD9BD7%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/CtWF6R3AAie.jpg",
     link: "https://www.instagram.com/cyrillignac/reel/CtWF6R3AAie/",
     linkType: "instagram",
     veggie: true,
@@ -13707,7 +13707,7 @@ const RECIPES = [
       { qty: "1", name: "cuil. à soupe de vinaigre", rayon: 'epicerie' },
       { qty: "QS", name: "Sel fin", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -13720,7 +13720,7 @@ const RECIPES = [
     time: "25min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/498710399_4068291100075399_6469158711197194384_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=108%26ig_cache_key=MzExNDIxNjQyNDAxNTQ2MjMyNg%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjk5OC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=gNuBc8yRzv8Q7kNvwH6TV_n%26_nc_oc=AdpgT8CYILk4TUPLbFT8OOsp2n2ZSO9hkRUr2wcTXjRK2z9QALhjq6Dwz6YmBaVoxvopTu3wsNqby6ryXpjJvZ9l%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=CJG661lTxj-Lv5M4H6HvPw%26_nc_ss=7a22e%26oh=00_AQLLKKJ8cEUcy8-NI4hPcMagSsUAnDxzzfbzpdWqp1XHNw%26oe=6AAD94E6%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/Cs361Z7IP-2.jpg",
     link: "https://www.instagram.com/chefsimonezanoni/reel/Cs361Z7IP-2/",
     linkType: "instagram",
     veggie: false,
@@ -13729,7 +13729,7 @@ const RECIPES = [
       { qty: "QS", name: "🥔😍 Schiacciata Bomba potatoes and ham!", rayon: 'epicerie' },
       { qty: "QS", name: "👇 Find the ingredients in comments to redo it at home friend", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -13742,7 +13742,7 @@ const RECIPES = [
     time: "10min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/501655629_1042062827480383_7988218526750593197_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=105%26ig_cache_key=MzA3Njc3MDM2OTUyMDA5NTYyMQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExNzAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=vunbUaXtk_oQ7kNvwF8Qw-B%26_nc_oc=AdoyvtoV1Y6MZQs1mf2u-SWuDjRHtvM7MJW-QTKQqX0ifHWOnKUiScfEeHNDZGu1qnpo5GnD4lDH4Rk7IyKVzU5u%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=yHODSHBdT8bJ653fIgt-Ng%26_nc_ss=7a22e%26oh=00_AQKawWM9A0onYw3LIQv0erUCwBe_8UiTnCKWUy3HJwS_Vw%26oe=6AADC778%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/Cqy4lmCsVGF.jpg",
     link: "https://www.instagram.com/dianemorrisey/reel/Cqy4lmCsVGF/",
     linkType: "instagram",
     veggie: true,
@@ -13750,7 +13750,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -13763,7 +13763,7 @@ const RECIPES = [
     time: "8min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/502022328_1773048923623357_1176444514550423426_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=MzA5Mjg5Mjk1OTg0MTA4MjQ2MA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIyNjguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=LSQKPUiBia8Q7kNvwGGy8e3%26_nc_oc=AdrzsYJcfZVvo01JbO6Oy8vSJOCPixHWZ_7-wqwAWHCN1xt7mA_ZeLu2h_pwBs6FV-s1RAODr2y7qddBhgFZn-7q%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=IP-1xWy3ejJtYnKp-jKD-A%26_nc_ss=7a22e%26oh=00_AQLwa0EHc9EFbcSvknBTfpLBoTykkp4VoFIR0Ofk75PdfQ%26oe=6AAD961A%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/CrsKcKXolxc.jpg",
     link: "https://www.instagram.com/desertislanddishes/reel/CrsKcKXolxc/",
     linkType: "instagram",
     veggie: true,
@@ -13771,7 +13771,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -13781,10 +13781,10 @@ const RECIPES = [
     cat: "plat",
     chef: "desertislanddishes",
     chefName: "Margie Nomura",
-    time: "2h",
+    time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/502126197_958999516179011_802146083045695789_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=107%26ig_cache_key=MzA4MzQ4MDEwMDIxMjA2MDQ2NA%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjE1MjIuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=Ux4YDQ6J3mgQ7kNvwG9Mf6Q%26_nc_oc=AdoT1gWzXPj6himQVEyRG5ABbbHN3ZaM7If71s8oOt2avam4zPnJgptpoPz-QIsvAiGMBpbLWm-uqxjpObZLUbS5%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=M7idBMXPhhIycOv4SfMbiw%26_nc_ss=7a22e%26oh=00_AQLnHYEcDQPbk4xWVVVcJmQkqmg4hKA52kYFX5705LYEkw%26oe=6AADBB50%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/CrKuNBtIDEw.jpg",
     link: "https://www.instagram.com/desertislanddishes/reel/CrKuNBtIDEw/",
     linkType: "instagram",
     veggie: true,
@@ -13792,7 +13792,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -13805,7 +13805,7 @@ const RECIPES = [
     time: "30min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/500527776_681174568116767_731109685507218492_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=110%26ig_cache_key=MzA5NzU1ODQ0Nzk4NDg2NDY2Mw%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=dBZBltGQkJ4Q7kNvwE9ATRO%26_nc_oc=AdocxvXyEgGALPF9nQ22vAq0K5XrBWjb3cUtH0zxEH5JD9jlkOnMyvrFYQt1xfET4RRMfNflj38rG6ptQtc8B0WK%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=8fGOjV_lU_rlKJSC0wFyUw%26_nc_ss=7a22e%26oh=00_AQLO8ikAAcIi7GG5XPdktLOsR196onw5zjnyEQF2xZ3tsg%26oe=6AADC7E0%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/Cr8vP8zJe2X.jpg",
     link: "https://www.instagram.com/750grammes/reel/Cr8vP8zJe2X/",
     linkType: "instagram",
     veggie: false,
@@ -13818,7 +13818,7 @@ const RECIPES = [
       { qty: "5 cl", name: "d'huile d'olive", rayon: 'epicerie' },
       { qty: "50 g", name: "de mélange de graines", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
@@ -13831,7 +13831,7 @@ const RECIPES = [
     time: "40min",
     serves: "4 pers.",
     difficulty: "Facile",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/503011026_1381434649645727_6048350283258343893_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=105%26ig_cache_key=MzEwMTI1MjI1MjU4MzY2NDIzOQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D%26_nc_ohc=DLfY45LDL9QQ7kNvwHslbAz%26_nc_oc=AdpdFQO682FfJZ0qm6pOzTizlZxu9H1y0kQTncNgsADDGsR1ntaKuQZt8z__Zj9KKuMtsYHQ9QQIW_4IHngDW953%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=iMrNU2R6P4HFA2-K1FMVfw%26_nc_ss=7a22e%26oh=00_AQIG3T2qVl-4d3nIeQoU-GvlLDpp360fx61fsW672UisXw%26oe=6AADC668%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/CsJ3H4aIRpv.jpg",
     link: "https://www.instagram.com/cuisineactuelle/reel/CsJ3H4aIRpv/",
     linkType: "instagram",
     veggie: true,
@@ -13839,20 +13839,20 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   },
   {
-    id: "100-g-de-blancs-dufs100-g-de-sucre-semoule100-g-de",
-    title: "100 g de blancs d’œufs 100 g de sucre semoule 100 g de sucre",
+    id: "la-recette-Cr-YaH",
+    title: "La recette",
     emoji: "🍰",
     cat: "dessert",
     chef: "laurent.mariotte",
     chefName: "",
-    time: "1h30",
+    time: "40min",
     serves: "4 pers.",
     difficulty: "Moyen",
-    image: "https://images.weserv.nl/?url=https://images.weserv.nl/?url=https://instagram.fctt1-1.fna.fbcdn.net/v/t51.71878-15/502734393_751848483935910_6731140196020954043_n.jpg?stp=dst-jpg_e15_p480x480_tt6%26_nc_cat=100%26ig_cache_key=MzA5ODAyMDk0MjA4NTExODk0OQ%3D%3D.3-ccb7-5%26ccb=7-5%26_nc_sid=58cdad%26efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9%26_nc_ohc=7_D1s55Qba8Q7kNvwFA8sj_%26_nc_oc=AdoLUZoXNPuuEG2iFa7cHdXyD5bII1gXMiVWxBmH2XahFV5fzPRpXhxeC2l0AmbkU8z3N9cYnMUcjoNLp7QpwVEn%26_nc_ad=z-m%26_nc_cid=0%26_nc_zt=23%26_nc_ht=instagram.fctt1-1.fna%26_nc_gid=wEOHg94VNm_4snadYqsO9w%26_nc_ss=7a22e%26oh=00_AQJT9HGO4C6An7RBxkcnHoGUtAxbgwVsGiI3ulvopYCDEQ%26oe=6AADC298%26w=400%26h=300%26fit=cover%26output=webp&w=400&h=300&fit=cover",
+    image: "img/Cr-YaH_tFvl.jpg",
     link: "https://www.instagram.com/laurent.mariotte/reel/Cr-YaH_tFvl/",
     linkType: "instagram",
     veggie: true,
@@ -13860,7 +13860,7 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo pour les étapes', detail: '' }],
+    steps: [{ text: 'Voir la vidéo', detail: '' }],
     tips: ''
   }
 ];
