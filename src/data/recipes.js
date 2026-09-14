@@ -79,8 +79,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-lou-elsener",
-    title: "Recette Lou Elsener",
+    id: "poulet-roti-au-paprika-fume-houmous-de-pois-c",
+    title: "Poulet rôti au paprika fumé, houmous de pois c",
     emoji: "🥩",
     cat: "viande",
     chef: "louloukitchen_",
@@ -167,8 +167,8 @@ const RECIPES = [
   {
     id: "a-vos-paniers",
     title: "À vos paniers !",
-    emoji: "🍽️",
-    cat: "plat",
+    emoji: "🍰",
+    cat: "dessert",
     chef: "frgaudry",
     chefName: "François-Régis Gaudry",
     time: "30min",
@@ -195,8 +195,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "le-mercredi-cest-recette",
-    title: "Le MERCREDI, c’est recette",
+    id: "le-tiramisu-de-la-cheffe-version-xxl",
+    title: "🇮🇹 LE TIRAMISÙ DE LA CHEFFE — version XXL",
     emoji: "🍰",
     cat: "dessert",
     chef: "viviana_pisacane",
@@ -252,8 +252,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-monelle-godaert",
-    title: "Recette Monelle Godaert",
+    id: "salade-de-vermicelles-qui-fait-toujours-sensat",
+    title: "Salade de vermicelles qui fait toujours sensat",
     emoji: "🍝",
     cat: "pates",
     chef: "not_so_superflu",
@@ -284,8 +284,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-monelle-godaert-DcjMNF",
-    title: "Recette Monelle Godaert",
+    id: "monelle-godaert-recette",
+    title: "Monelle Godaert — Recette",
     emoji: "🍝",
     cat: "pates",
     chef: "not_so_superflu",
@@ -350,13 +350,13 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-monelle-godaert-Da53JW",
-    title: "Recette Monelle Godaert",
-    emoji: "🥬",
-    cat: "accompagnement",
+    id: "monelle-godaert-recette-Da53JW",
+    title: "Monelle Godaert — Recette",
+    emoji: "🍰",
+    cat: "dessert",
     chef: "not_so_superflu",
     chefName: "Monelle Godaert",
-    time: "25min",
+    time: "40min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/Da53JWPIBvj.jpg",
@@ -382,8 +382,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "est-en-story-a-la-une-dans-la-rubrique-sale",
-    title: "est en story à la une dans la rubrique « SALÉ »",
+    id: "mere-fille-fils-recette",
+    title: "Mère & fille & fils — Recette",
     emoji: "🥩",
     cat: "viande",
     chef: "lesdubuissonencuisine",
@@ -522,13 +522,13 @@ const RECIPES = [
   {
     id: "lou-qui-fait-du-loup-pour-sa-famille",
     title: "Lou qui fait du Loup pour sa famille",
-    emoji: "🥬",
-    cat: "accompagnement",
+    emoji: "🐟",
+    cat: "poisson",
     chef: "louloukitchen_",
     chefName: "Lou Elsener",
-    time: "25min",
+    time: "30min",
     serves: "4 pers.",
-    difficulty: "Facile",
+    difficulty: "Moyen",
     image: "img/DcJTo4It0qG.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DcJTo4It0qG/",
     linkType: "instagram",
@@ -623,7 +623,7 @@ const RECIPES = [
   },
   {
     id: "poulet-aux-trois-tasses-le-poulet-qui-tabasse",
-    title: "poulet aux trois tasses, le poulet qui tabasse !",
+    title: "Poulet aux trois tasses, le poulet qui tabasse",
     emoji: "🥩",
     cat: "viande",
     chef: "franceinter",
@@ -748,8 +748,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-el-piex",
-    title: "Recette EL PIEX",
+    id: "el-piex-recette",
+    title: "EL PIEX — Recette",
     emoji: "🍽️",
     cat: "plat",
     chef: "el__piex",
@@ -780,8 +780,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-monelle-godaert-DbEOmG",
-    title: "Recette Monelle Godaert",
+    id: "monelle-godaert-recette-DbEOmG",
+    title: "Monelle Godaert — Recette",
     emoji: "🍽️",
     cat: "plat",
     chef: "not_so_superflu",
@@ -857,8 +857,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-francoisregis-gaudry",
-    title: "Recette François-Régis Gaudry",
+    id: "francoisregis-gaudry-recette",
+    title: "François-Régis Gaudry — Recette",
     emoji: "🍽️",
     cat: "plat",
     chef: "frgaudry",
@@ -921,8 +921,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "la-recette-se-trouve-sur-cette-page-en-story-a-la-",
-    title: "La recette se trouve sur cette page en story à la une.",
+    id: "mere-fille-fils-recette-DardRf",
+    title: "Mère & fille & fils — Recette",
     emoji: "🥬",
     cat: "accompagnement",
     chef: "lesdubuissonencuisine",
@@ -990,15 +990,15 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "250g-de-farine",
-    title: "250g de farine",
-    emoji: "🍰",
-    cat: "dessert",
+    id: "glace-vanille",
+    title: "Glace vanille",
+    emoji: "🍽️",
+    cat: "plat",
     chef: "louloukitchen_",
     chefName: "Lou Elsener",
     time: "35min",
     serves: "4 pers.",
-    difficulty: "Moyen",
+    difficulty: "Facile",
     image: "img/Dakzx2mtGzj.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/Dakzx2mtGzj/",
     linkType: "instagram",
@@ -1138,8 +1138,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "parfaite-pour-les-journees-de-chaleur",
-    title: "parfaite pour les journées de chaleur !",
+    id: "soupe-dhuile-dolive",
+    title: "Soupe d’huile d’olive",
     emoji: "🥩",
     cat: "viande",
     chef: "hervecuisine",
@@ -1262,8 +1262,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-viviana-pisacane-topchef17",
-    title: "Recette Viviana Pisacane TopChef17",
+    id: "tarte-est-un-concentre-dete-une-base-crous",
+    title: "Tarte est un concentré d'été : une base crous",
     emoji: "🍰",
     cat: "dessert",
     chef: "viviana_pisacane",
@@ -1285,8 +1285,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-monelle-godaert-DaJJuS",
-    title: "Recette Monelle Godaert",
+    id: "monelle-godaert-recette-DaJJuS",
+    title: "Monelle Godaert — Recette",
     emoji: "🍽️",
     cat: "plat",
     chef: "not_so_superflu",
@@ -1372,8 +1372,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "poulet",
-    title: "Poulet",
+    id: "pommes-de-terre",
+    title: "Pommes de terre",
     emoji: "🥩",
     cat: "viande",
     chef: "miraysway",
@@ -1469,8 +1469,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-monelle-godaert-DZs2uQ",
-    title: "Recette Monelle Godaert",
+    id: "monelle-godaert-recette-DZs2uQ",
+    title: "Monelle Godaert — Recette",
     emoji: "🍽️",
     cat: "plat",
     chef: "not_so_superflu",
@@ -1492,8 +1492,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-monelle-godaert-DaDfSf",
-    title: "Recette Monelle Godaert",
+    id: "salade-de-haricots-verts-jutilise-volontaire",
+    title: "Salade de haricots verts, j’utilise volontaire",
     emoji: "🐟",
     cat: "poisson",
     chef: "not_so_superflu",
@@ -1576,8 +1576,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-lou-elsener-DZ-QXU",
-    title: "Recette Lou Elsener",
+    id: "salade-je-tourne-avec-5-recettes-lete-quand",
+    title: "Salade, je tourne avec 5 recettes l’été quand",
     emoji: "🍽️",
     cat: "plat",
     chef: "louloukitchen_",
@@ -1599,8 +1599,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "les-ingredients",
-    title: "Les ingrédients",
+    id: "feuilles-de-basilic",
+    title: "Feuilles de basilic",
     emoji: "🥗",
     cat: "entree",
     chef: "betty.sopk.pertedepoids",
@@ -1628,15 +1628,15 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-cuisine-actuelle",
-    title: "Recette Cuisine Actuelle",
-    emoji: "🥬",
-    cat: "accompagnement",
+    id: "fondant-et-savoureux-sous-une-couche-de-sauce-d",
+    title: "Fondant et savoureux sous une couche de sauce d",
+    emoji: "🍰",
+    cat: "dessert",
     chef: "cuisineactuelle",
     chefName: "Cuisine Actuelle",
-    time: "25min",
+    time: "40min",
     serves: "4 pers.",
-    difficulty: "Facile",
+    difficulty: "Moyen",
     image: "img/DZsj_7qD72r.jpg",
     link: "https://www.instagram.com/cuisineactuelle/reel/DZsj_7qD72r/",
     linkType: "instagram",
@@ -1916,8 +1916,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "preparation",
-    title: "Préparation :",
+    id: "sorbet-sera-dense",
+    title: "Sorbet sera « dense » )",
     emoji: "🍰",
     cat: "dessert",
     chef: "oscar_heloise",
@@ -2010,8 +2010,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-stephanie-le-quellec",
-    title: "Recette Stephanie Le Quellec",
+    id: "stephanie-le-quellec-recette",
+    title: "Stephanie Le Quellec — Recette",
     emoji: "🥩",
     cat: "viande",
     chef: "steflequellec",
@@ -2033,8 +2033,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-pour-les-amoureux",
-    title: "Recette pour les amoureux",
+    id: "mille-feuille-de-legumes",
+    title: "Mille feuille de légumes",
     emoji: "🥬",
     cat: "accompagnement",
     chef: "louloukitchen_",
@@ -2094,8 +2094,8 @@ const RECIPES = [
   {
     id: "risotto-a-la-milanaise-de-cyril-lignac",
     title: "Risotto À La Milanaise De Cyril Lignac",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🍝",
+    cat: "pates",
     chef: "kitchenfactoryprod",
     chefName: "Kitchen Factory Production 🍽",
     time: "20min",
@@ -2130,7 +2130,7 @@ const RECIPES = [
   },
   {
     id: "panna-cotta-aux-fraises",
-    title: "↓ Panna cotta aux fraises ↓",
+    title: "Panna cotta aux fraises",
     emoji: "🍰",
     cat: "dessert",
     chef: "mamy.etjordan",
@@ -2157,7 +2157,7 @@ const RECIPES = [
   },
   {
     id: "beignets-de-courgettes",
-    title: "↓ Beignets de courgettes ↓",
+    title: "Beignets de courgettes",
     emoji: "🥬",
     cat: "accompagnement",
     chef: "mamy.etjordan",
@@ -2187,8 +2187,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "hello-les-amis",
-    title: "Hello les amis,",
+    id: "attention-il-faut-sy-prendre-a-lavance",
+    title: "Attention il faut s’y prendre à l’avance !",
     emoji: "🍰",
     cat: "dessert",
     chef: "laurent.mariotte",
@@ -2210,8 +2210,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "la-recette-detaillee-est-juste-en-dessous",
-    title: "La recette détaillée est juste en dessous",
+    id: "ciboulette-fraiche",
+    title: "Ciboulette fraîche",
     emoji: "🥩",
     cat: "viande",
     chef: "albs.cook",
@@ -2242,8 +2242,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "provencale-pour-les-beaux-jours",
-    title: "provençale pour les beaux jours",
+    id: "eric-frechon-recette",
+    title: "Eric Frechon — Recette",
     emoji: "🍽️",
     cat: "plat",
     chef: "ericfrechon",
@@ -2339,8 +2339,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-parmigiana-aux-courgettes",
-    title: "↓ Recette parmigiana aux courgettes ↓",
+    id: "ingredients",
+    title: "Ingredients :",
     emoji: "🥬",
     cat: "accompagnement",
     chef: "mamy.etjordan",
@@ -2417,8 +2417,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "150gr-de-creme-liquide",
-    title: "150gr de crème liquide",
+    id: "du-lait-pour-imbiber",
+    title: "Du lait pour imbiber",
     emoji: "🍽️",
     cat: "plat",
     chef: "adopteuncake",
@@ -2446,8 +2446,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-monelle-godaert-DYnMxg",
-    title: "Recette Monelle Godaert",
+    id: "salade-de-pates-avec-sa-vinaigrette-au-parmesa",
+    title: "Salade de pâtes avec sa vinaigrette au parmesa",
     emoji: "🍝",
     cat: "pates",
     chef: "not_so_superflu",
@@ -2492,8 +2492,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-lou-elsener-DYmFrK",
-    title: "Recette Lou Elsener",
+    id: "salade-de-steak-virale-que-jai-revisitee-avec",
+    title: "Salade de steak virale que j’ai revisitée avec",
     emoji: "🥩",
     cat: "viande",
     chef: "louloukitchen_",
@@ -2538,8 +2538,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "vous-aurez-besoin-de",
-    title: "Vous aurez besoin de :",
+    id: "une-quinzaine-dolives",
+    title: "Une quinzaine d’olives",
     emoji: "🥗",
     cat: "entree",
     chef: "not_so_superflu",
@@ -2584,8 +2584,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-lou-elsener-DYWue7",
-    title: "Recette Lou Elsener",
+    id: "salade-de-concombre-spicy-avec-la-harissa-tuni",
+    title: "Salade de concombre spicy avec la harissa tuni",
     emoji: "🥗",
     cat: "entree",
     chef: "louloukitchen_",
@@ -2607,8 +2607,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "poulet-pommes-de-terre-petits-pois-toutenun",
-    title: "Poulet pommes de terre & petits pois (tout-en-un)",
+    id: "poulet-pommes-de-terre-petits-pois",
+    title: "Poulet pommes de terre & petits pois",
     emoji: "🥩",
     cat: "viande",
     chef: "fannymlacuisine",
@@ -2640,8 +2640,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-julien-sebbag",
-    title: "Recette Julien Sebbag",
+    id: "julien-sebbag-recette",
+    title: "Julien Sebbag — Recette",
     emoji: "🐟",
     cat: "poisson",
     chef: "juliensebbag",
@@ -2728,8 +2728,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "les-ingredients-DXyJfd",
-    title: "Les ingrédients :",
+    id: "vous-les-preferez-froides-en-salade-ou-chaudes",
+    title: "Vous les préférez froides en salade ou chaudes ?",
     emoji: "🥗",
     cat: "entree",
     chef: "abdelalaouiofficiel",
@@ -2924,8 +2924,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "500g-viande-de-buf-a-bourguignon-style-paleron",
-    title: "500g viande de bœuf à bourguignon style paleron",
+    id: "citronnelle",
+    title: "Citronnelle",
     emoji: "🫕",
     cat: "sauce",
     chef: "louloukitchen_",
@@ -2981,8 +2981,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-yotam-ottolenghi",
-    title: "Recette Yotam Ottolenghi",
+    id: "yotam-ottolenghi-recette",
+    title: "Yotam Ottolenghi — Recette",
     emoji: "🥬",
     cat: "accompagnement",
     chef: "ottolenghi",
@@ -3004,8 +3004,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "les-ingredients-de-la-recette",
-    title: "Les ingrédients de la recette :",
+    id: "les-etapes-de-la-recette",
+    title: "Les étapes de la recette :",
     emoji: "🥩",
     cat: "viande",
     chef: "lepointfr",
@@ -3066,8 +3066,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "hello-les-amis-DXhTX0",
-    title: "Hello les amis !",
+    id: "de-c-a-cafe-de-noix-de-muscade-moulue",
+    title: "¼ de c. à café de noix de muscade moulue",
     emoji: "🍝",
     cat: "pates",
     chef: "laurent.mariotte",
@@ -3163,8 +3163,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-camille",
-    title: "Recette Camille",
+    id: "camille-recette",
+    title: "Camille — Recette",
     emoji: "🍽️",
     cat: "plat",
     chef: "les_tips_de_cam",
@@ -3186,8 +3186,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette",
-    title: "Recette :",
+    id: "basilic-hache",
+    title: "Basilic haché",
     emoji: "🐟",
     cat: "poisson",
     chef: "heleneinparis.official",
@@ -3492,8 +3492,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-brut",
-    title: "Recette Brut.",
+    id: "fondant-a-base-depaule-dagneau",
+    title: "Fondant à base d'épaule d'agneau",
     emoji: "🥩",
     cat: "viande",
     chef: "brutofficiel",
@@ -3538,8 +3538,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "une-demi-cuillere-a-cafe-de-fleur-de-sel",
-    title: "Une demi cuillère à café de fleur de sel⁠",
+    id: "cacao-en-poudre",
+    title: "Cacao en poudre⁠",
     emoji: "🍰",
     cat: "dessert",
     chef: "franceinter",
@@ -3669,8 +3669,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-facile-et-inratable",
-    title: "Recette facile et inratable",
+    id: "epaule-roulee-ou-normale",
+    title: "Épaule roulée ou normale",
     emoji: "🥩",
     cat: "viande",
     chef: "saroukitchen",
@@ -3692,8 +3692,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "hello-les-amis-DWbQfj",
-    title: "Hello les amis,",
+    id: "sel-et-poivre",
+    title: "Sel et poivre",
     emoji: "🥩",
     cat: "viande",
     chef: "laurent.mariotte",
@@ -3784,8 +3784,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "les-ingredients-DWL3yn",
-    title: "Les ingrédients :",
+    id: "echalote",
+    title: "½ échalote",
     emoji: "🥩",
     cat: "viande",
     chef: "lepointfr",
@@ -3840,8 +3840,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "hello-les-amis-DV31nU",
-    title: "Hello les amis !",
+    id: "un-plat-simple-plein-de-saveurs-on-va-se-regaler",
+    title: "Un plat simple, plein de saveurs… on va se régaler !",
     emoji: "🍝",
     cat: "pates",
     chef: "laurent.mariotte",
@@ -3917,13 +3917,13 @@ const RECIPES = [
   {
     id: "vous-ne-cuisinerez-plus-jamais-les-asperges-autrem",
     title: "Vous ne cuisinerez plus jamais les asperges autrement !",
-    emoji: "🍽️",
-    cat: "plat",
+    emoji: "🍰",
+    cat: "dessert",
     chef: "enrangdoignons",
     chefName: "Raphaële Marchal",
-    time: "35min",
+    time: "40min",
     serves: "4 pers.",
-    difficulty: "Facile",
+    difficulty: "Moyen",
     image: "img/DWGiePzjNMZ.jpg",
     link: "https://www.instagram.com/enrangdoignons/reel/DWGiePzjNMZ/",
     linkType: "instagram",
@@ -3963,13 +3963,13 @@ const RECIPES = [
   {
     id: "quiche-du-soleil",
     title: "Quiche du soleil",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🍽️",
+    cat: "plat",
     chef: "louloukitchen_",
     chefName: "Lou Elsener",
     time: "30min",
     serves: "4 pers.",
-    difficulty: "Moyen",
+    difficulty: "Facile",
     image: "img/DV-3FvoNF6s.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DV-3FvoNF6s/",
     linkType: "instagram",
@@ -4077,11 +4077,11 @@ const RECIPES = [
   {
     id: "fenouil-aux-ufs-version-soleil",
     title: "Fenouil aux œufs, version soleil",
-    emoji: "🫕",
-    cat: "sauce",
+    emoji: "🍰",
+    cat: "dessert",
     chef: "abdelalaouiofficiel",
     chefName: "Abdel Alaoui Officiel",
-    time: "15min",
+    time: "40min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/DT8WJapijI6.jpg",
@@ -4387,8 +4387,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-lou-elsener-DVN7F3",
-    title: "Recette Lou Elsener",
+    id: "lou-elsener-recette",
+    title: "Lou Elsener — Recette",
     emoji: "🍽️",
     cat: "plat",
     chef: "louloukitchen_",
@@ -4492,8 +4492,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-lou-elsener-DU860I",
-    title: "Recette Lou Elsener",
+    id: "lou-elsener-recette-DU860I",
+    title: "Lou Elsener — Recette",
     emoji: "🍽️",
     cat: "plat",
     chef: "louloukitchen_",
@@ -4551,13 +4551,13 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "et-vous-ce-sont-lesquelles-vos-incontournables",
-    title: "Et vous, ce sont lesquelles vos incontournables?",
-    emoji: "🍽️",
-    cat: "plat",
+    id: "melanie-guisset-recette",
+    title: "Mélanie Guisset — Recette",
+    emoji: "🥬",
+    cat: "accompagnement",
     chef: "melting.green",
     chefName: "Mélanie Guisset",
-    time: "35min",
+    time: "25min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/DUxXg3ODcAB.jpg",
@@ -4732,8 +4732,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "et-si-je-preparais-le-dessert-prefere-des-francais",
-    title: "Et si je préparais le dessert préféré des Français  !",
+    id: "flan-patissier",
+    title: "Flan pâtissier:",
     emoji: "🍰",
     cat: "dessert",
     chef: "patisseriekiltac",
@@ -4755,8 +4755,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "hello-les-amis-DUqpE_",
-    title: "Hello, les amis",
+    id: "de-lequilibre-et-de-lacidule-au-menu",
+    title: "De l’équilibre et de l’acidulé au menu.",
     emoji: "🥩",
     cat: "viande",
     chef: "laurent.mariotte",
@@ -4831,8 +4831,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-provencale",
-    title: "Recette provencale 🇲🇫",
+    id: "arrete-de-poisson-ou-carcasse-de-crevette",
+    title: "Arrete de poisson ou carcasse de crevette",
     emoji: "🐟",
     cat: "poisson",
     chef: "comment.cuisiner",
@@ -4856,11 +4856,11 @@ const RECIPES = [
   {
     id: "de-citron",
     title: "de citron",
-    emoji: "🍽️",
-    cat: "plat",
+    emoji: "🥬",
+    cat: "accompagnement",
     chef: "c.lairdutemps",
     chefName: "Claire Seiller | Utopiste & imparfaite",
-    time: "35min",
+    time: "25min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/DUfOWLIDY0b.jpg",
@@ -4914,8 +4914,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "60g-de-beurre",
-    title: "60g de beurre⁠",
+    id: "sel-et-poivre-DUZ9aa",
+    title: "Sel et poivre⁠",
     emoji: "🥩",
     cat: "viande",
     chef: "franceinter",
@@ -5023,8 +5023,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-lou-elsener-DUVQfV",
-    title: "Recette Lou Elsener",
+    id: "soupe-preferee-cest-la-liebig-poireaux-st-ja",
+    title: "Soupe préférée c’est la liebig poireaux st ja",
     emoji: "🥗",
     cat: "entree",
     chef: "louloukitchen_",
@@ -5091,8 +5091,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-yotam-ottolenghi-DTmsK7",
-    title: "Recette Yotam Ottolenghi",
+    id: "yotam-ottolenghi-recette-DTmsK7",
+    title: "Yotam Ottolenghi — Recette",
     emoji: "🍽️",
     cat: "plat",
     chef: "ottolenghi",
@@ -5114,8 +5114,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-yotam-ottolenghi-DUGg-q",
-    title: "Recette Yotam Ottolenghi",
+    id: "yotam-ottolenghi-recette-DUGg-q",
+    title: "Yotam Ottolenghi — Recette",
     emoji: "🍽️",
     cat: "plat",
     chef: "ottolenghi",
@@ -5274,8 +5274,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-brut-DTphQ4",
-    title: "Recette Brut.",
+    id: "brut-recette",
+    title: "Brut. — Recette",
     emoji: "🫕",
     cat: "sauce",
     chef: "brutofficiel",
@@ -5297,8 +5297,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-traditionnelle-francaise",
-    title: "Recette traditionnelle française 🇫🇷",
+    id: "vin-blanc",
+    title: "Vin blanc",
     emoji: "🥩",
     cat: "viande",
     chef: "comment.cuisiner",
@@ -5347,8 +5347,8 @@ const RECIPES = [
   {
     id: "faire-chauffer-une-sauteuse",
     title: "⁠Faire chauffer une sauteuse.⁠",
-    emoji: "🍽️",
-    cat: "plat",
+    emoji: "🫕",
+    cat: "sauce",
     chef: "franceinter",
     chefName: "France Inter",
     time: "20min",
@@ -5382,8 +5382,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-france-inter",
-    title: "Recette France Inter",
+    id: "france-inter-recette",
+    title: "France Inter — Recette",
     emoji: "🍽️",
     cat: "plat",
     chef: "franceinter",
@@ -5405,8 +5405,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-francoisregis-gaudry-DS11R7",
-    title: "Recette François-Régis Gaudry",
+    id: "soupe-de-pate-dans-la-poele-espacees-les-une",
+    title: "Soupe de pâte dans la poêle, espacées les une",
     emoji: "🥗",
     cat: "entree",
     chef: "frgaudry",
@@ -5428,15 +5428,15 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-cuisineaz",
-    title: "Recette CuisineAZ",
-    emoji: "🫕",
-    cat: "sauce",
+    id: "cuisineaz-recette",
+    title: "CuisineAZ — Recette",
+    emoji: "🥬",
+    cat: "accompagnement",
     chef: "cuisineaz",
     chefName: "CuisineAZ",
     time: "30min",
     serves: "4 pers.",
-    difficulty: "Moyen",
+    difficulty: "Facile",
     image: "img/DSnF7WoAjQs.jpg",
     link: "https://www.instagram.com/cuisineaz/reel/DSnF7WoAjQs/",
     linkType: "instagram",
@@ -5454,13 +5454,13 @@ const RECIPES = [
   {
     id: "chapon-de-fete-ultra-fondant",
     title: "Chapon de fête ultra fondant",
-    emoji: "🍽️",
-    cat: "plat",
+    emoji: "🍰",
+    cat: "dessert",
     chef: "cuisineactuelle",
     chefName: "Cuisine Actuelle",
-    time: "35min",
+    time: "40min",
     serves: "4 pers.",
-    difficulty: "Facile",
+    difficulty: "Moyen",
     image: "img/DSnfjJhCbkk.jpg",
     link: "https://www.instagram.com/cuisineactuelle/reel/DSnfjJhCbkk/",
     linkType: "instagram",
@@ -5481,8 +5481,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-france-inter-DSt0BW",
-    title: "Recette France Inter",
+    id: "mousse-au-chocolat-ou-plus-exactement-la-mouss",
+    title: "Mousse au chocolat ou plus exactement la mouss",
     emoji: "🍰",
     cat: "dessert",
     chef: "franceinter",
@@ -5544,8 +5544,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-brut-DShh-C",
-    title: "Recette Brut.",
+    id: "brut-recette-DShh-C",
+    title: "Brut. — Recette",
     emoji: "🍽️",
     cat: "plat",
     chef: "brutofficiel",
@@ -5599,8 +5599,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "calendrier-des-recettes",
-    title: "Calendrier des recettes",
+    id: "soupe-dorigan",
+    title: "Soupe d’origan",
     emoji: "🥗",
     cat: "entree",
     chef: "enrangdoignons",
@@ -5634,8 +5634,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "hello-les-amis-DSX0Lt",
-    title: "Hello les amis,",
+    id: "materiel-moule-a-manquer-de-22-cm-de-diametre",
+    title: "Matériel : Moule à manquer de 22 cm de diamètre",
     emoji: "🍰",
     cat: "dessert",
     chef: "laurent.mariotte",
@@ -5686,8 +5686,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "conditions",
-    title: "Conditions :",
+    id: "etre-abonnee-a-mon-compte-et-celui-de-kenwoodfranc",
+    title: "Être abonnée à mon compte et celui de @kenwoodfrance",
     emoji: "🍰",
     cat: "dessert",
     chef: "louloukitchen_",
@@ -5803,8 +5803,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "calendrier-de-lavent-des-recettes",
-    title: "Calendrier de l’avent des recettes !",
+    id: "cremeux-chocolat",
+    title: "Crémeux chocolat",
     emoji: "🍰",
     cat: "dessert",
     chef: "enrangdoignons",
@@ -5839,13 +5839,13 @@ const RECIPES = [
   {
     id: "fondue-moitie-moitie",
     title: "Fondue Moitié Moitié",
-    emoji: "🥬",
-    cat: "accompagnement",
+    emoji: "🍰",
+    cat: "dessert",
     chef: "frgaudry",
     chefName: "François-Régis Gaudry",
-    time: "25min",
+    time: "40min",
     serves: "4 pers.",
-    difficulty: "Facile",
+    difficulty: "Moyen",
     image: "img/DRuC1y1iGlD.jpg",
     link: "https://www.instagram.com/frgaudry/reel/DRuC1y1iGlD/",
     linkType: "instagram",
@@ -5867,8 +5867,8 @@ const RECIPES = [
   {
     id: "prechauffer-le-four-a-180-c",
     title: "Préchauffer le four à 180 °C.⁠",
-    emoji: "🍽️",
-    cat: "plat",
+    emoji: "🍰",
+    cat: "dessert",
     chef: "franceinter",
     chefName: "France Inter",
     time: "40min",
@@ -5902,8 +5902,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "saumon-gravlax-aux-agrumes-46-personnes",
-    title: "Saumon gravlax aux agrumes ( 4,6 personnes )",
+    id: "saumon-gravlax-aux-agrumes",
+    title: "Saumon gravlax aux agrumes",
     emoji: "🐟",
     cat: "poisson",
     chef: "acha_happybody",
@@ -6017,7 +6017,7 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "sel-et-poivre",
+    id: "sel-et-poivre-DRltxX",
     title: "Sel et poivre ⁠",
     emoji: "🥗",
     cat: "entree",
@@ -6077,8 +6077,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "demain-les-americains-celebrent-thanksgiving",
-    title: "Demain, les Américains célèbrent Thanksgiving  !",
+    id: "julie-andrieu-profil-officiel-recette",
+    title: "Julie Andrieu, Profil Officiel — Recette",
     emoji: "🥩",
     cat: "viande",
     chef: "julieandrieu.officiel",
@@ -6129,8 +6129,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "les-ingredients-DRHPuV",
-    title: "Les ingrédients :",
+    id: "fleur-de-sel",
+    title: "Fleur de sel",
     emoji: "🍽️",
     cat: "plat",
     chef: "lepointfr",
@@ -6159,8 +6159,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "preparation-DRCNA6",
-    title: "Préparation :",
+    id: "epluchez-tous-les-legumes-les-detailler-en-morceau",
+    title: "Épluchez tous les légumes, les détailler en morceaux.",
     emoji: "🥗",
     cat: "entree",
     chef: "mesdames.media",
@@ -6196,8 +6196,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-c-a-vous",
-    title: "Recette C à Vous",
+    id: "c-a-vous-recette",
+    title: "C à Vous — Recette",
     emoji: "🍽️",
     cat: "plat",
     chef: "c_a_vous",
@@ -6219,8 +6219,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "dun-de-ses-incontournables-sa-tarte-a-la-tomate",
-    title: "d’un de ses incontournables : sa tarte à la tomate",
+    id: "tarte-a-la-tomate",
+    title: "Tarte à la tomate",
     emoji: "🍽️",
     cat: "plat",
     chef: "cliquetv",
@@ -6271,15 +6271,15 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "dautomne-reconfortante-45",
-    title: "d’automne réconfortante 4/5",
-    emoji: "🍽️",
-    cat: "plat",
+    id: "cuisineaz-recette-DQkDoK",
+    title: "CuisineAZ — Recette",
+    emoji: "🍰",
+    cat: "dessert",
     chef: "cuisineaz",
     chefName: "CuisineAZ",
-    time: "35min",
+    time: "40min",
     serves: "4 pers.",
-    difficulty: "Facile",
+    difficulty: "Moyen",
     image: "img/DQkDoKvFx-7.jpg",
     link: "https://www.instagram.com/cuisineaz/reel/DQkDoKvFx-7/",
     linkType: "instagram",
@@ -6351,8 +6351,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "les-ingredients-pour-2-personnes",
-    title: "Les ingrédients pour 2 personnes :",
+    id: "la-preparation",
+    title: "La préparation :",
     emoji: "🥩",
     cat: "viande",
     chef: "marmiton_org",
@@ -6385,8 +6385,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "hello-les-amis-DQXE1L",
-    title: "Hello les amis,",
+    id: "du-releve-qui-rechauffe",
+    title: "Du relevé qui réchauffe !",
     emoji: "🥗",
     cat: "entree",
     chef: "laurent.mariotte",
@@ -6412,13 +6412,13 @@ const RECIPES = [
   {
     id: "tarte-poireaux-grilles-bien-reconfortante",
     title: "Tarte poireaux grillés bien réconfortante",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🍽️",
+    cat: "plat",
     chef: "louloukitchen_",
     chefName: "Lou Elsener",
     time: "35min",
     serves: "4 pers.",
-    difficulty: "Moyen",
+    difficulty: "Facile",
     image: "img/DQJWtDOjXGq.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DQJWtDOjXGq/",
     linkType: "instagram",
@@ -6508,13 +6508,13 @@ const RECIPES = [
   {
     id: "buf-fondant-sauce-rouge",
     title: "Bœuf Fondant Sauce Rouge",
-    emoji: "🥬",
-    cat: "accompagnement",
+    emoji: "🍰",
+    cat: "dessert",
     chef: "louloukitchen_",
     chefName: "Lou Elsener",
     time: "10min",
     serves: "4 pers.",
-    difficulty: "Facile",
+    difficulty: "Moyen",
     image: "img/DPtFJWDDVHC.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DPtFJWDDVHC/",
     linkType: "instagram",
@@ -6588,8 +6588,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "la-recette",
-    title: "La recette :",
+    id: "bon-appetit",
+    title: "Bon appétit !",
     emoji: "🥩",
     cat: "viande",
     chef: "elleatable",
@@ -6769,11 +6769,11 @@ const RECIPES = [
   {
     id: "une-simple-tarte-fine-aux-pommes",
     title: "Une simple tarte fine aux pommes",
-    emoji: "🥗",
-    cat: "entree",
+    emoji: "🍽️",
+    cat: "plat",
     chef: "steflequellec",
     chefName: "Stephanie Le Quellec",
-    time: "20min",
+    time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/DPHAHfGjGUt.jpg",
@@ -6790,8 +6790,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "que-jai-faite-avec-ma-maman-quand-jetais-petit",
-    title: "que j’ai faite avec ma maman quand j’étais petit",
+    id: "tarte-fine-aux-pommes-cest-toute-mon-enfance",
+    title: "Tarte fine aux pommes c’est toute mon enfance",
     emoji: "🍰",
     cat: "dessert",
     chef: "ericfrechon",
@@ -6931,8 +6931,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-cabillaud-epice-au-four",
-    title: "Recette Cabillaud Épicé Au Four",
+    id: "demotivateur-food-recette",
+    title: "Demotivateur Food — Recette",
     emoji: "🐟",
     cat: "poisson",
     chef: "demotivateurfood_fr",
@@ -7217,8 +7217,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-gateau-au-chocolat",
-    title: "Recette gâteau au chocolat.",
+    id: "preparation",
+    title: "Préparation",
     emoji: "🍰",
     cat: "dessert",
     chef: "dr.jimmy.mohamed",
@@ -7250,8 +7250,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "un-chou",
-    title: "Un chou",
+    id: "lou-elsener-recette-DPEAvK",
+    title: "Lou Elsener — Recette",
     emoji: "🥬",
     cat: "accompagnement",
     chef: "louloukitchen_",
@@ -7430,8 +7430,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "feuillete-grec-courgette-kolokithopita",
-    title: "FEUILLETÉ GREC COURGETTE ( kolokithopita)",
+    id: "feuillete-grec-courgette",
+    title: "Feuilleté Grec Courgette",
     emoji: "🥬",
     cat: "accompagnement",
     chef: "louloukitchen_",
@@ -7560,8 +7560,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "a-deux-cest-mieux",
-    title: "A deux, c'est mieux...",
+    id: "cacao-amer-en-poudre",
+    title: "Cacao amer en poudre",
     emoji: "🍰",
     cat: "dessert",
     chef: "julieandrieu.officiel",
@@ -7592,13 +7592,13 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-eric-frechon",
-    title: "Recette Eric Frechon",
-    emoji: "🍽️",
-    cat: "plat",
+    id: "eric-frechon-recette-DMfwm7",
+    title: "Eric Frechon — Recette",
+    emoji: "🥬",
+    cat: "accompagnement",
     chef: "ericfrechon",
     chefName: "Eric Frechon",
-    time: "35min",
+    time: "25min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/DMfwm7dtx96.jpg",
@@ -7650,8 +7650,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-francoisregis-gaudry-DNNNMH",
-    title: "Recette François-Régis Gaudry",
+    id: "francoisregis-gaudry-recette-DNNNMH",
+    title: "François-Régis Gaudry — Recette",
     emoji: "🥩",
     cat: "viande",
     chef: "frgaudry",
@@ -7803,11 +7803,11 @@ const RECIPES = [
   {
     id: "ultra-moelleux-chocolat-ya-pas-de-saison-pour-ca",
     title: "Ultra moelleux chocolat, y’a pas de saison pour ça!!!!",
-    emoji: "🍽️",
-    cat: "plat",
+    emoji: "🍰",
+    cat: "dessert",
     chef: "steflequellec",
     chefName: "Stephanie Le Quellec",
-    time: "35min",
+    time: "40min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/DMFtaDaCWbk.jpg",
@@ -7916,8 +7916,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-lou-elsener-DMN85f",
-    title: "Recette Lou Elsener",
+    id: "lou-elsener-recette-DMN85f",
+    title: "Lou Elsener — Recette",
     emoji: "🍽️",
     cat: "plat",
     chef: "louloukitchen_",
@@ -7939,8 +7939,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-parfaite-de-lete",
-    title: "Recette Parfaite De L’Été",
+    id: "une-douzaine-dolives-de-kalamata",
+    title: "Une douzaine d’olives de kalamata",
     emoji: "🥩",
     cat: "viande",
     chef: "frgaudry",
@@ -7999,8 +7999,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-julie-andrieu-profil-officiel",
-    title: "Recette Julie Andrieu, Profil Officiel",
+    id: "pates-et-riz",
+    title: "Pâtes et riz",
     emoji: "🍝",
     cat: "pates",
     chef: "julieandrieu.officiel",
@@ -8045,8 +8045,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-lou-elsener-DLz57M",
-    title: "Recette Lou Elsener",
+    id: "lou-elsener-recette-DLz57M",
+    title: "Lou Elsener — Recette",
     emoji: "🥬",
     cat: "accompagnement",
     chef: "louloukitchen_",
@@ -8074,8 +8074,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "preparation-DLnICJ",
-    title: "Préparation :",
+    id: "creme-epaisse",
+    title: "Crème épaisse",
     emoji: "🍽️",
     cat: "plat",
     chef: "pourdebon",
@@ -8169,8 +8169,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "le-secret-pour-bien-cuire-ton-magret-de-canard",
-    title: "Le secret pour bien cuire ton magret de canard",
+    id: "xavier-pincemin-recette",
+    title: "Xavier Pincemin — Recette",
     emoji: "🥩",
     cat: "viande",
     chef: "xavier_pincemin",
@@ -8192,8 +8192,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "la-recette-secrete-de-mes-farcis-nicois",
-    title: "La recette secrète de mes farcis niçois !",
+    id: "mais-bon-mieux-vaut-transmettre-que-garder-non",
+    title: "Mais bon, mieux vaut transmettre que garder, non ?",
     emoji: "🥩",
     cat: "viande",
     chef: "bay_wf",
@@ -8215,8 +8215,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "arancini",
-    title: "arancini",
+    id: "cuisineaz-recette-DLSUgQ",
+    title: "CuisineAZ — Recette",
     emoji: "🍽️",
     cat: "plat",
     chef: "cuisineaz",
@@ -8238,8 +8238,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-brut-DLKNfq",
-    title: "Recette Brut.",
+    id: "brut-recette-DLKNfq",
+    title: "Brut. — Recette",
     emoji: "🍰",
     cat: "dessert",
     chef: "brutofficiel",
@@ -8289,8 +8289,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "poivre-du-moulin",
-    title: "Poivre du moulin",
+    id: "en-savoir-plus",
+    title: "En Savoir Plus",
     emoji: "🥩",
     cat: "viande",
     chef: "franceinter",
@@ -8356,8 +8356,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-DKWjU8",
-    title: "Recette :",
+    id: "etapes",
+    title: "Étapes :",
     emoji: "🍰",
     cat: "dessert",
     chef: "lepointfr",
@@ -8386,8 +8386,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-francoisregis-gaudry-DKbZJF",
-    title: "Recette François-Régis Gaudry",
+    id: "francoisregis-gaudry-recette-DKbZJF",
+    title: "François-Régis Gaudry — Recette",
     emoji: "🍽️",
     cat: "plat",
     chef: "frgaudry",
@@ -8443,8 +8443,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "la-recette-complete-sur-youtube",
-    title: "La recette complète sur Youtube !",
+    id: "creme-anchois-et-origan-salade-asperges-sauv",
+    title: "Crème anchois et origan, salade asperges sauv",
     emoji: "🥗",
     cat: "entree",
     chef: "europe1",
@@ -8514,8 +8514,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-lou-elsener-DJv68f",
-    title: "Recette Lou Elsener",
+    id: "lou-elsener-recette-DJv68f",
+    title: "Lou Elsener — Recette",
     emoji: "🍽️",
     cat: "plat",
     chef: "louloukitchen_",
@@ -8693,13 +8693,13 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-julie-andrieu-profil-officiel-DJW7ew",
-    title: "Recette Julie Andrieu, Profil Officiel",
-    emoji: "🫕",
-    cat: "sauce",
+    id: "creme-liquide-entiere",
+    title: "Crème liquide entière",
+    emoji: "🐟",
+    cat: "poisson",
     chef: "julieandrieu.officiel",
     chefName: "Julie Andrieu, Profil Officiel",
-    time: "15min",
+    time: "30min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/DJW7ewiIvE4.jpg",
@@ -8804,8 +8804,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-brut-DIqrXJ",
-    title: "Recette Brut.",
+    id: "fondant-a-base-depaule-dagneau-DIqrXJ",
+    title: "Fondant à base d'épaule d'agneau",
     emoji: "🥩",
     cat: "viande",
     chef: "brutofficiel",
@@ -8873,15 +8873,15 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "pate-sablee",
-    title: "Pâte sablée :",
-    emoji: "🍰",
-    cat: "dessert",
+    id: "le-zeste-dun-citron-bio",
+    title: "Le zeste d’un citron bio",
+    emoji: "🍽️",
+    cat: "plat",
     chef: "julieandrieu.officiel",
     chefName: "Julie Andrieu, Profil Officiel",
-    time: "40min",
+    time: "35min",
     serves: "4 pers.",
-    difficulty: "Moyen",
+    difficulty: "Facile",
     image: "img/DIT-4Wqogxk.jpg",
     link: "https://www.instagram.com/julieandrieu.officiel/reel/DIT-4Wqogxk/",
     linkType: "instagram",
@@ -9010,8 +9010,8 @@ const RECIPES = [
   {
     id: "creme-caramel-a-la-vanille",
     title: "Crème Caramel À La Vanille",
-    emoji: "🫕",
-    cat: "sauce",
+    emoji: "🍽️",
+    cat: "plat",
     chef: "kitchenfactoryprod",
     chefName: "Kitchen Factory Production 🍽",
     time: "20min",
@@ -9038,8 +9038,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-yotam-ottolenghi-DH6Rfc",
-    title: "Recette Yotam Ottolenghi",
+    id: "yotam-ottolenghi-recette-DH6Rfc",
+    title: "Yotam Ottolenghi — Recette",
     emoji: "🍽️",
     cat: "plat",
     chef: "ottolenghi",
@@ -9097,8 +9097,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "attention-ultra-simple-a-preparer-mais-totalement-",
-    title: "Attention : ultra simple à préparer… mais totalement addicti",
+    id: "cheesecake-jai-donc-eu-envie-de-partager-une",
+    title: "Cheesecake ! 🍰 j’ai donc eu envie de partager une",
     emoji: "🍰",
     cat: "dessert",
     chef: "julieandrieu.officiel",
@@ -9186,8 +9186,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "voici-la-liste-des-ingredients-pour-6-personnes",
-    title: "Voici la liste des ingrédients pour 6 personnes :",
+    id: "panna-cotta-au-kiwi",
+    title: "Panna cotta au kiwi 🥝",
     emoji: "🍰",
     cat: "dessert",
     chef: "dr.jimmy.mohamed",
@@ -9214,7 +9214,7 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "ingredients",
+    id: "ingredients-DHL_dg",
     title: "Ingredients :⁠",
     emoji: "🥗",
     cat: "entree",
@@ -9327,8 +9327,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-DGlX9j",
-    title: "Recette ",
+    id: "blanquette-vegetale",
+    title: "Blanquette végétale",
     emoji: "🫕",
     cat: "sauce",
     chef: "laurent.mariotte",
@@ -9350,8 +9350,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "calmars-farcis",
-    title: "calmars farcis 😋",
+    id: "jimmy-mohamed-recette",
+    title: "Jimmy Mohamed — Recette",
     emoji: "🍽️",
     cat: "plat",
     chef: "dr.jimmy.mohamed",
@@ -9536,8 +9536,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-julie-andrieu-profil-officiel-DE7y98",
-    title: "Recette Julie Andrieu, Profil Officiel",
+    id: "soupe-incontournable-dun-menu-britannique",
+    title: "Soupe, incontournable d’un menu britannique",
     emoji: "🥗",
     cat: "entree",
     chef: "julieandrieu.officiel",
@@ -9592,8 +9592,8 @@ const RECIPES = [
   {
     id: "tomates-farcies",
     title: "Tomates Farcies",
-    emoji: "🍽️",
-    cat: "plat",
+    emoji: "🍰",
+    cat: "dessert",
     chef: "kitchenfactoryprod",
     chefName: "Kitchen Factory Production 🍽",
     time: "10min",
@@ -9622,13 +9622,13 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "vous-aurez-besoin",
-    title: "Vous aurez besoin :",
-    emoji: "🍰",
-    cat: "dessert",
+    id: "retrouvez-la-recette-sur-ninametayercom-rubrique-l",
+    title: "Retrouvez la recette sur ninametayer.com ; rubrique Le Petit",
+    emoji: "🍽️",
+    cat: "plat",
     chef: "ninametayer",
     chefName: "Nina Métayer",
-    time: "40min",
+    time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/DEwUSWys48h.jpg",
@@ -9733,8 +9733,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "et-vous-vous-laimez-comment-la-galette-des-rois",
-    title: "Et vous, vous l'aimez comment la galette des rois ?",
+    id: "brut-recette-DEcTnJ",
+    title: "Brut. — Recette",
     emoji: "🍽️",
     cat: "plat",
     chef: "brutofficiel",
@@ -9756,8 +9756,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-jimmy-mohamed",
-    title: "Recette Jimmy Mohamed",
+    id: "jimmy-mohamed-recette-DEap7n",
+    title: "Jimmy Mohamed — Recette",
     emoji: "🍽️",
     cat: "plat",
     chef: "dr.jimmy.mohamed",
@@ -9779,8 +9779,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "preparation-DEVKsU",
-    title: "Préparation :",
+    id: "pates-feuilletees",
+    title: "Pâtes feuilletées",
     emoji: "🥩",
     cat: "viande",
     chef: "mesdames.media",
@@ -9874,8 +9874,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-le-bonbon",
-    title: "Recette Le Bonbon",
+    id: "le-bonbon-recette",
+    title: "Le Bonbon — Recette",
     emoji: "🍽️",
     cat: "plat",
     chef: "le_bonbon",
@@ -9947,8 +9947,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-madame-figaro-paris",
-    title: "Recette Madame Figaro Paris",
+    id: "tarte-au-citron-dolympe-versini",
+    title: "Tarte au citron d’olympe versini",
     emoji: "🍰",
     cat: "dessert",
     chef: "madamefigarofr",
@@ -9972,11 +9972,11 @@ const RECIPES = [
   {
     id: "lindetronable-tarte-tatin-realisee-par-le-chef-mou",
     title: "L’indétrônable Tarte Tatin réalisée par le chef @moulayefann",
-    emoji: "🥩",
-    cat: "viande",
+    emoji: "🍽️",
+    cat: "plat",
     chef: "elleatable",
     chefName: "ELLE à table",
-    time: "45min",
+    time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/DEDDNi3NWaO.jpg",
@@ -9996,8 +9996,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-jimmy-mohamed-DEF9YN",
-    title: "Recette Jimmy Mohamed",
+    id: "jimmy-mohamed-recette-DEF9YN",
+    title: "Jimmy Mohamed — Recette",
     emoji: "🍽️",
     cat: "plat",
     chef: "dr.jimmy.mohamed",
@@ -10019,8 +10019,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "300g-champignons-de-paris",
-    title: "300g Champignons de Paris",
+    id: "soupe-huile-neutre-de-type-pepins-de-raisins",
+    title: "Soupe huile neutre de type pépins de raisins",
     emoji: "🥗",
     cat: "entree",
     chef: "cuisineactuelle",
@@ -10078,8 +10078,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-du-foie-gras-au-microondes-de-jeanfrancois",
-    title: "Recette du Foie gras au micro-ondes de @jeanfrancoispiege",
+    id: "astuce-du-chef",
+    title: "Astuce du chef :",
     emoji: "🥗",
     cat: "entree",
     chef: "lepointfr",
@@ -10131,8 +10131,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-france-inter-DDhrJ7",
-    title: "Recette France Inter",
+    id: "soupe-originaire-du-maghreb-que-frgaudry-ado",
+    title: "Soupe originaire du maghreb que @frgaudry ado",
     emoji: "🥗",
     cat: "entree",
     chef: "franceinter",
@@ -10154,8 +10154,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "facile-et-rapide-parfaite-en-derniere-minute",
-    title: "facile et rapide, parfaite en dernière minute !",
+    id: "cuisineaz-recette-DDT1WR",
+    title: "CuisineAZ — Recette",
     emoji: "🐟",
     cat: "poisson",
     chef: "cuisineaz",
@@ -10237,8 +10237,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-cuisine-actuelle-DDPjOT",
-    title: "Recette Cuisine Actuelle",
+    id: "buche-gourmande",
+    title: "Bûche gourmande 🎄",
     emoji: "🥩",
     cat: "viande",
     chef: "cuisineactuelle",
@@ -10355,8 +10355,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-special-fetes",
-    title: "Recette Spécial Fêtes",
+    id: "idee-simple-pour-ton-repas-de-fetes",
+    title: "Idée simple pour ton repas de fêtes",
     emoji: "🐟",
     cat: "poisson",
     chef: "kinette_beautyfood",
@@ -10610,8 +10610,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-4-personnes",
-    title: "Recette 4 personnes :",
+    id: "bon-appp",
+    title: "Bon appp",
     emoji: "🥬",
     cat: "accompagnement",
     chef: "zoeladiet",
@@ -10666,8 +10666,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "gousse-de-vanille",
-    title: "½ gousse de vanille",
+    id: "i-pate-brisee",
+    title: "I pate brisée",
     emoji: "🍰",
     cat: "dessert",
     chef: "franceinter",
@@ -10752,8 +10752,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-brut-DCWUl6",
-    title: "Recette Brut.",
+    id: "brut-recette-DCWUl6",
+    title: "Brut. — Recette",
     emoji: "🫕",
     cat: "sauce",
     chef: "brutofficiel",
@@ -10798,8 +10798,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-DCOr0n",
-    title: "Recette 𝙑𝙞𝙣𝙘𝙚𝙣𝙩 𝙁𝙀𝙍𝙉𝙄𝙊𝙏",
+    id: "cake-millepomme",
+    title: "Cake #millepomme",
     emoji: "🍽️",
     cat: "plat",
     chef: "vferniot",
@@ -10823,8 +10823,8 @@ const RECIPES = [
   {
     id: "cake-a-la-patate-douce",
     title: "Cake À La Patate Douce",
-    emoji: "🥬",
-    cat: "accompagnement",
+    emoji: "🍰",
+    cat: "dessert",
     chef: "kitchenfactoryprod",
     chefName: "Kitchen Factory Production 🍽",
     time: "15min",
@@ -10855,8 +10855,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "les-ingredients-DCOmvC",
-    title: "Les ingrédients :",
+    id: "marmiton-recette",
+    title: "Marmiton — Recette",
     emoji: "🥩",
     cat: "viande",
     chef: "marmiton_org",
@@ -10927,15 +10927,15 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "250g-de-farine-DCCoDP",
-    title: "250g de farine",
-    emoji: "🍽️",
-    cat: "plat",
+    id: "un-peu-de-sucre",
+    title: "Un peu de sucre",
+    emoji: "🍰",
+    cat: "dessert",
     chef: "dr.jimmy.mohamed",
     chefName: "Jimmy Mohamed",
     time: "30min",
     serves: "4 pers.",
-    difficulty: "Facile",
+    difficulty: "Moyen",
     image: "img/DCCoDP_IBos.jpg",
     link: "https://www.instagram.com/dr.jimmy.mohamed/reel/DCCoDP_IBos/",
     linkType: "instagram",
@@ -11014,8 +11014,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-monelle-godaert-DCCP0X",
-    title: "Recette Monelle Godaert",
+    id: "tarte-tatin-poire-une-merveille-recettef",
+    title: "Tarte tatin poire 🍐 une merveille 😋 #recettef",
     emoji: "🍰",
     cat: "dessert",
     chef: "not_so_superflu",
@@ -11037,15 +11037,15 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "les-ingredients-DBdhoS",
-    title: "Les ingrédients :",
-    emoji: "🍰",
-    cat: "dessert",
+    id: "tarte-au-citron-meringuee-realisee-par-le-che",
+    title: "Tarte au citron meringuée réalisée par le che",
+    emoji: "🍽️",
+    cat: "plat",
     chef: "marmiton_org",
     chefName: "Marmiton",
-    time: "40min",
+    time: "35min",
     serves: "4 pers.",
-    difficulty: "Moyen",
+    difficulty: "Facile",
     image: "img/DBdhoS7MfR0.jpg",
     link: "https://www.instagram.com/marmiton_org/reel/DBdhoS7MfR0/",
     linkType: "instagram",
@@ -11066,8 +11066,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-france-inter-DB1jRe",
-    title: "Recette France Inter",
+    id: "tarte-deposer-un-des-disques-dans-le-fond-c",
+    title: "Tarte, déposer un des disques dans le fond, c",
     emoji: "🍰",
     cat: "dessert",
     chef: "franceinter",
@@ -11105,13 +11105,13 @@ const RECIPES = [
   {
     id: "fondant-chocolat-lait-praline",
     title: "Fondant Chocolat Lait Praliné",
-    emoji: "🍽️",
-    cat: "plat",
+    emoji: "🍰",
+    cat: "dessert",
     chef: "xavier_pincemin",
     chefName: "Xavier Pincemin",
-    time: "35min",
+    time: "40min",
     serves: "4 pers.",
-    difficulty: "Facile",
+    difficulty: "Moyen",
     image: "img/DB00K6ZIM53.jpg",
     link: "https://www.instagram.com/xavier_pincemin/reel/DB00K6ZIM53/",
     linkType: "instagram",
@@ -11526,8 +11526,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-xavier-pincemin",
-    title: "Recette Xavier Pincemin",
+    id: "xavier-pincemin-recette-DBBOEq",
+    title: "Xavier Pincemin — Recette",
     emoji: "🍽️",
     cat: "plat",
     chef: "xavier_pincemin",
@@ -11549,8 +11549,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-julie-andrieu-profil-officiel-DA_PXY",
-    title: "Recette Julie Andrieu, Profil Officiel",
+    id: "gateau-tres-gourmand-un-double-financier-aux",
+    title: "Gâteau très gourmand : un double financier aux",
     emoji: "🍰",
     cat: "dessert",
     chef: "julieandrieu.officiel",
@@ -11572,8 +11572,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-france-inter-DA_WO_",
-    title: "Recette France Inter",
+    id: "pates-soient-al-dente",
+    title: "Pâtes soient al dente",
     emoji: "🍝",
     cat: "pates",
     chef: "franceinter",
@@ -11679,8 +11679,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-xavier-pincemin-DAtM4W",
-    title: "Recette Xavier Pincemin",
+    id: "xavier-pincemin-recette-DAtM4W",
+    title: "Xavier Pincemin — Recette",
     emoji: "🥩",
     cat: "viande",
     chef: "xavier_pincemin",
@@ -11702,8 +11702,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-xavier-pincemin-DAvPFw",
-    title: "Recette Xavier Pincemin",
+    id: "xavier-pincemin-recette-DAvPFw",
+    title: "Xavier Pincemin — Recette",
     emoji: "🍽️",
     cat: "plat",
     chef: "xavier_pincemin",
@@ -11725,8 +11725,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "abonne-toi-pour-plus-de-recette-gourmande",
-    title: "Abonne toi pour plus de recette gourmande !",
+    id: "tarte-tartecitronmeringuee-tartecitron-cit",
+    title: "Tarte #tartecitronmeringuée #tartecitron #cit",
     emoji: "🍰",
     cat: "dessert",
     chef: "patisseriekiltac",
@@ -11801,8 +11801,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-france-inter-DAZC8X",
-    title: "Recette France Inter",
+    id: "france-inter-recette-DAZC8X",
+    title: "France Inter — Recette",
     emoji: "🐟",
     cat: "poisson",
     chef: "franceinter",
@@ -11847,8 +11847,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-monelle-godaert-C_3JKq",
-    title: "Recette Monelle Godaert",
+    id: "monelle-godaert-recette-C_3JKq",
+    title: "Monelle Godaert — Recette",
     emoji: "🍽️",
     cat: "plat",
     chef: "not_so_superflu",
@@ -11870,8 +11870,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-matthias-marc",
-    title: "Recette Matthias Marc",
+    id: "matthias-marc-recette",
+    title: "Matthias Marc — Recette",
     emoji: "🍽️",
     cat: "plat",
     chef: "matthias_marc",
@@ -11988,8 +11988,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-khaoutarcuisine",
-    title: "Recette Khaoutar_cuisine",
+    id: "khaoutarcuisine-recette",
+    title: "Khaoutar_cuisine — Recette",
     emoji: "🐟",
     cat: "poisson",
     chef: "khaoutar.cuisine",
@@ -12094,8 +12094,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "la-recette-de-zenglutenfree",
-    title: "La recette de @zenglutenfree",
+    id: "dans-un-grand-bol-versez-la-farine-de-pois-chiche",
+    title: "Dans un grand bol, versez la farine de pois chiche.",
     emoji: "🍽️",
     cat: "plat",
     chef: "pourdebon",
@@ -12121,8 +12121,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "la-recette-de-marineiscooking",
-    title: "La recette de @marineiscooking",
+    id: "nettoyez-la-peau-de-votre-melon-plusieurs-fois-a-l",
+    title: "Nettoyez la peau de votre melon plusieurs fois à l’eau clair",
     emoji: "🍽️",
     cat: "plat",
     chef: "pourdebon",
@@ -12234,8 +12234,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "preparation-C94br0",
-    title: "Préparation :",
+    id: "soupe-dhuile-dolive-bio",
+    title: "Soupe d’huile d’olive bio",
     emoji: "🥗",
     cat: "entree",
     chef: "pourdebon",
@@ -12298,8 +12298,8 @@ const RECIPES = [
   {
     id: "il-ny-a-plus-de-secrets-car-on-vous-dit-tout",
     title: "Il n’y a plus de secrets, car on vous dit tout !",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🍽️",
+    cat: "plat",
     chef: "chefsimonezanoni",
     chefName: "Simone Zanoni",
     time: "35min",
@@ -12452,8 +12452,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-monelle-godaert-C9XLG9",
-    title: "Recette Monelle Godaert",
+    id: "monelle-godaert-recette-C9XLG9",
+    title: "Monelle Godaert — Recette",
     emoji: "🍽️",
     cat: "plat",
     chef: "not_so_superflu",
@@ -12475,8 +12475,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "legumes-farcis",
-    title: "légumes farcis 😋",
+    id: "jimmy-mohamed-recette-C9SrTY",
+    title: "Jimmy Mohamed — Recette",
     emoji: "🥬",
     cat: "accompagnement",
     chef: "dr.jimmy.mohamed",
@@ -12498,8 +12498,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "hello-les-amis-C9U_w4",
-    title: "Hello les amis,",
+    id: "attention-la-tarte-a-labricot-debarque-tous-aux-ab",
+    title: "Attention, la tarte à l’abricot débarque, tous aux abris (co",
     emoji: "🍰",
     cat: "dessert",
     chef: "franceinter",
@@ -12521,8 +12521,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "preparation-C9NR21",
-    title: "Préparation :",
+    id: "battez-les-ufs-avec-le-sucre-et-la-fleur-de-sel",
+    title: "Battez les œufs avec le sucre et la fleur de sel.",
     emoji: "🍽️",
     cat: "plat",
     chef: "pourdebon",
@@ -12573,8 +12573,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-antimouches",
-    title: "Recette Anti-Mouches",
+    id: "mes-solutions-repulsives-vraiment-efficaces",
+    title: "Mes solutions répulsives VRAIMENT efficaces :",
     emoji: "🍽️",
     cat: "plat",
     chef: "minimal.quotidien",
@@ -12709,8 +12709,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "clafoutis-aux-groseilles-english-below",
-    title: "Clafoutis aux groseilles  (English below )",
+    id: "clafoutis-aux-groseilles",
+    title: "Clafoutis aux groseilles",
     emoji: "🍰",
     cat: "dessert",
     chef: "camillechamignon",
@@ -12796,13 +12796,13 @@ const RECIPES = [
   {
     id: "tarte-a-la-tomate-et-gorgonzola",
     title: "Tarte à la tomate et gorgonzola",
-    emoji: "🍽️",
-    cat: "plat",
+    emoji: "🍰",
+    cat: "dessert",
     chef: "julienduboue",
     chefName: "Julien Duboué",
-    time: "35min",
+    time: "40min",
     serves: "4 pers.",
-    difficulty: "Facile",
+    difficulty: "Moyen",
     image: "img/C7d2K9XI4-o.jpg",
     link: "https://www.instagram.com/julienduboue/reel/C7d2K9XI4-o/",
     linkType: "instagram",
@@ -12840,8 +12840,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "500gde-fraises",
-    title: "500g de fraises",
+    id: "les-gourmands-vont-adorer",
+    title: "Les gourmands vont adorer",
     emoji: "🥗",
     cat: "entree",
     chef: "cuisineactuelle",
@@ -12896,11 +12896,11 @@ const RECIPES = [
   {
     id: "allez-jvous-montre-mes-pommes-de-terre-a-lharissa",
     title: "Allez j’vous montre mes pommes de terre à l’harissa !",
-    emoji: "🍽️",
-    cat: "plat",
+    emoji: "🥬",
+    cat: "accompagnement",
     chef: "abdelalaouiofficiel",
     chefName: "Abdel Alaoui Officiel",
-    time: "35min",
+    time: "25min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/C5GwchvNvEO.jpg",
@@ -12924,8 +12924,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "allez-jvous-montre-la-mouhalabia",
-    title: "🇱🇧 Allez j’vous montre la Mouhalabia !",
+    id: "et-un-peu-de-pistaches-concassees-pour-terminer",
+    title: "Et un peu de pistaches concassées pour terminer !",
     emoji: "🍰",
     cat: "dessert",
     chef: "abdelalaouiofficiel",
@@ -13007,11 +13007,11 @@ const RECIPES = [
   {
     id: "dans-la-serie-des-petits-plats-tout-betes-mais-tel",
     title: "Dans la série des petits plats tout bêtes mais tellement bon",
-    emoji: "🫕",
-    cat: "sauce",
+    emoji: "🍰",
+    cat: "dessert",
     chef: "lacoccinellegourmande",
     chefName: "La Coccinelle Gourmande",
-    time: "15min",
+    time: "40min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/CttiLYSLISj.jpg",
@@ -13067,11 +13067,11 @@ const RECIPES = [
   {
     id: "recipes-in-the-link-in-bio",
     title: "Recipes in the link in bio.",
-    emoji: "🫕",
-    cat: "sauce",
+    emoji: "🍰",
+    cat: "dessert",
     chef: "ottolenghi",
     chefName: "Yotam Ottolenghi",
-    time: "15min",
+    time: "40min",
     serves: "4 pers.",
     difficulty: "Moyen",
     image: "img/C5ENTSJI0vr.jpg",
@@ -13111,8 +13111,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-marmiton",
-    title: "Recette Marmiton",
+    id: "marmiton-recette-C3xNUV",
+    title: "Marmiton — Recette",
     emoji: "🍽️",
     cat: "plat",
     chef: "marmiton_org",
@@ -13134,8 +13134,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "comment-reussir-sa-meringue-francaise-step-by-step",
-    title: "Comment réussir sa meringue française (step by step)",
+    id: "glace-quon-incorpore-tamise-delicatement-a-l",
+    title: "Glace qu’on incorpore tamisé délicatement à l",
     emoji: "🍰",
     cat: "dessert",
     chef: "mamma_pavlova",
@@ -13159,8 +13159,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-monelle-godaert-C3Nnde",
-    title: "Recette Monelle Godaert",
+    id: "salade-de-pommes-de-terre-grillees-ou-smashed",
+    title: "Salade de pommes de terre grillées ou smashed",
     emoji: "🥗",
     cat: "entree",
     chef: "not_so_superflu",
@@ -13184,8 +13184,8 @@ const RECIPES = [
   {
     id: "cheesecake-newyorkais",
     title: "Cheesecake new-yorkais",
-    emoji: "🍽️",
-    cat: "plat",
+    emoji: "🍰",
+    cat: "dessert",
     chef: "acha_happybody",
     chefName: "Anne-Charlotte Boukachabine",
     time: "10min",
@@ -13213,8 +13213,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "preparation-C22wBw",
-    title: "Préparation :",
+    id: "et-abonnetoi-pour-plus-de-recettes",
+    title: "Et abonne-toi pour plus de recettes",
     emoji: "🍰",
     cat: "dessert",
     chef: "iletaitunefoislapatisserie",
@@ -13282,8 +13282,8 @@ const RECIPES = [
   {
     id: "buf-aux-oignons-en-15-min",
     title: "Bœuf Aux Oignons En 15 Min. 🇨🇳",
-    emoji: "🫕",
-    cat: "sauce",
+    emoji: "🍰",
+    cat: "dessert",
     chef: "les_recettes_de_margaux",
     chefName: "Margaux 🤍",
     time: "15min",
@@ -13385,8 +13385,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "et-vous-quel-est-votre-chocolat-prefere",
-    title: "Et vous, quel est votre chocolat préféré ?",
+    id: "creme-liquide-tres-froide",
+    title: "Crème liquide très froide",
     emoji: "🍰",
     cat: "dessert",
     chef: "labande___",
@@ -13450,8 +13450,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "300g-de-sucre",
-    title: "300g de sucre",
+    id: "le-jus-dune-orange",
+    title: "Le jus d’une orange",
     emoji: "🥗",
     cat: "entree",
     chef: "camillechamignon",
@@ -13503,8 +13503,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "preparation-C0Zk4B",
-    title: "Préparation :",
+    id: "le-croquant",
+    title: "Le croquant :",
     emoji: "🍰",
     cat: "dessert",
     chef: "750grammes",
@@ -13542,8 +13542,8 @@ const RECIPES = [
   {
     id: "millefeuille-aux-pommes-et-caramel-beurre-sale",
     title: "Mille-feuille aux pommes et caramel beurre salé!!",
-    emoji: "🫕",
-    cat: "sauce",
+    emoji: "🍰",
+    cat: "dessert",
     chef: "cyrillignac",
     chefName: "Cyril Lignac",
     time: "20min",
@@ -13601,8 +13601,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-brut-Czosjs",
-    title: "Recette Brut.",
+    id: "brut-recette-Czosjs",
+    title: "Brut. — Recette",
     emoji: "🫕",
     cat: "sauce",
     chef: "brutofficiel",
@@ -13795,8 +13795,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-meilleur-du-chef",
-    title: "Recette Meilleur du Chef",
+    id: "meilleur-du-chef-recette",
+    title: "Meilleur du Chef — Recette",
     emoji: "🐟",
     cat: "poisson",
     chef: "meilleurduchef",
@@ -13888,8 +13888,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-angele-ferreuxmaeght",
-    title: "Recette Angèle Ferreux-Maeght",
+    id: "salade-vitaminee-aux-inspirations-mediterranee",
+    title: "Salade vitaminée aux inspirations méditerranée",
     emoji: "🥗",
     cat: "entree",
     chef: "angeleferreuxmaeght",
@@ -13927,8 +13927,8 @@ const RECIPES = [
   {
     id: "4-plaques-de-ravioles-du-dauphine",
     title: "– 4 plaques de ravioles du Dauphiné",
-    emoji: "🥬",
-    cat: "accompagnement",
+    emoji: "🍰",
+    cat: "dessert",
     chef: "sandrabssi",
     chefName: "Sandra Bassi 🥨",
     time: "5min",
@@ -13989,8 +13989,8 @@ const RECIPES = [
   {
     id: "recette-creme-a-la-vanille",
     title: "~ RECETTE : Crème à la Vanille ~ ⁣",
-    emoji: "🍽️",
-    cat: "plat",
+    emoji: "🍰",
+    cat: "dessert",
     chef: "lacuisinedebibou",
     chefName: "Marjorie",
     time: "20min",
@@ -14047,7 +14047,7 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "les-ingredients-CyiWlr",
+    id: "les-ingredients",
     title: "Les Ingredients",
     emoji: "🍝",
     cat: "pates",
@@ -14116,8 +14116,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "citron-confit-express",
-    title: "citron confit express",
+    id: "france-inter-recette-CyalLQ",
+    title: "France Inter — Recette",
     emoji: "🍽️",
     cat: "plat",
     chef: "franceinter",
@@ -14256,8 +14256,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "la-recette-de-mon-fondant-au-chocolat",
-    title: "La recette de mon Fondant au chocolat ⬇",
+    id: "fondant-au-chocolat",
+    title: "Fondant au chocolat ⬇️🍫",
     emoji: "🍰",
     cat: "dessert",
     chef: "labande___",
@@ -14350,10 +14350,10 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "la-tarte-aux-legumes-pour-profiter-des-derniers-le",
-    title: "La tarte aux légumes (pour profiter des derniers légumes d’é",
-    emoji: "🥬",
-    cat: "accompagnement",
+    id: "la-tarte-aux-legumes",
+    title: "La tarte aux légumes",
+    emoji: "🍽️",
+    cat: "plat",
     chef: "thecheftomy",
     chefName: "The Chef Tomy",
     time: "45min",
@@ -14426,8 +14426,8 @@ const RECIPES = [
   {
     id: "gratin-de-polenta-au-parmesan",
     title: "Gratin De Polenta Au Parmesan",
-    emoji: "🥬",
-    cat: "accompagnement",
+    emoji: "🐟",
+    cat: "poisson",
     chef: "frgaudry",
     chefName: "François-Régis Gaudry",
     time: "2min",
@@ -14514,13 +14514,13 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-france-inter-Cwr3ED",
-    title: "Recette France Inter",
-    emoji: "🍽️",
-    cat: "plat",
+    id: "moelleux-aux-abricots",
+    title: "Moelleux aux abricots !",
+    emoji: "🍰",
+    cat: "dessert",
     chef: "franceinter",
     chefName: "France Inter",
-    time: "35min",
+    time: "40min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/Cwr3EDZoBVi.jpg",
@@ -14654,8 +14654,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-julie-andrieu-profil-officiel-CvHa3J",
-    title: "Recette Julie Andrieu, Profil Officiel",
+    id: "julie-andrieu-profil-officiel-recette-CvHa3J",
+    title: "Julie Andrieu, Profil Officiel — Recette",
     emoji: "🍽️",
     cat: "plat",
     chef: "julieandrieu.officiel",
@@ -14679,11 +14679,11 @@ const RECIPES = [
   {
     id: "allez-jvous-montre-ma-tartinade-de-mechouia",
     title: "Allez j'vous montre ma tartinade de méchouia !",
-    emoji: "🍽️",
-    cat: "plat",
+    emoji: "🍰",
+    cat: "dessert",
     chef: "abdelalaouiofficiel",
     chefName: "Abdel Alaoui Officiel",
-    time: "35min",
+    time: "40min",
     serves: "3 pers.",
     difficulty: "Facile",
     image: "img/CuzozXVM_D7.jpg",
@@ -14728,8 +14728,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-annecharlotte-pontabry",
-    title: "Recette Anne-Charlotte Pontabry",
+    id: "veloute-et-des-bons-legumes-de-saisons",
+    title: "Velouté et des bons légumes de saisons …",
     emoji: "🥗",
     cat: "entree",
     chef: "annecharlottepontabry",
@@ -14786,8 +14786,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "faire-une-glace-sans-sorbetiere",
-    title: "Faire une glace sans sorbetière!",
+    id: "glace-sans-sorbetiere",
+    title: "Glace sans sorbetière! 🍦🍑🌿",
     emoji: "🍰",
     cat: "dessert",
     chef: "diegoalary",
@@ -14837,8 +14837,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "et-pour-ca-rien-de-plus-simple-il-vous-faudra",
-    title: "Et pour ça rien de plus simple, il vous faudra :",
+    id: "et-hop-le-tour-est-joue",
+    title: "Et hop le tour est joué !",
     emoji: "🍰",
     cat: "dessert",
     chef: "cuisineactuelle",
@@ -14860,8 +14860,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-francoisregis-gaudry-Ct3Eee",
-    title: "Recette François-Régis Gaudry",
+    id: "francoisregis-gaudry-recette-Ct3Eee",
+    title: "François-Régis Gaudry — Recette",
     emoji: "🐟",
     cat: "poisson",
     chef: "frgaudry",
@@ -14912,8 +14912,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "parfait-en-ces-temps-de-forte-chaleur",
-    title: "Parfait en ces temps de forte chaleur !",
+    id: "merci-lepanierduproducteurantibes-pour-ces-delicie",
+    title: "Merci @lepanierduproducteurantibes pour ces délicieuses frai",
     emoji: "🍰",
     cat: "dessert",
     chef: "pourdebon",
@@ -14935,8 +14935,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "recette-julie-andrieu-profil-officiel-Ctb6xp",
-    title: "Recette Julie Andrieu, Profil Officiel",
+    id: "clafoutis-recette-cuisine-patisserie-food-ig",
+    title: "Clafoutis #recette #cuisine #patisserie #food #ig",
     emoji: "🍰",
     cat: "dessert",
     chef: "julieandrieu.officiel",
@@ -15063,8 +15063,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "2tbsp-tahini",
-    title: "2tbsp tahini",
+    id: "juice-of-12-lemon",
+    title: "Juice of 1/2 lemon",
     emoji: "🍽️",
     cat: "plat",
     chef: "desertislanddishes",
@@ -15086,8 +15086,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "preparation-Cr8vP8",
-    title: "Préparation :",
+    id: "mixez-lensemble-jusqua-obtenir-une-texture-homogen",
+    title: "Mixez l’ensemble jusqu’à obtenir une texture homogène et épa",
     emoji: "🥩",
     cat: "viande",
     chef: "750grammes",
@@ -15137,8 +15137,8 @@ const RECIPES = [
     tips: ''
   },
   {
-    id: "prechauffez-le-four-a-110c",
-    title: "Préchauffez le four à 110°C.",
+    id: "pavlova-aerien-et-gracieux-comme-la-danseuse-a",
+    title: "Pavlova? aérien et gracieux comme la danseuse a",
     emoji: "🍰",
     cat: "dessert",
     chef: "laurent.mariotte",
