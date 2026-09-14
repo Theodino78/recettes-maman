@@ -447,7 +447,7 @@ const RECIPES = [
   },
   {
     id: "ingredients",
-    title: "Ingrédients",
+    title: "Tarte Tatin",
     emoji: "🍽️",
     cat: "plat",
     chef: "kitchenfactoryprod",
@@ -1493,7 +1493,7 @@ const RECIPES = [
   },
   {
     id: "monelle-godaert-recette-DaDfSf",
-    title: "Monelle Godaert — Recette",
+    title: "Recette Monelle Godaert",
     emoji: "🥩",
     cat: "viande",
     chef: "not_so_superflu",
@@ -1547,7 +1547,7 @@ const RECIPES = [
   },
   {
     id: "ingredients-pour",
-    title: "Ingrédients pour",
+    title: "Recette vidéo",
     emoji: "🐟",
     cat: "poisson",
     chef: "lesgourmandisesdeloubna",
@@ -1743,7 +1743,7 @@ const RECIPES = [
   },
   {
     id: "tartare",
-    title: "Tartare",
+    title: "Crème Balsamique",
     emoji: "🥗",
     cat: "entree",
     chef: "lesudatable",
@@ -2188,7 +2188,7 @@ const RECIPES = [
   },
   {
     id: "recette",
-    title: " — Recette",
+    title: "Tiramisu",
     emoji: "🍰",
     cat: "dessert",
     chef: "laurent.mariotte",
@@ -2363,7 +2363,7 @@ const RECIPES = [
   },
   {
     id: "lou-elsener-recette",
-    title: "Lou Elsener — Recette",
+    title: "Recette Lou Elsener",
     emoji: "🫕",
     cat: "sauce",
     chef: "louloukitchen_",
@@ -2608,7 +2608,7 @@ const RECIPES = [
   },
   {
     id: "ingredients-DXpCj0",
-    title: "Ingrédients",
+    title: "Pommes De Terre",
     emoji: "🥩",
     cat: "viande",
     chef: "fannymlacuisine",
@@ -2861,7 +2861,7 @@ const RECIPES = [
   },
   {
     id: "ingredients-DXq6iO",
-    title: "Ingrédients",
+    title: "Sardines",
     emoji: "🐟",
     cat: "poisson",
     chef: "kitchenfactoryprod",
@@ -3164,7 +3164,7 @@ const RECIPES = [
   },
   {
     id: "camille-recette",
-    title: "Camille — Recette",
+    title: "Recette Camille",
     emoji: "🍽️",
     cat: "plat",
     chef: "les_tips_de_cam",
@@ -3693,7 +3693,7 @@ const RECIPES = [
   },
   {
     id: "ingredients-pour-DWbQfj",
-    title: "Ingrédients pour",
+    title: "Pommes De Terre",
     emoji: "🥩",
     cat: "viande",
     chef: "laurent.mariotte",
@@ -3841,7 +3841,7 @@ const RECIPES = [
   },
   {
     id: "recette-DV31nU",
-    title: " — Recette",
+    title: "Pâtes Dans Le",
     emoji: "🍝",
     cat: "pates",
     chef: "laurent.mariotte",
@@ -4043,7 +4043,7 @@ const RECIPES = [
   },
   {
     id: "emma-geoffroy-recette",
-    title: "Emma Geoffroy — Recette",
+    title: "Tarte Tatin",
     emoji: "🍽️",
     cat: "plat",
     chef: "casseroleetchocolat",
@@ -4388,7 +4388,7 @@ const RECIPES = [
   },
   {
     id: "lou-elsener-recette-DVN7F3",
-    title: "Lou Elsener — Recette",
+    title: "Recette Lou Elsener",
     emoji: "🍽️",
     cat: "plat",
     chef: "louloukitchen_",
@@ -4676,7 +4676,7 @@ const RECIPES = [
   },
   {
     id: "france-inter-recette-DUr_E1",
-    title: "France Inter — Recette",
+    title: "Recette France Inter",
     emoji: "🫕",
     cat: "sauce",
     chef: "franceinter",
@@ -5024,7 +5024,7 @@ const RECIPES = [
   },
   {
     id: "lou-elsener-recette-DUVQfV",
-    title: "Lou Elsener — Recette",
+    title: "Pommes De Terre",
     emoji: "🥗",
     cat: "entree",
     chef: "louloukitchen_",
@@ -5055,7 +5055,7 @@ const RECIPES = [
   },
   {
     id: "ingredients-DT-LBo",
-    title: "Ingrédients⁠",
+    title: "Tarte Tatin",
     emoji: "🥩",
     cat: "viande",
     chef: "lefooding",
@@ -5346,7 +5346,7 @@ const RECIPES = [
   },
   {
     id: "france-inter-recette-DTR3Jn",
-    title: "France Inter — Recette",
+    title: "Recette France Inter",
     emoji: "🫕",
     cat: "sauce",
     chef: "franceinter",
@@ -5383,7 +5383,7 @@ const RECIPES = [
   },
   {
     id: "france-inter-recette-DS3GC5",
-    title: "France Inter — Recette",
+    title: "Recette France Inter",
     emoji: "🍽️",
     cat: "plat",
     chef: "franceinter",
@@ -5482,7 +5482,7 @@ const RECIPES = [
   },
   {
     id: "france-inter-recette-DSt0BW",
-    title: "France Inter — Recette",
+    title: "Mousse Au Chocolat",
     emoji: "🍰",
     cat: "dessert",
     chef: "franceinter",
@@ -5545,7 +5545,7 @@ const RECIPES = [
   },
   {
     id: "brut-recette",
-    title: "Brut. — Recette",
+    title: "Purée",
     emoji: "🍽️",
     cat: "plat",
     chef: "brutofficiel",
@@ -5635,7 +5635,7 @@ const RECIPES = [
   },
   {
     id: "recette-DSX0Lt",
-    title: " — Recette",
+    title: "Gâteau Renversé Aux",
     emoji: "🍰",
     cat: "dessert",
     chef: "laurent.mariotte",
@@ -5710,7 +5710,7 @@ const RECIPES = [
   },
   {
     id: "ingredients-pour-DSFIrW",
-    title: "Ingrédients pour",
+    title: "Velouté",
     emoji: "🥗",
     cat: "entree",
     chef: "julieandrieu.officiel",
@@ -6018,7 +6018,7 @@ const RECIPES = [
   },
   {
     id: "france-inter-recette-DRltxX",
-    title: "France Inter — Recette",
+    title: "Soupe Aux Légumineuse",
     emoji: "🥗",
     cat: "entree",
     chef: "franceinter",
@@ -6709,7 +6709,7 @@ const RECIPES = [
   },
   {
     id: "pour-la-soupe",
-    title: "Pour la soupe",
+    title: "Recette vidéo",
     emoji: "🥬",
     cat: "accompagnement",
     chef: "louloukitchen_",
@@ -7251,7 +7251,7 @@ const RECIPES = [
   },
   {
     id: "lou-elsener-recette-DPEAvK",
-    title: "Lou Elsener — Recette",
+    title: "Recette Lou Elsener",
     emoji: "🥬",
     cat: "accompagnement",
     chef: "louloukitchen_",
@@ -7616,7 +7616,7 @@ const RECIPES = [
   },
   {
     id: "ingredients-DKSJ0V",
-    title: "Ingrédients⁠",
+    title: "Clafoutis",
     emoji: "🥩",
     cat: "viande",
     chef: "franceinter",
@@ -8000,7 +8000,7 @@ const RECIPES = [
   },
   {
     id: "julie-andrieu-profil-officiel-recette",
-    title: "Julie Andrieu, Profil Officiel — Recette",
+    title: "Pâtes Et Riz",
     emoji: "🍝",
     cat: "pates",
     chef: "julieandrieu.officiel",
@@ -8135,7 +8135,7 @@ const RECIPES = [
   },
   {
     id: "ingredients-DLaQJU",
-    title: "Ingrédients",
+    title: "Ratatouille",
     emoji: "🥩",
     cat: "viande",
     chef: "franceinter",
@@ -8290,7 +8290,7 @@ const RECIPES = [
   },
   {
     id: "ingredients-DK2M9C",
-    title: "Ingrédients",
+    title: "Recette vidéo",
     emoji: "🥩",
     cat: "viande",
     chef: "franceinter",
@@ -8324,7 +8324,7 @@ const RECIPES = [
   },
   {
     id: "ingredients-DKkLWm",
-    title: "Ingrédients",
+    title: "Porc Fermier De",
     emoji: "🥩",
     cat: "viande",
     chef: "franceinter",
@@ -8357,7 +8357,7 @@ const RECIPES = [
   },
   {
     id: "recette-DKWjU8",
-    title: "Recette :",
+    title: "Tarte Aux Pommes",
     emoji: "🍰",
     cat: "dessert",
     chef: "lepointfr",
@@ -8444,7 +8444,7 @@ const RECIPES = [
   },
   {
     id: "europe1-recette",
-    title: "Europe1 — Recette",
+    title: "Pommes De Terre",
     emoji: "🐟",
     cat: "poisson",
     chef: "europe1",
@@ -8633,7 +8633,7 @@ const RECIPES = [
   },
   {
     id: "ingredients-DKAIQJ",
-    title: "Ingrédients :",
+    title: "Recette vidéo",
     emoji: "🥩",
     cat: "viande",
     chef: "franceinter",
@@ -9098,7 +9098,7 @@ const RECIPES = [
   },
   {
     id: "julie-andrieu-profil-officiel-recette-DH3r0a",
-    title: "Julie Andrieu, Profil Officiel — Recette",
+    title: "Cheesecake",
     emoji: "🍰",
     cat: "dessert",
     chef: "julieandrieu.officiel",
@@ -9187,7 +9187,7 @@ const RECIPES = [
   },
   {
     id: "voici-la-liste-des-ingredients-pour",
-    title: "Voici la liste des ingrédients pour",
+    title: "Panna Cotta",
     emoji: "🍰",
     cat: "dessert",
     chef: "dr.jimmy.mohamed",
@@ -9351,7 +9351,7 @@ const RECIPES = [
   },
   {
     id: "jimmy-mohamed-recette",
-    title: "Jimmy Mohamed — Recette",
+    title: "Recette Jimmy Mohamed",
     emoji: "🍽️",
     cat: "plat",
     chef: "dr.jimmy.mohamed",
@@ -9757,7 +9757,7 @@ const RECIPES = [
   },
   {
     id: "jimmy-mohamed-recette-DEap7n",
-    title: "Jimmy Mohamed — Recette",
+    title: "Recette Jimmy Mohamed",
     emoji: "🍽️",
     cat: "plat",
     chef: "dr.jimmy.mohamed",
@@ -9780,7 +9780,7 @@ const RECIPES = [
   },
   {
     id: "ingredients-pour-DEVKsU",
-    title: "Ingrédients pour",
+    title: "Recette vidéo",
     emoji: "🥩",
     cat: "viande",
     chef: "mesdames.media",
@@ -9840,7 +9840,7 @@ const RECIPES = [
   },
   {
     id: "alexis-thiebaut-recette",
-    title: "Alexis Thiebaut — Recette",
+    title: "Vinaigrette",
     emoji: "🐟",
     cat: "poisson",
     chef: "leparisdalexis",
@@ -9997,7 +9997,7 @@ const RECIPES = [
   },
   {
     id: "jimmy-mohamed-recette-DEF9YN",
-    title: "Jimmy Mohamed — Recette",
+    title: "Recette Jimmy Mohamed",
     emoji: "🍽️",
     cat: "plat",
     chef: "dr.jimmy.mohamed",
@@ -10132,7 +10132,7 @@ const RECIPES = [
   },
   {
     id: "france-inter-recette-DDhrJ7",
-    title: "France Inter — Recette",
+    title: "Soupe Originaire Du",
     emoji: "🥗",
     cat: "entree",
     chef: "franceinter",
@@ -10425,7 +10425,7 @@ const RECIPES = [
   },
   {
     id: "ingredients-pour-4-personnes",
-    title: "Ingrédients Pour 4 Personnes",
+    title: "Crème Liquide",
     emoji: "🥩",
     cat: "viande",
     chef: "kitchenfactoryprod",
@@ -10495,7 +10495,7 @@ const RECIPES = [
   },
   {
     id: "belly-recette",
-    title: "Belly — Recette",
+    title: "Recette Belly",
     emoji: "🍽️",
     cat: "plat",
     chef: "belly.media",
@@ -10667,7 +10667,7 @@ const RECIPES = [
   },
   {
     id: "france-inter-recette-DCZlDF",
-    title: "France Inter — Recette",
+    title: "Tarte Préférée",
     emoji: "🍰",
     cat: "dessert",
     chef: "franceinter",
@@ -10985,7 +10985,7 @@ const RECIPES = [
   },
   {
     id: "france-inter-recette-DCHjON",
-    title: "France Inter — Recette",
+    title: "Pâtes Et Du",
     emoji: "🥩",
     cat: "viande",
     chef: "franceinter",
@@ -11067,7 +11067,7 @@ const RECIPES = [
   },
   {
     id: "pour-la-pate-au-cheddar",
-    title: "Pour la pâte au cheddar",
+    title: "Tarte Puis Couvrir",
     emoji: "🍽️",
     cat: "plat",
     chef: "franceinter",
@@ -11268,7 +11268,7 @@ const RECIPES = [
   },
   {
     id: "big-mac",
-    title: "Big Mac",
+    title: "Salade Iceberg",
     emoji: "🥩",
     cat: "viande",
     chef: "mohamedcheikh_",
@@ -11527,7 +11527,7 @@ const RECIPES = [
   },
   {
     id: "xavier-pincemin-recette",
-    title: "Xavier Pincemin — Recette",
+    title: "Recette Xavier Pincemin",
     emoji: "🍽️",
     cat: "plat",
     chef: "xavier_pincemin",
@@ -12499,7 +12499,7 @@ const RECIPES = [
   },
   {
     id: "france-inter-recette-C9U_w4",
-    title: "France Inter — Recette",
+    title: "Recette France Inter",
     emoji: "🍰",
     cat: "dessert",
     chef: "franceinter",
@@ -12620,7 +12620,7 @@ const RECIPES = [
   },
   {
     id: "ingredients-pour-4-personnes-C81YRn",
-    title: "Ingrédients Pour 4 Personnes",
+    title: "Recette vidéo",
     emoji: "🥩",
     cat: "viande",
     chef: "cyrillignac",
@@ -13029,7 +13029,7 @@ const RECIPES = [
   },
   {
     id: "voici-une-nouvelle-recette-parfaite-pour-vos",
-    title: "Voici une nouvelle recette parfaite pour vos",
+    title: "Pommes De Terre",
     emoji: "🥗",
     cat: "entree",
     chef: "missmaggieskitchen",
@@ -13112,7 +13112,7 @@ const RECIPES = [
   },
   {
     id: "marmiton-recette",
-    title: "Marmiton — Recette",
+    title: "Recette Marmiton",
     emoji: "🍽️",
     cat: "plat",
     chef: "marmiton_org",
@@ -13244,7 +13244,7 @@ const RECIPES = [
   },
   {
     id: "ingredients-pour-4-personnes-C2o8A4",
-    title: "Ingrédients Pour 4 Personnes",
+    title: "Pommes De Terre",
     emoji: "🥩",
     cat: "viande",
     chef: "cyrillignac",
@@ -13312,7 +13312,7 @@ const RECIPES = [
   },
   {
     id: "ingredients-pour-4-personnes-C1pUXX",
-    title: "Ingrédients Pour 4 Personnes",
+    title: "Recette vidéo",
     emoji: "🥩",
     cat: "viande",
     chef: "cyrillignac",
@@ -13349,7 +13349,7 @@ const RECIPES = [
   },
   {
     id: "ingredients-pour-4-personnes-C1Kcul",
-    title: "Ingrédients Pour 4 Personnes",
+    title: "Crevettes",
     emoji: "🐟",
     cat: "poisson",
     chef: "cyrillignac",
@@ -13474,7 +13474,7 @@ const RECIPES = [
   },
   {
     id: "ingredients-pour-4-personnes-C0uHh9",
-    title: "Ingrédients Pour 4 Personnes",
+    title: "Moules",
     emoji: "🐟",
     cat: "poisson",
     chef: "cyrillignac",
@@ -13541,7 +13541,7 @@ const RECIPES = [
   },
   {
     id: "ingredients-pour-4-personnes-C0jz-C",
-    title: "Ingrédients Pour 4 Personnes",
+    title: "Crème Liquide Entière",
     emoji: "🫕",
     cat: "sauce",
     chef: "cyrillignac",
@@ -13625,7 +13625,7 @@ const RECIPES = [
   },
   {
     id: "pourdeboncom-recette",
-    title: "Pourdebon.com — Recette",
+    title: "Chapon",
     emoji: "🥩",
     cat: "viande",
     chef: "pourdebon",
@@ -13728,7 +13728,7 @@ const RECIPES = [
   },
   {
     id: "ingredients-pour-4-personnes-C0MpJo",
-    title: "Ingrédients Pour 4 Personnes",
+    title: "Pommes De Terre",
     emoji: "🐟",
     cat: "poisson",
     chef: "cyrillignac",
@@ -13764,7 +13764,7 @@ const RECIPES = [
   },
   {
     id: "ingredients-pour-4-a-6-personnes",
-    title: "Ingrédients Pour 4 A 6 Personnes",
+    title: "Cheesecake",
     emoji: "🍰",
     cat: "dessert",
     chef: "cyrillignac",
@@ -13796,7 +13796,7 @@ const RECIPES = [
   },
   {
     id: "meilleur-du-chef-recette",
-    title: "Meilleur du Chef — Recette",
+    title: "Saumon Pour Noël",
     emoji: "🐟",
     cat: "poisson",
     chef: "meilleurduchef",
@@ -13819,7 +13819,7 @@ const RECIPES = [
   },
   {
     id: "ingredients-pour-4-personnes-C0CUGr",
-    title: "Ingrédients Pour 4 Personnes",
+    title: "Risotto",
     emoji: "🥩",
     cat: "viande",
     chef: "cyrillignac",
@@ -13854,7 +13854,7 @@ const RECIPES = [
   },
   {
     id: "ingredients-pour-4-personnes-Czl_sJ",
-    title: "Ingrédients Pour 4 Personnes",
+    title: "Pommes De Terre",
     emoji: "🥩",
     cat: "viande",
     chef: "cyrillignac",
@@ -13988,7 +13988,7 @@ const RECIPES = [
   },
   {
     id: "marjorie-recette",
-    title: "Marjorie — Recette",
+    title: "Crème À La Vanille",
     emoji: "🍽️",
     cat: "plat",
     chef: "lacuisinedebibou",
@@ -14011,7 +14011,7 @@ const RECIPES = [
   },
   {
     id: "ingredients-pour-4-personnes-Cy785b",
-    title: "Ingrédients Pour 4 Personnes",
+    title: "Bœuf Sauté",
     emoji: "🥩",
     cat: "viande",
     chef: "cyrillignac",
@@ -14515,7 +14515,7 @@ const RECIPES = [
   },
   {
     id: "france-inter-recette-Cwr3ED",
-    title: "France Inter — Recette",
+    title: "Recette France Inter",
     emoji: "🍰",
     cat: "dessert",
     chef: "franceinter",
@@ -14959,7 +14959,7 @@ const RECIPES = [
   },
   {
     id: "ingredients-pour-4-personnes-CtWF6R",
-    title: "Ingrédients Pour 4 Personnes",
+    title: "Ravioles",
     emoji: "🍝",
     cat: "pates",
     chef: "cyrillignac",
@@ -15138,7 +15138,7 @@ const RECIPES = [
   },
   {
     id: "pour-la-meringue",
-    title: "Pour la meringue",
+    title: "Pavlova",
     emoji: "🍰",
     cat: "dessert",
     chef: "laurent.mariotte",
