@@ -253,7 +253,7 @@ const RECIPES = [
   },
   {
     id: "monelle-godaert-recette",
-    title: "Monelle Godaert — Recette",
+    title: "Avec Le Même Ustensile",
     emoji: "🍝",
     cat: "pates",
     chef: "not_so_superflu",
@@ -623,7 +623,7 @@ const RECIPES = [
   },
   {
     id: "france-inter-recette",
-    title: "France Inter — Recette",
+    title: "Super Recette Que J",
     emoji: "🥩",
     cat: "viande",
     chef: "franceinter",
@@ -991,7 +991,7 @@ const RECIPES = [
   },
   {
     id: "pour-la-pate-sablee",
-    title: "Pour la pâte sablée",
+    title: "Pâte Maison Donc On Va",
     emoji: "🍰",
     cat: "dessert",
     chef: "louloukitchen_",
