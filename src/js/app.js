@@ -221,7 +221,7 @@ function renderCard(recipe, showChef = true) {
   const cookedIds = JSON.parse(localStorage.getItem('august-cooked') || '[]');
   const isCooked = cookedIds.includes(recipe.id);
   return `<div class="card${isAdvanced ? ' card-advanced' : ''}" 
-    data-cat="${recipe.cat}" 
+    data-cat="${recipe.cat}" data-veggie="${recipe.veggie || false}" 
     data-difficulty="${recipe.difficulty}"
     onclick="window.app.showRecipe('${recipe.id}')">
     ${isCooked ? '<span class="card-cooked-badge">✅</span>' : ''}
@@ -248,7 +248,7 @@ function filter(cat, chipEl) {
   const grid = document.getElementById('home-grid');
   const cards = grid.querySelectorAll('.card');
   cards.forEach((card, i) => {
-    const show = cat === 'all' || card.dataset.cat === cat;
+    const show = cat === 'all' || card.dataset.cat === cat || (cat === 'veggie' && card.dataset.veggie === 'true');
     card.style.display = show ? '' : 'none';
     if (show) {
       card.style.animationDelay = `${i * 50}ms`;
@@ -264,7 +264,7 @@ function filterChef(chipEl, cat) {
   
   const grid = chipEl.closest('.page').querySelector('.grid');
   grid.querySelectorAll('.card').forEach(card => {
-    const show = cat === 'all' || card.dataset.cat === cat;
+    const show = cat === 'all' || card.dataset.cat === cat || (cat === 'veggie' && card.dataset.veggie === 'true');
     card.style.display = show ? '' : 'none';
   });
 }
@@ -527,6 +527,7 @@ function handleCookedPhoto(e) {
 
   // Re-render home grid to show badge
   renderHomeGrid();
+  restoreView();
 }
 
 function closeCookedModal() {
@@ -920,8 +921,40 @@ function init() {
 }
 
 // Export for inline handlers
+
+// ============================================
+// View Toggle (grid/list)
+// ============================================
+function setView(mode, btnEl) {
+  if (btnEl) {
+    btnEl.closest('.view-toggle').querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
+    btnEl.classList.add('active');
+  }
+  const grid = document.getElementById('home-grid');
+  if (mode === 'list') {
+    grid.classList.add('list-view');
+  } else {
+    grid.classList.remove('list-view');
+  }
+  localStorage.setItem('august-view', mode);
+}
+
+// Restore view preference
+function restoreView() {
+  const mode = localStorage.getItem('august-view');
+  if (mode === 'list') {
+    const grid = document.getElementById('home-grid');
+    if (grid) grid.classList.add('list-view');
+    const btn = document.querySelector('.view-btn:nth-child(2)');
+    if (btn) {
+      btn.closest('.view-toggle')?.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+    }
+  }
+}
+
 window.app = {
-  nav, goBack, showRecipe, showChef, filter, filterChef,
+  nav, goBack, setView, showRecipe, showChef, filter, filterChef,
   checkIng, checkStep, toggleDetail, showAsk, closeAsk, showShop, closeShop,
   toggleShopItem, copyShopList,
   showInteract, showCooked, closeCookedModal, showToast,
