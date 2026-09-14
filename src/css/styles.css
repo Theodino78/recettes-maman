@@ -1567,3 +1567,180 @@ h1, h2, h3 { font-family: 'Playfair Display', serif; }
   }
   body { padding-top: 70px; padding-bottom: 0; }
 }
+
+
+/* ============================================ */
+/* View Toggle                                  */
+/* ============================================ */
+.view-toggle {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 16px 8px;
+  gap: 4px;
+}
+.view-btn {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.12);
+  color: #888;
+  width: 36px; height: 36px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.view-btn.active {
+  background: rgba(255,255,255,0.15);
+  color: #fff;
+  border-color: rgba(255,255,255,0.3);
+}
+
+/* ============================================ */
+/* List View                                    */
+/* ============================================ */
+.grid.list-view {
+  grid-template-columns: 1fr !important;
+  gap: 6px;
+}
+.grid.list-view .card {
+  display: flex !important;
+  flex-direction: row;
+  height: 80px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.grid.list-view .card-img {
+  width: 80px;
+  min-width: 80px;
+  height: 80px;
+  border-radius: 12px 0 0 12px;
+}
+.grid.list-view .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8px 12px;
+  flex: 1;
+  min-width: 0;
+}
+.grid.list-view .card-title {
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.grid.list-view .card-chef { font-size: 11px; }
+.grid.list-view .card-meta { font-size: 11px; }
+.grid.list-view .card-badge, .grid.list-view .card-cooked { display: none; }
+
+/* ============================================ */
+/* Responsive: Tablet (≥768px)                  */
+/* ============================================ */
+@media (min-width: 768px) {
+  body { padding-bottom: 80px; }
+
+  .grid {
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 20px;
+    padding: 16px 32px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .grid.list-view {
+    grid-template-columns: 1fr !important;
+    max-width: 700px;
+  }
+  .filter-chips {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 12px 32px;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+  }
+  .view-toggle {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 32px 12px;
+  }
+  .header {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 24px 32px;
+    text-align: center;
+  }
+  .card-img { height: 200px; }
+  .card { border-radius: 14px; }
+}
+
+/* ============================================ */
+/* Responsive: Desktop (≥1200px)                */
+/* ============================================ */
+@media (min-width: 1200px) {
+  .grid {
+    grid-template-columns: repeat(5, 1fr) !important;
+    gap: 24px;
+    padding: 24px 48px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  .grid.list-view {
+    grid-template-columns: 1fr 1fr !important;
+    max-width: 1000px;
+    gap: 10px;
+  }
+  .grid.list-view .card { height: 90px; }
+  .filter-chips {
+    max-width: 1400px;
+    padding: 16px 48px;
+    gap: 10px;
+  }
+  .view-toggle {
+    max-width: 1400px;
+    padding: 0 48px 16px;
+  }
+  .header {
+    max-width: 1400px;
+    padding: 28px 48px;
+  }
+  .card-img { height: 220px; }
+  .card {
+    border-radius: 16px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(0,0,0,0.5);
+  }
+  .card-title { font-size: 15px; line-height: 1.3; }
+  .card-chef { font-size: 12px; }
+  .card-meta { font-size: 12px; }
+
+  /* Desktop: nav becomes top bar */
+  .bottom-nav {
+    position: fixed;
+    top: 0; bottom: auto;
+    max-width: 1400px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 0 0 16px 16px;
+    border-top: none;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    z-index: 100;
+  }
+  body {
+    padding-top: 80px;
+    padding-bottom: 0;
+  }
+}
+
+/* ============================================ */
+/* Responsive: Wide Desktop (≥1600px)           */
+/* ============================================ */
+@media (min-width: 1600px) {
+  .grid {
+    grid-template-columns: repeat(6, 1fr) !important;
+    max-width: 1700px;
+    gap: 28px;
+  }
+  .card-img { height: 240px; }
+}
