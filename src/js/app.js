@@ -876,7 +876,7 @@ function selectOnboardGoal(el) {
 function renderChefsList() {
   const page = document.getElementById('page-chefs');
   const header = '<div class="header"><h1>Chefs</h1></div>';
-  const cards = CHEFS.filter(c => c.verified).map(chef => {
+  const cards = CHEFS.map(chef => {
     const count = RECIPES.filter(r => r.chef === chef.id).length;
     return `<div class="chef-card" onclick="window.app.showChef('${chef.id}')">
       <div class="chef-avatar">${chef.emoji}</div>
