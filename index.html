@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="theme-color" content="#111111">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Recettes Maman">
+<link rel="apple-touch-icon" href="icon-192.png">
+<title>Recettes Maman</title>
+<link rel="manifest" href="manifest.json">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="src/css/styles.css">
+</head>
+<body>
+
+<!-- Netflix-style Onboarding -->
+<div class="onboarding" id="onboarding" style="display:none">
+  <div class="onboard-screen active">
+    <div class="onboard-title">Choisis tes chefs</div>
+    <div class="onboard-desc">Sélectionne ceux qui t'inspirent. Tu pourras changer plus tard.</div>
+    <div class="onboard-grid" id="onboard-chefs-grid"></div>
+  </div>
+  <div class="onboard-screen">
+    <div class="onboard-title">Qu'est-ce que tu aimes cuisiner ?</div>
+    <div class="onboard-desc">On te proposera des recettes adaptées à tes goûts.</div>
+    <div class="onboard-grid" id="onboard-cats-grid"></div>
+  </div>
+  <div class="onboard-screen">
+    <div class="onboard-title">Ton objectif</div>
+    <div class="onboard-desc">Qu'est-ce qui te motive en cuisine ?</div>
+    <div class="onboard-grid" id="onboard-goals-grid"></div>
+  </div>
+  <div class="onboard-dots">
+    <div class="onboard-dot active"></div>
+    <div class="onboard-dot"></div>
+    <div class="onboard-dot"></div>
+  </div>
+  <button class="onboard-btn">Suivant</button>
+</div>
+
+<!-- Pages -->
+<div class="page active" id="page-home">
+  <div class="header"><h1><span>Recettes Maman</span></h1></div>
+  <div class="filter-chips">
+    <div class="chip active" onclick="window.app.filter('all',this)">Tout</div>
+    <div class="chip" onclick="window.app.filter('entree',this)">🥗 Entrée</div>
+    <div class="chip" onclick="window.app.filter('poisson',this)">🐟 Poisson</div>
+    <div class="chip" onclick="window.app.filter('viande',this)">🥩 Viande</div>
+    <div class="chip" onclick="window.app.filter('pates',this)">🍝 Pâtes</div>
+    <div class="chip" onclick="window.app.filter('accompagnement',this)">🥬 Accomp.</div>
+    <div class="chip" onclick="window.app.filter('dessert',this)">🍫 Dessert</div>
+    <div class="chip" onclick="window.app.filter('sauce',this)">🫕 Sauce</div>
+  </div>
+  <div class="grid" id="home-grid"></div>
+</div>
+
+<div class="page" id="page-chefs">
+  <!-- Rendered by JS -->
+</div>
+
+<div class="page" id="page-chef-detail">
+  <!-- Rendered dynamically -->
+</div>
+
+<div class="page" id="page-recipe-detail">
+  <!-- Rendered dynamically -->
+</div>
+
+<div class="page" id="page-skills">
+  <div class="header"><h1>Skills</h1></div>
+  <div style="padding:20px;color:var(--muted);font-size:14px;line-height:1.6">
+    <p style="font-size:32px;margin-bottom:12px">🔒</p>
+    <p>Techniques que tu as rencontrées en cuisinant.</p>
+    <p style="margin-top:8px;font-size:13px;opacity:0.7">Bientôt disponible.</p>
+  </div>
+</div>
+
+<div class="page" id="page-profil">
+  <div class="header"><h1>Profil</h1></div>
+  <div style="padding:20px;color:var(--muted);font-size:14px;line-height:1.6">
+    <p style="margin-bottom:8px">📊 15 recettes sauvées · 3 chefs suivis</p>
+    <p style="font-size:12px;opacity:0.6">Ton parcours culinaire. Bientôt disponible.</p>
+  </div>
+</div>
+
+<!-- Bottom Navigation -->
+<nav class="bottom-nav">
+  <button class="nav-btn active" data-page="home"><span>🏠</span>Accueil</button>
+  <button class="nav-btn" data-page="chefs"><span>👨‍🍳</span>Chefs</button>
+  <button class="nav-btn" data-page="skills"><span>⚡</span>Skills</button>
+  <button class="nav-btn" data-page="profil"><span>👤</span>Profil</button>
+</nav>
+
+<script type="module" src="src/js/app.js"></script>
+</body>
+</html>
