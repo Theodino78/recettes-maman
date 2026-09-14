@@ -182,6 +182,7 @@ function renderRecipeDetail(recipe) {
     <div class="btn btn-action" onclick="window.app.showShop('${recipe.id}')">🛒 Liste de courses</div>
     <div class="btn btn-action" onclick="window.app.showInteract()">💬 Interagir</div>
     <div class="btn btn-action btn-photo" onclick="window.app.showCooked('${recipe.id}')">📸 J'ai cuisiné ce plat</div>
+    <div class="btn btn-action btn-delete" onclick="window.app.deleteRecipe('${recipe.id}')">🗑️ Supprimer</div>
   </div>`;
   
   return html;
@@ -209,7 +210,8 @@ function toggleDetail(btn, stepIndex, recipeId) {
 // ============================================
 function renderHomeGrid() {
   const grid = document.getElementById('home-grid');
-  grid.innerHTML = RECIPES.map(r => renderCard(r, true)).join('');
+  const hidden = JSON.parse(localStorage.getItem('august-hidden') || '[]');
+  grid.innerHTML = RECIPES.filter(r => !hidden.includes(r.id)).map(r => renderCard(r, true)).join('');
 }
 
 function renderCard(recipe, showChef = true) {
@@ -878,16 +880,23 @@ function renderChefsList() {
   const page = document.getElementById('page-chefs');
   const header = '<div class="header"><h1>Chefs</h1></div>';
   const cards = CHEFS.map(chef => {
-    const count = RECIPES.filter(r => r.chef === chef.id).length;
-    return `<div class="chef-card" onclick="window.app.showChef('${chef.id}')">
-      <div class="chef-avatar">${chef.emoji}</div>
-      <div>
-        <div class="chef-name">${chef.name}${chef.verified ? ' ✓' : ''}</div>
-        <div class="chef-desc">${chef.desc} · ${count} recettes</div>
+    const chefRecipes = RECIPES.filter(r => r.chef === chef.id);
+    const count = chefRecipes.length;
+    if (count === 0) return '';
+    const topRecipe = chefRecipes[0];
+    const img = topRecipe && topRecipe.image 
+      ? `<img class="chef-avatar-img" src="${topRecipe.image}" alt="${chef.name}">`
+      : `<div class="chef-avatar-emoji">${chef.emoji}</div>`;
+    return `<div class="chef-card-visual" onclick="window.app.showChef('${chef.id}')">
+      ${img}
+      <div class="chef-info">
+        <div class="chef-name">${chef.name}</div>
+        <div class="chef-desc">${chef.desc}</div>
+        <div class="chef-count">${count} recette${count > 1 ? 's' : ''}</div>
       </div>
     </div>`;
   }).join('');
-  page.innerHTML = header + cards;
+  page.innerHTML = header + '<div class="chefs-list">' + cards + '</div>';
 }
 
 // ============================================
@@ -953,8 +962,19 @@ function restoreView() {
   }
 }
 
+
+function deleteRecipe(id) {
+  if (!confirm('Supprimer cette recette ?')) return;
+  const hidden = JSON.parse(localStorage.getItem('august-hidden') || '[]');
+  if (!hidden.includes(id)) hidden.push(id);
+  localStorage.setItem('august-hidden', JSON.stringify(hidden));
+  nav('home');
+  renderHomeGrid();
+  showToast('Recette supprimée');
+}
+
 window.app = {
-  nav, goBack, setView, showRecipe, showChef, filter, filterChef,
+  nav, goBack, deleteRecipe, setView, showRecipe, showChef, filter, filterChef,
   checkIng, checkStep, toggleDetail, showAsk, closeAsk, showShop, closeShop,
   toggleShopItem, copyShopList,
   showInteract, showCooked, closeCookedModal, showToast,

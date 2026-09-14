@@ -18,7 +18,18 @@ const RECIPES = [
       { qty: "2", name: "filets mignon de porc de 400 g chacun environ", rayon: 'epicerie' },
       { qty: "1 kg", name: "de prunes Lovita (pas trop mûres)", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Une recette de rentrée qui va nous permettre de prolonger l'été avec des saveurs asiatiques, filet mignon à la citronnel", detail: "" },
+      { text: "La lovita, c'est une nouvelle prune que l'on trouve sur les étals de nos maraîchers à peu près de fin août à novembre.", detail: "" },
+      { text: "Vous allez voir, elle a le calibre d'une nectarine, elle est assez grosse, elle a une chair très sucrée, très juteuse, a", detail: "" },
+      { text: "Et moi, je l'adore parce que j'aime la croquer, mais j'aime aussi la cuisiner. Et là, je vais vous la proposer en associ", detail: "" },
+      { text: "Le porc et les fruits, ça marche toujours, mais le porc et les prunes, c'est encore mieux.", detail: "" },
+      { text: "Regardez, je sais pas si vous voyez bien, mais sa forme parle d'elle-même. Un vrai petit cœur.", detail: "" },
+      { text: "Et on va mettre ça au réfrigérateur pendant une heure et demie, maximum 8 heures, je dirais.", detail: "" },
+      { text: "Au-delà, ça va prendre un peu trop le goût de la marinade. Voilà, la viande est saisie, on va la mettre dans un récipien", detail: "" },
+      { text: "Et on va jeter la marinade dans la cocotte. Normalement, on utilise un mélange 5 épices, qui est un mélange d'épices pro", detail: "" },
+      { text: "Il se trouve que j'en ai pas trouvé au supermarché et c'est ennuyeux. Parce que finalement, ça me permet de vous donner ", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -53,12 +64,23 @@ const RECIPES = [
       { qty: "4/", name: "versez dans un moule et enfournez 35 min à 180 déjà chaud . Laissez tiédir", rayon: 'epicerie' },
       { qty: "6/", name: "faire revenir le reste des fruits rouges avec une pointe de miel", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Pour terminer l'été en beauté, je vous présente mon gâteau Myrtille Vanillehuile d'olive.", detail: "" },
+      { text: "Alors évidemment, l'huile d'olive est extrêmement subtile dans le gâteau, mais c'est ça qui fait pour moi toute la diffé", detail: "" },
+      { text: "Le gâteau est ultra moelleux et avec les petites myrtilles, ça donne de l'acidité.", detail: "" },
+      { text: "Enfin, c'était parfait. Vous allez séparer le blanc des jaunes. Vous mélangez le jaune avec la cassonade, de l'extrait d", detail: "" },
+      { text: "Bon, les étapes de préparation sont très simples. Je vous laisse tout en description.", detail: "" },
+      { text: "Deux pots de yaourt vanille. Et ensuite, on va bien fouetter les blancs en neige.", detail: "" },
+      { text: "Quand ils ont cette texture, vous allez les rajouter à votre préparation avec justement l'huile d'olive.", detail: "" },
+      { text: "Vous faites bien attention à ne pas les casser. Moi, vous savez, les gâteaux comme ça de grand-mère, c'est ma passion.", detail: "" },
+      { text: "Ensuite, on tamise la farine avec la levure chinique. On mélange délicatement et on y incorpore ensuite les myrtilles.", detail: "" },
+      { text: "Et vous n'avez plus qu'ensuite à le mettre dans un moule. Alors moi, c'est un moule de 22 cm.", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "tirage-au-sort-le-1109-et-reglement-du-jeu-disponi",
-    title: "Tirage au sort le 11/09 et règlement du jeu disponible sur g",
+    id: "recette-lou-elsener",
+    title: "Recette Lou Elsener",
     emoji: "🥩",
     cat: "viande",
     chef: "louloukitchen_",
@@ -88,17 +110,28 @@ const RECIPES = [
       { qty: "QS", name: "Likez ce post", rayon: 'epicerie' },
       { qty: "QS", name: "Commentez sous cette publication", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "C'est la rentrée et je vous ai réalisé le poulet le plus incroyable à réaliser si vous recevez à la maison ou même juste", detail: "" },
+      { text: "Après l'avoir laver et fait des entailles, vous prenez le beurre à l'ail des ours que vous mettez dans un saladier, ça v", detail: "" },
+      { text: "Vous y ajoutez une cuillère à soupe de paprika fumée, un petit peu d'ail en poudre et une cuillère à soupe d'origan.", detail: "" },
+      { text: "Un généreux filet d'huile d'olive, ça va vous faire une pâte que vous allez ensuite étaler sur votre poulet.", detail: "" },
+      { text: "J'en profite pour vous dire que vous avez un magnifique concours sur ce poste qui vous permet de remporter deux bons d'a", detail: "" },
+      { text: "Et au-delà de ça, surtout je vous ai fait deux recettes exclusives sur l'application Grand Frê, vous allez retrouver ple", detail: "" },
+      { text: "Vous découpez les carottes fans, les aubergines, les carottes ça va vraiment apporter un truc à la recette, vous allez v", detail: "" },
+      { text: "On les coupe dans la longueur et ensuite on met tout sur la plaque à l'enfour avec le poulet, comme ça tout cuit ensembl", detail: "" },
+      { text: "La veille pensez bien à tremper vos pois chiches, moi c'est les pois chiches grains de frais.", detail: "" },
+      { text: "On les fait cuire 45 minutes, on enlève la peau puis on les mixe pour faire un houmous avec du sel, du cumin, une gousse", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "deroule",
-    title: "Déroulé : ⁠",
-    emoji: "🍰",
-    cat: "dessert",
+    id: "servir-aussitot",
+    title: "Servir aussitôt. ⁠",
+    emoji: "🥩",
+    cat: "viande",
     chef: "franceinter",
     chefName: "France Inter",
-    time: "40min",
+    time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/Dc2sXpCCD21.jpg",
@@ -117,14 +150,25 @@ const RECIPES = [
       { qty: "QS", name: "Prise de vue et son : Didier Mariani et Hélène Beraud⁠", rayon: 'epicerie' },
       { qty: "QS", name: "Montage : Xavier Chocron", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "C'est trop bon ! Hello les amis ! Aujourd'hui attention, tour de magie, un super sorbet aux fraises, hyper fruité, hyper", detail: "" },
+      { text: "C'est parti ! Je commence par écuter 400 grammes de fraises françaises et de saison.", detail: "" },
+      { text: "Le secret c'est qu'elles vont séjourner au minimum une nuit au congélateur. Bon je vous l'avais dit, pas de sorbetière, ", detail: "" },
+      { text: "Et trois ingrédients, nos fraises congelées qui sont dures comme de la pierre, du sucre glace et un peu de blanc d'œuf.", detail: "" },
+      { text: "Dans le bol de mon robot, les fraises congelées et 70 grammes de sucre glace. Je mixe à petite vitesse.", detail: "" },
+      { text: "On obtient une espèce de granité un peu grossier et on va ajouter de blanc d'œuf.", detail: "" },
+      { text: "Et c'est reparti pour un tour. Wow ! Alors attention, c'est un sorbet qui se mixe minute et qui se sert aussitôt.", detail: "" },
+      { text: "Et ensuite évidemment, on ne peut pas recongeler. Quand vous servez ce sorbet à vos invités, vous rajoutez une petite sa", detail: "" },
+      { text: "Vous pouvez même intégrer dans votre recette une herbe aromatique comme l'estragon ou le basilic.", detail: "" },
+      { text: "Et hop, dégustation ! C'est ultra fruité, juste sucré comme il faut. Et ça remplit la bouche avec une texture mousseuse,", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "a-vos-paniers",
     title: "À vos paniers !",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🍽️",
+    cat: "plat",
     chef: "frgaudry",
     chefName: "François-Régis Gaudry",
     time: "30min",
@@ -138,7 +182,16 @@ const RECIPES = [
     ingredients: [
       { qty: "QS", name: "Le secret ? La pâte maison démoniaque de mon amie Tina de @b", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Hello les amis, on se prépare une tarte au mur, oui une tarte au mur sauvage de fin d'été.", detail: "" },
+      { text: "Et on commence par se faire une pâte maison avec dans le saladier 110 g de beurre mou, 185 g de farine, 35 g de sucre ca", detail: "" },
+      { text: "Je mélange avec mes menottes. Cette pâte on va la laisser prendre au frigo, idéalement une nuit.", detail: "" },
+      { text: "Pour une tarte au mur, il nous faut des murs, je vous emmène en cueillette, suivez-moi.", detail: "" },
+      { text: "Je fleure mon plan de travail, directement sur un papier cuisson, j'étale ma pâte avec un rouleau à pâtisserie.", detail: "" },
+      { text: "Je saupoudre mon fond de tarte de poudre d'amandes, je dispose mes fruits au centre de la pâte, j'y vais généreusement e", detail: "" },
+      { text: "J'ajoute quelques bonnes pincées de sucre cassonade. Et c'est parti pour la cuisson dans un four préchauffé à 180°C.", detail: "" },
+      { text: "Ah elle est trop bonne ! Les amis, vous aimez le mur ? Bon, maintenant tarte au mur !", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -159,14 +212,17 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "On va monter le jaune d'oeuf avec le sucre. On va rajouter le mascarpone. On va mélanger avec notre crème délicatement.", detail: "" },
+      { text: "Voilà! Là on prépare le super tiramisu. Cacao à chaque étage. Bon appétit, ragazzi!", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "aujourdhui-cest-clafoutis-party-mais-celui-a-la-mi",
     title: "Aujourd’hui, c’est clafoutis party ! Mais celui à la mirabel",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🥩",
+    cat: "viande",
     chef: "frgaudry",
     chefName: "François-Régis Gaudry",
     time: "1h",
@@ -186,12 +242,18 @@ const RECIPES = [
       { qty: "1", name: "gousse de vanille", rayon: 'epicerie' },
       { qty: "500", name: "grammes de mirabelles", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Hello les amis, un super clafoutis ça vous dit ? Et ouais, c'est la version été d'un clafoutis que j'adore où je remplac", detail: "" },
+      { text: "Attention recette super simple, dans un saladier je mélange 160 g de sucre glace, 35 g de poudre d'amandes et 50 g de fa", detail: "" },
+      { text: "Je mélange mes trois ingrédients secs, et je casse trois œufs. Je mélange, je gratte une belle vanille, je mélange mon c", detail: "" },
+      { text: "J'ai beurré mon moule de 26 centimètres de diamètre et je vais installer 500 g, un demi kilo de Mirabelle que je vais pr", detail: "" },
+      { text: "Je verse mon appareil sur mes Mirabelles et mon claf va cuire pendant une heure dans un four préchauffé à 165 degrés.", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-monelle-godaert",
-    title: "Recette de Monelle Godaert",
+    id: "recette-monelle-godaert",
+    title: "Recette Monelle Godaert",
     emoji: "🍝",
     cat: "pates",
     chef: "not_so_superflu",
@@ -207,12 +269,23 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Vous allez voir ce que je nous ai fait pour ce soir. Franchement, j'ai passé 20 minutes en cuisine.", detail: "" },
+      { text: "J'ai mis 2 blancs de poulet à bouillir avec du sel. Je mets pas d'épices, j'ai pas envie que le poulet ait un goût d'épi", detail: "" },
+      { text: "Juste un peu de sel. Les vermicelles, 4 minutes dans l'eau bouillante. Ensuite vous les rincez à l'eau froide.", detail: "" },
+      { text: "Et à partir de maintenant, je vais tout faire avec le même ustensile. J'ai pris une grosse carotte, je l'ai coupée très ", detail: "" },
+      { text: "Et aussi un concombre que j'ai coupé très très finement. Ça m'a vraiment pris 2 minutes pendant que le poulet est en tra", detail: "" },
+      { text: "Ensuite, j'ai mis une grosse poignée de coriandre et 2 poignées de cacahuètes. Le poulet, je l'ai laissé à peu près 12-1", detail: "" },
+      { text: "Ensuite, je l'ai effiloché. C'est vraiment super facile. J'ai mis aussi un gros avocat et un peu de piment.", detail: "" },
+      { text: "Toujours avec le même ustensile que j'ai réglé au plus fin pour que ça fasse vraiment des fines fines fines lamelles.", detail: "" },
+      { text: "Vous couvrez avec des graines de sésame. Alors pour la sauce, moi je prends toujours ma sauce soja sans colorant.", detail: "" },
+      { text: "Et là, j'ai mis 3 cuillères à soupe de sauce soja. 1 cuillère à soupe d'huile de sésame grillée.", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-monelle-godaert-DcjMNF",
-    title: "Recette de Monelle Godaert",
+    id: "recette-monelle-godaert-DcjMNF",
+    title: "Recette Monelle Godaert",
     emoji: "🍝",
     cat: "pates",
     chef: "not_so_superflu",
@@ -228,12 +301,23 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Aujourd'hui je suis pas toute seule pour cuisiner. Alors regardez bien, je vais vous donner des recettes incroyablement ", detail: "" },
+      { text: "Déjà première étape, une superbe balade dans le potager. On va cuisiner tout ce qu'on est en train de récolter.", detail: "" },
+      { text: "Vous avez vu des poivrons, des piments, des pastèques, des melons, des aubergines, des haricots, des olives.", detail: "" },
+      { text: "Et je vous présente Mirko Vinci. Il me fallait bien un super chef pour avoir des recettes secrètes italiennes.", detail: "" },
+      { text: "Comme je vous disais, vous pouvez vraiment tout réaliser à la maison très facilement.", detail: "" },
+      { text: "Donc première étape, on coupe les tomates et on coupe le basilic. Donc là j'ai mis une quinzaine de tomates et un beau b", detail: "" },
+      { text: "Plein d'huile d'olive, vous voyez, c'est à la louche. Le sel aussi. On mélange bien et c'est ce jus-là qui va faire la s", detail: "" },
+      { text: "Vous voyez le jus. Mais je vais tout vous expliquer. Vous pouvez lancer la cuisson de vos pâtes.", detail: "" },
+      { text: "Nous on les a faites nous-mêmes. On a fait des oriquiettes qui est vraiment la spécialité de la région.", detail: "" },
+      { text: "Mais c'est pareil, vous pouvez vraiment les faire à la maison. Vous avez besoin de 400 grammes de semoule de blé extra f", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "javais-envie-dun-shawarma-mais-aussi-dun-tuna-cado",
-    title: "J’avais envie d’un shawarma mais aussi d’un tuna cado du cou",
+    id: "quelques-feuilles-de-persil",
+    title: "Quelques feuilles de persil",
     emoji: "🐟",
     cat: "poisson",
     chef: "louloukitchen_",
@@ -257,17 +341,22 @@ const RECIPES = [
       { qty: "5", name: "tomates cerises", rayon: 'epicerie' },
       { qty: "1 cac", name: "de paprika fumé mélangé à 3 cas d’huile d’olive", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Alors pour la recette c'est super simple vous avez besoin d'un concombre qu'on va découper en deux il y a une partie qu'", detail: "" },
+      { text: "Là je vais mettre deux grosses cuillères à soupe de skire, je vais mettre du fromage blanc 0% j'en profite pour râper un", detail: "" },
+      { text: "Découpez mon oignon à la mandoline très important il vous faut du persil frais je vais ajouter le tout, le persil dans m", detail: "" },
+      { text: "Ajoutez du coup votre petite sauce concombre ton au milieu ensuite je rajoute un peu de harissa alors c'est optionnel ma", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-monelle-godaert-Da53JW",
-    title: "Recette de Monelle Godaert",
-    emoji: "🍰",
-    cat: "dessert",
+    id: "recette-monelle-godaert-Da53JW",
+    title: "Recette Monelle Godaert",
+    emoji: "🥬",
+    cat: "accompagnement",
     chef: "not_so_superflu",
     chefName: "Monelle Godaert",
-    time: "40min",
+    time: "25min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/Da53JWPIBvj.jpg",
@@ -278,12 +367,23 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Notez bien, bien, bien cette recette. Elle est extraordinaire. Écoutez-moi bien, elle est extraordinaire.", detail: "" },
+      { text: "Hyper simple à faire, avec très peu d'ingrédients, c'est bluffant. Donc vous mettez pas mal d'huile d'olive dans une poê", detail: "" },
+      { text: "Ensuite, un oignon coupé et deux grosses pincées de sel. Moi, j'ai mis des petits cuillères comme ça en bois.", detail: "" },
+      { text: "Allez-y, franchement sur l'ail, j'ai mis quatre belles gousses d'ail. C'est une recette hyper rapide parce que là, j'ai ", detail: "" },
+      { text: "Elle s'enlève toute seule, c'est hyper satisfaisant. Ensuite, j'ai retourné les aubergines pour qu'elles soient bien gri", detail: "" },
+      { text: "Et j'ai recouvert, mais vraiment pas longtemps, il m'a semblé dix minutes, quoi, max.", detail: "" },
+      { text: "Une fois que tout est bien tendre, on met les épices. Donc là, moi, j'ai mis une cuillère à café de cumin et quelques pi", detail: "" },
+      { text: "Mais vous pouvez mettre les épices que vous aimez, même du za'atar ou ce que vous aimez.", detail: "" },
+      { text: "Regardez-moi ça, c'est extraordinaire. Les légumes sont confits. Et ce qui est fou, c'est que ça prend vraiment très peu", detail: "" },
+      { text: "J'ai mis de la coriandre, mais ça c'est pareil, vous pouvez mettre du persil si vous préférez.", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "ces-courgettes-ont-un-defaut-il-nen-reste-jamais-p",
-    title: "Ces courgettes ont un défaut : il n’en reste jamais pour le ",
+    id: "est-en-story-a-la-une-dans-la-rubrique-sale",
+    title: "est en story à la une dans la rubrique « SALÉ »",
     emoji: "🥩",
     cat: "viande",
     chef: "lesdubuissonencuisine",
@@ -308,7 +408,18 @@ const RECIPES = [
       { qty: "QS", name: "* Sel", rayon: 'epicerie' },
       { qty: "QS", name: "* Poivre noir.  La recette est en story à la une dans la rub", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Aujourd'hui on va faire des petits... Je suis bien coiffée ? Impeccable ! T'es sûr ?", detail: "" },
+      { text: "Ah oui, là je sais. Aujourd'hui on va faire des petites courgettes... 1, 2, 3...", detail: "" },
+      { text: "Aujourd'hui on va faire des... Bah alors, on a perdu le fil ? Ouais, c'est ça. Aujourd'hui on va faire des courgettes au", detail: "" },
+      { text: "Je peux être générose que ça vient du jardin. Je découpe mes aubergines en lamelles.", detail: "" },
+      { text: "C'est des aubergines ça ? Putain... Non mais après il faut que je fasse des aubergines pour ça.", detail: "" },
+      { text: "Ah tu m'as demandé de parler, je vais être désagréable. Je découpe mes courgettes en lamelles et les dispose dans mon pl", detail: "" },
+      { text: "Tu peux aller finir ta vaisselle, Mathias va revenir dans 5 minutes si tu veux. J'ai l'autorisation d'aller travailler ?", detail: "" },
+      { text: "Ouais. Merci madame. Donc les courgettes sont coupées, on va mettre nos feuilles d'estragon.", detail: "" },
+      { text: "Et en fait du coup c'est des images pour toi ? À travers. Quand je vais en faire un détail, un petit truc en plus...", detail: "" },
+      { text: "Ah, c'est ce que t'as envie ouais ! Mais comme ça, ça te permet au montage. Tu veux mettre si t'aimes bien ou pas ?", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -329,14 +440,16 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Le mois de septembre c'est vraiment le meilleur mois pour les tomates. Alors aujourd'hui je vous partage la pâte que mes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "tarte-tatin-aux-aubergines-fromage-frais-et-epices",
-    title: "TARTE TATIN AUX AUBERGINES, FROMAGE FRAIS ET ÉPICES DOUCES D",
-    emoji: "🍰",
-    cat: "dessert",
+    id: "15-min-30-min-4-pers",
+    title: "⏱ 15 min |  30 min | 4 pers",
+    emoji: "🍽️",
+    cat: "plat",
     chef: "kitchenfactoryprod",
     chefName: "Kitchen Factory Production 🍽",
     time: "15min",
@@ -364,14 +477,25 @@ const RECIPES = [
       { qty: "1", name: "mixer + 1 passette,", rayon: 'epicerie' },
       { qty: "1", name: "moule à Tatin,", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Bonjour à tous, aujourd'hui un légume de saison, l'aubergine. Je vous propose de la travailler en tartatin sur une tarti", detail: "" },
+      { text: "C'est à la fois réconfortant, rafraîchissant, c'est parfait pour les beaux jours.", detail: "" },
+      { text: "À tousseigneur tout honneur, mes aubergines, je les découpe en rondelles, caramélisées de chaque côté et je débarrasse.", detail: "" },
+      { text: "Ma tartinade à présent, je mets la feta, les tomates confites, une petite gousse d'ail, poudre de coriandre, du sel, un ", detail: "" },
+      { text: "Et on mixe les feuilles de coriandre et un petit jus de citron. Et je remixe. On va maintenant monter notre tartatin.", detail: "" },
+      { text: "Un petit papier sulfurisé, les aubergies. À côté ma pâte feuilletée, je tartine mon mélange, je retourne ma pâte et je f", detail: "" },
+      { text: "Je coupe un peu l'excédent de pâte et ce qui me reste, je l'enveloppe dans ma tarte.", detail: "" },
+      { text: "Et on met au four 30 minutes à 190 degrés. Ma tartin est cuite, regardez comment elle est belle.", detail: "" },
+      { text: "Je l'ai démoulée, de l'huile d'olive et je termine avec des feuilles de roquettes.", detail: "" },
+      { text: "Et c'est tout ratot croustillant et fondant. Vous allez être renversé, j'adore cette tarte.", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "le-one-pot-dinner-quon-veut-tous-les-soirs",
     title: "Le one pot dinner qu’on veut tous les soirs !",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🥩",
+    cat: "viande",
     chef: "jemangequoicesoir",
     chefName: "Emeline Bernard",
     time: "10min",
@@ -385,7 +509,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Si tu n'as pas envie de te prendre la tête ce soir pour le dîner mais que tu as quand même envie de très bien manger, te", detail: "" },
+      { text: "Un minimum de vaisselle, un minimum d'efforts et un maximum du goût. Je commence par faire dourer le poulet dans un file", detail: "" },
+      { text: "Ensuite je verse la crème, le parmesan, le sel et le poivre et je laisse mijoter jusqu'à avoir une sauce bien crémeuse.", detail: "" },
+      { text: "Je termine avec une belle poignée de pouces d'épinard, juste tant qu'elles fondent.", detail: "" },
+      { text: "Et je sers ça avec des tagliatelles, du riz, des recovers ou tous les légumes de ton choix.", detail: "" },
+      { text: "Et voilà, tu as un dîner ultra simple, ultra crémeux et surtout beaucoup trop bon !", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -414,14 +545,25 @@ const RECIPES = [
       { qty: "QS", name: "Tomate cerises", rayon: 'epicerie' },
       { qty: "QS", name: "Miel", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Je vous montre un petit peu ce que je prépare à ma famille. Donc là, on est tous ensemble en vacances, c'est trop sympa.", detail: "" },
+      { text: "Donc j'essaye de faire peu d'ingrédients, mais des plats généreux. Là, j'ai préparé un loup.", detail: "" },
+      { text: "Généralement, je le fais au four à Paris. Mais là, comme je suis en vacances, je vais profiter du barbecue.", detail: "" },
+      { text: "J'ai quadrié des courgettes que j'ai salées et que je mets sur le dessus de mon barbecue.", detail: "" },
+      { text: "Je grille bien le poisson. Ensuite, j'ai mélangé les tomates cerises avec un petit filet de miel et d'huile d'olive que ", detail: "" },
+      { text: "Du coup, vous pouvez le faire à la poêle. Et là, je prépare le caviar de courgettes.", detail: "" },
+      { text: "En fait, je mélange du fromage blanc avec du tahini. C'est de la crème de sésame avec un petit peu de citron, de l'huile", detail: "" },
+      { text: "Donc moi, les herbes, c'est toujours coriandre, persil, un petit peu de sel. On mélange tout ça.", detail: "" },
+      { text: "Et quand la courgette est bien cuite, vous allez l'écraser avec le dos d'une fourchette.", detail: "" },
+      { text: "Moi, j'ai peu d'ustensiles dans cette maison, donc je fais vraiment comme ça avec une fourchette.", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "cuisson",
-    title: "⏱️ Cuisson :",
-    emoji: "🍰",
-    cat: "dessert",
+    title: "⏱ Cuisson :",
+    emoji: "🥗",
+    cat: "entree",
     chef: "fettacuisine_nyc",
     chefName: "Vic & the city 🇺🇸🗽",
     time: "30min",
@@ -449,14 +591,18 @@ const RECIPES = [
       { qty: "QS", name: "½ c. à café de cumin moulu", rayon: 'epicerie' },
       { qty: "1", name: "c. à café d’ail en poudre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Tu veux rendre tes invités heureux, alors fais ce plat. Tu prends un grand fêtou, tu fais revenir deux oignons très très", detail: "" },
+      { text: "C'est une sauce au miel et je te mets toutes les quantités en description. Tu verses ton mélange, tu ajoutes un litre et", detail: "" },
+      { text: "Une demi-heure sur le feu, quatre heures au four, et là je peux te dire que tu vas impressionner tout le monde.", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "le-dessert-express-qui-fait-toujours-son-effet",
     title: "Le dessert express qui fait toujours son effet.",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🥗",
+    cat: "entree",
     chef: "maison_et_poesie",
     chefName: "✨Aurélie✨ Journal d’une maison poétique en Provence",
     time: "15min",
@@ -470,12 +616,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "deroule-DbtoUg",
-    title: "Déroulé :",
+    id: "poulet-aux-trois-tasses-le-poulet-qui-tabasse",
+    title: "poulet aux trois tasses, le poulet qui tabasse !",
     emoji: "🥩",
     cat: "viande",
     chef: "franceinter",
@@ -501,7 +649,18 @@ const RECIPES = [
       { qty: "1", name: "bouquet de basilic thaï frais", rayon: 'epicerie' },
       { qty: "QS", name: "Déroulé :", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "C'est bon, mortel cette recette. Hello mes petits poulets ! Aujourd'hui on se prépare une super recette que j'ai découve", detail: "" },
+      { text: "C'est la 3 cup chicken, littéralement. Le poulet 3 tasses, parce que la sauce se fait à partir d'une tasse d'huile de sé", detail: "" },
+      { text: "Je m'attaque d'abord au poulet. Il me faut 4 cuisses, pilons et hautes cuisses. Ça fait à peu près 900 g de poulet.", detail: "" },
+      { text: "Je découpe mon poulet en morceaux d'environ 2 cm et je les mets de côté. Je détaille un morceau de gingembre de 5 cm en ", detail: "" },
+      { text: "J'émince un oignon doux et je smash 12 gousses d'ail préalablement pelées. Je détaille ensuite un petit piment oiseau.", detail: "" },
+      { text: "Dans une cocotte à feu vif, je verse 3 cl d'huile de sésame. Lorsque l'huile commence à frémir, j'ajoute le gingembre, l", detail: "" },
+      { text: "Je mélange et je laisse cuire environ 2 minutes. Avec ma spatule, j'écarte la garniture sur les bords de la cocotte.", detail: "" },
+      { text: "J'ajoute éventuellement un filet d'huile de sésame au milieu et je dispose mes morceaux de poulet en les laissant au cen", detail: "" },
+      { text: "Je laisse cuire 7 minutes en remuant de temps en temps jusqu'à ce que mes morceaux soient bien dorés et croustillants su", detail: "" },
+      { text: "J'ajoute une cuillère à soupe de sucre cassonade pour que ça caramélise légèrement.", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -533,7 +692,18 @@ const RECIPES = [
       { qty: "500 g", name: "de tomates", rayon: 'epicerie' },
       { qty: "200 g", name: "de pâtes creuses (ziti, ditalini, pipe rigate…)", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Et pour une fois, en restant en France, je vous fais un pistou, une soupo pistou, inspiré du pesto italien évidemment, q", detail: "" },
+      { text: "Alors en principe, la différence entre un pesto italien et un pesto français, c'est que dans la version française, on ne", detail: "" },
+      { text: "Mais moi j'aime bien, j'aime bien quand même, ça donne de la consistance, un peu de goût et ça donne même de la couleur,", detail: "" },
+      { text: "Mais si vous n'en avez pas, ce n'est pas grave. Un peu d'ail, ça c'est indispensable.", detail: "" },
+      { text: "C'est ce qu'on a oublié ? Le parmesan, je me disais bien c'est un peu liquide quand même.", detail: "" },
+      { text: "Le fimo contact, parce que sinon ça a tendance à s'oxyder, à noircir. Et en route pour la soupe.", detail: "" },
+      { text: "On a tout préparé à l'avance, merci les filles de votre aide. J'aime bien mettre le couvercle, ça les oignons vont lâche", detail: "" },
+      { text: "Et là, à partir de l'ébullition, encore 10 minutes, au moins, mais enfin de toute façon, 2 minutes, 5 minutes, ça se goû", detail: "" },
+      { text: "Bon les enfants, ça vous plaît ou pas cette soupe aux légumes ? Ouais trop ! Mieux avec le pistou quand même hein ?", detail: "" },
+      { text: "Oui.", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -563,12 +733,23 @@ const RECIPES = [
       { qty: "2", name: "beaux bouquets de basilic frais", rayon: 'epicerie' },
       { qty: "QS", name: "Un quart de litre d’huile d’olive", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Ah, quelle belle ! Sans moi, ce pisse, ce pisse-bon ! Aujourd'hui, on va faire une soupe au pisse-tout.", detail: "" },
+      { text: "À ma façon. Parce que chacun met ce qu'il veut. Là, on l'a fait pour 12. Alors pour les quantités, je pars.", detail: "" },
+      { text: "6 courgettes, 6 pommes de terre, 300 g d'haricots rouges, 300 g de chaleur et 2 tomates.", detail: "" },
+      { text: "Et quand tout ça est cuit, vous rajoutez des coquillettes. Voilà ! Ça bouge, hein ?", detail: "" },
+      { text: "C'est pas bien le basilic, de l'ail, l'olive, c'est tout le légume en plein air.", detail: "" },
+      { text: "Alors là, le basilic, il n'y en a pas assez, d'un point encore un petit peu. Mais j'en ai au fond du jardin, si vous vou", detail: "" },
+      { text: "Allez, go ! Ah, voilà ça ! Allez, je continue, ce pisse-tout. Il faut les funer.", detail: "" },
+      { text: "Les branches sont un peu plus grosses comme ça. Je ne les jette pas. Allez, je mets un casserole.", detail: "" },
+      { text: "Vous avez tout compris ce que je vous dis ? Ça va ! Donc, et bien justement, c'est l'ail.", detail: "" },
+      { text: "Et l'ail, on en met un premier. Parce qu'il faut bien le mixer. Si on a des gros morceaux, il ne va pas vendre.", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-el-piex",
-    title: "Recette de EL PIEX",
+    id: "recette-el-piex",
+    title: "Recette EL PIEX",
     emoji: "🍽️",
     cat: "plat",
     chef: "el__piex",
@@ -584,12 +765,23 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Bon c'est vous, excusez-moi. Ouais ? Dites-moi, est-ce que vous habitez dans le coin ?", detail: "" },
+      { text: "Bah oui. Tu vois là je suis en train de faire mes courses sur la caddie. Parce qu'en fait, je fais un petit concept.", detail: "" },
+      { text: "Ouais. Et je vais vous proposer de venir cuisiner chez vous ce soir. Chez moi ? T'as l'air de se entendre que je sais pa", detail: "" },
+      { text: "Ah non non, c'est pas ça. Mais c'est que je me dis que c'est un bon moment. Y'a un truc que mon fiancé adore, hein.", detail: "" },
+      { text: "De viter l'autonat. Ah, bien sûr. Tu sais faire ça ? Je suis le pro de ça. Ah bon ?", detail: "" },
+      { text: "Salut, bienvenue. Regarde Raoul. T'as pas une pièce. Bienvenue dans le couloir Inspiration africaine.", detail: "" },
+      { text: "C'est magnifique. La cuisine t'a plein de petits souvenirs. Bon, alors, y'a pas mal de ce que je suis obligée de m'aider", detail: "" },
+      { text: "Le jour où t'auras une question du trivial pour si t'avais ton nom. Je peux pas te croire.", detail: "" },
+      { text: "Quel jeu a emmené Sophie d'avant en Mexique ? Un jour t'auras ta question. Waouh.", detail: "" },
+      { text: "Alors ça c'est une question de photos. Elle est où ta photo ? Euh, ma photo. Elle est gentille mais j'étais pas encore n", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-monelle-godaert-DbEOmG",
-    title: "Recette de Monelle Godaert",
+    id: "recette-monelle-godaert-DbEOmG",
+    title: "Recette Monelle Godaert",
     emoji: "🍽️",
     cat: "plat",
     chef: "not_so_superflu",
@@ -605,12 +797,23 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Cette recette, elle est super light, je me la fais tout le temps quand j'ai envie de faire un peu attention à ce que je ", detail: "" },
+      { text: "Et restez bien, on va couper le poulet avec ça. Alors tout simple, on commence par couper le concombre.", detail: "" },
+      { text: "Donc là, je l'ai fait en spaghetti avec un économe à julienne. Ça se trouve vraiment dans tous les supermarchés.", detail: "" },
+      { text: "J'ai mis un peu de sel sur le concombre, comme ça il va dégorger pendant que je coupe les carottes.", detail: "" },
+      { text: "Et vous voyez les carottes avec un économe classique, vous faites des fines lamelles comme ça.", detail: "" },
+      { text: "Ensuite, donc vous mettez ensemble carotte, concombre et on prépare la sauce. J'ai mis trois grosses cuillères à soupe d", detail: "" },
+      { text: "J'ai pressé un demi-citron, l'équivalent d'une cuillère à café d'ice moule. Vous pouvez aussi mettre de l'ail frais, deu", detail: "" },
+      { text: "Là, j'ai fait un mélange avec un peu de cumin, de zahattar, un gros filet d'huile d'olive.", detail: "" },
+      { text: "Vous pouvez aussi mettre une cuillère de mayonnaise si vous préférez. Vous pouvez faire une maillot légère d'ailleurs, j", detail: "" },
+      { text: "Et là, c'est parti, on effiloche le poulet avec ça. C'est vous qui m'avez remémoré que j'avais cette ustensile, franchem", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "caponata-de-cyril-lignac",
-    title: "CAPONATA DE CYRIL LIGNAC",
+    title: "Caponata De Cyril Lignac",
     emoji: "🥗",
     cat: "entree",
     chef: "kitchenfactoryprod",
@@ -640,12 +843,22 @@ const RECIPES = [
       { qty: "1", name: "grande sauteuse,", rayon: 'epicerie' },
       { qty: "1", name: "plat de service.", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Bonjour à tous, direction l'Italie aujourd'hui avec la version sicilienne de notre atatouille, la caponata doule basilic", detail: "" },
+      { text: "C'est parti ! Les légumes du soleil pour commencer, je démarre avec l'aubergine.", detail: "" },
+      { text: "Je m'attaque aux courgettes, je fais des petits dés. Mes aubergines sont cuites, je les débarrasse et place aux courgett", detail: "" },
+      { text: "Mes brocolettis, je les effets cuire dans de l'eau juste avant et là je les passe à la poêle pour enlever toute l'humidi", detail: "" },
+      { text: "Mes légumes sont prêts, je vais pouvoir cuire ma caponata. Je fais revenir les oignons avec de l'ail.", detail: "" },
+      { text: "Mes morceaux de sel, riz branche et je rajoute mes légumes. Ma sauce tomate, un petit peu d'eau et là on laisse compoter", detail: "" },
+      { text: "On touche aux putes, il est temps d'apporter l'acidité dans ma caponata. Du vinaigre rubinaud, un vinaigre de vin rouge ", detail: "" },
+      { text: "Je vais pouvoir dresser. Un filet d'huile d'olive, mes feuilles de basilic. C'est à la fois vif et enveloppant.", detail: "" },
+      { text: "Les saveurs de la méditerranée, j'adore !", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-francoisregis-gaudry",
-    title: "Recette de François-Régis Gaudry",
+    id: "recette-francoisregis-gaudry",
+    title: "Recette François-Régis Gaudry",
     emoji: "🍽️",
     cat: "plat",
     chef: "frgaudry",
@@ -661,12 +874,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "prenons-un-peu-davance-sur-la-saison-estivale",
-    title: "️ Prenons un peu d'avance sur la saison estivale !",
+    id: "tout-le-secret-est-dans-la-vinaigrette",
+    title: "Tout le secret est dans la vinaigrette !",
     emoji: "🥩",
     cat: "viande",
     chef: "lepointfr",
@@ -691,7 +906,18 @@ const RECIPES = [
       { qty: "QS", name: "Mélange quatre-épices contenant de la cannelle", rayon: 'epicerie' },
       { qty: "QS", name: "Sel", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Bonjour, pour moi l'été ça rime avec tableboulé. Quand j'étais chef au crayon, j'avais un de mes adjoints qui était Liba", detail: "" },
+      { text: "Et pour nous régaler, il nous préparait un tableboulé. C'était une recette familiale.", detail: "" },
+      { text: "Il était tellement bon, je l'ai même proposé aux clients dans les étages. Maintenant c'est vous qui allez le découvrir.", detail: "" },
+      { text: "On a coupé les tomates en cubes. On a conservé bien l'intérieur. On va bien presser.", detail: "" },
+      { text: "On va bien récupérer le jus. On va le verser sur le blé concassé. Et ça on va le laisser gonfler pendant une heure.", detail: "" },
+      { text: "On va faire la vinaigrette au sumac qui va assaisonner le tableboulé. On a conservé un petit peu de jus de tomates.", detail: "" },
+      { text: "On va mettre du jus de citron. On va saler. On va mettre une pincée de 4 épices qui contient de la cannelle.", detail: "" },
+      { text: "Ça c'est extrêmement important parce que ce qui va définir un peu l'identité gustative du sumac.", detail: "" },
+      { text: "Le sumac on peut être un peu généreux. On mélange bien tout ça. Ça fait bien dissoutre le sel.", detail: "" },
+      { text: "Et on va monter avec l'huile d'olive. Voilà. Donc chose importante, on va goûter.", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -712,7 +938,18 @@ const RECIPES = [
     ingredients: [
       { qty: "QS", name: "La recette se trouve sur cette page en story à la une.", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Je les coupe en quatre et je les mets dans mon plat. Ensuite, on viendra rajouter les épices, le miel, les oignons, le l", detail: "" },
+      { text: "Les petits oignons en lamelles, on les rajoute sur nos carottes. Ça fait pleurer les oignons ?", detail: "" },
+      { text: "Un petit peu. Bon, alors je saupoudre deux quarts d'amone, un petit peu de sel, un petit peu de poudre de coriandre, un ", detail: "" },
+      { text: "C'est de la crème de coco exactement. Un soupe son miel. Non, mais pas trop parce que Enzo va en manger, mais vous, vous", detail: "" },
+      { text: "C'est meilleur. Hop ! Et on va mixer du gingembre. Quand vous coupez votre gingembre grossièrement...", detail: "" },
+      { text: "Toi aussi, tu pleures, Jade ? C'est une horreur, ce truc. Et je ne suis même pas à côté des oignons.", detail: "" },
+      { text: "Je ne sais pas pourquoi ils sont aussi forts que ça. D'habitude, ça ne fait pas ça.", detail: "" },
+      { text: "Ça me fait courir le nez. Non, non, moi ça me coule les yeux. J'ai poussé mes carottes à l'extrémité parce que les oigno", detail: "" },
+      { text: "On n'en a même plus à parler. J'ai comme d'habitude des petits bocots de près. Je mets deux mini bocots d'ail.", detail: "" },
+      { text: "Avec, on va dire, à peu près 6 cm de gingembre. Et je vais venir mettre les feuilles de basilic.", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -742,12 +979,19 @@ const RECIPES = [
       { qty: "2/", name: "faites revenir les pavés de saumon. Reservez", rayon: 'epicerie' },
       { qty: "4/", name: "dressez les courgettes au fond d’une assiette, le saumon et la sauce.", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Mes dîners sains du soir, rien de spécial mais j'aime beaucoup manger ça. C'est un petit pavé de saumon avec des courget", detail: "" },
+      { text: "Vous allez passer à la mandoline trois courgettes, vous les coupez tout simplement très finement.", detail: "" },
+      { text: "Ensuite on les fait revenir dans un bon filet d'huile d'olive avec un peu d'herbe de provence.", detail: "" },
+      { text: "On prend nos pavés de saumon et une fois que les courgettes sont bien cuites, on les retire.", detail: "" },
+      { text: "On cuit les pavés de saumon sur les deux faces. Pour la sauce, je mélange du beurre avec un peu de farine.", detail: "" },
+      { text: "Ensuite, j'ajoute du jus de citron et un peu de crème. De la ciboulette. J' dispose ensuite les rondelles de courgettes ", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "glace-vanille",
-    title: "Glace vanille",
+    id: "250g-de-farine",
+    title: "250g de farine",
     emoji: "🍰",
     cat: "dessert",
     chef: "louloukitchen_",
@@ -774,12 +1018,18 @@ const RECIPES = [
       { qty: "QS", name: "Huile d’olive", rayon: 'epicerie' },
       { qty: "QS", name: "Cuisson : 35 min à 200", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Bon les enfants vous les mangez quoi pour le goûter là ? Un gâteau au chocolat Oh non non il fait trop chaud pour un gât", detail: "" },
+      { text: "Ah oui bonne idée je vais juste faire ça Tiens tu peux me mettre ça dans le... Non pas dans le micro je vais le faire to", detail: "" },
+      { text: "C'est pas très grave Et un œuf Super vous pouvez tout poser Magnifique Avec vos petites mains bronzées là Non c'est moi ", detail: "" },
+      { text: "Hein ? Tu n'as pas d'accord parce que C'est comme de la mozzarella C'est la dégustation c'est parti Oh c'est beau C'est ", detail: "" },
+      { text: "Vous ne dites pas ça pour les caméras j'espère Elle est très très bonne Je n'ai pas besoin de prouver hein Je n'ai pas b", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "rdv-samedi-a-2000-et-dimanche-a-1200-sur-parisprem",
-    title: "️ Rdv samedi à 20:00 et dimanche à 12:00 sur @parispremiere ",
+    title: "Rdv samedi à 20:00 et dimanche à 12:00 sur @parispremiere !",
     emoji: "🥩",
     cat: "viande",
     chef: "ttbontv",
@@ -795,12 +1045,22 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Attablons-nous au cœur de Harle, ça s'appelle Mesa. Mais non ! Mais si ! Mesa !", detail: "" },
+      { text: "Ah Mesa ! Je trouve que ça donne très grand goût. Et surtout accompagné d'une si belle équipe.", detail: "" },
+      { text: "Oh ! La cuisson est parfaite. Très bien essayée. Je vais dire. C'est beau ! Moi j'adore.", detail: "" },
+      { text: "Oh wow ! Moi personnellement j'adore les frites. Elles font et elles ont une très bonne texture.", detail: "" },
+      { text: "J'adore le koumouat. C'est hyper tendre. Le petit reproche que je fais, un tout petit peu trop salé.", detail: "" },
+      { text: "Vraiment bon ! Ah moi ça me plaît. Ça fait très viandé parce que je pense que le thon est passé aussi au sel.", detail: "" },
+      { text: "Tout à l'heure je me tape cette poêlée de légumes qui est absolument délicieuse.", detail: "" },
+      { text: "Non, c'est pas mal du tout. C'est mon dessert préféré. Non, mon dessert préféré.", detail: "" },
+      { text: "C'est mon dessert préféré. Mais non !", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "et-vous-cest-quoi-le-repas-que-vous-preferez-faire",
-    title: "Et vous c’est quoi le repas que vous préférez faire quand vo",
+    id: "wrap-mediterraneen",
+    title: "Wrap méditerranéen",
     emoji: "🥩",
     cat: "viande",
     chef: "charlinedieteticienne",
@@ -819,7 +1079,18 @@ const RECIPES = [
       { qty: "40 g", name: "d’huile d’olive", rayon: 'epicerie' },
       { qty: "QS", name: "Une pincée de sel", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Je vous montre le repas que je préfère faire quand je reçois. Ça demande un peu de préparation mais après t'as plus rien", detail: "" },
+      { text: "Chacun prend ce qu'il veut, en quantité qu'il veut. Tu peux tester plein d'associations différentes, c'est hyper convivi", detail: "" },
+      { text: "Et je trouve que ça matche aussi bien en pleine canicule qu'en plein hiver, t'as juste à adapter tes légumes.", detail: "" },
+      { text: "Vraiment, je vois aucun défaut. Allez, je vous montre. C'est une vraie partie. Je vous mettrai la recette de ma pâte à b", detail: "" },
+      { text: "Regarde-moi cette beauté là. Et après, point important, vous les superposez les unes sur les autres et vous les couvrez ", detail: "" },
+      { text: "Pour l'accompagnement, on commence par les protéines. Je vous conseille d'avoir du chouat.", detail: "" },
+      { text: "Moi j'ai mis du poisson fumé, du poulet au thym rôti et des falafels mais ça peut être n'importe quelle protéine végétal", detail: "" },
+      { text: "Des haricots rouges en chili, enfin ce que vous voulez. Pour les sauces pour tartiner sur le wrap, j'ai mis du fromage f", detail: "" },
+      { text: "J'ai fait mon houmous de petits pois, c'est une recette de mon premier livre, je vous la partagerai.", detail: "" },
+      { text: "Et du houmous classique. Vous pouvez faire aussi du guacamole, enfin ce que vous voulez.", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -854,14 +1125,23 @@ const RECIPES = [
       { qty: "QS", name: "des haricots verts (vapeur)", rayon: 'epicerie' },
       { qty: "QS", name: "une boîte de thon égouttée", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Si tu aimes les salades de pommes de terre bien gourmande, fraîche et riche en saveurs, cette recette est pour toi.", detail: "" },
+      { text: "Dans un saladier, tu mets 3 jaunes d'oeufs que tu as fait cuire au préalable et laisser refroidir et tu réserves les bla", detail: "" },
+      { text: "Avec une cuillère à soupe de moutarde et un yaourt grec, tu mélanges bien en écrasant bien le jaune d'oeuf.", detail: "" },
+      { text: "Ensuite tu ajoutes l'équivalent de 3 cuillères à soupe de vinaigre de cidre, de l'huile d'olive, 2 cuillères à café de m", detail: "" },
+      { text: "Tu mélanges bien jusqu'à obtenir une sauce anctueuse. Et enfin dans le même salade, tu disposes des pommes de terre pelé", detail: "" },
+      { text: "Et puis une boîte de temps égouttée, les 3 blancs d'oeufs qu'on a laissés de côté et un avocat le tout coupé en petits d", detail: "" },
+      { text: "Tu mélanges le tout et c'est déjà prêt à déguster, une salade complète pour un repas léger et équilibré.", detail: "" },
+      { text: "Pour plus de recettes faciles, abonne-toi !", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "un-petit-passage-au-frais-de-15-a-30-minutes-et-ce",
-    title: "Un petit passage au frais de 15 à 30 minutes, et c’est encor",
-    emoji: "🍝",
-    cat: "pates",
+    id: "parfaite-pour-les-journees-de-chaleur",
+    title: "parfaite pour les journées de chaleur !",
+    emoji: "🥩",
+    cat: "viande",
     chef: "hervecuisine",
     chefName: "HERVÉ CUISINE · Recettes faciles & de saison",
     time: "30min",
@@ -887,12 +1167,20 @@ const RECIPES = [
       { qty: "1", name: "gousse d’ail râpée", rayon: 'epicerie' },
       { qty: "1", name: "c. à café de gingembre frais râpé", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Quelle est donc cette sauce qui donne autant de goût à ma salade de courgettes qu'elle est fraîche, croquante, c'est tro", detail: "" },
+      { text: "On commence par couper nos courgettes en quatre et on va les passer à la mandoline ou à l'économe pour obtenir des tagli", detail: "" },
+      { text: "Ensuite on va émincer un oignon nouveau et dans un bol je mets de l'huile d'olive, de l'huile de sésame, un peu de vinai", detail: "" },
+      { text: "Et on émulsionne l'ensemble avec de l'ail et du gingembre, ça donnera beaucoup de goût à votre préparation.", detail: "" },
+      { text: "Voilà, petite sauce magique pour l'été pour vos salades, c'est top. Et ensuite vous allez pouvoir la verser sur vos tagl", detail: "" },
+      { text: "A servir dans une assiette avec un petit peu de feta émietté sur le dessus et j'ai mis de la menthe et de la coriandre, ", detail: "" },
+      { text: "N'hésitez pas à me dire si vous voyez d'autres choses à ajouter.", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "caviar-daubergine-au-curry-burrata-de-cyril-lignac",
-    title: "CAVIAR D’AUBERGINE AU CURRY, BURRATA DE CYRIL LIGNAC",
+    title: "Caviar D’Aubergine Au Curry, Burrata De Cyril Lignac",
     emoji: "🥗",
     cat: "entree",
     chef: "kitchenfactoryprod",
@@ -920,7 +1208,18 @@ const RECIPES = [
       { qty: "1", name: "saladier + 1 presse-ail + 1 fourchette,", rayon: 'epicerie' },
       { qty: "4", name: "assiettes de service.", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Bonjour à tous au programme aujourd'hui, un mezzé signature de la Méditerranée, le caviar d'aubergines aussi appelé Mout", detail: "" },
+      { text: "Ici pour plus de saveur et de volupté, j'y ajoute une pointe de curry et de la burrata.", detail: "" },
+      { text: "C'est parti ! Les aubergines pour commencer. D'ailleurs je me suis habillé en aubergines aujourd'hui.", detail: "" },
+      { text: "Je retire le pédoncure et je la coupe en deux. Je quadrille toujours mon aubergines.", detail: "" },
+      { text: "Du sel, du curry, du poivre et je les mets à cuire dans la poêle avec un fond d'huile d'olive.", detail: "" },
+      { text: "Là je retourne mes aubergines. Un petit peu d'huile d'olive. Et là on va le cuire 35 minutes à 190°C.", detail: "" },
+      { text: "Mes aubergines sont cuites, elles ont réduit. On va pouvoir préparer le caviar. Je racle le cœur de l'aubergine.", detail: "" },
+      { text: "Pour éviter les petits fils, comme ça on va le hacher. J'ai mis ma bulbe d'aubergine dans un saladier.", detail: "" },
+      { text: "Je vais ajouter de l'ail haché pour relever le tout. Un petit peu de sel. C'est l'heure du dressage, mon caviar d'auberg", detail: "" },
+      { text: "Ma burrata coupé en deux. Un filet d'huile d'olive. Du sel, du piment d'espelette et je termine avec un peu de basilic.", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -948,12 +1247,23 @@ const RECIPES = [
       { qty: "QS", name: "Huile d’olive , miel, zaatar, sumac ( ou paprika )", rayon: 'epicerie' },
       { qty: "QS", name: "Première cuisson : 30 min à 200 degrés + cuisson 12 min à 20", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Mon poisson du soleil, c'est exactement le style de repas que je vais faire un soir de semaine.", detail: "" },
+      { text: "Ça permet aux enfants de manger des légumes. C'est un plat qui plaît à tout le monde.", detail: "" },
+      { text: "Et ce qui est trop bien, c'est que ça cuit au four. Du coup, pendant ce temps, je peux m'occuper du roche du soir, le ba", detail: "" },
+      { text: "Vous découpez des pommes de terre en rondelles, des courgettes vertes et blanches, ainsi qu'un oignon.", detail: "" },
+      { text: "Alors normalement, je fais ça à la mandoline, mais là, je sais pas, j'ai oublié de ramener ma mandoline de Marseille.", detail: "" },
+      { text: "Du coup, il faut que j'en rachète une, mais c'est encore mieux à la mandoline. Des branches de tomates cerises, ça va ca", detail: "" },
+      { text: "Du coup, ça va faire une petite sauce. Et ensuite, il faut faire la marinade. Donc moi, je mélange de l'huile d'olive av", detail: "" },
+      { text: "C'est une épice du Moyen-Orient qui est un peu citronnée. Du coup, c'est très très bon.", detail: "" },
+      { text: "Du zahattar et un petit peu de sel fumé, du miel. Mais en soi, vous faites la marinade que vous voulez.", detail: "" },
+      { text: "Ça peut être du paprika fumé, enfin, ce que vous voulez. Vous badigeonnez bien les légumes.", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "il-y-a-des-desserts-qui-nont-pas-besoin-de-four-po",
-    title: "Il y a des desserts qui n'ont pas besoin de four pour faire ",
+    id: "recette-viviana-pisacane-topchef17",
+    title: "Recette Viviana Pisacane TopChef17",
     emoji: "🍰",
     cat: "dessert",
     chef: "viviana_pisacane",
@@ -969,12 +1279,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-monelle-godaert-DaJJuS",
-    title: "Recette de Monelle Godaert",
+    id: "recette-monelle-godaert-DaJJuS",
+    title: "Recette Monelle Godaert",
     emoji: "🍽️",
     cat: "plat",
     chef: "not_so_superflu",
@@ -990,7 +1302,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -1023,12 +1337,14 @@ const RECIPES = [
       { qty: "QS", name: "Vinaigre vin rouge 300gr", rayon: 'epicerie' },
       { qty: "QS", name: "Jus de citron frais 25gr", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "sauce-teriyaki-by-mory-sacko",
-    title: "SAUCE TERIYAKI by Mory SACKO ⭐️",
+    title: "SAUCE TERIYAKI by Mory SACKO ⭐",
     emoji: "🥬",
     cat: "accompagnement",
     chef: "happycook.fr",
@@ -1050,14 +1366,16 @@ const RECIPES = [
       { qty: "7 cl", name: "de sauce soja vieillie", rayon: 'epicerie' },
       { qty: "3 cl", name: "de fécule de pomme de terre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "je-crois-que-les-recettes-les-plus-simples-sont-so",
-    title: "Je crois que les recettes les plus simples sont souvent les ",
-    emoji: "🍰",
-    cat: "dessert",
+    id: "poulet",
+    title: "Poulet",
+    emoji: "🥩",
+    cat: "viande",
     chef: "miraysway",
     chefName: "Miray | recettes sans prise de tête",
     time: "45min",
@@ -1083,7 +1401,9 @@ const RECIPES = [
       { qty: "1", name: "c. à café d’herbes de Provence", rayon: 'epicerie' },
       { qty: "QS", name: "Sel & poivre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -1111,12 +1431,14 @@ const RECIPES = [
       { qty: "QS", name: "Des oeufs durs", rayon: 'epicerie' },
       { qty: "QS", name: "Basilic", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "insalata-di-melone-anguria-cipolla-di-tropea-cetri",
-    title: "Insalata di melone, anguria, cipolla di Tropea, cetrioli, fe",
+    id: "ingredienti-x2",
+    title: "Ingredienti x2:",
     emoji: "🍽️",
     cat: "plat",
     chef: "sebastian_fitarau",
@@ -1141,12 +1463,14 @@ const RECIPES = [
       { qty: "QS", name: "Pepper, to taste", rayon: 'epicerie' },
       { qty: "QS", name: "Almonds, to taste", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-monelle-godaert-DZs2uQ",
-    title: "Recette de Monelle Godaert",
+    id: "recette-monelle-godaert-DZs2uQ",
+    title: "Recette Monelle Godaert",
     emoji: "🍽️",
     cat: "plat",
     chef: "not_so_superflu",
@@ -1162,17 +1486,19 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-monelle-godaert-DaDfSf",
-    title: "Recette de Monelle Godaert",
-    emoji: "🍰",
-    cat: "dessert",
+    id: "recette-monelle-godaert-DaDfSf",
+    title: "Recette Monelle Godaert",
+    emoji: "🐟",
+    cat: "poisson",
     chef: "not_so_superflu",
     chefName: "Monelle Godaert",
-    time: "40min",
+    time: "30min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/DaDfSfpo3vP.jpg",
@@ -1183,7 +1509,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -1212,7 +1540,9 @@ const RECIPES = [
       { qty: "QS", name: "Huile d’olive", rayon: 'epicerie' },
       { qty: "QS", name: "Sel", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -1240,17 +1570,19 @@ const RECIPES = [
       { qty: "QS", name: "Sel, poivre", rayon: 'epicerie' },
       { qty: "QS", name: "Un filet d’huile d’olive", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-lou-elsener",
-    title: "Recette de Lou Elsener",
-    emoji: "🥗",
-    cat: "entree",
+    id: "recette-lou-elsener-DZ-QXU",
+    title: "Recette Lou Elsener",
+    emoji: "🍽️",
+    cat: "plat",
     chef: "louloukitchen_",
     chefName: "Lou Elsener",
-    time: "20min",
+    time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/DZ-QXUdNlkn.jpg",
@@ -1261,7 +1593,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -1288,19 +1622,21 @@ const RECIPES = [
       { qty: "QS", name: "👉 Feuilles de basilic 🌿", rayon: 'epicerie' },
       { qty: "QS", name: "👉 Quelques graines", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-cuisine-actuelle",
-    title: "Recette de Cuisine Actuelle",
-    emoji: "🍰",
-    cat: "dessert",
+    id: "recette-cuisine-actuelle",
+    title: "Recette Cuisine Actuelle",
+    emoji: "🥬",
+    cat: "accompagnement",
     chef: "cuisineactuelle",
     chefName: "Cuisine Actuelle",
-    time: "40min",
+    time: "25min",
     serves: "4 pers.",
-    difficulty: "Moyen",
+    difficulty: "Facile",
     image: "img/DZsj_7qD72r.jpg",
     link: "https://www.instagram.com/cuisineactuelle/reel/DZsj_7qD72r/",
     linkType: "instagram",
@@ -1309,12 +1645,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "allez-un-pas-de-plus-vers-lete-avec-ce-plat-de-fle",
-    title: "Allez un pas de plus vers l'été avec ce plat de fleurs de co",
+    id: "quelques-brins-de-ciboulette",
+    title: "Quelques brins de ciboulette",
     emoji: "🥬",
     cat: "accompagnement",
     chef: "__beurrenoisette",
@@ -1344,7 +1682,9 @@ const RECIPES = [
       { qty: "1", name: "petite branche de romarin", rayon: 'epicerie' },
       { qty: "QS", name: "Huile d'olive", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -1365,7 +1705,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -1394,14 +1736,16 @@ const RECIPES = [
       { qty: "QS", name: "Sel, poivre", rayon: 'epicerie' },
       { qty: "QS", name: "Huile de friture", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "cest-frais-cest-de-saison-et-100-vegetarien",
     title: "C’est frais, c’est de saison, et 100% végétarien",
-    emoji: "🥬",
-    cat: "accompagnement",
+    emoji: "🥗",
+    cat: "entree",
     chef: "lesudatable",
     chefName: "Sylvia Mareuse",
     time: "25min",
@@ -1429,17 +1773,19 @@ const RECIPES = [
       { qty: "QS", name: "➡️Les disposer sur une plaque de four recouverte de papier s", rayon: 'epicerie' },
       { qty: "QS", name: "➡️Ajouter de l’huile d’olive", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "lasagnes-dete",
-    title: "Lasagnes d'été ️",
-    emoji: "🍝",
-    cat: "pates",
+    title: "Lasagnes d'été",
+    emoji: "🥩",
+    cat: "viande",
     chef: "mykitchenetteciebyaicha",
     chefName: "Aicha Abdellaoui",
-    time: "25min",
+    time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/DZj9v3QAXGX.jpg",
@@ -1450,7 +1796,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -1471,7 +1819,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -1499,12 +1849,14 @@ const RECIPES = [
       { qty: "QS", name: "Sel", rayon: 'epicerie' },
       { qty: "QS", name: "Poivre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "encornets-grilles-creme-de-chorizo-de-cyril-lignac",
-    title: "ENCORNETS GRILLÉS, CRÈME DE CHORIZO DE CYRIL LIGNAC",
+    title: "Encornets Grillés, Crème De Chorizo De Cyril Lignac",
     emoji: "🫕",
     cat: "sauce",
     chef: "kitchenfactoryprod",
@@ -1529,7 +1881,9 @@ const RECIPES = [
       { qty: "120g", name: "de crème liquide entière", rayon: 'epicerie' },
       { qty: "6 cl", name: "de bouillon cube de volaille", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -1556,7 +1910,9 @@ const RECIPES = [
       { qty: "QS", name: "Coriandre finement hachée⁠", rayon: 'epicerie' },
       { qty: "1", name: "poignée de cacahuètes hachées grossièrement", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -1579,7 +1935,9 @@ const RECIPES = [
       { qty: "QS", name: "* 200 g de miel liquide de fleurs.", rayon: 'epicerie' },
       { qty: "QS", name: "* Jus d’un demi-citron (optionnel, selon votre goût)", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -1600,7 +1958,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -1621,7 +1981,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -1642,12 +2004,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "la-cuisson-dun-petit-canon-de-quasi-de-veau-en-vue",
-    title: "La cuisson d’un petit canon de quasi de veau en vue d’un vit",
+    id: "recette-stephanie-le-quellec",
+    title: "Recette Stephanie Le Quellec",
     emoji: "🥩",
     cat: "viande",
     chef: "steflequellec",
@@ -1663,7 +2027,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -1691,7 +2057,9 @@ const RECIPES = [
       { qty: "QS", name: "Tomates cerises", rayon: 'epicerie' },
       { qty: "QS", name: "Zaatar", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -1718,12 +2086,14 @@ const RECIPES = [
       { qty: "30g", name: "de sucre", rayon: 'epicerie' },
       { qty: "QS", name: "un peu de jus de citron (optionnel)", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "risotto-a-la-milanaise-de-cyril-lignac",
-    title: "RISOTTO À LA MILANAISE DE CYRIL LIGNAC",
+    title: "Risotto À La Milanaise De Cyril Lignac",
     emoji: "🍰",
     cat: "dessert",
     chef: "kitchenfactoryprod",
@@ -1753,17 +2123,19 @@ const RECIPES = [
       { qty: "1", name: "petit saladier ou bol (facultatif),", rayon: 'epicerie' },
       { qty: "1", name: "sauteuse,", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "panna-cotta-aux-fraises",
     title: "↓ Panna cotta aux fraises ↓",
-    emoji: "🍽️",
-    cat: "plat",
+    emoji: "🍰",
+    cat: "dessert",
     chef: "mamy.etjordan",
     chefName: "Mamy et Jordan",
-    time: "35min",
+    time: "40min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/DYSHmz7hmjL.jpg",
@@ -1778,7 +2150,9 @@ const RECIPES = [
       { qty: "1", name: "bâton de vanille", rayon: 'epicerie' },
       { qty: "10", name: "fraises (à votre convenance)", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -1807,7 +2181,9 @@ const RECIPES = [
       { qty: "1/2", name: "gousse d’ail", rayon: 'epicerie' },
       { qty: "QS", name: "Persil, basilic", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -1828,17 +2204,19 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "la-recette-detaillee-est-juste-en-dessous",
     title: "La recette détaillée est juste en dessous",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🥩",
+    cat: "viande",
     chef: "albs.cook",
     chefName: "albs.cook",
-    time: "40min",
+    time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/DYxFA5_tuVT.jpg",
@@ -1858,12 +2236,14 @@ const RECIPES = [
       { qty: "QS", name: "Huile de cuisson, sel et poivre", rayon: 'epicerie' },
       { qty: "QS", name: "Préparation", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "artichauts-barigoules-une-jolie-recette-provencale",
-    title: "Artichauts barigoules, une jolie recette provençale pour les",
+    id: "provencale-pour-les-beaux-jours",
+    title: "provençale pour les beaux jours",
     emoji: "🍽️",
     cat: "plat",
     chef: "ericfrechon",
@@ -1879,7 +2259,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -1900,7 +2282,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -1926,7 +2310,9 @@ const RECIPES = [
       { qty: "20", name: "grammes de sésame torréfié", rayon: 'epicerie' },
       { qty: "20", name: "grammes de sauce soja", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -1947,7 +2333,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -1968,7 +2356,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -1992,19 +2382,21 @@ const RECIPES = [
       { qty: "4/5", name: "citron bio", rayon: 'epicerie' },
       { qty: "150g", name: "de glace vanille", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "gateau-aux-fraises-sans-cuisson",
     title: "Gâteau aux fraises sans cuisson",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🥩",
+    cat: "viande",
     chef: "laviedunefitmum",
     chefName: "Anastasia Szymanski",
     time: "10min",
     serves: "4 pers.",
-    difficulty: "Moyen",
+    difficulty: "Facile",
     image: "img/DYT_bUgMv2X.jpg",
     link: "https://www.instagram.com/laviedunefitmum/reel/DYT_bUgMv2X/",
     linkType: "instagram",
@@ -2019,7 +2411,9 @@ const RECIPES = [
       { qty: "70g", name: "de sucre glace", rayon: 'epicerie' },
       { qty: "1 cac", name: "de graines de vanille", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -2046,12 +2440,14 @@ const RECIPES = [
       { qty: "QS", name: "Du lait pour imbiber", rayon: 'epicerie' },
       { qty: "QS", name: "Des fruits pour la décoration", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-monelle-godaert-DYnMxg",
-    title: "Recette de Monelle Godaert",
+    id: "recette-monelle-godaert-DYnMxg",
+    title: "Recette Monelle Godaert",
     emoji: "🍝",
     cat: "pates",
     chef: "not_so_superflu",
@@ -2067,12 +2463,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "tartinade-daubergines-et-poivrons",
-    title: "TARTINADE D'AUBERGINES ET POIVRONS ️",
+    title: "Tartinade D'Aubergines Et Poivrons",
     emoji: "🥬",
     cat: "accompagnement",
     chef: "demotivateurfood_fr",
@@ -2088,17 +2486,19 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-lou-elsener-DYmFrK",
-    title: "Recette de Lou Elsener",
-    emoji: "🥗",
-    cat: "entree",
+    id: "recette-lou-elsener-DYmFrK",
+    title: "Recette Lou Elsener",
+    emoji: "🥩",
+    cat: "viande",
     chef: "louloukitchen_",
     chefName: "Lou Elsener",
-    time: "20min",
+    time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/DYmFrKCt6Pe.jpg",
@@ -2109,12 +2509,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "pavlova-exotique",
-    title: "️PAVLOVA EXOTIQUE",
+    title: "Pavlova Exotique",
     emoji: "🍰",
     cat: "dessert",
     chef: "lesgourmandisesdeloubna",
@@ -2130,7 +2532,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -2151,7 +2555,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -2172,12 +2578,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-lou-elsener-DYWue7",
-    title: "Recette de Lou Elsener",
+    id: "recette-lou-elsener-DYWue7",
+    title: "Recette Lou Elsener",
     emoji: "🥗",
     cat: "entree",
     chef: "louloukitchen_",
@@ -2193,17 +2601,19 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "poulet-pommes-de-terre-petits-pois-toutenun",
     title: "Poulet pommes de terre & petits pois (tout-en-un)",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🥩",
+    cat: "viande",
     chef: "fannymlacuisine",
     chefName: "Fanny Masri | Creatrice de recettes raffinées | Art de la table",
-    time: "40min",
+    time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/DXpCj03jJz8.jpg",
@@ -2224,12 +2634,14 @@ const RECIPES = [
       { qty: "2 cs", name: "de concentré de tomate", rayon: 'epicerie' },
       { qty: "QS", name: "Eau", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "marinade-miso-miso-vinaigre-de-riz-huile-de-sesame",
-    title: "Marinade miso : miso, vinaigre de riz, huile de sesame, sauc",
+    id: "recette-julien-sebbag",
+    title: "Recette Julien Sebbag",
     emoji: "🐟",
     cat: "poisson",
     chef: "juliensebbag",
@@ -2245,7 +2657,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -2272,12 +2686,14 @@ const RECIPES = [
       { qty: "QS", name: "Des spaghettis", rayon: 'epicerie' },
       { qty: "QS", name: "Huile d’olive ( 4 litres 🤣)", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "poulet-marry-me",
-    title: "Poulet Marry me ‍️",
+    title: "Poulet Marry me",
     emoji: "🥩",
     cat: "viande",
     chef: "benjaminfurno",
@@ -2306,17 +2722,19 @@ const RECIPES = [
       { qty: "50g", name: "de parmesan", rayon: 'epicerie' },
       { qty: "QS", name: "Persil", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "si-vous-cherchez-une-recette-simple-et-parfumee-ne",
-    title: "Si vous cherchez une recette simple et parfumée, ne bougez p",
-    emoji: "🍰",
-    cat: "dessert",
+    id: "les-ingredients-DXyJfd",
+    title: "Les ingrédients :",
+    emoji: "🥗",
+    cat: "entree",
     chef: "abdelalaouiofficiel",
     chefName: "Abdel Alaoui Officiel",
-    time: "40min",
+    time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/DXyJfd5Ko9R.jpg",
@@ -2330,7 +2748,9 @@ const RECIPES = [
       { qty: "1", name: "citron", rayon: 'epicerie' },
       { qty: "1", name: "orange •1c à c de cumin en poudre •sel/poivre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -2351,7 +2771,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -2372,12 +2794,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette",
-    title: "Recette",
+    id: "vos-legumes-herbes-doivent-etre-en-parfait-etat",
+    title: "Vos légumes / herbes doivent être en parfait état",
     emoji: "🥗",
     cat: "entree",
     chef: "slideforfood",
@@ -2393,14 +2817,16 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "quiche-de-courgette-au-pesto-de-cyril-lignac",
-    title: "QUICHE DE COURGETTE AU PESTO DE CYRIL LIGNAC",
-    emoji: "🍰",
-    cat: "dessert",
+    title: "Quiche De Courgette Au Pesto De Cyril Lignac",
+    emoji: "🍽️",
+    cat: "plat",
     chef: "kitchenfactoryprod",
     chefName: "Kitchen Factory Production 🍽",
     time: "20min",
@@ -2428,14 +2854,16 @@ const RECIPES = [
       { qty: "3", name: "œufs,", rayon: 'epicerie' },
       { qty: "12 cl", name: "de lait entier,", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "carpaccio-de-sardines-aux-citron-et-baies-roses-de",
-    title: "CARPACCIO DE SARDINES AUX CITRON ET BAIES ROSES DE CYRIL LIG",
-    emoji: "🍽️",
-    cat: "plat",
+    title: "Carpaccio De Sardines Aux Citron Et Baies Roses De Cyril Lig",
+    emoji: "🐟",
+    cat: "poisson",
     chef: "kitchenfactoryprod",
     chefName: "Kitchen Factory Production 🍽",
     time: "15min",
@@ -2458,12 +2886,14 @@ const RECIPES = [
       { qty: "1", name: "râpe Microplane + 1 passette + 1 mortier,", rayon: 'epicerie' },
       { qty: "1", name: "râpe Microplane.", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "poulet-congele-pas-de-panique",
-    title: "️POULET CONGELÉ ?? Pas de panique",
+    title: "POULET CONGELÉ ?? Pas de panique",
     emoji: "🥩",
     cat: "viande",
     chef: "lesgourmandisesdeloubna",
@@ -2488,19 +2918,21 @@ const RECIPES = [
       { qty: "1", name: "c. à c. de sumac", rayon: 'epicerie' },
       { qty: "2", name: "c.à.s Huile d’olive", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "une-viande-confite-aux-saveurs-thailandaises-puree",
-    title: "Une viande confite aux saveurs thaïlandaises, purée de patat",
-    emoji: "🥩",
-    cat: "viande",
+    id: "500g-viande-de-buf-a-bourguignon-style-paleron",
+    title: "500g viande de bœuf à bourguignon style paleron",
+    emoji: "🫕",
+    cat: "sauce",
     chef: "louloukitchen_",
     chefName: "Lou Elsener",
-    time: "45min",
+    time: "15min",
     serves: "4 pers.",
-    difficulty: "Facile",
+    difficulty: "Moyen",
     image: "img/DXo7dtCtjUQ.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DXo7dtCtjUQ/",
     linkType: "instagram",
@@ -2520,17 +2952,19 @@ const RECIPES = [
       { qty: "QS", name: "Herbes : coriandre persil ciboulette ( ce que vous aimez )", rayon: 'epicerie' },
       { qty: "QS", name: "Citron vert", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "le-meilleur-de-ma-semaine",
-    title: "LE MEILLEUR DE MA SEMAINE",
-    emoji: "🍽️",
-    cat: "***",
+    title: "Le Meilleur De Ma Semaine",
+    emoji: "🥩",
+    cat: "viande",
     chef: "frgaudry",
     chefName: "François-Régis Gaudry",
-    time: "30min",
+    time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/DXn-rUYiCcR.jpg",
@@ -2541,12 +2975,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "both-recipes-in-this-weeks-substack-find-them-via-",
-    title: "Both recipes in this week’s Substack - find them via the lin",
+    id: "recette-yotam-ottolenghi",
+    title: "Recette Yotam Ottolenghi",
     emoji: "🥬",
     cat: "accompagnement",
     chef: "ottolenghi",
@@ -2562,7 +2998,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -2591,12 +3029,14 @@ const RECIPES = [
       { qty: "QS", name: "Sel", rayon: 'epicerie' },
       { qty: "QS", name: "Poivre du moulin", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "cheese-cake-yuzu",
-    title: "CHEESE CAKE YUZU",
+    title: "Cheese Cake Yuzu",
     emoji: "🍽️",
     cat: "plat",
     chef: "louloukitchen_",
@@ -2620,7 +3060,9 @@ const RECIPES = [
       { qty: "QS", name: "Cuisson : 40 min à 210", rayon: 'epicerie' },
       { qty: "QS", name: "Retrouvez-moi à Cannes sur la Plage Nespresso dans moins d’u", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -2649,7 +3091,9 @@ const RECIPES = [
       { qty: "QS", name: "¼ de c. à café de noix de muscade moulue", rayon: 'epicerie' },
       { qty: "QS", name: "Sel, poivre, muscade", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -2678,19 +3122,21 @@ const RECIPES = [
       { qty: "QS", name: "Sauce :", rayon: 'epicerie' },
       { qty: "QS", name: "Skyr/ œufs durs, Houmous, huile d’olive, citron, sel poivre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "tarte-confit-daubergine-ail-roti",
-    title: "TARTE CONFIT D’AUBERGINE AIL RÔTI",
-    emoji: "🍰",
-    cat: "dessert",
+    title: "Tarte Confit D’Aubergine Ail Rôti",
+    emoji: "🍽️",
+    cat: "plat",
     chef: "louloukitchen_",
     chefName: "Lou Elsener",
     time: "40min",
     serves: "4 pers.",
-    difficulty: "Moyen",
+    difficulty: "Facile",
     image: "img/DXcDhCPoY9A.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DXcDhCPoY9A/",
     linkType: "instagram",
@@ -2711,12 +3157,14 @@ const RECIPES = [
       { qty: "QS", name: "Cuissons aubergines : 40 min à 200", rayon: 'epicerie' },
       { qty: "QS", name: "Cuisson tarte : 35 min à 200, laissez bien refroidir", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "je-vous-emmene-en-cuisine-pour-preparer-un-apero-d",
-    title: "Je vous emmène en cuisine pour préparer un apéro dînatoire p",
+    id: "recette-camille",
+    title: "Recette Camille",
     emoji: "🍽️",
     cat: "plat",
     chef: "les_tips_de_cam",
@@ -2732,11 +3180,13 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-DXCeKE",
+    id: "recette",
     title: "Recette :",
     emoji: "🐟",
     cat: "poisson",
@@ -2753,14 +3203,16 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "tiramisu-aux-fruits-rouges-de-cyril-lignac",
-    title: "TIRAMISU AUX FRUITS ROUGES DE CYRIL LIGNAC",
-    emoji: "🍰",
-    cat: "dessert",
+    title: "Tiramisu Aux Fruits Rouges De Cyril Lignac",
+    emoji: "🥗",
+    cat: "entree",
     chef: "kitchenfactoryprod",
     chefName: "Kitchen Factory Production 🍽",
     time: "20min",
@@ -2786,12 +3238,14 @@ const RECIPES = [
       { qty: "1", name: "assiette creuse + 4 ramequins + cuillères à soupe,", rayon: 'epicerie' },
       { qty: "1", name: "râpe Microplane.", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "10min-recette-de-healthy-mamacita",
-    title: "10MIN RECETTE DE HEALTHY MAMACITA",
+    id: "du-saumon-ou-de-la-truite-fumee",
+    title: "Du saumon ou de la truite fumée",
     emoji: "🐟",
     cat: "poisson",
     chef: "louloukitchen_",
@@ -2810,14 +3264,16 @@ const RECIPES = [
       { qty: "QS", name: "Du fromage frais ou du cottage cheese", rayon: 'epicerie' },
       { qty: "QS", name: "Pignons  de pins", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "millefeuille-aux-fraises-de-cyril-lignac",
-    title: "MILLEFEUILLE AUX FRAISES DE CYRIL LIGNAC",
-    emoji: "🍰",
-    cat: "dessert",
+    title: "Millefeuille Aux Fraises De Cyril Lignac",
+    emoji: "🥗",
+    cat: "entree",
     chef: "kitchenfactoryprod",
     chefName: "Kitchen Factory Production 🍽",
     time: "25min",
@@ -2841,14 +3297,16 @@ const RECIPES = [
       { qty: "1", name: "batteur électrique,", rayon: 'epicerie' },
       { qty: "4", name: "assiettes à dessert + cuillères à soupe.", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "eton-mess-au-yaourt-citron-cassis-de-cyril-lignac",
-    title: "ETON MESS AU YAOURT, CITRON CASSIS DE CYRIL LIGNAC",
-    emoji: "🍰",
-    cat: "dessert",
+    title: "Eton Mess Au Yaourt, Citron Cassis De Cyril Lignac",
+    emoji: "🥗",
+    cat: "entree",
     chef: "kitchenfactoryprod",
     chefName: "Kitchen Factory Production 🍽",
     time: "15min",
@@ -2875,7 +3333,9 @@ const RECIPES = [
       { qty: "1", name: "saladier + 1 spatule,", rayon: 'epicerie' },
       { qty: "4", name: "coupes à glace en verre+ cuillères à soupe.", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -2908,7 +3368,9 @@ const RECIPES = [
       { qty: "QS", name: "Oignon nouveau", rayon: 'epicerie' },
       { qty: "QS", name: "Citron vert", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -2929,7 +3391,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -2957,14 +3421,16 @@ const RECIPES = [
       { qty: "QS", name: "Piment d’espelette", rayon: 'epicerie' },
       { qty: "QS", name: "Riz à sushi", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "la-jardiniere-de-legumes-de-ma-maman",
     title: "La jardinière de légumes de ma maman",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🥩",
+    cat: "viande",
     chef: "not_so_superflu",
     chefName: "Monelle Godaert",
     time: "3min",
@@ -2992,7 +3458,9 @@ const RECIPES = [
       { qty: "QS", name: "Laisser cuire encore 3–5 minutes", rayon: 'epicerie' },
       { qty: "QS", name: "Ajouter du persil frais haché", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -3018,17 +3486,19 @@ const RECIPES = [
       { qty: "QS", name: "Un sachet de levure chimique", rayon: 'epicerie' },
       { qty: "1 /", name: "râpez les courgettes, dégorgez les dans un torchon pour retirez l’eau", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-brut",
-    title: "Recette de Brut.",
-    emoji: "🍰",
-    cat: "dessert",
+    id: "recette-brut",
+    title: "Recette Brut.",
+    emoji: "🥩",
+    cat: "viande",
     chef: "brutofficiel",
     chefName: "Brut.",
-    time: "40min",
+    time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/DWvyhioAD-G.jpg",
@@ -3039,19 +3509,21 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "un-agneau-de-paques-delicieux-qui-change-et-surtou",
-    title: "Un agneau de Pâques délicieux qui change et surtout bon marc",
-    emoji: "🍰",
-    cat: "dessert",
+    id: "collier-dagneau-confit-doucement",
+    title: "Collier d’agneau confit doucement",
+    emoji: "🥩",
+    cat: "viande",
     chef: "steflequellec",
     chefName: "Stephanie Le Quellec",
-    time: "40min",
+    time: "45min",
     serves: "6 pers.",
-    difficulty: "Moyen",
+    difficulty: "Facile",
     image: "img/DWrQUdyAfuz.jpg",
     link: "https://www.instagram.com/steflequellec/reel/DWrQUdyAfuz/",
     linkType: "instagram",
@@ -3060,7 +3532,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -3093,19 +3567,21 @@ const RECIPES = [
       { qty: "QS", name: "Prise de vue et son : Maxime Soulard et Jules Benveniste⁠", rayon: 'epicerie' },
       { qty: "QS", name: "Montage : Hélène Béraud", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "buf-facon-tigre-qui-pleure-salade-thai-de-cyril-li",
-    title: "BŒUF FAÇON TIGRE QUI PLEURE, SALADE THAÏ DE CYRIL LIGNAC",
-    emoji: "🥩",
-    cat: "viande",
+    title: "Bœuf Façon Tigre Qui Pleure, Salade Thaï De Cyril Lignac",
+    emoji: "🐟",
+    cat: "poisson",
     chef: "kitchenfactoryprod",
     chefName: "Kitchen Factory Production 🍽",
     time: "30min",
     serves: "4 pers.",
-    difficulty: "Facile",
+    difficulty: "Moyen",
     image: "img/DWlg3CkDDAz.jpg",
     link: "https://www.instagram.com/kitchenfactoryprod/reel/DWlg3CkDDAz/",
     linkType: "instagram",
@@ -3128,7 +3604,9 @@ const RECIPES = [
       { qty: "1", name: "cuil. à soupe de sucre cassonade,", rayon: 'epicerie' },
       { qty: "1", name: "cuil. à soupe de pâte de crevettes,", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -3158,7 +3636,9 @@ const RECIPES = [
       { qty: "50g", name: "de farine", rayon: 'epicerie' },
       { qty: "QS", name: "Un petit pot de crème liquide entière", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -3183,14 +3663,16 @@ const RECIPES = [
       { qty: "1", name: "cuillère à soupe de mélange d’herbes séchées", rayon: 'epicerie' },
       { qty: "QS", name: "Pincée de sel", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "recette-facile-et-inratable",
     title: "Recette facile et inratable",
-    emoji: "🍽️",
-    cat: "plat",
+    emoji: "🥩",
+    cat: "viande",
     chef: "saroukitchen",
     chefName: "Saroukitchen",
     time: "3h",
@@ -3199,19 +3681,21 @@ const RECIPES = [
     image: "img/DWW3zL1jUzw.jpg",
     link: "https://www.instagram.com/saroukitchen/reel/DWW3zL1jUzw/",
     linkType: "instagram",
-    veggie: true,
+    veggie: false,
     techniques: [],
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "hello-les-amis-DWbQfj",
     title: "Hello les amis,",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🥩",
+    cat: "viande",
     chef: "laurent.mariotte",
     chefName: "",
     time: "4min",
@@ -3236,7 +3720,9 @@ const RECIPES = [
       { qty: "1", name: "bouquet garni", rayon: 'epicerie' },
       { qty: "QS", name: "Sel et poivre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -3269,17 +3755,19 @@ const RECIPES = [
       { qty: "QS", name: "Huile d’olive", rayon: 'epicerie' },
       { qty: "QS", name: "Basilic", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "easy-pasta-primavera",
     title: "Easy pasta Primavera",
-    emoji: "🍝",
-    cat: "pates",
+    emoji: "🥩",
+    cat: "viande",
     chef: "steflequellec",
     chefName: "Stephanie Le Quellec",
-    time: "25min",
+    time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/DWZT8PUgf-Y.jpg",
@@ -3290,14 +3778,16 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "les-ingredients-DWL3yn",
     title: "Les ingrédients :",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🥩",
+    cat: "viande",
     chef: "lepointfr",
     chefName: "Le Point",
     time: "3min",
@@ -3321,7 +3811,9 @@ const RECIPES = [
       { qty: "QS", name: "Sel", rayon: 'epicerie' },
       { qty: "QS", name: "Poivre du moulin", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -3342,7 +3834,9 @@ const RECIPES = [
     ingredients: [
       { qty: "QS", name: "Pour la sauce", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -3369,7 +3863,9 @@ const RECIPES = [
       { qty: "QS", name: "Piment en flocon (Peperoncino)", rayon: 'epicerie' },
       { qty: "QS", name: "Gros sel, poivre, vinaigre blanc", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -3390,14 +3886,16 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "temps-de-preparation-15-minutes",
     title: "Temps de préparation : 15 minutes",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🥩",
+    cat: "viande",
     chef: "cyrillignac",
     chefName: "Cyril Lignac",
     time: "15min",
@@ -3411,7 +3909,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -3432,12 +3932,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "oula-je-tadore-toi",
-    title: "Oula je t’adore toi🫵",
+    title: "Oula je t’adore toi",
     emoji: "🍽️",
     cat: "plat",
     chef: "louloukitchen_",
@@ -3453,19 +3955,21 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "quiche-du-soleil",
     title: "Quiche du soleil",
-    emoji: "🥬",
-    cat: "accompagnement",
+    emoji: "🍰",
+    cat: "dessert",
     chef: "louloukitchen_",
     chefName: "Lou Elsener",
     time: "30min",
     serves: "4 pers.",
-    difficulty: "Facile",
+    difficulty: "Moyen",
     image: "img/DV-3FvoNF6s.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DV-3FvoNF6s/",
     linkType: "instagram",
@@ -3486,7 +3990,9 @@ const RECIPES = [
       { qty: "2", name: "œufs", rayon: 'epicerie' },
       { qty: "1/", name: "coupez une courgette et demi  en brunoise et l’autre en rondelle", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -3507,7 +4013,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -3528,17 +4036,19 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "estce-que-tu-as-deja-mange-de-la-tarte-tatin-endiv",
-    title: "🇫🇷 Est-ce que tu as déjà mangé de la tarte Tatin endives, co",
-    emoji: "🍰",
-    cat: "dessert",
+    id: "cest-un-regal",
+    title: "C’est un régal !",
+    emoji: "🍽️",
+    cat: "plat",
     chef: "casseroleetchocolat",
     chefName: "Emma Geoffroy",
-    time: "40min",
+    time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/DVJhAOKAbVY.jpg",
@@ -3559,17 +4069,19 @@ const RECIPES = [
       { qty: "50 g", name: "de comté râpé", rayon: 'epicerie' },
       { qty: "30 g", name: "de noix", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "fenouil-aux-ufs-version-soleil",
     title: "Fenouil aux œufs, version soleil",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🫕",
+    cat: "sauce",
     chef: "abdelalaouiofficiel",
     chefName: "Abdel Alaoui Officiel",
-    time: "40min",
+    time: "15min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/DT8WJapijI6.jpg",
@@ -3584,14 +4096,16 @@ const RECIPES = [
       { qty: "QS", name: "Un filet de sauce sriracha 🌶️", rayon: 'epicerie' },
       { qty: "QS", name: "Aneth fraîche 🌿", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "le-genre-de-plat-qui-fait-croire-que-tu-as-cuisine",
-    title: "Le genre de plat qui fait croire que tu as cuisiné 3 heures…",
-    emoji: "🍰",
-    cat: "dessert",
+    id: "saumon-a-la-toscane",
+    title: "Saumon A La Toscane",
+    emoji: "🐟",
+    cat: "poisson",
     chef: "lesudatable",
     chefName: "Sylvia Mareuse",
     time: "1min",
@@ -3615,14 +4129,16 @@ const RECIPES = [
       { qty: "QS", name: "🍀Huile d’olive", rayon: 'epicerie' },
       { qty: "QS", name: "🍀Sel et poivre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "veloute-pas-chiant-ep1-pois-casses-et-lard",
-    title: "Velouté pas chiant, ep#1 : Pois cassés et lard",
-    emoji: "🍰",
-    cat: "dessert",
+    id: "retirer-bouquet",
+    title: "Retirer bouquet.",
+    emoji: "🥗",
+    cat: "entree",
     chef: "justine_piluso",
     chefName: "Justine Piluso",
     time: "4min",
@@ -3650,12 +4166,14 @@ const RECIPES = [
       { qty: "30 g", name: "noisettes", rayon: 'epicerie' },
       { qty: "40 g", name: "parmesan râpé", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "salade-de-lentilles",
-    title: "SALADE DE LENTILLES",
+    title: "Salade De Lentilles",
     emoji: "🥩",
     cat: "viande",
     chef: "angeleferreuxmaeght",
@@ -3674,12 +4192,14 @@ const RECIPES = [
       { qty: "1", name: "botte de persil frais", rayon: 'epicerie' },
       { qty: "QS", name: "Ricotta fumée ( ou fêta )", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "salade-pas-chiante-ep1-salade-thai-a-la-bavette",
-    title: "Salade pas chiante - ep#1 : Salade Thaï à la bavette",
+    id: "marinade-30-min-minimum",
+    title: "Marinade 30 min minimum.",
     emoji: "🥗",
     cat: "entree",
     chef: "justine_piluso",
@@ -3709,12 +4229,14 @@ const RECIPES = [
       { qty: "1", name: "bouquet menthe", rayon: 'epicerie' },
       { qty: "30 ml", name: "sauce soja", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "pas-de-panique-30min-pour-aller-faire-les-courses-",
-    title: "Pas de panique, 30min pour aller faire les courses, et 30min",
+    id: "ca-part-sur-un-filet-mignon-farci-facon-petit-roti",
+    title: "Ça part sur un filet mignon farci, façon petit rôti",
     emoji: "🥩",
     cat: "viande",
     chef: "justine_piluso",
@@ -3735,7 +4257,9 @@ const RECIPES = [
       { qty: "60 g", name: "d’huile d’olive", rayon: 'epicerie' },
       { qty: "1", name: "pincée de sel", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -3765,7 +4289,9 @@ const RECIPES = [
       { qty: "QS", name: "Jus de citron", rayon: 'epicerie' },
       { qty: "QS", name: "marinade : huile d’olive sel paprika", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -3786,12 +4312,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "filet-de-veau-braise-au-miel-de-cyril-lignac",
-    title: "FILET DE VEAU BRAISÉ AU MIEL DE CYRIL LIGNAC",
+    title: "Filet De Veau Braisé Au Miel De Cyril Lignac",
     emoji: "🥩",
     cat: "viande",
     chef: "kitchenfactoryprod",
@@ -3819,14 +4347,16 @@ const RECIPES = [
       { qty: "1", name: "cocotte avec le couvercle + 1 spatule", rayon: 'epicerie' },
       { qty: "1", name: "plat de présentation", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "cheesecake-a-la-mangue-de-cyril-lignac",
-    title: "CHEESECAKE À LA MANGUE DE CYRIL LIGNAC",
-    emoji: "🍰",
-    cat: "dessert",
+    title: "Cheesecake À La Mangue De Cyril Lignac",
+    emoji: "🥗",
+    cat: "entree",
     chef: "kitchenfactoryprod",
     chefName: "Kitchen Factory Production 🍽",
     time: "30min",
@@ -3851,12 +4381,14 @@ const RECIPES = [
       { qty: "1", name: "planche à découper + 1 grand couteau,", rayon: 'epicerie' },
       { qty: "1", name: "plat à pâtisserie + 1 zesteur.", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-lou-elsener-DVN7F3",
-    title: "Recette de Lou Elsener",
+    id: "recette-lou-elsener-DVN7F3",
+    title: "Recette Lou Elsener",
     emoji: "🍽️",
     cat: "plat",
     chef: "louloukitchen_",
@@ -3872,7 +4404,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -3893,14 +4427,16 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "curry-coco-butternut-et-epinards",
     title: "Curry coco, butternut et épinards",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🥗",
+    cat: "entree",
     chef: "thedailysaby",
     chefName: "Thedailysaby",
     time: "4min",
@@ -3924,19 +4460,21 @@ const RECIPES = [
       { qty: "1", name: "cuillère à café de curcuma (ou paprika)", rayon: 'epicerie' },
       { qty: "1", name: "cuillère à café de cumin (facultatif)", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "trois-salades-fraiches-pour-ramadan-et-a-refaire-t",
     title: "Trois salades fraîches pour Ramadan… et à refaire toute l’an",
-    emoji: "🍝",
-    cat: "pates",
+    emoji: "🐟",
+    cat: "poisson",
     chef: "lesgourmandisesdeloubna",
     chefName: "Loubna JAIBI",
-    time: "25min",
+    time: "30min",
     serves: "4 pers.",
-    difficulty: "Facile",
+    difficulty: "Moyen",
     image: "img/DUvGvQtjFM4.jpg",
     link: "https://www.instagram.com/lesgourmandisesdeloubna/reel/DUvGvQtjFM4/",
     linkType: "instagram",
@@ -3948,12 +4486,14 @@ const RECIPES = [
       { qty: "QS", name: "Dressing au lait de coco :", rayon: 'epicerie' },
       { qty: "QS", name: "Vinaigrette citronnée au sumac :", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "contenu-tres-wtf-a-20h50-ya-quoibouletteslovers",
-    title: "Contenu très wtf à 20h50 y’a quoi?#bouletteslovers",
+    id: "recette-lou-elsener-DU860I",
+    title: "Recette Lou Elsener",
     emoji: "🍽️",
     cat: "plat",
     chef: "louloukitchen_",
@@ -3969,7 +4509,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -4003,7 +4545,9 @@ const RECIPES = [
       { qty: "1", name: "petite poignée de graines de grenade", rayon: 'epicerie' },
       { qty: "1", name: "petite poignée de pistaches concassées", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -4024,7 +4568,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -4055,12 +4601,14 @@ const RECIPES = [
       { qty: "QS", name: "Égoutter sur du papier absorbant.", rayon: 'epicerie' },
       { qty: "QS", name: "Saler.", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "gateaux-citron-vanille-huile-dolive",
-    title: "GÂTEAUX CITRON VANILLE HUILE D’OLIVE",
+    title: "Gâteaux Citron Vanille Huile D’Olive",
     emoji: "🍰",
     cat: "dessert",
     chef: "louloukitchen_",
@@ -4084,12 +4632,14 @@ const RECIPES = [
       { qty: "150g", name: "de beurre", rayon: 'epicerie' },
       { qty: "1 cas", name: "d’arôme vanille", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "gnocchis-de-pomme-de-terre-pesto-amandes-parmesan",
-    title: "GNOCCHIS DE POMME DE TERRE, PESTO AMANDES, PARMESAN",
+    title: "Gnocchis De Pomme De Terre, Pesto Amandes, Parmesan",
     emoji: "🥬",
     cat: "accompagnement",
     chef: "cyrillignac",
@@ -4119,12 +4669,14 @@ const RECIPES = [
       { qty: "QS", name: "Sel fin et poivre du moulin.", rayon: 'epicerie' },
       { qty: "1", name: "citron jaune non traité,", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "deroule-DUr_E1",
-    title: "Déroulé : ⁠",
+    id: "prechauffer-le-four-a-200c",
+    title: "Préchauffer le four à 200°C. ⁠",
     emoji: "🫕",
     cat: "sauce",
     chef: "franceinter",
@@ -4151,19 +4703,21 @@ const RECIPES = [
       { qty: "QS", name: "Prise de vue et son : Didier Mariani et Jules Benveniste⁠", rayon: 'epicerie' },
       { qty: "QS", name: "Montage : Jules Benveniste⁠", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "patate-douce-et-fenouil",
     title: "Patate douce et fenouil :",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🥗",
+    cat: "entree",
     chef: "clemfoodie",
     chefName: "Clémentine Vaccon",
     time: "40min",
     serves: "4 pers.",
-    difficulty: "Moyen",
+    difficulty: "Facile",
     image: "img/DUD-44TAm6c.jpg",
     link: "https://www.instagram.com/clemfoodie/reel/DUD-44TAm6c/",
     linkType: "instagram",
@@ -4172,7 +4726,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -4193,7 +4749,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -4214,12 +4772,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "finit-le-tarama-chimique-plein-de-colorant-et-cons",
-    title: "Finit le tarama chimique, plein de colorant et conservateurs",
+    id: "je-vous-montre-comment-on-le-fait-chez-viverestaur",
+    title: "Je vous montre comment on le fait chez @vive_restaurant !",
     emoji: "🐟",
     cat: "poisson",
     chef: "steflequellec",
@@ -4235,7 +4795,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -4263,7 +4825,9 @@ const RECIPES = [
       { qty: "QS", name: "Épices :", rayon: 'epicerie' },
       { qty: "QS", name: "Huile d’olive sel paprika zaatar ,du sumac", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -4284,12 +4848,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "sirop-cru-de-citron",
-    title: "[SIROP CRU] de citron",
+    id: "de-citron",
+    title: "de citron",
     emoji: "🍽️",
     cat: "plat",
     chef: "c.lairdutemps",
@@ -4305,7 +4871,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -4340,12 +4908,14 @@ const RECIPES = [
       { qty: "QS", name: "Ajouter le cabillaud", rayon: 'epicerie' },
       { qty: "QS", name: "Laisser cuire encore 5 minutes à couvert", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "sel-et-poivre",
-    title: "Sel et poivre⁠",
+    id: "60g-de-beurre",
+    title: "60g de beurre⁠",
     emoji: "🥩",
     cat: "viande",
     chef: "franceinter",
@@ -4373,14 +4943,16 @@ const RECIPES = [
       { qty: "QS", name: "Prise de vue et son : Didier Mariani et Jules Benveniste⁠", rayon: 'epicerie' },
       { qty: "QS", name: "Montage : Maxime Soulard", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "frittata-mediterraneenne",
-    title: "FRITTATA MÉDITERRANÉENNE",
-    emoji: "🍰",
-    cat: "dessert",
+    title: "Frittata Méditerranéenne",
+    emoji: "🥗",
+    cat: "entree",
     chef: "lesudatable",
     chefName: "Sylvia Mareuse",
     time: "30min",
@@ -4408,14 +4980,16 @@ const RECIPES = [
       { qty: "QS", name: "➡️Battre les œufs, ajouter la crème liquide", rayon: 'epicerie' },
       { qty: "QS", name: "➡️Saler et poivrer", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "poulet-au-citron-a-lail",
-    title: "POULET AU CITRON  & À L’AIL",
-    emoji: "🍰",
-    cat: "dessert",
+    title: "Poulet Au Citron  & À L’Ail",
+    emoji: "🥩",
+    cat: "viande",
     chef: "lesudatable",
     chefName: "Sylvia Mareuse",
     time: "15min",
@@ -4443,12 +5017,14 @@ const RECIPES = [
       { qty: "QS", name: "➡️Verser la sauce", rayon: 'epicerie' },
       { qty: "QS", name: "➡️Ajouter un plus d’origan", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "les-verts-de-poireaux-de-lhuile-de-pepin-de-raisin",
-    title: "Les verts de poireaux + de l’huile de pépin de raisin ou oli",
+    id: "recette-lou-elsener-DUVQfV",
+    title: "Recette Lou Elsener",
     emoji: "🥗",
     cat: "entree",
     chef: "louloukitchen_",
@@ -4472,14 +5048,16 @@ const RECIPES = [
       { qty: "QS", name: "Pour l’huile verte :", rayon: 'epicerie' },
       { qty: "QS", name: "Les verts de poireaux + de l’huile de pépin de raisin ou oli", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "duree-totale-1h30",
     title: "Durée totale : 1h30",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🥩",
+    cat: "viande",
     chef: "lefooding",
     chefName: "Le Fooding",
     time: "40min",
@@ -4507,12 +5085,14 @@ const RECIPES = [
       { qty: "QS", name: "DÉROULÉ⁠", rayon: 'epicerie' },
       { qty: "1.", name: "Éplucher les poires, les épépiner, puis les tailler à la mandoline. ⁠", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-yotam-ottolenghi",
-    title: "Recette de Yotam Ottolenghi",
+    id: "recette-yotam-ottolenghi-DTmsK7",
+    title: "Recette Yotam Ottolenghi",
     emoji: "🍽️",
     cat: "plat",
     chef: "ottolenghi",
@@ -4528,12 +5108,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "the-full-recipe-is-in-the-ottolenghi-newsletter-th",
-    title: "The full recipe is in the Ottolenghi newsletter, through the",
+    id: "recette-yotam-ottolenghi-DUGg-q",
+    title: "Recette Yotam Ottolenghi",
     emoji: "🍽️",
     cat: "plat",
     chef: "ottolenghi",
@@ -4549,7 +5131,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -4582,7 +5166,9 @@ const RECIPES = [
       { qty: "QS", name: "Prise de vue et son : Didier Mariani et Hélène Béraud⁠", rayon: 'epicerie' },
       { qty: "QS", name: "Montage : Didier Mariani", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -4603,12 +5189,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "mousse-legere-aux-chocolats-et-clementine",
-    title: "MOUSSE LÉGÈRE AUX CHOCOLATS ET CLÉMENTINE",
+    title: "Mousse Légère Aux Chocolats Et Clémentine",
     emoji: "🍰",
     cat: "dessert",
     chef: "cyrillignac",
@@ -4628,17 +5216,19 @@ const RECIPES = [
       { qty: "10 cl", name: "de lait entier,", rayon: 'epicerie' },
       { qty: "30 cl", name: "de crème liquide entière à plus de 30% M.G.", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "le-houmous-cest-le-dip-incontournable-de-tout-aper",
-    title: "🇱🇧 Le houmous, c'est le dip incontournable de tout apéro qui",
-    emoji: "🍽️",
-    cat: "plat",
+    id: "le-jus-d1-citron-et-demi",
+    title: "Le jus d'1 citron et demi",
+    emoji: "🥗",
+    cat: "entree",
     chef: "julieandrieu.officiel",
     chefName: "Julie Andrieu, Profil Officiel",
-    time: "35min",
+    time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/DTxHoMYEmna.jpg",
@@ -4655,7 +5245,9 @@ const RECIPES = [
       { qty: "1/2 CC", name: "de sel", rayon: 'epicerie' },
       { qty: "QS", name: "Dressage : avec les légumes de saison que vous avez sous la ", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -4676,12 +5268,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-brut-DTphQ4",
-    title: "Recette de Brut.",
+    id: "recette-brut-DTphQ4",
+    title: "Recette Brut.",
     emoji: "🫕",
     cat: "sauce",
     chef: "brutofficiel",
@@ -4697,12 +5291,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "recette-traditionnelle-francaise",
-    title: "Recette traditionnelle française 🇫🇷️",
+    title: "Recette traditionnelle française 🇫🇷",
     emoji: "🥩",
     cat: "viande",
     chef: "comment.cuisiner",
@@ -4718,7 +5314,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -4741,12 +5339,14 @@ const RECIPES = [
       { qty: "QS", name: "Puis 1 bonne heure de plus à 145°", rayon: 'epicerie' },
       { qty: "QS", name: "Et voilà il n'y a plus qu'à se régaler 🤤", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "deroule-DTR3Jn",
-    title: "Déroulé : ⁠",
+    id: "faire-chauffer-une-sauteuse",
+    title: "⁠Faire chauffer une sauteuse.⁠",
     emoji: "🍽️",
     cat: "plat",
     chef: "franceinter",
@@ -4776,12 +5376,14 @@ const RECIPES = [
       { qty: "QS", name: "Régie culinaire : @thomasdarcos, @valentine_brisvalter⁠", rayon: 'epicerie' },
       { qty: "QS", name: "Coordination éditoriale : @marielle_gaudry⁠", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-france-inter",
-    title: "Recette de France Inter",
+    id: "recette-france-inter",
+    title: "Recette France Inter",
     emoji: "🍽️",
     cat: "plat",
     chef: "franceinter",
@@ -4797,12 +5399,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "la-recette",
-    title: "LA RECETTE",
+    id: "recette-francoisregis-gaudry-DS11R7",
+    title: "Recette François-Régis Gaudry",
     emoji: "🥗",
     cat: "entree",
     chef: "frgaudry",
@@ -4818,12 +5422,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-cuisineaz",
-    title: "Recette de CuisineAZ",
+    id: "recette-cuisineaz",
+    title: "Recette CuisineAZ",
     emoji: "🫕",
     cat: "sauce",
     chef: "cuisineaz",
@@ -4840,19 +5446,21 @@ const RECIPES = [
       { qty: "QS", name: "Enfournez des tranches de butternut assaisonnées à 200 °C 20", rayon: 'epicerie' },
       { qty: "QS", name: "Garnissez les feuilles de brick de farce, refermez et enfour", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "chapon-de-fete-ultra-fondant",
     title: "Chapon de fête ultra fondant",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🍽️",
+    cat: "plat",
     chef: "cuisineactuelle",
     chefName: "Cuisine Actuelle",
-    time: "40min",
+    time: "35min",
     serves: "4 pers.",
-    difficulty: "Moyen",
+    difficulty: "Facile",
     image: "img/DSnfjJhCbkk.jpg",
     link: "https://www.instagram.com/cuisineactuelle/reel/DSnfjJhCbkk/",
     linkType: "instagram",
@@ -4867,12 +5475,14 @@ const RECIPES = [
       { qty: "QS", name: "Sirop d’érable", rayon: 'epicerie' },
       { qty: "QS", name: "Persil", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "deroule-DSt0BW",
-    title: "Déroulé :⁠",
+    id: "recette-france-inter-DSt0BW",
+    title: "Recette France Inter",
     emoji: "🍰",
     cat: "dessert",
     chef: "franceinter",
@@ -4898,14 +5508,16 @@ const RECIPES = [
       { qty: "QS", name: "Prise de vue et son : Didier Mariani et Xavier Chocron⁠", rayon: 'epicerie' },
       { qty: "QS", name: "Montage : Xavier Chocron⁠", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "le-buf-wellington-le-plat-pour-les-fetes-de-fin-da",
     title: "Le Bœuf Wellington ! Le plat pour les fêtes de fin d’année",
-    emoji: "🥩",
-    cat: "viande",
+    emoji: "🍽️",
+    cat: "plat",
     chef: "tarayrenorbert",
     chefName: "Norbert",
     time: "45min",
@@ -4926,12 +5538,14 @@ const RECIPES = [
       { qty: "500g", name: "Pâte feuilletée", rayon: 'epicerie' },
       { qty: "QS", name: "Moutarde", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-brut-DShh-C",
-    title: "Recette de Brut.",
+    id: "recette-brut-DShh-C",
+    title: "Recette Brut.",
     emoji: "🍽️",
     cat: "plat",
     chef: "brutofficiel",
@@ -4947,12 +5561,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "concours-noel-termine-julie-andrieu-x-cookut",
-    title: "CONCOURS NOËL TERMINÉ - JULIE ANDRIEU x COOKUT",
+    id: "une-merveilleuse-gamme-inox-cookut-composee-de",
+    title: "Une Merveilleuse gamme inox Cookut, composée de :",
     emoji: "🥩",
     cat: "viande",
     chef: "julieandrieu.officiel",
@@ -4977,7 +5593,9 @@ const RECIPES = [
       { qty: "3", name: "étoiles de badiane", rayon: 'epicerie' },
       { qty: "1 CC", name: "de gingembre en poudre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -5010,7 +5628,9 @@ const RECIPES = [
       { qty: "10", name: "feuilles de pâte filo", rayon: 'epicerie' },
       { qty: "QS", name: "Huile d’olive", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -5037,17 +5657,19 @@ const RECIPES = [
       { qty: "1", name: "sachet de levure chimique", rayon: 'epicerie' },
       { qty: "QS", name: "Matériel : Moule à manquer de 22 cm de diamètre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "fricassee-de-volaille-sauce-cremeuse-aux-cepes-et-",
-    title: "Fricassée de volaille sauce crémeuse aux cèpes et champignon",
-    emoji: "🍰",
-    cat: "dessert",
+    id: "sel-poivre",
+    title: "Sel poivre",
+    emoji: "🥩",
+    cat: "viande",
     chef: "steflequellec",
     chefName: "Stephanie Le Quellec",
-    time: "40min",
+    time: "45min",
     serves: "6 pers.",
     difficulty: "Facile",
     image: "img/DSVODnojENw.jpg",
@@ -5058,19 +5680,21 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "concours-bravo-a-la-gagnante-cecileandria-remporte",
-    title: "CONCOURS bravo à la gagnante @cecileandria Remportez un robo",
-    emoji: "🍽️",
-    cat: "plat",
+    id: "conditions",
+    title: "Conditions :",
+    emoji: "🍰",
+    cat: "dessert",
     chef: "louloukitchen_",
     chefName: "Lou Elsener",
     time: "20min",
     serves: "2 pers.",
-    difficulty: "Facile",
+    difficulty: "Moyen",
     image: "img/DSPX1h_jWhC.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DSPX1h_jWhC/",
     linkType: "instagram",
@@ -5079,7 +5703,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -5112,7 +5738,9 @@ const RECIPES = [
       { qty: "1", name: "cuillère à soupe de crème crue", rayon: 'epicerie' },
       { qty: "QS", name: "En option :  15 cl de cidre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -5139,12 +5767,14 @@ const RECIPES = [
       { qty: "25cl", name: "de crème liquide légere", rayon: 'epicerie' },
       { qty: "20g", name: "de beurre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "gateau-vanille-clementine",
-    title: "GÂTEAU VANILLE CLEMENTINE",
+    title: "Gâteau Vanille Clementine",
     emoji: "🍰",
     cat: "dessert",
     chef: "louloukitchen_",
@@ -5167,7 +5797,9 @@ const RECIPES = [
       { qty: "200g", name: "de farine", rayon: 'epicerie' },
       { qty: "1", name: "sachet de levure chimique", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -5199,19 +5831,21 @@ const RECIPES = [
       { qty: "10 g", name: "de beurre", rayon: 'epicerie' },
       { qty: "QS", name: "Ajoutez de la poudre de noisette dans la pâte pour un goût p", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "fondue-moitie-moitie",
     title: "Fondue Moitié Moitié",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🥬",
+    cat: "accompagnement",
     chef: "frgaudry",
     chefName: "François-Régis Gaudry",
-    time: "40min",
+    time: "25min",
     serves: "4 pers.",
-    difficulty: "Moyen",
+    difficulty: "Facile",
     image: "img/DRuC1y1iGlD.jpg",
     link: "https://www.instagram.com/frgaudry/reel/DRuC1y1iGlD/",
     linkType: "instagram",
@@ -5225,12 +5859,14 @@ const RECIPES = [
       { qty: "1", name: "c. à s. rase de fécule de maïs ou de pomme de terre", rayon: 'epicerie' },
       { qty: "1,2 kg", name: "de pain de la veille", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "elle-va-vous-faire-craquer-cette-croustigalette-de",
-    title: "Elle va vous faire craquer cette crousti-galette de pommes d",
+    id: "prechauffer-le-four-a-180-c",
+    title: "Préchauffer le four à 180 °C.⁠",
     emoji: "🍽️",
     cat: "plat",
     chef: "franceinter",
@@ -5260,7 +5896,9 @@ const RECIPES = [
       { qty: "QS", name: "Prise de vue et son : Didier Mariani et Hélène Beraud⁠", rayon: 'epicerie' },
       { qty: "QS", name: "Montage : Xavier Chocron", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -5288,7 +5926,9 @@ const RECIPES = [
       { qty: "60 ml", name: "d’huile d’olive", rayon: 'epicerie' },
       { qty: "QS", name: "Poivre noir ou baies roses", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -5315,7 +5955,9 @@ const RECIPES = [
       { qty: "1", name: "betterave", rayon: 'epicerie' },
       { qty: "1", name: "avocat", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -5339,12 +5981,14 @@ const RECIPES = [
       { qty: "1càs", name: "d’huile d’olive", rayon: 'epicerie' },
       { qty: "QS", name: "Sel et poivre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "souris-dagneau-chataignes-miel",
-    title: "SOURIS D’AGNEAU CHÂTAIGNES MIEL",
+    title: "Souris D’Agneau Châtaignes Miel",
     emoji: "🥩",
     cat: "viande",
     chef: "louloukitchen_",
@@ -5367,11 +6011,13 @@ const RECIPES = [
       { qty: "1 cas", name: "de curcuma, 1 cas de gingembre , 1 cas de paprika", rayon: 'epicerie' },
       { qty: "1 cas", name: "de fond de veau", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "sel-et-poivre-DRltxX",
+    id: "sel-et-poivre",
     title: "Sel et poivre ⁠",
     emoji: "🥗",
     cat: "entree",
@@ -5402,7 +6048,9 @@ const RECIPES = [
       { qty: "QS", name: "Sel et poivre ⁠", rayon: 'epicerie' },
       { qty: "QS", name: "Déroulé : ⁠", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -5423,17 +6071,19 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "demain-les-americains-celebrent-thanksgiving",
     title: "Demain, les Américains célèbrent Thanksgiving  !",
-    emoji: "🍽️",
-    cat: "plat",
+    emoji: "🥩",
+    cat: "viande",
     chef: "julieandrieu.officiel",
     chefName: "Julie Andrieu, Profil Officiel",
-    time: "35min",
+    time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/DRh2ptnghl3.jpg",
@@ -5444,12 +6094,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "gravlax-mielblinis-zaatar",
-    title: "GRAVLAX MIEL+BLINIS ZAATAR",
+    title: "Gravlax Miel+Blinis Zaatar",
     emoji: "🐟",
     cat: "poisson",
     chef: "louloukitchen_",
@@ -5471,7 +6123,9 @@ const RECIPES = [
       { qty: "QS", name: "Un peu de poivre", rayon: 'epicerie' },
       { qty: "2 cas", name: "de miel/ 1 morceau de gingembre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -5499,12 +6153,14 @@ const RECIPES = [
       { qty: "QS", name: "Poivre du moulin", rayon: 'epicerie' },
       { qty: "QS", name: "Fleur de sel", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "voici-les-legumes-dautomne-au-tandoori-et-leur-sau",
-    title: "Voici « Les légumes d’automne au tandoori et leur sauce à la",
+    id: "preparation-DRCNA6",
+    title: "Préparation :",
     emoji: "🥗",
     cat: "entree",
     chef: "mesdames.media",
@@ -5534,12 +6190,14 @@ const RECIPES = [
       { qty: "QS", name: "Poivre", rayon: 'epicerie' },
       { qty: "QS", name: "Décorer de feuilles de coriandre. 🌿", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-c-a-vous",
-    title: "Recette de C à Vous",
+    id: "recette-c-a-vous",
+    title: "Recette C à Vous",
     emoji: "🍽️",
     cat: "plat",
     chef: "c_a_vous",
@@ -5555,19 +6213,21 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-clique",
-    title: "Recette de Clique",
-    emoji: "🍰",
-    cat: "dessert",
+    id: "dun-de-ses-incontournables-sa-tarte-a-la-tomate",
+    title: "d’un de ses incontournables : sa tarte à la tomate",
+    emoji: "🍽️",
+    cat: "plat",
     chef: "cliquetv",
     chefName: "Clique",
-    time: "40min",
+    time: "35min",
     serves: "4 pers.",
-    difficulty: "Moyen",
+    difficulty: "Facile",
     image: "img/DQl1MQSjenv.jpg",
     link: "https://www.instagram.com/cliquetv/reel/DQl1MQSjenv/",
     linkType: "instagram",
@@ -5576,7 +6236,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -5603,19 +6265,21 @@ const RECIPES = [
       { qty: "3", name: "Gervita (ou 3 fromages blancs)", rayon: 'epicerie' },
       { qty: "QS", name: "Quelques noisettes ou noix de pécan (option)", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-cuisineaz-DQkDoK",
-    title: "Recette de CuisineAZ",
-    emoji: "🍰",
-    cat: "dessert",
+    id: "dautomne-reconfortante-45",
+    title: "d’automne réconfortante 4/5",
+    emoji: "🍽️",
+    cat: "plat",
     chef: "cuisineaz",
     chefName: "CuisineAZ",
-    time: "40min",
+    time: "35min",
     serves: "4 pers.",
-    difficulty: "Moyen",
+    difficulty: "Facile",
     image: "img/DQkDoKvFx-7.jpg",
     link: "https://www.instagram.com/cuisineaz/reel/DQkDoKvFx-7/",
     linkType: "instagram",
@@ -5624,12 +6288,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "potimarron-au-mont-dorail-roti-et-pommes-de-terres",
-    title: "POTIMARRON AU MONT D’OR,AIL ROTI ET POMMES DE TERRES",
+    title: "Potimarron Au Mont D’Or,Ail Roti Et Pommes De Terres",
     emoji: "🍽️",
     cat: "plat",
     chef: "louloukitchen_",
@@ -5651,17 +6317,19 @@ const RECIPES = [
       { qty: "1", name: "tête d’ail", rayon: 'epicerie' },
       { qty: "2/", name: "enfournez 45 min à 190", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "sauce-tartare-legere",
     title: "Sauce tartare légère",
-    emoji: "🫕",
-    cat: "sauce",
+    emoji: "🥗",
+    cat: "entree",
     chef: "lacuisinedelouise_",
     chefName: "Louise",
-    time: "15min",
+    time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/DQERrcYCHEO.jpg",
@@ -5677,7 +6345,9 @@ const RECIPES = [
       { qty: "2 càc", name: "de câpres", rayon: 'epicerie' },
       { qty: "QS", name: "ciboulette", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -5709,7 +6379,9 @@ const RECIPES = [
       { qty: "120g", name: "de crème", rayon: 'epicerie' },
       { qty: "QS", name: "Persil", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -5732,7 +6404,9 @@ const RECIPES = [
       { qty: "QS", name: "Huile d’olive", rayon: 'epicerie' },
       { qty: "QS", name: "Sel, poivre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -5766,7 +6440,9 @@ const RECIPES = [
       { qty: "QS", name: "Cuisson : 35 min à 200", rayon: 'epicerie' },
       { qty: "QS", name: "Temps de repos pâte au frais : 30 min", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -5794,7 +6470,9 @@ const RECIPES = [
       { qty: "QS", name: "Pour le bouillon de tomate :", rayon: 'epicerie' },
       { qty: "QS", name: "Mélangez 1 cas de concentré de tomate, 1 cas de cumin dans 2", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -5822,19 +6500,21 @@ const RECIPES = [
       { qty: "1 cac", name: "de sel", rayon: 'epicerie' },
       { qty: "1 cac", name: "de paprika", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "buf-fondant-sauce-rouge",
-    title: "BŒUF FONDANT SAUCE ROUGE",
-    emoji: "🍰",
-    cat: "dessert",
+    title: "Bœuf Fondant Sauce Rouge",
+    emoji: "🥬",
+    cat: "accompagnement",
     chef: "louloukitchen_",
     chefName: "Lou Elsener",
     time: "10min",
     serves: "4 pers.",
-    difficulty: "Moyen",
+    difficulty: "Facile",
     image: "img/DPtFJWDDVHC.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DPtFJWDDVHC/",
     linkType: "instagram",
@@ -5853,17 +6533,19 @@ const RECIPES = [
       { qty: "1 cac", name: "de gingembre . 1 cas de sel", rayon: 'epicerie' },
       { qty: "1/", name: "saisissez la viande dans de l’huile de tournesol", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "gratin-de-butternut-champignons-et-chevre-frais",
     title: "Gratin de butternut, champignons et chèvre frais",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🥩",
+    cat: "viande",
     chef: "mangemieuxvismieux",
     chefName: "Christophe Dely",
-    time: "40min",
+    time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/DPYHJ_SjMWy.jpg",
@@ -5877,14 +6559,16 @@ const RECIPES = [
       { qty: "QS", name: "🍱 Batch Cooking", rayon: 'epicerie' },
       { qty: "QS", name: "📚 Guides & ebooks", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "je-vous-donne-la-recette-de-ma-pavlova-en-exclu",
-    title: "Je vous donne la recette de ma Pavlova en exclu !",
-    emoji: "🍰",
-    cat: "dessert",
+    id: "temps-de-preparation-20-minutes",
+    title: "Temps De Préparation : 20 Minutes",
+    emoji: "🥗",
+    cat: "entree",
     chef: "cyrillignac",
     chefName: "Cyril Lignac",
     time: "20min",
@@ -5898,11 +6582,13 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "la-recette-DPYoaz",
+    id: "la-recette",
     title: "La recette :",
     emoji: "🥩",
     cat: "viande",
@@ -5930,7 +6616,9 @@ const RECIPES = [
       { qty: "QS", name: "Piment d’Espelette", rayon: 'epicerie' },
       { qty: "QS", name: "Burrata", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -5951,7 +6639,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -5979,17 +6669,19 @@ const RECIPES = [
       { qty: "QS", name: "Cuisson légumes : 45 min à 190", rayon: 'epicerie' },
       { qty: "QS", name: "Rajouter le poisson sur le dessus pour 15 min à 180", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "episode-2-semaine-healthy",
     title: "ÉPISODE 2 : semaine healthy",
-    emoji: "🥩",
-    cat: "viande",
+    emoji: "🥗",
+    cat: "entree",
     chef: "louloukitchen_",
     chefName: "Lou Elsener",
-    time: "45min",
+    time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/DPTVGfpDbvY.jpg",
@@ -6010,7 +6702,9 @@ const RECIPES = [
       { qty: "QS", name: "Jus d’un citron vert", rayon: 'epicerie' },
       { qty: "1 cas", name: "d’huile de sésame si possible sinon huile d’olive", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -6044,7 +6738,9 @@ const RECIPES = [
       { qty: "QS", name: "Un peu de fromage frais", rayon: 'epicerie' },
       { qty: "QS", name: "Ciboulette", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -6065,17 +6761,19 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "une-simple-tarte-fine-aux-pommes",
     title: "Une simple tarte fine aux pommes",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🥗",
+    cat: "entree",
     chef: "steflequellec",
     chefName: "Stephanie Le Quellec",
-    time: "40min",
+    time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/DPHAHfGjGUt.jpg",
@@ -6086,12 +6784,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-eric-frechon",
-    title: "Recette de Eric Frechon",
+    id: "que-jai-faite-avec-ma-maman-quand-jetais-petit",
+    title: "que j’ai faite avec ma maman quand j’étais petit",
     emoji: "🍰",
     cat: "dessert",
     chef: "ericfrechon",
@@ -6107,12 +6807,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "moussaka",
-    title: "MOUSSAKA",
+    title: "Moussaka",
     emoji: "🥩",
     cat: "viande",
     chef: "laurent.mariotte",
@@ -6140,7 +6842,9 @@ const RECIPES = [
       { qty: "50 cl", name: "de lait entier", rayon: 'epicerie' },
       { qty: "1", name: "cuil. à café de noix de muscade moulue", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -6161,14 +6865,16 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "crumble-de-poires-et-macadamia-sauce-chocolat",
-    title: "CRUMBLE DE POIRES ET MACADAMIA, SAUCE CHOCOLAT",
-    emoji: "🍰",
-    cat: "dessert",
+    title: "Crumble De Poires Et Macadamia, Sauce Chocolat",
+    emoji: "🥗",
+    cat: "entree",
     chef: "cyrillignac",
     chefName: "Cyril Lignac",
     time: "15min",
@@ -6186,12 +6892,14 @@ const RECIPES = [
       { qty: "40 g", name: "de beurre doux", rayon: 'epicerie' },
       { qty: "1", name: "citron vert", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "cannelloni-ricotta-champignons",
-    title: "CANNELLONI RICOTTA & CHAMPIGNONS",
+    title: "Cannelloni Ricotta & Champignons",
     emoji: "🫕",
     cat: "sauce",
     chef: "casalitaaa",
@@ -6217,12 +6925,14 @@ const RECIPES = [
       { qty: "QS", name: "Sel & poivre", rayon: 'epicerie' },
       { qty: "1", name: "filet d’huile d’olive", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "recette-cabillaud-epice-au-four",
-    title: "RECETTE CABILLAUD ÉPICÉ AU FOUR",
+    title: "Recette Cabillaud Épicé Au Four",
     emoji: "🐟",
     cat: "poisson",
     chef: "demotivateurfood_fr",
@@ -6251,7 +6961,9 @@ const RECIPES = [
       { qty: "1/2", name: "C A C de curcuma", rayon: 'epicerie' },
       { qty: "1/2", name: "C A C de piment d'Espelette", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -6284,7 +6996,9 @@ const RECIPES = [
       { qty: "QS", name: "Sel & poivre", rayon: 'epicerie' },
       { qty: "QS", name: "Une poignée de ciboulette hachée", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -6319,12 +7033,14 @@ const RECIPES = [
       { qty: "2", name: "cubes de bouillon de légumes ou de boeuf", rayon: 'epicerie' },
       { qty: "1,5 L", name: "d’eau", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "jarret-de-veau-aux-carottes",
-    title: "JARRET DE VEAU AUX CAROTTES",
+    title: "Jarret De Veau Aux Carottes",
     emoji: "🥩",
     cat: "viande",
     chef: "leslicious.food",
@@ -6347,12 +7063,14 @@ const RECIPES = [
       { qty: "2 CS", name: "d'huile d'olive", rayon: 'epicerie' },
       { qty: "QS", name: "Thym & laurier, sel & poivre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "quale-di-queste-ricette-ti-ha-fatto-venire-piu-vog",
-    title: "Quale di queste ricette ti ha fatto venire più voglia di mel",
+    id: "melanzane-con-ragu-e-besciamella",
+    title: "Melanzane con ragù e besciamella",
     emoji: "🍽️",
     cat: "plat",
     chef: "cosatipreparopercena",
@@ -6368,14 +7086,16 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "tarte-tatin-caramelisee-aux-echalotes",
     title: "Tarte tatin caramélisée aux échalotes",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🍽️",
+    cat: "plat",
     chef: "belqisvl",
     chefName: "Belqis Valsan",
     time: "5min",
@@ -6397,7 +7117,9 @@ const RECIPES = [
       { qty: "QS", name: "* Parmesan frais râpé : 40 g", rayon: 'epicerie' },
       { qty: "QS", name: "* Ciboulette : 2 c. à soupe ciselée", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -6418,12 +7140,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "gyozas-de-buf-aux-herbes",
-    title: "GYOZAS DE BŒUF AUX HERBES",
+    title: "Gyozas De Bœuf Aux Herbes",
     emoji: "🍝",
     cat: "pates",
     chef: "kitchenfactoryprod",
@@ -6453,14 +7177,16 @@ const RECIPES = [
       { qty: "1", name: "cuil. à soupe de graines de sésame toastées", rayon: 'epicerie' },
       { qty: "QS", name: "Quelques feuilles de coriandre fraîche", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "boulettes-de-volaille-cremeuses-a-la-poele",
     title: "Boulettes de volaille crémeuses à la poêle",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🥩",
+    cat: "viande",
     chef: "phebs.cookchill",
     chefName: "Pheb's Cook&Chill",
     time: "10min",
@@ -6485,7 +7211,9 @@ const RECIPES = [
       { qty: "QS", name: "🥛 10 cl de crème fraîche", rayon: 'epicerie' },
       { qty: "QS", name: "🍗 10 cl de bouillon de volaille", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -6516,19 +7244,21 @@ const RECIPES = [
       { qty: "QS", name: "Saupoudrer de cacao en poudre.", rayon: 'epicerie' },
       { qty: "QS", name: "Découper en 8 parts.", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "noubliez-jamais-cette-recette-de-chou-grillesauce-",
-    title: "N’oubliez jamais cette recette de CHOU GRILLÉ,SAUCE BEURRE P",
-    emoji: "🫕",
-    cat: "sauce",
+    id: "un-chou",
+    title: "Un chou",
+    emoji: "🥬",
+    cat: "accompagnement",
     chef: "louloukitchen_",
     chefName: "Lou Elsener",
     time: "40min",
     serves: "4 pers.",
-    difficulty: "Moyen",
+    difficulty: "Facile",
     image: "img/DPEAvKxjZmr.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DPEAvKxjZmr/",
     linkType: "instagram",
@@ -6545,7 +7275,9 @@ const RECIPES = [
       { qty: "1/", name: "découpez le chou en 4", rayon: 'epicerie' },
       { qty: "QS", name: "4/versez le beurre fondu dans un ramequin sur une gousse d’a", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -6566,19 +7298,21 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "lasagne-saumon-grillebechamel-citronnee",
     title: "LASAGNE SAUMON GRILLÉ,béchamel citronnée",
-    emoji: "🍝",
-    cat: "pates",
+    emoji: "🐟",
+    cat: "poisson",
     chef: "louloukitchen_",
     chefName: "Lou Elsener",
     time: "40min",
     serves: "4 pers.",
-    difficulty: "Facile",
+    difficulty: "Moyen",
     image: "img/DO6KkX9iF0q.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DO6KkX9iF0q/",
     linkType: "instagram",
@@ -6601,12 +7335,14 @@ const RECIPES = [
       { qty: "1 cas", name: "de zaatar", rayon: 'epicerie' },
       { qty: "1 cas", name: "de sel", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "salade-de-haricots-verts-figues-et-burrata",
-    title: "SALADE DE HARICOTS VERTS, FIGUES ET BURRATA",
+    title: "Salade De Haricots Verts, Figues Et Burrata",
     emoji: "🥩",
     cat: "viande",
     chef: "cyrillignac",
@@ -6631,17 +7367,19 @@ const RECIPES = [
       { qty: "1", name: "cuil. à soupe de gros sel de cuisine", rayon: 'epicerie' },
       { qty: "QS", name: "Fleur de sel et piment d’Espelette", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "pates-aux-crevettes",
-    title: "PÂTES AUX CREVETTES",
-    emoji: "🍝",
-    cat: "pates",
+    title: "Pâtes Aux Crevettes",
+    emoji: "🥩",
+    cat: "viande",
     chef: "louloukitchen_",
     chefName: "Lou Elsener",
-    time: "25min",
+    time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/DOd2EcviIiC.jpg",
@@ -6656,7 +7394,9 @@ const RECIPES = [
       { qty: "1 cac", name: "de curcuma/ paprika/ un cube bouillon ( poulet ou légumes)", rayon: 'epicerie' },
       { qty: "QS", name: "Un pot de crème liquide entière", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -6684,7 +7424,9 @@ const RECIPES = [
       { qty: "1", name: "petite boîte de lait de coco", rayon: 'epicerie' },
       { qty: "1", name: "verre de riz thaï", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -6718,19 +7460,21 @@ const RECIPES = [
       { qty: "2/", name: "mélangez courgette oignon avec œuf farine, fêta et mozzarella. Sel et épices", rayon: 'epicerie' },
       { qty: "4/", name: "enfournez 30 min à 180", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "tarte-soleil-confit-de-tomate",
-    title: "TARTE SOLEIL CONFIT DE TOMATE",
-    emoji: "🍰",
-    cat: "dessert",
+    title: "Tarte Soleil Confit De Tomate",
+    emoji: "🍽️",
+    cat: "plat",
     chef: "louloukitchen_",
     chefName: "Lou Elsener",
     time: "30min",
     serves: "4 pers.",
-    difficulty: "Moyen",
+    difficulty: "Facile",
     image: "img/DNyEDcqUNBD.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DNyEDcqUNBD/",
     linkType: "instagram",
@@ -6753,12 +7497,14 @@ const RECIPES = [
       { qty: "QS", name: "Option en plus : olives noires ou kalamata et anchois", rayon: 'epicerie' },
       { qty: "QS", name: "4- enfournez 40 min à 180 ( je préchauffe pas le four )", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "aubergines-a-la-bonifacienne",
-    title: "AUBERGINES A LA BONIFACIENNE",
+    title: "Aubergines A La Bonifacienne",
     emoji: "🥬",
     cat: "accompagnement",
     chef: "laurent.mariotte",
@@ -6785,7 +7531,9 @@ const RECIPES = [
       { qty: "QS", name: "Huile de pépins de raisin", rayon: 'epicerie' },
       { qty: "QS", name: "Sel, poivre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -6806,7 +7554,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -6836,12 +7586,14 @@ const RECIPES = [
       { qty: "200 g", name: "de chocolat noir 85%", rayon: 'epicerie' },
       { qty: "QS", name: "Cacao amer en poudre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "filet-de-daurade-roti-legumes-dete-a-lhuile-dolive",
-    title: "Filet de daurade rôti, légumes d’été à l’huile d’olive @laza",
+    id: "recette-eric-frechon",
+    title: "Recette Eric Frechon",
     emoji: "🍽️",
     cat: "plat",
     chef: "ericfrechon",
@@ -6857,19 +7609,21 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "materiel",
-    title: "MATÉRIEL⁠",
-    emoji: "🍰",
-    cat: "dessert",
+    title: "Matériel⁠",
+    emoji: "🥩",
+    cat: "viande",
     chef: "franceinter",
     chefName: "France Inter",
     time: "1h",
     serves: "4 pers.",
-    difficulty: "Moyen",
+    difficulty: "Facile",
     image: "img/DKSJ0VGv9yP.jpg",
     link: "https://www.instagram.com/franceinter/reel/DKSJ0VGv9yP/",
     linkType: "instagram",
@@ -6890,12 +7644,14 @@ const RECIPES = [
       { qty: "QS", name: "Verser l’appareil par-dessus pour bien recouvrir tous les fr", rayon: 'epicerie' },
       { qty: "QS", name: "Déguster ce clafoutis tiède ou froid et servir à la cuillère", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-francoisregis-gaudry-DNNNMH",
-    title: "Recette de François-Régis Gaudry",
+    id: "recette-francoisregis-gaudry-DNNNMH",
+    title: "Recette François-Régis Gaudry",
     emoji: "🥩",
     cat: "viande",
     chef: "frgaudry",
@@ -6911,12 +7667,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "crepone",
-    title: "CREPONE 🇩🇿",
+    title: "Crepone 🇩🇿",
     emoji: "🍽️",
     cat: "plat",
     chef: "mohamedcheikh_",
@@ -6938,12 +7696,14 @@ const RECIPES = [
       { qty: "50 CL", name: "Glaçons", rayon: 'epicerie' },
       { qty: "1", name: "P Blanc d’œuf", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "salade-de-nectarines",
-    title: "SALADE DE NECTARINES ️",
+    title: "Salade De Nectarines",
     emoji: "🥗",
     cat: "entree",
     chef: "laurent.mariotte",
@@ -6959,17 +7719,19 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "tarte-courgette-guanciale-parmigiano",
     title: "Tarte courgette, guanciale & parmigiano.",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🍽️",
+    cat: "plat",
     chef: "chefsimonezanoni",
     chefName: "Simone Zanoni",
-    time: "40min",
+    time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/DNGY5Ycsm62.jpg",
@@ -6980,12 +7742,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "ma-porchetta",
-    title: "MA PORCHETTA !",
+    title: "Ma Porchetta !",
     emoji: "🥩",
     cat: "viande",
     chef: "laurent.mariotte",
@@ -7008,14 +7772,16 @@ const RECIPES = [
       { qty: "1", name: "citron", rayon: 'epicerie' },
       { qty: "QS", name: "Ficelle de cuisson", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "salade-de-en-famille",
     title: "Salade de  en famille",
-    emoji: "🍝",
-    cat: "pates",
+    emoji: "🐟",
+    cat: "poisson",
     chef: "steflequellec",
     chefName: "Stephanie Le Quellec",
     time: "15min",
@@ -7029,7 +7795,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -7050,7 +7818,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -7071,12 +7841,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "aujourdhui-cest-taboule",
-    title: "Aujourd’hui c’est taboulé ️",
+    title: "Aujourd’hui c’est taboulé",
     emoji: "🥩",
     cat: "viande",
     chef: "maison.lamotte",
@@ -7092,7 +7864,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -7113,7 +7887,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -7134,12 +7910,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-lou-elsener-DMN85f",
-    title: "Recette de Lou Elsener",
+    id: "recette-lou-elsener-DMN85f",
+    title: "Recette Lou Elsener",
     emoji: "🍽️",
     cat: "plat",
     chef: "louloukitchen_",
@@ -7155,12 +7933,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "recette-parfaite-de-lete",
-    title: "️ RECETTE PARFAITE DE L’ÉTÉ️",
+    title: "Recette Parfaite De L’Été",
     emoji: "🥩",
     cat: "viande",
     chef: "frgaudry",
@@ -7176,12 +7956,14 @@ const RECIPES = [
     ingredients: [
       { qty: "QS", name: "Pour 2 personnes", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "falafel-creme-verte-a-la-tahine",
-    title: "FALAFEL, CRÈME VERTE À LA TAHINE",
+    title: "Falafel, Crème Verte À La Tahine",
     emoji: "🥗",
     cat: "entree",
     chef: "kitchenfactoryprod",
@@ -7211,12 +7993,14 @@ const RECIPES = [
       { qty: "50g", name: "de jus de citron jaune", rayon: 'epicerie' },
       { qty: "1", name: "gousse d’ail épluchée et dégermée", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-julie-andrieu-profil-officiel",
-    title: "Recette de Julie Andrieu, Profil Officiel",
+    id: "recette-julie-andrieu-profil-officiel",
+    title: "Recette Julie Andrieu, Profil Officiel",
     emoji: "🍝",
     cat: "pates",
     chef: "julieandrieu.officiel",
@@ -7232,12 +8016,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "recettes-parfaites-de-lete",
-    title: "️RECETTES PARFAITES DE L’ÉTÉ️",
+    title: "Recettes Parfaites De L’Été",
     emoji: "🥗",
     cat: "entree",
     chef: "frgaudry",
@@ -7253,12 +8039,14 @@ const RECIPES = [
     ingredients: [
       { qty: "QS", name: "Pour 4 personnes", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-lou-elsener-DLz57M",
-    title: "Recette de Lou Elsener",
+    id: "recette-lou-elsener-DLz57M",
+    title: "Recette Lou Elsener",
     emoji: "🥬",
     cat: "accompagnement",
     chef: "louloukitchen_",
@@ -7280,7 +8068,9 @@ const RECIPES = [
       { qty: "1 cas", name: "d’huile d’olive", rayon: 'epicerie' },
       { qty: "QS", name: "Sel", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -7308,12 +8098,14 @@ const RECIPES = [
       { qty: "1", name: "c.à.c. d’huile de noix (facultatif)", rayon: 'epicerie' },
       { qty: "QS", name: "Sel et poivre au goût", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "milkshake-banane-fraise",
-    title: "MILKSHAKE BANANE FRAISE",
+    title: "Milkshake Banane Fraise",
     emoji: "🍰",
     cat: "dessert",
     chef: "kitchenfactoryprod",
@@ -7336,7 +8128,9 @@ const RECIPES = [
       { qty: "QS", name: "½ litre de sorbet fraise", rayon: 'epicerie' },
       { qty: "50g", name: "d’amandes effilées torréfiées", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -7369,7 +8163,9 @@ const RECIPES = [
       { qty: "QS", name: "Huile d’olive", rayon: 'epicerie' },
       { qty: "QS", name: "Sel, poivre du moulin", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -7390,19 +8186,21 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "la-recette-secrete-de-mes-farcis-nicois",
     title: "La recette secrète de mes farcis niçois !",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🥩",
+    cat: "viande",
     chef: "bay_wf",
     chefName: "Bay wine & food🍷🍴",
-    time: "40min",
+    time: "45min",
     serves: "4 pers.",
-    difficulty: "Moyen",
+    difficulty: "Facile",
     image: "img/DIOFMYJta7j.jpg",
     link: "https://www.instagram.com/bay_wf/reel/DIOFMYJta7j/",
     linkType: "instagram",
@@ -7411,12 +8209,14 @@ const RECIPES = [
     ingredients: [
       { qty: "QS", name: "🥕 Pour les légumes :", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-cuisineaz-DLSUgQ",
-    title: "Recette de CuisineAZ",
+    id: "arancini",
+    title: "arancini",
     emoji: "🍽️",
     cat: "plat",
     chef: "cuisineaz",
@@ -7432,12 +8232,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-brut-DLKNfq",
-    title: "Recette de Brut.",
+    id: "recette-brut-DLKNfq",
+    title: "Recette Brut.",
     emoji: "🍰",
     cat: "dessert",
     chef: "brutofficiel",
@@ -7453,17 +8255,19 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "eton-mess-a-la-fraise",
-    title: "ETON MESS À LA FRAISE",
-    emoji: "🍰",
-    cat: "dessert",
+    title: "Eton Mess À La Fraise",
+    emoji: "🥗",
+    cat: "entree",
     chef: "cyrillignac",
     chefName: "Cyril Lignac",
-    time: "40min",
+    time: "20min",
     serves: "4 pers.",
     difficulty: "Avancé",
     image: "img/DK_xrE1I1P5.jpg",
@@ -7479,17 +8283,19 @@ const RECIPES = [
       { qty: "1", name: "cuil. à soupe de sucre glace", rayon: 'epicerie' },
       { qty: "100 g", name: "de purée de fraises", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "poivre-du-moulin",
     title: "Poivre du moulin",
-    emoji: "🍝",
-    cat: "pates",
+    emoji: "🥩",
+    cat: "viande",
     chef: "franceinter",
     chefName: "France Inter",
-    time: "25min",
+    time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/DK2M9CRP6XA.jpg",
@@ -7511,7 +8317,9 @@ const RECIPES = [
       { qty: "QS", name: "Sel", rayon: 'epicerie' },
       { qty: "QS", name: "Poivre du moulin", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -7542,12 +8350,14 @@ const RECIPES = [
       { qty: "QS", name: "Huile d’olive", rayon: 'epicerie' },
       { qty: "QS", name: "Fleur de sel, poivre du moulin", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "cuisiner-un-delicieux-clafoutis-aux-cerises-avec-j",
-    title: "Cuisiner un délicieux clafoutis aux cerises avec Jean-Franço",
+    id: "recette-DKWjU8",
+    title: "Recette :",
     emoji: "🍰",
     cat: "dessert",
     chef: "lepointfr",
@@ -7570,12 +8380,14 @@ const RECIPES = [
       { qty: "20 g", name: "de farine", rayon: 'epicerie' },
       { qty: "10 g", name: "de poudre de vanille", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-francoisregis-gaudry-DKbZJF",
-    title: "Recette de François-Régis Gaudry",
+    id: "recette-francoisregis-gaudry-DKbZJF",
+    title: "Recette François-Régis Gaudry",
     emoji: "🍽️",
     cat: "plat",
     chef: "frgaudry",
@@ -7591,12 +8403,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "petits-pois-vinaigrette-au-curry-yaourt-acidule",
-    title: "PETITS POIS VINAIGRETTE AU CURRY, YAOURT ACIDULÉ",
+    title: "Petits Pois Vinaigrette Au Curry, Yaourt Acidulé",
     emoji: "🥗",
     cat: "entree",
     chef: "kitchenfactoryprod",
@@ -7623,7 +8437,9 @@ const RECIPES = [
       { qty: "QS", name: "Huile d’olive", rayon: 'epicerie' },
       { qty: "QS", name: "Sel fin et poivre du moulin", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -7655,7 +8471,9 @@ const RECIPES = [
       { qty: "QS", name: "Huile d’olive", rayon: 'epicerie' },
       { qty: "QS", name: "Fleur de sel", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -7690,12 +8508,14 @@ const RECIPES = [
       { qty: "1 cac", name: "d’ail semoule ( important )", rayon: 'epicerie' },
       { qty: "QS", name: "Sel poivre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-lou-elsener-DJv68f",
-    title: "Recette de Lou Elsener",
+    id: "recette-lou-elsener-DJv68f",
+    title: "Recette Lou Elsener",
     emoji: "🍽️",
     cat: "plat",
     chef: "louloukitchen_",
@@ -7711,14 +8531,16 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "repas-de-bebe-orzo-cremeux-courgette-citron-poulet",
     title: "Repas de bébé - orzo crémeux courgette citron poulet",
-    emoji: "🍝",
-    cat: "pates",
+    emoji: "🥩",
+    cat: "viande",
     chef: "louloukitchen_",
     chefName: "Lou Elsener",
     time: "10min",
@@ -7743,12 +8565,14 @@ const RECIPES = [
       { qty: "QS", name: "Parmesan", rayon: 'epicerie' },
       { qty: "3/", name: "rajoutez le poulet,", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "qui-na-pas-encore-fait-cette-recette-lan-dernier-m",
-    title: "Qui n’a pas encore fait cette recette l’an dernier?  MA TOMA",
+    id: "une-grosse-tomate",
+    title: "Une grosse tomate",
     emoji: "🫕",
     cat: "sauce",
     chef: "louloukitchen_",
@@ -7772,12 +8596,14 @@ const RECIPES = [
       { qty: "4/", name: "decoupez la tranche de pain en crouton et faites revenir dans une poêle", rayon: 'epicerie' },
       { qty: "5/", name: "badigeonnez de miel la tomate, disposez l’a sur le pesto et degustez", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "pour-une-carafe-de-50cl",
-    title: "️Pour une carafe de 50cl",
+    id: "enjoy-sans-moderation-pour-toutes-les-generations",
+    title: "Enjoy sans modération, pour toutes les générations",
     emoji: "🍽️",
     cat: "plat",
     chef: "margot.combat",
@@ -7800,7 +8626,9 @@ const RECIPES = [
       { qty: "2", name: "tranches de concombre", rayon: 'epicerie' },
       { qty: "3", name: "tranches de citron jaune", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -7830,19 +8658,21 @@ const RECIPES = [
       { qty: "1", name: "cébette ou ciboule", rayon: 'epicerie' },
       { qty: "QS", name: "Huile de tournesol", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "panna-cotta-aux-fraises-C7bCt1",
     title: "Panna cotta aux fraises",
-    emoji: "🍽️",
-    cat: "plat",
+    emoji: "🍰",
+    cat: "dessert",
     chef: "lagostinafrance",
     chefName: "Lagostina France",
     time: "10min",
     serves: "4 pers.",
-    difficulty: "Facile",
+    difficulty: "Moyen",
     image: "img/C7bCt1YpVsm.jpg",
     link: "https://www.instagram.com/lagostinafrance/reel/C7bCt1YpVsm/",
     linkType: "instagram",
@@ -7857,17 +8687,19 @@ const RECIPES = [
       { qty: "50g", name: "sucre semoule", rayon: 'epicerie' },
       { qty: "1", name: "citron vert", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-julie-andrieu-profil-officiel-DJW7ew",
-    title: "Recette de Julie Andrieu, Profil Officiel",
-    emoji: "🍽️",
-    cat: "plat",
+    id: "recette-julie-andrieu-profil-officiel-DJW7ew",
+    title: "Recette Julie Andrieu, Profil Officiel",
+    emoji: "🫕",
+    cat: "sauce",
     chef: "julieandrieu.officiel",
     chefName: "Julie Andrieu, Profil Officiel",
-    time: "35min",
+    time: "15min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/DJW7ewiIvE4.jpg",
@@ -7880,14 +8712,16 @@ const RECIPES = [
       { qty: "200 g", name: "de cassonade", rayon: 'epicerie' },
       { qty: "160 g", name: "de crème liquide entière", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "clafoutis-aux-framboises",
-    title: "CLAFOUTIS AUX FRAMBOISES",
-    emoji: "🍰",
-    cat: "dessert",
+    title: "Clafoutis Aux Framboises",
+    emoji: "🥗",
+    cat: "entree",
     chef: "kitchenfactoryprod",
     chefName: "Kitchen Factory Production 🍽",
     time: "20min",
@@ -7910,14 +8744,16 @@ const RECIPES = [
       { qty: "QS", name: "Sucre glace", rayon: 'epicerie' },
       { qty: "QS", name: "Quelques amandes effilées torréfiées", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "un-diner-pour-6-de-reve-en-une-heure-chrono",
     title: "Un dîner pour 6 de rêve, en une heure chrono",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🐟",
+    cat: "poisson",
     chef: "enrangdoignons",
     chefName: "Raphaële Marchal",
     time: "45min",
@@ -7931,12 +8767,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "salade-de-fraises-a-la-fleur-doranger-creme-legere",
-    title: "SALADE DE FRAISES À LA FLEUR D’ORANGER, CRÈME LÉGÈRE",
+    title: "Salade De Fraises À La Fleur D’Oranger, Crème Légère",
     emoji: "🥗",
     cat: "entree",
     chef: "kitchenfactoryprod",
@@ -7960,17 +8798,19 @@ const RECIPES = [
       { qty: "QS", name: "Quelques feuilles de menthe", rayon: 'epicerie' },
       { qty: "1", name: "citron jaune", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "comme-la-chasse-aux-oeufs-lagneau-de-paques-est-un",
-    title: "Comme la chasse aux oeufs, l'agneau de Pâques est une tradit",
-    emoji: "🍰",
-    cat: "dessert",
+    id: "recette-brut-DIqrXJ",
+    title: "Recette Brut.",
+    emoji: "🥩",
+    cat: "viande",
     chef: "brutofficiel",
     chefName: "Brut.",
-    time: "40min",
+    time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/DIqrXJzh21g.jpg",
@@ -7981,12 +8821,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "je-vous-presente-la-mozzarella-lover-la-recette-de",
-    title: "Je vous présente la Mozzarella Lover, LA recette de l'été ! ",
+    id: "avec-galbani-jai-donne-un-coup-de-neuf-a-la-tomate",
+    title: "Avec Galbani j'ai donné un coup de neuf à la tomate mozza 🇮🇹",
     emoji: "🍽️",
     cat: "plat",
     chef: "xavier_pincemin",
@@ -8002,19 +8844,21 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "aglio-olio-e-peperoncino",
-    title: "️ Aglio, Olio e Peperoncino.",
-    emoji: "🍰",
-    cat: "dessert",
+    title: "Aglio, Olio e Peperoncino.",
+    emoji: "🍝",
+    cat: "pates",
     chef: "chefsimonezanoni",
     chefName: "Simone Zanoni",
-    time: "40min",
+    time: "25min",
     serves: "4 pers.",
-    difficulty: "Moyen",
+    difficulty: "Facile",
     image: "img/DIZJhZ3MKgn.jpg",
     link: "https://www.instagram.com/chefsimonezanoni/reel/DIZJhZ3MKgn/",
     linkType: "instagram",
@@ -8023,7 +8867,9 @@ const RECIPES = [
     ingredients: [
       { qty: "QS", name: "Ça vous tente ?", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -8050,7 +8896,9 @@ const RECIPES = [
       { qty: "1", name: "oeuf (50 g)", rayon: 'epicerie' },
       { qty: "2", name: "pincées de sel", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -8085,7 +8933,9 @@ const RECIPES = [
       { qty: "40 g", name: "de beurre", rayon: 'epicerie' },
       { qty: "QS", name: "Gingembre râpé", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -8106,7 +8956,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -8127,12 +8979,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "rouget-habille-de-rouge",
-    title: "Rouget habillé de rouge ️",
+    title: "Rouget habillé de rouge",
     emoji: "🍽️",
     cat: "plat",
     chef: "matthias_marc",
@@ -8148,14 +9002,16 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "creme-caramel-a-la-vanille",
-    title: "CRÈME CARAMEL À LA VANILLE",
-    emoji: "🍽️",
-    cat: "plat",
+    title: "Crème Caramel À La Vanille",
+    emoji: "🫕",
+    cat: "sauce",
     chef: "kitchenfactoryprod",
     chefName: "Kitchen Factory Production 🍽",
     time: "20min",
@@ -8176,12 +9032,14 @@ const RECIPES = [
       { qty: "1", name: "fève tonka", rayon: 'epicerie' },
       { qty: "2", name: "gousses de vanille", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-yotam-ottolenghi-DH6Rfc",
-    title: "Recette de Yotam Ottolenghi",
+    id: "recette-yotam-ottolenghi-DH6Rfc",
+    title: "Recette Yotam Ottolenghi",
     emoji: "🍽️",
     cat: "plat",
     chef: "ottolenghi",
@@ -8197,12 +9055,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "curry-japonais-de-legumes",
-    title: "CURRY JAPONAIS DE LÉGUMES",
+    title: "Curry Japonais De Légumes",
     emoji: "🥩",
     cat: "viande",
     chef: "kitchenfactoryprod",
@@ -8231,7 +9091,9 @@ const RECIPES = [
       { qty: "QS", name: "Huile d’olive", rayon: 'epicerie' },
       { qty: "QS", name: "Sel fin", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -8255,7 +9117,9 @@ const RECIPES = [
       { qty: "170 g", name: "de sucre", rayon: 'epicerie' },
       { qty: "200 g", name: "(20 cl) de crème liquide", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -8279,12 +9143,14 @@ const RECIPES = [
       { qty: "QS", name: "Saupoudrez d’origan ou graines de carvi", rayon: 'epicerie' },
       { qty: "QS", name: "Faites-les cuire à 170°C pendant 15min.", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "pavlova-aux-agrumes",
-    title: "PAVLOVA AUX AGRUMES",
+    title: "Pavlova Aux Agrumes",
     emoji: "🍰",
     cat: "dessert",
     chef: "cyrillignac",
@@ -8314,19 +9180,21 @@ const RECIPES = [
       { qty: "15 g", name: "de sucre en poudre", rayon: 'epicerie' },
       { qty: "1", name: "gousse de vanille", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-panna-cotta-au-kiwi",
-    title: "Recette de panna cotta au kiwi",
-    emoji: "🍽️",
-    cat: "plat",
+    id: "voici-la-liste-des-ingredients-pour-6-personnes",
+    title: "Voici la liste des ingrédients pour 6 personnes :",
+    emoji: "🍰",
+    cat: "dessert",
     chef: "dr.jimmy.mohamed",
     chefName: "Jimmy Mohamed",
-    time: "35min",
+    time: "40min",
     serves: "6 pers.",
-    difficulty: "Facile",
+    difficulty: "Moyen",
     image: "img/DHOkQOnTmkX.jpg",
     link: "https://www.instagram.com/dr.jimmy.mohamed/reel/DHOkQOnTmkX/",
     linkType: "instagram",
@@ -8340,12 +9208,14 @@ const RECIPES = [
       { qty: "QS", name: "Zeste d’un citron", rayon: 'epicerie' },
       { qty: "QS", name: "Gousse de Vanille 1 ou essence", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "ingredients",
-    title: "INGREDIENTS :⁠",
+    title: "Ingredients :⁠",
     emoji: "🥗",
     cat: "entree",
     chef: "franceinter",
@@ -8369,12 +9239,14 @@ const RECIPES = [
       { qty: "2", name: "pincées de piment en poudre ⁠", rayon: 'epicerie' },
       { qty: "QS", name: "Sel, poivre ⁠", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "et-si-je-vous-donnais-la-recette-de-mon-dessert-pr",
-    title: "Et si je vous donnais la recette de mon dessert préféré.",
+    id: "la-tarte-tatin",
+    title: "La TARTE TATIN",
     emoji: "🍰",
     cat: "dessert",
     chef: "chiara_serpaggi",
@@ -8390,12 +9262,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "pavlova-aux-agrumes-DGu5HL",
-    title: "PAVLOVA AUX AGRUMES",
+    title: "Pavlova Aux Agrumes",
     emoji: "🍰",
     cat: "dessert",
     chef: "kitchenfactoryprod",
@@ -8424,7 +9298,9 @@ const RECIPES = [
       { qty: "3 cl", name: "de coulis de fruits de la passion", rayon: 'epicerie' },
       { qty: "QS", name: "De la glace vanille", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -8445,12 +9321,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de",
-    title: "Recette de ",
+    id: "recette-DGlX9j",
+    title: "Recette ",
     emoji: "🫕",
     cat: "sauce",
     chef: "laurent.mariotte",
@@ -8466,12 +9344,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-calmars-farcis",
-    title: "Recette de calmars farcis",
+    id: "calmars-farcis",
+    title: "calmars farcis 😋",
     emoji: "🍽️",
     cat: "plat",
     chef: "dr.jimmy.mohamed",
@@ -8487,12 +9367,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "carpaccio-de-saumon-aux-baies-roses-et-citron",
-    title: "CARPACCIO DE SAUMON AUX BAIES ROSES ET CITRON",
+    title: "Carpaccio De Saumon Aux Baies Roses Et Citron",
     emoji: "🐟",
     cat: "poisson",
     chef: "kitchenfactoryprod",
@@ -8518,14 +9400,16 @@ const RECIPES = [
       { qty: "1", name: "botte de ciboulette", rayon: 'epicerie' },
       { qty: "QS", name: "Fleur de sel", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "pad-thai",
-    title: "PAD THAÏ",
-    emoji: "🍝",
-    cat: "pates",
+    title: "Pad Thaï",
+    emoji: "🥩",
+    cat: "viande",
     chef: "cyrillignac",
     chefName: "Cyril Lignac",
     time: "20min",
@@ -8553,14 +9437,16 @@ const RECIPES = [
       { qty: "15cl", name: "de vinaigre de riz blanc", rayon: 'epicerie' },
       { qty: "2", name: "cuil. à soupe de sauce de piment sriracha", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "la-tatin-de-poireaux",
     title: "La tatin de poireaux !",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🍽️",
+    cat: "plat",
     chef: "enrangdoignons",
     chefName: "Raphaële Marchal",
     time: "5min",
@@ -8574,12 +9460,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "veloute-de-carottes-au-curcuma-ricotta-et-croutons",
-    title: "VELOUTÉ DE CAROTTES AU CURCUMA, RICOTTA ET CROUTONS DORÉS",
+    title: "Velouté De Carottes Au Curcuma, Ricotta Et Croutons Dorés",
     emoji: "🥩",
     cat: "viande",
     chef: "cyrillignac",
@@ -8605,12 +9493,14 @@ const RECIPES = [
       { qty: "QS", name: "Huile d’olive", rayon: 'epicerie' },
       { qty: "QS", name: "Sel fin et poivre du moulin", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "tiramisu-citron",
-    title: "TIRAMISU CITRON",
+    title: "Tiramisu Citron",
     emoji: "🍰",
     cat: "dessert",
     chef: "mohamedcheikh_",
@@ -8640,12 +9530,14 @@ const RECIPES = [
       { qty: "QS", name: "Verser le tout dans un saladier.", rayon: 'epicerie' },
       { qty: "QS", name: "Ajouter le beurre et mixer à l’aide d’un mixeur plongeant.", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-julie-andrieu-profil-officiel-DE7y98",
-    title: "Recette de Julie Andrieu, Profil Officiel",
+    id: "recette-julie-andrieu-profil-officiel-DE7y98",
+    title: "Recette Julie Andrieu, Profil Officiel",
     emoji: "🥗",
     cat: "entree",
     chef: "julieandrieu.officiel",
@@ -8661,7 +9553,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -8690,14 +9584,16 @@ const RECIPES = [
       { qty: "100 g", name: "de kumquats", rayon: 'epicerie' },
       { qty: "3", name: "c. à s. de pistaches torréfiées", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "tomates-farcies",
-    title: "TOMATES FARCIES",
-    emoji: "🍰",
-    cat: "dessert",
+    title: "Tomates Farcies",
+    emoji: "🍽️",
+    cat: "plat",
     chef: "kitchenfactoryprod",
     chefName: "Kitchen Factory Production 🍽",
     time: "10min",
@@ -8720,7 +9616,9 @@ const RECIPES = [
       { qty: "QS", name: "Sel fin et poivre du moulin", rayon: 'epicerie' },
       { qty: "QS", name: "Gros sel", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -8741,7 +9639,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -8762,14 +9662,16 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "galette-des-rois-a-lamande",
-    title: "GALETTE DES ROIS À L’AMANDE",
-    emoji: "🍰",
-    cat: "dessert",
+    title: "Galette Des Rois À L’Amande",
+    emoji: "🥩",
+    cat: "viande",
     chef: "kitchenfactoryprod",
     chefName: "Kitchen Factory Production 🍽",
     time: "35min",
@@ -8795,7 +9697,9 @@ const RECIPES = [
       { qty: "100 g", name: "d’eau", rayon: 'epicerie' },
       { qty: "100 g", name: "de sucre en poudre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -8823,7 +9727,9 @@ const RECIPES = [
       { qty: "QS", name: "Huile riche en oméga 3 (lin, chanvre, noix, colza)", rayon: 'epicerie' },
       { qty: "QS", name: "Sel, poivre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -8844,12 +9750,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-jimmy-mohamed",
-    title: "Recette de Jimmy Mohamed",
+    id: "recette-jimmy-mohamed",
+    title: "Recette Jimmy Mohamed",
     emoji: "🍽️",
     cat: "plat",
     chef: "dr.jimmy.mohamed",
@@ -8865,14 +9773,16 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "preparation-DEVKsU",
     title: "Préparation :",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🥩",
+    cat: "viande",
     chef: "mesdames.media",
     chefName: "Mesdames",
     time: "45min",
@@ -8891,7 +9801,9 @@ const RECIPES = [
       { qty: "QS", name: "* 125 g de sucre glace", rayon: 'epicerie' },
       { qty: "QS", name: "* 2 œufs battus", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -8921,12 +9833,14 @@ const RECIPES = [
       { qty: "3", name: "c. à soupe de tamari", rayon: 'epicerie' },
       { qty: "QS", name: "Jus d’1/2 citron", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "les-oeufs-mimosa-de-helenedarroze",
-    title: "⭐️ Les oeufs mimosa de @helenedarroze ⭐️",
+    title: "⭐ Les oeufs mimosa de @helenedarroze ⭐",
     emoji: "🥗",
     cat: "entree",
     chef: "leparisdalexis",
@@ -8954,12 +9868,14 @@ const RECIPES = [
       { qty: "QS", name: "* 10 cl d’huile d’olive", rayon: 'epicerie' },
       { qty: "QS", name: "* Sel et piment d’Espelette", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-le-bonbon",
-    title: "Recette de Le Bonbon",
+    id: "recette-le-bonbon",
+    title: "Recette Le Bonbon",
     emoji: "🍽️",
     cat: "plat",
     chef: "le_bonbon",
@@ -8975,12 +9891,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "cest-noel",
-    title: "️ C’EST NOËL",
+    title: "C’Est Noël",
     emoji: "🫕",
     cat: "sauce",
     chef: "juanarbelaezchef",
@@ -9000,12 +9918,14 @@ const RECIPES = [
       { qty: "QS", name: "Huile d’olive", rayon: 'epicerie' },
       { qty: "QS", name: "Sel", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "saint-jacques",
-    title: "SAINT JACQUES",
+    title: "Saint Jacques",
     emoji: "🍝",
     cat: "pates",
     chef: "juanarbelaezchef",
@@ -9021,12 +9941,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-madame-figaro-paris",
-    title: "Recette de Madame Figaro Paris",
+    id: "recette-madame-figaro-paris",
+    title: "Recette Madame Figaro Paris",
     emoji: "🍰",
     cat: "dessert",
     chef: "madamefigarofr",
@@ -9042,19 +9964,21 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "lindetronable-tarte-tatin-realisee-par-le-chef-mou",
     title: "L’indétrônable Tarte Tatin réalisée par le chef @moulayefann",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🥩",
+    cat: "viande",
     chef: "elleatable",
     chefName: "ELLE à table",
-    time: "40min",
+    time: "45min",
     serves: "4 pers.",
-    difficulty: "Moyen",
+    difficulty: "Facile",
     image: "img/DEDDNi3NWaO.jpg",
     link: "https://www.instagram.com/elleatable/reel/DEDDNi3NWaO/",
     linkType: "instagram",
@@ -9066,12 +9990,14 @@ const RECIPES = [
       { qty: "90g", name: "de beurre", rayon: 'epicerie' },
       { qty: "1", name: "gousse de vanille de Madagascar", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-jimmy-mohamed-DEF9YN",
-    title: "Recette de Jimmy Mohamed",
+    id: "recette-jimmy-mohamed-DEF9YN",
+    title: "Recette Jimmy Mohamed",
     emoji: "🍽️",
     cat: "plat",
     chef: "dr.jimmy.mohamed",
@@ -9087,17 +10013,19 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "cest-un-signe-vous-devez-tenter-de-faire-un-buf-we",
-    title: "C'est un signe, vous devez tenter de faire un bœuf Wellingto",
-    emoji: "🥩",
-    cat: "viande",
+    id: "300g-champignons-de-paris",
+    title: "300g Champignons de Paris",
+    emoji: "🥗",
+    cat: "entree",
     chef: "cuisineactuelle",
     chefName: "Cuisine Actuelle",
-    time: "45min",
+    time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/DDxZUvJPB83.jpg",
@@ -9121,12 +10049,14 @@ const RECIPES = [
       { qty: "QS", name: "Sel", rayon: 'epicerie' },
       { qty: "QS", name: "Poivre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "un-grand-classique-pour-noel-volaille-au-vin-jaune",
-    title: "Un grand classique pour Noël !!! Volaille au vin jaune et mo",
+    id: "une-volaille",
+    title: "Une volaille",
     emoji: "🥩",
     cat: "viande",
     chef: "julienduboue",
@@ -9142,7 +10072,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -9167,7 +10099,9 @@ const RECIPES = [
       { qty: "1", name: "grosse cuillère à soupe d’armagnac", rayon: 'epicerie' },
       { qty: "1", name: "grosse cuillère à soupe de cognac", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -9191,12 +10125,14 @@ const RECIPES = [
       { qty: "QS", name: "Sel", rayon: 'epicerie' },
       { qty: "QS", name: "Poivre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-france-inter-DDhrJ7",
-    title: "Recette de France Inter",
+    id: "recette-france-inter-DDhrJ7",
+    title: "Recette France Inter",
     emoji: "🥗",
     cat: "entree",
     chef: "franceinter",
@@ -9212,12 +10148,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-cuisineaz-DDT1WR",
-    title: "Recette de CuisineAZ",
+    id: "facile-et-rapide-parfaite-en-derniere-minute",
+    title: "facile et rapide, parfaite en dernière minute !",
     emoji: "🐟",
     cat: "poisson",
     chef: "cuisineaz",
@@ -9233,7 +10171,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -9254,12 +10194,14 @@ const RECIPES = [
     ingredients: [
       { qty: "700 g", name: "de potimarron", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "ma-pavlova-de-noel",
-    title: "MA PAVLOVA DE NOËL",
+    title: "Ma Pavlova De Noël",
     emoji: "🍰",
     cat: "dessert",
     chef: "willyskitchen",
@@ -9289,12 +10231,14 @@ const RECIPES = [
       { qty: "QS", name: "* 3 Anis étoilé", rayon: 'epicerie' },
       { qty: "QS", name: "* 6 Clous de girofle", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "a-vous-de-jouer-le-grand-gagnant-remportera-le-nou",
-    title: "À vous de jouer ! Le grand gagnant remportera le nouveau liv",
+    id: "recette-cuisine-actuelle-DDPjOT",
+    title: "Recette Cuisine Actuelle",
     emoji: "🥩",
     cat: "viande",
     chef: "cuisineactuelle",
@@ -9310,7 +10254,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -9334,14 +10280,16 @@ const RECIPES = [
       { qty: "QS", name: "Sel", rayon: 'epicerie' },
       { qty: "QS", name: "Poivre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-noel-episode-1",
-    title: "RECETTE DE NOEL EPISODE 1",
-    emoji: "🍝",
-    cat: "pates",
+    id: "feuilletes-aperitif",
+    title: "Feuilletés Aperitif",
+    emoji: "🐟",
+    cat: "poisson",
     chef: "lesudatable",
     chefName: "Sylvia Mareuse",
     time: "12min",
@@ -9369,14 +10317,16 @@ const RECIPES = [
       { qty: "QS", name: "🍀1 pincée de piment d’Espelette", rayon: 'epicerie' },
       { qty: "QS", name: "🍀Sel et poivre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "piccata-de-poulet-pane-et-tarte-du-jardin-dhiver",
-    title: "PICCATA DE POULET PANÉ ET TARTE DU JARDIN D’HIVER",
-    emoji: "🍰",
-    cat: "dessert",
+    title: "Piccata De Poulet Pané Et Tarte Du Jardin D’Hiver",
+    emoji: "🍽️",
+    cat: "plat",
     chef: "cyrillignac",
     chefName: "Cyril Lignac",
     time: "20min",
@@ -9399,7 +10349,9 @@ const RECIPES = [
       { qty: "2", name: "gousses d’ail épluchées et dégermées", rayon: 'epicerie' },
       { qty: "QS", name: "Quelques branches de thym", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -9420,7 +10372,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -9441,12 +10395,14 @@ const RECIPES = [
     ingredients: [
       { qty: "QS", name: "Riz : riz thaï", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "et-pour-celles-qui-nont-pas-encore-teste-il-est-gr",
-    title: "Et pour celles qui n’ont pas encore testé, il est grand temp",
+    id: "noubliez-pas-de-nous-taguer-si-vous-vous-lancez-da",
+    title: "N’oubliez pas de nous taguer si vous vous lancez dans l’aven",
     emoji: "🍝",
     cat: "pates",
     chef: "doitin_paris",
@@ -9462,14 +10418,16 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "cocotte-de-volaille-aux-champignons-et-marrons-sau",
-    title: "COCOTTE DE VOLAILLE AUX CHAMPIGNONS ET MARRONS, SAUCE VIN JA",
-    emoji: "🍰",
-    cat: "dessert",
+    title: "Cocotte De Volaille Aux Champignons Et Marrons, Sauce Vin Ja",
+    emoji: "🥩",
+    cat: "viande",
     chef: "kitchenfactoryprod",
     chefName: "Kitchen Factory Production 🍽",
     time: "20min",
@@ -9493,12 +10451,14 @@ const RECIPES = [
       { qty: "QS", name: "Piment d’Espelette", rayon: 'epicerie' },
       { qty: "QS", name: "Sel fin et poivre du moulin", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "epaule-agneau-barbecue",
-    title: "ÉPAULE AGNEAU BARBECUE 🇺🇸",
+    title: "Épaule Agneau Barbecue 🇺🇸",
     emoji: "🥩",
     cat: "viande",
     chef: "mohamedcheikh_",
@@ -9528,7 +10488,9 @@ const RECIPES = [
       { qty: "30 CL", name: "Eau", rayon: 'epicerie' },
       { qty: "QS", name: "PM Sel", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -9556,12 +10518,14 @@ const RECIPES = [
       { qty: "6", name: "œufs", rayon: 'epicerie' },
       { qty: "3", name: "pincées de noix de muscade râpée", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "dingue-du-potimarron",
-    title: "DINGUE DU POTIMARRON",
+    title: "Dingue Du Potimarron",
     emoji: "🥗",
     cat: "entree",
     chef: "laurent.mariotte",
@@ -9577,14 +10541,16 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "risotto-de-coquillettes-au-jambon-et-parmesan",
-    title: "RISOTTO DE COQUILLETTES AU JAMBON ET PARMESAN",
-    emoji: "🍰",
-    cat: "dessert",
+    title: "Risotto De Coquillettes Au Jambon Et Parmesan",
+    emoji: "🍝",
+    cat: "pates",
     chef: "kitchenfactoryprod",
     chefName: "Kitchen Factory Production 🍽",
     time: "20min",
@@ -9608,12 +10574,14 @@ const RECIPES = [
       { qty: "QS", name: "Huile d’olive", rayon: 'epicerie' },
       { qty: "QS", name: "Sel fin et poivre du moulin", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "filet-mignon-oignons-et-champignons-en-croute-de-p",
-    title: "FILET MIGNON, OIGNONS ET CHAMPIGNONS EN CROÛTE DE PÂTE FEUIL",
+    title: "Filet Mignon, Oignons Et Champignons En Croûte De Pâte Feuil",
     emoji: "🥩",
     cat: "viande",
     chef: "lacuisinedegarance",
@@ -9636,7 +10604,9 @@ const RECIPES = [
       { qty: "1", name: "œuf", rayon: 'epicerie' },
       { qty: "QS", name: "huile de cuisson + huile d’olive", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -9657,14 +10627,16 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "cette-tarte-de-folie-se-fait-entierement-a-la-poel",
     title: "Cette tarte de folie se fait entièrement à la poêle !",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🥗",
+    cat: "entree",
     chef: "750grammes",
     chefName: "750g",
     time: "10min",
@@ -9688,7 +10660,9 @@ const RECIPES = [
       { qty: "QS", name: "Sel ou sel fin", rayon: 'epicerie' },
       { qty: "QS", name: "Poivre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -9712,12 +10686,14 @@ const RECIPES = [
       { qty: "QS", name: "I pate brisée", rayon: 'epicerie' },
       { qty: "QS", name: "Beurre pour le moule", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "coleslaw",
-    title: "COLESLAW",
+    title: "Coleslaw",
     emoji: "🍽️",
     cat: "plat",
     chef: "xavier_pincemin",
@@ -9733,14 +10709,16 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "buf-saute-sauce-soja",
-    title: "BŒUF SAUTÉ, SAUCE SOJA",
-    emoji: "🥩",
-    cat: "viande",
+    title: "Bœuf Sauté, Sauce Soja",
+    emoji: "🥗",
+    cat: "entree",
     chef: "kitchenfactoryprod",
     chefName: "Kitchen Factory Production 🍽",
     time: "20min",
@@ -9768,12 +10746,14 @@ const RECIPES = [
       { qty: "QS", name: "Huile neutre", rayon: 'epicerie' },
       { qty: "QS", name: "Sel fin et poivre du moulin", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-brut-DCWUl6",
-    title: "Recette de Brut.",
+    id: "recette-brut-DCWUl6",
+    title: "Recette Brut.",
     emoji: "🫕",
     cat: "sauce",
     chef: "brutofficiel",
@@ -9789,12 +10769,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "economiques-equilibrees-rapides-a-cuisiner-elles-o",
-    title: "Économiques, équilibrées, rapides à cuisiner… Elles ont tous",
+    id: "sel-et-poivre-du-moulin-DBoFoF",
+    title: "Sel et poivre du moulin",
     emoji: "🥗",
     cat: "entree",
     chef: "lepointstyle",
@@ -9810,12 +10792,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "tout-le-monde-aime-les-gateaux-aux-pommes-faits-ma",
-    title: "Tout le monde aime les #gateaux aux #pommes faits maison.",
+    id: "recette-DCOr0n",
+    title: "Recette 𝙑𝙞𝙣𝙘𝙚𝙣𝙩 𝙁𝙀𝙍𝙉𝙄𝙊𝙏",
     emoji: "🍽️",
     cat: "plat",
     chef: "vferniot",
@@ -9831,14 +10815,16 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "cake-a-la-patate-douce",
-    title: "CAKE À LA PATATE DOUCE",
-    emoji: "🍰",
-    cat: "dessert",
+    title: "Cake À La Patate Douce",
+    emoji: "🥬",
+    cat: "accompagnement",
     chef: "kitchenfactoryprod",
     chefName: "Kitchen Factory Production 🍽",
     time: "15min",
@@ -9863,7 +10849,9 @@ const RECIPES = [
       { qty: "20 g", name: "de gingembre râpé", rayon: 'epicerie' },
       { qty: "QS", name: "Du beurre pour le moule", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -9898,12 +10886,14 @@ const RECIPES = [
       { qty: "30g", name: "de beurre", rayon: 'epicerie' },
       { qty: "QS", name: "Le reste de farce", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "choux-fleurs-roti",
-    title: "CHOUX FLEURS RÔTI",
+    title: "Choux Fleurs Rôti",
     emoji: "🥩",
     cat: "viande",
     chef: "mohamedcheikh_",
@@ -9931,19 +10921,21 @@ const RECIPES = [
       { qty: "QS", name: "Quelques branches de thym", rayon: 'epicerie' },
       { qty: "QS", name: "Quelques noix de cajou et quelques graines de nigelle pour l", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "un-peu-de-sucre-facultatif",
-    title: "Un peu de sucre (facultatif)",
-    emoji: "🍰",
-    cat: "dessert",
+    id: "250g-de-farine-DCCoDP",
+    title: "250g de farine",
+    emoji: "🍽️",
+    cat: "plat",
     chef: "dr.jimmy.mohamed",
     chefName: "Jimmy Mohamed",
     time: "30min",
     serves: "4 pers.",
-    difficulty: "Moyen",
+    difficulty: "Facile",
     image: "img/DCCoDP_IBos.jpg",
     link: "https://www.instagram.com/dr.jimmy.mohamed/reel/DCCoDP_IBos/",
     linkType: "instagram",
@@ -9952,12 +10944,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "montblanc-revisite",
-    title: "MONT-BLANC REVISITÉ",
+    title: "Mont-Blanc Revisité",
     emoji: "🍰",
     cat: "dessert",
     chef: "kitchenfactoryprod",
@@ -9984,19 +10978,21 @@ const RECIPES = [
       { qty: "6", name: "à 8 marrons glacés", rayon: 'epicerie' },
       { qty: "1", name: "dizaine de petites meringues", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "materiel-DCHjON",
     title: "Matériel",
-    emoji: "🍝",
-    cat: "pates",
+    emoji: "🐟",
+    cat: "poisson",
     chef: "franceinter",
     chefName: "France Inter",
-    time: "25min",
+    time: "30min",
     serves: "4 pers.",
-    difficulty: "Facile",
+    difficulty: "Moyen",
     image: "img/DCHjON_BvaT.jpg",
     link: "https://www.instagram.com/franceinter/reel/DCHjON_BvaT/",
     linkType: "instagram",
@@ -10012,12 +11008,14 @@ const RECIPES = [
       { qty: "8", name: "filets d’anchois au sel", rayon: 'epicerie' },
       { qty: "9 cl", name: "d’huile d’olive (90 g)", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-ma-tarte-tatin-poire-une-merveille-rece",
-    title: "Recette de ma tarte tatin poire  une merveille  #recettefaci",
+    id: "recette-monelle-godaert-DCCP0X",
+    title: "Recette Monelle Godaert",
     emoji: "🍰",
     cat: "dessert",
     chef: "not_so_superflu",
@@ -10033,7 +11031,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -10060,12 +11060,14 @@ const RECIPES = [
       { qty: "4,86 g", name: "de fleur de sel", rayon: 'epicerie' },
       { qty: "50,99 g", name: "de beurre doux (mou)", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "melanger-la-farine-le-sucre-et-le-sel-a-laide-dun-",
-    title: "Mélanger la farine, le sucre et le sel à l’aide d’un robot m",
+    id: "recette-france-inter-DB1jRe",
+    title: "Recette France Inter",
     emoji: "🍰",
     cat: "dessert",
     chef: "franceinter",
@@ -10095,19 +11097,21 @@ const RECIPES = [
       { qty: "1", name: "demi-c. à c. de sel", rayon: 'epicerie' },
       { qty: "1", name: "pincée de clous de girofle moulus", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "fondant-chocolat-lait-praline",
     title: "Fondant Chocolat Lait Praliné",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🍽️",
+    cat: "plat",
     chef: "xavier_pincemin",
     chefName: "Xavier Pincemin",
-    time: "40min",
+    time: "35min",
     serves: "4 pers.",
-    difficulty: "Moyen",
+    difficulty: "Facile",
     image: "img/DB00K6ZIM53.jpg",
     link: "https://www.instagram.com/xavier_pincemin/reel/DB00K6ZIM53/",
     linkType: "instagram",
@@ -10116,19 +11120,21 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "croustillants-et-fondants",
     title: "Croustillants et fondants",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🥗",
+    cat: "entree",
     chef: "megalowfood",
     chefName: "Ella Hagege",
     time: "25min",
     serves: "4 pers.",
-    difficulty: "Moyen",
+    difficulty: "Facile",
     image: "img/DBIgWc1I15L.jpg",
     link: "https://www.instagram.com/megalowfood/reel/DBIgWc1I15L/",
     linkType: "instagram",
@@ -10137,7 +11143,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -10165,12 +11173,14 @@ const RECIPES = [
       { qty: "1", name: "gousse d’ail", rayon: 'epicerie' },
       { qty: "1 cac", name: "de piment d’espelette", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "boulettes-de-veau-au-citron-polenta",
-    title: "BOULETTES DE VEAU AU CITRON, POLENTA",
+    title: "Boulettes De Veau Au Citron, Polenta",
     emoji: "🥩",
     cat: "viande",
     chef: "kitchenfactoryprod",
@@ -10200,7 +11210,9 @@ const RECIPES = [
       { qty: "QS", name: "¼ de litre de bouillon de volaille cube", rayon: 'epicerie' },
       { qty: "QS", name: "Huile d’olive", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -10226,7 +11238,9 @@ const RECIPES = [
       { qty: "4", name: "c. à s. (150 g) de miso blanc bio (épiceries asiatiques)", rayon: 'epicerie' },
       { qty: "1", name: "litre d’eau", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -10247,23 +11261,25 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "big-mac",
-    title: "BIG MAC",
-    emoji: "🥗",
-    cat: "entree",
+    id: "des-adeptes-de-ce-burger",
+    title: "Des adeptes de ce burger ?",
+    emoji: "🥩",
+    cat: "viande",
     chef: "mohamedcheikh_",
     chefName: "Mohamed Cheikh | محمد شيخ",
-    time: "20min",
+    time: "45min",
     serves: "6 pers.",
     difficulty: "Facile",
     image: "img/DBWhcZWoOse.jpg",
     link: "https://www.instagram.com/mohamedcheikh_/reel/DBWhcZWoOse/",
     linkType: "instagram",
-    veggie: true,
+    veggie: false,
     techniques: [],
     ingredients: [
       { qty: "QS", name: "Sauce burger :", rayon: 'epicerie' },
@@ -10282,14 +11298,16 @@ const RECIPES = [
       { qty: "6", name: "P Pains hamburger 3 tranches", rayon: 'epicerie' },
       { qty: "12", name: "P Steaks hachés", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "rien-de-plus-reconfortant-quune-tarte-tatin-de-sop",
     title: "Rien de plus réconfortant qu'une tarte tatin de @sophiebakas",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🥗",
+    cat: "entree",
     chef: "elleatable",
     chefName: "ELLE à table",
     time: "10min",
@@ -10308,7 +11326,9 @@ const RECIPES = [
       { qty: "1/2", name: "cuillère à thé de sel", rayon: 'epicerie' },
       { qty: "30g", name: "eau glacée", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -10333,12 +11353,14 @@ const RECIPES = [
       { qty: "110g", name: "Sucre en poudre", rayon: 'epicerie' },
       { qty: "1", name: "gousse Vanille", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "lien-en-bio",
-    title: "️ Lien en bio",
+    title: "Lien en bio",
     emoji: "🍽️",
     cat: "plat",
     chef: "mesdames.media",
@@ -10357,12 +11379,14 @@ const RECIPES = [
       { qty: "1", name: "c.a.c de miel", rayon: 'epicerie' },
       { qty: "1", name: "fruit de saison (kiwi, poire, abricot…)", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "carottes-glacees-mielail-sauce-onctueuse-pois-chic",
-    title: "CAROTTES GLACÉES MIEL&AIL, SAUCE ONCTUEUSE POIS CHICHES",
+    title: "Carottes Glacées Miel&Ail, Sauce Onctueuse Pois Chiches",
     emoji: "🥬",
     cat: "accompagnement",
     chef: "louloukitchen_",
@@ -10388,12 +11412,14 @@ const RECIPES = [
       { qty: "1/", name: "faire cuire 5/6 min dans l’eau bouillante les carottes épluchées", rayon: 'epicerie' },
       { qty: "2/", name: "mélangez dans un bol: l’huile, l’ail haché, le miel, le sel et la sauce soja", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "poire-bellehelene-creme-chantilly",
-    title: "POIRE BELLE-HÉLÈNE, CRÈME CHANTILLY",
+    title: "Poire Belle-Hélène, Crème Chantilly",
     emoji: "🍰",
     cat: "dessert",
     chef: "cyrillignac",
@@ -10423,17 +11449,19 @@ const RECIPES = [
       { qty: "QS", name: "Pour la sauce chocolat et amandes", rayon: 'epicerie' },
       { qty: "8 cl", name: "de lait", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "croque-monsieur-croustillant-a-la-poele",
-    title: "CROQUE MONSIEUR CROUSTILLANT À LA POÊLE",
-    emoji: "🥗",
-    cat: "entree",
+    title: "Croque Monsieur Croustillant À La Poêle",
+    emoji: "🥩",
+    cat: "viande",
     chef: "kitchenfactoryprod",
     chefName: "Kitchen Factory Production 🍽",
-    time: "20min",
+    time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/DBOEebWsfJ5.jpg",
@@ -10455,12 +11483,14 @@ const RECIPES = [
       { qty: "15g", name: "de beurre", rayon: 'epicerie' },
       { qty: "1", name: "salade", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "houmous",
-    title: "HOUMOUS",
+    id: "temps-de-preparation-12-minutes",
+    title: "Temps de préparation : 12 minutes",
     emoji: "🥩",
     cat: "viande",
     chef: "kitchenfactoryprod",
@@ -10490,12 +11520,14 @@ const RECIPES = [
       { qty: "7 g", name: "de sucre", rayon: 'epicerie' },
       { qty: "200 g", name: "de farine", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "merci-chefsimonezanoni-italia",
-    title: "Merci  @chefsimonezanoni #italia",
+    id: "recette-xavier-pincemin",
+    title: "Recette Xavier Pincemin",
     emoji: "🍽️",
     cat: "plat",
     chef: "xavier_pincemin",
@@ -10511,12 +11543,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-julie-andrieu-profil-officiel-DA_PXY",
-    title: "Recette de Julie Andrieu, Profil Officiel",
+    id: "recette-julie-andrieu-profil-officiel-DA_PXY",
+    title: "Recette Julie Andrieu, Profil Officiel",
     emoji: "🍰",
     cat: "dessert",
     chef: "julieandrieu.officiel",
@@ -10532,12 +11566,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "poivre",
-    title: "Poivre",
+    id: "recette-france-inter-DA_WO_",
+    title: "Recette France Inter",
     emoji: "🍝",
     cat: "pates",
     chef: "franceinter",
@@ -10559,7 +11595,9 @@ const RECIPES = [
       { qty: "2", name: "c. à s. de sauce soja salée", rayon: 'epicerie' },
       { qty: "QS", name: "Poivre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -10580,12 +11618,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "conchiglioni-farcis",
-    title: "Conchiglioni Farcis! ‍",
+    title: "Conchiglioni Farcis!",
     emoji: "🍝",
     cat: "pates",
     chef: "chef_theo_lignani",
@@ -10610,7 +11650,9 @@ const RECIPES = [
       { qty: "1", name: "mozza di bufala", rayon: 'epicerie' },
       { qty: "QS", name: "Comté", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -10631,33 +11673,37 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-pour-le-weekend-en-famille-recette-insta-s",
-    title: "Recette pour le week-end en famille #recette #insta  #steak ",
-    emoji: "🍽️",
-    cat: "plat",
+    id: "recette-xavier-pincemin-DAtM4W",
+    title: "Recette Xavier Pincemin",
+    emoji: "🥩",
+    cat: "viande",
     chef: "xavier_pincemin",
     chefName: "Xavier Pincemin",
-    time: "35min",
+    time: "45min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/DAtM4W8IOy8.jpg",
     link: "https://www.instagram.com/xavier_pincemin/reel/DAtM4W8IOy8/",
     linkType: "instagram",
-    veggie: true,
+    veggie: false,
     techniques: [],
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-rapide-magique-meat-cheflife-honey-bbq-lam",
-    title: "Recette rapide magique #meat #cheflife #honey #bbq #lamb #sw",
+    id: "recette-xavier-pincemin-DAvPFw",
+    title: "Recette Xavier Pincemin",
     emoji: "🍽️",
     cat: "plat",
     chef: "xavier_pincemin",
@@ -10673,12 +11719,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "si-tu-veux-la-recette-complete-nhesite-pas-a-me-di",
-    title: "Si tu veux la recette complète n'hésite pas à me dire dans l",
+    id: "abonne-toi-pour-plus-de-recette-gourmande",
+    title: "Abonne toi pour plus de recette gourmande !",
     emoji: "🍰",
     cat: "dessert",
     chef: "patisseriekiltac",
@@ -10694,17 +11742,19 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "vous-lattendiez-la-fameuse-recette-de-joue-de-buf",
     title: "Vous l’attendiez, la fameuse recette de joue de bœuf !",
-    emoji: "🥩",
-    cat: "viande",
+    emoji: "🥬",
+    cat: "accompagnement",
     chef: "casa_zanoni",
     chefName: "Epicerie | Simone Zanoni 👨🏻‍🍳",
-    time: "45min",
+    time: "25min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/DAv9uP4ougQ.jpg",
@@ -10715,12 +11765,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "pithiviers-jambon-fromage",
-    title: "PITHIVIERS JAMBON FROMAGE",
+    title: "Pithiviers Jambon Fromage",
     emoji: "🍝",
     cat: "pates",
     chef: "cyrillignac",
@@ -10743,12 +11795,14 @@ const RECIPES = [
       { qty: "2", name: "cuil. à soupe d’huile d’olive", rayon: 'epicerie' },
       { qty: "1", name: "cuil. à café de vinaigre balsamique blanc", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-france-inter-DAZC8X",
-    title: "Recette de France Inter",
+    id: "recette-france-inter-DAZC8X",
+    title: "Recette France Inter",
     emoji: "🐟",
     cat: "poisson",
     chef: "franceinter",
@@ -10764,12 +11818,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "un-plat-a-partager-simple-efficace",
-    title: "Un plat à partager ! Simple efficace ‍",
+    title: "Un plat à partager ! Simple efficace",
     emoji: "🍽️",
     cat: "plat",
     chef: "diegoalary",
@@ -10785,12 +11841,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-monelle-godaert-C_3JKq",
-    title: "Recette de Monelle Godaert",
+    id: "recette-monelle-godaert-C_3JKq",
+    title: "Recette Monelle Godaert",
     emoji: "🍽️",
     cat: "plat",
     chef: "not_so_superflu",
@@ -10806,12 +11864,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-matthias-marc",
-    title: "Recette de Matthias Marc",
+    id: "recette-matthias-marc",
+    title: "Recette Matthias Marc",
     emoji: "🍽️",
     cat: "plat",
     chef: "matthias_marc",
@@ -10827,12 +11887,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "chou-braise-zaatar-maison",
-    title: "CHOU BRAISÉ, ZAATAR MAISON",
+    title: "Chou Braisé, Zaatar Maison",
     emoji: "🥗",
     cat: "entree",
     chef: "cyrillignac",
@@ -10862,7 +11924,9 @@ const RECIPES = [
       { qty: "100 g", name: "de tahini", rayon: 'epicerie' },
       { qty: "2", name: "gousses d’ail épluchées", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -10883,14 +11947,16 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "tarte-tatin-aux-aubergines-fromage-frais-et-epices-C_NXJ1",
-    title: "TARTE TATIN AUX AUBERGINES, FROMAGE FRAIS ET ÉPICES DOUCES",
-    emoji: "🍰",
-    cat: "dessert",
+    id: "tarte-tatin-aux-aubergines-fromage-frais-et-epices",
+    title: "Tarte Tatin Aux Aubergines, Fromage Frais Et Épices Douces",
+    emoji: "🍽️",
+    cat: "plat",
     chef: "cyrillignac",
     chefName: "Cyril Lignac",
     time: "10min",
@@ -10916,12 +11982,14 @@ const RECIPES = [
       { qty: "QS", name: "Quelques feuilles de coriandre", rayon: 'epicerie' },
       { qty: "1", name: "citron jaune", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-khaoutarcuisine",
-    title: "Recette de Khaoutar_cuisine",
+    id: "recette-khaoutarcuisine",
+    title: "Recette Khaoutar_cuisine",
     emoji: "🐟",
     cat: "poisson",
     chef: "khaoutar.cuisine",
@@ -10937,7 +12005,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -10958,14 +12028,16 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "brochettes-de-canard-legumes-et-fruits-dete",
-    title: "BROCHETTES DE CANARD, LÉGUMES ET FRUITS D’ÉTÉ ️",
-    emoji: "🍰",
-    cat: "dessert",
+    title: "Brochettes De Canard, Légumes Et Fruits D’Été",
+    emoji: "🥩",
+    cat: "viande",
     chef: "cyrillignac",
     chefName: "Cyril Lignac",
     time: "20min",
@@ -10993,12 +12065,14 @@ const RECIPES = [
       { qty: "2", name: "cuil. à soupe de graines de tournesol", rayon: 'epicerie' },
       { qty: "3", name: "cuil. à soupe de graines de cumin", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "paella-marinera",
-    title: "Paella marinera ‍",
+    title: "Paella marinera",
     emoji: "🍽️",
     cat: "plat",
     chef: "diegoalary",
@@ -11014,7 +12088,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -11039,7 +12115,9 @@ const RECIPES = [
       { qty: "1", name: "c.à.c. de sel", rayon: 'epicerie' },
       { qty: "QS", name: "Poivre noir", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -11062,7 +12140,9 @@ const RECIPES = [
       { qty: "500 ml", name: "d’eau", rayon: 'epicerie' },
       { qty: "300 g", name: "de sucre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -11083,12 +12163,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "poelee-dencornets-tomates-vertes",
-    title: "POÊLÉE D’ENCORNETS, TOMATES VERTES",
+    title: "Poêlée D’Encornets, Tomates Vertes",
     emoji: "🥗",
     cat: "entree",
     chef: "cyrillignac",
@@ -11118,12 +12200,14 @@ const RECIPES = [
       { qty: "1", name: "petit piment thaï rouge ou ½ cuil. à café de flocons de piment rouge", rayon: 'epicerie' },
       { qty: "QS", name: "Une douzaine d’olives vertes dénoyautées", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "creme-dessert-a-la-fraise",
-    title: "CRÈME DESSERT À LA FRAISE",
+    title: "Crème Dessert À La Fraise",
     emoji: "🍰",
     cat: "dessert",
     chef: "cyrillignac",
@@ -11144,19 +12228,21 @@ const RECIPES = [
       { qty: "50 g", name: "de sucre en poudre", rayon: 'epicerie' },
       { qty: "50 cl", name: "de crème liquide entière montée en chantilly avec 20 g de sucre glace", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "la-recette-C94br0",
-    title: "La recette",
-    emoji: "🍰",
-    cat: "dessert",
+    id: "preparation-C94br0",
+    title: "Préparation :",
+    emoji: "🥗",
+    cat: "entree",
     chef: "pourdebon",
     chefName: "Pourdebon.com",
-    time: "40min",
+    time: "20min",
     serves: "4 pers.",
-    difficulty: "Moyen",
+    difficulty: "Facile",
     image: "img/C94br0ZCNae.jpg",
     link: "https://www.instagram.com/pourdebon/reel/C94br0ZCNae/",
     linkType: "instagram",
@@ -11171,14 +12257,16 @@ const RECIPES = [
       { qty: "1", name: "cuillère à café de cumin bio", rayon: 'epicerie' },
       { qty: "QS", name: "Un peu de glace pilée", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "cheesecake-sans-cuisson-aux-fruits-rouges",
-    title: "CHEESECAKE SANS CUISSON AUX FRUITS ROUGES",
-    emoji: "🍰",
-    cat: "dessert",
+    title: "Cheesecake Sans Cuisson Aux Fruits Rouges",
+    emoji: "🥗",
+    cat: "entree",
     chef: "cyrillignac",
     chefName: "Cyril Lignac",
     time: "30min",
@@ -11202,7 +12290,9 @@ const RECIPES = [
       { qty: "1", name: "barquette de groseilles blanches", rayon: 'epicerie' },
       { qty: "1", name: "barquette de mûres", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -11223,7 +12313,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -11244,7 +12336,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -11265,14 +12359,16 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "aubergines-a-la-parmigiana",
-    title: "AUBERGINES À LA PARMIGIANA",
-    emoji: "🥩",
-    cat: "viande",
+    title: "Aubergines À La Parmigiana",
+    emoji: "🥬",
+    cat: "accompagnement",
     chef: "cyrillignac",
     chefName: "Cyril Lignac",
     time: "20min",
@@ -11294,14 +12390,16 @@ const RECIPES = [
       { qty: "1", name: "oignon rouge", rayon: 'epicerie' },
       { qty: "QS", name: "Fleur de sel et poivre du moulin", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "beaucoup-dinfos-en-trentetrois-secondes",
     title: "Beaucoup d’infos en trente-trois secondes.",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🐟",
+    cat: "poisson",
     chef: "enrangdoignons",
     chefName: "Raphaële Marchal",
     time: "2min",
@@ -11315,12 +12413,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "sandwichroll-de-thon-marine-mayonnaise",
-    title: "SANDWICH-ROLL DE THON MARINÉ, MAYONNAISE",
+    title: "Sandwich-Roll De Thon Mariné, Mayonnaise",
     emoji: "🥩",
     cat: "viande",
     chef: "cyrillignac",
@@ -11346,12 +12446,14 @@ const RECIPES = [
       { qty: "QS", name: "Quelques feuilles de basilic", rayon: 'epicerie' },
       { qty: "QS", name: "Huile d’olive", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-monelle-godaert-C9XLG9",
-    title: "Recette de Monelle Godaert",
+    id: "recette-monelle-godaert-C9XLG9",
+    title: "Recette Monelle Godaert",
     emoji: "🍽️",
     cat: "plat",
     chef: "not_so_superflu",
@@ -11367,12 +12469,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "ma-bellemere-vous-partage-sa-succulente-recette-de",
-    title: "Ma belle-mère vous partage sa (succulente) recette de légume",
+    id: "legumes-farcis",
+    title: "légumes farcis 😋",
     emoji: "🥬",
     cat: "accompagnement",
     chef: "dr.jimmy.mohamed",
@@ -11388,7 +12492,9 @@ const RECIPES = [
     ingredients: [
       { qty: "QS", name: "Videz poivrons, aubergines et courgettes", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -11409,12 +12515,14 @@ const RECIPES = [
     ingredients: [
       { qty: "1 kg", name: "d’abricots de Provence", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "la-recette-C9NR21",
-    title: "La recette",
+    id: "preparation-C9NR21",
+    title: "Préparation :",
     emoji: "🍽️",
     cat: "plat",
     chef: "pourdebon",
@@ -11436,19 +12544,21 @@ const RECIPES = [
       { qty: "QS", name: "Pour la garniture :", rayon: 'epicerie' },
       { qty: "1", name: "pot de crème fraîche épaisse", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "archi-bon-cest-la-creme-ca",
     title: "Archi bon, c’est la crème ça…",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🥗",
+    cat: "entree",
     chef: "enrangdoignons",
     chefName: "Raphaële Marchal",
-    time: "40min",
+    time: "20min",
     serves: "4 pers.",
-    difficulty: "Moyen",
+    difficulty: "Facile",
     image: "img/C9NWUJtoY4b.jpg",
     link: "https://www.instagram.com/enrangdoignons/reel/C9NWUJtoY4b/",
     linkType: "instagram",
@@ -11457,12 +12567,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "recette-antimouches",
-    title: "RECETTE ANTI-MOUCHES",
+    title: "Recette Anti-Mouches",
     emoji: "🍽️",
     cat: "plat",
     chef: "minimal.quotidien",
@@ -11478,7 +12590,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -11499,14 +12613,16 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "brochettes-de-poulet-epice-salade-de-concombre",
     title: "Brochettes de poulet épicé, salade de concombre",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🥩",
+    cat: "viande",
     chef: "cyrillignac",
     chefName: "Cyril Lignac",
     time: "30min",
@@ -11534,7 +12650,9 @@ const RECIPES = [
       { qty: "QS", name: "Huile d’olive", rayon: 'epicerie' },
       { qty: "QS", name: "Le jus d’un citron jaune", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -11555,12 +12673,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "clafoutis-abricots-romarin",
-    title: "CLAFOUTIS ABRICOTS & ROMARIN",
+    title: "Clafoutis Abricots & Romarin",
     emoji: "🍰",
     cat: "dessert",
     chef: "whoogys",
@@ -11583,12 +12703,14 @@ const RECIPES = [
       { qty: "1", name: "branche de romarin", rayon: 'epicerie' },
       { qty: "QS", name: "fleur de sel", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "clafoutis-aux-groseilles-english-below",
-    title: "Clafoutis aux groseilles  (English below ️)",
+    title: "Clafoutis aux groseilles  (English below )",
     emoji: "🍰",
     cat: "dessert",
     chef: "camillechamignon",
@@ -11604,7 +12726,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -11627,12 +12751,14 @@ const RECIPES = [
       { qty: "150g", name: "de blancs d’œufs (environ 5 œufs) • 150g de sucre semoule", rayon: 'epicerie' },
       { qty: "150g", name: "de sucre glace", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "houmous-C7i-dL",
-    title: "HOUMOUS",
+    id: "temps-de-preparation-12-minutes-C7i-dL",
+    title: "Temps de préparation : 12 minutes",
     emoji: "🥩",
     cat: "viande",
     chef: "cyrillignac",
@@ -11662,19 +12788,21 @@ const RECIPES = [
       { qty: "QS", name: "Pour les pains pitas :", rayon: 'epicerie' },
       { qty: "10 cl", name: "d’eau tiède", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "tarte-a-la-tomate-et-gorgonzola",
     title: "Tarte à la tomate et gorgonzola",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🍽️",
+    cat: "plat",
     chef: "julienduboue",
     chefName: "Julien Duboué",
-    time: "40min",
+    time: "35min",
     serves: "4 pers.",
-    difficulty: "Moyen",
+    difficulty: "Facile",
     image: "img/C7d2K9XI4-o.jpg",
     link: "https://www.instagram.com/julienduboue/reel/C7d2K9XI4-o/",
     linkType: "instagram",
@@ -11683,7 +12811,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -11704,19 +12834,21 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "les-gourmands-vont-adorer",
-    title: "Les gourmands vont adorer",
-    emoji: "🍰",
-    cat: "dessert",
+    id: "500gde-fraises",
+    title: "500g de fraises",
+    emoji: "🥗",
+    cat: "entree",
     chef: "cuisineactuelle",
     chefName: "Cuisine Actuelle",
-    time: "40min",
+    time: "20min",
     serves: "4 pers.",
-    difficulty: "Moyen",
+    difficulty: "Facile",
     image: "img/C5qoCEwtXaI.jpg",
     link: "https://www.instagram.com/cuisineactuelle/reel/C5qoCEwtXaI/",
     linkType: "instagram",
@@ -11725,7 +12857,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -11754,7 +12888,9 @@ const RECIPES = [
       { qty: "QS", name: "huile neutre", rayon: 'epicerie' },
       { qty: "QS", name: "sel, poivre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -11782,7 +12918,9 @@ const RECIPES = [
       { qty: "1", name: "càs. de paprika doux et de curcuma", rayon: 'epicerie' },
       { qty: "2", name: "càs. de crème tahini @nomie", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -11805,7 +12943,9 @@ const RECIPES = [
       { qty: "40g", name: "de fécule de maïs et 100gr de sucre glace", rayon: 'epicerie' },
       { qty: "1", name: "cuillère à s. d’eau de fleur d’oranger", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -11827,12 +12967,14 @@ const RECIPES = [
       { qty: "500 g", name: "de fraises bien sucrées", rayon: 'epicerie' },
       { qty: "120 g", name: "de fromage blanc ou de yaourt grec pour plus de gourmandise", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "nougat-glace-framboise-et-piment",
-    title: "Nougat glacé framboise et piment️",
+    title: "Nougat glacé framboise et piment",
     emoji: "🍽️",
     cat: "plat",
     chef: "diegoalary",
@@ -11857,17 +12999,19 @@ const RECIPES = [
       { qty: "1/2", name: "verre d'eau", rayon: 'epicerie' },
       { qty: "1", name: "piment oiseau", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "dans-la-serie-des-petits-plats-tout-betes-mais-tel",
     title: "Dans la série des petits plats tout bêtes mais tellement bon",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🫕",
+    cat: "sauce",
     chef: "lacoccinellegourmande",
     chefName: "La Coccinelle Gourmande",
-    time: "40min",
+    time: "15min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/CttiLYSLISj.jpg",
@@ -11878,14 +13022,16 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "pommes-de-terre-rissolees-oignons-caramelises-et-c",
     title: "Pommes de terre rissolées, oignons caramélisés et crème de f",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🥗",
+    cat: "entree",
     chef: "missmaggieskitchen",
     chefName: "Héloïse Brion",
     time: "6min",
@@ -11913,19 +13059,21 @@ const RECIPES = [
       { qty: "QS", name: "Lavez les pommes de terre et essuyez-les.", rayon: 'epicerie' },
       { qty: "QS", name: "Servez de suite!", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "recipes-in-the-link-in-bio",
     title: "Recipes in the link in bio.",
-    emoji: "🍽️",
-    cat: "plat",
+    emoji: "🫕",
+    cat: "sauce",
     chef: "ottolenghi",
     chefName: "Yotam Ottolenghi",
-    time: "35min",
+    time: "15min",
     serves: "4 pers.",
-    difficulty: "Facile",
+    difficulty: "Moyen",
     image: "img/C5ENTSJI0vr.jpg",
     link: "https://www.instagram.com/ottolenghi/p/C5ENTSJI0vr/",
     linkType: "instagram",
@@ -11934,17 +13082,19 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "joue-de-buf-braisee-oui-oui",
-    title: "Joue de bœuf braisée oui oui🫠",
-    emoji: "🥩",
-    cat: "viande",
+    title: "Joue de bœuf braisée oui oui",
+    emoji: "🍽️",
+    cat: "plat",
     chef: "diegoalary",
     chefName: "Diego",
-    time: "45min",
+    time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/C4BlCvbI91T.jpg",
@@ -11955,12 +13105,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-marmiton",
-    title: "Recette de Marmiton",
+    id: "recette-marmiton",
+    title: "Recette Marmiton",
     emoji: "🍽️",
     cat: "plat",
     chef: "marmiton_org",
@@ -11976,7 +13128,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -11999,12 +13153,14 @@ const RECIPES = [
       { qty: "QS", name: "Puis vitesse 8 pendant 5 min", rayon: 'epicerie' },
       { qty: "QS", name: "Et enfin vitesse 10 pendant 2 min", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-monelle-godaert-C3Nnde",
-    title: "Recette de Monelle Godaert",
+    id: "recette-monelle-godaert-C3Nnde",
+    title: "Recette Monelle Godaert",
     emoji: "🥗",
     cat: "entree",
     chef: "not_so_superflu",
@@ -12020,7 +13176,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -12049,7 +13207,9 @@ const RECIPES = [
       { qty: "3", name: "œufs", rayon: 'epicerie' },
       { qty: "190g", name: "de crème entière", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -12077,14 +13237,16 @@ const RECIPES = [
       { qty: "40 g", name: "de sucre de canne complet", rayon: 'epicerie' },
       { qty: "25 g", name: "de farine", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "hachis-parmentier-de-canard-creme-de-parmesan",
     title: "Hachis Parmentier de canard, crème de parmesan",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🥩",
+    cat: "viande",
     chef: "cyrillignac",
     chefName: "Cyril Lignac",
     time: "15min",
@@ -12112,14 +13274,16 @@ const RECIPES = [
       { qty: "QS", name: "Huile d’olive", rayon: 'epicerie' },
       { qty: "QS", name: "Vinaigre de vin rouge", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "buf-aux-oignons-en-15-min",
-    title: "BŒUF AUX OIGNONS EN 15 MIN. 🇨🇳",
-    emoji: "🍰",
-    cat: "dessert",
+    title: "Bœuf Aux Oignons En 15 Min. 🇨🇳",
+    emoji: "🫕",
+    cat: "sauce",
     chef: "les_recettes_de_margaux",
     chefName: "Margaux 🤍",
     time: "15min",
@@ -12141,14 +13305,16 @@ const RECIPES = [
       { qty: "QS", name: "* 1 c. à c. de fécule de maïs", rayon: 'epicerie' },
       { qty: "QS", name: "* 15 cl d’eau", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "galette-des-rois-soleil-a-la-noisette",
     title: "Galette des rois soleil à la noisette",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🥩",
+    cat: "viande",
     chef: "cyrillignac",
     chefName: "Cyril Lignac",
     time: "20min",
@@ -12176,7 +13342,9 @@ const RECIPES = [
       { qty: "80 g", name: "de sucre glace", rayon: 'epicerie' },
       { qty: "12 g", name: "de fécule de maïs", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -12211,12 +13379,14 @@ const RECIPES = [
       { qty: "10", name: "+ 30 g de beurre", rayon: 'epicerie' },
       { qty: "1", name: "cuil. à café de concentré de tomates", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "un-des-mes-desserts-preferes-qui-a-conquis-le-pala",
-    title: "Un des mes desserts préférés qui a conquis le palais de nomb",
+    id: "et-vous-quel-est-votre-chocolat-prefere",
+    title: "Et vous, quel est votre chocolat préféré ?",
     emoji: "🍰",
     cat: "dessert",
     chef: "labande___",
@@ -12237,17 +13407,19 @@ const RECIPES = [
       { qty: "QS", name: "Incorporez cette préparation au chocolat fondu tiède.", rayon: 'epicerie' },
       { qty: "QS", name: "Réservez 1 nuit au réfrigérateur.", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "ma-pavlova-de-noel-C086nE",
-    title: "MA PAVLOVA DE NOËL ️",
-    emoji: "🍽️",
-    cat: "***",
+    title: "Ma Pavlova De Noël",
+    emoji: "🍰",
+    cat: "dessert",
     chef: "willyskitchen",
     chefName: "William  👨🏼‍🍳",
-    time: "30min",
+    time: "40min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/C086nEKoM_8.jpg",
@@ -12272,12 +13444,14 @@ const RECIPES = [
       { qty: "QS", name: "* 3 Anis étoilé", rayon: 'epicerie' },
       { qty: "QS", name: "* 6 Clous de girofle", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "le-jus-dune-orange",
-    title: "Le jus d’une orange",
+    id: "300g-de-sucre",
+    title: "300g de sucre",
     emoji: "🥗",
     cat: "entree",
     chef: "camillechamignon",
@@ -12293,14 +13467,16 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "micuit-a-la-noisette",
     title: "Mi-cuit à la noisette",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🐟",
+    cat: "poisson",
     chef: "cyrillignac",
     chefName: "Cyril Lignac",
     time: "15min",
@@ -12321,14 +13497,16 @@ const RECIPES = [
       { qty: "1", name: "cuil. à soupe d’huile", rayon: 'epicerie' },
       { qty: "QS", name: "Sucre glace", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "cest-la-recette-de-buche-preferee-des-lecteurs-de-",
-    title: "C'est la recette de bûche préférée des lecteurs de 750g",
-    emoji: "🍽️",
-    cat: "plat",
+    id: "preparation-C0Zk4B",
+    title: "Préparation :",
+    emoji: "🍰",
+    cat: "dessert",
     chef: "750grammes",
     chefName: "750g",
     time: "3min",
@@ -12356,14 +13534,16 @@ const RECIPES = [
       { qty: "50 g", name: "de beurre", rayon: 'epicerie' },
       { qty: "2", name: "jaunes d'œufs", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "millefeuille-aux-pommes-et-caramel-beurre-sale",
     title: "Mille-feuille aux pommes et caramel beurre salé!!",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🫕",
+    cat: "sauce",
     chef: "cyrillignac",
     chefName: "Cyril Lignac",
     time: "20min",
@@ -12388,12 +13568,14 @@ const RECIPES = [
       { qty: "80 g", name: "de beurre demi-sel coupé en petits cubes", rayon: 'epicerie' },
       { qty: "20 cl", name: "de crème liquide", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "prix",
-    title: "PRIX :",
+    id: "bravo-a",
+    title: "Bravo à :",
     emoji: "🍽️",
     cat: "plat",
     chef: "leparisdalexis",
@@ -12413,12 +13595,14 @@ const RECIPES = [
       { qty: "QS", name: "Desserts : 4,95€", rayon: 'epicerie' },
       { qty: "QS", name: "Boissons : 2€ à 7€", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-brut-Czosjs",
-    title: "Recette de Brut.",
+    id: "recette-brut-Czosjs",
+    title: "Recette Brut.",
     emoji: "🫕",
     cat: "sauce",
     chef: "brutofficiel",
@@ -12434,17 +13618,19 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-faisan-entier-aux-morceaux-de-poires-et",
-    title: "Recette de faisan entier aux morceaux de poires et petits ra",
-    emoji: "🥗",
-    cat: "entree",
+    id: "sel-et-poivre-C0UWoz",
+    title: "Sel et poivre",
+    emoji: "🥩",
+    cat: "viande",
     chef: "pourdebon",
     chefName: "Pourdebon.com",
-    time: "20min",
+    time: "45min",
     serves: "2 pers.",
     difficulty: "Facile",
     image: "img/C0UWozXigte.jpg",
@@ -12463,12 +13649,14 @@ const RECIPES = [
       { qty: "1", name: "cuillère à soupe de farine", rayon: 'epicerie' },
       { qty: "QS", name: "Sel et poivre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "pavlova-au-yuzu",
-    title: "PAVLOVA AU YUZU",
+    title: "Pavlova Au Yuzu",
     emoji: "🍰",
     cat: "dessert",
     chef: "thesocialfood",
@@ -12487,12 +13675,14 @@ const RECIPES = [
       { qty: "QS", name: "Les écorces de yuzu confits-", rayon: 'epicerie' },
       { qty: "QS", name: "La chantilly-", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "foie-gras-aux-quatres-epices-version-microondes",
-    title: "FOIE GRAS AUX QUATRES ÉPICES VERSION MICRO-ONDES",
+    title: "Foie Gras Aux Quatres Épices Version Micro-Ondes",
     emoji: "🍽️",
     cat: "plat",
     chef: "qistoh_",
@@ -12508,12 +13698,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "manger-lhiver",
-    title: "MANGER L'HIVER",
+    title: "Manger L'Hiver",
     emoji: "🫕",
     cat: "sauce",
     chef: "simonauscher",
@@ -12529,7 +13721,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -12563,7 +13757,9 @@ const RECIPES = [
       { qty: "100 g", name: "de beurre de Bresse AOP froid coupés en cubes", rayon: 'epicerie' },
       { qty: "5 cl", name: "de crème de Bresse AOP semi-épaisse", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -12593,12 +13789,14 @@ const RECIPES = [
       { qty: "2", name: "œufs", rayon: 'epicerie' },
       { qty: "QS", name: "Le jus et les zestes d’1/2 citron jaune", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-meilleur-du-chef",
-    title: "Recette de Meilleur du Chef",
+    id: "recette-meilleur-du-chef",
+    title: "Recette Meilleur du Chef",
     emoji: "🐟",
     cat: "poisson",
     chef: "meilleurduchef",
@@ -12614,14 +13812,16 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "risotto-aux-chataignes-volaille-sautee-ce-soir-dan",
-    title: "Risotto aux châtaignes, volaille sautée ce soir dans Tous en",
-    emoji: "🍰",
-    cat: "dessert",
+    id: "temps-de-preparation-20-minutes-C0CUGr",
+    title: "Temps de préparation : 20 minutes",
+    emoji: "🥩",
+    cat: "viande",
     chef: "cyrillignac",
     chefName: "Cyril Lignac",
     time: "20min",
@@ -12647,7 +13847,9 @@ const RECIPES = [
       { qty: "QS", name: "Sel fin et poivre du moulin", rayon: 'epicerie' },
       { qty: "QS", name: "Piment d’Espelette", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -12680,12 +13882,14 @@ const RECIPES = [
       { qty: "QS", name: "Fleur de sel et piment d’Espelette", rayon: 'epicerie' },
       { qty: "QS", name: "Paprika fumé", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "on-enrobe-le-tout-avec-la-sauce-puis-on-y-ajoute-l",
-    title: "On enrobe le tout avec la sauce, puis on y ajoute les lentil",
+    id: "recette-angele-ferreuxmaeght",
+    title: "Recette Angèle Ferreux-Maeght",
     emoji: "🥗",
     cat: "entree",
     chef: "angeleferreuxmaeght",
@@ -12715,14 +13919,16 @@ const RECIPES = [
       { qty: "1/2", name: "citron pressé", rayon: 'epicerie' },
       { qty: "QS", name: "Poivre du moulin", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "gratin-de-ravioles-au-poireau",
-    title: "[ GRATIN DE RAVIOLES AU POIREAU ]",
-    emoji: "🍰",
-    cat: "dessert",
+    id: "4-plaques-de-ravioles-du-dauphine",
+    title: "– 4 plaques de ravioles du Dauphiné",
+    emoji: "🥬",
+    cat: "accompagnement",
     chef: "sandrabssi",
     chefName: "Sandra Bassi 🥨",
     time: "5min",
@@ -12744,17 +13950,19 @@ const RECIPES = [
       { qty: "QS", name: "– Sel, poivre", rayon: 'epicerie' },
       { qty: "QS", name: "– Huile d’olive", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "tarte-tatin",
     title: "Tarte tatin",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🥗",
+    cat: "entree",
     chef: "elenaola_",
     chefName: "𝑬𝒍𝒆𝒏𝒂 𝑮𝒂𝒖𝒕𝒉𝒊𝒆𝒓",
-    time: "40min",
+    time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/CzRtXRpMeG8.jpg",
@@ -12773,14 +13981,16 @@ const RECIPES = [
       { qty: "QS", name: "360gr de beurre", rayon: 'epicerie' },
       { qty: "QS", name: "50gr de sucre roux", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "recette-creme-a-la-vanille",
     title: "~ RECETTE : Crème à la Vanille ~ ⁣",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🍽️",
+    cat: "plat",
     chef: "lacuisinedebibou",
     chefName: "Marjorie",
     time: "20min",
@@ -12794,14 +14004,16 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "buf-saute-sauce-soja-Cy785b",
     title: "Bœuf sauté, sauce soja!!",
-    emoji: "🥩",
-    cat: "viande",
+    emoji: "🥗",
+    cat: "entree",
     chef: "cyrillignac",
     chefName: "Cyril Lignac",
     time: "20min",
@@ -12829,12 +14041,14 @@ const RECIPES = [
       { qty: "QS", name: "Huile neutre", rayon: 'epicerie' },
       { qty: "QS", name: "Poivre du moulin", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "depart-pour-litalie-avec-la-recette-du-jour-les-pa",
-    title: "Départ pour l’italie avec la recette du jour, les pâtes alle",
+    id: "les-ingredients-CyiWlr",
+    title: "Les Ingredients",
     emoji: "🍝",
     cat: "pates",
     chef: "m6officiel",
@@ -12859,12 +14073,14 @@ const RECIPES = [
       { qty: "1", name: "citron jaune", rayon: 'epicerie' },
       { qty: "QS", name: "Huile d’olive", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "les-ingredients-CygsmY",
-    title: "LES INGREDIENTS",
+    title: "Les Ingredients",
     emoji: "🥗",
     cat: "entree",
     chef: "m6officiel",
@@ -12894,12 +14110,14 @@ const RECIPES = [
       { qty: "50 g", name: "de feuilles de coriandre, persil, menthe", rayon: 'epicerie' },
       { qty: "100 g", name: "d’eau", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-france-inter-CyalLQ",
-    title: "Recette de France Inter",
+    id: "citron-confit-express",
+    title: "citron confit express",
     emoji: "🍽️",
     cat: "plat",
     chef: "franceinter",
@@ -12915,7 +14133,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -12939,14 +14159,16 @@ const RECIPES = [
       { qty: "250ml", name: "d’eau pour le mixage", rayon: 'epicerie' },
       { qty: "QS", name: "Épices au choix", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "tartelettes-caramelisees-figues-miel",
     title: "Tartelettes caramélisées Figues & miel",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🍝",
+    cat: "pates",
     chef: "debo_gateaux",
     chefName: "Déborah",
     time: "30min",
@@ -12968,14 +14190,16 @@ const RECIPES = [
       { qty: "QS", name: "miel liquide", rayon: 'epicerie' },
       { qty: "QS", name: "Pistaches concassées (ou amandes)", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "minis-tatins-tagliatelles-de-carottes",
     title: "MINIS tatins, TAGLIATELLES de carottes",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🍽️",
+    cat: "plat",
     chef: "charlie.ma.vie",
     chefName: "Raphaëlle Lelong",
     time: "25min",
@@ -12989,12 +14213,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "les-ingredients-CyJM3d",
-    title: "LES INGREDIENTS",
+    title: "Les Ingredients",
     emoji: "🐟",
     cat: "poisson",
     chef: "m6officiel",
@@ -13024,12 +14250,14 @@ const RECIPES = [
       { qty: "20 g", name: "de beurre", rayon: 'epicerie' },
       { qty: "QS", name: "Huile d’olive", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "la-recette-de-mon-fondant-au-chocolat",
-    title: "La recette de mon Fondant au chocolat ⬇️",
+    title: "La recette de mon Fondant au chocolat ⬇",
     emoji: "🍰",
     cat: "dessert",
     chef: "labande___",
@@ -13047,12 +14275,14 @@ const RECIPES = [
       { qty: "QS", name: "Versez dans un moule beurré et enfournez, en baissant la tem", rayon: 'epicerie' },
       { qty: "QS", name: "Faites cuire 20 min et attendez 15 min avant de démouler (ou", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "almejas-al-ajillo",
-    title: "Almejas al ajillo ️",
+    title: "Almejas al ajillo",
     emoji: "🍽️",
     cat: "plat",
     chef: "diegoalary",
@@ -13068,7 +14298,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -13089,7 +14321,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -13110,19 +14344,21 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "la-tarte-aux-legumes-pour-profiter-des-derniers-le",
     title: "La tarte aux légumes (pour profiter des derniers légumes d’é",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🥬",
+    cat: "accompagnement",
     chef: "thecheftomy",
     chefName: "The Chef Tomy",
     time: "45min",
     serves: "4 pers.",
-    difficulty: "Moyen",
+    difficulty: "Facile",
     image: "img/Cxxk8GOsYMv.jpg",
     link: "https://www.instagram.com/thecheftomy/reel/Cxxk8GOsYMv/",
     linkType: "instagram",
@@ -13145,12 +14381,14 @@ const RECIPES = [
       { qty: "1", name: "courgette", rayon: 'epicerie' },
       { qty: "1", name: "grande carotte", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "les-ingredients-CxnyU_",
-    title: "LES INGREDIENTS",
+    title: "Les Ingredients",
     emoji: "🥩",
     cat: "viande",
     chef: "m6officiel",
@@ -13180,12 +14418,14 @@ const RECIPES = [
       { qty: "QS", name: "Huile d’olive", rayon: 'epicerie' },
       { qty: "QS", name: "Vinaigre de vin rouge", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "gratin-de-polenta-au-parmesan",
-    title: "GRATIN DE POLENTA AU PARMESAN",
+    title: "Gratin De Polenta Au Parmesan",
     emoji: "🥬",
     cat: "accompagnement",
     chef: "frgaudry",
@@ -13208,17 +14448,19 @@ const RECIPES = [
       { qty: "QS", name: "Noix de muscade râpée", rayon: 'epicerie' },
       { qty: "QS", name: "Sel et poivre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "les-ingredients-CxVxY4",
-    title: "LES INGREDIENTS",
-    emoji: "🥩",
-    cat: "viande",
+    title: "Les Ingredients",
+    emoji: "🥗",
+    cat: "entree",
     chef: "m6officiel",
     chefName: "M6",
-    time: "45min",
+    time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/CxVxY4nq8R-.jpg",
@@ -13243,17 +14485,19 @@ const RECIPES = [
       { qty: "QS", name: "Huile neutre", rayon: 'epicerie' },
       { qty: "QS", name: "Sel fin et poivre du moulin", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "les-ingredients-CxDumh",
-    title: "LES INGREDIENTS",
-    emoji: "🥩",
-    cat: "viande",
+    title: "Les Ingredients",
+    emoji: "🍽️",
+    cat: "plat",
     chef: "m6officiel",
     chefName: "M6",
-    time: "45min",
+    time: "35min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/CxDumh0KZBk.jpg",
@@ -13264,12 +14508,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-france-inter-Cwr3ED",
-    title: "Recette de France Inter",
+    id: "recette-france-inter-Cwr3ED",
+    title: "Recette France Inter",
     emoji: "🍽️",
     cat: "plat",
     chef: "franceinter",
@@ -13285,7 +14531,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -13306,14 +14554,16 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "et-voila-le-tour-est-joue-et-on-se-sent-deja-en-va",
     title: "Et voilà, le tour est joué et on se sent déjà en vacances !",
-    emoji: "🍝",
-    cat: "pates",
+    emoji: "🐟",
+    cat: "poisson",
     chef: "luanabelmondo.officiel",
     chefName: "Luana Belmondo",
     time: "10min",
@@ -13331,19 +14581,21 @@ const RECIPES = [
       { qty: "QS", name: "Des tomates cerises (rouges et jaunes pour encore plus de co", rayon: 'epicerie' },
       { qty: "QS", name: "Des olives", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "rouleaux-de-printemps-sauce-aux-cacahuetes",
-    title: "ROULEAUX DE PRINTEMPS & SAUCE AUX CACAHUÈTES 🇻🇳",
-    emoji: "🍝",
-    cat: "pates",
+    title: "Rouleaux De Printemps & Sauce Aux Cacahuètes 🇻🇳",
+    emoji: "🐟",
+    cat: "poisson",
     chef: "les_recettes_de_margaux",
     chefName: "Margaux 🤍",
     time: "4min",
     serves: "4 pers.",
-    difficulty: "Facile",
+    difficulty: "Moyen",
     image: "img/CvKimFLIUK6.jpg",
     link: "https://www.instagram.com/les_recettes_de_margaux/reel/CvKimFLIUK6/",
     linkType: "instagram",
@@ -13366,14 +14618,16 @@ const RECIPES = [
       { qty: "QS", name: "Préparez la découpe des crudités.", rayon: 'epicerie' },
       { qty: "QS", name: "Décortiquez les crevettes et coupez les en deux.", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "liste-des-ingredients",
     title: "Liste des ingrédients",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🥗",
+    cat: "entree",
     chef: "hervecuisine",
     chefName: "HERVÉ CUISINE · Recettes faciles & de saison",
     time: "40min",
@@ -13394,12 +14648,14 @@ const RECIPES = [
       { qty: "30 g", name: "de beurre", rayon: 'epicerie' },
       { qty: "1", name: "cuillère à soupe de rhum facultatif", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "si-je-vous-dis-boulettes-de-pois-chiches-vous-me-r",
-    title: "Si je vous dis boulettes de pois chiches, vous me répondez..",
+    id: "recette-julie-andrieu-profil-officiel-CvHa3J",
+    title: "Recette Julie Andrieu, Profil Officiel",
     emoji: "🍽️",
     cat: "plat",
     chef: "julieandrieu.officiel",
@@ -13415,17 +14671,19 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "allez-jvous-montre-ma-tartinade-de-mechouia",
     title: "Allez j'vous montre ma tartinade de méchouia !",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🍽️",
+    cat: "plat",
     chef: "abdelalaouiofficiel",
     chefName: "Abdel Alaoui Officiel",
-    time: "40min",
+    time: "35min",
     serves: "3 pers.",
     difficulty: "Facile",
     image: "img/CuzozXVM_D7.jpg",
@@ -13441,12 +14699,14 @@ const RECIPES = [
       { qty: "QS", name: "Sel", rayon: 'epicerie' },
       { qty: "1", name: "baguette tradition", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "cuisines-de-mediterranee-arles-et-la-camargue",
-    title: "️ CUISINES DE MÉDITERRANÉE : Arles et la Camargue ️",
+    title: "CUISINES DE MÉDITERRANÉE : Arles et la Camargue",
     emoji: "🥬",
     cat: "accompagnement",
     chef: "frgaudry",
@@ -13462,12 +14722,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-annecharlotte-pontabry",
-    title: "Recette de Anne-Charlotte Pontabry",
+    id: "recette-annecharlotte-pontabry",
+    title: "Recette Anne-Charlotte Pontabry",
     emoji: "🥗",
     cat: "entree",
     chef: "annecharlottepontabry",
@@ -13488,7 +14750,9 @@ const RECIPES = [
       { qty: "2", name: "ou 3 cuillères à soupe de vinaigre de vin", rayon: 'epicerie' },
       { qty: "1/2", name: "cuillère à café de sel", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -13516,7 +14780,9 @@ const RECIPES = [
       { qty: "QS", name: "Pour la sauce :", rayon: 'epicerie' },
       { qty: "2 cas", name: "de Yaourt grec ou skyr ou fromage blanc", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -13537,19 +14803,21 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "sardinade",
-    title: "SARDINADE",
-    emoji: "🍽️",
-    cat: "plat",
+    title: "Sardinade",
+    emoji: "🐟",
+    cat: "poisson",
     chef: "frgaudry",
     chefName: "François-Régis Gaudry",
-    time: "35min",
+    time: "30min",
     serves: "4 pers.",
-    difficulty: "Facile",
+    difficulty: "Moyen",
     image: "img/CuHtHetocY-.jpg",
     link: "https://www.instagram.com/frgaudry/reel/CuHtHetocY-/",
     linkType: "instagram",
@@ -13563,7 +14831,9 @@ const RECIPES = [
       { qty: "1", name: "pincée de piment en poudre", rayon: 'epicerie' },
       { qty: "1", name: "quinzaine de feuilles de menthe", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -13584,12 +14854,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-francoisregis-gaudry-Ct3Eee",
-    title: "Recette de François-Régis Gaudry",
+    id: "recette-francoisregis-gaudry-Ct3Eee",
+    title: "Recette François-Régis Gaudry",
     emoji: "🐟",
     cat: "poisson",
     chef: "frgaudry",
@@ -13605,7 +14877,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -13632,12 +14906,14 @@ const RECIPES = [
       { qty: "QS", name: "Sel", rayon: 'epicerie' },
       { qty: "QS", name: "Poivre", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "profitez-de-la-fraicheur-gourmande-dun-delicieux-s",
-    title: "Profitez de la fraîcheur gourmande d’un délicieux sorbet à l",
+    id: "parfait-en-ces-temps-de-forte-chaleur",
+    title: "Parfait en ces temps de forte chaleur !",
     emoji: "🍰",
     cat: "dessert",
     chef: "pourdebon",
@@ -13653,12 +14929,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "recette-de-julie-andrieu-profil-officiel-Ctb6xp",
-    title: "Recette de Julie Andrieu, Profil Officiel",
+    id: "recette-julie-andrieu-profil-officiel-Ctb6xp",
+    title: "Recette Julie Andrieu, Profil Officiel",
     emoji: "🍰",
     cat: "dessert",
     chef: "julieandrieu.officiel",
@@ -13674,7 +14952,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -13707,7 +14987,9 @@ const RECIPES = [
       { qty: "1", name: "cuil. à soupe de vinaigre", rayon: 'epicerie' },
       { qty: "QS", name: "Sel fin", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -13729,7 +15011,9 @@ const RECIPES = [
       { qty: "QS", name: "🥔😍 Schiacciata Bomba potatoes and ham!", rayon: 'epicerie' },
       { qty: "QS", name: "👇 Find the ingredients in comments to redo it at home friend", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -13750,14 +15034,16 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "roasted-cauliflower-with-garlicky-yoghurt-served-w",
-    title: "Roasted cauliflower with garlicky yoghurt, served with tahin",
-    emoji: "🫕",
-    cat: "sauce",
+    id: "garlicky-yoghurt-to-serve",
+    title: "garlicky yoghurt to serve:",
+    emoji: "🥩",
+    cat: "viande",
     chef: "desertislanddishes",
     chefName: "Margie Nomura",
     time: "8min",
@@ -13766,12 +15052,14 @@ const RECIPES = [
     image: "img/CrsKcKXolxc.jpg",
     link: "https://www.instagram.com/desertislanddishes/reel/CrsKcKXolxc/",
     linkType: "instagram",
-    veggie: true,
+    veggie: false,
     techniques: [],
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
@@ -13792,12 +15080,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "la-recette-Cr8vP8",
-    title: "La recette",
+    id: "preparation-Cr8vP8",
+    title: "Préparation :",
     emoji: "🥩",
     cat: "viande",
     chef: "750grammes",
@@ -13818,17 +15108,19 @@ const RECIPES = [
       { qty: "5 cl", name: "d'huile d'olive", rayon: 'epicerie' },
       { qty: "50 g", name: "de mélange de graines", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
     id: "estce-que-vous-connaissez-le-gateau-impossible",
     title: "Est-ce que vous connaissez le gâteau impossible ?",
-    emoji: "🍰",
-    cat: "dessert",
+    emoji: "🥗",
+    cat: "entree",
     chef: "cuisineactuelle",
     chefName: "Cuisine Actuelle",
-    time: "40min",
+    time: "20min",
     serves: "4 pers.",
     difficulty: "Facile",
     image: "img/CsJ3H4aIRpv.jpg",
@@ -13839,12 +15131,14 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   },
   {
-    id: "la-recette-Cr-YaH",
-    title: "La recette",
+    id: "prechauffez-le-four-a-110c",
+    title: "Préchauffez le four à 110°C.",
     emoji: "🍰",
     cat: "dessert",
     chef: "laurent.mariotte",
@@ -13860,7 +15154,9 @@ const RECIPES = [
     ingredients: [
       { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
     ],
-    steps: [{ text: 'Voir la vidéo', detail: '' }],
+    steps: [
+      { text: "Regarder la vidéo pour les étapes", detail: "" },
+    ],
     tips: ''
   }
 ];
