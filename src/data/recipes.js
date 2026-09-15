@@ -1547,7 +1547,7 @@ const RECIPES = [
   },
   {
     id: "ingredients-pour",
-    title: "Recette vidéo",
+    title: "Salade de tomates",
     emoji: "🐟",
     cat: "poisson",
     chef: "lesgourmandisesdeloubna",
@@ -1917,7 +1917,7 @@ const RECIPES = [
   },
   {
     id: "heloise-oscar-recette",
-    title: "Héloïse & Oscar — Recette",
+    title: "Abricots rôtis",
     emoji: "🍰",
     cat: "dessert",
     chef: "oscar_heloise",
@@ -2011,7 +2011,7 @@ const RECIPES = [
   },
   {
     id: "la-cuisson-d",
-    title: "La cuisson d",
+    title: "Quasi de veau",
     emoji: "🥩",
     cat: "viande",
     chef: "steflequellec",
@@ -2266,7 +2266,7 @@ const RECIPES = [
   },
   {
     id: "la-bearnaise",
-    title: "La béarnaise",
+    title: "Sauce béarnaise",
     emoji: "🫕",
     cat: "sauce",
     chef: "ericfrechon",
@@ -2861,7 +2861,7 @@ const RECIPES = [
   },
   {
     id: "ingredients-DXq6iO",
-    title: "Sardines",
+    title: "Sardines grillées",
     emoji: "🐟",
     cat: "poisson",
     chef: "kitchenfactoryprod",
@@ -3939,7 +3939,7 @@ const RECIPES = [
   },
   {
     id: "oula-je-t",
-    title: "Oula je t",
+    title: "Recette du chef",
     emoji: "🍽️",
     cat: "plat",
     chef: "louloukitchen_",
@@ -4855,7 +4855,7 @@ const RECIPES = [
   },
   {
     id: "le-principe",
-    title: "Le principe",
+    title: "Tarte au citron",
     emoji: "🥬",
     cat: "accompagnement",
     chef: "c.lairdutemps",
@@ -5406,7 +5406,7 @@ const RECIPES = [
   },
   {
     id: "la-recette",
-    title: "La Recette",
+    title: "Pâtes maison",
     emoji: "🥗",
     cat: "entree",
     chef: "frgaudry",
@@ -5545,7 +5545,7 @@ const RECIPES = [
   },
   {
     id: "brut-recette",
-    title: "Purée",
+    title: "Purée maison",
     emoji: "🍽️",
     cat: "plat",
     chef: "brutofficiel",
@@ -5710,7 +5710,7 @@ const RECIPES = [
   },
   {
     id: "ingredients-pour-DSFIrW",
-    title: "Velouté",
+    title: "Velouté de saison",
     emoji: "🥗",
     cat: "entree",
     chef: "julieandrieu.officiel",
@@ -6272,7 +6272,7 @@ const RECIPES = [
   },
   {
     id: "recette-d",
-    title: "Recette d",
+    title: "Fondant au chocolat",
     emoji: "🍽️",
     cat: "plat",
     chef: "cuisineaz",
@@ -6709,7 +6709,7 @@ const RECIPES = [
   },
   {
     id: "pour-la-soupe",
-    title: "Recette vidéo",
+    title: "Pommes de terre rôties",
     emoji: "🥬",
     cat: "accompagnement",
     chef: "louloukitchen_",
@@ -7431,7 +7431,7 @@ const RECIPES = [
   },
   {
     id: "la-moitie-d",
-    title: "La moitié d",
+    title: "Gratin de courgettes",
     emoji: "🥬",
     cat: "accompagnement",
     chef: "louloukitchen_",
@@ -7561,7 +7561,7 @@ const RECIPES = [
   },
   {
     id: "le-tiramisu",
-    title: "Le tiramisù",
+    title: "Tiramisù",
     emoji: "🍰",
     cat: "dessert",
     chef: "julieandrieu.officiel",
@@ -8239,7 +8239,7 @@ const RECIPES = [
   },
   {
     id: "mais-pour-les-plus-motives",
-    title: "Mais pour les plus motivés",
+    title: "Tarte aux abricots",
     emoji: "🍰",
     cat: "dessert",
     chef: "brutofficiel",
@@ -8290,7 +8290,7 @@ const RECIPES = [
   },
   {
     id: "ingredients-DK2M9C",
-    title: "Recette vidéo",
+    title: "Salade estivale",
     emoji: "🥩",
     cat: "viande",
     chef: "franceinter",
@@ -8633,7 +8633,7 @@ const RECIPES = [
   },
   {
     id: "ingredients-DKAIQJ",
-    title: "Recette vidéo",
+    title: "Citronnade",
     emoji: "🥩",
     cat: "viande",
     chef: "franceinter",
@@ -9646,7 +9646,7 @@ const RECIPES = [
   },
   {
     id: "k-a-l-i-e-g-r-a-v-e-s-recette",
-    title: "K A L I  E . G R A V E S — Recette",
+    title: "Recette Kali Graves",
     emoji: "🍽️",
     cat: "plat",
     chef: "kalie.graves.art",
@@ -9734,7 +9734,7 @@ const RECIPES = [
   },
   {
     id: "brut-recette-DEcTnJ",
-    title: "Brut. — Recette",
+    title: "Galette des rois",
     emoji: "🍽️",
     cat: "plat",
     chef: "brutofficiel",
@@ -9780,7 +9780,7 @@ const RECIPES = [
   },
   {
     id: "ingredients-pour-DEVKsU",
-    title: "Recette vidéo",
+    title: "Galette frangipane",
     emoji: "🥩",
     cat: "viande",
     chef: "mesdames.media",
@@ -10079,7 +10079,7 @@ const RECIPES = [
   },
   {
     id: "recette-du-foie-gras-au-micro",
-    title: "Recette du Foie gras au micro",
+    title: "Soupe",
     emoji: "🥗",
     cat: "entree",
     chef: "lepointfr",
@@ -11015,7 +11015,7 @@ const RECIPES = [
   },
   {
     id: "recette-de-ma-tarte-tatin-poire-une-merveille",
-    title: "Recette de ma tarte tatin poire  une merveille",
+    title: "Tarte tatin poire",
     emoji: "🍰",
     cat: "dessert",
     chef: "not_so_superflu",
@@ -12620,7 +12620,7 @@ const RECIPES = [
   },
   {
     id: "ingredients-pour-4-personnes-C81YRn",
-    title: "Recette vidéo",
+    title: "Fondant",
     emoji: "🥩",
     cat: "viande",
     chef: "cyrillignac",
@@ -13312,7 +13312,7 @@ const RECIPES = [
   },
   {
     id: "ingredients-pour-4-personnes-C1pUXX",
-    title: "Recette vidéo",
+    title: "Galette",
     emoji: "🥩",
     cat: "viande",
     chef: "cyrillignac",
@@ -14655,7 +14655,7 @@ const RECIPES = [
   },
   {
     id: "julie-andrieu-profil-officiel-recette-CvHa3J",
-    title: "Julie Andrieu, Profil Officiel — Recette",
+    title: "Recette Julie Andrieu",
     emoji: "🍽️",
     cat: "plat",
     chef: "julieandrieu.officiel",
