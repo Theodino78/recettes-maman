@@ -43,6 +43,12 @@
 <!-- Pages -->
 <div class="page active" id="page-home">
   <div class="header"><h1><span>Recettes Maman</span></h1></div>
+  <div class="search-bar">
+    <span class="search-icon">⌕</span>
+    <input id="home-search" type="search" inputmode="search" autocomplete="off"
+      placeholder="Plat, ingrédient, chef… (ex. courgette feta)" oninput="window.app.search(this.value)">
+    <span class="search-count" id="search-count"></span>
+  </div>
   <div class="filter-chips">
     <div class="chip active" onclick="window.app.filter('all',this)">Tout</div>
     <div class="chip" onclick="window.app.filter('entree',this)">🥗 Entrée</div>
@@ -60,6 +66,7 @@
     <button class="view-btn" onclick="window.app.setView('list',this)" title="Liste">☰</button>
   </div>
   <div class="grid" id="home-grid"></div>
+  <div class="search-empty" id="search-empty" hidden>Aucune recette ne correspond.</div>
 </div>
 
 <div class="page" id="page-chefs">

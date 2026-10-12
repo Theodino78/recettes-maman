@@ -222,7 +222,7 @@ function renderCard(recipe, showChef = true) {
   const cookedIds = JSON.parse(localStorage.getItem('august-cooked') || '[]');
   const isCooked = cookedIds.includes(recipe.id);
   return `<div class="card${isAdvanced ? ' card-advanced' : ''}" 
-    data-cat="${recipe.cat}" data-veggie="${recipe.veggie || false}" 
+    data-id="${recipe.id}" data-cat="${recipe.cat}" data-veggie="${recipe.veggie || false}" 
     data-difficulty="${recipe.difficulty}"
     onclick="window.app.showRecipe('${recipe.id}')">
     ${isCooked ? '<span class="card-cooked-badge">✅</span>' : ''}
@@ -240,21 +240,49 @@ function renderCard(recipe, showChef = true) {
 // ============================================
 // Filtering
 // ============================================
+// Recherche : titre, chef, ingrédients, catégorie — sans accents, tous les mots doivent matcher
+const norm = (t) => (t || '').toString().toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+const CAT_WORDS = {
+  sauce: 'sauce', pates: 'pates pasta', entree: 'entree salade', poisson: 'poisson fruits de mer',
+  viande: 'viande', accompagnement: 'accompagnement legumes', dessert: 'dessert sucre gateau', plat: 'plat'
+};
+const SEARCH_INDEX = new Map(RECIPES.map(r => [r.id, norm([
+  r.title, r.chefName, r.chef, CAT_WORDS[r.cat] || r.cat, r.veggie ? 'veggie vegetarien' : '',
+  ...(r.ingredients || []).map(i => i.name)
+].join(' '))]));
+let currentCat = 'all';
+let currentQuery = [];
+
+function applyFilters() {
+  const grid = document.getElementById('home-grid');
+  let shown = 0;
+  grid.querySelectorAll('.card').forEach((card, i) => {
+    const catOk = currentCat === 'all' || card.dataset.cat === currentCat ||
+      (currentCat === 'veggie' && card.dataset.veggie === 'true' && card.dataset.cat !== 'dessert');
+    const text = SEARCH_INDEX.get(card.dataset.id) || '';
+    const show = catOk && currentQuery.every(w => text.includes(w));
+    card.style.display = show ? '' : 'none';
+    if (show) card.style.animationDelay = `${Math.min(shown, 12) * 50}ms`;
+    shown += show;
+  });
+  const count = document.getElementById('search-count');
+  if (count) count.textContent = currentQuery.length ? `${shown}` : '';
+  const empty = document.getElementById('search-empty');
+  if (empty) empty.hidden = shown > 0;
+}
+
 function filter(cat, chipEl) {
   if (chipEl) {
     chipEl.closest('.filter-chips').querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
     chipEl.classList.add('active');
   }
-  
-  const grid = document.getElementById('home-grid');
-  const cards = grid.querySelectorAll('.card');
-  cards.forEach((card, i) => {
-    const show = cat === 'all' || card.dataset.cat === cat || (cat === 'veggie' && card.dataset.veggie === 'true' && card.dataset.cat !== 'dessert');
-    card.style.display = show ? '' : 'none';
-    if (show) {
-      card.style.animationDelay = `${i * 50}ms`;
-    }
-  });
+  currentCat = cat;
+  applyFilters();
+}
+
+function search(q) {
+  currentQuery = norm(q).split(/\s+/).filter(Boolean);
+  applyFilters();
 }
 
 function filterChef(chipEl, cat) {
@@ -973,6 +1001,7 @@ function deleteRecipe(id) {
 }
 
 window.app = {
+  search,
   nav, goBack, deleteRecipe, setView, showRecipe, showChef, filter, filterChef,
   checkIng, checkStep, toggleDetail, showAsk, closeAsk, showShop, closeShop,
   toggleShopItem, copyShopList,
