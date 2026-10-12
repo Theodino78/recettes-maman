@@ -1649,3 +1649,15 @@ h1, h2, h3 { font-family: 'Playfair Display', serif; }
   background-position: center 35%;
 }
 .grid:not(.list-view) .card-img::after { height: 40px; }
+
+/* Favoris */
+.card { position: relative; }
+.fav-btn {
+  border: none; background: rgba(0,0,0,.45); color: #fff; cursor: pointer;
+  width: 34px; height: 34px; border-radius: 50%; font-size: 18px; line-height: 34px; padding: 0;
+  -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px);
+}
+.fav-btn.on { color: #ff5a5f; }
+.fav-card { position: absolute; top: 8px; right: 8px; z-index: 3; }
+.fav-detail { background: transparent; color: #d97706; vertical-align: middle; font-size: 22px; }
+.fav-detail.on { color: #ff5a5f; }

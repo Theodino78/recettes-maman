@@ -104,7 +104,7 @@ function renderRecipeDetail(recipe) {
   let html = `
     <div class="detail-header">
       <button class="back-btn" onclick="window.app.goBack()">← Retour</button>
-      <h2 class="detail-title">${recipe.title}</h2>
+      <h2 class="detail-title">${recipe.title} ${favBtn(recipe.id, 'fav-detail')}</h2>
       <div class="detail-meta">
         ${recipe.time && recipe.time !== '—' ? `<span>⏱ ${recipe.time}</span>` : ''}
         ${recipe.serves && recipe.serves !== '—' ? `<span>👤 ${recipe.serves}</span>` : ''}
@@ -215,6 +215,23 @@ function renderHomeGrid() {
   applyFilters();
 }
 
+// Favoris (mémorisés sur l'appareil)
+const getFavs = () => { try { return JSON.parse(localStorage.getItem('august-favs') || '[]'); } catch { return []; } };
+const isFav = (id) => getFavs().includes(id);
+function toggleFav(id, ev) {
+  if (ev) ev.stopPropagation();
+  const favs = getFavs();
+  const on = !favs.includes(id);
+  const next = on ? [...favs, id] : favs.filter(x => x !== id);
+  try { localStorage.setItem('august-favs', JSON.stringify(next)); } catch {}
+  document.querySelectorAll(`[data-fav="${id}"]`).forEach(b => { b.classList.toggle('on', on); b.textContent = on ? '♥' : '♡'; });
+  const card = document.querySelector(`.card[data-id="${id}"]`);
+  if (card) card.dataset.fav = on;
+  showToast(on ? '♥ Ajoutée aux favoris' : 'Retirée des favoris');
+  if (currentCat === 'favs') applyFilters();
+}
+const favBtn = (id, cls = '') => `<button class="fav-btn ${cls}${isFav(id) ? ' on' : ''}" data-fav="${id}" onclick="window.app.toggleFav('${id}', event)" aria-label="Favori">${isFav(id) ? '♥' : '♡'}</button>`;
+
 function renderCard(recipe, showChef = true) {
   const gradient = CAT_GRADIENTS[recipe.cat] || CAT_GRADIENTS.default;
   const isAdvanced = recipe.difficulty === 'Avancé';
@@ -224,10 +241,11 @@ function renderCard(recipe, showChef = true) {
   const cookedIds = JSON.parse(localStorage.getItem('august-cooked') || '[]');
   const isCooked = cookedIds.includes(recipe.id);
   return `<div class="card${isAdvanced ? ' card-advanced' : ''}" 
-    data-id="${recipe.id}" data-cat="${recipe.cat}" data-veggie="${recipe.veggie || false}" 
+    data-id="${recipe.id}" data-cat="${recipe.cat}" data-fav="${isFav(recipe.id)}" data-veggie="${recipe.veggie || false}" 
     data-difficulty="${recipe.difficulty}"
     onclick="window.app.showRecipe('${recipe.id}')">
     ${isCooked ? '<span class="card-cooked-badge">✅</span>' : ''}
+    ${favBtn(recipe.id, 'fav-card')}
     <div class="card-img" style="${imgStyle}">
       ${recipe.image ? '' : `<span class="card-emoji-overlay">${recipe.emoji}</span>`}
     </div>
@@ -314,6 +332,7 @@ function applyFilters() {
   let shown = 0;
   grid.querySelectorAll('.card').forEach((card, i) => {
     const catOk = currentCat === 'all' || card.dataset.cat === currentCat ||
+      (currentCat === 'favs' && isFav(card.dataset.id)) ||
       (currentCat === 'veggie' && card.dataset.veggie === 'true' && card.dataset.cat !== 'dessert');
     const text = SEARCH_INDEX.get(card.dataset.id) || '';
     const tagOk = !currentTag || (RECIPE_TAGS.get(card.dataset.id) || []).includes(currentTag);
@@ -1109,7 +1128,7 @@ function deleteRecipe(id) {
 }
 
 window.app = {
-  search, orderIngredients, filterTag,
+  search, toggleFav, orderIngredients, filterTag,
   nav, goBack, deleteRecipe, setView, showRecipe, showChef, filter, filterChef,
   checkIng, checkStep, toggleDetail, showAsk, closeAsk, showShop, closeShop,
   toggleShopItem, copyShopList,
