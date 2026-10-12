@@ -1,353 +1,1066 @@
 const RECIPES = [
   {
-    id: "chair-juteuse",
-    title: "Chair juteuse",
-    emoji: "🥩",
-    cat: "viande",
-    chef: "julieandrieu.officiel",
-    chefName: "Julie Andrieu, Profil Officiel",
-    time: "45min",
-    serves: "6 pers.",
-    difficulty: "Facile",
-    image: "img/DdA_jsgDV0E.jpg",
-    link: "https://www.instagram.com/julieandrieu.officiel/reel/DdA_jsgDV0E/",
-    linkType: "instagram",
-    veggie: false,
-    techniques: [],
-    ingredients: [
-      { qty: "2", name: "filets mignon de porc de 400 g chacun environ", rayon: 'epicerie' },
-      { qty: "1 kg", name: "de prunes Lovita (pas trop mûres)", rayon: 'epicerie' },
+    "id": "chair-juteuse",
+    "title": "Filet mignon de porc à la citronnelle et prunes Lovita",
+    "emoji": "🥩",
+    "cat": "viande",
+    "chef": "julieandrieu.officiel",
+    "chefName": "Julie Andrieu, Profil Officiel",
+    "time": "—",
+    "serves": "4 à 6 pers.",
+    "difficulty": "Moyen",
+    "image": "img/DdA_jsgDV0E.jpg",
+    "link": "https://www.instagram.com/julieandrieu.officiel/reel/DdA_jsgDV0E/",
+    "linkType": "instagram",
+    "veggie": false,
+    "techniques": [
+      {
+        "name": "saisir",
+        "ask": "Colorer rapidement la viande à feu vif sur toutes ses faces pour la dorer sans la cuire à cœur."
+      }
     ],
-    steps: [
-      { text: "Une recette de rentrée qui va nous permettre de prolonger l'été avec des saveurs asiatiques, filet mignon à la citronnel", detail: "" },
-      { text: "La lovita, c'est une nouvelle prune que l'on trouve sur les étals de nos maraîchers à peu près de fin août à novembre.", detail: "" },
-      { text: "Vous allez voir, elle a le calibre d'une nectarine, elle est assez grosse, elle a une chair très sucrée, très juteuse, a", detail: "" },
-      { text: "Et moi, je l'adore parce que j'aime la croquer, mais j'aime aussi la cuisiner. Et là, je vais vous la proposer en associ", detail: "" },
-      { text: "Le porc et les fruits, ça marche toujours, mais le porc et les prunes, c'est encore mieux.", detail: "" },
-      { text: "Regardez, je sais pas si vous voyez bien, mais sa forme parle d'elle-même. Un vrai petit cœur.", detail: "" },
-      { text: "Et on va mettre ça au réfrigérateur pendant une heure et demie, maximum 8 heures, je dirais.", detail: "" },
-      { text: "Au-delà, ça va prendre un peu trop le goût de la marinade. Voilà, la viande est saisie, on va la mettre dans un récipien", detail: "" },
-      { text: "Et on va jeter la marinade dans la cocotte. Normalement, on utilise un mélange 5 épices, qui est un mélange d'épices pro", detail: "" },
-      { text: "Il se trouve que j'en ai pas trouvé au supermarché et c'est ennuyeux. Parce que finalement, ça me permet de vous donner ", detail: "" },
+    "ingredients": [
+      {
+        "qty": "2 × 400 g",
+        "name": "filets mignons de porc",
+        "rayon": "boucherie"
+      },
+      {
+        "qty": "1 kg",
+        "name": "prunes Lovita, pas trop mûres",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "6 tiges (80 g)",
+        "name": "citronnelle fraîche (marinade)",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "3 c.s.",
+        "name": "sauce soja (marinade)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "2 c.s.",
+        "name": "sirop d'érable (marinade)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "4 c.s.",
+        "name": "huile d'arachide (marinade)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "7 c.s.",
+        "name": "vinaigre de riz (marinade)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "2",
+        "name": "gousses d'ail (marinade)",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "30 g",
+        "name": "beurre (prunes)",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "1 c.s.",
+        "name": "sirop d'érable (prunes)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "2 c.s.",
+        "name": "sauce soja (prunes)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 c.c.",
+        "name": "mélange 5 épices maison (prunes)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "2 c.s.",
+        "name": "jus de citron (prunes)",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1 c.c.",
+        "name": "anis vert (5 épices)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "2",
+        "name": "clous de girofle (5 épices)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 c.c.",
+        "name": "graines de fenouil (5 épices)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 c.c.",
+        "name": "graines de coriandre (5 épices)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1",
+        "name": "étoile de badiane (5 épices)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 c.c.",
+        "name": "poivre de Sichuan (5 épices)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1/2 c.c.",
+        "name": "cannelle (5 épices)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "sel et poivre du moulin",
+        "rayon": "epicerie"
+      }
     ],
-    tips: ''
+    "steps": [
+      {
+        "text": "Émincer finement la citronnelle et l'ail",
+        "detail": "Couper les tiges de citronnelle en fines rondelles : plus c'est fin, plus la marinade parfume la viande."
+      },
+      {
+        "text": "Mélanger la marinade et y enrober les filets mignons",
+        "detail": "Citronnelle, ail, sauce soja, sirop d'érable, huile d'arachide et vinaigre de riz."
+      },
+      {
+        "text": "Laisser mariner au réfrigérateur",
+        "duration": "1h30 (8 h max)",
+        "detail": "Au-delà de 8 heures, la viande prend trop le goût de la marinade."
+      },
+      {
+        "text": "Saisir les filets dans une cocotte, puis les réserver au chaud",
+        "detail": "Une fois la viande saisie, la sortir et la garder au chaud dans un récipient."
+      },
+      {
+        "text": "Moudre les épices pour faire le 5 épices maison",
+        "detail": "Anis vert, girofle, fenouil, coriandre, badiane, poivre de Sichuan et cannelle : une alternative au 5 épices du commerce."
+      },
+      {
+        "text": "Cuire les quartiers de prunes avec le beurre, le sirop, la soja et le 5 épices",
+        "detail": "Verser aussi la marinade dans la cocotte. Les prunes doivent rester fermes : c'est l'intérêt de la Lovita, qui ne finit pas en compote."
+      },
+      {
+        "text": "Quand le jus est presque à sec, ajouter le jus de citron",
+        "detail": "Le citron réveille la sauce et équilibre le sucré du sirop d'érable."
+      },
+      {
+        "text": "Trancher le filet mignon et servir avec les prunes",
+        "detail": "Saler, poivrer et napper du jus de cuisson."
+      }
+    ],
+    "tips": "La prune Lovita (fin août à novembre) reste ferme et acidulée à la cuisson. Pas de 5 épices au supermarché ? Le faire soi-même."
   },
   {
-    id: "gateaux-myrtilles-vanille-huile-d",
-    title: "Gâteaux myrtilles vanille huile d",
-    emoji: "🍰",
-    cat: "dessert",
-    chef: "louloukitchen_",
-    chefName: "Lou Elsener",
-    time: "35min",
-    serves: "4 pers.",
-    difficulty: "Moyen",
-    image: "img/Dc5iTxYNcPc.jpg",
-    link: "https://www.instagram.com/louloukitchen_/reel/Dc5iTxYNcPc/",
-    linkType: "instagram",
-    veggie: true,
-    techniques: [],
-    ingredients: [
-      { qty: "250g", name: "de farine", rayon: 'epicerie' },
-      { qty: "3", name: "œufs", rayon: 'epicerie' },
-      { qty: "2", name: "pots de yaourt vanille", rayon: 'epicerie' },
-      { qty: "QS", name: "Un sachet de sucre vanillé", rayon: 'epicerie' },
-      { qty: "115g", name: "de cassonade", rayon: 'epicerie' },
-      { qty: "1", name: "sachet de levure chimique", rayon: 'epicerie' },
-      { qty: "10cl", name: "d’huile d’olive", rayon: 'epicerie' },
-      { qty: "200g", name: "de mascarpone", rayon: 'epicerie' },
-      { qty: "QS", name: "Extrait de vanille", rayon: 'epicerie' },
-      { qty: "150g", name: "de myrtilles", rayon: 'epicerie' },
-      { qty: "100g", name: "de framboises", rayon: 'epicerie' },
-      { qty: "QS", name: "Quelques groseilles ( optionnel )", rayon: 'epicerie' },
-      { qty: "1/", name: "séparez les blancs des jaunes. Montez les blancs en neige", rayon: 'epicerie' },
-      { qty: "4/", name: "versez dans un moule et enfournez 35 min à 180 déjà chaud . Laissez tiédir", rayon: 'epicerie' },
-      { qty: "6/", name: "faire revenir le reste des fruits rouges avec une pointe de miel", rayon: 'epicerie' },
+    "id": "gateaux-myrtilles-vanille-huile-d",
+    "title": "Gâteau myrtilles, vanille & huile d'olive",
+    "emoji": "🫐",
+    "cat": "dessert",
+    "chef": "louloukitchen_",
+    "chefName": "Lou Elsener",
+    "time": "—",
+    "serves": "—",
+    "difficulty": "Facile",
+    "image": "img/Dc5iTxYNcPc.jpg",
+    "link": "https://www.instagram.com/louloukitchen_/reel/Dc5iTxYNcPc/",
+    "linkType": "instagram",
+    "veggie": true,
+    "techniques": [
+      {
+        "name": "monter les blancs en neige",
+        "ask": "Fouetter les blancs jusqu'à ce qu'ils soient fermes et forment un bec ; c'est ce qui rend le gâteau léger."
+      }
     ],
-    steps: [
-      { text: "Pour terminer l'été en beauté, je vous présente mon gâteau Myrtille Vanillehuile d'olive.", detail: "" },
-      { text: "Alors évidemment, l'huile d'olive est extrêmement subtile dans le gâteau, mais c'est ça qui fait pour moi toute la diffé", detail: "" },
-      { text: "Le gâteau est ultra moelleux et avec les petites myrtilles, ça donne de l'acidité.", detail: "" },
-      { text: "Enfin, c'était parfait. Vous allez séparer le blanc des jaunes. Vous mélangez le jaune avec la cassonade, de l'extrait d", detail: "" },
-      { text: "Bon, les étapes de préparation sont très simples. Je vous laisse tout en description.", detail: "" },
-      { text: "Deux pots de yaourt vanille. Et ensuite, on va bien fouetter les blancs en neige.", detail: "" },
-      { text: "Quand ils ont cette texture, vous allez les rajouter à votre préparation avec justement l'huile d'olive.", detail: "" },
-      { text: "Vous faites bien attention à ne pas les casser. Moi, vous savez, les gâteaux comme ça de grand-mère, c'est ma passion.", detail: "" },
-      { text: "Ensuite, on tamise la farine avec la levure chinique. On mélange délicatement et on y incorpore ensuite les myrtilles.", detail: "" },
-      { text: "Et vous n'avez plus qu'ensuite à le mettre dans un moule. Alors moi, c'est un moule de 22 cm.", detail: "" },
+    "ingredients": [
+      {
+        "qty": "250 g",
+        "name": "farine",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "3",
+        "name": "œufs",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "2 pots",
+        "name": "yaourt à la vanille",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "1 sachet",
+        "name": "sucre vanillé",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "115 g",
+        "name": "cassonade",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 sachet",
+        "name": "levure chimique",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "10 cl",
+        "name": "huile d'olive (+ un filet pour servir)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "200 g",
+        "name": "mascarpone",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "QS",
+        "name": "extrait de vanille",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "150 g",
+        "name": "myrtilles (100 g dans la pâte)",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "100 g",
+        "name": "framboises",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "groseilles (facultatif)",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "miel",
+        "rayon": "epicerie"
+      }
     ],
-    tips: ''
+    "steps": [
+      {
+        "text": "Séparer les blancs des jaunes et monter les blancs en neige",
+        "detail": ""
+      },
+      {
+        "text": "Fouetter les jaunes avec la cassonade, puis ajouter yaourts, sucre vanillé et huile d'olive",
+        "detail": ""
+      },
+      {
+        "text": "Incorporer les blancs, puis la farine tamisée avec la levure",
+        "detail": "Mélanger délicatement pour ne pas casser les blancs."
+      },
+      {
+        "text": "Ajouter 100 g de myrtilles et verser dans un moule",
+        "detail": "Elle utilise un moule de 22 cm ; un 18 ou 20 cm convient aussi."
+      },
+      {
+        "text": "Enfourner dans le four préchauffé, puis laisser tiédir",
+        "duration": "35 min",
+        "temperature": "180°C",
+        "detail": ""
+      },
+      {
+        "text": "Pendant la cuisson, fouetter le mascarpone avec la vanille et un peu de miel",
+        "detail": "Ça allège le mascarpone en une petite crème fouettée."
+      },
+      {
+        "text": "Faire revenir le reste des fruits rouges avec une pointe de miel",
+        "detail": "Juste pour les rendre un peu fondants."
+      },
+      {
+        "text": "Sur le gâteau tiède : crème, fruits et un filet d'huile d'olive",
+        "detail": ""
+      }
+    ],
+    "tips": "Un gâteau de grand-mère : on peut faire un peu à l'œil. Dernière touche indispensable : le filet d'huile d'olive."
   },
   {
-    id: "ma-recette-reconfortante-avec",
-    title: "Ma recette réconfortante avec",
-    emoji: "🥩",
-    cat: "viande",
-    chef: "louloukitchen_",
-    chefName: "Lou Elsener",
-    time: "20min",
-    serves: "4 pers.",
-    difficulty: "Facile",
-    image: "img/Dc3tBCdhTuX.jpg",
-    link: "https://www.instagram.com/louloukitchen_/reel/Dc3tBCdhTuX/",
-    linkType: "instagram",
-    veggie: false,
-    techniques: [],
-    ingredients: [
-      { qty: "4", name: "cuisses de poulet 100% français", rayon: 'epicerie' },
-      { qty: "3", name: "carottes", rayon: 'epicerie' },
-      { qty: "1", name: "grosse aubergine", rayon: 'epicerie' },
-      { qty: "150g", name: "de pois chiches secs", rayon: 'epicerie' },
-      { qty: "1", name: "citron", rayon: 'epicerie' },
-      { qty: "2", name: "c. à soupe de tajine", rayon: 'epicerie' },
-      { qty: "1", name: "gousse d’ail", rayon: 'epicerie' },
-      { qty: "1", name: "beurre à l’ail des ours", rayon: 'epicerie' },
-      { qty: "1", name: "c. à soupe de paprika fumé", rayon: 'epicerie' },
-      { qty: "1", name: "c. à soupe d’origan", rayon: 'epicerie' },
-      { qty: "1", name: "c. à café d’ail en poudre", rayon: 'epicerie' },
-      { qty: "1", name: "filet d’huile d’olive", rayon: 'epicerie' },
-      { qty: "QS", name: "Quelques feuilles de coriandre", rayon: 'epicerie' },
-      { qty: "QS", name: "Likez ce post", rayon: 'epicerie' },
-      { qty: "QS", name: "Commentez sous cette publication", rayon: 'epicerie' },
+    "id": "ma-recette-reconfortante-avec",
+    "title": "Poulet rôti au paprika fumé, houmous & légumes rôtis",
+    "emoji": "🍗",
+    "cat": "viande",
+    "chef": "louloukitchen_",
+    "chefName": "Lou Elsener",
+    "time": "—",
+    "serves": "—",
+    "difficulty": "Moyen",
+    "image": "img/Dc3tBCdhTuX.jpg",
+    "link": "https://www.instagram.com/louloukitchen_/reel/Dc3tBCdhTuX/",
+    "linkType": "instagram",
+    "veggie": false,
+    "techniques": [],
+    "ingredients": [
+      {
+        "qty": "4",
+        "name": "cuisses de poulet",
+        "rayon": "boucherie"
+      },
+      {
+        "qty": "1",
+        "name": "beurre à l'ail des ours",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "1 c.s.",
+        "name": "paprika fumé",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 c.s.",
+        "name": "origan",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 c.c.",
+        "name": "ail en poudre",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "huile d'olive",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "3",
+        "name": "carottes",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1 grosse",
+        "name": "aubergine",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "miel (sur les légumes)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "150 g",
+        "name": "pois chiches secs",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "2 c.s.",
+        "name": "tahine (crème de sésame)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1",
+        "name": "gousse d'ail",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1",
+        "name": "citron",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "cumin, sel",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "muhammara (dip poivron grillé & noix), facultatif",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "coriandre fraîche",
+        "rayon": "legumes"
+      }
     ],
-    steps: [
-      { text: "C'est la rentrée et je vous ai réalisé le poulet le plus incroyable à réaliser si vous recevez à la maison ou même juste", detail: "" },
-      { text: "Après l'avoir laver et fait des entailles, vous prenez le beurre à l'ail des ours que vous mettez dans un saladier, ça v", detail: "" },
-      { text: "Vous y ajoutez une cuillère à soupe de paprika fumée, un petit peu d'ail en poudre et une cuillère à soupe d'origan.", detail: "" },
-      { text: "Un généreux filet d'huile d'olive, ça va vous faire une pâte que vous allez ensuite étaler sur votre poulet.", detail: "" },
-      { text: "J'en profite pour vous dire que vous avez un magnifique concours sur ce poste qui vous permet de remporter deux bons d'a", detail: "" },
-      { text: "Et au-delà de ça, surtout je vous ai fait deux recettes exclusives sur l'application Grand Frê, vous allez retrouver ple", detail: "" },
-      { text: "Vous découpez les carottes fans, les aubergines, les carottes ça va vraiment apporter un truc à la recette, vous allez v", detail: "" },
-      { text: "On les coupe dans la longueur et ensuite on met tout sur la plaque à l'enfour avec le poulet, comme ça tout cuit ensembl", detail: "" },
-      { text: "La veille pensez bien à tremper vos pois chiches, moi c'est les pois chiches grains de frais.", detail: "" },
-      { text: "On les fait cuire 45 minutes, on enlève la peau puis on les mixe pour faire un houmous avec du sel, du cumin, une gousse", detail: "" },
+    "steps": [
+      {
+        "text": "La veille, faire tremper les pois chiches",
+        "detail": ""
+      },
+      {
+        "text": "Entailler les cuisses de poulet",
+        "detail": "Les entailles laissent pénétrer la marinade."
+      },
+      {
+        "text": "Mélanger beurre à l'ail des ours, paprika, origan, ail en poudre et huile d'olive",
+        "detail": "On obtient une pâte à étaler sur tout le poulet."
+      },
+      {
+        "text": "Couper carottes et aubergine dans la longueur, tout mettre sur la plaque",
+        "detail": "Poulet et légumes cuisent ensemble ; arroser les légumes d'un filet de miel."
+      },
+      {
+        "text": "Rôtir, en retournant le poulet à mi-cuisson",
+        "duration": "1 h puis 20 min",
+        "temperature": "180°C puis 200°C",
+        "detail": "La fin à 200°C dore la peau."
+      },
+      {
+        "text": "Cuire les pois chiches, retirer la peau",
+        "duration": "45 min",
+        "detail": ""
+      },
+      {
+        "text": "Mixer en houmous avec sel, cumin, ail, tahine et citron",
+        "detail": ""
+      },
+      {
+        "text": "Dresser : houmous, muhammara, légumes confits, poulet, coriandre",
+        "detail": ""
+      }
     ],
-    tips: ''
+    "tips": "Le muhammara (dip de poivron grillé aux noix) sur le houmous fait toute la différence."
   },
   {
-    id: "70-g-de-sucre-glace",
-    title: "70 g de sucre glace⁠",
-    emoji: "🥩",
-    cat: "viande",
-    chef: "franceinter",
-    chefName: "France Inter",
-    time: "45min",
-    serves: "4 pers.",
-    difficulty: "Facile",
-    image: "img/Dc2sXpCCD21.jpg",
-    link: "https://www.instagram.com/franceinter/reel/Dc2sXpCCD21/",
-    linkType: "instagram",
-    veggie: false,
-    techniques: [],
-    ingredients: [
-      { qty: "400 g", name: "de fraises ⁠", rayon: 'epicerie' },
-      { qty: "70 g", name: "de sucre glace⁠", rayon: 'epicerie' },
-      { qty: "2", name: "blancs d’œufs⁠", rayon: 'epicerie' },
-      { qty: "QS", name: "Déroulé : ⁠", rayon: 'epicerie' },
-      { qty: "QS", name: "Servir aussitôt. ⁠", rayon: 'epicerie' },
-      { qty: "QS", name: "Régie culinaire : @thomasdarcos, @valentine_brisvalter⁠", rayon: 'epicerie' },
-      { qty: "QS", name: "Coordination éditoriale : @marielle_gaudry⁠", rayon: 'epicerie' },
-      { qty: "QS", name: "Prise de vue et son : Didier Mariani et Hélène Beraud⁠", rayon: 'epicerie' },
-      { qty: "QS", name: "Montage : Xavier Chocron", rayon: 'epicerie' },
+    "id": "70-g-de-sucre-glace",
+    "title": "Sorbet minute aux fraises sans sorbetière",
+    "emoji": "🍓",
+    "cat": "dessert",
+    "chef": "franceinter",
+    "chefName": "France Inter",
+    "time": "—",
+    "serves": "4 pers.",
+    "difficulty": "Facile",
+    "image": "img/Dc2sXpCCD21.jpg",
+    "link": "https://www.instagram.com/franceinter/reel/Dc2sXpCCD21/",
+    "linkType": "instagram",
+    "veggie": true,
+    "techniques": [],
+    "ingredients": [
+      {
+        "qty": "400 g",
+        "name": "fraises équeutées",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "70 g",
+        "name": "sucre glace",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "2",
+        "name": "blancs d'œufs",
+        "rayon": "cremerie"
+      }
     ],
-    steps: [
-      { text: "C'est trop bon ! Hello les amis ! Aujourd'hui attention, tour de magie, un super sorbet aux fraises, hyper fruité, hyper", detail: "" },
-      { text: "C'est parti ! Je commence par écuter 400 grammes de fraises françaises et de saison.", detail: "" },
-      { text: "Le secret c'est qu'elles vont séjourner au minimum une nuit au congélateur. Bon je vous l'avais dit, pas de sorbetière, ", detail: "" },
-      { text: "Et trois ingrédients, nos fraises congelées qui sont dures comme de la pierre, du sucre glace et un peu de blanc d'œuf.", detail: "" },
-      { text: "Dans le bol de mon robot, les fraises congelées et 70 grammes de sucre glace. Je mixe à petite vitesse.", detail: "" },
-      { text: "On obtient une espèce de granité un peu grossier et on va ajouter de blanc d'œuf.", detail: "" },
-      { text: "Et c'est reparti pour un tour. Wow ! Alors attention, c'est un sorbet qui se mixe minute et qui se sert aussitôt.", detail: "" },
-      { text: "Et ensuite évidemment, on ne peut pas recongeler. Quand vous servez ce sorbet à vos invités, vous rajoutez une petite sa", detail: "" },
-      { text: "Vous pouvez même intégrer dans votre recette une herbe aromatique comme l'estragon ou le basilic.", detail: "" },
-      { text: "Et hop, dégustation ! C'est ultra fruité, juste sucré comme il faut. Et ça remplit la bouche avec une texture mousseuse,", detail: "" },
+    "steps": [
+      {
+        "text": "La veille, équeuter les fraises et les congeler",
+        "duration": "1 nuit",
+        "detail": "Elles doivent être dures comme de la pierre."
+      },
+      {
+        "text": "Mixer les fraises congelées avec le sucre glace",
+        "duration": "40 s environ",
+        "detail": "À petite vitesse, jusqu'à un mélange granuleux, comme un granité grossier."
+      },
+      {
+        "text": "Ajouter les blancs d'œufs et mixer à nouveau",
+        "duration": "1 min",
+        "detail": "On obtient une texture glacée, lisse et mousseuse."
+      },
+      {
+        "text": "Servir aussitôt",
+        "detail": "Ce sorbet ne se recongèle pas. Servir avec une petite salade de fraises."
+      }
     ],
-    tips: ''
+    "tips": "Marche avec presque tous les fruits qui se congèlent. On peut ajouter une herbe aromatique (estragon, basilic)."
   },
   {
-    id: "depuis-ma-normandie",
-    title: "Depuis ma Normandie",
-    emoji: "🍽️",
-    cat: "plat",
-    chef: "frgaudry",
-    chefName: "François-Régis Gaudry",
-    time: "30min",
-    serves: "4 pers.",
-    difficulty: "Facile",
-    image: "img/Dc0mK7bAoIX.jpg",
-    link: "https://www.instagram.com/frgaudry/reel/Dc0mK7bAoIX/",
-    linkType: "instagram",
-    veggie: true,
-    techniques: [],
-    ingredients: [
-      { qty: "QS", name: "Le secret ? La pâte maison démoniaque de mon amie Tina de @b", rayon: 'epicerie' },
+    "id": "depuis-ma-normandie",
+    "title": "Tarte rustique aux mûres sauvages",
+    "emoji": "🫐",
+    "cat": "dessert",
+    "chef": "frgaudry",
+    "chefName": "François-Régis Gaudry",
+    "time": "—",
+    "serves": "—",
+    "difficulty": "Facile",
+    "image": "img/Dc0mK7bAoIX.jpg",
+    "link": "https://www.instagram.com/frgaudry/reel/Dc0mK7bAoIX/",
+    "linkType": "instagram",
+    "veggie": true,
+    "techniques": [
+      {
+        "name": "fleurer",
+        "ask": "Saupoudrer légèrement de farine le plan de travail pour que la pâte n'attache pas."
+      }
     ],
-    steps: [
-      { text: "Hello les amis, on se prépare une tarte au mur, oui une tarte au mur sauvage de fin d'été.", detail: "" },
-      { text: "Et on commence par se faire une pâte maison avec dans le saladier 110 g de beurre mou, 185 g de farine, 35 g de sucre ca", detail: "" },
-      { text: "Je mélange avec mes menottes. Cette pâte on va la laisser prendre au frigo, idéalement une nuit.", detail: "" },
-      { text: "Pour une tarte au mur, il nous faut des murs, je vous emmène en cueillette, suivez-moi.", detail: "" },
-      { text: "Je fleure mon plan de travail, directement sur un papier cuisson, j'étale ma pâte avec un rouleau à pâtisserie.", detail: "" },
-      { text: "Je saupoudre mon fond de tarte de poudre d'amandes, je dispose mes fruits au centre de la pâte, j'y vais généreusement e", detail: "" },
-      { text: "J'ajoute quelques bonnes pincées de sucre cassonade. Et c'est parti pour la cuisson dans un four préchauffé à 180°C.", detail: "" },
-      { text: "Ah elle est trop bonne ! Les amis, vous aimez le mur ? Bon, maintenant tarte au mur !", detail: "" },
+    "ingredients": [
+      {
+        "qty": "110 g",
+        "name": "beurre mou",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "185 g",
+        "name": "farine T55",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "35 g",
+        "name": "sucre cassonade (+ quelques pincées pour finir)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "25 g",
+        "name": "poudre d'amande (+ un peu pour le fond)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1",
+        "name": "œuf",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "1 pincée",
+        "name": "fleur de sel",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "mûres sauvages (une bonne quantité)",
+        "rayon": "legumes"
+      }
     ],
-    tips: ''
+    "steps": [
+      {
+        "text": "Mélanger à la main beurre, farine, cassonade, poudre d'amande, œuf et sel",
+        "detail": "La pâte de Tina de @bleuetcoffee : pas besoin de robot, on mélange avec les mains."
+      },
+      {
+        "text": "Laisser reposer la pâte une nuit au réfrigérateur",
+        "duration": "1 nuit",
+        "detail": ""
+      },
+      {
+        "text": "Étaler la pâte directement sur du papier cuisson",
+        "detail": "Fleurer le plan de travail et le rouleau."
+      },
+      {
+        "text": "Saupoudrer le fond de poudre d'amande et disposer les mûres au centre",
+        "detail": "La poudre d'amande absorbe le jus des fruits. Y aller généreusement sur les mûres."
+      },
+      {
+        "text": "Rabattre les bords de la pâte de façon rustique",
+        "detail": ""
+      },
+      {
+        "text": "Saupoudrer de cassonade et cuire au four préchauffé",
+        "duration": "30 min environ",
+        "temperature": "180°C",
+        "detail": ""
+      }
+    ],
+    "tips": "Une tarte de fin d'été, retour de cueillette."
   },
   {
-    id: "le-tiramisu-de-la-cheffe-version-xxl",
-    title: "🇮🇹 Le Tiramisù De La Cheffe — Version Xxl",
-    emoji: "🍰",
-    cat: "dessert",
-    chef: "viviana_pisacane",
-    chefName: "Viviana Pisacane TopChef17",
-    time: "40min",
-    serves: "4 pers.",
-    difficulty: "Facile",
-    image: "img/DcyuTkHuYvz.jpg",
-    link: "https://www.instagram.com/viviana_pisacane/reel/DcyuTkHuYvz/",
-    linkType: "instagram",
-    veggie: true,
-    techniques: [],
-    ingredients: [
-      { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
+    "id": "le-tiramisu-de-la-cheffe-version-xxl",
+    "title": "Tiramisù XXL",
+    "emoji": "☕",
+    "cat": "dessert",
+    "chef": "viviana_pisacane",
+    "chefName": "Viviana Pisacane TopChef17",
+    "time": "—",
+    "serves": "—",
+    "difficulty": "Facile",
+    "image": "img/DcyuTkHuYvz.jpg",
+    "link": "https://www.instagram.com/viviana_pisacane/reel/DcyuTkHuYvz/",
+    "linkType": "instagram",
+    "veggie": true,
+    "techniques": [
+      {
+        "name": "incorporer délicatement",
+        "ask": "Mélanger de bas en haut à la spatule pour garder l'air des blancs en neige."
+      }
     ],
-    steps: [
-      { text: "On va monter le jaune d'oeuf avec le sucre. On va rajouter le mascarpone. On va mélanger avec notre crème délicatement.", detail: "" },
-      { text: "Voilà! Là on prépare le super tiramisu. Cacao à chaque étage. Bon appétit, ragazzi!", detail: "" },
+    "ingredients": [
+      {
+        "qty": "500 g",
+        "name": "mascarpone",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "4",
+        "name": "œufs",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "100 g",
+        "name": "sucre",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "café refroidi",
+        "rayon": "boissons"
+      },
+      {
+        "qty": "QS",
+        "name": "biscuits cuillère",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "cacao sucré",
+        "rayon": "epicerie"
+      }
     ],
-    tips: ''
+    "steps": [
+      {
+        "text": "Séparer les blancs des jaunes",
+        "detail": ""
+      },
+      {
+        "text": "Fouetter les jaunes avec le sucre, puis ajouter le mascarpone",
+        "detail": "Fouetter jusqu'à un mélange clair et mousseux avant le mascarpone."
+      },
+      {
+        "text": "Monter les blancs en neige et les incorporer délicatement",
+        "detail": ""
+      },
+      {
+        "text": "Tremper rapidement les biscuits dans le café refroidi",
+        "detail": "Juste un aller-retour, sinon ils se désagrègent."
+      },
+      {
+        "text": "Alterner couches de biscuits et de crème, cacao à chaque étage",
+        "detail": ""
+      },
+      {
+        "text": "Finir par le cacao sucré et laisser quelques heures au frais",
+        "detail": ""
+      }
+    ],
+    "tips": "Cacao sucré plutôt qu'amer : le choix de la cheffe, assumé."
   },
   {
-    id: "dans-ce-gateau-ultra-simple",
-    title: "Dans ce gâteau ultra simple",
-    emoji: "🥩",
-    cat: "viande",
-    chef: "frgaudry",
-    chefName: "François-Régis Gaudry",
-    time: "1h",
-    serves: "4 pers.",
-    difficulty: "Facile",
-    image: "img/Dcvc1hEA5FH.jpg",
-    link: "https://www.instagram.com/frgaudry/reel/Dcvc1hEA5FH/",
-    linkType: "instagram",
-    veggie: false,
-    techniques: [],
-    ingredients: [
-      { qty: "160 g", name: "de sucre glace", rayon: 'epicerie' },
-      { qty: "35 g", name: "de poudre d’amande", rayon: 'epicerie' },
-      { qty: "50 g", name: "de farine", rayon: 'epicerie' },
-      { qty: "3", name: "œufs plein air", rayon: 'epicerie' },
-      { qty: "500 cl", name: "de crème liquide 35 %", rayon: 'epicerie' },
-      { qty: "1", name: "gousse de vanille", rayon: 'epicerie' },
-      { qty: "500", name: "grammes de mirabelles", rayon: 'epicerie' },
+    "id": "dans-ce-gateau-ultra-simple",
+    "title": "Clafoutis aux mirabelles",
+    "emoji": "🟡",
+    "cat": "dessert",
+    "chef": "frgaudry",
+    "chefName": "François-Régis Gaudry",
+    "time": "—",
+    "serves": "—",
+    "difficulty": "Facile",
+    "image": "img/Dcvc1hEA5FH.jpg",
+    "link": "https://www.instagram.com/frgaudry/reel/Dcvc1hEA5FH/",
+    "linkType": "instagram",
+    "veggie": true,
+    "techniques": [
+      {
+        "name": "infuser",
+        "ask": "Laisser tremper un aromate dans un liquide pour qu'il lui transmette son parfum."
+      }
     ],
-    steps: [
-      { text: "Hello les amis, un super clafoutis ça vous dit ? Et ouais, c'est la version été d'un clafoutis que j'adore où je remplac", detail: "" },
-      { text: "Attention recette super simple, dans un saladier je mélange 160 g de sucre glace, 35 g de poudre d'amandes et 50 g de fa", detail: "" },
-      { text: "Je mélange mes trois ingrédients secs, et je casse trois œufs. Je mélange, je gratte une belle vanille, je mélange mon c", detail: "" },
-      { text: "J'ai beurré mon moule de 26 centimètres de diamètre et je vais installer 500 g, un demi kilo de Mirabelle que je vais pr", detail: "" },
-      { text: "Je verse mon appareil sur mes Mirabelles et mon claf va cuire pendant une heure dans un four préchauffé à 165 degrés.", detail: "" },
+    "ingredients": [
+      {
+        "qty": "160 g",
+        "name": "sucre glace",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "35 g",
+        "name": "poudre d'amande",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "50 g",
+        "name": "farine",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "3",
+        "name": "œufs",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "50 cl",
+        "name": "crème liquide 35 %",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "1",
+        "name": "gousse de vanille",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "500 g",
+        "name": "mirabelles dénoyautées",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "beurre pour le moule",
+        "rayon": "cremerie"
+      }
     ],
-    tips: ''
+    "steps": [
+      {
+        "text": "La veille, infuser la vanille fendue et grattée dans la crème",
+        "duration": "1 nuit",
+        "detail": "Au frigo sous film : c'est ce qui développe tous les arômes de la vanille."
+      },
+      {
+        "text": "Mélanger sucre glace, farine et poudre d'amande",
+        "detail": ""
+      },
+      {
+        "text": "Ajouter les œufs et fouetter jusqu'à une pâte lisse",
+        "detail": ""
+      },
+      {
+        "text": "Retirer la gousse et incorporer la crème infusée",
+        "detail": "La crème est la seule matière grasse du clafoutis."
+      },
+      {
+        "text": "Étaler les mirabelles à plat dans un moule beurré de 26 cm",
+        "detail": ""
+      },
+      {
+        "text": "Verser l'appareil pour recouvrir les fruits et enfourner",
+        "duration": "1 h",
+        "temperature": "165°C",
+        "detail": "Four préchauffé, jusqu'à ce que le clafoutis soit bien doré."
+      }
+    ],
+    "tips": "La version été du clafoutis : la mirabelle à la place de la cerise. Pas trop sucré, parfait pour le goûter."
   },
   {
-    id: "monelle-godaert-recette",
-    title: "Ma Salade De Vermicelles",
-    emoji: "🍝",
-    cat: "pates",
-    chef: "not_so_superflu",
-    chefName: "Monelle Godaert",
-    time: "20min",
-    serves: "4 pers.",
-    difficulty: "Facile",
-    image: "img/Da01FrWorRK.jpg",
-    link: "https://www.instagram.com/not_so_superflu/reel/Da01FrWorRK/",
-    linkType: "instagram",
-    veggie: true,
-    techniques: [],
-    ingredients: [
-      { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
+    "id": "monelle-godaert-recette",
+    "title": "Salade de vermicelles au poulet, avocat & cacahuètes",
+    "emoji": "🥗",
+    "cat": "plat",
+    "chef": "not_so_superflu",
+    "chefName": "Monelle Godaert",
+    "time": "20min",
+    "serves": "—",
+    "difficulty": "Facile",
+    "image": "img/Da01FrWorRK.jpg",
+    "link": "https://www.instagram.com/not_so_superflu/reel/Da01FrWorRK/",
+    "linkType": "instagram",
+    "veggie": false,
+    "techniques": [
+      {
+        "name": "pocher",
+        "ask": "Cuire doucement dans un liquide frémissant : la viande reste tendre et facile à effilocher."
+      }
     ],
-    steps: [
-      { text: "Vous allez voir ce que je nous ai fait pour ce soir. Franchement, j'ai passé 20 minutes en cuisine.", detail: "" },
-      { text: "J'ai mis 2 blancs de poulet à bouillir avec du sel. Je mets pas d'épices, j'ai pas envie que le poulet ait un goût d'épi", detail: "" },
-      { text: "Juste un peu de sel. Les vermicelles, 4 minutes dans l'eau bouillante. Ensuite vous les rincez à l'eau froide.", detail: "" },
-      { text: "Et à partir de maintenant, je vais tout faire avec le même ustensile. J'ai pris une grosse carotte, je l'ai coupée très ", detail: "" },
-      { text: "Et aussi un concombre que j'ai coupé très très finement. Ça m'a vraiment pris 2 minutes pendant que le poulet est en tra", detail: "" },
-      { text: "Ensuite, j'ai mis une grosse poignée de coriandre et 2 poignées de cacahuètes. Le poulet, je l'ai laissé à peu près 12-1", detail: "" },
-      { text: "Ensuite, je l'ai effiloché. C'est vraiment super facile. J'ai mis aussi un gros avocat et un peu de piment.", detail: "" },
-      { text: "Toujours avec le même ustensile que j'ai réglé au plus fin pour que ça fasse vraiment des fines fines fines lamelles.", detail: "" },
-      { text: "Vous couvrez avec des graines de sésame. Alors pour la sauce, moi je prends toujours ma sauce soja sans colorant.", detail: "" },
-      { text: "Et là, j'ai mis 3 cuillères à soupe de sauce soja. 1 cuillère à soupe d'huile de sésame grillée.", detail: "" },
+    "ingredients": [
+      {
+        "qty": "2",
+        "name": "blancs de poulet",
+        "rayon": "boucherie"
+      },
+      {
+        "qty": "QS",
+        "name": "vermicelles de riz",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 grosse",
+        "name": "carotte",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1",
+        "name": "concombre",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1 gros",
+        "name": "avocat",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1 grosse poignée",
+        "name": "coriandre fraîche",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "2 poignées",
+        "name": "cacahuètes",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "piment frais",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "graines de sésame",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "3 c.s.",
+        "name": "sauce soja (sauce)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 c.s.",
+        "name": "huile de sésame grillé (sauce)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "2 c.s.",
+        "name": "vinaigre de riz (sauce)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 c.s.",
+        "name": "miel, facultatif (sauce)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1",
+        "name": "citron vert pressé (sauce)",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "sel",
+        "rayon": "epicerie"
+      }
     ],
-    tips: ''
+    "steps": [
+      {
+        "text": "Pocher les blancs de poulet dans l'eau bouillante salée",
+        "duration": "12-15 min",
+        "detail": "Juste du sel, pas d'épices : le goût vient de la sauce."
+      },
+      {
+        "text": "Cuire les vermicelles puis les rincer à l'eau froide",
+        "duration": "4 min",
+        "detail": ""
+      },
+      {
+        "text": "Tailler très finement carotte, concombre, avocat et piment",
+        "detail": "Avec une mandoline réglée au plus fin : ça prend 2 minutes pendant que le poulet cuit."
+      },
+      {
+        "text": "Effilocher le poulet",
+        "detail": ""
+      },
+      {
+        "text": "Mélanger la sauce : soja, huile de sésame, vinaigre de riz, miel, citron vert",
+        "detail": ""
+      },
+      {
+        "text": "Assembler, ajouter coriandre et cacahuètes, couvrir de sésame et servir",
+        "detail": "Servir en petits bols, bien frais."
+      }
+    ],
+    "tips": "Prête en 15 à 20 minutes. Une sauce soja sans colorant, et un citron vert entier si on aime acidulé."
   },
   {
-    id: "des-recettes-directement-du-potager-a-l",
-    title: "Des recettes directement du potager à l",
-    emoji: "🍝",
-    cat: "pates",
-    chef: "not_so_superflu",
-    chefName: "Monelle Godaert",
-    time: "25min",
-    serves: "4 pers.",
-    difficulty: "Facile",
-    image: "img/DcjMNFGoPVI.jpg",
-    link: "https://www.instagram.com/not_so_superflu/reel/DcjMNFGoPVI/",
-    linkType: "instagram",
-    veggie: true,
-    techniques: [],
-    ingredients: [
-      { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
+    "id": "des-recettes-directement-du-potager-a-l",
+    "title": "Orecchiette maison à la tomate crue & basilic",
+    "emoji": "🍝",
+    "cat": "pates",
+    "chef": "not_so_superflu",
+    "chefName": "Monelle Godaert",
+    "time": "—",
+    "serves": "—",
+    "difficulty": "Moyen",
+    "image": "img/DcjMNFGoPVI.jpg",
+    "link": "https://www.instagram.com/not_so_superflu/reel/DcjMNFGoPVI/",
+    "linkType": "instagram",
+    "veggie": true,
+    "techniques": [
+      {
+        "name": "orecchiette",
+        "ask": "Pâtes des Pouilles en forme de petite oreille, faites à la main à partir de semoule et d'eau."
+      }
     ],
-    steps: [
-      { text: "Aujourd'hui je suis pas toute seule pour cuisiner. Alors regardez bien, je vais vous donner des recettes incroyablement ", detail: "" },
-      { text: "Déjà première étape, une superbe balade dans le potager. On va cuisiner tout ce qu'on est en train de récolter.", detail: "" },
-      { text: "Vous avez vu des poivrons, des piments, des pastèques, des melons, des aubergines, des haricots, des olives.", detail: "" },
-      { text: "Et je vous présente Mirko Vinci. Il me fallait bien un super chef pour avoir des recettes secrètes italiennes.", detail: "" },
-      { text: "Comme je vous disais, vous pouvez vraiment tout réaliser à la maison très facilement.", detail: "" },
-      { text: "Donc première étape, on coupe les tomates et on coupe le basilic. Donc là j'ai mis une quinzaine de tomates et un beau b", detail: "" },
-      { text: "Plein d'huile d'olive, vous voyez, c'est à la louche. Le sel aussi. On mélange bien et c'est ce jus-là qui va faire la s", detail: "" },
-      { text: "Vous voyez le jus. Mais je vais tout vous expliquer. Vous pouvez lancer la cuisson de vos pâtes.", detail: "" },
-      { text: "Nous on les a faites nous-mêmes. On a fait des oriquiettes qui est vraiment la spécialité de la région.", detail: "" },
-      { text: "Mais c'est pareil, vous pouvez vraiment les faire à la maison. Vous avez besoin de 400 grammes de semoule de blé extra f", detail: "" },
+    "ingredients": [
+      {
+        "qty": "400 g",
+        "name": "semoule de blé extra fine (pâtes)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "20 cl",
+        "name": "eau (pâtes)",
+        "rayon": "boissons"
+      },
+      {
+        "qty": "15",
+        "name": "tomates environ",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1 beau bouquet",
+        "name": "basilic",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "huile d'olive (à la louche)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "ricotta affinée, pecorino ou parmesan",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "10 g",
+        "name": "sel pour l'eau de cuisson (environ)",
+        "rayon": "epicerie"
+      }
     ],
-    tips: ''
+    "steps": [
+      {
+        "text": "Couper les tomates et le basilic, arroser d'huile d'olive et saler",
+        "detail": "Bien mélanger : c'est le jus des tomates qui fera la sauce des pâtes."
+      },
+      {
+        "text": "Mélanger la semoule et l'eau, laisser reposer",
+        "duration": "20 min",
+        "detail": ""
+      },
+      {
+        "text": "Couper un morceau de pâte, le rouler en boudin et le tailler",
+        "detail": ""
+      },
+      {
+        "text": "Former les orecchiette : aplatir chaque morceau puis le retourner",
+        "detail": "Tout se fait à la main, même avec des enfants."
+      },
+      {
+        "text": "Cuire dans une eau très salée en remuant sans cesse",
+        "detail": "Beaucoup de sel (environ 10 g). Les pâtes cuisent vite et remontent à la surface."
+      },
+      {
+        "text": "Mélanger avec les tomates, le fromage râpé et une cuillère d'huile",
+        "detail": "Le jus devient crémeux, comme une crème."
+      }
+    ],
+    "tips": "Dans la même vidéo : ricotta au miel rôtie 20 min à 200°C, avec basilic et huile d'olive, et betterave cuite à l'huile d'olive."
   },
   {
-    id: "1-boite-de-thon-sans-lhuile",
-    title: "1 boîte de thon sans l’huile",
-    emoji: "🐟",
-    cat: "poisson",
-    chef: "louloukitchen_",
-    chefName: "Lou Elsener",
-    time: "30min",
-    serves: "4 pers.",
-    difficulty: "Moyen",
-    image: "img/DcjDlVBtmEg.jpg",
-    link: "https://www.instagram.com/louloukitchen_/reel/DcjDlVBtmEg/",
-    linkType: "instagram",
-    veggie: false,
-    techniques: [],
-    ingredients: [
-      { qty: "2", name: "pains libanais", rayon: 'epicerie' },
-      { qty: "3 cas", name: "de Skyr ou fromage blanc", rayon: 'epicerie' },
-      { qty: "1", name: "boîte de thon sans l’huile", rayon: 'epicerie' },
-      { qty: "1", name: "quart de concombre", rayon: 'epicerie' },
-      { qty: "1", name: "demi oignon", rayon: 'epicerie' },
-      { qty: "QS", name: "Quelques feuilles de persil", rayon: 'epicerie' },
-      { qty: "1 cac", name: "de harissa", rayon: 'epicerie' },
-      { qty: "5", name: "tomates cerises", rayon: 'epicerie' },
-      { qty: "1 cac", name: "de paprika fumé mélangé à 3 cas d’huile d’olive", rayon: 'epicerie' },
+    "id": "1-boite-de-thon-sans-lhuile",
+    "title": "Wrap shawarma au thon, tzatziki & tomates confites",
+    "emoji": "🌯",
+    "cat": "plat",
+    "chef": "louloukitchen_",
+    "chefName": "Lou Elsener",
+    "time": "—",
+    "serves": "—",
+    "difficulty": "Facile",
+    "image": "img/DcjDlVBtmEg.jpg",
+    "link": "https://www.instagram.com/louloukitchen_/reel/DcjDlVBtmEg/",
+    "linkType": "instagram",
+    "veggie": false,
+    "techniques": [],
+    "ingredients": [
+      {
+        "qty": "2",
+        "name": "pains libanais",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 boîte",
+        "name": "thon au naturel (sans huile)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "3 c.s.",
+        "name": "skyr ou fromage blanc",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "1/4",
+        "name": "concombre",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1/2",
+        "name": "oignon",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "persil frais (quelques feuilles)",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "5",
+        "name": "tomates cerises",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1 c.c.",
+        "name": "harissa (facultatif)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 c.c.",
+        "name": "paprika fumé",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "3 c.s.",
+        "name": "huile d'olive",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1",
+        "name": "gousse d'ail râpée",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "jus de citron",
+        "rayon": "legumes"
+      }
     ],
-    steps: [
-      { text: "Alors pour la recette c'est super simple vous avez besoin d'un concombre qu'on va découper en deux il y a une partie qu'", detail: "" },
-      { text: "Là je vais mettre deux grosses cuillères à soupe de skire, je vais mettre du fromage blanc 0% j'en profite pour râper un", detail: "" },
-      { text: "Découpez mon oignon à la mandoline très important il vous faut du persil frais je vais ajouter le tout, le persil dans m", detail: "" },
-      { text: "Ajoutez du coup votre petite sauce concombre ton au milieu ensuite je rajoute un peu de harissa alors c'est optionnel ma", detail: "" },
+    "steps": [
+      {
+        "text": "Couper le concombre : une moitié en lamelles, l'autre râpée et pressée",
+        "detail": "Le concombre rend beaucoup d'eau : bien presser la partie râpée."
+      },
+      {
+        "text": "Mélanger skyr, concombre râpé, ail râpé, citron et persil",
+        "detail": ""
+      },
+      {
+        "text": "Ajouter le thon émietté à la fourchette et mélanger",
+        "detail": ""
+      },
+      {
+        "text": "Faire confire les tomates cerises à la poêle sans y toucher",
+        "detail": "Garder la poêle : elle servira à toaster le pain."
+      },
+      {
+        "text": "Émincer l'oignon finement et toaster les pains libanais",
+        "detail": "Mandoline ou couteau."
+      },
+      {
+        "text": "Garnir : sauce au thon, harissa, concombre, oignon, tomates",
+        "detail": ""
+      },
+      {
+        "text": "Arroser d'huile d'olive mélangée au paprika fumé",
+        "detail": "La touche indispensable."
+      }
     ],
-    tips: ''
+    "tips": "Pain libanais acheté chez un traiteur libanais, congelé, puis décongelé la veille."
   },
   {
     id: "une-recette-a-retenir-et-a-refaire-tellement",
