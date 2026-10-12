@@ -472,15 +472,15 @@ function showShop(recipeId) {
   recipe.ingredients.forEach(ing => {
     const rayon = ing.rayon || 'epicerie';
     if (!grouped[rayon]) grouped[rayon] = [];
-    grouped[rayon].push(ing);
+    grouped[rayon].push({ ...ing, idx: recipe.ingredients.indexOf(ing) });
   });
 
-  let bodyHtml = '';
+  let bodyHtml = '<div class="shop-hint">Touche ce que tu as déjà : le reste part dans la commande.</div>';
   RAYON_ORDER.forEach(rayon => {
     if (!grouped[rayon]) return;
     bodyHtml += `<div class="shop-rayon">${RAYON_LABELS[rayon] || rayon}</div>`;
     grouped[rayon].forEach((ing, i) => {
-      bodyHtml += `<div class="shop-item" onclick="window.app.toggleShopItem(this)">
+      bodyHtml += `<div class="shop-item" data-idx="${ing.idx}" onclick="window.app.toggleShopItem(this)">
         <div class="shop-item-dot"></div>
         <span class="shop-item-text">${ing.name}</span>
         <span class="shop-item-qty">${ing.qty}</span>
@@ -502,6 +502,7 @@ function showShop(recipeId) {
     </div>
     <div class="shop-body">
       ${bodyHtml}
+      <div class="shop-order" onclick="window.app.orderIngredients('${recipeId}')">🌿 Commander chez Bio c' Bon <span class="shop-order-sub">prompt pour Grok</span></div>
       <div class="shop-copy" onclick="window.app.copyShopList('${recipeId}')">📋 Copier la liste</div>
     </div>
   `;
@@ -525,6 +526,42 @@ function toggleShopItem(el) {
   el.classList.toggle('checked');
   const dot = el.querySelector('.shop-item-dot');
   dot.textContent = el.classList.contains('checked') ? '✓' : '';
+}
+
+// Prompt de commande pour un agent (Grok ou autre) à partir des ingrédients non cochés
+function buildOrderPrompt(recipe) {
+  const have = new Set([...document.querySelectorAll('.shop-modal .shop-item.checked')].map(el => +el.dataset.idx));
+  const items = recipe.ingredients.filter((_, i) => !have.has(i));
+  if (!items.length) return null;
+  const line = (ing) => {
+    const q = (ing.qty || '').trim();
+    if (!q || q === 'QS') return `- ${ing.name} (petit format)`;
+    if (q === 'à vérifier') return `- ${ing.name} (quantité non précisée : petit format)`;
+    return `- ${ing.name} : ${q}`;
+  };
+  const serves = recipe.serves && recipe.serves !== '—' ? ` (${recipe.serves})` : '';
+  return `Sur biocbon.fr, remplis mon panier pour la recette « ${recipe.title} »${serves}.\n\n` +
+    `Ingrédients à acheter :\n${items.map(line).join('\n')}\n\n` +
+    `Consignes :\n` +
+    `- Produits bio Bio c' Bon ; prends le format le plus proche au-dessus de la quantité demandée.\n` +
+    `- Si un produit manque, propose un équivalent et dis-le-moi.\n` +
+    `- Montre-moi le panier et le total AVANT de valider : ne passe pas la commande sans mon accord.`;
+}
+
+function orderIngredients(recipeId) {
+  const recipe = RECIPES.find(r => r.id === recipeId);
+  if (!recipe) return;
+  const prompt = buildOrderPrompt(recipe);
+  if (!prompt) { showToast('Tout est coché : rien à commander'); return; }
+  // Feuille de partage (iPhone : envoyer à Grok, WhatsApp…) ; sinon copie + ouverture de Grok
+  if (navigator.share) {
+    navigator.share({ title: `Courses — ${recipe.title}`, text: prompt }).catch(() => {});
+    return;
+  }
+  navigator.clipboard.writeText(prompt).finally(() => {
+    showToast('✅ Prompt copié — colle-le dans Grok');
+    window.open('https://grok.com/?q=' + encodeURIComponent(prompt), '_blank');
+  });
 }
 
 function copyShopList(recipeId) {
@@ -1058,7 +1095,7 @@ function deleteRecipe(id) {
 }
 
 window.app = {
-  search, filterTag,
+  search, orderIngredients, filterTag,
   nav, goBack, deleteRecipe, setView, showRecipe, showChef, filter, filterChef,
   checkIng, checkStep, toggleDetail, showAsk, closeAsk, showShop, closeShop,
   toggleShopItem, copyShopList,
