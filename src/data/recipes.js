@@ -17377,7 +17377,7 @@ const RECIPES = [
       }
     ],
     "tips": "Une assiette rapide tout sur une plaque ; la viande peut être remplacée par la protéine de votre choix.",
-    "shopping": []
+    "shopping": [{"product": "viande hachée de bœuf", "qty": "500 g", "estimate": true, "rayon": "boucherie", "pantry": false}, {"product": "chou-fleur", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "pois chiches cuits", "qty": "1 bocal 400 g", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "pain lavash ou pita", "qty": "4", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "yaourt nature", "qty": "2 pots (250 g)", "estimate": true, "rayon": "cremerie", "pantry": false}, {"product": "tahini (crème de sésame)", "qty": "1 pot 250 g", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "citron", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "paprika", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "zaatar", "qty": "1 sachet", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "sumac", "qty": "1 sachet", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "beurre (facultatif)", "qty": "50 g", "estimate": true, "rayon": "cremerie", "pantry": false}]
   },
   {
     "id": "recette-provencale",
@@ -17527,7 +17527,7 @@ const RECIPES = [
       }
     ],
     "tips": "Spécialité provençale proche de la bouillabaisse. Travailler la sauce à feu doux pour ne pas faire trancher l'aïoli.",
-    "shopping": []
+    "shopping": [{"product": "poisson blanc (filets)", "qty": "500 g", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "pommes de terre", "qty": "3 (≈ 450 g)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "carcasses de poisson ou têtes de crevettes", "qty": "500 g", "estimate": true, "rayon": "boucherie", "pantry": false}, {"product": "oignon", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "carotte", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "fenouil", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "poireau", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "ail", "qty": "1 tête", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "bouquet garni", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "vin blanc sec", "qty": "1 bouteille 75 cl", "estimate": true, "rayon": "boissons", "pantry": false}, {"product": "safran", "qty": "1 dose", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "huile d'olive", "qty": "25 cl", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "œuf", "qty": "1", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "le-principe",
@@ -17590,7 +17590,7 @@ const RECIPES = [
       }
     ],
     "tips": "Boisson : se boit allongé d'eau comme un sirop classique. Principe du koso japonais et du cheong coréen ; marche aussi avec melon, grenade, courge ou fleurs (lilas, coquelicot).",
-    "shopping": []
+    "shopping": [{"product": "citrons bio", "qty": "1 kg", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "sucre", "qty": "1 kg", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "cabillaud-au-lait-de-coco",
@@ -17702,7 +17702,7 @@ const RECIPES = [
       }
     ],
     "tips": "Servi avec du riz blanc.",
-    "shopping": []
+    "shopping": [{"product": "dos de cabillaud", "qty": "300 g", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "paprika", "qty": "1 c.c.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "oignon", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "piment frais", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "ail", "qty": "1 tête", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "bouillon cube de légumes", "qty": "1", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "gingembre en poudre", "qty": "1/2 c.c.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "lait de coco", "qty": "1 brique 20 cl", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "huile", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "persil plat", "qty": "1 bouquet", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "huile pimentée (chili oil)", "qty": "1 pot", "estimate": true, "rayon": "epicerie", "pantry": false}]
   },
   {
     "id": "les-magnifiques-crepes-au-jambon-en-version-maison",
@@ -17797,7 +17797,7 @@ const RECIPES = [
       }
     ],
     "tips": "Idéal pour recycler des crêpes qui restent.",
-    "shopping": []
+    "shopping": [{"product": "crêpes", "qty": "4", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "lait", "qty": "30 cl", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "beurre doux", "qty": "90 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "farine", "qty": "45 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "comté râpé", "qty": "150 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "dés de jambon", "qty": "250 g", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "frittata-mediterraneenne",
@@ -17900,7 +17900,7 @@ const RECIPES = [
       }
     ],
     "tips": "À servir tiède avec du pain croustillant et une salade.",
-    "shopping": []
+    "shopping": [{"product": "pousses d'épinards", "qty": "1 sachet 100 g", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "œufs", "qty": "6", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "champignons de Paris", "qty": "4 gros (≈ 250 g)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "tomates confites", "qty": "80 g", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "feta", "qty": "100 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "olives taggiasche dénoyautées", "qty": "80 g", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "crème liquide", "qty": "1 brique 20 cl", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "origan séché", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "mozzarella râpée", "qty": "30 g", "estimate": false, "rayon": "cremerie", "pantry": false}]
   },
   {
     "id": "poulet-au-citron-a-lail",
@@ -17994,7 +17994,7 @@ const RECIPES = [
       }
     ],
     "tips": "Un plat tout-en-un pour changer du poulet du dimanche.",
-    "shopping": []
+    "shopping": [{"product": "poulet découpé en morceaux", "qty": "1 (≈ 1,5 kg)", "estimate": true, "rayon": "boucherie", "pantry": false}, {"product": "pommes de terre à chair ferme", "qty": "1 kg", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "100 ml", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "ail", "qty": "1 tête", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "citrons", "qty": "2", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "moutarde de Dijon", "qty": "2 c.s.", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "origan séché", "qty": "1 c.s. et demie", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "lou-elsener-recette-DUVQfV",
@@ -18119,7 +18119,7 @@ const RECIPES = [
       }
     ],
     "tips": "Version maison de la soupe poireaux-Saint-Jacques du commerce. L'huile verte est optionnelle ; sans elle, n'utiliser que les blancs de poireaux.",
-    "shopping": []
+    "shopping": [{"product": "poireaux", "qty": "4", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "pommes de terre", "qty": "3", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "oignons", "qty": "2", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "ail", "qty": "2 gousses", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "fond de volaille", "qty": "2 c.s.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "crème fraîche épaisse d'Isigny", "qty": "1 pot 20 cl", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "noix de Saint-Jacques", "qty": "7", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "beurre", "qty": "50 g", "estimate": true, "rayon": "cremerie", "pantry": false}, {"product": "huile de pépins de raisin", "qty": "25 cl", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "sel de Guérande", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "croûtons", "qty": "1 sachet", "estimate": true, "rayon": "epicerie", "pantry": false}]
   },
   {
     "id": "ingredients-DT-LBo",
@@ -18251,7 +18251,7 @@ const RECIPES = [
       }
     ],
     "tips": "Servir chaud avec une petite salade verte. Recette de la cheffe Claire Grumellon (Lissit, Paris).",
-    "shopping": []
+    "shopping": [{"product": "boudin noir", "qty": "800 g", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "poires", "qty": "2,5 kg", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "farine", "qty": "200 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "beurre", "qty": "170 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "lait", "qty": "2,5 cl", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "œufs", "qty": "2", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "sucre", "qty": "200 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "sel", "qty": "20 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "fleur de sel", "qty": "1 pincée", "estimate": false, "rayon": "epicerie", "pantry": true}]
   },
   {
     id: "warm-bean-salad-and-harissa-baked-rice",
@@ -18379,7 +18379,7 @@ const RECIPES = [
       }
     ],
     "tips": "Le « hari chutney » d'Inde du Nord, recette de Beena Paradin : avec naans, samoussas, poulet tandoori ou une poêlée de légumes d'hiver.",
-    "shopping": []
+    "shopping": [{"product": "piment vert", "qty": "1 (≈ 10 g)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "coriandre fraîche", "qty": "2 bouquets (≈ 100 g)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "menthe fraîche", "qty": "2 bouquets (≈ 50 g de feuilles)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "graines de cumin", "qty": "1/2 c.c.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "graines de coriandre", "qty": "1/2 c.c.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "citron", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "sel", "qty": "1 c.c.", "estimate": false, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "ma-pomme-puree-au-beurre-noisette",
@@ -18473,7 +18473,7 @@ const RECIPES = [
       }
     ],
     "tips": "Muscade au choix. Pour les fêtes, une pointe de truffe noire râpée. Faire un puits au centre et y verser un jus de viande.",
-    "shopping": []
+    "shopping": [{"product": "pommes de terre (bintje, Mona Lisa…)", "qty": "1,2 kg", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "gros sel gris", "qty": "500 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "beurre demi-sel", "qty": "250 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "lait entier", "qty": "20 cl", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "sel", "qty": "1 pincée", "estimate": false, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "mousse-legere-aux-chocolats-et-clementine",
@@ -18595,7 +18595,7 @@ const RECIPES = [
       }
     ],
     "tips": "",
-    "shopping": []
+    "shopping": [{"product": "chocolat noir", "qty": "140 g", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "chocolat au lait", "qty": "40 g", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "lait entier", "qty": "10 cl", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "crème liquide entière (> 30 % MG)", "qty": "50 cl", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "sucre glace", "qty": "15 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "gousse de vanille", "qty": "1", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "yaourt grec", "qty": "50 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "clémentines", "qty": "6", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "crêpes dentelles enrobées de chocolat", "qty": "12", "estimate": false, "rayon": "epicerie", "pantry": false}]
   },
   {
     "id": "et-avec-ma-recette",
@@ -18692,7 +18692,7 @@ const RECIPES = [
       }
     ],
     "tips": "Version personnelle de Julie Andrieu : le lait d'amande n'est pas traditionnel mais rend le houmous plus suave. À servir à l'apéro avec des légumes croquants.",
-    "shopping": []
+    "shopping": [{"product": "pois chiches cuits", "qty": "1 bocal (350 g égouttés)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "ail", "qty": "1 gousse", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "tahini (crème de sésame)", "qty": "100 g", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "citrons", "qty": "2", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "lait d'amande", "qty": "20 cl", "estimate": false, "rayon": "boissons", "pantry": false}, {"product": "fleur de sel", "qty": "1/2 c.c.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "haricots verts", "qty": "200 g", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "edamame", "qty": "200 g", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "radis roses", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "olives", "qty": "1 pot 150 g", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "huile d'olive", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "comment-faire-un-bel",
@@ -18769,7 +18769,7 @@ const RECIPES = [
       }
     ],
     "tips": "Technique de base : à poser sur une salade, des toasts ou un plat de brunch.",
-    "shopping": []
+    "shopping": [{"product": "œuf", "qty": "1", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "vinaigre blanc", "qty": "1 c.s.", "estimate": false, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "si-jamais-vous-voulez-une-recette-simple",
@@ -18870,7 +18870,7 @@ const RECIPES = [
       }
     ],
     "tips": "Sauce apprise par Pierre Gagnaire en apprentissage. Se garde une semaine au frais, se congèle. Accompagne volaille rôtie, légumes, pâtes, gnocchis, ou froide avec de la charcuterie. Végétarienne si servie avec légumes et œuf.",
-    "shopping": []
+    "shopping": [{"product": "moutarde", "qty": "1 cuillère", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "concentré de tomate", "qty": "1 cuillère", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "vin blanc", "qty": "1 bouteille 75 cl (25 cl utilisés)", "estimate": false, "rayon": "boissons", "pantry": false}, {"product": "crème liquide", "qty": "25 cl", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "beurre", "qty": "50 g", "estimate": true, "rayon": "cremerie", "pantry": false}, {"product": "poivre blanc", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "champignons de Paris", "qty": "500 g", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "poireaux", "qty": "2", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "épinards", "qty": "500 g", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "chou-fleur", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "estragon", "qty": "1 bouquet", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "œufs", "qty": "6", "estimate": true, "rayon": "cremerie", "pantry": false}]
   },
   {
     "id": "recette-traditionnelle-francaise",
@@ -18999,7 +18999,7 @@ const RECIPES = [
       }
     ],
     "tips": "Fainéant ? L'ail peut passer au presse-ail.",
-    "shopping": []
+    "shopping": [{"product": "blancs de poulet", "qty": "2", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "pâte feuilletée", "qty": "1 rouleau", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "oignon", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "ail", "qty": "2 gousses", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "champignons", "qty": "300 g", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "piment d'Espelette", "qty": "1 c.c.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "vin blanc sec", "qty": "1 bouteille 75 cl", "estimate": true, "rayon": "boissons", "pantry": false}, {"product": "crème fraîche", "qty": "20 cl", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "comté râpé", "qty": "30 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "œuf", "qty": "1", "estimate": true, "rayon": "cremerie", "pantry": false}, {"product": "ciboulette", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "pulled-pork",
@@ -19119,7 +19119,7 @@ const RECIPES = [
       }
     ],
     "tips": "À servir avec des frites, des pommes de terre vapeur ou du riz.",
-    "shopping": []
+    "shopping": [{"product": "échine de porc (avec os)", "qty": "2,8 kg", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "oignons", "qty": "6", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "concentré de tomates", "qty": "1 petite boîte + 1 tube", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "paprika fumé", "qty": "1 c.s.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "paprika", "qty": "1 c.s.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "sauce soja", "qty": "1 c.s.", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "vinaigre balsamique", "qty": "2 c.s.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "cassonade", "qty": "2 c.s.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "sirop d'érable", "qty": "2 c.s.", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "ail semoule", "qty": "2 c.c.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "Tabasco", "qty": "1 flacon", "estimate": false, "rayon": "epicerie", "pantry": false}]
   },
   {
     "id": "france-inter-recette-DTR3Jn",
@@ -19214,7 +19214,7 @@ const RECIPES = [
       }
     ],
     "tips": "Recette de Nordine Labiadh (À Mi-Chemin, Paris 14e). L'audio dit 25 min de cuisson du sirop, la légende 20 min.",
-    "shopping": []
+    "shopping": [{"product": "pomelos", "qty": "3", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "poires", "qty": "3", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "citron vert bio", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "fleurs d'hibiscus séchées", "qty": "1 sachet (6 fleurs)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "anis étoilé (badiane)", "qty": "3 étoiles", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "sucre", "qty": "150 g", "estimate": false, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "france-inter-recette-DS3GC5",
@@ -19306,7 +19306,7 @@ const RECIPES = [
       }
     ],
     "tips": "Recette d'izakaya japonais (« yamitsuki »). Le secret est le bouillon cube qui apporte l'umami. Version végétarienne avec un bouillon de légumes.",
-    "shopping": []
+    "shopping": [{"product": "chou blanc", "qty": "1/2 (≈ 500 g)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "ail", "qty": "4 gousses", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "sel", "qty": "1 pincée", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "sucre roux", "qty": "1 c.c.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "huile de sésame toastée", "qty": "2 c.s.", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "vinaigre de riz", "qty": "2 c.s.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "bouillon cube de volaille ou de légumes bio", "qty": "1", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "graines de sésame", "qty": "2 c.s.", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "poivre", "qty": "QS", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "piment en poudre", "qty": "2 pincées", "estimate": false, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "la-recette",
@@ -19406,7 +19406,7 @@ const RECIPES = [
       }
     ],
     "tips": "Sans peser ni monter de blancs : le pot de yaourt sert de verre mesureur. Délicieux tout chauds avec un caviar d'algues.",
-    "shopping": []
+    "shopping": [{"product": "yaourts de brebis", "qty": "2 pots 125 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "farine de blé", "qty": "≈ 200 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "œufs", "qty": "2", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "levure chimique", "qty": "1 sachet", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "sel", "qty": "1 pincée", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "huile de tournesol", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "lait", "qty": "10 cl", "estimate": true, "rayon": "cremerie", "pantry": false}, {"product": "beurre", "qty": "20 g", "estimate": true, "rayon": "cremerie", "pantry": false}]
   },
   {
     "id": "une-aumonieres-aux-legumes-pour-une-recette-qui-po",
@@ -19530,7 +19530,7 @@ const RECIPES = [
       }
     ],
     "tips": "Se sert en plat végétarien ou en accompagnement d'une viande pour les fêtes.",
-    "shopping": []
+    "shopping": [{"product": "patates douces", "qty": "2 (≈ 600 g)", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "poireaux", "qty": "2", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "chanterelles ou champignons", "qty": "250 g", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "oignon", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "ail", "qty": "2 gousses", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "vin blanc sec", "qty": "1 bouteille 75 cl", "estimate": true, "rayon": "boissons", "pantry": false}, {"product": "courge butternut", "qty": "1 (≈ 1 kg)", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "feuilles de brick", "qty": "1 paquet (10 feuilles)", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "gingembre frais", "qty": "1 morceau (≈ 30 g)", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "curry en poudre", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "lait de coco", "qty": "1 brique 40 cl", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "persil plat", "qty": "1 bouquet", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "chapon-de-fete-ultra-fondant",
@@ -19641,7 +19641,7 @@ const RECIPES = [
       }
     ],
     "tips": "La vidéo dit « poulet » mais la légende parle de chapon : la recette marche pour les deux.",
-    "shopping": []
+    "shopping": [{"product": "chapon", "qty": "1 (≈ 3 kg)", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "gros sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "beurre", "qty": "250 g", "estimate": true, "rayon": "cremerie", "pantry": false}, {"product": "oranges", "qty": "2", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "romarin", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "persil plat", "qty": "1 bouquet", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "oignons", "qty": "3", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "ail", "qty": "1 tête", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "sirop d'érable", "qty": "1 bouteille 25 cl", "estimate": true, "rayon": "epicerie", "pantry": false}]
   },
   {
     "id": "france-inter-recette-DSt0BW",
@@ -19741,7 +19741,7 @@ const RECIPES = [
       }
     ],
     "tips": "Le sucre complet apporte des notes d'épices et de réglisse. La plaque de chocolat donne des éclats qui craquent sous la cuillère.",
-    "shopping": []
+    "shopping": [{"product": "chocolat noir 70 %", "qty": "400 g", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "chocolat au lait 40 %", "qty": "120 g", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "crème liquide", "qty": "25 cl", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "lait entier", "qty": "10 cl", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "sucre complet (muscovado)", "qty": "55 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "œufs", "qty": "9", "estimate": false, "rayon": "cremerie", "pantry": false}]
   },
   {
     "id": "le-buf-wellington-le-plat-pour-les-fetes-de-fin-da",
@@ -19850,7 +19850,7 @@ const RECIPES = [
       }
     ],
     "tips": "La recette complète est sur la chaîne YouTube du chef (Le Loft de Nono).",
-    "shopping": []
+    "shopping": [{"product": "filet de bœuf", "qty": "2 kg", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "jambon cru", "qty": "6 tranches", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "champignons de Paris", "qty": "1 kg", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "épinards frais", "qty": "600 g", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "échalotes", "qty": "2", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "crème liquide entière", "qty": "1 brique 20 cl", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "pâte feuilletée", "qty": "500 g (2 rouleaux)", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "moutarde de Dijon", "qty": "1 pot", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "œuf", "qty": "1", "estimate": true, "rayon": "cremerie", "pantry": false}]
   },
   {
     "id": "brut-recette",
@@ -19981,7 +19981,7 @@ const RECIPES = [
       }
     ],
     "tips": "Menu de Noël à moins de 10 € par personne. Tout peut se préparer à l'avance : il ne reste qu'à réchauffer au moment du service.",
-    "shopping": []
+    "shopping": [{"product": "noix de Saint-Jacques avec corail", "qty": "6", "estimate": true, "rayon": "boucherie", "pantry": false}, {"product": "courge butternut", "qty": "1/2", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "poire", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "oignons nouveaux", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "échalote", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "crème liquide", "qty": "20 cl", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "beurre", "qty": "50 g", "estimate": true, "rayon": "cremerie", "pantry": false}, {"product": "huile d'olive", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "huile de pépins de raisin", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "vin blanc sec", "qty": "1 bouteille 75 cl", "estimate": true, "rayon": "boissons", "pantry": false}, {"product": "sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "fleur de sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "une-recette-aux-accents-alsaciens-concoctee-dans-m",
@@ -20165,7 +20165,7 @@ const RECIPES = [
       }
     ],
     "tips": "Trois préparations en une : magret sauce orange, salade de betteraves et oranges, chou rouge confit aux pommes (recette alsacienne). La vidéo donne d'autres quantités que la légende pour la sauce (3 c.c. de miel, 2 c.c. de soja, 2 badianes) et 60 g de gelée de cassis : on a gardé la légende.",
-    "shopping": []
+    "shopping": [{"product": "magrets de canard", "qty": "3", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "jus d'orange", "qty": "30 cl", "estimate": false, "rayon": "boissons", "pantry": false}, {"product": "miel", "qty": "2 c.s.", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "sauce soja", "qty": "1 c.s.", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "anis étoilé (badiane)", "qty": "3 étoiles", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "gingembre en poudre", "qty": "1 c.c.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "oranges", "qty": "3", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "betteraves", "qty": "4", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "vinaigre de vin blanc", "qty": "2 c.c.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "huile d'olive", "qty": "3 c.s.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "eau de fleur d'oranger", "qty": "1 c.s. et demie", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "chou rouge", "qty": "1 (≈ 800 g)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "beurre", "qty": "30 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "pommes", "qty": "2", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "oignons rouges", "qty": "2", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "gelée de cassis", "qty": "80 g", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "vinaigre de vin rouge", "qty": "10 cl", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "vin rouge", "qty": "1 bouteille 75 cl (30 cl utilisés)", "estimate": false, "rayon": "boissons", "pantry": false}, {"product": "clous de girofle", "qty": "2", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "bâton de cannelle", "qty": "1", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "bouillon cube de volaille", "qty": "1 (pour 50 cl)", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "calendrier-des-recettes",
