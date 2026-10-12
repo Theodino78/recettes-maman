@@ -1,6 +1,6 @@
 // August — file d'import (Vercel Blob privé)
 // POST /api/inbox  { url, app }        → met le lien en file : inbox/<app>/<code>.json
-// GET  /api/inbox?codes=a,b            → statut de chaque lien : pending | done | failed
+// GET  /api/inbox?app=x&codes=a,b      → statut de chaque lien : pending | done | failed
 // Le Mac (august-import) dépile la file, rédige la fiche, déploie, puis écrit done/<code>.json.
 import { put, head } from '@vercel/blob';
 
@@ -37,7 +37,7 @@ export default async function handler(req, res) {
     if (!APPS.includes(app)) return res.status(400).json({ error: 'app inconnue' });
     if (!ALLOWED.test(url) || url.length > 300) return res.status(400).json({ error: 'Colle un lien Instagram, TikTok ou YouTube' });
     const code = codeOf(url) || Buffer.from(url).toString('base64url').slice(-16);
-    const done = await readJson(`done/${code}.json`);
+    const done = await readJson(`done/${app}/${code}.json`);
     if (done) return res.status(200).json({ code, ...done });
     await put(`inbox/${app}/${code}.json`, JSON.stringify({ url, app, code, at: new Date().toISOString() }), {
       access: 'private', contentType: 'application/json', addRandomSuffix: false, allowOverwrite: true,
@@ -46,9 +46,10 @@ export default async function handler(req, res) {
   }
 
   if (req.method === 'GET') {
+    const app = APPS.includes(req.query.app) ? req.query.app : 'maman';
     const codes = String(req.query.codes || '').split(',').filter(Boolean).slice(0, 20);
     const out = {};
-    for (const code of codes) out[code] = (await readJson(`done/${code}.json`)) || { status: 'pending' };
+    for (const code of codes) out[code] = (await readJson(`done/${app}/${code}.json`)) || { status: 'pending' };
     return res.status(200).json(out);
   }
 

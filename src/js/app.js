@@ -151,7 +151,7 @@ async function refreshImports() {
   const pending = getImports().filter(it => it.status !== 'done' && it.status !== 'failed');
   if (!pending.length) return;
   try {
-    const r = await fetch(`${INBOX_API}?codes=${pending.map(p => p.code).join(',')}`);
+    const r = await fetch(`${INBOX_API}?app=${APP_KEY}&codes=${pending.map(p => p.code).join(',')}`);
     const st = await r.json();
     saveImports(getImports().map(it => st[it.code] ? { ...it, ...st[it.code] } : it));
     renderImports();
