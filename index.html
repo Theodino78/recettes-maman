@@ -19,7 +19,7 @@
 
 <!-- Pages -->
 <div class="page active" id="page-home">
-  <div class="header"><h1><span>Recettes Maman</span></h1></div>
+  <div class="header"><h1><span>Recettes Maman</span></h1><button class="add-btn" onclick="window.app.openAdd()" aria-label="Ajouter une recette">＋</button></div>
   <div class="search-bar">
     <span class="search-icon">⌕</span>
     <input id="home-search" type="search" inputmode="search" autocomplete="off"
@@ -85,8 +85,6 @@
 <nav class="bottom-nav">
   <button class="nav-btn active" data-page="home"><span>🏠</span>Accueil</button>
   <button class="nav-btn" data-page="chefs"><span>👨‍🍳</span>Chefs</button>
-  <button class="nav-btn" data-page="skills"><span>⚡</span>Skills</button>
-  <button class="nav-btn" data-page="profil"><span>👤</span>Profil</button>
 </nav>
 
 <script type="module" src="src/js/app.js"></script>

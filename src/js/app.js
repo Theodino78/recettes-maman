@@ -73,6 +73,92 @@ function updateBottomNav(page) {
 // Recipe Rendering
 // ============================================
 
+
+// ============================================
+// Ajouter une recette : lien Instagram / TikTok / YouTube → file d'import → fiche
+// ============================================
+const APP_KEY = location.hostname.includes('maman') || location.port === '8766' ? 'maman' : 'pwa';
+const INBOX_API = 'https://august-maman.vercel.app/api/inbox';
+const getImports = () => { try { return JSON.parse(localStorage.getItem('august-imports') || '[]'); } catch { return []; } };
+const saveImports = (list) => { try { localStorage.setItem('august-imports', JSON.stringify(list.slice(0, 30))); } catch {} };
+let importTimer = null;
+
+function openAdd(prefill = '') {
+  document.querySelectorAll('.add-overlay, .add-modal').forEach(el => el.remove());
+  const overlay = document.createElement('div');
+  overlay.className = 'shop-overlay add-overlay';
+  overlay.onclick = closeAdd;
+  const modal = document.createElement('div');
+  modal.className = 'shop-modal add-modal';
+  modal.innerHTML = `
+    <div class="shop-header">
+      <span class="shop-header-title">➕ Ajouter une recette</span>
+      <button class="shop-close" onclick="window.app.closeAdd()">✕</button>
+    </div>
+    <div class="shop-body">
+      <div class="add-hint">Colle le lien d'un reel Instagram, d'une vidéo TikTok ou YouTube. La fiche (ingrédients, étapes, temps) arrive dans l'app une fois traitée.</div>
+      <div class="add-row">
+        <input id="add-url" type="url" inputmode="url" autocomplete="off" placeholder="https://www.instagram.com/reel/…" value="${escapeAttr(prefill)}">
+        <button class="add-paste" onclick="window.app.pasteAdd()">Coller</button>
+      </div>
+      <div class="shop-order" onclick="window.app.submitAdd()">Ajouter à ${APP_KEY === 'maman' ? 'Recettes Maman' : 'August'}</div>
+      <div id="add-list"></div>
+    </div>`;
+  document.body.appendChild(overlay);
+  document.body.appendChild(modal);
+  requestAnimationFrame(() => { overlay.classList.add('open'); modal.classList.add('open'); });
+  renderImports();
+  refreshImports();
+}
+function closeAdd() {
+  document.querySelectorAll('.add-overlay, .add-modal').forEach(el => { el.classList.remove('open'); setTimeout(() => el.remove(), 300); });
+}
+async function pasteAdd() {
+  try { document.getElementById('add-url').value = (await navigator.clipboard.readText()).trim(); }
+  catch { showToast('Appuie longuement dans le champ puis « Coller »'); }
+}
+async function submitAdd() {
+  const input = document.getElementById('add-url');
+  const url = (input.value.match(/https?:\/\/\S+/) || [''])[0];
+  if (!url) { showToast('Colle un lien Instagram, TikTok ou YouTube'); return; }
+  try {
+    const r = await fetch(INBOX_API, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ url, app: APP_KEY }) });
+    const data = await r.json();
+    if (!r.ok) { showToast('❌ ' + (data.error || 'Lien refusé')); return; }
+    const list = getImports().filter(x => x.code !== data.code);
+    list.unshift({ code: data.code, url, at: Date.now(), ...data });
+    saveImports(list);
+    input.value = '';
+    showToast(data.status === 'done' ? '✅ Déjà traitée' : '📥 Envoyée — la fiche arrive bientôt');
+    renderImports();
+  } catch { showToast('❌ Pas de connexion'); }
+}
+function renderImports() {
+  const box = document.getElementById('add-list');
+  if (!box) return;
+  const list = getImports();
+  if (!list.length) { box.innerHTML = ''; return; }
+  box.innerHTML = '<div class="shop-rayon">Mes imports</div>' + list.map(it => {
+    const label = it.title || it.url.replace(/^https?:\/\/(www\.)?/, '').slice(0, 42) + '…';
+    const status = it.status === 'done'
+      ? (RECIPES.some(r => r.id === it.id) ? `<button class="add-open" onclick="window.app.openImported('${it.id}')">Ouvrir</button>` : `<button class="add-open" onclick="location.href='./?open=${it.id || ''}'">Recharger</button>`)
+      : it.status === 'failed' ? `<span class="add-status failed" title="${escapeAttr(it.reason || '')}">Échec</span>`
+      : '<span class="add-status">En cours…</span>';
+    return `<div class="add-item"><span class="add-item-label">${escapeHtml(label)}</span>${status}</div>`;
+  }).join('') + (list.some(it => it.status === 'failed') ? '<div class="add-hint">Échec : le post est privé, supprimé, ou ne contient pas de recette.</div>' : '');
+}
+async function refreshImports() {
+  const pending = getImports().filter(it => it.status !== 'done' && it.status !== 'failed');
+  if (!pending.length) return;
+  try {
+    const r = await fetch(`${INBOX_API}?codes=${pending.map(p => p.code).join(',')}`);
+    const st = await r.json();
+    saveImports(getImports().map(it => st[it.code] ? { ...it, ...st[it.code] } : it));
+    renderImports();
+  } catch {}
+}
+function openImported(id) { closeAdd(); showRecipe(id); }
+
 // Nombre de convives : base = « N pers. » de la recette, sinon 4
 const servingsState = {};
 const baseServings = (recipe) => { const m = String(recipe.serves || '').match(/(\d+)/); return m ? +m[1] : 4; };
@@ -1197,6 +1283,12 @@ function init() {
   
   updateBottomNav('home');
   setHomeMode('cats');
+  const params = new URLSearchParams(location.search);
+  if (params.get('add')) openAdd(params.get('add'));
+  if (params.get('open') && RECIPES.some(r => r.id === params.get('open'))) showRecipe(params.get('open'));
+  if (params.has('add') || params.has('open')) history.replaceState(null, '', location.pathname);
+  refreshImports();
+  importTimer = setInterval(refreshImports, 30000);
 }
 
 // Export for inline handlers
@@ -1244,7 +1336,7 @@ function deleteRecipe(id) {
 }
 
 window.app = {
-  search, setServings, openHomeCat, backToCats, toggleFav, orderIngredients, filterTag,
+  search, openAdd, closeAdd, pasteAdd, submitAdd, openImported, setServings, openHomeCat, backToCats, toggleFav, orderIngredients, filterTag,
   nav, goBack, deleteRecipe, setView, showRecipe, showChef, filter, filterChef,
   checkIng, checkStep, toggleDetail, showAsk, closeAsk, showShop, closeShop,
   toggleShopItem, copyShopList,
