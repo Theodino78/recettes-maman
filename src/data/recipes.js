@@ -2243,7 +2243,7 @@ const RECIPES = [
     image: "img/DZCUuoSsA6t.jpg",
     link: "https://www.instagram.com/kitchenfactoryprod/reel/DZCUuoSsA6t/",
     linkType: "instagram",
-    veggie: true,
+    veggie: false,
     techniques: [],
     ingredients: [
       { qty: "350 g", name: "de riz Arborio,", rayon: 'epicerie' },
@@ -2289,7 +2289,7 @@ const RECIPES = [
     image: "img/DYSHmz7hmjL.jpg",
     link: "https://www.instagram.com/mamy.etjordan/reel/DYSHmz7hmjL/",
     linkType: "instagram",
-    veggie: true,
+    veggie: false,
     techniques: [],
     ingredients: [
       { qty: "50cl", name: "de crème semi épaisse", rayon: 'epicerie' },
@@ -5821,7 +5821,7 @@ const RECIPES = [
     image: "img/DUVQfV3jTeI.jpg",
     link: "https://www.instagram.com/louloukitchen_/reel/DUVQfV3jTeI/",
     linkType: "instagram",
-    veggie: true,
+    veggie: false,
     techniques: [],
     ingredients: [
       { qty: "4", name: "poireaux ou blancs de poireaux si vous voulez pas faire l’huile", rayon: 'epicerie' },
@@ -6655,7 +6655,7 @@ const RECIPES = [
     image: "img/DSFIrWnEkyq.jpg",
     link: "https://www.instagram.com/julieandrieu.officiel/reel/DSFIrWnEkyq/",
     linkType: "instagram",
-    veggie: true,
+    veggie: false,
     techniques: [],
     ingredients: [
       { qty: "1", name: "potimarron de 2 kg", rayon: 'epicerie' },
@@ -6954,7 +6954,7 @@ const RECIPES = [
     image: "img/DRwZIhoDR-V.jpg",
     link: "https://www.instagram.com/whoogys/reel/DRwZIhoDR-V/",
     linkType: "instagram",
-    veggie: true,
+    veggie: false,
     techniques: [],
     ingredients: [
       { qty: "4", name: "grosses noix de saint-jacques avec leur coquille", rayon: 'epicerie' },
@@ -7163,7 +7163,7 @@ const RECIPES = [
     image: "img/DRHPuVxDCOC.jpg",
     link: "https://www.instagram.com/lepointfr/reel/DRHPuVxDCOC/",
     linkType: "instagram",
-    veggie: true,
+    veggie: false,
     techniques: [],
     ingredients: [
       { qty: "5", name: "coquilles saint-jacques", rayon: 'epicerie' },
@@ -10202,7 +10202,7 @@ const RECIPES = [
     image: "img/C7bCt1YpVsm.jpg",
     link: "https://www.instagram.com/lagostinafrance/reel/C7bCt1YpVsm/",
     linkType: "instagram",
-    veggie: true,
+    veggie: false,
     techniques: [],
     ingredients: [
       { qty: "500ml", name: "de crème fraîche liquide entière", rayon: 'epicerie' },
@@ -10850,7 +10850,7 @@ const RECIPES = [
     image: "img/DHOkQOnTmkX.jpg",
     link: "https://www.instagram.com/dr.jimmy.mohamed/reel/DHOkQOnTmkX/",
     linkType: "instagram",
-    veggie: true,
+    veggie: false,
     techniques: [],
     ingredients: [
       { qty: "QS", name: "Lait 25cl", rayon: 'epicerie' },
@@ -10887,7 +10887,7 @@ const RECIPES = [
     image: "img/DHL_dgZx3Sk.jpg",
     link: "https://www.instagram.com/franceinter/reel/DHL_dgZx3Sk/",
     linkType: "instagram",
-    veggie: true,
+    veggie: false,
     techniques: [],
     ingredients: [
       { qty: "1", name: "chou blanc (500 g) ⁠", rayon: 'epicerie' },
@@ -11966,7 +11966,7 @@ const RECIPES = [
     image: "img/DDmEo1CupmR.jpg",
     link: "https://www.instagram.com/lepointfr/reel/DDmEo1CupmR/",
     linkType: "instagram",
-    veggie: true,
+    veggie: false,
     techniques: [],
     ingredients: [
       { qty: "1", name: "lobe de foie gras d’env. 500 g.", rayon: 'epicerie' },
@@ -12002,7 +12002,7 @@ const RECIPES = [
     image: "img/DDmLzGJoKCp.jpg",
     link: "https://www.instagram.com/tarayrenorbert/reel/DDmLzGJoKCp/",
     linkType: "instagram",
-    veggie: true,
+    veggie: false,
     techniques: [],
     ingredients: [
       { qty: "QS", name: "Lobe de Foie gras", rayon: 'epicerie' },
@@ -12203,7 +12203,7 @@ const RECIPES = [
     image: "img/DDNWmyJJ1lR.jpg",
     link: "https://www.instagram.com/cuisineactuelle/reel/DDNWmyJJ1lR/",
     linkType: "instagram",
-    veggie: true,
+    veggie: false,
     techniques: [],
     ingredients: [
       { qty: "800g", name: "de foie gras cru", rayon: 'epicerie' },
@@ -14551,7 +14551,7 @@ const RECIPES = [
     image: "img/C-zgd99M4DP.jpg",
     link: "https://www.instagram.com/cyrillignac/reel/C-zgd99M4DP/",
     linkType: "instagram",
-    veggie: true,
+    veggie: false,
     techniques: [],
     ingredients: [
       { qty: "600 g", name: "d’encornets nettoyés et entiers", rayon: 'epicerie' },
@@ -14590,7 +14590,7 @@ const RECIPES = [
     image: "img/C-pJw-TMJoh.jpg",
     link: "https://www.instagram.com/cyrillignac/reel/C-pJw-TMJoh/",
     linkType: "instagram",
-    veggie: true,
+    veggie: false,
     techniques: [],
     ingredients: [
       { qty: "200 g", name: "de fraises fraîches + 450 g pour la mousse de fraises", rayon: 'epicerie' },
@@ -15918,7 +15918,7 @@ const RECIPES = [
     image: "img/C1ALZXdK58T.jpg",
     link: "https://www.instagram.com/labande___/reel/C1ALZXdK58T/",
     linkType: "instagram",
-    veggie: true,
+    veggie: false,
     techniques: [],
     ingredients: [
       { qty: "QS", name: "Ramollissez 1 feuille de gélatine dans un bol d’eau froide 1", rayon: 'epicerie' },
@@ -17747,7 +17747,7 @@ const RECIPES = [
     image: "img/CtWF6R3AAie.jpg",
     link: "https://www.instagram.com/cyrillignac/reel/CtWF6R3AAie/",
     linkType: "instagram",
-    veggie: true,
+    veggie: false,
     techniques: [],
     ingredients: [
       { qty: "400 g", name: "de ricotta", rayon: 'epicerie' },
