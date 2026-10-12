@@ -469,10 +469,10 @@ function showShop(recipeId) {
 
   // Group ingredients by rayon
   const grouped = {};
-  recipe.ingredients.forEach(ing => {
+  shopItems(recipe).forEach((ing, idx) => {
     const rayon = ing.rayon || 'epicerie';
     if (!grouped[rayon]) grouped[rayon] = [];
-    grouped[rayon].push({ ...ing, idx: recipe.ingredients.indexOf(ing) });
+    grouped[rayon].push({ ...ing, idx });
   });
 
   let bodyHtml = '<div class="shop-hint">Touche ce que tu as déjà : le reste part dans la commande.</div>';
@@ -480,8 +480,8 @@ function showShop(recipeId) {
     if (!grouped[rayon]) return;
     bodyHtml += `<div class="shop-rayon">${RAYON_LABELS[rayon] || rayon}</div>`;
     grouped[rayon].forEach((ing, i) => {
-      bodyHtml += `<div class="shop-item" data-idx="${ing.idx}" onclick="window.app.toggleShopItem(this)">
-        <div class="shop-item-dot"></div>
+      bodyHtml += `<div class="shop-item${ing.pantry ? ' checked' : ''}" data-idx="${ing.idx}" onclick="window.app.toggleShopItem(this)">
+        <div class="shop-item-dot">${ing.pantry ? '✓' : ''}</div>
         <span class="shop-item-text">${ing.name}</span>
         <span class="shop-item-qty">${ing.qty}</span>
       </div>`;
@@ -502,7 +502,7 @@ function showShop(recipeId) {
     </div>
     <div class="shop-body">
       ${bodyHtml}
-      <div class="shop-order" onclick="window.app.orderIngredients('${recipeId}')">🌿 Commander chez Bio c' Bon <span class="shop-order-sub">prompt pour Grok</span></div>
+      <div class="shop-order" onclick="window.app.orderIngredients('${recipeId}')">🌿 Commander chez Biocoop <span class="shop-order-sub">prompt pour Grok</span></div>
       <div class="shop-copy" onclick="window.app.copyShopList('${recipeId}')">📋 Copier la liste</div>
     </div>
   `;
@@ -529,22 +529,36 @@ function toggleShopItem(el) {
 }
 
 // Prompt de commande pour un agent (Grok ou autre) à partir des ingrédients non cochés
+// Nom de produit à acheter : sans la préparation (« aubergines en tranches, précuites » → « aubergines »)
+const PREP_WORDS = /\s+(en (tranches?|rondelles|brunoise|cubes?|dés|lamelles|quartiers|morceaux|julienne|bâtonnets|poudre fine)|émincée?s?|hachée?s?|râpée?s?|ciselée?s?|pelée?s?|coupée?s?|tranchée?s?|précuite?s?|cuite?s?|égouttée?s?|rincée?s?|refroidie?s?|fondue?s?|tiède|froide?s?|mou|ramollie?|battue?s?|pressée?s?|zestée?s?|lavée?s?|dénoyautée?s?|équeutée?s?|snackée?s?|grillée?s?|torréfiée?s?)\b.*$/i;
+function shopName(name) {
+  let n = (name || '').replace(/\s*\([^)]*\)/g, '').split(/,|;| pour (la|le|les|l')\b/)[0];
+  n = n.replace(PREP_WORDS, '').replace(/^(de |d'|du |des )/i, '').trim();
+  return n || name;
+}
+
+// Ce qu'on achète : la liste d'achat de la fiche si elle existe, sinon les ingrédients nettoyés
+function shopItems(recipe) {
+  if (recipe.shopping && recipe.shopping.length) {
+    return recipe.shopping.map(it => ({ name: it.product, qty: (it.estimate && !String(it.qty).includes('≈') ? '≈ ' : '') + it.qty, rayon: it.rayon, pantry: it.pantry, estimate: it.estimate }));
+  }
+  return recipe.ingredients.map(ing => ({ name: shopName(ing.name), qty: ing.qty, rayon: ing.rayon }));
+}
+
 function buildOrderPrompt(recipe) {
-  const have = new Set([...document.querySelectorAll('.shop-modal .shop-item.checked')].map(el => +el.dataset.idx));
-  const items = recipe.ingredients.filter((_, i) => !have.has(i));
+  const modal = [...document.querySelectorAll('.shop-modal')].pop(); // la fenêtre la plus récente
+  const have = new Set(modal ? [...modal.querySelectorAll('.shop-item.checked')].map(el => +el.dataset.idx) : []);
+  const items = shopItems(recipe).filter((_, i) => !have.has(i));
   if (!items.length) return null;
-  const line = (ing) => {
-    const q = (ing.qty || '').trim();
-    if (!q || q === 'QS') return `- ${ing.name} (petit format)`;
-    if (q === 'à vérifier') return `- ${ing.name} (quantité non précisée : petit format)`;
-    return `- ${ing.name} : ${q}`;
-  };
-  const serves = recipe.serves && recipe.serves !== '—' ? ` (${recipe.serves})` : '';
-  return `Sur biocbon.fr, remplis mon panier pour la recette « ${recipe.title} »${serves}.\n\n` +
-    `Ingrédients à acheter :\n${items.map(line).join('\n')}\n\n` +
+  const known = (q) => q && q !== 'QS' && q !== 'à vérifier';
+  const line = (it) => `- ${it.name} : ${known((it.qty || '').trim()) ? it.qty : 'quantité à estimer'}`;
+  const serves = recipe.serves && recipe.serves !== '—' ? recipe.serves : '4 pers. (par défaut)';
+  return `Sur biocoop.fr, remplis mon panier pour la recette « ${recipe.title} », pour ${serves}.\n\n` +
+    `Produits à acheter :\n${items.map(line).join('\n')}\n\n` +
     `Consignes :\n` +
-    `- Produits bio Bio c' Bon ; prends le format le plus proche au-dessus de la quantité demandée.\n` +
-    `- Si un produit manque, propose un équivalent et dis-le-moi.\n` +
+    `- Produits Biocoop ; prends le format le plus proche au-dessus de la quantité demandée.\n` +
+    `- « ≈ » = quantité estimée ; « quantité à estimer » = choisis une quantité raisonnable pour ce nombre de personnes et liste tes hypothèses.\n` +
+    `- Si un produit manque, propose l'équivalent le plus proche et dis-le-moi.\n` +
     `- Montre-moi le panier et le total AVANT de valider : ne passe pas la commande sans mon accord.`;
 }
 

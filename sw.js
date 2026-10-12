@@ -1,5 +1,5 @@
 // August PWA — Service Worker for offline caching
-const CACHE_NAME = 'maman-v34';
+const CACHE_NAME = 'maman-v35';
 const ASSETS = [
   '/',
   '/index.html',
