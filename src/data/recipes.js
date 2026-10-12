@@ -161,7 +161,8 @@ const RECIPES = [
         "detail": "Saler, poivrer et napper du jus de cuisson."
       }
     ],
-    "tips": "La prune Lovita (fin août à novembre) reste ferme et acidulée à la cuisson. Pas de 5 épices au supermarché ? Le faire soi-même."
+    "tips": "La prune Lovita (fin août à novembre) reste ferme et acidulée à la cuisson. Pas de 5 épices au supermarché ? Le faire soi-même.",
+    "shopping": [{"product": "filets mignons de porc", "qty": "2 (≈ 800 g)", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "prunes Lovita", "qty": "1 kg", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "citronnelle fraîche", "qty": "6 tiges (≈ 80 g)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "sauce soja", "qty": "5 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "sirop d'érable", "qty": "3 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "huile d'arachide", "qty": "4 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "vinaigre de riz", "qty": "7 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "ail", "qty": "2 gousses", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "beurre", "qty": "30 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "citron", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "anis vert", "qty": "1 c. à café", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "clous de girofle", "qty": "2", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "graines de fenouil", "qty": "1 c. à café", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "graines de coriandre", "qty": "1 c. à café", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "badiane (anis étoilé)", "qty": "1 étoile", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "poivre de Sichuan", "qty": "1 c. à café", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "cannelle en poudre", "qty": "1/2 c. à café", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "gateaux-myrtilles-vanille-huile-d",
@@ -286,7 +287,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Un gâteau de grand-mère : on peut faire un peu à l'œil. Dernière touche indispensable : le filet d'huile d'olive."
+    "tips": "Un gâteau de grand-mère : on peut faire un peu à l'œil. Dernière touche indispensable : le filet d'huile d'olive.",
+    "shopping": [{"product": "farine", "qty": "250 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "œufs", "qty": "3", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "yaourts à la vanille", "qty": "2 pots", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "sucre vanillé", "qty": "1 sachet", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "cassonade", "qty": "115 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "levure chimique", "qty": "1 sachet", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "huile d'olive", "qty": "10 cl + 1 filet", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "mascarpone", "qty": "200 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "extrait de vanille", "qty": "1 c. à café", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "myrtilles", "qty": "150 g", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "framboises", "qty": "100 g", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "groseilles", "qty": "1 barquette (≈ 125 g)", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "miel", "qty": "1 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": false}]
   },
   {
     "id": "ma-recette-reconfortante-avec",
@@ -422,7 +424,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Le muhammara (dip de poivron grillé aux noix) sur le houmous fait toute la différence."
+    "tips": "Le muhammara (dip de poivron grillé aux noix) sur le houmous fait toute la différence.",
+    "shopping": [{"product": "cuisses de poulet", "qty": "4", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "beurre à l'ail des ours", "qty": "1 plaquette (≈ 125 g)", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "paprika fumé", "qty": "1 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "origan séché", "qty": "1 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "ail en poudre", "qty": "1 c. à café", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "huile d'olive", "qty": "4 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "carottes", "qty": "3", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "aubergine", "qty": "1 grosse", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "miel", "qty": "1 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "pois chiches secs", "qty": "150 g", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "tahine (crème de sésame)", "qty": "2 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "ail", "qty": "1 gousse", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "citron", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "cumin en poudre", "qty": "1 c. à café", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "muhammara (facultatif)", "qty": "1 pot (≈ 150 g)", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "coriandre fraîche", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}]
   },
   {
     "id": "70-g-de-sucre-glace",
@@ -477,7 +480,8 @@ const RECIPES = [
         "detail": "Ce sorbet ne se recongèle pas. Servir avec une petite salade de fraises."
       }
     ],
-    "tips": "Marche avec presque tous les fruits qui se congèlent. On peut ajouter une herbe aromatique (estragon, basilic)."
+    "tips": "Marche avec presque tous les fruits qui se congèlent. On peut ajouter une herbe aromatique (estragon, basilic).",
+    "shopping": [{"product": "fraises", "qty": "450 g (400 g équeutées)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "sucre glace", "qty": "70 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "œufs", "qty": "2", "estimate": false, "rayon": "cremerie", "pantry": false}]
   },
   {
     "id": "depuis-ma-normandie",
@@ -565,7 +569,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Une tarte de fin d'été, retour de cueillette."
+    "tips": "Une tarte de fin d'été, retour de cueillette.",
+    "shopping": [{"product": "beurre", "qty": "110 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "farine T55", "qty": "185 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "cassonade", "qty": "50 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "poudre d'amande", "qty": "35 g", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "œuf", "qty": "1", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "fleur de sel", "qty": "1 pincée", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "mûres", "qty": "500 g", "estimate": true, "rayon": "legumes", "pantry": false}]
   },
   {
     "id": "le-tiramisu-de-la-cheffe-version-xxl",
@@ -645,7 +650,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Cacao sucré plutôt qu'amer : le choix de la cheffe, assumé."
+    "tips": "Cacao sucré plutôt qu'amer : le choix de la cheffe, assumé.",
+    "shopping": [{"product": "mascarpone", "qty": "500 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "œufs", "qty": "4", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "sucre", "qty": "100 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "café", "qty": "30 cl", "estimate": true, "rayon": "boissons", "pantry": false}, {"product": "biscuits cuillère", "qty": "1 paquet (≈ 300 g)", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "cacao en poudre sucré", "qty": "2 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": false}]
   },
   {
     "id": "dans-ce-gateau-ultra-simple",
@@ -738,7 +744,8 @@ const RECIPES = [
         "detail": "Four préchauffé, jusqu'à ce que le clafoutis soit bien doré."
       }
     ],
-    "tips": "La version été du clafoutis : la mirabelle à la place de la cerise. Pas trop sucré, parfait pour le goûter."
+    "tips": "La version été du clafoutis : la mirabelle à la place de la cerise. Pas trop sucré, parfait pour le goûter.",
+    "shopping": [{"product": "sucre glace", "qty": "160 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "poudre d'amande", "qty": "35 g", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "farine", "qty": "50 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "œufs", "qty": "3", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "crème liquide entière 35 %", "qty": "50 cl", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "gousse de vanille", "qty": "1", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "mirabelles", "qty": "600 g (500 g dénoyautées)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "beurre", "qty": "10 g", "estimate": true, "rayon": "cremerie", "pantry": false}]
   },
   {
     "id": "monelle-godaert-recette",
@@ -865,7 +872,8 @@ const RECIPES = [
         "detail": "Servir en petits bols, bien frais."
       }
     ],
-    "tips": "Prête en 15 à 20 minutes. Une sauce soja sans colorant, et un citron vert entier si on aime acidulé."
+    "tips": "Prête en 15 à 20 minutes. Une sauce soja sans colorant, et un citron vert entier si on aime acidulé.",
+    "shopping": [{"product": "blancs de poulet", "qty": "2", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "vermicelles de riz", "qty": "200 g", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "carotte", "qty": "1 grosse", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "concombre", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "avocat", "qty": "1 gros", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "coriandre fraîche", "qty": "1 botte", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "cacahuètes", "qty": "100 g", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "piment frais", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "graines de sésame", "qty": "1 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "sauce soja", "qty": "3 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "huile de sésame grillé", "qty": "1 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "vinaigre de riz", "qty": "2 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "miel (facultatif)", "qty": "1 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "citron vert", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "des-recettes-directement-du-potager-a-l",
@@ -951,7 +959,8 @@ const RECIPES = [
         "detail": "Le jus devient crémeux, comme une crème."
       }
     ],
-    "tips": "Dans la même vidéo : ricotta au miel rôtie 20 min à 200°C, avec basilic et huile d'olive, et betterave cuite à l'huile d'olive."
+    "tips": "Dans la même vidéo : ricotta au miel rôtie 20 min à 200°C, avec basilic et huile d'olive, et betterave cuite à l'huile d'olive.",
+    "shopping": [{"product": "semoule de blé extra fine", "qty": "400 g", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "tomates", "qty": "15 (≈ 1,5 kg)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "basilic", "qty": "1 grosse botte", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "10 cl", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "ricotta affinée, pecorino ou parmesan", "qty": "100 g", "estimate": true, "rayon": "cremerie", "pantry": false}, {"product": "sel", "qty": "10 g", "estimate": false, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "1-boite-de-thon-sans-lhuile",
@@ -1060,7 +1069,8 @@ const RECIPES = [
         "detail": "La touche indispensable."
       }
     ],
-    "tips": "Pain libanais acheté chez un traiteur libanais, congelé, puis décongelé la veille."
+    "tips": "Pain libanais acheté chez un traiteur libanais, congelé, puis décongelé la veille.",
+    "shopping": [{"product": "pains libanais", "qty": "2", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "thon au naturel", "qty": "1 boîte", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "skyr ou fromage blanc", "qty": "1 pot (3 c. à soupe)", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "concombre", "qty": "1 (1/4 utilisé)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "oignon", "qty": "1 (1/2 utilisé)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "persil frais", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "tomates cerises", "qty": "5", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "harissa (facultatif)", "qty": "1 c. à café", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "paprika fumé", "qty": "1 c. à café", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "huile d'olive", "qty": "3 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "ail", "qty": "1 gousse", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "citron", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}]
   },
   {
     "id": "une-recette-a-retenir-et-a-refaire-tellement",
@@ -1175,7 +1185,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Les épices sont au choix : le zaatar marche aussi. Le persil peut remplacer la coriandre."
+    "tips": "Les épices sont au choix : le zaatar marche aussi. Le persil peut remplacer la coriandre.",
+    "shopping": [{"product": "aubergine", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "tomates", "qty": "3", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "oignon", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "ail", "qty": "4 gousses", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "6 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "sel", "qty": "2 grosses pincées", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "cumin", "qty": "1 c. à café", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "paprika", "qty": "quelques pincées", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "flocons de piment", "qty": "quelques pincées", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "coriandre fraîche (ou persil)", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "pains pita", "qty": "4", "estimate": true, "rayon": "epicerie", "pantry": false}]
   },
   {
     "id": "ces-courgettes-ont-un-defaut",
@@ -1276,7 +1287,8 @@ const RECIPES = [
         "detail": "L'audio annonce d'abord 40 min, puis 45 min."
       }
     ],
-    "tips": "À servir avec du riz, des lentilles, de la semoule, des pâtes, des crevettes sautées ou un mijoté de porc. La recette détaillée est en story à la une « SALÉ »."
+    "tips": "À servir avec du riz, des lentilles, de la semoule, des pâtes, des crevettes sautées ou un mijoté de porc. La recette détaillée est en story à la une « SALÉ ».",
+    "shopping": [{"product": "courgettes", "qty": "2 kg", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "oignons nouveaux", "qty": "1 botte", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "estragon", "qty": "1 botte", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "lait de coco", "qty": "1 boîte 40 cl", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "huile d'olive", "qty": "1 beau filet", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "citrons", "qty": "2", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "curry en poudre", "qty": "1 c. à café", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "piment d'Espelette", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre noir", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "la-pasta-tomate-des-fistons",
@@ -1365,7 +1377,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Recette de Stéphanie Le Quellec, la préférée de ses fils, idéale en septembre quand les tomates sont au top. La légende ne donne pas de déroulé : les étapes sont déduites des images."
+    "tips": "Recette de Stéphanie Le Quellec, la préférée de ses fils, idéale en septembre quand les tomates sont au top. La légende ne donne pas de déroulé : les étapes sont déduites des images.",
+    "shopping": [{"product": "spaghettis", "qty": "500 g", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "tomate cœur de bœuf", "qty": "1 grosse (≈ 400 g)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "tomates cerises", "qty": "250 g", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "basilic", "qty": "1 botte", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "ail", "qty": "2 gousses", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "10 cl", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "filets d'anchois", "qty": "1 petite boîte (3 filets)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "parmesan", "qty": "50 g", "estimate": false, "rayon": "cremerie", "pantry": false}]
   },
   {
     "id": "ingredients",
@@ -1489,7 +1502,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Recette de Cyril Lignac (Tous en cuisine). À la fois croustillante et fondante."
+    "tips": "Recette de Cyril Lignac (Tous en cuisine). À la fois croustillante et fondante.",
+    "shopping": [{"product": "aubergines", "qty": "3", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "pâte feuilletée ronde", "qty": "1 rouleau", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "roquette", "qty": "1 sachet (quelques feuilles)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "fleur de sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "huile d'olive", "qty": "3 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "feta", "qty": "150 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "tomates séchées à l'huile d'olive", "qty": "120 g", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "paprika fumé", "qty": "1 c. à café", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "coriandre en poudre", "qty": "1 c. à café", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "ail", "qty": "1 gousse", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "coriandre fraîche", "qty": "1 botte", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "citron jaune", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}]
   },
   {
     "id": "le-one-pot-dinner-qu",
@@ -1596,7 +1610,8 @@ const RECIPES = [
         "detail": "Avec des pâtes, du riz, des haricots verts ou des pommes de terre."
       }
     ],
-    "tips": "Tout cuit dans la même poêle. À l'oral, les épinards sont ajoutés en fin de cuisson, juste le temps qu'ils fondent."
+    "tips": "Tout cuit dans la même poêle. À l'oral, les épinards sont ajoutés en fin de cuisson, juste le temps qu'ils fondent.",
+    "shopping": [{"product": "filets de poulet", "qty": "2", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "tomates séchées à l'huile", "qty": "150 g", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "oignon", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "pousses d'épinards", "qty": "2 poignées (≈ 80 g)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "crème liquide", "qty": "1 brique 20 cl", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "bouillon de poulet", "qty": "15 cl (1 cube)", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "parmesan", "qty": "100 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "vin blanc", "qty": "5 cl", "estimate": false, "rayon": "boissons", "pantry": false}, {"product": "sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "basilic frais", "qty": "1 botte", "estimate": false, "rayon": "legumes", "pantry": false}]
   },
   {
     "id": "lou-qui-fait-du-loup-pour-sa-famille",
@@ -1704,7 +1719,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "La courgette fumée au barbecue donne au caviar tout son goût ; les tomates au miel apportent acidité et rondeur."
+    "tips": "La courgette fumée au barbecue donne au caviar tout son goût ; les tomates au miel apportent acidité et rondeur.",
+    "shopping": [{"product": "loups (bars) entiers", "qty": "2", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "courgettes", "qty": "3", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "fromage blanc", "qty": "3 c. à soupe", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "tahini", "qty": "2 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "citron", "qty": "1 (1/2 utilisé)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "3 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "tomates cerises", "qty": "250 g", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "miel", "qty": "1 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "coriandre fraîche", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "persil", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}]
   },
   {
     "id": "4-c-a-soupe-dhuile-dolive",
@@ -1850,7 +1866,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "L'autrice n'a pas mis les gousses d'ail entières. Coupe américaine utilisée : Shell Roast Prime ou Chuck Beef Roast."
+    "tips": "L'autrice n'a pas mis les gousses d'ail entières. Coupe américaine utilisée : Shell Roast Prime ou Chuck Beef Roast.",
+    "shopping": [{"product": "paleron de bœuf", "qty": "1,6 kg", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "huile d'olive", "qty": "4 c. à soupe + 60 ml", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "oignon doux", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "oignon rouge", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "ail", "qty": "5 gousses", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "pommes de terre rouges", "qty": "600 g", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "carottes", "qty": "4", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "sel", "qty": "1 1/2 c. à café", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "poivre noir", "qty": "1/2 c. à café", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "ras el-hanout ou baharat", "qty": "1 c. à café", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "paprika fumé", "qty": "1/2 c. à café", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "cumin moulu", "qty": "1/2 c. à café", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "ail en poudre", "qty": "1 c. à café", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "moutarde de Dijon", "qty": "1 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "miel", "qty": "1 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": false}]
   },
   {
     "id": "le-dessert-express-qui-fait-toujours-son",
@@ -1961,7 +1978,8 @@ const RECIPES = [
         "detail": "Les spéculoos s'attendrissent et deviennent fondants."
       }
     ],
-    "tips": "Un tiramisu revisité de saison, à préparer à l'avance."
+    "tips": "Un tiramisu revisité de saison, à préparer à l'avance.",
+    "shopping": [{"product": "abricots", "qty": "8 à 10", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "1 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "miel", "qty": "1 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "mascarpone", "qty": "250 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "crème liquide entière", "qty": "1 brique 20 cl", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "sucre glace", "qty": "30 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "sucre vanillé", "qty": "1 sachet", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "spéculoos", "qty": "1 paquet (≈ 100 g)", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "amandes effilées", "qty": "1 sachet (≈ 20 g)", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "menthe fraîche", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}]
   },
   {
     "id": "france-inter-recette",
@@ -2077,7 +2095,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Plat taïwanais (three cup chicken) : la sauce vient d'une tasse d'huile de sésame, une de soja et une de vin de riz. À défaut de basilic thaï, du basilic classique."
+    "tips": "Plat taïwanais (three cup chicken) : la sauce vient d'une tasse d'huile de sésame, une de soja et une de vin de riz. À défaut de basilic thaï, du basilic classique.",
+    "shopping": [{"product": "cuisses de poulet désossées sans peau", "qty": "900 g", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "gingembre frais", "qty": "1 morceau 5 cm", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "ail", "qty": "12 gousses (≈ 1 tête)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "oignon doux des Cévennes", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "piment oiseau", "qty": "1 petit", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "huile de sésame", "qty": "3 cl", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "vin de riz", "qty": "12 cl", "estimate": false, "rayon": "boissons", "pantry": false}, {"product": "sauce soja", "qty": "6 cl", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "cassonade", "qty": "1 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "basilic thaï", "qty": "1 botte", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "riz blanc", "qty": "300 g", "estimate": true, "rayon": "epicerie", "pantry": false}]
   },
   {
     "id": "la-soupe-au-pistou",
@@ -2224,7 +2243,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Recette de Julie Andrieu. Le pistou français se fait normalement sans pignons ; ici les pistaches donnent consistance, goût et couleur."
+    "tips": "Recette de Julie Andrieu. Le pistou français se fait normalement sans pignons ; ici les pistaches donnent consistance, goût et couleur.",
+    "shopping": [{"product": "haricots verts", "qty": "200 g", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "haricots blancs à écosser", "qty": "300 g écossés (≈ 600 g en cosses)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "haricots rouges à écosser", "qty": "300 g écossés (≈ 600 g en cosses)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "oignons blancs", "qty": "2 gros", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "carottes", "qty": "3", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "pommes de terre", "qty": "3", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "poireau", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "jeunes courgettes", "qty": "300 g", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "céleri branche", "qty": "1 pied (1 branche)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "tomates", "qty": "500 g", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "pâtes creuses (ziti, ditalini…)", "qty": "200 g", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "pistaches (ou pignons)", "qty": "50 g", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "ail", "qty": "1 gousse", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "basilic", "qty": "2 bottes", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "parmesan", "qty": "140 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "huile d'olive", "qty": "10 cl", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "emmental râpé", "qty": "50 g", "estimate": false, "rayon": "cremerie", "pantry": false}]
   },
   {
     "id": "les-meilleures-recettes-sont-celles-qui-se",
@@ -2330,7 +2350,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Recette de Francette, qui la fait depuis 54 ans. Son astuce : cuire un bouquet de branches de basilic dans la soupe. Elle cite des haricots rouges à l'oral (coco dans la légende)."
+    "tips": "Recette de Francette, qui la fait depuis 54 ans. Son astuce : cuire un bouquet de branches de basilic dans la soupe. Elle cite des haricots rouges à l'oral (coco dans la légende).",
+    "shopping": [{"product": "haricots coco", "qty": "300 g", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "haricots plats (écheleurs)", "qty": "300 g", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "pommes de terre", "qty": "6", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "courgettes", "qty": "6", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "coquillettes", "qty": "250 g", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "ail", "qty": "2 têtes", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "tomates", "qty": "2", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "basilic", "qty": "2 grosses bottes", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "25 cl", "estimate": false, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "le-fiance-de-sophie-adore-le-vitello-tonnato",
@@ -2463,7 +2484,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "La transcription audio est en partie déformée ; liste des ingrédients reconstituée d'après l'oral et les images."
+    "tips": "La transcription audio est en partie déformée ; liste des ingrédients reconstituée d'après l'oral et les images.",
+    "shopping": [{"product": "rôti de veau", "qty": "1 kg", "estimate": true, "rayon": "boucherie", "pantry": false}, {"product": "carottes", "qty": "2", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "oignons nouveaux", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "thym", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "romarin", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "vin blanc", "qty": "1 bouteille (≈ 25 cl)", "estimate": true, "rayon": "boissons", "pantry": false}, {"product": "thon au naturel", "qty": "1 boîte (≈ 140 g)", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "filets d'anchois", "qty": "1 petite boîte", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "œuf", "qty": "1", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "moutarde", "qty": "1 c. à café", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "citron", "qty": "1 (1/2 utilisé)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "10 cl", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "câpres", "qty": "1 petit bocal", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "piment d'Espelette", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "le-secret-de-ma-ligne-cette-recette-je",
@@ -2572,7 +2594,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Recette légère à refaire plusieurs fois par semaine ; épices au choix."
+    "tips": "Recette légère à refaire plusieurs fois par semaine ; épices au choix.",
+    "shopping": [{"product": "blancs de poulet", "qty": "2", "estimate": true, "rayon": "boucherie", "pantry": false}, {"product": "concombre", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "carottes", "qty": "2", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "skyr 0 %", "qty": "1 pot (3 grosses c. à soupe)", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "citron", "qty": "1 (1/2 utilisé)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "ail semoule", "qty": "1 c. à café", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "sel", "qty": "2 pincées", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "2 pincées", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "cumin", "qty": "1 pincée", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "zaatar", "qty": "1 c. à café", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "huile d'olive", "qty": "1 gros filet", "estimate": false, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "caponata-de-cyril-lignac",
@@ -2705,7 +2728,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Recette de Cyril Lignac (Tous en cuisine) : la version sicilienne de la ratatouille, aigre-douce grâce au vinaigre, aux olives et aux câpres."
+    "tips": "Recette de Cyril Lignac (Tous en cuisine) : la version sicilienne de la ratatouille, aigre-douce grâce au vinaigre, aux olives et aux câpres.",
+    "shopping": [{"product": "aubergine", "qty": "175 g (1 petite)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "courgettes", "qty": "225 g (1 à 2)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "céleri branche", "qty": "1 pied (1 branche)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "oignon", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "ail", "qty": "1 gousse", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "brocolettis", "qty": "200 g", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "olives taggiasche dénoyautées", "qty": "30 g", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "câpres", "qty": "50 g", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "basilic", "qty": "1 botte (1/4 utilisé)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "vinaigre rubino (ou de vin rouge)", "qty": "3 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "coulis de tomate", "qty": "100 g", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "huile d'olive", "qty": "4 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "fleur de sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "sel fin", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "cette-pissaladiere",
@@ -2826,7 +2850,8 @@ const RECIPES = [
         "detail": "Le fond doit rester croustillant."
       }
     ],
-    "tips": "Recette du chef Dominique Le Stanc (La Merenda, Nice). Le pissala est une purée d'anchois fermentés qui a donné son nom au plat ; à défaut, des filets d'anchois à l'huile. La pâte est légèrement salée et le pissala sale l'ensemble."
+    "tips": "Recette du chef Dominique Le Stanc (La Merenda, Nice). Le pissala est une purée d'anchois fermentés qui a donné son nom au plat ; à défaut, des filets d'anchois à l'huile. La pâte est légèrement salée et le pissala sale l'ensemble.",
+    "shopping": [{"product": "oignons", "qty": "1,6 kg", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "ail", "qty": "3 gousses", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "bouquet garni", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "15 cl + 4 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "fleur de sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "farine", "qty": "300 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "lait", "qty": "15 cl", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "levure de boulanger fraîche", "qty": "30 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "pissala (ou filets d'anchois à l'huile)", "qty": "1 bocal (≈ 100 g)", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "olives taggiasche", "qty": "50 g", "estimate": true, "rayon": "epicerie", "pantry": false}]
   },
   {
     "id": "prenons-un-peu-d",
@@ -2948,7 +2973,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Recette de Jean-François Piège. Le secret est la vinaigrette : faites-en plus et gardez-la au frais pour assaisonner une romaine ou une feuille de chêne. Le taboulé se prépare d'avance et accompagne très bien une viande grillée au barbecue."
+    "tips": "Recette de Jean-François Piège. Le secret est la vinaigrette : faites-en plus et gardez-la au frais pour assaisonner une romaine ou une feuille de chêne. Le taboulé se prépare d'avance et accompagne très bien une viande grillée au barbecue.",
+    "shopping": [{"product": "persil plat", "qty": "4 bottes", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "menthe fraîche", "qty": "1 botte (4 feuilles)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "cébettes", "qty": "4", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "boulgour fin", "qty": "10 g", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "tomates", "qty": "250 g", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "citrons", "qty": "2 (≈ 60 g de jus)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive douce", "qty": "150 g (≈ 16 cl)", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "sumac", "qty": "1 c. à café", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "quatre-épices", "qty": "1 pincée", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "je-me-suis-juree-qu",
@@ -3073,7 +3099,8 @@ const RECIPES = [
         "detail": "Adaptez le temps à la taille des carottes."
       }
     ],
-    "tips": "La recette détaillée était en story à la une ; seules les quantités dites à l'oral sont connues."
+    "tips": "La recette détaillée était en story à la une ; seules les quantités dites à l'oral sont connues.",
+    "shopping": [{"product": "carottes", "qty": "1 kg", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "oignons rouges", "qty": "2", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "cardamome en poudre", "qty": "1/2 c. à café", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "coriandre en poudre", "qty": "1 c. à café", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "huile d'olive", "qty": "6 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "crème de coco", "qty": "1 brique 20 cl", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "miel", "qty": "1 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "gingembre frais", "qty": "1 morceau 6 cm", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "ail confit", "qty": "2 mini bocaux", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "basilic", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "huile de sésame", "qty": "2 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "citron non traité", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}]
   },
   {
     "id": "mes-diners-sains",
@@ -3182,7 +3209,8 @@ const RECIPES = [
         "detail": "Accompagnement facultatif mentionné à l'oral."
       }
     ],
-    "tips": ""
+    "tips": "",
+    "shopping": [{"product": "pavés de saumon", "qty": "2", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "huile d'olive", "qty": "1 filet", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "courgettes blanches", "qty": "3", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "herbes de Provence", "qty": "1 c. à café", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "beurre", "qty": "40 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "farine ou maïzena", "qty": "30 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "citron", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "crème liquide", "qty": "1 petit pot (20 cl)", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "ciboulette", "qty": "1 botte", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "pommes de terre", "qty": "500 g", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "ail", "qty": "2 gousses", "estimate": true, "rayon": "legumes", "pantry": false}]
   },
   {
     "id": "pour-la-pate-sablee",
@@ -3307,7 +3335,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Le mélange glace vanille et huile d'olive sur l'abricot rôti fait tout le charme du dessert."
+    "tips": "Le mélange glace vanille et huile d'olive sur l'abricot rôti fait tout le charme du dessert.",
+    "shopping": [{"product": "farine", "qty": "250 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "beurre", "qty": "120 g", "estimate": true, "rayon": "cremerie", "pantry": false}, {"product": "sel", "qty": "1 pincée", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "sucre", "qty": "60 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "œuf", "qty": "1", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "confiture de figues", "qty": "1 grosse c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "abricots", "qty": "5", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "figues", "qty": "5", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "miel", "qty": "1 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "huile d'olive", "qty": "1 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "glace vanille", "qty": "1 pot 50 cl", "estimate": true, "rayon": "cremerie", "pantry": false}]
   },
   {
     id: "rdv-samedi-a",
@@ -3483,7 +3512,8 @@ const RECIPES = [
         "detail": "Méditerranéen : houmous, poulet, carottes, salade, pickles. Nordique : fromage frais, saumon fumé, avocat, salade, chou, pickles. Végétarien : deux houmous, falafel, carottes, tomate, salade, pickles, menthe."
       }
     ],
-    "tips": "Trois associations proposées : méditerranéenne (houmous, poulet rôti au thym), nordique (fromage frais, saumon fumé, avocat) et végétarienne (houmous, houmous de petits pois, falafels). En topping : menthe et amandes effilées torréfiées. La pâte donne 8 galettes. Le guacamole ou des haricots rouges en chili marchent aussi."
+    "tips": "Trois associations proposées : méditerranéenne (houmous, poulet rôti au thym), nordique (fromage frais, saumon fumé, avocat) et végétarienne (houmous, houmous de petits pois, falafels). En topping : menthe et amandes effilées torréfiées. La pâte donne 8 galettes. Le guacamole ou des haricots rouges en chili marchent aussi.",
+    "shopping": [{"product": "farine T80", "qty": "400 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "huile d'olive", "qty": "40 g (≈ 4 c. à soupe)", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "sel", "qty": "1 pincée", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "houmous classique", "qty": "1 pot (≈ 200 g)", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "houmous de petits pois", "qty": "1 pot (≈ 200 g)", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "fromage frais (ou labneh)", "qty": "1 pot (≈ 150 g)", "estimate": true, "rayon": "cremerie", "pantry": false}, {"product": "poulet rôti", "qty": "300 g", "estimate": true, "rayon": "boucherie", "pantry": false}, {"product": "saumon fumé", "qty": "4 tranches", "estimate": true, "rayon": "boucherie", "pantry": false}, {"product": "falafels", "qty": "1 barquette (≈ 12)", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "avocat", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "carottes", "qty": "2", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "chou blanc", "qty": "1/4 (≈ 300 g)", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "tomates", "qty": "2", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "salade", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "pickles d'oignons rouges", "qty": "1 bocal", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "menthe fraîche", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "amandes effilées", "qty": "1 sachet (≈ 30 g)", "estimate": true, "rayon": "epicerie", "pantry": false}]
   },
   {
     "id": "une-salade-de-pommes-de-terre-tres-gourmande",
@@ -3602,7 +3632,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Une salade complète pour un repas léger."
+    "tips": "Une salade complète pour un repas léger.",
+    "shopping": [{"product": "yaourt à la grecque", "qty": "1 pot", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "œufs", "qty": "3", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "moutarde", "qty": "1 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "vinaigre de cidre", "qty": "3 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "mayonnaise", "qty": "2 c. à café", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "huile d'olive", "qty": "2 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "échalotes", "qty": "3", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "persil", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "pommes de terre", "qty": "800 g", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "concombre", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "haricots verts", "qty": "300 g", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "thon", "qty": "1 boîte", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "avocat", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}]
   },
   {
     "id": "qui-mange-encore-ses-courgettes-cuites-en-plein",
@@ -3722,7 +3753,8 @@ const RECIPES = [
         "detail": "Facultatif, mais c'est encore meilleur."
       }
     ],
-    "tips": "La sauce sert aussi pour toutes les salades d'été."
+    "tips": "La sauce sert aussi pour toutes les salades d'été.",
+    "shopping": [{"product": "courgettes", "qty": "2", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "feta", "qty": "200 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "oignon nouveau", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "graines de sésame", "qty": "1 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "piment (facultatif)", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "menthe, coriandre ou ciboulette", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "3 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "huile de sésame", "qty": "1 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "vinaigre de riz", "qty": "1 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "sauce soja salée", "qty": "1 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "miel", "qty": "1 c. à café", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "ail", "qty": "1 gousse", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "gingembre frais", "qty": "1 petit morceau (≈ 2 cm)", "estimate": false, "rayon": "legumes", "pantry": false}]
   },
   {
     "id": "caviar-daubergine-au-curry-burrata-de-cyril-lignac",
@@ -3832,7 +3864,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Recette de Cyril Lignac (Tous en cuisine). Ce mezze s'appelle moutabal au Liban et hatzilim en Israël. La légende indique aussi « 1 nuit » de repos, sans préciser à quelle étape."
+    "tips": "Recette de Cyril Lignac (Tous en cuisine). Ce mezze s'appelle moutabal au Liban et hatzilim en Israël. La légende indique aussi « 1 nuit » de repos, sans préciser à quelle étape.",
+    "shopping": [{"product": "aubergines", "qty": "2", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "ail", "qty": "1 gousse", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "6 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "curry en poudre", "qty": "1 c. à café rase", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "sel fin", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "burrata", "qty": "2", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "basilic", "qty": "1 botte", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "fleur de sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "piment d'Espelette", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "mes-diners-sains-du-soir",
@@ -3949,7 +3982,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Marinade libre : le paprika fumé peut remplacer le sumac. L'oignon apparaît dans la vidéo mais pas dans la liste de la légende."
+    "tips": "Marinade libre : le paprika fumé peut remplacer le sumac. L'oignon apparaît dans la vidéo mais pas dans la liste de la légende.",
+    "shopping": [{"product": "filets de maigre (ou bar, cabillaud)", "qty": "4", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "pommes de terre", "qty": "2", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "courgettes", "qty": "2", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "oignon rouge", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "tomates cerises en grappe", "qty": "3 grappes (≈ 500 g)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "ciboulette", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "4 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "miel", "qty": "1 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "zaatar", "qty": "1 c. à café", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "sumac (ou paprika)", "qty": "1 c. à café", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "sel fumé", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "cette-tarte-est-un-concentre-d",
@@ -4048,7 +4082,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Dessert d'été sans four ; l'association pêche et basilic apporte une fraîcheur inattendue."
+    "tips": "Dessert d'été sans four ; l'association pêche et basilic apporte une fraîcheur inattendue.",
+    "shopping": [{"product": "biscuits secs", "qty": "250 g", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "beurre", "qty": "100 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "mascarpone", "qty": "250 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "crème liquide entière", "qty": "25 cl", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "sucre glace", "qty": "50 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "extrait de vanille", "qty": "1 c. à café", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "pêches", "qty": "4", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "basilic", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}]
   },
   {
     "id": "les-recettes-du-dimanche",
@@ -4129,7 +4164,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Vidéo de plusieurs salades en bocaux pour recevoir : salade de pommes de terre (huile d'olive, balsamique blanc, échalote, moutarde, basilic, coriandre) ; salade de pâtes italienne (pesto, huile de tomates séchées, 1/2 citron, artichauts grillés, tomates séchées, olives noires, pignons, basilic) ; tomates tricolores et mini-mozzarella (huile, balsamique blanc, sel, poivre, basilic). Le balsamique blanc évite que tout brunisse."
+    "tips": "Vidéo de plusieurs salades en bocaux pour recevoir : salade de pommes de terre (huile d'olive, balsamique blanc, échalote, moutarde, basilic, coriandre) ; salade de pâtes italienne (pesto, huile de tomates séchées, 1/2 citron, artichauts grillés, tomates séchées, olives noires, pignons, basilic) ; tomates tricolores et mini-mozzarella (huile, balsamique blanc, sel, poivre, basilic). Le balsamique blanc évite que tout brunisse.",
+    "shopping": [{"product": "semoule de couscous fine", "qty": "1 verre (≈ 150 g)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "gaspacho", "qty": "1 bouteille (≈ 50 cl)", "estimate": false, "rayon": "boissons", "pantry": false}, {"product": "tomates", "qty": "3", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "concombre", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "basilic ou menthe", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "1 filet", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "sel", "qty": "1 pincée", "estimate": false, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "sauce-chimichurri",
@@ -4252,7 +4288,8 @@ const RECIPES = [
         "detail": "Pimenté, vinaigré, acidulé par le citron et très parfumé."
       }
     ],
-    "tips": "Parfaite pour accompagner les grillades. Quantités de chef (grosse quantité) : réduire les proportions pour un usage maison."
+    "tips": "Parfaite pour accompagner les grillades. Quantités de chef (grosse quantité) : réduire les proportions pour un usage maison.",
+    "shopping": [{"product": "persil plat", "qty": "150 g (≈ 3 bottes)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "origan frais", "qty": "40 g", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "coriandre fraîche", "qty": "60 g (≈ 2 bottes)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "ciboulette", "qty": "70 g (≈ 3 bottes)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "piquillos", "qty": "400 g", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "ail", "qty": "30 g (≈ 1 tête)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "piment oiseau", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "échalotes", "qty": "100 g (≈ 3)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "sel fin", "qty": "29 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "poivre noir", "qty": "4 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "huile de pépins de raisin", "qty": "1 L", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "vinaigre de vin rouge", "qty": "300 g (≈ 30 cl)", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "citron", "qty": "1 (25 g de jus)", "estimate": false, "rayon": "legumes", "pantry": false}]
   },
   {
     "id": "sauce-teriyaki-by-mory-sacko",
@@ -4346,7 +4383,8 @@ const RECIPES = [
         "detail": "Se garde 1 à 3 semaines ; la sauce épaissit encore en refroidissant, donc arrêter un peu avant la texture voulue."
       }
     ],
-    "tips": "Sauce qui va avec tout : poulet teriyaki, topping sur du riz…"
+    "tips": "Sauce qui va avec tout : poulet teriyaki, topping sur du riz…",
+    "shopping": [{"product": "mirin", "qty": "70 cl", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "vinaigre de riz", "qty": "30 cl", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "gingembre frais", "qty": "1 gros morceau (≈ 100 g)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "ail", "qty": "1 gousse", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "sauce soja salée", "qty": "12 cl", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "sauce soja vieillie", "qty": "7 cl", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "fécule de pomme de terre (ou de maïs)", "qty": "3 cl", "estimate": false, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "je-crois-que-les-recettes-les-plus",
@@ -4473,7 +4511,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Sans cocotte : utiliser un plat allant au four couvert d'une feuille de papier cuisson humidifiée, puis d'une feuille d'aluminium par-dessus."
+    "tips": "Sans cocotte : utiliser un plat allant au four couvert d'une feuille de papier cuisson humidifiée, puis d'une feuille d'aluminium par-dessus.",
+    "shopping": [{"product": "cuisses de poulet", "qty": "4", "estimate": true, "rayon": "boucherie", "pantry": false}, {"product": "pommes de terre", "qty": "800 g", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "oignons", "qty": "2", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "tomates cerises", "qty": "250 g", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "4 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "moutarde", "qty": "1 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "miel", "qty": "1 c. à café", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "citron", "qty": "1 (1/2 utilisé)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "paprika doux", "qty": "1 c. à café", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "paprika fumé", "qty": "1 c. à café", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "ail semoule", "qty": "1 c. à café", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "herbes de Provence", "qty": "1 c. à café", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "bouillon de volaille", "qty": "1 cube (≈ 10 cl)", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "salade-pommes-de-terre",
@@ -4562,7 +4601,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": ""
+    "tips": "",
+    "shopping": [{"product": "poivrons rouges", "qty": "8", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "pommes de terre", "qty": "6", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "tomate jaune", "qty": "1 grosse", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "ail", "qty": "2 gousses", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "4 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "thon", "qty": "1 boîte", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "œufs", "qty": "4", "estimate": true, "rayon": "cremerie", "pantry": false}, {"product": "basilic", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}]
   },
   {
     "id": "insalata-di-melone",
@@ -4656,7 +4696,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Recette italienne (insalata di melone e anguria)."
+    "tips": "Recette italienne (insalata di melone e anguria).",
+    "shopping": [{"product": "melon", "qty": "1 petit (200 g utilisés)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "pastèque", "qty": "1 tranche (≈ 200 g)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "feta", "qty": "200 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "concombres", "qty": "2", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "oignon rouge de Tropea", "qty": "1 moyen", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "menthe fraîche", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive vierge extra", "qty": "2 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "amandes", "qty": "30 g", "estimate": true, "rayon": "epicerie", "pantry": false}]
   },
   {
     "id": "cette-recette-express-ultra",
@@ -4743,7 +4784,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Garniture de la vidéo : beurre demi-sel, tomate et salade assaisonnée de beaucoup d'huile d'olive et de citron."
+    "tips": "Garniture de la vidéo : beurre demi-sel, tomate et salade assaisonnée de beaucoup d'huile d'olive et de citron.",
+    "shopping": [{"product": "yaourt à la grecque 0 %", "qty": "250 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "farine", "qty": "300 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "sel", "qty": "2 pincées", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "levure chimique (facultative)", "qty": "1 c. à café", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "œuf", "qty": "1", "estimate": true, "rayon": "cremerie", "pantry": false}, {"product": "mélange de graines (sésame, pavot)", "qty": "2 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "ail déshydraté", "qty": "1 c. à café", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "monelle-godaert-recette-DaDfSf",
@@ -4839,7 +4881,8 @@ const RECIPES = [
         "detail": "Optionnel ; de préférence sans conservateur."
       }
     ],
-    "tips": "Jambon cru remplaçable par du saumon fumé ou du thon. Deuxième recette dans la vidéo : glace express nectarine (1 jaune + 1 blanche congelées), 2 c.s. de yaourt grec, 3 feuilles de menthe et un peu de miel mixés quelques secondes, avec pistaches grillées."
+    "tips": "Jambon cru remplaçable par du saumon fumé ou du thon. Deuxième recette dans la vidéo : glace express nectarine (1 jaune + 1 blanche congelées), 2 c.s. de yaourt grec, 3 feuilles de menthe et un peu de miel mixés quelques secondes, avec pistaches grillées.",
+    "shopping": [{"product": "haricots verts en bocal", "qty": "1 bocal (≈ 400 g)", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "huile d'olive", "qty": "2 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "vinaigre balsamique blanc", "qty": "quelques gouttes", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "huile de noisette", "qty": "quelques gouttes", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "citron", "qty": "1 (1/2 utilisé)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "échalote", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "parmesan", "qty": "50 g", "estimate": true, "rayon": "cremerie", "pantry": false}, {"product": "pignons de pin", "qty": "30 g", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "basilic", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "poivre", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "jambon cru (optionnel)", "qty": "4 tranches", "estimate": true, "rayon": "boucherie", "pantry": false}]
   },
   {
     "id": "salade-de-famille-de-mangue",
@@ -4948,7 +4991,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": ""
+    "tips": "",
+    "shopping": [{"product": "mangue", "qty": "1 grosse", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "laitue", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "radis", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "avocat", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "cébette ou ciboulette", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "fruits de la passion", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "skyr", "qty": "2 c. à soupe", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "citron vert", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "piment d'Espelette", "qty": "1 pointe", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "crevettes", "qty": "400 g", "estimate": true, "rayon": "boucherie", "pantry": false}, {"product": "huile d'olive", "qty": "2 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "ingredients-pour",
@@ -5072,7 +5116,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Sans cuisson. Le pain pita peut être maison ou acheté dans le commerce."
+    "tips": "Sans cuisson. Le pain pita peut être maison ou acheté dans le commerce.",
+    "shopping": [{"product": "pains pita", "qty": "2", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "concombre", "qty": "1 (1/2 utilisé)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "oignon rouge", "qty": "1 (1/2 utilisé)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "tomates séchées à l'huile", "qty": "4", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "olives kalamata", "qty": "1 poignée (≈ 50 g)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "thon", "qty": "1 boîte", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "basilic", "qty": "1 botte", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "huile d'olive", "qty": "1 filet", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "yaourt à la grecque", "qty": "2 c. à soupe", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "ail", "qty": "1 gousse", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "harissa", "qty": "1/2 c. à café", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "tahini", "qty": "1 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "citron", "qty": "1 (1/2 utilisé)", "estimate": false, "rayon": "legumes", "pantry": false}]
   },
   {
     "id": "une-folie-cette-salade",
@@ -5186,7 +5231,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "La protéine est au choix : thon à la place du poulpe. Le miel peut être remplacé par du sirop d'érable."
+    "tips": "La protéine est au choix : thon à la place du poulpe. Le miel peut être remplacé par du sirop d'érable.",
+    "shopping": [{"product": "huile d'olive", "qty": "4 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "citron", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "miel de romarin (ou sirop d'érable)", "qty": "1 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "sel fumé", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "pommes de terre grenailles", "qty": "600 g", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "concombre", "qty": "1 petit", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "mini poivrons", "qty": "1 barquette (≈ 200 g)", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "oignon rouge", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "persil", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "menthe", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "tomates cerises", "qty": "250 g", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "poulpe cuit", "qty": "500 g", "estimate": true, "rayon": "boucherie", "pantry": false}, {"product": "pignons de pin", "qty": "30 g", "estimate": true, "rayon": "epicerie", "pantry": false}]
   },
   {
     "id": "les-ingredients",
@@ -5262,7 +5308,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Zéro cuisson. 180 kcal par portion selon l'autrice."
+    "tips": "Zéro cuisson. 180 kcal par portion selon l'autrice.",
+    "shopping": [{"product": "courgettes", "qty": "2 grosses", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "concombre", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "feta", "qty": "100 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "œufs", "qty": "2", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "skyr ou fromage blanc", "qty": "2 c. à soupe", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "basilic", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "graines de courge", "qty": "1 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": false}]
   },
   {
     "id": "succombez-a-ces-cannelonis-genereux-et-gratines-qu",
@@ -5358,7 +5405,8 @@ const RECIPES = [
         "detail": "Surveiller : le dessus doit être doré et gratiné."
       }
     ],
-    "tips": "Se mange seul au dîner ou en accompagnement."
+    "tips": "Se mange seul au dîner ou en accompagnement.",
+    "shopping": [{"product": "mascarpone", "qty": "250 g", "estimate": true, "rayon": "cremerie", "pantry": false}, {"product": "échalotes", "qty": "2", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "épinards frais", "qty": "400 g", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "parmesan", "qty": "80 g", "estimate": true, "rayon": "cremerie", "pantry": false}, {"product": "citron bio", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "courgettes", "qty": "3", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "tomates concassées", "qty": "1 boîte 400 g", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "huile d'olive", "qty": "2 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "fleurs-de-courgette-farcies-au-chevre-frais",
@@ -5524,7 +5572,8 @@ const RECIPES = [
         "detail": "Le coulis au fond de l'assiette."
       }
     ],
-    "tips": ""
+    "tips": "",
+    "shopping": [{"product": "fleurs de courgette", "qty": "10", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "chèvre frais", "qty": "300 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "menthe", "qty": "1 botte", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "persil", "qty": "1 petite botte", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "ciboulette", "qty": "1 botte", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "citron", "qty": "1 (1/2 utilisé)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "abricots", "qty": "7", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "tomates confites", "qty": "40 g", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "olives noires", "qty": "20 g", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "basilic vert et pourpre", "qty": "1 botte", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "ail", "qty": "1 gousse", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "sauge", "qty": "1 botte (2 feuilles)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "thym", "qty": "1 branche", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "romarin", "qty": "1 petite branche", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "3 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "beurre", "qty": "30 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "sucre", "qty": "30 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "vinaigre", "qty": "60 g (≈ 6 cl)", "estimate": false, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "canicule-en-vue",
@@ -5601,7 +5650,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Sans cuisson, prêt en 5 minutes de préparation."
+    "tips": "Sans cuisson, prêt en 5 minutes de préparation.",
+    "shopping": [{"product": "tomates", "qty": "5 grosses", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "concombre", "qty": "1 (1/2 utilisé)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "ail", "qty": "2 gousses", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "2 c. à soupe + 1 filet", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "basilic frais", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}]
   },
   {
     "id": "beignets-de-courgettes",
@@ -5754,7 +5804,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "La légende est tronquée à la fin (« un filet de jus de citron fra… »)."
+    "tips": "La légende est tronquée à la fin (« un filet de jus de citron fra… »).",
+    "shopping": [{"product": "courgettes", "qty": "2 moyennes", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "farine de riz demi-complète", "qty": "200 g", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "œufs", "qty": "2", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "eau gazeuse", "qty": "1 bouteille 50 cl (20 cl)", "estimate": false, "rayon": "boissons", "pantry": false}, {"product": "paprika", "qty": "1 c. à café + finition", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "piment en poudre", "qty": "1 pincée + finition", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "huile de friture (tournesol)", "qty": "1 L", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "basilic", "qty": "1 grosse botte", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "ail confit à l'huile", "qty": "1 bocal (2 c. à soupe + 1 c. à soupe d'huile)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "huile d'olive", "qty": "2 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "huile neutre", "qty": "15 cl", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "citrons jaunes", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "parmesan ou vieux comté", "qty": "50 g", "estimate": true, "rayon": "cremerie", "pantry": false}]
   },
   {
     "id": "tartare",
@@ -5868,7 +5919,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Idéal pour un apéro ou un déjeuner léger."
+    "tips": "Idéal pour un apéro ou un déjeuner léger.",
+    "shopping": [{"product": "aubergine", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "tomates", "qty": "2", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "échalote", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "chèvre frais", "qty": "100 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "mascarpone", "qty": "50 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "crème balsamique", "qty": "2 c. à café", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "menthe", "qty": "1 botte", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "2 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "origan", "qty": "1 pincée", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "lasagnes-d",
@@ -5974,7 +6026,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Lasagnes ouvertes dressées à l'assiette, sans passage au four."
+    "tips": "Lasagnes ouvertes dressées à l'assiette, sans passage au four.",
+    "shopping": [{"product": "feuilles de lasagnes", "qty": "1 paquet (≈ 250 g)", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "tomates cerises", "qty": "750 g", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "ail", "qty": "4 gousses", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "3 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "miel", "qty": "1 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "origan", "qty": "1 pincée", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "piment en paillettes (facultatif)", "qty": "1 pincée", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "pesto vert", "qty": "1 pot (≈ 190 g)", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "stracciatella", "qty": "250 g", "estimate": true, "rayon": "cremerie", "pantry": false}, {"product": "roquette ou basilic", "qty": "1 sachet / 1 botte", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "zucchini-e-ricotta",
@@ -6045,7 +6098,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Plat de restaurant (Big Mamma) : peu de produits mais de grande qualité. Recette reconstituée d'après les images, la légende ne donne aucune instruction."
+    "tips": "Plat de restaurant (Big Mamma) : peu de produits mais de grande qualité. Recette reconstituée d'après les images, la légende ne donne aucune instruction.",
+    "shopping": [{"product": "courgettes", "qty": "4", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "ricotta de vache fraîche", "qty": "250 g", "estimate": true, "rayon": "cremerie", "pantry": false}, {"product": "huile d'olive", "qty": "3 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "parmesan", "qty": "50 g", "estimate": true, "rayon": "cremerie", "pantry": false}, {"product": "cerfeuil", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "poivre", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "courgettes-roties",
@@ -6137,7 +6191,8 @@ const RECIPES = [
         "detail": "Quelques zestes et un dernier filet d'huile d'olive."
       }
     ],
-    "tips": ""
+    "tips": "",
+    "shopping": [{"product": "courgettes", "qty": "4", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "ail", "qty": "4 gousses", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "ricotta", "qty": "250 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "huile d'olive", "qty": "4 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "basilic", "qty": "1 botte (1/2 utilisée)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "citron bio", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "encornets-grilles-creme-de-chorizo-de-cyril-lignac",
@@ -6247,7 +6302,8 @@ const RECIPES = [
         "detail": "Une feuille de coriandre pour la fraîcheur."
       }
     ],
-    "tips": "Recette de Cyril Lignac. Encornets, chipirons, soupions et calamars ne diffèrent que par la taille et la région : tous conviennent."
+    "tips": "Recette de Cyril Lignac. Encornets, chipirons, soupions et calamars ne diffèrent que par la taille et la région : tous conviennent.",
+    "shopping": [{"product": "encornets nettoyés", "qty": "400 g", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "tomates cerises datterino", "qty": "2 poignées (≈ 250 g)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "chorizo", "qty": "100 g", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "croûtons de pain", "qty": "1 petit sachet", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "piment d'Espelette", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "huile d'olive", "qty": "2 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "sel fin", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "crème liquide entière", "qty": "1 brique 20 cl (120 g)", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "bouillon de volaille", "qty": "1 cube (6 cl)", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "coriandre fraîche", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}]
   },
   {
     "id": "pour-les-soirs-ou-vous-n",
@@ -6352,7 +6408,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Salade express pour les soirs où l'on n'a que 15 minutes."
+    "tips": "Salade express pour les soirs où l'on n'a que 15 minutes.",
+    "shopping": [{"product": "crevettes cuites", "qty": "200 g", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "mangue", "qty": "1 (1/2 utilisée)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "avocat", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "concombre", "qty": "1 (1/2 utilisé)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "oignon rouge", "qty": "1 (1/4 utilisé)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "coriandre fraîche", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "cacahuètes", "qty": "1 poignée (≈ 30 g)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "citron vert", "qty": "1 (1/2 utilisé)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "piment en poudre", "qty": "1 pincée", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "ail en poudre", "qty": "1/2 c. à café", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "miel", "qty": "1 c. à café", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "huile d'olive", "qty": "3 c. à soupe + 1 filet", "estimate": false, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "heloise-oscar-recette",
@@ -6437,7 +6494,8 @@ const RECIPES = [
         "detail": "À déguster juste après turbinage ou après un léger passage au congélateur."
       }
     ],
-    "tips": "Choisir des abricots juteux, mûrs et parfumés."
+    "tips": "Choisir des abricots juteux, mûrs et parfumés.",
+    "shopping": [{"product": "abricots", "qty": "1 kg (900 g dénoyautés)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "miel liquide de fleurs", "qty": "200 g", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "citron (optionnel)", "qty": "1 (1/2 utilisé)", "estimate": false, "rayon": "legumes", "pantry": false}]
   },
   {
     "id": "un-moelleux-aux-peches-caramelisees",
@@ -6549,7 +6607,8 @@ const RECIPES = [
         "detail": "La pointe du couteau doit ressortir sèche."
       }
     ],
-    "tips": "À servir avec une boule de glace vanille."
+    "tips": "À servir avec une boule de glace vanille.",
+    "shopping": [{"product": "pêches", "qty": "4", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "beurre", "qty": "75 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "cannelle en poudre", "qty": "1 c. à café", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "sucre vanillé", "qty": "1 sachet", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "farine", "qty": "150 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "œufs", "qty": "3", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "yaourt nature", "qty": "1", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "sucre", "qty": "60 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "levure chimique", "qty": "1 sachet", "estimate": false, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "sauce-tonnato",
@@ -6660,7 +6719,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Compter 100 g de veau par personne en entrée, 150 g en plat. Quasi, noix ou filet conviennent. Cuisson du quasi : voir la vidéo de Stéphanie Le Quellec sur le rôti de veau rosé."
+    "tips": "Compter 100 g de veau par personne en entrée, 150 g en plat. Quasi, noix ou filet conviennent. Cuisson du quasi : voir la vidéo de Stéphanie Le Quellec sur le rôti de veau rosé.",
+    "shopping": [{"product": "quasi de veau", "qty": "500 g cru (400 g cuit)", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "œuf", "qty": "1", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "thon à l'huile", "qty": "1 boîte (80 g)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "ail", "qty": "1 gousse (1/2 utilisée)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "câpres", "qty": "1 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "filets d'anchois", "qty": "2", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "poivre", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "moutarde", "qty": "1 c. à café", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "huile d'olive", "qty": "3 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "citron", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "aneth ou fenouil", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}]
   },
   {
     "id": "pesto-maison",
@@ -6772,7 +6832,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Pesto revisité de Xavier Pincemin : amandes au lieu des pignons, burrata au lieu du parmesan."
+    "tips": "Pesto revisité de Xavier Pincemin : amandes au lieu des pignons, burrata au lieu du parmesan.",
+    "shopping": [{"product": "pâtes", "qty": "500 g", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "basilic", "qty": "2 bottes (1 + pour servir)", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "ail", "qty": "2 gousses", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "4 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "amandes", "qty": "2 c. à soupe (≈ 30 g)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "burrata", "qty": "2 (1 + pour servir)", "estimate": true, "rayon": "cremerie", "pantry": false}, {"product": "citron bio", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "la-cuisson-d",
@@ -6834,7 +6895,8 @@ const RECIPES = [
         "detail": "La cuisson se termine au repos : la viande s'attendrit et garde son jus."
       }
     ],
-    "tips": "Base pour un vitello tonnato : servir froid avec une sauce tonnato."
+    "tips": "Base pour un vitello tonnato : servir froid avec une sauce tonnato.",
+    "shopping": [{"product": "quasi de veau (canon ficelé)", "qty": "1 kg", "estimate": true, "rayon": "boucherie", "pantry": false}, {"product": "huile d'olive", "qty": "2 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "recette-pour-les-amoureux",
@@ -6934,7 +6996,8 @@ const RECIPES = [
         "detail": "Finir d'une pincée de zaatar."
       }
     ],
-    "tips": "Entrée végétarienne « des amoureux », à manger avec du pain."
+    "tips": "Entrée végétarienne « des amoureux », à manger avec du pain.",
+    "shopping": [{"product": "aubergine", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "courgette", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "burrata", "qty": "1", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "sauce tomate", "qty": "1 pot", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "tomates cerises", "qty": "250 g", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "romarin", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "miel", "qty": "1 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "zaatar", "qty": "1 c. à café", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "huile d'olive", "qty": "3 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "tiramisu-aux-fraises",
@@ -7041,7 +7104,8 @@ const RECIPES = [
         "detail": "Ajouter des fraises sur le dessus juste avant de servir."
       }
     ],
-    "tips": "Un tiramisu sans café, à préparer la veille."
+    "tips": "Un tiramisu sans café, à préparer la veille.",
+    "shopping": [{"product": "fraises", "qty": "500 g", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "œufs", "qty": "2", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "mascarpone", "qty": "250 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "biscuits cuillère", "qty": "1 paquet", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "sucre vanillé", "qty": "1 c. à café", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "sucre", "qty": "30 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "citron (optionnel)", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}]
   },
   {
     "id": "risotto-a-la-milanaise-de-cyril-lignac",
@@ -7180,7 +7244,8 @@ const RECIPES = [
         "detail": "Finir d'un filet d'huile d'olive."
       }
     ],
-    "tips": "Recette de Cyril Lignac. Préparation 20 min, cuisson 24 min. Sans moelle, sauter la première étape."
+    "tips": "Recette de Cyril Lignac. Préparation 20 min, cuisson 24 min. Sans moelle, sauter la première étape.",
+    "shopping": [{"product": "riz arborio", "qty": "350 g", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "oignon", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "beurre", "qty": "80 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "os à moelle (facultatif)", "qty": "4 (5 cm)", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "vin blanc sec", "qty": "1 verre (≈ 15 cl)", "estimate": false, "rayon": "boissons", "pantry": false}, {"product": "parmesan", "qty": "100 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "bouillon de volaille", "qty": "2 L (≈ 4 cubes)", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "safran", "qty": "1 dose (pointe de couteau)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "bouillon de légumes (facultatif)", "qty": "25 cl (1/2 cube)", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "ail (facultatif)", "qty": "1 gousse", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "thym (facultatif)", "qty": "1 branche", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "laurier (facultatif)", "qty": "1 feuille", "estimate": false, "rayon": "legumes", "pantry": true}, {"product": "basilic", "qty": "1 botte", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "2 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "sel fin", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "panna-cotta-aux-fraises",
@@ -7260,7 +7325,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": ""
+    "tips": "",
+    "shopping": [{"product": "crème semi-épaisse", "qty": "50 cl", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "sucre", "qty": "65 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "gélatine", "qty": "2 feuilles", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "gousse de vanille", "qty": "1", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "fraises", "qty": "10 (≈ 250 g)", "estimate": false, "rayon": "legumes", "pantry": false}]
   },
   {
     "id": "beignets-de-courgettes-DYxBCc",
@@ -7356,7 +7422,8 @@ const RECIPES = [
         "detail": "Jusqu'à ce qu'ils soient bien dorés."
       }
     ],
-    "tips": "Le pecorino a plus de goût que le parmesan."
+    "tips": "Le pecorino a plus de goût que le parmesan.",
+    "shopping": [{"product": "courgette", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "œufs", "qty": "2", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "farine", "qty": "2 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "pecorino", "qty": "30 g (2 c. à soupe râpé)", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "chapelure", "qty": "1 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "levure chimique", "qty": "1 pincée", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "ail", "qty": "1 gousse (1/2 utilisée)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "persil", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "basilic", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "huile de friture (tournesol)", "qty": "1 L", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "recette",
@@ -7458,7 +7525,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Se prépare la veille. Fraises Cléry conseillées pour leur parfum."
+    "tips": "Se prépare la veille. Fraises Cléry conseillées pour leur parfum.",
+    "shopping": [{"product": "mascarpone", "qty": "750 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "œufs", "qty": "4", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "sucre glace", "qty": "150 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "fraises", "qty": "800 g", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "citron vert", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "biscuits roses de Reims", "qty": "2 paquets", "estimate": false, "rayon": "epicerie", "pantry": false}]
   },
   {
     "id": "le-meilleur-morceau-du-cochon",
@@ -7570,7 +7638,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": ""
+    "tips": "",
+    "shopping": [{"product": "filet mignon de porc", "qty": "1 (≈ 500 g)", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "oignon", "qty": "1 gros", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "miel", "qty": "1 grosse c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "vin blanc (ou bouillon)", "qty": "1 petit verre (≈ 10 cl)", "estimate": false, "rayon": "boissons", "pantry": false}, {"product": "crème liquide", "qty": "1 brique 20 cl", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "moutarde fine de Dijon", "qty": "1 c. à café", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "moutarde à l'ancienne", "qty": "1 c. à café", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "ciboulette", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "huile", "qty": "1 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "artichauts-barigoules",
@@ -7678,7 +7747,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Recette provençale d'Eric Frechon. Finition de l'assiette avec une herbe (« serveux » dans l'audio, peut-être du cerfeuil — à vérifier). Avec un bouillon de poule, la recette n'est plus végétarienne."
+    "tips": "Recette provençale d'Eric Frechon. Finition de l'assiette avec une herbe (« serveux » dans l'audio, peut-être du cerfeuil — à vérifier). Avec un bouillon de poule, la recette n'est plus végétarienne.",
+    "shopping": [{"product": "petits artichauts violets", "qty": "12", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "6 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "ail", "qty": "4 gousses", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "thym", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "carottes", "qty": "2", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "oignons", "qty": "2", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "vin blanc", "qty": "20 cl", "estimate": true, "rayon": "boissons", "pantry": false}, {"product": "graines de coriandre", "qty": "1 c. à café", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "la-bearnaise",
@@ -7766,7 +7836,8 @@ const RECIPES = [
         "detail": "Un tiers d'estragon pour le reste de cerfeuil."
       }
     ],
-    "tips": "Idéale avec les viandes au barbecue, notamment le bœuf. Proportion exacte du cerfeuil peu audible (« un tiers d'estragon pour … de cerfeuil ») : à vérifier."
+    "tips": "Idéale avec les viandes au barbecue, notamment le bœuf. Proportion exacte du cerfeuil peu audible (« un tiers d'estragon pour … de cerfeuil ») : à vérifier.",
+    "shopping": [{"product": "échalotes", "qty": "3", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "œufs", "qty": "3", "estimate": true, "rayon": "cremerie", "pantry": false}, {"product": "beurre", "qty": "250 g", "estimate": true, "rayon": "cremerie", "pantry": false}, {"product": "estragon", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "cerfeuil", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}]
   },
   {
     "id": "un-sauce-dans-l",
@@ -7851,7 +7922,8 @@ const RECIPES = [
         "detail": "Le soja accentue le côté umami."
       }
     ],
-    "tips": "Recette d'Eric Frechon. Pour les petits et les grands, parfait au barbecue."
+    "tips": "Recette d'Eric Frechon. Pour les petits et les grands, parfait au barbecue.",
+    "shopping": [{"product": "tomates concassées", "qty": "1 boîte 400 g", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "miel", "qty": "1 c. à café", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "gingembre frais", "qty": "20 g", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "cébettes thaï", "qty": "20 g (≈ 2)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "coriandre fraîche", "qty": "1 botte (1/2 utilisée)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "graines de sésame noir et doré", "qty": "20 g", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "sauce soja", "qty": "20 g (≈ 1 c. à soupe)", "estimate": false, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "marinade-asiatique-pour-accompagner-des-cotelettes",
@@ -7978,7 +8050,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Recette d'Eric Frechon. Cuisson possible au barbecue ou à la poêle."
+    "tips": "Recette d'Eric Frechon. Cuisson possible au barbecue ou à la poêle.",
+    "shopping": [{"product": "côtelettes d'agneau", "qty": "12 (≈ 1 kg)", "estimate": true, "rayon": "boucherie", "pantry": false}, {"product": "miel", "qty": "1 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "gochujang", "qty": "1 pot (2 c. à soupe)", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "miso", "qty": "1 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "cassonade", "qty": "1 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "sauce soja", "qty": "2 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "huile de sésame", "qty": "1 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "vinaigre de riz", "qty": "1 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "mirin", "qty": "2 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "ail", "qty": "2 gousses", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "gingembre frais", "qty": "1 morceau (≈ 3 cm)", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "poire nashi", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "1 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "origan", "qty": "1 pincée", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "graines de sésame", "qty": "1 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "recette-parmigiana-aux-courgettes",
@@ -8093,7 +8166,8 @@ const RECIPES = [
         "detail": "La légende dit 15 min, la mamie dit 25 min dans la vidéo."
       }
     ],
-    "tips": "Durée de cuisson : 15 min à 180 °C selon la légende, 25 min selon la vidéo. Dans la vidéo, la mamie utilise de la scamorza."
+    "tips": "Durée de cuisson : 15 min à 180 °C selon la légende, 25 min selon la vidéo. Dans la vidéo, la mamie utilise de la scamorza.",
+    "shopping": [{"product": "courgettes", "qty": "1 kg", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "tomates", "qty": "5", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "céleri branche", "qty": "1 pied (1 branche)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "basilic", "qty": "1 botte", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "thym", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "farine", "qty": "100 g", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "œufs", "qty": "3", "estimate": true, "rayon": "cremerie", "pantry": false}, {"product": "huile de friture (tournesol)", "qty": "1 L", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "pecorino", "qty": "100 g", "estimate": true, "rayon": "cremerie", "pantry": false}, {"product": "mozzarella (ou scamorza)", "qty": "250 g", "estimate": true, "rayon": "cremerie", "pantry": false}]
   },
   {
     "id": "lou-elsener-recette",
@@ -8173,7 +8247,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Boisson inspirée de la limonade brésilienne : fraîche, crémeuse sans excès. La légende dit 4 à 5 citrons, la vidéo 4."
+    "tips": "Boisson inspirée de la limonade brésilienne : fraîche, crémeuse sans excès. La légende dit 4 à 5 citrons, la vidéo 4.",
+    "shopping": [{"product": "gousse de vanille", "qty": "1", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "citrons bio", "qty": "5", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "lait concentré sucré", "qty": "1 tube/boîte (150 ml)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "glace vanille", "qty": "1 pot 50 cl (150 g)", "estimate": false, "rayon": "cremerie", "pantry": false}]
   },
   {
     "id": "gateau-aux-fraises-sans-cuisson",
@@ -8262,7 +8337,8 @@ const RECIPES = [
         "detail": "Retourner sur un plat et retirer le film."
       }
     ],
-    "tips": "Moule : saladier de 22 cm."
+    "tips": "Moule : saladier de 22 cm.",
+    "shopping": [{"product": "fraises", "qty": "800 g", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "biscuits cuillère", "qty": "25 (≈ 2 paquets)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "lait", "qty": "10 cl", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "mascarpone", "qty": "300 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "crème liquide 30 %", "qty": "30 cl", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "sucre glace", "qty": "70 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "gousse de vanille", "qty": "1", "estimate": false, "rayon": "epicerie", "pantry": false}]
   },
   {
     "id": "pour-les-ingredients",
@@ -8370,7 +8446,8 @@ const RECIPES = [
         "detail": "Il tient les biscuits et fait son effet."
       }
     ],
-    "tips": "Fonctionne avec le fruit de son choix à la place des fraises."
+    "tips": "Fonctionne avec le fruit de son choix à la place des fraises.",
+    "shopping": [{"product": "biscuits cuillère", "qty": "2 boîtes", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "mascarpone", "qty": "500 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "crème liquide", "qty": "1 brique 20 cl (150 g)", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "sucre", "qty": "45 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "vanille en poudre", "qty": "1 pincée", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "fraises", "qty": "200 g", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "lait", "qty": "20 cl", "estimate": true, "rayon": "cremerie", "pantry": false}, {"product": "fruits rouges", "qty": "1 barquette (≈ 125 g)", "estimate": true, "rayon": "legumes", "pantry": false}]
   },
   {
     "id": "deux-recettes-de-salades-toutes-simples-et-trop-be",
@@ -8489,7 +8566,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "La vidéo montre aussi une salade de quinoa : vinaigrette huile d'olive, citron vert, un peu de miel, 3 c.s. de vinaigre de riz, poivre noir et sel ; puis 3 belles poignées de quinoa, 2 carottes râpées, 1 avocat entier, 1 mini concombre, 2 belles poignées de pois chiches, un peu d'oignon rouge, raisins secs ou cranberries, éclats de pistache grillée, feta et menthe."
+    "tips": "La vidéo montre aussi une salade de quinoa : vinaigrette huile d'olive, citron vert, un peu de miel, 3 c.s. de vinaigre de riz, poivre noir et sel ; puis 3 belles poignées de quinoa, 2 carottes râpées, 1 avocat entier, 1 mini concombre, 2 belles poignées de pois chiches, un peu d'oignon rouge, raisins secs ou cranberries, éclats de pistache grillée, feta et menthe.",
+    "shopping": [{"product": "huile d'olive", "qty": "4 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "parmesan", "qty": "1 beau morceau (≈ 80 g)", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "vinaigre", "qty": "1 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "moutarde", "qty": "1 c. à café", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "poivre", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "farfalle", "qty": "400 g", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "concombre", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "tomates cerises", "qty": "250 g", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "olives noires", "qty": "100 g", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "pignons de pin", "qty": "30 g", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "mini scamorza", "qty": "1 sachet (≈ 150 g)", "estimate": true, "rayon": "cremerie", "pantry": false}, {"product": "basilic", "qty": "1 grosse botte", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "mélasse de grenade", "qty": "1 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": false}]
   },
   {
     "id": "tartinade-daubergines-et-poivrons",
@@ -8583,7 +8661,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Idéal à l'apéro, tartiné sur du pain grillé."
+    "tips": "Idéal à l'apéro, tartiné sur du pain grillé.",
+    "shopping": [{"product": "aubergines", "qty": "2", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "poivrons rouges", "qty": "2", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "ail", "qty": "1 tête", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "6 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "persil", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "pignons de pin", "qty": "30 g", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "baguette", "qty": "1", "estimate": true, "rayon": "epicerie", "pantry": false}]
   },
   {
     "id": "je-suis-fan-de-cette-salade-de-steak-virale",
@@ -8702,7 +8781,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Salade virale revisitée ; l'entrecôte peut être remplacée par n'importe quelle viande rouge à griller, la batavia par de la roquette."
+    "tips": "Salade virale revisitée ; l'entrecôte peut être remplacée par n'importe quelle viande rouge à griller, la batavia par de la roquette.",
+    "shopping": [{"product": "citrons verts", "qty": "2", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "3 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "sauce soja", "qty": "1 petite c. à café", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "moutarde à l'ancienne", "qty": "1 pointe", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "sirop d'érable", "qty": "1 pointe", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "tomates cerises", "qty": "250 g", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "concombre", "qty": "1 (1/2 utilisé)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "brocolini", "qty": "1 botte (≈ 250 g)", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "pois chiches cuits", "qty": "1 petite boîte (1 poignée)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "avocat (facultatif)", "qty": "1 (1/2 utilisé)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "batavia ou roquette", "qty": "1 salade / 1 sachet", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "cébettes", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "entrecôte", "qty": "1 (≈ 350 g)", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "oignons crispy", "qty": "1 sachet", "estimate": true, "rayon": "epicerie", "pantry": false}]
   },
   {
     "id": "pavlova-exotique",
@@ -8846,7 +8926,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Les blancs servent à la meringue et les jaunes au curd : rien ne se perd."
+    "tips": "Les blancs servent à la meringue et les jaunes au curd : rien ne se perd.",
+    "shopping": [{"product": "œufs", "qty": "4", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "sucre glace", "qty": "195 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "maïzena", "qty": "2 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "vinaigre blanc", "qty": "1 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "mascarpone", "qty": "150 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "crème liquide entière 30 %", "qty": "1 brique 20 cl (150 ml)", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "noix de coco râpée", "qty": "2 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "fruits de la passion", "qty": "7", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "sucre", "qty": "2 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "citron vert", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "beurre", "qty": "1 c. à soupe (≈ 15 g)", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "mangue", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}]
   },
   {
     "id": "encore-une-recette-toute-simple-pour-ce",
@@ -8980,7 +9061,8 @@ const RECIPES = [
         "detail": "Saucer ou tartiner avec le pain."
       }
     ],
-    "tips": "On peut retirer les ingrédients qu'on n'aime pas. Les pistaches s'achètent déjà grillées et en éclats."
+    "tips": "On peut retirer les ingrédients qu'on n'aime pas. Les pistaches s'achètent déjà grillées et en éclats.",
+    "shopping": [{"product": "yaourt à la grecque épais", "qty": "500 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "citron", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "moutarde de Dijon", "qty": "1 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "zaatar", "qty": "1 grosse c. à soupe + finition", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "sel", "qty": "1 c. à café", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "1 c. à café", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "huile d'olive", "qty": "3 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "pommes de terre", "qty": "5 moyennes", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "mini concombres", "qty": "2", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "oignon rouge", "qty": "1 (1/2 utilisé)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "avocat", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "pistaches décortiquées", "qty": "1 poignée (≈ 30 g)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "olives de Kalamata", "qty": "15 (≈ 60 g)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "menthe fraîche", "qty": "1 botte", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "œufs", "qty": "3", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "pain", "qty": "1", "estimate": true, "rayon": "epicerie", "pantry": false}]
   },
   {
     "id": "le-tian-farci-du",
@@ -9088,7 +9170,8 @@ const RECIPES = [
         "detail": "Pour apporter de la fraîcheur."
       }
     ],
-    "tips": "Version d'été du chou farci du restaurant Rescator, inspirée de la parmigiana et du tian provençal."
+    "tips": "Version d'été du chou farci du restaurant Rescator, inspirée de la parmigiana et du tian provençal.",
+    "shopping": [{"product": "aubergines", "qty": "2", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "courgettes", "qty": "3", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "viande hachée", "qty": "500 g", "estimate": true, "rayon": "boucherie", "pantry": false}, {"product": "sauce tomate", "qty": "1 bocal 400 g", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "carottes", "qty": "2", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "oignons", "qty": "2", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "chapelure", "qty": "50 g", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "crème d'Isigny", "qty": "1 pot 20 cl", "estimate": true, "rayon": "cremerie", "pantry": false}]
   },
   {
     "id": "une-addiction-cette-salade-de-concombre-spicy-avec",
@@ -9183,7 +9266,8 @@ const RECIPES = [
         "detail": "Garnir une feuille de nori de mayo et de concombre spicy, comme un petit snack."
       }
     ],
-    "tips": "Recette « de la flemme » : avec le riz et le thon, ça fait un repas complet."
+    "tips": "Recette « de la flemme » : avec le riz et le thon, ça fait un repas complet.",
+    "shopping": [{"product": "concombre", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "thon à l'huile", "qty": "1 boîte", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "cébettes", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "coriandre (ou ciboulette)", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "harissa tunisienne", "qty": "1 c. à café", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "sauce soja", "qty": "1 c. à café", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "sel", "qty": "1 petite pincée", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "riz", "qty": "300 g", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "mayonnaise japonaise", "qty": "1 tube", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "feuilles de nori", "qty": "1 paquet", "estimate": true, "rayon": "epicerie", "pantry": false}]
   },
   {
     "id": "ingredients-DXpCj0",
@@ -9285,7 +9369,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Plat complet tout-en-un, sans prise de tête."
+    "tips": "Plat complet tout-en-un, sans prise de tête.",
+    "shopping": [{"product": "hauts de cuisse de poulet", "qty": "6", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "pommes de terre", "qty": "4", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "petits pois surgelés", "qty": "1 sachet (≈ 450 g)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "oignons", "qty": "2", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "paprika", "qty": "1 c. à café", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "bouillon de poulet en poudre", "qty": "1 c. à café", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "piment séché", "qty": "1 pincée", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "curcuma", "qty": "1 c. à café", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "concentré de tomate", "qty": "1 tube (2 c. à soupe)", "estimate": false, "rayon": "epicerie", "pantry": false}]
   },
   {
     "id": "dos-de-cabillaud",
@@ -9392,7 +9477,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Recette donnée en version courte par le chef : seules la marinade et la cuisson du poisson sont précisées."
+    "tips": "Recette donnée en version courte par le chef : seules la marinade et la cuisson du poisson sont précisées.",
+    "shopping": [{"product": "dos de cabillaud", "qty": "4 (≈ 600 g)", "estimate": true, "rayon": "boucherie", "pantry": false}, {"product": "champignons shiitakés", "qty": "200 g", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "miso", "qty": "2 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "vinaigre de riz", "qty": "1 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "huile de sésame", "qty": "1 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "sauce soja", "qty": "2 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "riz noir", "qty": "250 g", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "fumet de poisson", "qty": "1 sachet (≈ 50 cl)", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "vin blanc", "qty": "10 cl", "estimate": true, "rayon": "boissons", "pantry": false}, {"product": "noisettes", "qty": "30 g", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "cébette", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}]
   },
   {
     "id": "mon-langage-de-l",
@@ -9495,7 +9581,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Version relevée : prendre des merguez piquantes et ajouter de la harissa dans la sauce. Inspiré d'un plat goûté en Tunisie."
+    "tips": "Version relevée : prendre des merguez piquantes et ajouter de la harissa dans la sauce. Inspiré d'un plat goûté en Tunisie.",
+    "shopping": [{"product": "aubergine", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "concentré de tomate", "qty": "1 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "oignon rouge", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "ail", "qty": "2 gousses", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "pulpe de tomate (ou sauce tomate)", "qty": "1 boîte 400 g", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "spaghettis", "qty": "500 g", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "huile d'olive", "qty": "6 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "merguez douces", "qty": "5", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "sel", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "poulet-marry-me",
@@ -9635,7 +9722,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Se sert avec du riz blanc."
+    "tips": "Se sert avec du riz blanc.",
+    "shopping": [{"product": "hauts de cuisse de poulet", "qty": "6", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "farine", "qty": "60 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "huile", "qty": "2 c. à soupe", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "beurre", "qty": "20 g", "estimate": true, "rayon": "cremerie", "pantry": false}, {"product": "échalotes", "qty": "3", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "bouillon de poulet", "qty": "20 cl (1 cube)", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "crème liquide 30 %", "qty": "30 cl", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "paprika doux", "qty": "3 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "piment doux", "qty": "1 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "herbes de Provence", "qty": "1 c. à soupe", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "QS", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "tomates séchées", "qty": "3", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "ail", "qty": "3 gousses", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "parmesan", "qty": "50 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "persil", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}]
   },
   {
     "id": "des-carottes-fondantes",
@@ -9721,7 +9809,8 @@ const RECIPES = [
         "detail": "Les carottes doivent être fondantes."
       }
     ],
-    "tips": "Se mange chaud ou froid, en entrée ou en accompagnement."
+    "tips": "Se mange chaud ou froid, en entrée ou en accompagnement.",
+    "shopping": [{"product": "carottes", "qty": "6 (≈ 800 g)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "coriandre", "qty": "1 botte", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "aneth", "qty": "1 botte", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "menthe", "qty": "1 botte", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "citron", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "orange", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "cumin en poudre", "qty": "1 c.c.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "huile d'olive", "qty": "3 c.s.", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "sel", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "ma-salade-grecque-revisitee",
@@ -9845,7 +9934,8 @@ const RECIPES = [
         "detail": "Laisser la feta refroidir un tout petit peu avant de servir."
       }
     ],
-    "tips": "Peut se servir en plat complet. Le zaatar peut être remplacé par de l'origan."
+    "tips": "Peut se servir en plat complet. Le zaatar peut être remplacé par de l'origan.",
+    "shopping": [{"product": "feta", "qty": "1 bloc (200 g)", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "œufs", "qty": "2", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "farine", "qty": "2 c.s.", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "graines de sésame", "qty": "1 sachet (100 g)", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "concombre", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "tomates", "qty": "4 (≈ 500 g)", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "oignon blanc", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "citron", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "sel de Guérande", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "zaatar ou origan séché", "qty": "1 pot", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "huile d'olive", "qty": "4 c.s.", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "olives de Kalamata", "qty": "1 pot (150 g)", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "miel", "qty": "1 pot", "estimate": true, "rayon": "epicerie", "pantry": false}]
   },
   {
     "id": "houmous-maison-et-keftas-de-b",
@@ -10004,7 +10094,8 @@ const RECIPES = [
         "detail": "Finir avec cornichons, paprika, filet d'huile d'olive, pignons torréfiés et ciboulette ciselée."
       }
     ],
-    "tips": "Petits tips du chef : un peu d'eau de cornichon dans le houmous et des glaçons au mixage pour le rendre bien lisse."
+    "tips": "Petits tips du chef : un peu d'eau de cornichon dans le houmous et des glaçons au mixage pour le rendre bien lisse.",
+    "shopping": [{"product": "pois chiches secs", "qty": "250 g", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "bicarbonate de soude", "qty": "1 pincée", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "ail", "qty": "1 tête", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "tahini (crème de sésame)", "qty": "1 pot", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "cornichons", "qty": "1 bocal", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "citrons", "qty": "3", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "6 c.s.", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "sel", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "bœuf haché", "qty": "500 g", "estimate": true, "rayon": "boucherie", "pantry": false}, {"product": "œufs", "qty": "1", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "oignon rouge", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "menthe", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "ciboulette", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "paprika", "qty": "1 c.c.", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "curcuma", "qty": "1/2 c.c.", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "cumin en poudre", "qty": "1/2 c.c.", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "pignons de pin", "qty": "1 sachet (50 g)", "estimate": true, "rayon": "epicerie", "pantry": false}]
   },
   {
     "id": "une-de-mes-recettes-preferees",
@@ -10117,7 +10208,8 @@ const RECIPES = [
         "detail": "Manipuler les bocaux à la pince. Laisser refroidir puis stocker au frais (sous 6 °C), au sec et à l'abri de la lumière, jusqu'à 12 mois."
       }
     ],
-    "tips": "Servi avec des pois chiches rôtis au paprika et une sauce raita. Consulter les règles d'hygiène de conservation sur le site Le Parfait avant de se lancer. On peut aussi le manger tout de suite sans faire de bocaux."
+    "tips": "Servi avec des pois chiches rôtis au paprika et une sauce raita. Consulter les règles d'hygiène de conservation sur le site Le Parfait avant de se lancer. On peut aussi le manger tout de suite sans faire de bocaux.",
+    "shopping": [{"product": "huile d'olive", "qty": "6 c.s.", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "oignons", "qty": "3", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "concentré de tomate", "qty": "1 petite boîte (4 c.s.)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "curry de Madras en poudre", "qty": "4 c.s.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "gingembre en poudre", "qty": "1 c.s.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "aubergines", "qty": "2 kg (≈ 6 à 7)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "lait de coco", "qty": "2 boîtes 40 cl (800 ml)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "tomates concassées", "qty": "1 bocal 700 g", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "coriandre", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "sel", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "quiche-de-courgette-au-pesto-de-cyril-lignac",
@@ -10272,7 +10364,8 @@ const RECIPES = [
         "detail": "Tomates cerises coupées en deux."
       }
     ],
-    "tips": "Recette de Cyril Lignac (Tous en cuisine, M6). Les pignons du pesto sont remplacés par de la poudre de pistache."
+    "tips": "Recette de Cyril Lignac (Tous en cuisine, M6). Les pignons du pesto sont remplacés par de la poudre de pistache.",
+    "shopping": [{"product": "pâte filo", "qty": "1 paquet (6 feuilles)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "beurre", "qty": "50 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "poudre de pistache", "qty": "100 g", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "ail", "qty": "1 gousse", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "parmesan râpé", "qty": "155 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "basilic", "qty": "2 bottes (≈ 50 g + quelques feuilles)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "30 cl + 1 filet", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "citron jaune", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "courgettes (1 verte, 1 jaune)", "qty": "2", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "tomates cerises", "qty": "100 g", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "œufs", "qty": "3", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "lait entier", "qty": "12 cl", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "crème liquide", "qty": "1 brique 25 cl", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "sel", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "piment d'Espelette", "qty": "1 pincée", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "ingredients-DXq6iO",
@@ -10370,7 +10463,8 @@ const RECIPES = [
         "detail": "Le piment d'Espelette est mentionné dans l'audio, pas dans la liste."
       }
     ],
-    "tips": "Recette de Cyril Lignac (Tous en cuisine, M6). Poisson cru : sardines de toute première fraîcheur. Se sert en entrée."
+    "tips": "Recette de Cyril Lignac (Tous en cuisine, M6). Poisson cru : sardines de toute première fraîcheur. Se sert en entrée.",
+    "shopping": [{"product": "sardines fraîches", "qty": "12", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "citrons jaunes", "qty": "2", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "4 c.s.", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "ciboulette", "qty": "1 botte", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "aneth", "qty": "1 botte", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "baies roses", "qty": "1 pot (1 c.c.)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "fleur de sel", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "piment d'Espelette", "qty": "1 pincée", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "brochettes-shish-taouk-express",
@@ -10499,7 +10593,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Astuce dépannage pour du poulet resté au congélateur ; épices inspirées du shish taouk libanais."
+    "tips": "Astuce dépannage pour du poulet resté au congélateur ; épices inspirées du shish taouk libanais.",
+    "shopping": [{"product": "blancs de poulet", "qty": "2", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "yaourt grec", "qty": "1 pot (100 g)", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "citrons", "qty": "2", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "ail", "qty": "3 gousses", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "sel", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "paprika fumé", "qty": "1 c.c.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "gingembre en poudre", "qty": "1/2 c.c.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "coriandre en poudre", "qty": "1/2 c.c.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "sumac", "qty": "1 sachet (1 c.c.)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "huile d'olive", "qty": "2 c.s. + 1 filet", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "persil", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "graines de sésame", "qty": "1 sachet", "estimate": true, "rayon": "epicerie", "pantry": false}]
   },
   {
     "id": "une-viande-confite-aux-saveurs-thailandaises",
@@ -10636,7 +10731,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "La vidéo commence en cours de recette : la cuisson de la viande n'est ni décrite ni chiffrée."
+    "tips": "La vidéo commence en cours de recette : la cuisson de la viande n'est ni décrite ni chiffrée.",
+    "shopping": [{"product": "bœuf à bourguignon (paleron)", "qty": "500 g", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "citronnelle", "qty": "2 bâtons", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "gingembre frais", "qty": "1 morceau (≈ 5 cm)", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "ail", "qty": "3 gousses", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "oignon", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "3 c.s.", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "sauce soja", "qty": "1 bouteille (3 c.s.)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "maïzena", "qty": "2 c.s.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "curcuma", "qty": "1 c.s.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "gingembre en poudre", "qty": "1 c.s.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "patates douces", "qty": "3 (≈ 1 kg)", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "tomates cerises", "qty": "1 barquette (1 poignée)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "miel", "qty": "1 pot (1 c.s.)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "coriandre", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "persil", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "ciboulette", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "cébettes", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "citrons verts", "qty": "2", "estimate": true, "rayon": "legumes", "pantry": false}]
   },
   {
     id: "le-meilleur-de-ma-semaine",
@@ -10788,7 +10884,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Le secret de Jean-François Piège : saler et poivrer chaque étape (chiffonnade, tomates, œufs), sauf le bacon déjà salé."
+    "tips": "Le secret de Jean-François Piège : saler et poivrer chaque étape (chiffonnade, tomates, œufs), sauf le bacon déjà salé.",
+    "shopping": [{"product": "blanc de volaille", "qty": "1", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "bacon", "qty": "1 paquet (6 tranches)", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "laitue", "qty": "1 (5 feuilles)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "tomate", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "pain de mie", "qty": "1 paquet (3 tranches)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "œufs", "qty": "2", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "mayonnaise", "qty": "1 pot (60 g)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "sel", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "cheese-cake-yuzu",
@@ -10884,7 +10981,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Légende : 40 min à 210 ; la vidéo dit 45 min à 200 °C. Se sert avec n'importe quel coulis. Post sponsorisé (Nespresso)."
+    "tips": "Légende : 40 min à 210 ; la vidéo dit 45 min à 200 °C. Se sert avec n'importe quel coulis. Post sponsorisé (Nespresso).",
+    "shopping": [{"product": "mascarpone", "qty": "300 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "fromage frais type Philadelphia", "qty": "300 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "sucre", "qty": "200 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "jus de yuzu", "qty": "1 petite bouteille (1 c.s.)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "œufs", "qty": "5", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "maïzena", "qty": "29 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "crème liquide entière 30 %", "qty": "30 cl (300 g)", "estimate": false, "rayon": "cremerie", "pantry": false}]
   },
   {
     "id": "avec-antoine-et-maxime-on-vous-a-prepare",
@@ -11005,7 +11103,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Recette de Laurent Mariotte, réalisée avec deux enfants."
+    "tips": "Recette de Laurent Mariotte, réalisée avec deux enfants.",
+    "shopping": [{"product": "lasagnes sèches", "qty": "1 paquet (200 g, 9 feuilles)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "épinards frais", "qty": "800 g", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "crème liquide entière 35 %", "qty": "1 brique 20 cl", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "fromage râpé", "qty": "350 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "beurre", "qty": "70 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "farine", "qty": "50 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "lait entier", "qty": "50 cl", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "noix de muscade moulue", "qty": "1/4 c.c.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "sel", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "salade-proteinee-pour-mon-cow",
@@ -11133,7 +11232,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Inspirée de la chicken salad de @chefkla. Les quantités se font à l'instinct."
+    "tips": "Inspirée de la chicken salad de @chefkla. Les quantités se font à l'instinct.",
+    "shopping": [{"product": "huile d'olive", "qty": "3 c.s.", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "citron", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "skyr (ou fromage blanc)", "qty": "1 pot (2 c.s.)", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "sel de Camargue", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "houmous", "qty": "1 pot (1 c.s.)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "œufs", "qty": "2", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "blancs de poulet grillés", "qty": "2 (≈ 300 g)", "estimate": true, "rayon": "boucherie", "pantry": false}, {"product": "chou blanc", "qty": "1 petit", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "fenouil", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "concombre", "qty": "1 (1/2 utilisé)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "échalote", "qty": "1 grosse", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "avocat", "qty": "1 (1/2 utilisé)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "salade romaine", "qty": "1 (1/2 utilisée)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "cébettes", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}]
   },
   {
     "id": "tarte-confit-daubergine-ail-roti",
@@ -11260,7 +11360,8 @@ const RECIPES = [
         "detail": "L'autrice n'a mis que la stracciatella."
       }
     ],
-    "tips": "Le pesto rosso peut être remplacé par du fromage frais. Températures indiquées « 200 » sans unité (°C supposés)."
+    "tips": "Le pesto rosso peut être remplacé par du fromage frais. Températures indiquées « 200 » sans unité (°C supposés).",
+    "shopping": [{"product": "farine", "qty": "250 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "fromage blanc (ou yaourt)", "qty": "150 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "huile d'olive", "qty": "6 c.s.", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "sel", "qty": "1 pincée + à convenance", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "aubergines", "qty": "3", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "ail", "qty": "1 tête", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "pesto rosso", "qty": "1 pot", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "miel", "qty": "1 pot", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "tomates cerises", "qty": "1 barquette (250 g)", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "burrata (ou stracciatella)", "qty": "1", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "graines de sésame", "qty": "1 sachet (facultatif)", "estimate": true, "rayon": "epicerie", "pantry": false}]
   },
   {
     id: "camille-recette",
@@ -11394,7 +11495,8 @@ const RECIPES = [
         "detail": "Dix minutes avant de sortir du four, couper les parts puis finir la cuisson."
       }
     ],
-    "tips": "Variante : remplacer la courgette par du brocoli."
+    "tips": "Variante : remplacer la courgette par du brocoli.",
+    "shopping": [{"product": "courgettes", "qty": "2", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "œufs", "qty": "2", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "flocons d'avoine fins", "qty": "100 g", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "basilic", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "ail", "qty": "2 gousses", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "2 c.s.", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "sel", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "thon au naturel", "qty": "1 boîte (140 g)", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "mozzarella râpée", "qty": "100 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "parmesan", "qty": "50 g", "estimate": true, "rayon": "cremerie", "pantry": false}]
   },
   {
     "id": "tiramisu-aux-fruits-rouges-de-cyril-lignac",
@@ -11507,7 +11609,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Recette de Cyril Lignac (Tous en cuisine). 20 min de préparation, plus 1 à 2 h au frais."
+    "tips": "Recette de Cyril Lignac (Tous en cuisine). 20 min de préparation, plus 1 à 2 h au frais.",
+    "shopping": [{"product": "biscuits à la cuillère", "qty": "28", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "framboises", "qty": "250 g (2 barquettes de 125 g)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "fraises", "qty": "125 g", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "sucre glace", "qty": "1 c.s.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "citron vert", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "café expresso", "qty": "4 tasses", "estimate": false, "rayon": "boissons", "pantry": false}, {"product": "mascarpone", "qty": "150 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "œufs bio", "qty": "3 (jaunes)", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "sucre en poudre", "qty": "100 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "crème liquide entière 35 %", "qty": "35 cl", "estimate": false, "rayon": "cremerie", "pantry": false}]
   },
   {
     "id": "10min-recette-de-healthy-mamacita",
@@ -11597,7 +11700,8 @@ const RECIPES = [
         "detail": "Les pignons peuvent être torréfiés."
       }
     ],
-    "tips": "La légende dit 10 min, la vidéo parle de 15 min de préparation."
+    "tips": "La légende dit 10 min, la vidéo parle de 15 min de préparation.",
+    "shopping": [{"product": "courgettes", "qty": "2", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "saumon ou truite fumé(e)", "qty": "4 tranches (≈ 200 g)", "estimate": true, "rayon": "boucherie", "pantry": false}, {"product": "fromage frais (ou cottage cheese, ou fromage blanc)", "qty": "150 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "pignons de pin", "qty": "1 sachet (50 g)", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "huile d'olive", "qty": "2 c.s.", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "sel", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "ail", "qty": "1 gousse", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "basilic", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}]
   },
   {
     "id": "millefeuille-aux-fraises-de-cyril-lignac",
@@ -11711,7 +11815,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Recette de Cyril Lignac (Tous en cuisine). La légende annonce 25 min de préparation et 15 min de cuisson, mais les étapes indiquent 20 + 5 min au four."
+    "tips": "Recette de Cyril Lignac (Tous en cuisine). La légende annonce 25 min de préparation et 15 min de cuisson, mais les étapes indiquent 20 + 5 min au four.",
+    "shopping": [{"product": "pâte feuilletée (rectangulaire)", "qty": "1 rouleau", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "sucre semoule", "qty": "150 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "sucre glace", "qty": "50 g + finition", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "crème liquide entière", "qty": "25 cl", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "sucre vanillé", "qty": "25 g (≈ 3 sachets)", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "fraises", "qty": "200 g + 12 entières (≈ 2 barquettes de 250 g)", "estimate": false, "rayon": "legumes", "pantry": false}]
   },
   {
     "id": "eton-mess-au-yaourt-citron-cassis-de-cyril-lignac",
@@ -11821,7 +11926,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Recette de Cyril Lignac (Tous en cuisine). Le yaourt grec remplace la chantilly vanillée traditionnelle pour plus d'onctuosité."
+    "tips": "Recette de Cyril Lignac (Tous en cuisine). Le yaourt grec remplace la chantilly vanillée traditionnelle pour plus d'onctuosité.",
+    "shopping": [{"product": "crème liquide entière 33 %", "qty": "20 cl (200 g)", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "sucre glace", "qty": "10 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "yaourt grec (ou fromage blanc 40 %)", "qty": "1 (100 g)", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "cassis surgelé (ou purée de cassis)", "qty": "200 g", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "sucre à confiture (gélifiant)", "qty": "30 g", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "citron jaune", "qty": "1 (1/2 utilisé)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "meringues", "qty": "2 grosses (ou 4 à 6 petites)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "sorbet citron", "qty": "1 bac (4 boules)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "amandes effilées", "qty": "100 g", "estimate": false, "rayon": "epicerie", "pantry": false}]
   },
   {
     "id": "4-hauts-de-cuisses-de-poulet-desossees",
@@ -11956,7 +12062,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Crudités au choix : l'autrice insiste pour adapter à ce qu'on a."
+    "tips": "Crudités au choix : l'autrice insiste pour adapter à ce qu'on a.",
+    "shopping": [{"product": "hauts de cuisses de poulet désossés", "qty": "4", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "maïzena", "qty": "1 c.s.", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "sauce soja", "qty": "1 bouteille (2 c.s.)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "miel", "qty": "1 pot (2 c.s.)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "sirop d'érable", "qty": "1 bouteille (1 c.s.)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "ail en poudre", "qty": "1 c.c.", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "huile", "qty": "2 c.s.", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "graines de sésame", "qty": "1 sachet", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "fromage blanc ou skyr", "qty": "300 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "curry en poudre", "qty": "1 c.s.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "sel de Guérande", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "concombre", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "coriandre", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "oignons nouveaux", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "citron vert", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}]
   },
   {
     "id": "et-si-on-trichait-une-bearnaise",
@@ -12050,7 +12157,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Une « fausse » béarnaise de Stéphanie Le Quellec : tous les codes de la sauce, sans monter au bain-marie."
+    "tips": "Une « fausse » béarnaise de Stéphanie Le Quellec : tous les codes de la sauce, sans monter au bain-marie.",
+    "shopping": [{"product": "œufs", "qty": "1", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "moutarde", "qty": "1 pot (1 c.c.)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "échalote", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "estragon", "qty": "1 botte (25 feuilles)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "poivre", "qty": "10 à 12 tours de moulin", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "vinaigre de xérès", "qty": "1 c.c. + un fond pour l'échalote", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "beurre (ou huile)", "qty": "4 c.s. de beurre clarifié (≈ 60 g)", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "sel", "qty": "1 pincée", "estimate": false, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "300g-de-cur-de-saumon",
@@ -12189,7 +12297,8 @@ const RECIPES = [
         "detail": "Finir avec du piment d'Espelette et de la coriandre."
       }
     ],
-    "tips": "Mangue sous vide possible si pas de fraîche. Un « dîner d'amoureux » façon poké."
+    "tips": "Mangue sous vide possible si pas de fraîche. Un « dîner d'amoureux » façon poké.",
+    "shopping": [{"product": "cœur de saumon", "qty": "300 g", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "citrons verts", "qty": "2", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "sauce soja", "qty": "1 bouteille", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "graines de sésame", "qty": "1 sachet", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "riz à sushi", "qty": "300 g", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "sucre", "qty": "2 c.s.", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "St Moret", "qty": "1 boîte (150 g)", "estimate": true, "rayon": "cremerie", "pantry": false}, {"product": "miel", "qty": "1 pot", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "sel de Guérande", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "concombre", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "tomates cerises", "qty": "1 barquette (250 g)", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "cébettes (oignons nouveaux)", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "mangue", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "piment d'Espelette", "qty": "1 pincée", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "avocat", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "coriandre", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}]
   },
   {
     "id": "la-jardiniere-de-legumes-de-ma-maman",
@@ -12330,7 +12439,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Parfait avec un steak haché ou un blanc de poulet grillé. Le cube de bouillon est optionnel : prendre un bouillon de légumes pour garder le plat végétarien."
+    "tips": "Parfait avec un steak haché ou un blanc de poulet grillé. Le cube de bouillon est optionnel : prendre un bouillon de légumes pour garder le plat végétarien.",
+    "shopping": [{"product": "beurre", "qty": "30 g", "estimate": true, "rayon": "cremerie", "pantry": false}, {"product": "huile d'olive", "qty": "1 filet", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "échalote", "qty": "1 grosse", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "ail", "qty": "2 gousses", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "carottes", "qty": "3", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "navet", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "pommes de terre", "qty": "4", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "sel", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "bouillon cube", "qty": "1/2 cube", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "bouquet garni", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "laitue", "qty": "1 (4 à 5 feuilles)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "petits pois", "qty": "2 belles poignées (≈ 300 g)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "persil", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}]
   },
   {
     "id": "mon-repas-sain-du-soir",
@@ -12420,7 +12530,8 @@ const RECIPES = [
         "detail": "Se mange aussi froide le lendemain, avec une salade verte."
       }
     ],
-    "tips": "Se coupe en bâtonnets pour les enfants et s'emporte au travail le lendemain."
+    "tips": "Se coupe en bâtonnets pour les enfants et s'emporte au travail le lendemain.",
+    "shopping": [{"product": "courgettes", "qty": "3 grosses", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "feta", "qty": "1 bloc (200 g)", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "mozzarella râpée", "qty": "150 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "œufs", "qty": "8", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "levure chimique", "qty": "1 sachet (facultatif)", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "huile d'olive", "qty": "2 c.s.", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "comme-la-chasse-aux-oeufs",
@@ -12564,7 +12675,8 @@ const RECIPES = [
         "detail": "Elle apporte du croustillant, comme sur un cassoulet."
       }
     ],
-    "tips": "Recette improvisée par Julien Duboué (Brut) : mélange de cassoulet et d'agneau pascal. Se prépare idéalement la veille."
+    "tips": "Recette improvisée par Julien Duboué (Brut) : mélange de cassoulet et d'agneau pascal. Se prépare idéalement la veille.",
+    "shopping": [{"product": "épaule d'agneau (ou gigot)", "qty": "1", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "tomates cerises", "qty": "1 barquette (250 g)", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "haricots blancs cuits (avec leur eau)", "qty": "2 bocaux (≈ 800 g)", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "couennes de jambon", "qty": "200 g", "estimate": true, "rayon": "boucherie", "pantry": false}, {"product": "oignons nouveaux (ou 2 oignons)", "qty": "1 botte (4 à 5)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "ail", "qty": "1 tête (≈ 11 gousses)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "petits piments (ou piment d'Espelette)", "qty": "3", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "laurier", "qty": "3 à 4 feuilles", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "thym", "qty": "1 botte", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "romarin", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "ketchup basque (ou concentré + coulis de tomate)", "qty": "1 pot", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "sel", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "piment d'Espelette", "qty": "1 pincée", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "huile d'olive", "qty": "3 c.s.", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "pain sec (ou croûtons)", "qty": "1 grosse poignée", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "persil", "qty": "1 botte", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "basilic", "qty": "1 botte", "estimate": false, "rayon": "legumes", "pantry": false}]
   },
   {
     "id": "un-agneau-de-paques-delicieux-qui-change-et-surtou",
@@ -12666,7 +12778,8 @@ const RECIPES = [
         "detail": "Se sert à la cuillère, tant c'est fondant."
       }
     ],
-    "tips": "Recette de Stéphanie Le Quellec pour Pâques : un morceau bon marché, plus goûteux qu'une épaule. Accompagner d'une printanière de légumes."
+    "tips": "Recette de Stéphanie Le Quellec pour Pâques : un morceau bon marché, plus goûteux qu'une épaule. Accompagner d'une printanière de légumes.",
+    "shopping": [{"product": "collier d'agneau entier", "qty": "1", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "ail", "qty": "2 gousses", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "cumin en poudre", "qty": "2 c.s.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "citrons", "qty": "2", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "fleur de sel", "qty": "1 c.s.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "huile d'olive", "qty": "3 c.s.", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "oignons", "qty": "4", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "fond de veau déshydraté (ou bouillon cube)", "qty": "1 boîte (15 cl reconstitués)", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "herbes fraîches (persil, coriandre…)", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}]
   },
   {
     "id": "la-recette-du-gateau-au-chocolat-d",
@@ -12770,7 +12883,8 @@ const RECIPES = [
         "detail": "Tapoter le chinois avec une cuillère pour un voile régulier."
       }
     ],
-    "tips": "Recette du pâtissier Yann Couvreur. À l'oral, 180 g de sucre ; la légende indique 190 g."
+    "tips": "Recette du pâtissier Yann Couvreur. À l'oral, 180 g de sucre ; la légende indique 190 g.",
+    "shopping": [{"product": "chocolat noir", "qty": "200 g", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "chocolat au lait", "qty": "200 g", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "beurre doux", "qty": "200 g + un peu pour le moule", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "fleur de sel", "qty": "1/2 c.c.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "œufs", "qty": "6 (300 g)", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "sucre semoule", "qty": "190 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "farine T55", "qty": "100 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "cacao en poudre amer", "qty": "1 boîte", "estimate": true, "rayon": "epicerie", "pantry": false}]
   },
   {
     "id": "buf-facon-tigre-qui-pleure-salade-thai-de-cyril-li",
@@ -12936,7 +13050,8 @@ const RECIPES = [
         "detail": "Un peu de piment et un quartier de citron vert."
       }
     ],
-    "tips": "Recette de Cyril Lignac (Tous en cuisine, M6). Temps de cuisson indiqué : 5 min."
+    "tips": "Recette de Cyril Lignac (Tous en cuisine, M6). Temps de cuisson indiqué : 5 min.",
+    "shopping": [{"product": "citronnelle", "qty": "2 bâtons", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "échalote", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "ail", "qty": "5 gousses", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "menthe", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "citrons verts", "qty": "3", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "bavettes de bœuf", "qty": "4 × 130 g (520 g)", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "sauce soja", "qty": "1 bouteille (15 cl)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "sauce huître", "qty": "1 bouteille (10 cl)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "huile neutre", "qty": "2 c.s.", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "mangues vertes", "qty": "2", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "piment rouge", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "cassonade", "qty": "1 c.s.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "pâte de crevettes", "qty": "1 pot (1 c.s.)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "haricots verts", "qty": "125 g", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "cacahuètes non salées", "qty": "1 sachet (3 c.s.)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "nuoc-mâm", "qty": "1 bouteille (1 c.s.)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "tomates cerises", "qty": "250 g", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "coriandre", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}]
   },
   {
     "id": "blanquette-printaniere-de-poisson",
@@ -13073,7 +13188,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Une blanquette revisitée au poisson pour le printemps. L'autrice ajoute aussi des oignons."
+    "tips": "Une blanquette revisitée au poisson pour le printemps. L'autrice ajoute aussi des oignons.",
+    "shopping": [{"product": "poireaux", "qty": "2", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "asperges (blanches et vertes)", "qty": "1 botte", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "cébettes", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "carottes", "qty": "2", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "pavés de cabillaud", "qty": "3", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "huile d'olive", "qty": "3 c.s.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "bouillon cube de légumes", "qty": "1 cube (250 ml)", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "œufs", "qty": "2 (jaunes)", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "farine", "qty": "50 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "beurre", "qty": "30 g", "estimate": true, "rayon": "cremerie", "pantry": false}, {"product": "crème liquide entière", "qty": "1 petit pot (20 cl)", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "sel", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "riz", "qty": "300 g", "estimate": true, "rayon": "epicerie", "pantry": false}]
   },
   {
     "id": "salade-pas-chiante",
@@ -13182,7 +13298,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Garniture au choix (mozzarella, tomates séchées, basilic ici)."
+    "tips": "Garniture au choix (mozzarella, tomates séchées, basilic ici).",
+    "shopping": [{"product": "oignons (gros)", "qty": "2", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "œufs", "qty": "6", "estimate": true, "rayon": "cremerie", "pantry": false}, {"product": "mozzarella", "qty": "1 boule (125 g)", "estimate": true, "rayon": "cremerie", "pantry": false}, {"product": "tomates séchées", "qty": "1 pot", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "basilic", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "huile neutre", "qty": "2 c.s.", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "roquette", "qty": "1 sachet (125 g)", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "3 c.s.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "vinaigre balsamique", "qty": "1 c.s.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "citron", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "herbes séchées (mélange)", "qty": "1 c.s.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "sel", "qty": "1 pincée", "estimate": false, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "recette-facile-et-inratable",
@@ -13269,7 +13386,8 @@ const RECIPES = [
         "detail": "En surveillant."
       }
     ],
-    "tips": "Cuisson longue à couvert : viande fondante, puis gril pour colorer."
+    "tips": "Cuisson longue à couvert : viande fondante, puis gril pour colorer.",
+    "shopping": [{"product": "épaule d'agneau (roulée ou non)", "qty": "1 (≈ 1,5 kg)", "estimate": true, "rayon": "boucherie", "pantry": false}, {"product": "ail", "qty": "3 têtes (2 têtes + quelques gousses)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "miel (ou miel de datte)", "qty": "1 pot", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "huile d'olive", "qty": "3 c.s.", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "romarin", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "sel", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre à steak", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "ingredients-pour-DWbQfj",
@@ -13394,7 +13512,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Recette sucrée-salée de « Papy Jean » (Pyrénées-Atlantiques), présentée par Laurent Mariotte."
+    "tips": "Recette sucrée-salée de « Papy Jean » (Pyrénées-Atlantiques), présentée par Laurent Mariotte.",
+    "shopping": [{"product": "filet mignon de porc", "qty": "600 g", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "pommes de terre", "qty": "8 (≈ 1,2 kg)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "beurre", "qty": "75 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "huile", "qty": "5 c.s.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "oignon", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "ail", "qty": "2 gousses", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "miel liquide", "qty": "1 pot (3 c.s.)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "vinaigre blanc", "qty": "2 c.s.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "vin blanc", "qty": "1 bouteille (12 cl)", "estimate": false, "rayon": "boissons", "pantry": false}, {"product": "bouquet garni", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "sel", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "moutarde", "qty": "1 pot", "estimate": true, "rayon": "epicerie", "pantry": false}]
   },
   {
     "id": "grande-scarpaccia-oignon",
@@ -13499,7 +13618,8 @@ const RECIPES = [
         "detail": "Se mange roulée, comme on veut."
       }
     ],
-    "tips": "La garniture est libre : l'autrice l'a aussi testée avec du thon."
+    "tips": "La garniture est libre : l'autrice l'a aussi testée avec du thon.",
+    "shopping": [{"product": "oignons", "qty": "3", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "farine", "qty": "150 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "parmesan", "qty": "50 g", "estimate": true, "rayon": "cremerie", "pantry": false}, {"product": "huile d'olive", "qty": "4 c.s.", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "fleur de sel", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "tomates cerises", "qty": "1 barquette (250 g)", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "tomates séchées", "qty": "1 pot", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "burrata", "qty": "1", "estimate": true, "rayon": "cremerie", "pantry": false}, {"product": "basilic", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}]
   },
   {
     "id": "easy-pasta-primavera",
@@ -13628,7 +13748,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Recette de Stéphanie Le Quellec. Une autre pâte de gros format convient aussi."
+    "tips": "Recette de Stéphanie Le Quellec. Une autre pâte de gros format convient aussi.",
+    "shopping": [{"product": "paccheri", "qty": "500 g", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "asperges vertes (petites)", "qty": "200 g", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "brocoli", "qty": "1 (1/8 utilisé)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "petits pois frais", "qty": "250 g écossés", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "3 c.s. + finition", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "ail", "qty": "2 gousses", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "filets d'anchois", "qty": "1 petit bocal (3 filets)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "pistaches", "qty": "1 sachet (2 c.s.)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "citron", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "beurre doux", "qty": "1 belle noix (≈ 15 g)", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "parmesan ou pecorino râpé", "qty": "60 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "herbes fraîches (basilic, menthe…)", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}]
   },
   {
     "id": "les-ingredients-DWL3yn",
@@ -13755,7 +13876,8 @@ const RECIPES = [
         "detail": "Servir avec riz, pommes de terre écrasées ou légumes verts sautés."
       }
     ],
-    "tips": "Recette de Jean-François Piège. Le petit plus : un zeste et un trait de jus de citron dans le sauté."
+    "tips": "Recette de Jean-François Piège. Le petit plus : un zeste et un trait de jus de citron dans le sauté.",
+    "shopping": [{"product": "agneau en morceaux (quasi, épaule ou gigot)", "qty": "500 g", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "ail", "qty": "1 gousse (1/2 utilisée)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "échalote", "qty": "1 (1/2 utilisée)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "beurre", "qty": "25 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "paprika", "qty": "1 c.c.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "piment d'Espelette", "qty": "2 pincées", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "persil", "qty": "1 botte (2 brins)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "vin blanc", "qty": "1 bouteille (5 cl)", "estimate": false, "rayon": "boissons", "pantry": false}, {"product": "crème liquide", "qty": "1 brique 20 cl (15 cl)", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "sel", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "une-autre-de-mes-recettes-de-salade-toute-simple",
@@ -13869,7 +13991,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Salade très fraîche. La légende parle de saumon mais la liste indique de la truite fumée. À l'oral, l'autrice dit avoir cuit une dizaine de pommes de terre (6 dans la légende)."
+    "tips": "Salade très fraîche. La légende parle de saumon mais la liste indique de la truite fumée. À l'oral, l'autrice dit avoir cuit une dizaine de pommes de terre (6 dans la légende).",
+    "shopping": [{"product": "yaourt grec", "qty": "1", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "ail", "qty": "1 petite gousse", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "moutarde", "qty": "1 pot (1 c.c.)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "câpres", "qty": "1 petit bocal (1 c.s.)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "citron", "qty": "1 (1/2 utilisé)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "3 c.s.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "sel", "qty": "2 pincées", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "2 pincées", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "pommes de terre", "qty": "6", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "avocat", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "concombre", "qty": "1 (1/2 utilisé)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "truite fumée", "qty": "2 belles tranches", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "aneth", "qty": "1 botte (1 poignée)", "estimate": false, "rayon": "legumes", "pantry": false}]
   },
   {
     "id": "recette-DV31nU",
@@ -13984,7 +14107,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Recette typique de Sicile. Les côtes du chou-fleur peuvent servir à un velouté."
+    "tips": "Recette typique de Sicile. Les côtes du chou-fleur peuvent servir à un velouté.",
+    "shopping": [{"product": "orecchiette", "qty": "500 g", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "chou-fleur", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "15 cl", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "parmesan", "qty": "50 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "ail", "qty": "1 gousse", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "piment en flocons (peperoncino)", "qty": "1 pincée", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "beurre", "qty": "20 g", "estimate": true, "rayon": "cremerie", "pantry": false}, {"product": "gros sel", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "vinaigre blanc", "qty": "1 c.s.", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     id: "preparation-d",
@@ -14132,7 +14256,8 @@ const RECIPES = [
         "detail": "Servir aussitôt avec des pousses d'épinards à l'huile d'olive et au balsamique blanc."
       }
     ],
-    "tips": "Recette de Cyril Lignac, classique de bistrot. À l'oral il dit 2 c.s. de vin blanc ; la légende indique 10 cl."
+    "tips": "Recette de Cyril Lignac, classique de bistrot. À l'oral il dit 2 c.s. de vin blanc ; la légende indique 10 cl.",
+    "shopping": [{"product": "filets de bœuf", "qty": "4 × 130 g (520 g)", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "poivre noir en grains", "qty": "3 c.s.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "beurre", "qty": "1 c.s. (≈ 15 g)", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "cognac", "qty": "1 mignonnette (2 c.s.)", "estimate": false, "rayon": "boissons", "pantry": false}, {"product": "vin blanc", "qty": "1 bouteille (10 cl)", "estimate": false, "rayon": "boissons", "pantry": false}, {"product": "crème liquide", "qty": "1 brique 20 cl", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "jus de veau déshydraté", "qty": "1 boîte (2 c.s.)", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "oignon", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "huile de tournesol", "qty": "2 c.s.", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "sel fin", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "vous-ne-cuisinerez-plus-jamais-les-asperges",
@@ -14218,7 +14343,8 @@ const RECIPES = [
         "detail": "Selon la taille des asperges ; à cuisson forte, ça ne craint rien dans le papier : ça cuit à l'étouffée et ça rôtit."
       }
     ],
-    "tips": "L'accord ne marche qu'avec les cinq ingrédients : asperge, huile d'olive, menthe, citron, parmesan. Recette apprise de Stéphanie Le Quellec."
+    "tips": "L'accord ne marche qu'avec les cinq ingrédients : asperge, huile d'olive, menthe, citron, parmesan. Recette apprise de Stéphanie Le Quellec.",
+    "shopping": [{"product": "asperges blanches", "qty": "1 kg", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "2 c.s.", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "menthe", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "citron", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "parmesan", "qty": "50 g", "estimate": true, "rayon": "cremerie", "pantry": false}, {"product": "poivre", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "oula-je-t",
@@ -14328,7 +14454,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Le halloumi est un fromage qui ne s'effrite pas et se grille à la poêle. Roquette remplaçable par une autre salade, pistaches par des pignons, bresaola par de la viande des Grisons."
+    "tips": "Le halloumi est un fromage qui ne s'effrite pas et se grille à la poêle. Roquette remplaçable par une autre salade, pistaches par des pignons, bresaola par de la viande des Grisons.",
+    "shopping": [{"product": "huile d'olive", "qty": "3 c.s.", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "citron", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "zaatar", "qty": "1 sachet", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "miel de châtaigne", "qty": "1 pot (1 c.c.)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "ail", "qty": "1 gousse", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "concombre", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "tomates séchées", "qty": "1 pot", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "roquette", "qty": "1 sachet (125 g)", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "pistaches salées (ou pignons)", "qty": "1 sachet (100 g)", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "pois chiches", "qty": "1 boîte (400 g)", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "bresaola (ou viande des Grisons)", "qty": "1 barquette (≈ 100 g)", "estimate": true, "rayon": "boucherie", "pantry": false}, {"product": "halloumi", "qty": "1 bloc (250 g)", "estimate": true, "rayon": "cremerie", "pantry": false}]
   },
   {
     "id": "quiche-du-soleil",
@@ -14453,7 +14580,8 @@ const RECIPES = [
         "detail": "Le but : une pâte croustillante qui ne détrempe pas."
       }
     ],
-    "tips": "La pâte au fromage blanc et zaatar reste croustillante ; bien griller les dés de courgette avant de les mélanger à l'appareil."
+    "tips": "La pâte au fromage blanc et zaatar reste croustillante ; bien griller les dés de courgette avant de les mélanger à l'appareil.",
+    "shopping": [{"product": "farine", "qty": "250 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "yaourt nature (ou fromage blanc)", "qty": "1 pot (120 g)", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "huile d'olive", "qty": "4 c.s.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "herbes de Provence (ou zaatar)", "qty": "1 c.c.", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "courgettes", "qty": "2", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "ail", "qty": "1 gousse", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "bûche de chèvre", "qty": "1", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "St Môret", "qty": "1 boîte", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "œufs", "qty": "2", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "tomates séchées", "qty": "1 pot", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "pignons de pin", "qty": "1 sachet (50 g)", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "mozzarella râpée", "qty": "1 sachet (facultatif)", "estimate": true, "rayon": "cremerie", "pantry": false}]
   },
   {
     "id": "une-idee-de-dej",
@@ -14574,7 +14702,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "À l'origine prévu en sandwichs ; avec un pain de campagne, ça se transforme en tartines."
+    "tips": "À l'origine prévu en sandwichs ; avec un pain de campagne, ça se transforme en tartines.",
+    "shopping": [{"product": "pain de campagne", "qty": "1 (≈ 8 tranches)", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "huile d'olive", "qty": "4 c.s.", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "huile neutre", "qty": "2 c.s.", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "œufs", "qty": "11", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "moutarde à l'ancienne épicée", "qty": "1 pot (1 c.s.)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "moutarde", "qty": "1 pot", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "mayonnaise", "qty": "1 pot (2 c.s.)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "lait (ou lait végétal)", "qty": "un fond", "estimate": true, "rayon": "cremerie", "pantry": false}, {"product": "ciboulette", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "concombres", "qty": "2", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "vinaigre de cidre", "qty": "1 c.s.", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "sel", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "la-petit-sauce-vite-faite-bien-faites",
@@ -14650,7 +14779,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "La version de l'asperge vinaigrette de Stéphanie Le Quellec. L'audio cite aussi « une tarpe », ingrédient non identifiable."
+    "tips": "La version de l'asperge vinaigrette de Stéphanie Le Quellec. L'audio cite aussi « une tarpe », ingrédient non identifiable.",
+    "shopping": [{"product": "œufs", "qty": "1", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "sauce soja", "qty": "1 bouteille", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "vinaigre de Xérès", "qty": "1 c.s.", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "ail", "qty": "1 gousse", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "3 c.s.", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "asperges blanches", "qty": "1 kg", "estimate": true, "rayon": "legumes", "pantry": false}]
   },
   {
     "id": "emma-geoffroy-recette",
@@ -14763,7 +14893,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Recette de pâte feuilletée minute non fournie. Une bonne façon de réconcilier les enfants avec l'endive."
+    "tips": "Recette de pâte feuilletée minute non fournie. Une bonne façon de réconcilier les enfants avec l'endive.",
+    "shopping": [{"product": "pâte feuilletée", "qty": "1 rouleau (250 g)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "endives (moyennes)", "qty": "5", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "3 c.s.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "sel", "qty": "1/2 c.c.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "ail", "qty": "4 gousses", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "thym", "qty": "1 botte (quelques branches)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "cassonade", "qty": "100 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "beurre", "qty": "30 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "vinaigre de vin", "qty": "3 c.s.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "comté râpé", "qty": "50 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "cerneaux de noix", "qty": "30 g", "estimate": false, "rayon": "epicerie", "pantry": false}]
   },
   {
     "id": "fenouil-aux",
@@ -14833,7 +14964,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "À déguster tiède ou froid, en lunch ou en accompagnement. La vidéo n'a que de la musique : les étapes sont déduites de la légende et de la photo finale."
+    "tips": "À déguster tiède ou froid, en lunch ou en accompagnement. La vidéo n'a que de la musique : les étapes sont déduites de la légende et de la photo finale.",
+    "shopping": [{"product": "fenouils", "qty": "2", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "œufs", "qty": "2", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "yaourt au lait de coco", "qty": "1 pot (100 g)", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "sauce sriracha", "qty": "1 bouteille (1 filet)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "aneth", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}]
   },
   {
     id: "saumon-a-la-toscane",
@@ -15150,7 +15282,8 @@ const RECIPES = [
         "detail": "Ajouter quelques herbes sur le dessus si on veut."
       }
     ],
-    "tips": "Inspirée de la fatté libanaise. Peut se préparer à l'avance pour le soir. Sur l'image finale, des graines de grenade et de la cébette décorent le plat."
+    "tips": "Inspirée de la fatté libanaise. Peut se préparer à l'avance pour le soir. Sur l'image finale, des graines de grenade et de la cébette décorent le plat.",
+    "shopping": [{"product": "patate douce", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "ail", "qty": "1 tête", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "betterave cuite", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "pois chiches", "qty": "1 boîte (400 g)", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "pain libanais ou pita", "qty": "1 paquet", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "houmous", "qty": "1 boîte", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "œufs", "qty": "3 (2 à 3)", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "tahini (crème de sésame)", "qty": "1 pot (2 c.s.)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "yaourt grec", "qty": "1", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "citron", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "3 c.s.", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "sel", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "paprika", "qty": "1 c.c.", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "sirop d'agave", "qty": "1 bouteille", "estimate": true, "rayon": "epicerie", "pantry": false}]
   },
   {
     "id": "comment-fait",
@@ -15251,7 +15384,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Parfaite avec des nuggets de poulet ou des tempuras de crevettes et crustacés. L'épice est transcrite « épices tantes de riz » : probablement des épices tandoori, à vérifier."
+    "tips": "Parfaite avec des nuggets de poulet ou des tempuras de crevettes et crustacés. L'épice est transcrite « épices tantes de riz » : probablement des épices tandoori, à vérifier.",
+    "shopping": [{"product": "œufs", "qty": "1 (jaune)", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "moutarde", "qty": "1 pot (1 belle cuillère)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "vinaigre", "qty": "1 c.s.", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "sel", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "huile neutre", "qty": "25 cl", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "épices tandoori (nom incertain)", "qty": "1 pot", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "ciboulette", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "cébette", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "gingembre frais", "qty": "1 petit morceau", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "citron vert", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "citron jaune", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}]
   },
   {
     "id": "filet-de-veau-braise-au-miel-de-cyril-lignac",
@@ -15370,7 +15504,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Recette de Cyril Lignac, entièrement en cocotte. Temps annoncé : 20 min de préparation + 30 min de cuisson."
+    "tips": "Recette de Cyril Lignac, entièrement en cocotte. Temps annoncé : 20 min de préparation + 30 min de cuisson.",
+    "shopping": [{"product": "filet de veau", "qty": "600 g", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "endives de pleine terre", "qty": "6", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "poire", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "beurre demi-sel", "qty": "25 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "miel liquide", "qty": "1 pot (2 c.s.)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "vinaigre balsamique de Modène", "qty": "2 c.s.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "curry en poudre", "qty": "1 c.s.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "cerfeuil", "qty": "1 botte (quelques feuilles)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "2 c.s.", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "sel fin", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "piment d'Espelette", "qty": "1 pincée", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "cheesecake-a-la-mangue-de-cyril-lignac",
@@ -15478,7 +15613,8 @@ const RECIPES = [
         "detail": "Zestes fraîchement râpés au moment de servir."
       }
     ],
-    "tips": "Recette de Cyril Lignac. Dans la vidéo, le biscuit utilisé est le palet breton."
+    "tips": "Recette de Cyril Lignac. Dans la vidéo, le biscuit utilisé est le palet breton.",
+    "shopping": [{"product": "biscuits sablés (shortbread, palets bretons ou cookies)", "qty": "150 g", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "beurre", "qty": "45 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "fromage frais type Philadelphia", "qty": "385 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "crème liquide entière", "qty": "1 petite brique (3 cl utilisés)", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "sucre en poudre", "qty": "115 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "œufs bio", "qty": "3 (2 entiers + 1 jaune)", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "mangue", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "citron vert", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}]
   },
   {
     "id": "lou-elsener-recette-DVN7F3",
@@ -15592,7 +15728,8 @@ const RECIPES = [
         "detail": "Les feuilles forment un bol ; couper le wrap en deux pour servir."
       }
     ],
-    "tips": "Texture proche du falafel, riche en fer ; les enfants en mangent aussi."
+    "tips": "Texture proche du falafel, riche en fer ; les enfants en mangent aussi.",
+    "shopping": [{"product": "lentilles cuites en conserve", "qty": "2 bocaux (≈ 800 g)", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "pommes de terre", "qty": "2", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "oignons", "qty": "2", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "ail en poudre", "qty": "1 c.c.", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "paprika", "qty": "1 c.c.", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "œufs", "qty": "2", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "farine", "qty": "6 c.s.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "huile de friture", "qty": "1 l", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "salade iceberg", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "yaourt nature", "qty": "2 pots", "estimate": true, "rayon": "cremerie", "pantry": false}, {"product": "huile d'olive", "qty": "1 c.s.", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "sel", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "coriandre", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}]
   },
   {
     "id": "un-an-de-ce-banger-je-m",
@@ -15713,7 +15850,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "La cheffe ajoute un peu de harissa, et conseille des câpres."
+    "tips": "La cheffe ajoute un peu de harissa, et conseille des câpres.",
+    "shopping": [{"product": "pommes de terre (grenaille ou petites)", "qty": "1 kg", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "1 filet", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "paprika", "qty": "1 c.c.", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "mayonnaise", "qty": "1 pot", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "yaourt grec", "qty": "1 pot (2 c.s.)", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "thon en conserve", "qty": "2 boîtes (140 g)", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "olives vertes dénoyautées (ou noires)", "qty": "1 bocal", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "œufs", "qty": "4", "estimate": true, "rayon": "cremerie", "pantry": false}, {"product": "ciboulette", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "oignon rouge", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "tomates séchées (facultatif)", "qty": "1 pot", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "harissa (facultatif)", "qty": "1 tube", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "câpres (facultatif)", "qty": "1 petit bocal", "estimate": true, "rayon": "epicerie", "pantry": false}]
   },
   {
     "id": "curry-coco",
@@ -15841,7 +15979,8 @@ const RECIPES = [
         "detail": "Parsemer de coriandre si on aime."
       }
     ],
-    "tips": "Plat unique en one pot ; servi avec du riz pour un repas complet."
+    "tips": "Plat unique en one pot ; servi avec du riz pour un repas complet.",
+    "shopping": [{"product": "courge butternut", "qty": "500 g (≈ 1 petite)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "pois chiches", "qty": "1 boîte", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "jeunes pousses d'épinards", "qty": "250 à 300 g", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "oignon", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "ail", "qty": "2 gousses", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "concentré de tomate", "qty": "1 petite boîte (2 c.s.)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "lait de coco", "qty": "1 brique 25 cl", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "curry fumé", "qty": "2 c.c.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "curcuma (ou paprika)", "qty": "1 c.c.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "cumin en poudre (facultatif)", "qty": "1 c.c.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "huile", "qty": "1 filet", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "riz", "qty": "300 g", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "coriandre (facultatif)", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}]
   },
   {
     "id": "salade-de-betteraves-dressing-peanut-butter",
@@ -15946,7 +16085,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "La vidéo présente deux autres salades. Salade exotique aux crevettes (crevettes grillées au sésame, tagliatelles de carotte, avocat, mangue, radis, cébette ; dressing : 4 c. à s. de lait de coco, 1 c. à s. de sauce soja, une pointe de sriracha, jus d'1 citron vert, 1 c. à c. de miel, 1 petite gousse d'ail, un peu de gingembre râpé). Taboulé acidulé aux grenades (persil, menthe, cébette, tomates en petits dés, boulgour fin cru lavé, grenade ; vinaigrette : 4 c. à s. d'huile d'olive, jus de 2 citrons, 2 c. à s. de mélasse de grenade, sel, poivre, 1 c. à c. de sumac) : le laisser reposer quelques heures pour que le boulgour gonfle, et le servir dans des feuilles de sucrine."
+    "tips": "La vidéo présente deux autres salades. Salade exotique aux crevettes (crevettes grillées au sésame, tagliatelles de carotte, avocat, mangue, radis, cébette ; dressing : 4 c. à s. de lait de coco, 1 c. à s. de sauce soja, une pointe de sriracha, jus d'1 citron vert, 1 c. à c. de miel, 1 petite gousse d'ail, un peu de gingembre râpé). Taboulé acidulé aux grenades (persil, menthe, cébette, tomates en petits dés, boulgour fin cru lavé, grenade ; vinaigrette : 4 c. à s. d'huile d'olive, jus de 2 citrons, 2 c. à s. de mélasse de grenade, sel, poivre, 1 c. à c. de sumac) : le laisser reposer quelques heures pour que le boulgour gonfle, et le servir dans des feuilles de sucrine.",
+    "shopping": [{"product": "betteraves multicolores cuites", "qty": "4 (≈ 500 g)", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "ciboulette", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "noix de cajou", "qty": "1 sachet (100 g)", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "huile d'olive", "qty": "3 c.s.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "vinaigre balsamique blanc", "qty": "2 c.s.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "gingembre frais", "qty": "1 petit morceau (1/2 c.c. râpée)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "sel", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "beurre de cacahuète", "qty": "1 pot (2 c.s.)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "sauce soja", "qty": "1 bouteille (1 c.s.)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "citron vert", "qty": "1 gros", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "miel", "qty": "1 pot (1 c.c.)", "estimate": false, "rayon": "epicerie", "pantry": false}]
   },
   {
     "id": "contenu-tres-wtf-a",
@@ -16075,7 +16215,8 @@ const RECIPES = [
         "detail": "Casser délicatement pour ne pas crever le jaune."
       }
     ],
-    "tips": "Servi avec des frites et du pain. Si on n'aime pas la coriandre, la remplacer par du persil."
+    "tips": "Servi avec des frites et du pain. Si on n'aime pas la coriandre, la remplacer par du persil.",
+    "shopping": [{"product": "viande hachée de bœuf (steaks hachés)", "qty": "500 g", "estimate": true, "rayon": "boucherie", "pantry": false}, {"product": "œufs", "qty": "4 (2 jaunes + 2 entiers)", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "lait entier", "qty": "1 petit verre (≈ 10 cl)", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "sel", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "paprika", "qty": "1 c.c.", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "ail en poudre", "qty": "1 c.c.", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "chapelure", "qty": "1 paquet", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "huile d'olive", "qty": "1 bon filet", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "coriandre (ou persil)", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "oignons", "qty": "2", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "concentré de tomate", "qty": "1 petite boîte", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "ail", "qty": "1 gousse", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "sauce tomate", "qty": "1 boîte", "estimate": false, "rayon": "epicerie", "pantry": false}]
   },
   {
     "id": "des-carottes",
@@ -16200,7 +16341,8 @@ const RECIPES = [
         "detail": "La vidéo conseille au moins 10 minutes."
       }
     ],
-    "tips": "Les carottes de couleurs (violettes, jaunes, orange) rendent la salade spectaculaire."
+    "tips": "Les carottes de couleurs (violettes, jaunes, orange) rendent la salade spectaculaire.",
+    "shopping": [{"product": "carottes de couleurs variées", "qty": "5 à 6", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "oignon rouge", "qty": "1 (1/2 utilisé)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "citron jaune", "qty": "1 (1/2 utilisé)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "vinaigre de cidre", "qty": "2 c.s.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "clémentine", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "3 c.s.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "moutarde", "qty": "1 pot (1/2 c.s.)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "sirop d'érable", "qty": "1 bouteille (1 c.s.)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "graines de sésame", "qty": "1 sachet (1 c.s.)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "gingembre frais", "qty": "1 petit morceau", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "sel", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "aneth", "qty": "1 botte (1 petite poignée)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "grenade", "qty": "1 (1 petite poignée de graines)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "pistaches", "qty": "1 sachet (1 petite poignée)", "estimate": false, "rayon": "epicerie", "pantry": false}]
   },
   {
     id: "un-des-meilleurs-conseils-qu",
@@ -16343,7 +16485,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Recette de la grand-mère du chef Jean Sulpice."
+    "tips": "Recette de la grand-mère du chef Jean Sulpice.",
+    "shopping": [{"product": "pommes de terre", "qty": "350 g", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "gros sel", "qty": "1 paquet (lit de cuisson)", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "beurre", "qty": "50 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "sel", "qty": "5 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "noix de muscade", "qty": "1 pincée", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "farine", "qty": "80 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "œufs", "qty": "2 à 3", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "huile de friture", "qty": "1 l", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "gateaux-citron-vanille-huile-dolive",
@@ -16484,7 +16627,8 @@ const RECIPES = [
         "detail": "Mélanger légèrement crème et lemon curd sur le dessus."
       }
     ],
-    "tips": "Le résultat évoque une tarte au citron, avec le moelleux d'un gâteau."
+    "tips": "Le résultat évoque une tarte au citron, avec le moelleux d'un gâteau.",
+    "shopping": [{"product": "œufs", "qty": "6", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "sucre", "qty": "290 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "citrons", "qty": "3", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "farine", "qty": "250 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "levure chimique", "qty": "1 sachet", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "huile d'olive", "qty": "30 ml", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "lait", "qty": "80 ml", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "beurre", "qty": "150 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "arôme vanille", "qty": "1 flacon (1 c.s.)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "mascarpone", "qty": "1 pot", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "gousse de vanille", "qty": "1", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "maïzena", "qty": "2 c.c.", "estimate": false, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "gnocchis-de-pomme-de-terre-pesto-amandes-parmesan",
@@ -16627,7 +16771,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Temps indiqué : 25 min de préparation + 10 min de cuisson (hors cuisson des pommes de terre au four)."
+    "tips": "Temps indiqué : 25 min de préparation + 10 min de cuisson (hors cuisson des pommes de terre au four).",
+    "shopping": [{"product": "pommes de terre ratte", "qty": "≈ 600 g (pour 500 g de pulpe)", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "œufs", "qty": "2 (jaunes)", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "farine", "qty": "50 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "parmesan (bloc, râpé + copeaux)", "qty": "155 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "fécule de pomme de terre", "qty": "75 g", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "sel fin", "qty": "1 pincée + à convenance", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "huile d'olive", "qty": "150 g + 1 filet pour la cuisson", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "poudre d'amande", "qty": "55 g", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "ail", "qty": "1 gousse", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "basilic", "qty": "40 g (≈ 2 bottes)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "citrons jaunes non traités", "qty": "2", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "poivre", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "france-inter-recette-DUr_E1",
@@ -16709,7 +16854,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Varier les épices selon les goûts : curry ou ras-el-hanout."
+    "tips": "Varier les épices selon les goûts : curry ou ras-el-hanout.",
+    "shopping": [{"product": "pois chiches cuits", "qty": "400 g (1 boîte)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "huile neutre", "qty": "2 c.s.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "paprika (classique ou fumé)", "qty": "2 c.c.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "sauce tamari (ou soja)", "qty": "1 bouteille (2 c.s.)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "cumin en poudre", "qty": "1 c.c.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "citron bio", "qty": "1", "estimate": false, "rayon": "legumes", "pantry": false}]
   },
   {
     "id": "assiette-d",
@@ -16831,7 +16977,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "Assiette d'hiver qui peut aussi se servir en entrée."
+    "tips": "Assiette d'hiver qui peut aussi se servir en entrée.",
+    "shopping": [{"product": "patate douce", "qty": "1 (≈ 400-450 g)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "fenouil", "qty": "1 gros bulbe ou 2 petits (≈ 400-450 g)", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "huile d'olive", "qty": "2 c.s.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "ail semoule", "qty": "1 c.s.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "sel", "qty": "1 généreuse pincée", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "oranges sanguines", "qty": "2", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "bûche de chèvre cendrée", "qty": "90 g", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "pistaches", "qty": "20 g", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "thym ou ciboulette", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "vinaigre de cidre", "qty": "1 c.c.", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "miel ou sirop d'érable", "qty": "1 c.c.", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "poivre", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "et-si-je-preparais-le-dessert-prefere",
@@ -16937,7 +17084,8 @@ const RECIPES = [
         "detail": "Ne pas découper tiède : le flan doit être bien pris."
       }
     ],
-    "tips": "La crème est précuite à la casserole avant d'être versée sur la pâte crue et froide."
+    "tips": "La crème est précuite à la casserole avant d'être versée sur la pâte crue et froide.",
+    "shopping": [{"product": "pâte feuilletée", "qty": "1 rouleau", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "œufs", "qty": "4", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "sucre", "qty": "160 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "maïzena", "qty": "90 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "lait", "qty": "50 cl", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "crème liquide", "qty": "50 cl", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "vanille (gousse ou extrait)", "qty": "1 gousse", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "beurre", "qty": "10 g (pour le cercle)", "estimate": true, "rayon": "cremerie", "pantry": false}]
   },
   {
     "id": "je-me-suis-amuse-avec-le-kiwi-pour",
@@ -17038,7 +17186,8 @@ const RECIPES = [
         "detail": ""
       }
     ],
-    "tips": "En été, le kiwi peut être remplacé par de la tomate. Recette complète annoncée sur laurentmariotte.com."
+    "tips": "En été, le kiwi peut être remplacé par de la tomate. Recette complète annoncée sur laurentmariotte.com.",
+    "shopping": [{"product": "blancs de volaille", "qty": "4", "estimate": true, "rayon": "boucherie", "pantry": false}, {"product": "bouillon cube de volaille", "qty": "1", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "kiwis", "qty": "3", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "oignon rouge", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "citron vert", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "piment frais", "qty": "1", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "coriandre", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "huile de sésame", "qty": "1 bouteille", "estimate": true, "rayon": "epicerie", "pantry": false}, {"product": "sel", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "poivre", "qty": "à convenance", "estimate": true, "rayon": "epicerie", "pantry": true}]
   },
   {
     "id": "finit-le-tarama-chimique",
@@ -17120,7 +17269,8 @@ const RECIPES = [
         "detail": "La texture finale est souple et lisse, couleur crème, sans colorant."
       }
     ],
-    "tips": "Recette du restaurant Vive. La cheffe l'agrémente d'une huile de livèche (recette non donnée)."
+    "tips": "Recette du restaurant Vive. La cheffe l'agrémente d'une huile de livèche (recette non donnée).",
+    "shopping": [{"product": "œufs de cabillaud fumés", "qty": "150 g", "estimate": false, "rayon": "boucherie", "pantry": false}, {"product": "pain de mie", "qty": "1 paquet (65 g de mie)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "huile de pépins de raisin", "qty": "150 g", "estimate": false, "rayon": "epicerie", "pantry": true}, {"product": "huile d'olive", "qty": "50 g (unité à vérifier)", "estimate": true, "rayon": "epicerie", "pantry": true}, {"product": "citrons", "qty": "2 (35 g de jus)", "estimate": true, "rayon": "legumes", "pantry": false}, {"product": "sauce poisson (nuoc-mâm)", "qty": "1 bouteille (20 g)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "fumet de poisson déshydraté", "qty": "1 boîte (50 g de fumet)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "Tabasco", "qty": "1 flacon (quelques gouttes)", "estimate": false, "rayon": "epicerie", "pantry": false}]
   },
   {
     "id": "juste-une-assiette-complete-avec-des-choses-que",
