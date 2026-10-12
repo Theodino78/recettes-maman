@@ -89,19 +89,18 @@ function renderRecipeDetail(recipe) {
   
   // Instagram embed: extract reel/post ID and create iframe
   let embedHtml = '';
-  if (recipe.linkType === 'instagram' && recipe.link && recipe.link.includes('/reel/')) {
-    const reelId = recipe.link.match(/\/reel\/([^\/\?]+)/)?.[1];
-    if (reelId) {
-      embedHtml = `
-        <div class="video-embed">
-          <iframe src="https://www.instagram.com/reel/${reelId}/embed/" 
-            width="100%" height="420" frameborder="0" scrolling="no" 
-            allowtransparency="true" allowfullscreen="true"
-            style="border-radius: 12px; background: #000; max-width: 100%;"></iframe>
-        </div>`;
-    }
+  // Reels, posts (/p/) et IGTV : l'URL /p/{id}/embed/ marche pour les trois
+  const igId = recipe.linkType === 'instagram' && recipe.link
+    ? recipe.link.match(/\/(?:reels?|p|tv)\/([^\/\?]+)/)?.[1] : null;
+  if (igId) {
+    embedHtml = `
+      <div class="video-embed">
+        <iframe src="https://www.instagram.com/p/${igId}/embed/" loading="lazy"
+          width="100%" frameborder="0" scrolling="no"
+          allowtransparency="true" allowfullscreen="true"></iframe>
+      </div>`;
   }
-  
+
   let html = `
     <div class="detail-header">
       <button class="back-btn" onclick="window.app.goBack()">← Retour</button>
@@ -250,7 +249,7 @@ function filter(cat, chipEl) {
   const grid = document.getElementById('home-grid');
   const cards = grid.querySelectorAll('.card');
   cards.forEach((card, i) => {
-    const show = cat === 'all' || card.dataset.cat === cat || (cat === 'veggie' && card.dataset.veggie === 'true');
+    const show = cat === 'all' || card.dataset.cat === cat || (cat === 'veggie' && card.dataset.veggie === 'true' && card.dataset.cat !== 'dessert');
     card.style.display = show ? '' : 'none';
     if (show) {
       card.style.animationDelay = `${i * 50}ms`;
@@ -266,7 +265,7 @@ function filterChef(chipEl, cat) {
   
   const grid = chipEl.closest('.page').querySelector('.grid');
   grid.querySelectorAll('.card').forEach(card => {
-    const show = cat === 'all' || card.dataset.cat === cat || (cat === 'veggie' && card.dataset.veggie === 'true');
+    const show = cat === 'all' || card.dataset.cat === cat || (cat === 'veggie' && card.dataset.veggie === 'true' && card.dataset.cat !== 'dessert');
     card.style.display = show ? '' : 'none';
   });
 }
