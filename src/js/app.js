@@ -631,7 +631,7 @@ function homeCatRecipes(c) {
   if (c.id === 'veggie') return RECIPES.filter(r => r.veggie && r.cat !== 'dessert');
   return RECIPES.filter(r => r.cat === c.id);
 }
-const HOME_COVERS = {"entree": "monelle-godaert-recette-DaDfSf", "plat": "monelle-godaert-recette", "viande": "le-one-pot-dinner-qu", "poisson": "mes-diners-sains-du-soir", "pates": "la-pasta-tomate-des-fistons", "accompagnement": "une-recette-a-retenir-et-a-refaire-tellement", "sauce": "sauce-chimichurri", "dessert": "gateaux-myrtilles-vanille-huile-d", "veggie": "qui-mange-encore-ses-courgettes-cuites-en-plein", "courgette": "qui-mange-encore-ses-courgettes-cuites-en-plein", "fruits": "depuis-ma-normandie"};
+const HOME_COVERS = {"entree": "monelle-godaert-recette-DaDfSf", "plat": "monelle-godaert-recette", "viande": "le-one-pot-dinner-qu", "poisson": "mes-diners-sains-du-soir", "pates": "la-pasta-tomate-des-fistons", "accompagnement": "une-recette-a-retenir-et-a-refaire-tellement", "sauce": "sauce-chimichurri", "dessert": "gateaux-myrtilles-vanille-huile-d", "veggie": "qui-mange-encore-ses-courgettes-cuites-en-plein", "courgette": "qui-mange-encore-ses-courgettes-cuites-en-plein", "fruits": "depuis-ma-normandie", "gratin": "lasagnes-d", "poulet": "je-crois-que-les-recettes-les-plus"};
 function renderHomeCats() {
   const box = document.getElementById('home-cats');
   if (!box) return;
