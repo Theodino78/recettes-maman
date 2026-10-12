@@ -159,6 +159,186 @@ async function refreshImports() {
 }
 function openImported(id) { closeAdd(); showRecipe(id); }
 
+
+// ============================================
+// Mode cuisine : une étape par écran, minuteurs, écran allumé, guidage vocal
+// ============================================
+const cook = { recipe: null, i: 0, wake: null, timers: [], tick: null, voice: false, rec: null };
+
+function parseDuration(txt) {
+  // « 10 min », « 1h30 », « 2-3 min », « 45 s », « 1 nuit » (ignoré) → secondes (borne haute)
+  const t = String(txt || '').toLowerCase().replace(',', '.');
+  if (/nuit|jour|veille/.test(t)) return 0;
+  let sec = 0;
+  const h = t.match(/(\d+(?:\.\d+)?)\s*h(?:eures?)?\s*(\d+)?/);
+  if (h) sec += (+h[1]) * 3600 + (h[2] ? +h[2] * 60 : 0);
+  const m = t.replace(/\d+(?:\.\d+)?\s*h(?:eures?)?\s*\d*/, '').match(/(\d+(?:\.\d+)?)(?:\s*[-–à]\s*(\d+(?:\.\d+)?))?\s*min/);
+  if (m) sec += (+(m[2] || m[1])) * 60;
+  const s = t.match(/(\d+)\s*(?:s|sec|secondes?)\b/);
+  if (!h && !m && s) sec += +s[1];
+  return Math.round(sec);
+}
+const fmtTime = (sec) => `${Math.floor(sec / 60)}:${String(Math.max(0, sec) % 60).padStart(2, '0')}`;
+
+async function keepAwake(on) {
+  try {
+    if (on && 'wakeLock' in navigator) cook.wake = await navigator.wakeLock.request('screen');
+    else if (!on && cook.wake) { await cook.wake.release(); cook.wake = null; }
+  } catch {}
+}
+document.addEventListener('visibilitychange', () => { if (cook.recipe && document.visibilityState === 'visible') keepAwake(true); });
+
+function startCooking(id) {
+  const recipe = RECIPES.find(r => r.id === id);
+  if (!recipe) return;
+  cook.recipe = recipe; cook.i = 0;
+  document.querySelectorAll('.cook-mode').forEach(el => el.remove());
+  const el = document.createElement('div');
+  el.className = 'cook-mode';
+  el.innerHTML = `
+    <div class="cook-top">
+      <button class="cook-x" onclick="window.app.stopCooking()" aria-label="Quitter">✕</button>
+      <div class="cook-title">${recipe.title}</div>
+      <button class="cook-voice" id="cook-voice" onclick="window.app.toggleVoice()">🎙️ Guide-moi</button>
+    </div>
+    <div class="cook-progress"><div id="cook-bar"></div></div>
+    <div class="cook-timers" id="cook-timers"></div>
+    <div class="cook-body" id="cook-body"></div>
+    <div class="cook-nav">
+      <button onclick="window.app.cookGo(-1)">← Précédent</button>
+      <button class="cook-next" id="cook-next" onclick="window.app.cookGo(1)">Suivant →</button>
+    </div>`;
+  document.body.appendChild(el);
+  let x0 = null;
+  el.addEventListener('touchstart', e => { x0 = e.touches[0].clientX; }, { passive: true });
+  el.addEventListener('touchend', e => {
+    if (x0 === null) return;
+    const dx = e.changedTouches[0].clientX - x0; x0 = null;
+    if (Math.abs(dx) > 60) cookGo(dx < 0 ? 1 : -1);
+  });
+  keepAwake(true);
+  renderCookStep();
+  if (!cook.tick) cook.tick = setInterval(tickTimers, 1000);
+}
+
+function renderCookStep() {
+  const r = cook.recipe, n = r.steps.length, i = cook.i;
+  const body = document.getElementById('cook-body');
+  document.getElementById('cook-bar').style.width = `${(i / (n + 1)) * 100}%`;
+  const next = document.getElementById('cook-next');
+  if (i === 0) {
+    const f = servingsFactor(r);
+    body.innerHTML = `<div class="cook-kicker">Mise en place · ${currentServings(r)} pers.</div>
+      <div class="cook-ings">${r.ingredients.map(ing => `<div class="cook-ing" onclick="this.classList.toggle('done')">
+        <span>${scaleQty(ing.qty, f)}</span>${ing.name}</div>`).join('')}</div>`;
+    next.textContent = 'Commencer →';
+  } else if (i <= n) {
+    const st = r.steps[i - 1];
+    const sec = parseDuration(st.duration);
+    body.innerHTML = `<div class="cook-kicker">Étape ${i} / ${n}</div>
+      <div class="cook-step">${st.text.replace(/<[^>]+>/g, '')}</div>
+      <div class="cook-chips">
+        ${st.temperature ? `<span class="cook-chip">🌡 ${st.temperature}</span>` : ''}
+        ${st.duration ? (sec ? `<button class="cook-chip cook-timer-btn" onclick="window.app.addTimer(${i}, ${sec})">⏱ Lancer ${st.duration}</button>` : `<span class="cook-chip">⏱ ${st.duration}</span>`) : ''}
+      </div>
+      ${st.detail ? `<div class="cook-detail">${st.detail}</div>` : ''}`;
+    next.textContent = i === n ? 'Terminer ✓' : 'Suivant →';
+  } else {
+    body.innerHTML = `<div class="cook-done">🍽️<div>Bon appétit !</div>
+      <button class="cook-chip" onclick="window.app.stopCooking(); window.app.showCooked('${r.id}')">📸 J'ai cuisiné ce plat</button></div>`;
+    next.textContent = 'Fermer';
+  }
+  if (cook.voice) speakCurrent();
+}
+
+function cookGo(d) {
+  const n = cook.recipe.steps.length;
+  if (d > 0 && cook.i > n) { stopCooking(); return; }
+  cook.i = Math.min(n + 1, Math.max(0, cook.i + d));
+  renderCookStep();
+}
+
+function addTimer(step, sec) {
+  cook.timers.push({ step, end: Date.now() + sec * 1000, total: sec, done: false });
+  showToast(`⏱ Minuteur étape ${step} lancé`);
+  tickTimers();
+}
+function tickTimers() {
+  const box = document.getElementById('cook-timers');
+  const now = Date.now();
+  cook.timers.forEach(t => {
+    if (!t.done && now >= t.end) {
+      t.done = true;
+      beep(); if (navigator.vibrate) navigator.vibrate([400, 200, 400, 200, 400]);
+      showToast(`⏰ Minuteur de l'étape ${t.step} terminé !`, 6000);
+      if (cook.voice) say(`Le minuteur de l'étape ${t.step} est terminé.`);
+    }
+  });
+  if (!box) return;
+  box.innerHTML = cook.timers.map((t, k) => `<button class="cook-tm${t.done ? ' ring' : ''}" onclick="window.app.removeTimer(${k})">
+    Étape ${t.step} · ${t.done ? 'terminé ✕' : fmtTime(Math.ceil((t.end - now) / 1000))}</button>`).join('');
+}
+function removeTimer(k) { cook.timers.splice(k, 1); tickTimers(); }
+function beep() {
+  try {
+    const ctx = new (window.AudioContext || window.webkitAudioContext)();
+    [0, 0.35, 0.7].forEach(t0 => {
+      const o = ctx.createOscillator(), g = ctx.createGain();
+      o.frequency.value = 880; o.connect(g); g.connect(ctx.destination);
+      g.gain.setValueAtTime(0.25, ctx.currentTime + t0); g.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + t0 + 0.3);
+      o.start(ctx.currentTime + t0); o.stop(ctx.currentTime + t0 + 0.3);
+    });
+  } catch {}
+}
+
+// Guidage vocal : lecture à voix haute + commandes « suivant », « précédent », « répète », « minuteur »
+function say(text) {
+  if (!('speechSynthesis' in window)) return;
+  speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = 'fr-FR'; u.rate = 0.95;
+  const v = speechSynthesis.getVoices().find(v => v.lang && v.lang.startsWith('fr'));
+  if (v) u.voice = v;
+  speechSynthesis.speak(u);
+}
+function speakCurrent() {
+  const r = cook.recipe, i = cook.i, n = r.steps.length;
+  if (i === 0) say(`Mise en place. ${r.ingredients.map(x => `${x.qty && x.qty !== 'QS' ? x.qty + ' ' : ''}${x.name}`).join(', ')}.`);
+  else if (i <= n) { const st = r.steps[i - 1]; say(`Étape ${i}. ${st.text.replace(/<[^>]+>/g, '')}. ${st.detail || ''}`); }
+  else say('Bon appétit !');
+}
+function toggleVoice() {
+  cook.voice = !cook.voice;
+  const btn = document.getElementById('cook-voice');
+  if (btn) btn.classList.toggle('on', cook.voice);
+  if (!cook.voice) { speechSynthesis && speechSynthesis.cancel(); if (cook.rec) { cook.rec.onend = null; cook.rec.stop(); cook.rec = null; } return; }
+  speakCurrent();
+  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (!SR) { showToast('Lecture à voix haute activée (commandes vocales non disponibles ici)'); return; }
+  const rec = new SR();
+  rec.lang = 'fr-FR'; rec.continuous = true; rec.interimResults = false;
+  rec.onresult = (e) => {
+    const said = norm(e.results[e.results.length - 1][0].transcript);
+    if (/suivant|apres|ensuite|continue/.test(said)) cookGo(1);
+    else if (/precedent|retour|avant/.test(said)) cookGo(-1);
+    else if (/repete|redis|encore/.test(said)) speakCurrent();
+    else if (/minuteur|timer|chrono/.test(said)) {
+      const st = cook.recipe.steps[cook.i - 1]; const sec = st && parseDuration(st.duration);
+      if (sec) addTimer(cook.i, sec); else say("Pas de durée pour cette étape.");
+    } else if (/stop|arrete|quitte/.test(said)) toggleVoice();
+  };
+  rec.onend = () => { if (cook.voice && cook.rec === rec) try { rec.start(); } catch {} };
+  try { rec.start(); cook.rec = rec; showToast('🎙️ Dis « suivant », « précédent », « répète » ou « minuteur »', 5000); } catch {}
+}
+
+function stopCooking() {
+  if (cook.voice) toggleVoice();
+  keepAwake(false);
+  document.querySelectorAll('.cook-mode').forEach(el => el.remove());
+  if (!cook.timers.some(t => !t.done)) { clearInterval(cook.tick); cook.tick = null; cook.timers = []; }
+  cook.recipe = null;
+}
+
 // Nombre de convives : base = « N pers. » de la recette, sinon 4
 const servingsState = {};
 const baseServings = (recipe) => { const m = String(recipe.serves || '').match(/(\d+)/); return m ? +m[1] : 4; };
@@ -232,6 +412,7 @@ function renderRecipeDetail(recipe) {
         <span>📊 ${recipe.difficulty}</span>
       </div>
     </div>
+    <button class="cook-start" onclick="window.app.startCooking('${recipe.id}')">👩‍🍳 Mode cuisine</button>
     ${embedHtml}
     <a href="${recipe.link}" target="_blank" class="source-link">${linkLabel}</a>
   `;
@@ -1355,7 +1536,7 @@ function deleteRecipe(id) {
 }
 
 window.app = {
-  search, openAdd, closeAdd, pasteAdd, submitAdd, openImported, setServings, openHomeCat, backToCats, toggleFav, orderIngredients, filterTag,
+  search, startCooking, stopCooking, cookGo, addTimer, removeTimer, toggleVoice, openAdd, closeAdd, pasteAdd, submitAdd, openImported, setServings, openHomeCat, backToCats, toggleFav, orderIngredients, filterTag,
   nav, goBack, deleteRecipe, setView, showRecipe, showChef, filter, filterChef,
   checkIng, checkStep, toggleDetail, showAsk, closeAsk, showShop, closeShop,
   toggleShopItem, copyShopList,
