@@ -8492,537 +8492,1885 @@ const RECIPES = [
     "tips": "La vidéo montre aussi une salade de quinoa : vinaigrette huile d'olive, citron vert, un peu de miel, 3 c.s. de vinaigre de riz, poivre noir et sel ; puis 3 belles poignées de quinoa, 2 carottes râpées, 1 avocat entier, 1 mini concombre, 2 belles poignées de pois chiches, un peu d'oignon rouge, raisins secs ou cranberries, éclats de pistache grillée, feta et menthe."
   },
   {
-    id: "tartinade-daubergines-et-poivrons",
-    title: "Tartinade D'Aubergines Et Poivrons",
-    emoji: "🥬",
-    cat: "accompagnement",
-    chef: "demotivateurfood_fr",
-    chefName: "Demotivateur Food",
-    time: "25min",
-    serves: "4 pers.",
-    difficulty: "Facile",
-    image: "img/DYm09nsgDPE.jpg",
-    link: "https://www.instagram.com/demotivateurfood_fr/reel/DYm09nsgDPE/",
-    linkType: "instagram",
-    veggie: true,
-    techniques: [],
-    ingredients: [
-      { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
+    "id": "tartinade-daubergines-et-poivrons",
+    "title": "Tartinade d'aubergines et poivrons rôtis",
+    "emoji": "🌶️",
+    "cat": "entree",
+    "chef": "demotivateurfood_fr",
+    "chefName": "Demotivateur Food",
+    "time": "—",
+    "serves": "—",
+    "difficulty": "Facile",
+    "image": "img/DYm09nsgDPE.jpg",
+    "link": "https://www.instagram.com/demotivateurfood_fr/reel/DYm09nsgDPE/",
+    "linkType": "instagram",
+    "veggie": true,
+    "techniques": [
+      {
+        "name": "papillote",
+        "ask": "Aliment enfermé dans du papier cuisson pour cuire à l'étouffée dans son jus."
+      }
     ],
-    steps: [
-      { text: "Ça c'est la tartinette de ton été, aubergine, poivron et haï, c'est incroyable et trop facile.", detail: "" },
-      { text: "Sur ta plaque, tu mets tes aubergines, tes poivrons et une tête d'ail avec de l'huile que t'enfermes dans une feuille cu", detail: "" },
-      { text: "Tu as ses ânes et ça part au four. Pendant ce temps, tu prépares des tranches de pain grillé, tu récupères tes légumes a", detail: "" },
-      { text: "Tu as joué du persifrait et ton aï qui a bien cuit et tu me mélanges tout ça. Tu as ses ânes, tu décores avec quelques p", detail: "" },
-      { text: "C'est tarpin bon ! Abonne-toi pour plusieurs sets.", detail: "" },
+    "ingredients": [
+      {
+        "qty": "QS",
+        "name": "aubergines",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "poivrons rouges",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1 tête",
+        "name": "ail",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "huile (d'olive)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "persil frais",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "pignons de pin",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "sel et poivre",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "pain (baguette) en tranches",
+        "rayon": "epicerie"
+      }
     ],
-    tips: ''
+    "steps": [
+      {
+        "text": "Disposer aubergines et poivrons sur une plaque, assaisonner",
+        "detail": ""
+      },
+      {
+        "text": "Envelopper la tête d'ail avec de l'huile dans une papillote de papier cuisson",
+        "detail": ""
+      },
+      {
+        "text": "Rôtir les légumes et l'ail au four",
+        "detail": "Les légumes doivent être bien fondants et la peau des poivrons noircie."
+      },
+      {
+        "text": "Pendant ce temps, faire griller les tranches de pain",
+        "detail": ""
+      },
+      {
+        "text": "Hacher très finement au couteau les légumes rôtis",
+        "detail": "On voit les légumes pelés avant d'être hachés."
+      },
+      {
+        "text": "Ajouter le persil frais et l'ail confit, mélanger et assaisonner",
+        "detail": ""
+      },
+      {
+        "text": "Parsemer de pignons et servir sur le pain grillé",
+        "detail": ""
+      }
+    ],
+    "tips": "Idéal à l'apéro, tartiné sur du pain grillé."
   },
   {
-    id: "je-suis-fan-de-cette-salade-de-steak-virale",
-    title: "Je suis fan de cette salade de steak virale",
-    emoji: "🥩",
-    cat: "viande",
-    chef: "louloukitchen_",
-    chefName: "Lou Elsener",
-    time: "45min",
-    serves: "4 pers.",
-    difficulty: "Facile",
-    image: "img/DYmFrKCt6Pe.jpg",
-    link: "https://www.instagram.com/louloukitchen_/reel/DYmFrKCt6Pe/",
-    linkType: "instagram",
-    veggie: false,
-    techniques: [],
-    ingredients: [
-      { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
+    "id": "je-suis-fan-de-cette-salade-de-steak-virale",
+    "title": "Salade de steak, brocolini et pois chiches",
+    "emoji": "🥩",
+    "cat": "viande",
+    "chef": "louloukitchen_",
+    "chefName": "Lou Elsener",
+    "time": "—",
+    "serves": "—",
+    "difficulty": "Facile",
+    "image": "img/DYmFrKCt6Pe.jpg",
+    "link": "https://www.instagram.com/louloukitchen_/reel/DYmFrKCt6Pe/",
+    "linkType": "instagram",
+    "veggie": false,
+    "techniques": [],
+    "ingredients": [
+      {
+        "qty": "QS",
+        "name": "jus de citron vert (autant que d'huile)",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "huile d'olive (autant que de citron vert)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 petite c.c.",
+        "name": "sauce soja",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "moutarde à l'ancienne (une pointe)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "sirop d'érable (une pointe)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "tomates cerises",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1/2",
+        "name": "concombre",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "brocolini (ou brocolis) cuits et refroidis",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1 poignée",
+        "name": "pois chiches égouttés",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1/2",
+        "name": "avocat (facultatif)",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "salade verte (batavia ou roquette)",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "cébettes (oignons nouveaux)",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1",
+        "name": "entrecôte (ou autre viande rouge à griller)",
+        "rayon": "boucherie"
+      },
+      {
+        "qty": "QS",
+        "name": "oignons crispy",
+        "rayon": "epicerie"
+      }
     ],
-    steps: [
-      { text: "Je suis autant amoureuse de cette salade que de mon mari. C'est pour vous donner le niveau de gourmandise de l'arsette.", detail: "" },
-      { text: "Vous mettez un mélange de citron vert et d'huile d'olive. Vous inquiétez pas, il y a autant de citron vert que d'huile d", detail: "" },
-      { text: "Ensuite, vous mettez une petite cuillère à café. Je le fais à l'œil de sauce soja.", detail: "" },
-      { text: "Et un tout petit peu, une pointe de moutarde. Je prends toujours la moutarde comme ça à l'ancienne.", detail: "" },
-      { text: "Une petite histoire d'aromatiser la sauce, ok ? Une petite pointe de sirop d'érable.", detail: "" },
-      { text: "Découpez des tomates cerises. Toc ! Un demi concombre, évidemment, vous adaptez les quantités en consommant d'une ou deu", detail: "" },
-      { text: "Mais j'adore les saveurs de la salade tellement bonne. Pour plus de fibres, j'ai cuis les brocolinis.", detail: "" },
-      { text: "Donc ça ressemble au brocolis, sauf que c'est un petit peu plus long. On n'en trouve pas partout, mais brocolis, ça fait", detail: "" },
-      { text: "Et ils sont évidemment refroidis. Donc ils sont passés sous l'eau froide après cuisson.", detail: "" },
-      { text: "Vous rajoutez une poignée de poêche chiché goûtée. Si vous pouvez, un demi avocat, mais là, c'est vraiment parce qu'il f", detail: "" },
+    "steps": [
+      {
+        "text": "Mélanger le citron vert et l'huile d'olive à parts égales dans un saladier",
+        "detail": "Autant de citron vert que d'huile d'olive."
+      },
+      {
+        "text": "Ajouter la sauce soja, une pointe de moutarde et de sirop d'érable",
+        "detail": ""
+      },
+      {
+        "text": "Ajouter les tomates cerises coupées et le concombre en rondelles",
+        "detail": "Adapter les quantités au nombre de personnes."
+      },
+      {
+        "text": "Ajouter les brocolini cuits refroidis, les pois chiches et l'avocat",
+        "detail": "Passer les brocolini sous l'eau froide après cuisson."
+      },
+      {
+        "text": "Ajouter la salade verte et les cébettes émincées",
+        "detail": ""
+      },
+      {
+        "text": "Griller l'entrecôte et la tailler en fines lamelles",
+        "detail": ""
+      },
+      {
+        "text": "Ajouter le steak, mélanger avec les mains et garnir d'oignons crispy",
+        "detail": ""
+      }
     ],
-    tips: ''
+    "tips": "Salade virale revisitée ; l'entrecôte peut être remplacée par n'importe quelle viande rouge à griller, la batavia par de la roquette."
   },
   {
-    id: "pavlova-exotique",
-    title: "Pavlova Exotique",
-    emoji: "🍰",
-    cat: "dessert",
-    chef: "lesgourmandisesdeloubna",
-    chefName: "Loubna JAIBI",
-    time: "40min",
-    serves: "6 pers.",
-    difficulty: "Moyen",
-    image: "img/DX4MKdxMJtf.jpg",
-    link: "https://www.instagram.com/lesgourmandisesdeloubna/reel/DX4MKdxMJtf/",
-    linkType: "instagram",
-    veggie: true,
-    techniques: [],
-    ingredients: [
-      { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
+    "id": "pavlova-exotique",
+    "title": "Pavlova exotique mangue-passion",
+    "emoji": "🥭",
+    "cat": "dessert",
+    "chef": "lesgourmandisesdeloubna",
+    "chefName": "Loubna JAIBI",
+    "time": "—",
+    "serves": "6 pers.",
+    "difficulty": "Moyen",
+    "image": "img/DX4MKdxMJtf.jpg",
+    "link": "https://www.instagram.com/lesgourmandisesdeloubna/reel/DX4MKdxMJtf/",
+    "linkType": "instagram",
+    "veggie": true,
+    "techniques": [
+      {
+        "name": "curd",
+        "ask": "Crème de fruit épaissie aux jaunes d'œufs et au beurre, comme un lemon curd."
+      },
+      {
+        "name": "filmer au contact",
+        "ask": "Poser le film alimentaire directement sur la crème pour éviter qu'une peau se forme."
+      }
     ],
-    steps: [
-      { text: "J'ai demandé à mes amis qui arrivent aujourd'hui est-ce que vous avez une préférence pour le dessert ?", detail: "" },
-      { text: "On dit on veut à Pavlova Ils sont trop à l'aise Ça tombait bien parce que j'ai trouvé une caisse de fruits de la passion", detail: "" },
-      { text: "Alors je ne me casse pas du tout la tête avec la poche à douille Dans une plaque de cuisson je mets toute ma meringue J'", detail: "" },
+    "ingredients": [
+      {
+        "qty": "4",
+        "name": "blancs d'œufs (meringue)",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "180 g",
+        "name": "sucre glace (meringue)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 c.s.",
+        "name": "maïzena (meringue)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 c.s.",
+        "name": "vinaigre blanc alimentaire",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "150 g",
+        "name": "mascarpone",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "150 ml",
+        "name": "crème liquide entière 30 % bien froide",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "2 c.s.",
+        "name": "noix de coco râpée",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 c.s.",
+        "name": "sucre glace (chantilly)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "150 ml",
+        "name": "jus de fruit de la passion (environ 6 fruits)",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "4",
+        "name": "jaunes d'œufs (curd)",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "2 c.s.",
+        "name": "sucre (curd)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 c.s.",
+        "name": "maïzena (curd)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 filet",
+        "name": "jus de citron vert",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1",
+        "name": "pulpe de fruit de la passion avec les pépins",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1 c.s.",
+        "name": "beurre",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "QS",
+        "name": "mangue en petits dés",
+        "rayon": "legumes"
+      }
     ],
-    tips: ''
+    "steps": [
+      {
+        "text": "Tamiser le sucre glace et la maïzena",
+        "detail": "Indispensable pour une meringue bien lisse."
+      },
+      {
+        "text": "Monter les blancs en neige très ferme en ajoutant le sucre",
+        "detail": "Ajouter la cuillère de vinaigre blanc tout à la fin."
+      },
+      {
+        "text": "Étaler la meringue en cercle sur la plaque et creuser le centre",
+        "detail": "Cercle d'environ 22 cm, sans poche à douille ; faire des pétales sur le bord avec le dos d'une cuillère."
+      },
+      {
+        "text": "Cuire la meringue",
+        "duration": "1h20 à 1h30",
+        "temperature": "110 °C",
+        "detail": ""
+      },
+      {
+        "text": "Épaissir sur feu moyen sucre, maïzena, jaunes, jus de passion et citron",
+        "detail": "Filtrer le jus de 6 fruits de la passion ; ajouter ensuite la pulpe avec les graines. Un fruit ridé est bien mûr."
+      },
+      {
+        "text": "Hors du feu, incorporer le beurre au curd, filmer au contact et refroidir",
+        "detail": "Laisser refroidir complètement avant le montage."
+      },
+      {
+        "text": "Fouetter la crème froide avec le mascarpone, le sucre glace et la coco",
+        "detail": "Chantilly mascarpone à la noix de coco râpée."
+      },
+      {
+        "text": "Garnir la meringue de chantilly, de curd puis de dés de mangue",
+        "detail": ""
+      }
+    ],
+    "tips": "Les blancs servent à la meringue et les jaunes au curd : rien ne se perd."
   },
   {
-    id: "encore-une-recette-toute-simple-pour-ce",
-    title: "Encore une recette toute simple pour ce",
-    emoji: "🥗",
-    cat: "entree",
-    chef: "not_so_superflu",
-    chefName: "Monelle Godaert",
-    time: "2min",
-    serves: "4 pers.",
-    difficulty: "Facile",
-    image: "img/DYSlwnIIixO.jpg",
-    link: "https://www.instagram.com/not_so_superflu/reel/DYSlwnIIixO/",
-    linkType: "instagram",
-    veggie: true,
-    techniques: [],
-    ingredients: [
-      { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
+    "id": "encore-une-recette-toute-simple-pour-ce",
+    "title": "Salade de pommes de terre au yaourt grec et zaatar",
+    "emoji": "🥔",
+    "cat": "plat",
+    "chef": "not_so_superflu",
+    "chefName": "Monelle Godaert",
+    "time": "—",
+    "serves": "—",
+    "difficulty": "Facile",
+    "image": "img/DYSlwnIIixO.jpg",
+    "link": "https://www.instagram.com/not_so_superflu/reel/DYSlwnIIixO/",
+    "linkType": "instagram",
+    "veggie": true,
+    "techniques": [
+      {
+        "name": "œuf mollet",
+        "ask": "Œuf cuit dans sa coquille juste assez pour que le blanc soit pris et le jaune coulant."
+      }
     ],
-    steps: [
-      { text: "Pour ce soir, j'ai fait très simple, très rapide et très bon. J'ai pris un gros pot d'iaos grec de 500 g, la moutarde de", detail: "" },
-      { text: "Vous voyez, c'est un mélange, il y a du thym, du sous-mâque, du sel, du sésame, de sorte de sésame d'ailleurs dans ce za", detail: "" },
-      { text: "Donc on mélange bien et ensuite j'étale ça au fond de mon plat. J'ai juste fait cuire des petites pommes de terre à l'ea", detail: "" },
-      { text: "Franchement, ce n'est pas compliqué. Ensuite, j'ai mis des concombres, donc c'est des mini concombres.", detail: "" },
-      { text: "Je les ai juste coupées, c'est très facile aussi. Un mavoca entier. Après, vous n'êtes pas obligés de tout mettre comme ", detail: "" },
-      { text: "Là, j'ai mis des oignons rouges et des olives de calamata. J'ai mis 5-6 feuilles de menthe et des éclats de pistache gri", detail: "" },
-      { text: "Je les achète déjà comme ça, déjà en éclats et déjà grillés, c'est trop bon. Voilà, on pofine avec roue, un petit peu de", detail: "" },
-      { text: "J'ai fait des oeufs mollets, c'était plutôt parfait. Ensuite, bien évidemment, vous prenez un bon pain.", detail: "" },
-      { text: "Je dois dire que celui-ci est juste merveilleux. Voilà, vous saucez, vous tartinez, vous faites comme vous aimez.", detail: "" },
-      { text: "Franchement, c'est tout simple à faire, un pur régal. Je vous conseille d'essayer.", detail: "" },
+    "ingredients": [
+      {
+        "qty": "500 g",
+        "name": "yaourt grec épais",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "1",
+        "name": "citron pressé",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1 cuillère",
+        "name": "moutarde de Dijon",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 grosse c.s.",
+        "name": "zaatar (+ un peu pour finir)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 c.c.",
+        "name": "sel",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 c.c.",
+        "name": "poivre",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "3 c.s.",
+        "name": "huile d'olive",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "5",
+        "name": "pommes de terre moyennes cuites à l'eau ou à la vapeur",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "2",
+        "name": "mini concombres",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1/2",
+        "name": "oignon rouge",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1",
+        "name": "avocat",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1 poignée",
+        "name": "éclats de pistaches grillées",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "15",
+        "name": "olives de Kalamata",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "6 à 7 feuilles",
+        "name": "menthe fraîche",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "2 ou 3",
+        "name": "œufs mollets",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "QS",
+        "name": "bon pain pour saucer",
+        "rayon": "epicerie"
+      }
     ],
-    tips: ''
+    "steps": [
+      {
+        "text": "Mélanger le yaourt grec, la moutarde, le sel, le poivre, le citron et le zaatar",
+        "detail": "Le zaatar est un mélange de thym, sumac, sel et sésame."
+      },
+      {
+        "text": "Étaler la sauce au yaourt au fond du plat",
+        "detail": "On voit un filet d'huile d'olive dans le mélange."
+      },
+      {
+        "text": "Répartir les pommes de terre cuites en morceaux",
+        "detail": ""
+      },
+      {
+        "text": "Ajouter les mini concombres en rondelles et l'avocat en dés",
+        "detail": ""
+      },
+      {
+        "text": "Ajouter l'oignon rouge émincé et les olives",
+        "detail": ""
+      },
+      {
+        "text": "Parsemer de menthe, pistaches, zaatar et arroser d'huile d'olive",
+        "detail": ""
+      },
+      {
+        "text": "Déposer les œufs mollets coupés en deux et servir avec du pain",
+        "detail": "Saucer ou tartiner avec le pain."
+      }
+    ],
+    "tips": "On peut retirer les ingrédients qu'on n'aime pas. Les pistaches s'achètent déjà grillées et en éclats."
   },
   {
-    id: "le-tian-farci-du",
-    title: "Le Tian farci du",
-    emoji: "🥬",
-    cat: "accompagnement",
-    chef: "xavier_pincemin",
-    chefName: "Xavier Pincemin",
-    time: "25min",
-    serves: "4 pers.",
-    difficulty: "Facile",
-    image: "img/DYbxk2NMBKh.jpg",
-    link: "https://www.instagram.com/xavier_pincemin/reel/DYbxk2NMBKh/",
-    linkType: "instagram",
-    veggie: true,
-    techniques: [],
-    ingredients: [
-      { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
+    "id": "le-tian-farci-du",
+    "title": "Tian farci aubergines et courgettes",
+    "emoji": "🍆",
+    "cat": "viande",
+    "chef": "xavier_pincemin",
+    "chefName": "Xavier Pincemin",
+    "time": "—",
+    "serves": "—",
+    "difficulty": "Avancé",
+    "image": "img/DYbxk2NMBKh.jpg",
+    "link": "https://www.instagram.com/xavier_pincemin/reel/DYbxk2NMBKh/",
+    "linkType": "instagram",
+    "veggie": false,
+    "techniques": [
+      {
+        "name": "snacker",
+        "ask": "Saisir rapidement à feu vif pour colorer."
+      },
+      {
+        "name": "salamandre",
+        "ask": "Gril professionnel qui chauffe par le dessus pour gratiner (équivalent : gril du four)."
+      }
     ],
-    steps: [
-      { text: "Il y a un vrai problème aujourd'hui. Il y a un vrai problème aujourd'hui. C'est qu'à la carte du rescateur, il y a le ch", detail: "" },
-      { text: "Sauf que c'est plus la saison du chou. On me dit, ok, là je suis un chef, il faut trouver une recette.", detail: "" },
-      { text: "On va essayer ensemble le tian farci. Tu vois ces deux légumes-là, j'ai des pré-cuis, snackés à l'avance refroidis.", detail: "" },
-      { text: "Je prends mes aubergines et je les mets dedans. Je me suis inspiré d'une parmi-diarna et en même temps, je me suis inspi", detail: "" },
-      { text: "Donc ça, tu vois, c'est la farce. On va faire plusieurs étages. Là, je mets ma farce.", detail: "" },
-      { text: "Toi, je viens de tasser. Toi, là, je viens d'avoir une idée, les gars. On va mettre des courgettes sur le côté.", detail: "" },
-      { text: "Ça va faire un esprit vraiment légumes farci. Et là, je rajoute une couche de courgettes.", detail: "" },
-      { text: "Je remets un petit peu de farce. Je viens de tout bien étaler. Ensuite, je viens de fermer avec mes aubergines.", detail: "" },
-      { text: "Refermer mes courgettes dessus. Ensuite, ça part au four. Ok, regarde, là, le résultat.", detail: "" },
-      { text: "Là, je suis à 40 minutes à 220 degrés. Hop, magnifique. J'ai une sauce tomate comme ça tout autour.", detail: "" },
+    "ingredients": [
+      {
+        "qty": "QS",
+        "name": "aubergines en tranches, précuites (snackées) et refroidies",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "courgettes en tranches, précuites (snackées) et refroidies",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "farce à la viande aux herbes (composition non précisée)",
+        "rayon": "boucherie"
+      },
+      {
+        "qty": "QS",
+        "name": "sauce tomate",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "carottes en brunoise",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "oignons en brunoise",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "chapelure",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "crème d'Isigny",
+        "rayon": "cremerie"
+      }
     ],
-    tips: ''
+    "steps": [
+      {
+        "text": "Précuire les tranches d'aubergine et de courgette, puis les laisser refroidir",
+        "detail": "Les légumes sont snackés à l'avance."
+      },
+      {
+        "text": "Tapisser le plat de tranches d'aubergine",
+        "detail": ""
+      },
+      {
+        "text": "Ajouter une couche de farce et bien tasser",
+        "detail": ""
+      },
+      {
+        "text": "Disposer des courgettes sur les côtés puis une couche de courgettes",
+        "detail": "Les courgettes sur les bords donnent l'esprit « légumes farcis »."
+      },
+      {
+        "text": "Remettre de la farce, l'étaler, puis refermer avec aubergines et courgettes",
+        "detail": "Monter en plusieurs étages."
+      },
+      {
+        "text": "Enfourner",
+        "duration": "40 min",
+        "temperature": "220 °C",
+        "detail": ""
+      },
+      {
+        "text": "Napper le tour de sauce tomate à la brunoise de carottes et oignons",
+        "detail": "La sauce doit gratiner et prendre un goût de tomate caramélisée."
+      },
+      {
+        "text": "Parsemer de chapelure et gratiner sous la salamandre",
+        "detail": "À la maison : position gril du four. On cherche le croustillant sur les côtés."
+      },
+      {
+        "text": "Servir avec une cuillère de crème d'Isigny",
+        "detail": "Pour apporter de la fraîcheur."
+      }
+    ],
+    "tips": "Version d'été du chou farci du restaurant Rescator, inspirée de la parmigiana et du tian provençal."
   },
   {
-    id: "une-addiction-cette-salade-de-concombre-spicy-avec",
-    title: "Une addiction cette salade de concombre spicy avec la",
-    emoji: "🥗",
-    cat: "entree",
-    chef: "louloukitchen_",
-    chefName: "Lou Elsener",
-    time: "20min",
-    serves: "4 pers.",
-    difficulty: "Facile",
-    image: "img/DYWue7LtPTf.jpg",
-    link: "https://www.instagram.com/louloukitchen_/reel/DYWue7LtPTf/",
-    linkType: "instagram",
-    veggie: true,
-    techniques: [],
-    ingredients: [
-      { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
+    "id": "une-addiction-cette-salade-de-concombre-spicy-avec",
+    "title": "Salade de concombre au thon, harissa et sauce soja",
+    "emoji": "🥒",
+    "cat": "poisson",
+    "chef": "louloukitchen_",
+    "chefName": "Lou Elsener",
+    "time": "—",
+    "serves": "—",
+    "difficulty": "Facile",
+    "image": "img/DYWue7LtPTf.jpg",
+    "link": "https://www.instagram.com/louloukitchen_/reel/DYWue7LtPTf/",
+    "linkType": "instagram",
+    "veggie": false,
+    "techniques": [],
+    "ingredients": [
+      {
+        "qty": "QS",
+        "name": "concombre en bâtonnets",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1 boîte",
+        "name": "thon à l'huile, égoutté (pas forcément toute la boîte)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "cébettes (le vert)",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "coriandre (ou ciboulette)",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1 c.c.",
+        "name": "harissa tunisienne",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "sauce soja (une pointe)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "sel (une petite pincée)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "riz cuit (pour servir)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "mayonnaise japonaise (pour servir)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "feuilles de nori (pour servir)",
+        "rayon": "epicerie"
+      }
     ],
-    steps: [
-      { text: "Souvent quand je vous dis que je fais des recettes de la flemme, vous dites mais non, c'est pas des vraies recettes de f", detail: "" },
-      { text: "Nous, quand on fait une recette de flemme, c'est genre des pâtes au beurre. Mais je vais pas prendre mon téléphone pour ", detail: "" },
-      { text: "Ça, ça prend 5 minutes. Vous allez vous manger les doigts. C'est ma salade de concombres en fait.", detail: "" },
-      { text: "Déjà le concombre, je l'ai cuisiné sous toutes ces formes, mais ma façon préférée, c'est de le manger en bâtonnée.", detail: "" },
-      { text: "Donc vous mettez des bâtonnées de concombres dans un tupperroir. Un tupperroir ?", detail: "" },
-      { text: "Un tupperroir. Ok, comme ça. Une boîte de tonne à lune, mais je vais quand même retirer l'une.", detail: "" },
-      { text: "Je vais peut-être pas mettre toute la boîte de tonne. Toujours avoir dans son frigo des cébetes, des oignons cébetes com", detail: "" },
-      { text: "Moi je vais récupérer que le verre de cébetes. Et pareil, je vais acheter aussi ma coriandre.", detail: "" },
-      { text: "Si vraiment vous n'aimez pas la coriandre, vous mettez de la ciboulette, c'est délicieux aussi.", detail: "" },
-      { text: "On récupère tout. On finit avec un peu de harissa. Je mets une cuillère à café. Pointe de sauce au ja.", detail: "" },
+    "steps": [
+      {
+        "text": "Couper le concombre en bâtonnets et les mettre dans une boîte hermétique",
+        "detail": ""
+      },
+      {
+        "text": "Ajouter le thon en retirant l'huile de la boîte",
+        "detail": ""
+      },
+      {
+        "text": "Émincer le vert des cébettes et hacher la coriandre, les ajouter",
+        "detail": "La coriandre peut être remplacée par de la ciboulette."
+      },
+      {
+        "text": "Assaisonner avec la harissa, la sauce soja et le sel",
+        "detail": ""
+      },
+      {
+        "text": "Fermer la boîte et secouer vigoureusement",
+        "detail": "Il faut y aller franchement pour bien enrober."
+      },
+      {
+        "text": "Servir avec du riz, de la mayo japonaise et des feuilles de nori",
+        "detail": "Garnir une feuille de nori de mayo et de concombre spicy, comme un petit snack."
+      }
     ],
-    tips: ''
+    "tips": "Recette « de la flemme » : avec le riz et le thon, ça fait un repas complet."
   },
   {
-    id: "ingredients-DXpCj0",
-    title: "Ingrédients",
-    emoji: "🥩",
-    cat: "viande",
-    chef: "fannymlacuisine",
-    chefName: "Fanny Masri | Creatrice de recettes raffinées | Art de la table",
-    time: "45min",
-    serves: "4 pers.",
-    difficulty: "Facile",
-    image: "img/DXpCj03jJz8.jpg",
-    link: "https://www.instagram.com/fannymlacuisine/reel/DXpCj03jJz8/",
-    linkType: "instagram",
-    veggie: false,
-    techniques: [],
-    ingredients: [
-      { qty: "6", name: "Hauts de cuisses de poulet", rayon: 'epicerie' },
-      { qty: "4", name: "Pommes de terre", rayon: 'epicerie' },
-      { qty: "QS", name: "Un sachet de Petits pois surgelés", rayon: 'epicerie' },
-      { qty: "2", name: "oignons", rayon: 'epicerie' },
-      { qty: "1 cc", name: "de Paprika", rayon: 'epicerie' },
-      { qty: "1 cc", name: "de Poudre de consommé de poulet", rayon: 'epicerie' },
-      { qty: "QS", name: "Sel", rayon: 'epicerie' },
-      { qty: "QS", name: "Un peu de Piment séché", rayon: 'epicerie' },
-      { qty: "1 cc", name: "de Curcuma", rayon: 'epicerie' },
-      { qty: "2 cs", name: "de concentré de tomate", rayon: 'epicerie' },
-      { qty: "QS", name: "Eau", rayon: 'epicerie' },
+    "id": "ingredients-DXpCj0",
+    "title": "Poulet, pommes de terre et petits pois au four",
+    "emoji": "🍗",
+    "cat": "viande",
+    "chef": "fannymlacuisine",
+    "chefName": "Fanny Masri | Creatrice de recettes raffinées | Art de la table",
+    "time": "—",
+    "serves": "—",
+    "difficulty": "Facile",
+    "image": "img/DXpCj03jJz8.jpg",
+    "link": "https://www.instagram.com/fannymlacuisine/reel/DXpCj03jJz8/",
+    "linkType": "instagram",
+    "veggie": false,
+    "techniques": [],
+    "ingredients": [
+      {
+        "qty": "6",
+        "name": "hauts de cuisses de poulet",
+        "rayon": "boucherie"
+      },
+      {
+        "qty": "4",
+        "name": "pommes de terre",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1 sachet",
+        "name": "petits pois surgelés",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "2",
+        "name": "oignons",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1 c.c.",
+        "name": "paprika",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 c.c.",
+        "name": "poudre de consommé de poulet",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "sel",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "piment séché (un peu)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 c.c.",
+        "name": "curcuma",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "2 c.s.",
+        "name": "concentré de tomate",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 verre",
+        "name": "eau",
+        "rayon": "boissons"
+      }
     ],
-    steps: [
-      { text: "Aujourd'hui je te montre mon plat magique, tout dans la même marmite, zéro prise de tête.", detail: "" },
-      { text: "On commence par faire bien doré les eaux de cuisse de poulet côté peau. Puis on les retourne pour qu'ils soient bien col", detail: "" },
-      { text: "Ensuite j'ajoute des oignons émincés et toutes mes épices, du paprika, de la poudre de consommé de poulet, du sel, du pi", detail: "" },
-      { text: "J'ajoute du concentré de tomates et je couvre le tout d'eux. Puis j'ajoute mes pommes de terre coupés façon pothée douze", detail: "" },
-      { text: "Je couvre mon plat direction le four pour une heure de cuisson. Résultat, un plat ultra réconfortant, plein de saveurs e", detail: "" },
-      { text: "Simple, rapide et efficace, tout ce que j'aime.", detail: "" },
+    "steps": [
+      {
+        "text": "Dorer les hauts de cuisses côté peau dans une marmite allant au four",
+        "detail": "Tout se fait dans la même marmite."
+      },
+      {
+        "text": "Retourner les cuisses pour bien les colorer de l'autre côté",
+        "detail": ""
+      },
+      {
+        "text": "Ajouter les oignons émincés, toutes les épices et le concentré de tomate",
+        "detail": "Paprika, consommé de poulet, sel, piment séché, curcuma."
+      },
+      {
+        "text": "Verser un seul verre d'eau",
+        "detail": "Pas plus : le poulet va lâcher beaucoup de jus."
+      },
+      {
+        "text": "Ajouter les pommes de terre coupées façon potatoes et les petits pois",
+        "detail": "Pommes de terre en quartiers dans la longueur."
+      },
+      {
+        "text": "Couvrir et enfourner",
+        "duration": "1h",
+        "temperature": "180 °C",
+        "detail": ""
+      }
     ],
-    tips: ''
+    "tips": "Plat complet tout-en-un, sans prise de tête."
   },
   {
-    id: "dos-de-cabillaud",
-    title: "Dos de cabillaud",
-    emoji: "🐟",
-    cat: "poisson",
-    chef: "juliensebbag",
-    chefName: "Julien Sebbag",
-    time: "9min",
-    serves: "4 pers.",
-    difficulty: "Facile",
-    image: "img/DV9Ap-5jP4p.jpg",
-    link: "https://www.instagram.com/juliensebbag/reel/DV9Ap-5jP4p/",
-    linkType: "instagram",
-    veggie: false,
-    techniques: [],
-    ingredients: [
-      { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
+    "id": "dos-de-cabillaud",
+    "title": "Dos de cabillaud et shiitakés rôtis au miso, riz noir",
+    "emoji": "🐟",
+    "cat": "poisson",
+    "chef": "juliensebbag",
+    "chefName": "Julien Sebbag",
+    "time": "—",
+    "serves": "—",
+    "difficulty": "Moyen",
+    "image": "img/DV9Ap-5jP4p.jpg",
+    "link": "https://www.instagram.com/juliensebbag/reel/DV9Ap-5jP4p/",
+    "linkType": "instagram",
+    "veggie": false,
+    "techniques": [
+      {
+        "name": "mouiller à hauteur",
+        "ask": "Ajouter du liquide jusqu'à recouvrir juste les ingrédients."
+      }
     ],
-    steps: [
-      { text: "On va reprendre, on déglace au vin. Mais quoi ? La folie ! Pour que je retourne sur une assiette à 16h30, c'est vraiment", detail: "" },
+    "ingredients": [
+      {
+        "qty": "QS",
+        "name": "dos de cabillaud",
+        "rayon": "boucherie"
+      },
+      {
+        "qty": "QS",
+        "name": "champignons shiitakés",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "miso",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "vinaigre de riz",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "huile de sésame",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "sauce soja",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "riz noir",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "fumet de poisson",
+        "rayon": "boissons"
+      },
+      {
+        "qty": "QS",
+        "name": "vin blanc",
+        "rayon": "boissons"
+      },
+      {
+        "qty": "QS",
+        "name": "noisettes",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "cébette (oignon nouveau)",
+        "rayon": "legumes"
+      }
     ],
-    tips: ''
+    "steps": [
+      {
+        "text": "Mélanger le miso, le vinaigre de riz, l'huile de sésame et la sauce soja",
+        "detail": "C'est la marinade du poisson et des shiitakés."
+      },
+      {
+        "text": "Enrober le dos de cabillaud et les shiitakés de marinade miso",
+        "detail": ""
+      },
+      {
+        "text": "Faire revenir le riz noir, déglacer au vin blanc",
+        "detail": "D'après l'audio : on déglace au vin blanc puis on mouille à hauteur."
+      },
+      {
+        "text": "Mouiller le riz à hauteur de fumet de poisson et le laisser cuire",
+        "detail": "Le riz cuit dans le fumé de poisson."
+      },
+      {
+        "text": "Rôtir le cabillaud et les shiitakés au four",
+        "duration": "9 min",
+        "temperature": "190 °C",
+        "detail": ""
+      },
+      {
+        "text": "Dresser avec les noisettes et la cébette émincée",
+        "detail": ""
+      }
+    ],
+    "tips": "Recette donnée en version courte par le chef : seules la marinade et la cuisson du poisson sont précisées."
   },
   {
-    id: "mon-langage-de-l",
-    title: "Mon langage de l",
-    emoji: "🥩",
-    cat: "viande",
-    chef: "louloukitchen_",
-    chefName: "Lou Elsener",
-    time: "45min",
-    serves: "4 pers.",
-    difficulty: "Facile",
-    image: "img/DX9iVZcNsay.jpg",
-    link: "https://www.instagram.com/louloukitchen_/reel/DX9iVZcNsay/",
-    linkType: "instagram",
-    veggie: false,
-    techniques: [],
-    ingredients: [
-      { qty: "QS", name: "Une aubergine", rayon: 'epicerie' },
-      { qty: "1 cas", name: "de concentré de tomate", rayon: 'epicerie' },
-      { qty: "1", name: "oignon rouge", rayon: 'epicerie' },
-      { qty: "2", name: "gousses d’ail", rayon: 'epicerie' },
-      { qty: "QS", name: "Une boîte de pulpe de tomate ou sauce tomate", rayon: 'epicerie' },
-      { qty: "QS", name: "Des spaghettis", rayon: 'epicerie' },
-      { qty: "QS", name: "Huile d’olive ( 4 litres 🤣)", rayon: 'epicerie' },
+    "id": "mon-langage-de-l",
+    "title": "Spaghettis aux merguez et aubergines",
+    "emoji": "🍝",
+    "cat": "pates",
+    "chef": "louloukitchen_",
+    "chefName": "Lou Elsener",
+    "time": "—",
+    "serves": "—",
+    "difficulty": "Facile",
+    "image": "img/DX9iVZcNsay.jpg",
+    "link": "https://www.instagram.com/louloukitchen_/reel/DX9iVZcNsay/",
+    "linkType": "instagram",
+    "veggie": false,
+    "techniques": [
+      {
+        "name": "al dente",
+        "ask": "Pâtes cuites mais encore légèrement fermes sous la dent."
+      }
     ],
-    steps: [
-      { text: "Comme t'es un petit peu stressée à cause du travail, je me suis dit que j'allais te faire le plat de ton enfance aujourd", detail: "" },
-      { text: "C'est gentil, elle est gentil maintenant. Elle est très gentil maman. Des spaghettis au merguez.", detail: "" },
-      { text: "C'est pas le point de mon enfance, tu veux te te dire quoi ? Ça sera le plat de ton enfance pour la vidéo.", detail: "" },
-      { text: "Bon il est de mauvaise foi mais c'est pas grave, je vais pas me laisser à battre.", detail: "" },
-      { text: "La première étape c'est hyper facile à faire mais vous allez vraiment vous manger les doigts.", detail: "" },
-      { text: "C'est de mettre un bon filet d'huile d'olive dans une poêle. Ajouter du concentré de tomate qu'on va venir un petit peu ", detail: "" },
-      { text: "C'est ça qui va aussi enlever cette acidité. Vous ajoutez de bouss d'ail et un oignon rouge.", detail: "" },
-      { text: "Vous prenez ensuite une aubergine. On va découper en petit dé. Donc moi ce que je fais c'est que je fais toujours des pe", detail: "" },
-      { text: "Voilà et vous pouvez très bien remplacer par une courgette. C'est tout autant délicieux.", detail: "" },
-      { text: "Vous voyez là ça commence à bien griller et avant de cuire les aubergines, il faut absolument faire revenir les merguez.", detail: "" },
+    "ingredients": [
+      {
+        "qty": "1",
+        "name": "aubergine",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1 c.s.",
+        "name": "concentré de tomate",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1",
+        "name": "oignon rouge",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "2 gousses",
+        "name": "ail",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1 boîte",
+        "name": "pulpe de tomate ou sauce tomate",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "spaghettis",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "huile d'olive (généreusement)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "4/5",
+        "name": "merguez non piquantes",
+        "rayon": "boucherie"
+      },
+      {
+        "qty": "QS",
+        "name": "sel",
+        "rayon": "epicerie"
+      }
     ],
-    tips: ''
+    "steps": [
+      {
+        "text": "Émincer l'oignon rouge et l'ail, couper l'aubergine en petits dés",
+        "detail": "L'aubergine peut être remplacée par une courgette."
+      },
+      {
+        "text": "Faire griller les merguez à l'huile d'olive puis les retirer de la poêle",
+        "detail": "Les merguez se cuisent avant les aubergines ; les retirer quand elles sont bien grillées."
+      },
+      {
+        "text": "Saisir les aubergines dans la même poêle et les saler légèrement",
+        "detail": "Les laisser bien dorer."
+      },
+      {
+        "text": "Cuire les spaghettis al dente",
+        "detail": "C'est aussi très bon avec des coquillettes."
+      },
+      {
+        "text": "Ajouter le concentré et la sauce tomate aux aubergines dorées",
+        "detail": ""
+      },
+      {
+        "text": "Remettre une partie des merguez dans la sauce",
+        "detail": "Juste pour qu'elles s'imprègnent ; garder le reste pour le dessus."
+      },
+      {
+        "text": "Ajouter les spaghettis avec un peu d'eau de cuisson et mélanger",
+        "detail": "Ne pas égoutter : les prendre à la pince pour garder un peu d'eau de cuisson."
+      },
+      {
+        "text": "Servir avec le reste des merguez par-dessus",
+        "detail": ""
+      }
+    ],
+    "tips": "Version relevée : prendre des merguez piquantes et ajouter de la harissa dans la sauce. Inspiré d'un plat goûté en Tunisie."
   },
   {
-    id: "poulet-marry-me",
-    title: "Poulet Marry me",
-    emoji: "🥩",
-    cat: "viande",
-    chef: "benjaminfurno",
-    chefName: "Benjamin Furno",
-    time: "45min",
-    serves: "4 pers.",
-    difficulty: "Facile",
-    image: "img/DXzb2wTMTZQ.jpg",
-    link: "https://www.instagram.com/benjaminfurno/reel/DXzb2wTMTZQ/",
-    linkType: "instagram",
-    veggie: false,
-    techniques: [],
-    ingredients: [
-      { qty: "6", name: "hauts de cuisse de poulet", rayon: 'epicerie' },
-      { qty: "60g", name: "de farine", rayon: 'epicerie' },
-      { qty: "QS", name: "Huile + beurre", rayon: 'epicerie' },
-      { qty: "3", name: "échalotes", rayon: 'epicerie' },
-      { qty: "200ml", name: "de bouillon de poulet", rayon: 'epicerie' },
-      { qty: "300ml", name: "de crème liquide 30%", rayon: 'epicerie' },
-      { qty: "3 cas", name: "de paprika doux", rayon: 'epicerie' },
-      { qty: "1 cas", name: "de piment doux", rayon: 'epicerie' },
-      { qty: "1 cas", name: "d’herbes de Provence", rayon: 'epicerie' },
-      { qty: "QS", name: "Poivre", rayon: 'epicerie' },
-      { qty: "3", name: "tomates séchées", rayon: 'epicerie' },
-      { qty: "3", name: "gousses d’ail", rayon: 'epicerie' },
-      { qty: "50g", name: "de parmesan", rayon: 'epicerie' },
-      { qty: "QS", name: "Persil", rayon: 'epicerie' },
+    "id": "poulet-marry-me",
+    "title": "Poulet Marry Me",
+    "emoji": "🍗",
+    "cat": "viande",
+    "chef": "benjaminfurno",
+    "chefName": "Benjamin Furno",
+    "time": "—",
+    "serves": "—",
+    "difficulty": "Facile",
+    "image": "img/DXzb2wTMTZQ.jpg",
+    "link": "https://www.instagram.com/benjaminfurno/reel/DXzb2wTMTZQ/",
+    "linkType": "instagram",
+    "veggie": false,
+    "techniques": [
+      {
+        "name": "déglacer",
+        "ask": "Verser un liquide dans la cocotte chaude pour décoller les sucs de cuisson."
+      },
+      {
+        "name": "sucs",
+        "ask": "Dépôts caramélisés laissés au fond par la viande, pleins de goût."
+      }
     ],
-    steps: [
-      { text: "Il ne faut surtout pas que tu fasses cette recette de poulet parce que tu risquerais de devenir addict, mais je vais qua", detail: "" },
-      { text: "Allez, c'est parti. Regardez-moi cette tendreté-là. Magnifique. Bref, tu vas commencer par enfariner tes eaux de cuisse ", detail: "" },
-      { text: "Le but, ça va être de les colorer pour obtenir une peau bien croustillante. Une fois cette étape, tu débarasses le poule", detail: "" },
-      { text: "Tu vas voir les odeurs, c'est incroyable. Tu les déglaces avec ton bouillon de poulet, toutes les quantités sont en desc", detail: "" },
-      { text: "Ensuite, tu mets la crème, les épices, les tomates séchées, l'ayaché, le parmesan et une bonne dose de poivre.", detail: "" },
-      { text: "Tu fais mijoter ça à feu doux pendant une dizaine de minutes. Ensuite, tu peux remettre ton poulet, tu couvres et tu bal", detail: "" },
-      { text: "Et voilà le résultat, un petit peu de persil sur le dessus. Tu manges ça avec jeuris, c'est parfait et bon appétit.", detail: "" },
-      { text: "C'est tellement bon. Et comme d'habitude, si la vidéo t'a plu, n'hésite pas. A liker, à commenter et à t'abonner pour pl", detail: "" },
-      { text: "Ciao !", detail: "" },
+    "ingredients": [
+      {
+        "qty": "6",
+        "name": "hauts de cuisse de poulet",
+        "rayon": "boucherie"
+      },
+      {
+        "qty": "60 g",
+        "name": "farine",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "huile",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "beurre",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "3",
+        "name": "échalotes",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "200 ml",
+        "name": "bouillon de poulet",
+        "rayon": "boissons"
+      },
+      {
+        "qty": "300 ml",
+        "name": "crème liquide 30 %",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "3 c.s.",
+        "name": "paprika doux",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 c.s.",
+        "name": "piment doux",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 c.s.",
+        "name": "herbes de Provence",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "poivre (une bonne dose)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "3",
+        "name": "tomates séchées",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "3 gousses",
+        "name": "ail haché",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "50 g",
+        "name": "parmesan",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "QS",
+        "name": "persil",
+        "rayon": "legumes"
+      }
     ],
-    tips: ''
+    "steps": [
+      {
+        "text": "Fariner les hauts de cuisse",
+        "detail": ""
+      },
+      {
+        "text": "Les colorer dans une cocotte bien chaude avec l'huile et le beurre",
+        "detail": "Le but : une peau bien croustillante. Puis débarrasser le poulet."
+      },
+      {
+        "text": "Faire revenir les échalotes ciselées dans les sucs de cuisson",
+        "detail": ""
+      },
+      {
+        "text": "Déglacer avec le bouillon de poulet",
+        "detail": ""
+      },
+      {
+        "text": "Ajouter crème, épices, tomates séchées, ail haché, parmesan et poivre",
+        "detail": "Une bonne dose de poivre."
+      },
+      {
+        "text": "Laisser mijoter à feu doux",
+        "duration": "une dizaine de minutes",
+        "detail": ""
+      },
+      {
+        "text": "Remettre le poulet, couvrir et enfourner",
+        "duration": "une trentaine de minutes",
+        "temperature": "180 °C",
+        "detail": ""
+      },
+      {
+        "text": "Parsemer de persil et servir avec du riz",
+        "detail": ""
+      }
+    ],
+    "tips": "Se sert avec du riz blanc."
   },
   {
-    id: "des-carottes-fondantes",
-    title: "Des carottes fondantes",
-    emoji: "🥗",
-    cat: "entree",
-    chef: "abdelalaouiofficiel",
-    chefName: "Abdel Alaoui Officiel",
-    time: "20min",
-    serves: "4 pers.",
-    difficulty: "Facile",
-    image: "img/DXyJfd5Ko9R.jpg",
-    link: "https://www.instagram.com/abdelalaouiofficiel/reel/DXyJfd5Ko9R/",
-    linkType: "instagram",
-    veggie: true,
-    techniques: [],
-    ingredients: [
-      { qty: "6", name: "carottes", rayon: 'epicerie' },
-      { qty: "1/2", name: "botte de coriandre •1/2 botte d’aneth •1/2botte de menthe", rayon: 'epicerie' },
-      { qty: "1", name: "citron", rayon: 'epicerie' },
-      { qty: "1", name: "orange •1c à c de cumin en poudre •sel/poivre", rayon: 'epicerie' },
+    "id": "des-carottes-fondantes",
+    "title": "Carottes rôties au cumin et aux herbes",
+    "emoji": "🥕",
+    "cat": "accompagnement",
+    "chef": "abdelalaouiofficiel",
+    "chefName": "Abdel Alaoui Officiel",
+    "time": "—",
+    "serves": "—",
+    "difficulty": "Facile",
+    "image": "img/DXyJfd5Ko9R.jpg",
+    "link": "https://www.instagram.com/abdelalaouiofficiel/reel/DXyJfd5Ko9R/",
+    "linkType": "instagram",
+    "veggie": true,
+    "techniques": [],
+    "ingredients": [
+      {
+        "qty": "6",
+        "name": "carottes",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1/2 botte",
+        "name": "coriandre",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1/2 botte",
+        "name": "aneth",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1/2 botte",
+        "name": "menthe",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1",
+        "name": "citron",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1",
+        "name": "orange",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1 c.c.",
+        "name": "cumin en poudre",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "huile d'olive",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "sel et poivre",
+        "rayon": "epicerie"
+      }
     ],
-    steps: [
-      { text: "Les amis, je vous montre comment faire des carottes au cumin hyper originales, hyper simples.", detail: "" },
-      { text: "Vous prenez les carottes, pas besoin d'les épucher, elles sont go, on coupe des grands bâtonnés, on va mettre ça dans un", detail: "" },
-      { text: "Je mets tout ça dessus, je prends un peu d'huile d'olive, je prends un tout petit peu de cumin, du sel, du citron pour a", detail: "" },
-      { text: "On va mélanger tout ça avec toutes ces épices et je rajoute un zest d'orange, hyper simple, on mélange tout ça.", detail: "" },
-      { text: "On met sur la plaque, on met au foie à 220° pendant 20 minutes et c'est hyper bon.", detail: "" },
-      { text: "J'aime entendre laкраquette, j'aime l'entrée dans le public, c'est superronique !", detail: "" },
+    "steps": [
+      {
+        "text": "Couper les carottes en grands bâtonnets",
+        "detail": "Pas besoin de les éplucher si elles sont bio."
+      },
+      {
+        "text": "Les mettre dans un plat avec l'aneth, la coriandre et la menthe",
+        "detail": ""
+      },
+      {
+        "text": "Assaisonner d'huile d'olive, cumin, sel, poivre et jus de citron",
+        "detail": "Un tout petit peu de cumin ; le citron apporte l'acidité."
+      },
+      {
+        "text": "Ajouter les zestes d'agrume et mélanger",
+        "detail": "La vidéo montre un zeste taillé en fine julienne."
+      },
+      {
+        "text": "Étaler sur une plaque et rôtir au four",
+        "detail": "Les carottes doivent être fondantes."
+      }
     ],
-    tips: ''
+    "tips": "Se mange chaud ou froid, en entrée ou en accompagnement."
   },
   {
-    id: "ma-salade-grecque-revisitee",
-    title: "Ma salade grecque revisitée",
-    emoji: "🥗",
-    cat: "entree",
-    chef: "louloukitchen_",
-    chefName: "Lou Elsener",
-    time: "20min",
-    serves: "4 pers.",
-    difficulty: "Facile",
-    image: "img/DXwATcktlvD.jpg",
-    link: "https://www.instagram.com/louloukitchen_/reel/DXwATcktlvD/",
-    linkType: "instagram",
-    veggie: true,
-    techniques: [],
-    ingredients: [
-      { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
+    "id": "ma-salade-grecque-revisitee",
+    "title": "Salade grecque à la feta panée au sésame et au miel",
+    "emoji": "🥗",
+    "cat": "entree",
+    "chef": "louloukitchen_",
+    "chefName": "Lou Elsener",
+    "time": "10min",
+    "serves": "—",
+    "difficulty": "Facile",
+    "image": "img/DXwATcktlvD.jpg",
+    "link": "https://www.instagram.com/louloukitchen_/reel/DXwATcktlvD/",
+    "linkType": "instagram",
+    "veggie": true,
+    "techniques": [
+      {
+        "name": "paner à l'anglaise",
+        "ask": "Passer un aliment dans la farine, l'œuf battu puis une chapelure (ici du sésame)."
+      }
     ],
-    steps: [
-      { text: "Vous allez me réaliser la meilleure salade grecque en 10 minutes seulement. Il vous suffit de battre 2 oeufs, vous prene", detail: "" },
-      { text: "Vous le mettez tout simplement dans un peu de farine, puis dans les oeufs battus.", detail: "" },
-      { text: "Moi je fais l'opération 2 fois de suite et ensuite vous le badigeonez de graines de sésame.", detail: "" },
-      { text: "C'est hyper important sinon ça sert à rien de faire la recette. Et on va venir paner ça pendant 5 minutes de chaque face", detail: "" },
-      { text: "Ensuite vous prenez un concombre, vous les pluchez. Moi j'enlève les graines au milieu et vous le découpez un peu comme ", detail: "" },
-      { text: "J'ai vu qu'à Calamata ils utilisait des oignons blancs. Moi j'ai toujours cru que c'était avec des oignons rouges.", detail: "" },
-      { text: "Mais en fait c'est banger les oignons blancs, c'est vraiment meilleur genre. Vous pressez le jus d'un citron, un petit p", detail: "" },
-      { text: "Moi je rajoute du zaatar mais vous pouvez mettre de l'oregano. Oeil d'olive, vous rajoutez tous vos légumes et vous n'al", detail: "" },
-      { text: "Je n'avais pas d'olives de Calamata. Donc j'ai mis des olives noires et ça faisait l'affaire aussi.", detail: "" },
-      { text: "Et il n'y a plus qu'à dresser avec un bon filet de miel votre feta panée. Et je vous jure les saveurs elles sont excepti", detail: "" },
+    "ingredients": [
+      {
+        "qty": "1 bloc",
+        "name": "feta",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "2",
+        "name": "œufs",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "QS",
+        "name": "farine",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "graines de sésame",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1",
+        "name": "concombre",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "tomates",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "oignon blanc",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1",
+        "name": "citron (jus)",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "sel de Guérande",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "zaatar ou origan",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "huile d'olive",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "olives de Kalamata ou olives noires",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "miel",
+        "rayon": "epicerie"
+      }
     ],
-    tips: ''
+    "steps": [
+      {
+        "text": "Passer le bloc de feta dans la farine puis dans les œufs battus",
+        "detail": "Répéter l'opération deux fois de suite."
+      },
+      {
+        "text": "Enrober la feta de graines de sésame",
+        "detail": "Étape indispensable selon l'autrice."
+      },
+      {
+        "text": "Poêler la feta panée",
+        "duration": "5 min par face",
+        "detail": ""
+      },
+      {
+        "text": "Éplucher le concombre, retirer les graines et le couper",
+        "detail": ""
+      },
+      {
+        "text": "Couper les tomates et l'oignon blanc",
+        "detail": "L'oignon blanc, comme à Kalamata, plutôt que l'oignon rouge."
+      },
+      {
+        "text": "Mélanger jus de citron, sel, zaatar et huile d'olive",
+        "detail": ""
+      },
+      {
+        "text": "Ajouter les légumes et les olives à la vinaigrette et mélanger",
+        "detail": ""
+      },
+      {
+        "text": "Dresser avec la feta panée et un filet de miel",
+        "detail": "Laisser la feta refroidir un tout petit peu avant de servir."
+      }
+    ],
+    "tips": "Peut se servir en plat complet. Le zaatar peut être remplacé par de l'origan."
   },
   {
-    id: "houmous-maison-et-keftas-de-b",
-    title: "Houmous maison et keftas de b",
-    emoji: "🥩",
-    cat: "viande",
-    chef: "juliensebbag",
-    chefName: "Julien Sebbag",
-    time: "45min",
-    serves: "4 pers.",
-    difficulty: "Facile",
-    image: "img/DXhUP7nDNyB.jpg",
-    link: "https://www.instagram.com/juliensebbag/reel/DXhUP7nDNyB/",
-    linkType: "instagram",
-    veggie: false,
-    techniques: [],
-    ingredients: [
-      { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
+    "id": "houmous-maison-et-keftas-de-b",
+    "title": "Houmous maison et keftas de bœuf",
+    "emoji": "🧆",
+    "cat": "viande",
+    "chef": "juliensebbag",
+    "chefName": "Julien Sebbag",
+    "time": "—",
+    "serves": "—",
+    "difficulty": "Moyen",
+    "image": "img/DXhUP7nDNyB.jpg",
+    "link": "https://www.instagram.com/juliensebbag/reel/DXhUP7nDNyB/",
+    "linkType": "instagram",
+    "veggie": false,
+    "techniques": [
+      {
+        "name": "brunoise",
+        "ask": "Découpe de légumes en tout petits dés réguliers."
+      },
+      {
+        "name": "ail confit",
+        "ask": "Ail cuit doucement (ici au four) jusqu'à devenir fondant et doux."
+      }
     ],
-    steps: [
-      { text: "Mes amis aujourd'hui je vais vous montrer comment faire un hommus incroyable avec le petit kévetat musée.", detail: "" },
-      { text: "C'est parti ! Pour faire un hommus il faut des pois chiches. Faut les mettre à tremper pendant la nuit.", detail: "" },
-      { text: "Ça c'est après-nuit de trampage. Mais tu peux aussi acheter une conserve stélate.", detail: "" },
-      { text: "Astuce magique pour accélérer la cuisson. Rajouter un tout petit peu de bicarbonate dessus.", detail: "" },
-      { text: "C'est parti pour moi une bonne heure de cuisson. BOUM ! Cette d'ail et au four. Dans le blinder je rajoute la conflite.", detail: "" },
-      { text: "La trinat, la pâte de sésame. Petit tip, je rajoute un peu d'eau de cornichon. J'ajoute du citron mais genre beaucoup de", detail: "" },
-      { text: "Un bon clé d'huile de mythe. C'est vraiment que les pois chiches soient super bien cuillées.", detail: "" },
-      { text: "Et un peu d'eau de cornichon. C'est parti ! Faut avoir une texture bien lisse. Faut ajouter un petit peu de glaçon.", detail: "" },
-      { text: "Allez, c'est parti pour la kévetat. J'ai déjà vu ça au moins une fois. Je prends une brunoise fine.", detail: "" },
-      { text: "J'ai même pas pleuré. Tu mets la brunoise d'oignons auquel devient une transpiscine.", detail: "" },
+    "ingredients": [
+      {
+        "qty": "QS",
+        "name": "pois chiches secs (ou en conserve)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "bicarbonate de soude (une pincée)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "ail confit au four",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "tahini (pâte de sésame)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "eau de cornichons",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "citron (beaucoup)",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "huile d'olive",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "glaçons",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "sel et poivre",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "bœuf haché",
+        "rayon": "boucherie"
+      },
+      {
+        "qty": "1",
+        "name": "œuf bio",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "QS",
+        "name": "oignon rouge en brunoise fine",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "menthe ciselée",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "ciboulette",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "paprika",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "curcuma",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "cumin (pas trop)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "cornichons",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "pignons de pin torréfiés",
+        "rayon": "epicerie"
+      }
     ],
-    tips: ''
+    "steps": [
+      {
+        "text": "Faire tremper les pois chiches une nuit dans l'eau",
+        "duration": "1 nuit",
+        "detail": "Ça change tout ; à défaut, utiliser des pois chiches en conserve."
+      },
+      {
+        "text": "Cuire les pois chiches avec un tout petit peu de bicarbonate",
+        "duration": "au moins 1h",
+        "detail": "Le bicarbonate accélère la cuisson. Ils doivent être super bien cuits."
+      },
+      {
+        "text": "Mixer pois chiches, ail confit, tahini, eau de cornichon, citron, huile, sel, poivre",
+        "detail": "Mettre beaucoup de citron. Ajouter un peu d'eau et quelques glaçons pour une texture bien lisse."
+      },
+      {
+        "text": "Faire revenir l'oignon rouge en brunoise jusqu'à ce qu'il soit translucide",
+        "detail": "Ne pas trop le cuire."
+      },
+      {
+        "text": "Mélanger le bœuf haché avec l'oignon, la menthe, la ciboulette, les épices et l'œuf",
+        "detail": "Paprika, curcuma, un peu de cumin (pas trop), sel, poivre."
+      },
+      {
+        "text": "Façonner les keftas en les serrant bien",
+        "detail": "Les presser pour chasser l'air : elles ne se casseront pas à la cuisson."
+      },
+      {
+        "text": "Colorer les keftas à la poêle à l'huile d'olive puis finir au four",
+        "detail": "À la poêle on cherche surtout la coloration ; la cuisson se termine au four."
+      },
+      {
+        "text": "Étaler le houmous au dos de la cuillère et poser les keftas dessus",
+        "detail": "Finir avec cornichons, paprika, filet d'huile d'olive, pignons torréfiés et ciboulette ciselée."
+      }
+    ],
+    "tips": "Petits tips du chef : un peu d'eau de cornichon dans le houmous et des glaçons au mixage pour le rendre bien lisse."
   },
   {
-    id: "une-de-mes-recettes-preferees",
-    title: "Une de mes recettes préférées",
-    emoji: "🥗",
-    cat: "entree",
-    chef: "slideforfood",
-    chefName: "Victoria",
-    time: "2min",
-    serves: "4 pers.",
-    difficulty: "Facile",
-    image: "img/C9NMHsishHb.jpg",
-    link: "https://www.instagram.com/slideforfood/reel/C9NMHsishHb/",
-    linkType: "instagram",
-    veggie: true,
-    techniques: [],
-    ingredients: [
-      { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
+    "id": "une-de-mes-recettes-preferees",
+    "title": "Curry d'aubergines confit en bocaux",
+    "emoji": "🍆",
+    "cat": "plat",
+    "chef": "slideforfood",
+    "chefName": "Victoria",
+    "time": "—",
+    "serves": "—",
+    "difficulty": "Moyen",
+    "image": "img/C9NMHsishHb.jpg",
+    "link": "https://www.instagram.com/slideforfood/reel/C9NMHsishHb/",
+    "linkType": "instagram",
+    "veggie": true,
+    "techniques": [
+      {
+        "name": "stériliser",
+        "ask": "Chauffer les bocaux fermés longtemps à haute température pour pouvoir conserver leur contenu plusieurs mois."
+      }
     ],
-    steps: [
-      { text: "Ce curido-bergine bien confit servit avec des pois-chiches-paprika et une petite sauce raita.", detail: "" },
-      { text: "C'est une des recettes que vous avez le plus aimé sur ma page et aujourd'hui je vous propose en version XXL pour pouvoir", detail: "" },
-      { text: "Et je vous ai vraiment mis de grandes quantités donc ça va vous faire plaindre pas.", detail: "" },
-      { text: "Vous allez voulir de votre plus grande marmite, vous faites revenir de l'aise-oignon avec les épices et le concentré de ", detail: "" },
-      { text: "Vous ajoutez la tonne de bergine, de la tomate, du lait de coco et vous laissez bien mijoter.", detail: "" },
-      { text: "Vers la fin vous ajoutez de l'acoriandre et regardez-moi comme ça, bisant confit.", detail: "" },
-      { text: "Ensuite on passe au remplissage des bocôles, c'est vraiment une méthode de conservation qui utilisait les grands maires.", detail: "" },
-      { text: "Ça permet de manger du feu maison et d'éviter le casse-pillage. Ensuite avec le stérilisateur le parfait vous insérez la", detail: "" },
-      { text: "Tous ces accessoires ainsi que les petites étiquettes font partie de la gamme les essentiels de chez le parfait.", detail: "" },
-      { text: "Une gamme qui vous propose tout ce qu'il faut pour vous lancer dans la création de vos propres bocôles.", detail: "" },
+    "ingredients": [
+      {
+        "qty": "QS",
+        "name": "huile d'olive (un très généreux filet)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "3",
+        "name": "oignons",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "4 c.s.",
+        "name": "concentré de tomate",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "3-4 c.s.",
+        "name": "curry de Madras en poudre",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 c.s.",
+        "name": "gingembre en poudre",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "2 kg",
+        "name": "aubergines",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "800 ml",
+        "name": "lait de coco",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "700 g",
+        "name": "tomates concassées",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "coriandre fraîche",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "sel et poivre",
+        "rayon": "epicerie"
+      }
     ],
-    tips: ''
+    "steps": [
+      {
+        "text": "Laver et couper les légumes et les herbes",
+        "detail": "Ils doivent être en parfait état : retirer toute partie abîmée ou fatiguée avant la mise en bocaux."
+      },
+      {
+        "text": "Faire revenir les oignons dans l'huile d'olive dans une très grande marmite",
+        "duration": "2 min",
+        "detail": "Un très généreux filet d'huile."
+      },
+      {
+        "text": "Ajouter le curry, le gingembre, sel, poivre et le concentré de tomate",
+        "duration": "5 min",
+        "detail": "Faire revenir le tout pour torréfier les épices."
+      },
+      {
+        "text": "Ajouter les aubergines, la tomate et le lait de coco, mélanger et couvrir",
+        "detail": ""
+      },
+      {
+        "text": "Laisser mijoter sur feu moyen en mélangeant souvent",
+        "duration": "30-40 min",
+        "detail": "Mélanger régulièrement pour que le fond n'accroche pas ; le curry doit être bien confit."
+      },
+      {
+        "text": "En fin de cuisson, ajouter la coriandre et rectifier l'assaisonnement",
+        "detail": "Ajuster aussi la quantité de curry si besoin."
+      },
+      {
+        "text": "Remplir 3 pots Le Parfait d'1 L avec le curry bouillant jusqu'au trait max",
+        "detail": "Environ 2 cm du bord ; pots parfaitement propres et rondelle de caoutchouc neuve. Tasser pour chasser les bulles d'air, essuyer les bords, refermer."
+      },
+      {
+        "text": "Stériliser les bocaux au stérilisateur",
+        "duration": "2h30",
+        "temperature": "100 °C",
+        "detail": "Manipuler les bocaux à la pince. Laisser refroidir puis stocker au frais (sous 6 °C), au sec et à l'abri de la lumière, jusqu'à 12 mois."
+      }
+    ],
+    "tips": "Servi avec des pois chiches rôtis au paprika et une sauce raita. Consulter les règles d'hygiène de conservation sur le site Le Parfait avant de se lancer. On peut aussi le manger tout de suite sans faire de bocaux."
   },
   {
-    id: "quiche-de-courgette-au-pesto-de-cyril-lignac",
-    title: "Quiche De Courgette Au Pesto De Cyril Lignac",
-    emoji: "🍽️",
-    cat: "plat",
-    chef: "kitchenfactoryprod",
-    chefName: "Kitchen Factory Production 🍽",
-    time: "20min",
-    serves: "4 pers.",
-    difficulty: "Facile",
-    image: "img/DXv6vhkMhgQ.jpg",
-    link: "https://www.instagram.com/kitchenfactoryprod/reel/DXv6vhkMhgQ/",
-    linkType: "instagram",
-    veggie: true,
-    techniques: [],
-    ingredients: [
-      { qty: "QS", name: "Pour la pâte à quiche :", rayon: 'epicerie' },
-      { qty: "6", name: "feuilles de pâte à filo,", rayon: 'epicerie' },
-      { qty: "50 g", name: "de beurre fondu,", rayon: 'epicerie' },
-      { qty: "QS", name: "Quelques feuilles de basilic,", rayon: 'epicerie' },
-      { qty: "100 g", name: "de poudre de pistache,", rayon: 'epicerie' },
-      { qty: "1", name: "gousse d’ail dégermée,", rayon: 'epicerie' },
-      { qty: "80 g", name: "de parmesan râpé,", rayon: 'epicerie' },
-      { qty: "50 g", name: "de feuilles de basilic frais", rayon: 'epicerie' },
-      { qty: "30 cl", name: "d’huile d’olive,", rayon: 'epicerie' },
-      { qty: "10 g", name: "de jus de citron jaune frais,", rayon: 'epicerie' },
-      { qty: "QS", name: "Sel fin et poivre du moulin.", rayon: 'epicerie' },
-      { qty: "2", name: "courgettes (si possible 1 verte et 1 jaune),", rayon: 'epicerie' },
-      { qty: "100 g", name: "de tomates cerises,", rayon: 'epicerie' },
-      { qty: "3", name: "œufs,", rayon: 'epicerie' },
-      { qty: "12 cl", name: "de lait entier,", rayon: 'epicerie' },
+    "id": "quiche-de-courgette-au-pesto-de-cyril-lignac",
+    "title": "Quiche de courgettes au pesto pistache en pâte filo",
+    "emoji": "🥧",
+    "cat": "plat",
+    "chef": "kitchenfactoryprod",
+    "chefName": "Kitchen Factory Production 🍽",
+    "time": "1h25",
+    "serves": "4 pers.",
+    "difficulty": "Moyen",
+    "image": "img/DXv6vhkMhgQ.jpg",
+    "link": "https://www.instagram.com/kitchenfactoryprod/reel/DXv6vhkMhgQ/",
+    "linkType": "instagram",
+    "veggie": true,
+    "techniques": [
+      {
+        "name": "foncer",
+        "ask": "Garnir le fond et les bords d'un moule avec la pâte."
+      },
+      {
+        "name": "appareil",
+        "ask": "Mélange liquide (œufs, crème, lait) qui sera cuit dans la quiche."
+      }
     ],
-    steps: [
-      { text: "Bonjour à tous, aujourd'hui un plat des beaux jours, une quiche de courgette à la pâte filo pesto et basilique de la cui", detail: "" },
-      { text: "Le pesto d'abord pour changer, je remplace les classiques pignons de paix par de la poudre de pistache, la gousse d'ail,", detail: "" },
-      { text: "Je vais mixer un petit peu du citron et feuilles de basilique. Autour de la pâte de la pâte filo, je bâti jeune ma feuil", detail: "" },
-      { text: "La dernière feuille et la pâte de pesto du beurre fondu, je retourne dans mon boule.", detail: "" },
-      { text: "Et je découpe l'excédent de la pâte au ciseau, place à l'appareil, je détaille les courgettes en cubes, place à la cuiss", detail: "" },
-      { text: "J'assaisonne avec du sel, un petit peu de piment d'espelette, place à l'appareil 3 oeufs, le lait et la crème pour la go", detail: "" },
-      { text: "J'assaisonne, j'ajoute le parmesan, je gardis le fond de ma quiche, et je les recouvre dans mon appareil.", detail: "" },
-      { text: "Et on me refoure 40 minutes à 180°C. Ma quiche est prête, regardez quelques tomates sur l'is du basilic pour terminer.", detail: "" },
-      { text: "Il est là aussi le soleil dans l'assiette.", detail: "" },
+    "ingredients": [
+      {
+        "qty": "6 feuilles",
+        "name": "pâte filo",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "50 g",
+        "name": "beurre fondu",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "100 g",
+        "name": "poudre de pistache",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 gousse",
+        "name": "ail dégermé",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "80 g",
+        "name": "parmesan râpé (pesto)",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "50 g",
+        "name": "basilic frais (pesto)",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "30 cl",
+        "name": "huile d'olive (pesto)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "10 g",
+        "name": "jus de citron jaune frais",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "2",
+        "name": "courgettes (1 verte et 1 jaune si possible)",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "100 g",
+        "name": "tomates cerises",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "3",
+        "name": "œufs",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "12 cl",
+        "name": "lait entier",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "25 cl",
+        "name": "crème liquide",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "75 g",
+        "name": "parmesan râpé (appareil)",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "QS",
+        "name": "huile d'olive (cuisson)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "quelques feuilles de basilic (finition)",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "sel fin, poivre du moulin, piment d'Espelette",
+        "rayon": "epicerie"
+      }
     ],
-    tips: ''
+    "steps": [
+      {
+        "text": "Mixer poudre de pistache, ail, parmesan et huile d'olive, poivrer",
+        "detail": "Mixer jusqu'à ce que la pâte soit lisse."
+      },
+      {
+        "text": "Ajouter le jus de citron et mixer, puis le basilic en dernier",
+        "detail": "Le basilic à la fin pour éviter qu'il noircisse."
+      },
+      {
+        "text": "Empiler les feuilles de filo en nappant chacune de pesto",
+        "detail": "La sixième et dernière feuille se badigeonne de beurre fondu, pas de pesto."
+      },
+      {
+        "text": "Foncer le moule à manqué et couper l'excédent aux ciseaux",
+        "detail": "Moule de 18 cm de diamètre."
+      },
+      {
+        "text": "Préchauffer le four",
+        "temperature": "180 °C",
+        "detail": ""
+      },
+      {
+        "text": "Saisir les courgettes en gros cubes à l'huile d'olive, saler",
+        "duration": "2 à 3 min",
+        "detail": "Les colorer sur toutes les faces ; un peu de piment d'Espelette (audio)."
+      },
+      {
+        "text": "Battre les œufs, ajouter lait, crème, parmesan, sel et poivre",
+        "detail": "Battre légèrement les œufs."
+      },
+      {
+        "text": "Garnir le fond de courgettes, verser l'appareil et enfourner",
+        "duration": "40 min",
+        "temperature": "180 °C",
+        "detail": ""
+      },
+      {
+        "text": "Démouler sur une grille et garnir de basilic et tomates cerises coupées",
+        "detail": "Tomates cerises coupées en deux."
+      }
+    ],
+    "tips": "Recette de Cyril Lignac (Tous en cuisine, M6). Les pignons du pesto sont remplacés par de la poudre de pistache."
   },
   {
-    id: "ingredients-DXq6iO",
-    title: "Ingrédients",
-    emoji: "🐟",
-    cat: "poisson",
-    chef: "kitchenfactoryprod",
-    chefName: "Kitchen Factory Production 🍽",
-    time: "15min",
-    serves: "4 pers.",
-    difficulty: "Avancé",
-    image: "img/DXq6iOQDII-.jpg",
-    link: "https://www.instagram.com/kitchenfactoryprod/reel/DXq6iOQDII-/",
-    linkType: "instagram",
-    veggie: false,
-    techniques: [],
-    ingredients: [
-      { qty: "12", name: "sardines écaillées, lavées et vidées,", rayon: 'epicerie' },
-      { qty: "2", name: "citrons jaunes,", rayon: 'epicerie' },
-      { qty: "QS", name: "Huile d’olive,", rayon: 'epicerie' },
-      { qty: "1", name: "botte de ciboulette ciselée", rayon: 'epicerie' },
-      { qty: "QS", name: "¼ de botte d’aneth effeuillée,", rayon: 'epicerie' },
-      { qty: "1", name: "cuil. à café de baies roses,", rayon: 'epicerie' },
-      { qty: "QS", name: "Fleur de sel.", rayon: 'epicerie' },
-      { qty: "1", name: "planche à découper + 1 couteau pour lever des filets + 1 plat de service,", rayon: 'epicerie' },
-      { qty: "1", name: "râpe Microplane + 1 passette + 1 mortier,", rayon: 'epicerie' },
-      { qty: "1", name: "râpe Microplane.", rayon: 'epicerie' },
+    "id": "ingredients-DXq6iO",
+    "title": "Carpaccio de sardines au citron et baies roses",
+    "emoji": "🐟",
+    "cat": "poisson",
+    "chef": "kitchenfactoryprod",
+    "chefName": "Kitchen Factory Production 🍽",
+    "time": "15min",
+    "serves": "4 pers.",
+    "difficulty": "Moyen",
+    "image": "img/DXq6iOQDII-.jpg",
+    "link": "https://www.instagram.com/kitchenfactoryprod/reel/DXq6iOQDII-/",
+    "linkType": "instagram",
+    "veggie": false,
+    "techniques": [
+      {
+        "name": "lever des filets",
+        "ask": "Détacher la chair du poisson de part et d'autre de l'arête centrale."
+      },
+      {
+        "name": "pluches",
+        "ask": "Petites sommités feuillues d'une herbe, détachées des tiges."
+      }
     ],
-    steps: [
-      { text: "Bonjour à tous, aujourd'hui une recette marine, pleine de fraîcheur avec des filets de sardines crues, simplement relevé", detail: "" },
-      { text: "Une préparation hyper vive et simple en plus, je vous explique tout. Les sardines d'abord, c'est la pleine saison.", detail: "" },
-      { text: "Sur les étales qu'elles viennent de méditerranées d'Atlantique ou de la Manche, choisissez-les bien rigides au ventre bl", detail: "" },
-      { text: "C'est une garantie de fraîcheur et ce sera plus facile à travailler. Justement, j'en dépose une sur ma planche et je vai", detail: "" },
-      { text: "Place au dressage, je prends mes filets de sardines, place au condiment, je verse de l'huile d'olive, du jus de citron p", detail: "" },
-      { text: "J'utilise le zeste de la ciboulette que j'ai ciselée. On va saisonner d'un peu de fleurs de sel, un petit peu de piment ", detail: "" },
-      { text: "J'ajoute quelques pouces d'anette. Regardez comment c'est beau et coloré. À vidéo fraîcheur garantie !", detail: "" },
+    "ingredients": [
+      {
+        "qty": "12",
+        "name": "sardines écaillées, lavées et vidées",
+        "rayon": "boucherie"
+      },
+      {
+        "qty": "2",
+        "name": "citrons jaunes",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "huile d'olive",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 botte",
+        "name": "ciboulette ciselée",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1/4 de botte",
+        "name": "aneth effeuillé",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1 c.c.",
+        "name": "baies roses",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "fleur de sel",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "piment d'Espelette (un petit peu)",
+        "rayon": "epicerie"
+      }
     ],
-    tips: ''
+    "steps": [
+      {
+        "text": "Lever les filets des sardines et les déposer dans le plat",
+        "detail": "Glisser le couteau le long de l'arête. Choisir des sardines bien rigides, au ventre blanc et aux écailles bien accrochées : gage de fraîcheur."
+      },
+      {
+        "text": "Verser quelques gouttes d'huile d'olive sur les filets",
+        "detail": ""
+      },
+      {
+        "text": "Zester les citrons et disperser la moitié des zestes sur les filets",
+        "detail": ""
+      },
+      {
+        "text": "Presser les citrons et verser le jus sur les sardines",
+        "detail": "Huile + citron font une vinaigrette instantanée."
+      },
+      {
+        "text": "Piler les baies roses au mortier et en parsemer les filets",
+        "detail": ""
+      },
+      {
+        "text": "Ajouter la ciboulette et les pluches d'aneth",
+        "detail": ""
+      },
+      {
+        "text": "Assaisonner de fleur de sel, piment d'Espelette et des zestes restants",
+        "detail": "Le piment d'Espelette est mentionné dans l'audio, pas dans la liste."
+      }
+    ],
+    "tips": "Recette de Cyril Lignac (Tous en cuisine, M6). Poisson cru : sardines de toute première fraîcheur. Se sert en entrée."
   },
   {
     id: "brochettes-shish-taouk-express",
