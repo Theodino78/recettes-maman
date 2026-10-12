@@ -6552,612 +6552,1944 @@ const RECIPES = [
     "tips": "À servir avec une boule de glace vanille."
   },
   {
-    id: "sauce-tonnato",
-    title: "Sauce tonnato",
-    emoji: "🥩",
-    cat: "viande",
-    chef: "steflequellec",
-    chefName: "Stephanie Le Quellec",
-    time: "45min",
-    serves: "4 pers.",
-    difficulty: "Facile",
-    image: "img/DZPkfrYM4Vh.jpg",
-    link: "https://www.instagram.com/steflequellec/reel/DZPkfrYM4Vh/",
-    linkType: "instagram",
-    veggie: false,
-    techniques: [],
-    ingredients: [
-      { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
+    "id": "sauce-tonnato",
+    "title": "Vitello tonnato",
+    "emoji": "🐟",
+    "cat": "viande",
+    "chef": "steflequellec",
+    "chefName": "Stephanie Le Quellec",
+    "time": "—",
+    "serves": "4 pers.",
+    "difficulty": "Facile",
+    "image": "img/DZPkfrYM4Vh.jpg",
+    "link": "https://www.instagram.com/steflequellec/reel/DZPkfrYM4Vh/",
+    "linkType": "instagram",
+    "veggie": false,
+    "techniques": [
+      {
+        "name": "œuf mollet",
+        "ask": "Œuf cuit dans sa coquille, blanc pris et jaune encore coulant."
+      }
     ],
-    steps: [
-      { text: "J'ai cuit un vaut hier, je l'ai réservé toute la nuit au frigo parce qu'on va le servir froid.", detail: "" },
-      { text: "Et aujourd'hui je vous propose une sauce vitellotonato.", detail: "" },
+    "ingredients": [
+      {
+        "qty": "400 g",
+        "name": "quasi de veau cuit et refroidi",
+        "rayon": "boucherie"
+      },
+      {
+        "qty": "1",
+        "name": "œuf mollet",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "80 g",
+        "name": "thon à l'huile",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1/2 gousse",
+        "name": "ail",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1 c.s.",
+        "name": "câpres",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "2 filets",
+        "name": "anchois",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "poivre du moulin",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 c.c.",
+        "name": "moutarde",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "3 c.s.",
+        "name": "huile d'olive",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "4 c.s.",
+        "name": "vinaigrette tomate (facultatif, ou eau / bouillon)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "citron",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "aneth ou fenouil pour finir",
+        "rayon": "legumes"
+      }
     ],
-    tips: ''
+    "steps": [
+      {
+        "text": "Cuire le veau la veille et le réserver toute la nuit au frigo",
+        "duration": "1 nuit",
+        "detail": "Il se sert froid."
+      },
+      {
+        "text": "Mettre dans un blender œuf mollet, thon, ail, câpres, anchois, moutarde et poivre",
+        "detail": ""
+      },
+      {
+        "text": "Ajouter l'huile d'olive et la vinaigrette tomate, puis mixer",
+        "detail": "La vinaigrette détend la sauce ; un peu d'eau ou de bouillon fait l'affaire."
+      },
+      {
+        "text": "Étaler la sauce tonnato au fond de l'assiette",
+        "detail": ""
+      },
+      {
+        "text": "Trancher finement le veau et le disposer sur la sauce",
+        "detail": ""
+      },
+      {
+        "text": "Finir de citron, d'herbes et d'un filet d'huile d'olive",
+        "detail": ""
+      }
+    ],
+    "tips": "Compter 100 g de veau par personne en entrée, 150 g en plat. Quasi, noix ou filet conviennent. Cuisson du quasi : voir la vidéo de Stéphanie Le Quellec sur le rôti de veau rosé."
   },
   {
-    id: "pesto-maison",
-    title: "Pesto maison",
-    emoji: "🍝",
-    cat: "pates",
-    chef: "xavier_pincemin",
-    chefName: "Xavier Pincemin",
-    time: "25min",
-    serves: "4 pers.",
-    difficulty: "Facile",
-    image: "img/DZPYfgpIjwV.jpg",
-    link: "https://www.instagram.com/xavier_pincemin/reel/DZPYfgpIjwV/",
-    linkType: "instagram",
-    veggie: true,
-    techniques: [],
-    ingredients: [
-      { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
+    "id": "pesto-maison",
+    "title": "Pâtes au pesto d'amandes et burrata",
+    "emoji": "🌿",
+    "cat": "pates",
+    "chef": "xavier_pincemin",
+    "chefName": "Xavier Pincemin",
+    "time": "—",
+    "serves": "—",
+    "difficulty": "Moyen",
+    "image": "img/DZPYfgpIjwV.jpg",
+    "link": "https://www.instagram.com/xavier_pincemin/reel/DZPYfgpIjwV/",
+    "linkType": "instagram",
+    "veggie": true,
+    "techniques": [
+      {
+        "name": "lier",
+        "ask": "Épaissir une sauce avec l'amidon de l'eau de cuisson pour qu'elle nappe les pâtes."
+      }
     ],
-    steps: [
-      { text: "Les pâteaux pesto, c'est le plat le plus écoeurant qui existe. Je te montre comment me refaire aimer et te refaire aimer", detail: "" },
-      { text: "Dans une casserole, tu mets un petit peu d'huile et là, je mets mes gousses d'ail.", detail: "" },
-      { text: "Ça, on laisse de côté, regarde. Ainsi, tu prends un robot et tu vas mettre ton basilic.", detail: "" },
-      { text: "Donc là, l'idée, c'est de ne pas être que les feuilles. Je l'ai un peu rincée. Je prends une bote de basilic.", detail: "" },
-      { text: "Je mixe, je vais rajouter mon ail que j'ai fait retirer. Tout de suite, je mélange.", detail: "" },
-      { text: "Normalement, tu prends des pignons de pain et là, moi, j'ai pris des amandes ont cassé.", detail: "" },
-      { text: "Ça, c'est un peu plus léger. Tu le laisses sur le feu tout doux. Ça me fait mal quand je les touche.", detail: "" },
-      { text: "Et hop, tu les mets de côté. Ensuite, tu rajoutes 2 cuillères d'amandes, pas de parmesan, mais je rajoute de la boite.", detail: "" },
-      { text: "Je mets le jus de la boite et la boite entière. Bam, bam, bam. C'est parti, on mixe.", detail: "" },
-      { text: "Là, tu fais bouillir de l'eau, tu mets du sel et là, on met les pâtes. Ça, c'est un citron bio.", detail: "" },
+    "ingredients": [
+      {
+        "qty": "QS",
+        "name": "pâtes",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 botte",
+        "name": "basilic (feuilles seulement)",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "gousses d'ail",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "huile (pour l'ail)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "2 cuillères",
+        "name": "amandes concassées torréfiées",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1",
+        "name": "burrata entière, avec son jus",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "1",
+        "name": "citron bio (zeste et jus)",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "glaçons",
+        "rayon": "boissons"
+      },
+      {
+        "qty": "QS",
+        "name": "sel, poivre",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "burrata et basilic frais pour servir",
+        "rayon": "cremerie"
+      }
     ],
-    tips: ''
+    "steps": [
+      {
+        "text": "Faire confire les gousses d'ail dans un peu d'huile, réserver l'huile",
+        "detail": ""
+      },
+      {
+        "text": "Mixer les feuilles de basilic rincées, puis ajouter l'ail rôti",
+        "detail": ""
+      },
+      {
+        "text": "Torréfier les amandes concassées à feu doux",
+        "detail": "Elles remplacent les pignons, c'est plus léger."
+      },
+      {
+        "text": "Ajouter les amandes, la burrata et son jus, puis mixer",
+        "detail": "Pas de parmesan : la burrata le remplace."
+      },
+      {
+        "text": "Ajouter zeste de citron, poivre et un peu de glaçon, mixer",
+        "detail": "Le glaçon évite que le pesto chauffe et garde la chlorophylle bien verte."
+      },
+      {
+        "text": "Saler et ajouter un jus de citron",
+        "detail": ""
+      },
+      {
+        "text": "Cuire les pâtes dans l'eau bouillante salée",
+        "detail": ""
+      },
+      {
+        "text": "Finir les pâtes dans une casserole avec poivre, eau de cuisson et pesto",
+        "detail": "Laisser réduire jusqu'à ce que la sauce enrobe bien les pâtes."
+      },
+      {
+        "text": "Servir avec de la burrata, du basilic frais et l'huile d'ail",
+        "detail": ""
+      }
+    ],
+    "tips": "Pesto revisité de Xavier Pincemin : amandes au lieu des pignons, burrata au lieu du parmesan."
   },
   {
-    id: "la-cuisson-d",
-    title: "Quasi de veau",
-    emoji: "🥩",
-    cat: "viande",
-    chef: "steflequellec",
-    chefName: "Stephanie Le Quellec",
-    time: "45min",
-    serves: "4 pers.",
-    difficulty: "Facile",
-    image: "img/DZNf5ncM2Fe.jpg",
-    link: "https://www.instagram.com/steflequellec/reel/DZNf5ncM2Fe/",
-    linkType: "instagram",
-    veggie: false,
-    techniques: [],
-    ingredients: [
-      { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
+    "id": "la-cuisson-d",
+    "title": "Rôti de quasi de veau rosé",
+    "emoji": "🥩",
+    "cat": "viande",
+    "chef": "steflequellec",
+    "chefName": "Stephanie Le Quellec",
+    "time": "—",
+    "serves": "—",
+    "difficulty": "Moyen",
+    "image": "img/DZNf5ncM2Fe.jpg",
+    "link": "https://www.instagram.com/steflequellec/reel/DZNf5ncM2Fe/",
+    "linkType": "instagram",
+    "veggie": false,
+    "techniques": [
+      {
+        "name": "arroser",
+        "ask": "Napper sans cesse la viande de sa matière grasse de cuisson à la cuillère."
+      },
+      {
+        "name": "repos",
+        "ask": "Laisser la viande hors du feu pour que les jus se répartissent."
+      }
     ],
-    steps: [
-      { text: "Aujourd'hui on se fait un tout petit roti de veau. Je vous montre comment le cuir bien rosé.", detail: "" },
-      { text: "Feu assez vif pour saisir la viande, un petit peu d'huile d'olive. J'ai la rosé pendant 7-8 minutes.", detail: "" },
-      { text: "Je débarrasse sur une grille, je le recouvre et je le laisse reposer pendant 10 minutes.", detail: "" },
-      { text: "Ça va permettre d'attendre la viande et de garder tout le jus à l'intérieur. La cuisson va terminer comme ça.", detail: "" },
+    "ingredients": [
+      {
+        "qty": "QS",
+        "name": "petit canon de quasi de veau ficelé",
+        "rayon": "boucherie"
+      },
+      {
+        "qty": "QS",
+        "name": "huile d'olive",
+        "rayon": "epicerie"
+      }
     ],
-    tips: ''
+    "steps": [
+      {
+        "text": "Ficeler le petit rôti de quasi de veau",
+        "detail": ""
+      },
+      {
+        "text": "Saisir la viande à feu assez vif dans un peu d'huile d'olive",
+        "detail": ""
+      },
+      {
+        "text": "Arroser la viande en continu",
+        "duration": "7-8 min",
+        "detail": ""
+      },
+      {
+        "text": "Débarrasser sur une grille et couvrir",
+        "detail": ""
+      },
+      {
+        "text": "Laisser reposer",
+        "duration": "10 min",
+        "detail": "La cuisson se termine au repos : la viande s'attendrit et garde son jus."
+      }
+    ],
+    "tips": "Base pour un vitello tonnato : servir froid avec une sauce tonnato."
   },
   {
-    id: "recette-pour-les-amoureux",
-    title: "Recette pour les amoureux",
-    emoji: "🥬",
-    cat: "accompagnement",
-    chef: "louloukitchen_",
-    chefName: "Lou Elsener",
-    time: "25min",
-    serves: "4 pers.",
-    difficulty: "Facile",
-    image: "img/DZIMFb3Nvnz.jpg",
-    link: "https://www.instagram.com/louloukitchen_/reel/DZIMFb3Nvnz/",
-    linkType: "instagram",
-    veggie: true,
-    techniques: [],
-    ingredients: [
-      { qty: "1", name: "aubergine", rayon: 'epicerie' },
-      { qty: "1", name: "courgette", rayon: 'epicerie' },
-      { qty: "1", name: "buratta", rayon: 'epicerie' },
-      { qty: "QS", name: "Huile d’olive", rayon: 'epicerie' },
-      { qty: "QS", name: "Sel poivre", rayon: 'epicerie' },
-      { qty: "QS", name: "Un pot de sauce tomate", rayon: 'epicerie' },
-      { qty: "QS", name: "Tomates cerises", rayon: 'epicerie' },
-      { qty: "QS", name: "Zaatar", rayon: 'epicerie' },
+    "id": "recette-pour-les-amoureux",
+    "title": "Millefeuille d'aubergine et courgette à la burrata",
+    "emoji": "🍆",
+    "cat": "entree",
+    "chef": "louloukitchen_",
+    "chefName": "Lou Elsener",
+    "time": "—",
+    "serves": "—",
+    "difficulty": "Facile",
+    "image": "img/DZIMFb3Nvnz.jpg",
+    "link": "https://www.instagram.com/louloukitchen_/reel/DZIMFb3Nvnz/",
+    "linkType": "instagram",
+    "veggie": true,
+    "techniques": [],
+    "ingredients": [
+      {
+        "qty": "1",
+        "name": "aubergine",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1",
+        "name": "courgette",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1",
+        "name": "burrata",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "1 pot",
+        "name": "sauce tomate",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "tomates cerises",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "romarin",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "miel",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "zaatar",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "huile d'olive",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "sel, poivre",
+        "rayon": "epicerie"
+      }
     ],
-    steps: [
-      { text: "Non mais ça pour moi c'est l'entrée des amoureux, c'est une entrée qui est trop glamour.", detail: "" },
-      { text: "Il faut juste découper des courgettes et des aubergines en lamelle. C'est vraiment très simple en plus c'est végétarien.", detail: "" },
-      { text: "Vous laissez essuie dans un bon filet de bulle d'olive quand elles sont bien dorées et vous les retirez.", detail: "" },
-      { text: "On écrase une belle bourrata, vous la saisonnez, celle poive bulle d'olive. Pas besoin de plus franchement, pas besoin d", detail: "" },
-      { text: "Quand les aubergines et les courgettes sont cuites, on fait revenir du romarin avec des tomates cerises et une boîte de ", detail: "" },
-      { text: "Un petit filet de bulle d'olive et du miel et au bout de 10 minutes vous étalez la sauce dans une assiette.", detail: "" },
-      { text: "Vous vous superposez les aubergines avec la bourrata et les courgettes, ça va vous faire un mille feuilles de légumes.", detail: "" },
-      { text: "C'est exquis, c'est extrêmement visuel je trouve. Vous regardez les aubergines comme elles sont bien luisantes.", detail: "" },
-      { text: "Et je trouve que voilà tout de suite dans les premiers petits repas que t'as envie de préparer pour la personne que tu a", detail: "" },
-      { text: "Je trouve que ça envoie et c'est surtout de mes délicieux quoi, l'association de tout ça ensemble.", detail: "" },
+    "steps": [
+      {
+        "text": "Couper l'aubergine et la courgette en lamelles dans la longueur",
+        "detail": ""
+      },
+      {
+        "text": "Saisir les lamelles dans un bon filet d'huile d'olive jusqu'à ce qu'elles soient dorées",
+        "detail": "Les aubergines doivent être bien luisantes."
+      },
+      {
+        "text": "Écraser la burrata et l'assaisonner de sel, poivre et huile d'olive",
+        "detail": "Pas besoin de plus d'épices."
+      },
+      {
+        "text": "Faire revenir le romarin et les tomates cerises, ajouter la sauce tomate",
+        "detail": "Avec un filet d'huile d'olive et un peu de miel."
+      },
+      {
+        "text": "Laisser mijoter la sauce",
+        "duration": "10 min",
+        "detail": ""
+      },
+      {
+        "text": "Étaler la sauce dans l'assiette",
+        "detail": ""
+      },
+      {
+        "text": "Superposer aubergine, burrata et courgette en millefeuille",
+        "detail": "Finir d'une pincée de zaatar."
+      }
     ],
-    tips: ''
+    "tips": "Entrée végétarienne « des amoureux », à manger avec du pain."
   },
   {
-    id: "tiramisu-aux-fraises",
-    title: "Tiramisu aux fraises",
-    emoji: "🍰",
-    cat: "dessert",
-    chef: "guillauminetherond",
-    chefName: "Guillaumine Thérond 👩🏻‍🍳",
-    time: "40min",
-    serves: "4 pers.",
-    difficulty: "Facile",
-    image: "img/DWy2UdRjPvA.jpg",
-    link: "https://www.instagram.com/guillauminetherond/reel/DWy2UdRjPvA/",
-    linkType: "instagram",
-    veggie: true,
-    techniques: [],
-    ingredients: [
-      { qty: "500g", name: "de fraises", rayon: 'epicerie' },
-      { qty: "2", name: "œufs", rayon: 'epicerie' },
-      { qty: "250g", name: "de mascarpone", rayon: 'epicerie' },
-      { qty: "1", name: "paquet de biscuit cuillère", rayon: 'epicerie' },
-      { qty: "1", name: "cuillère à café de sucre vanillé", rayon: 'epicerie' },
-      { qty: "30g", name: "de sucre", rayon: 'epicerie' },
-      { qty: "QS", name: "un peu de jus de citron (optionnel)", rayon: 'epicerie' },
+    "id": "tiramisu-aux-fraises",
+    "title": "Tiramisu aux fraises",
+    "emoji": "🍓",
+    "cat": "dessert",
+    "chef": "guillauminetherond",
+    "chefName": "Guillaumine Thérond 👩🏻‍🍳",
+    "time": "—",
+    "serves": "4 pers.",
+    "difficulty": "Facile",
+    "image": "img/DWy2UdRjPvA.jpg",
+    "link": "https://www.instagram.com/guillauminetherond/reel/DWy2UdRjPvA/",
+    "linkType": "instagram",
+    "veggie": true,
+    "techniques": [
+      {
+        "name": "blanchir",
+        "ask": "Fouetter jaunes d'œufs et sucre jusqu'à ce que le mélange pâlisse et mousse."
+      },
+      {
+        "name": "monter en neige",
+        "ask": "Fouetter des blancs d'œufs jusqu'à ce qu'ils deviennent fermes et mousseux."
+      }
     ],
-    steps: [
-      { text: "Tire un misou au fraise pour le printemps. Mais regardez-moi cette beauté, cette recette est une pépite, je te montre, c", detail: "" },
-      { text: "Alors pour commencer on va préparer un petit jus de fraise qui va servir à un bibé les biscuits.", detail: "" },
-      { text: "J'ai mis des fraises, du sucre vanillé, de l'eau et un petit peu de jus de citron.", detail: "" },
-      { text: "On écrasse les fraises et on met ça de côté. Ensuite on va casser les oeufs et séparer les blancs des jaunes.", detail: "" },
-      { text: "Dans les jaunes j'affiche le sucre, je fouette, alors ça ça s'appelle blanchir et ça va devenir un petit peu mousseux.", detail: "" },
-      { text: "On ajoute le mascarpone, on mélange bien et on met ça de côté. Après on va monter les blancs en neige et alors ça c'est ", detail: "" },
-      { text: "On va incorporer les blancs à la préparation en faisant ce mouvement histoire de pas casser les blancs.", detail: "" },
-      { text: "Plus qu'à passer au montage, on va tremper les biscuits cuillères dans le jus de fraise et les déposer au fond du plat.", detail: "" },
-      { text: "Après j'ai voulu faire une petite déco un petit peu sympathique dont j'ai mis des demi-fraises tout le tour du plat.", detail: "" },
-      { text: "On ajoute du mascarpone, des petites fraises coupées en morceaux. Je remets des biscuits, du mascarpone et là ça part au", detail: "" },
+    "ingredients": [
+      {
+        "qty": "500 g",
+        "name": "fraises",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "2",
+        "name": "œufs",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "250 g",
+        "name": "mascarpone",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "1 paquet",
+        "name": "biscuits cuillère",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 c.c.",
+        "name": "sucre vanillé",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "30 g",
+        "name": "sucre",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "un peu",
+        "name": "jus de citron (optionnel)",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1 petite tasse",
+        "name": "eau",
+        "rayon": "boissons"
+      }
     ],
-    tips: ''
+    "steps": [
+      {
+        "text": "Écraser les 5 fraises les plus mûres avec le sucre vanillé, le citron et l'eau",
+        "detail": "Ce jus de fraises sert à imbiber les biscuits."
+      },
+      {
+        "text": "Séparer les blancs des jaunes",
+        "detail": ""
+      },
+      {
+        "text": "Fouetter les jaunes avec le sucre jusqu'à ce qu'ils blanchissent",
+        "detail": "Le mélange devient un peu mousseux."
+      },
+      {
+        "text": "Ajouter le mascarpone et bien mélanger",
+        "detail": ""
+      },
+      {
+        "text": "Monter les blancs en neige",
+        "detail": "Test : retourner le bol, les blancs ne doivent pas bouger."
+      },
+      {
+        "text": "Incorporer délicatement les blancs à la crème mascarpone",
+        "detail": "Soulever la masse pour ne pas casser les blancs."
+      },
+      {
+        "text": "Tremper les biscuits quelques secondes dans le jus et tapisser le fond du plat",
+        "detail": "On peut placer des demi-fraises tout autour du plat pour la déco."
+      },
+      {
+        "text": "Couvrir de crème et de fraises en dés, puis recommencer une couche",
+        "detail": "Terminer par le reste de crème mascarpone."
+      },
+      {
+        "text": "Réserver au frais quelques heures, idéalement toute la nuit",
+        "duration": "1 nuit",
+        "detail": "Ajouter des fraises sur le dessus juste avant de servir."
+      }
+    ],
+    "tips": "Un tiramisu sans café, à préparer la veille."
   },
   {
-    id: "risotto-a-la-milanaise-de-cyril-lignac",
-    title: "Risotto À La Milanaise De Cyril Lignac",
-    emoji: "🍝",
-    cat: "pates",
-    chef: "kitchenfactoryprod",
-    chefName: "Kitchen Factory Production 🍽",
-    time: "20min",
-    serves: "4 pers.",
-    difficulty: "Facile",
-    image: "img/DZCUuoSsA6t.jpg",
-    link: "https://www.instagram.com/kitchenfactoryprod/reel/DZCUuoSsA6t/",
-    linkType: "instagram",
-    veggie: false,
-    techniques: [],
-    ingredients: [
-      { qty: "350 g", name: "de riz Arborio,", rayon: 'epicerie' },
-      { qty: "1", name: "oignon ciselée,", rayon: 'epicerie' },
-      { qty: "80 g", name: "de beurre,", rayon: 'epicerie' },
-      { qty: "1", name: "verre de vin blanc sec,", rayon: 'epicerie' },
-      { qty: "100 g", name: "de parmesan râpé,", rayon: 'epicerie' },
-      { qty: "2 l", name: "de bouillon de volaille en cube, relevé de 1 pointe de couteau de safran,", rayon: 'epicerie' },
-      { qty: "QS", name: "¼ l de bouillon de légumes (facultatif),", rayon: 'epicerie' },
-      { qty: "1", name: "gousse d’ail (facultatif),", rayon: 'epicerie' },
-      { qty: "1", name: "branche de thym (facultatif),", rayon: 'epicerie' },
-      { qty: "1", name: "feuille de laurier (facultatif),", rayon: 'epicerie' },
-      { qty: "QS", name: "Quelques feuilles de basilic,", rayon: 'epicerie' },
-      { qty: "QS", name: "Huile d’olive,", rayon: 'epicerie' },
-      { qty: "QS", name: "Sel fin et poivre du moulin.", rayon: 'epicerie' },
-      { qty: "1", name: "petit saladier ou bol (facultatif),", rayon: 'epicerie' },
-      { qty: "1", name: "sauteuse,", rayon: 'epicerie' },
+    "id": "risotto-a-la-milanaise-de-cyril-lignac",
+    "title": "Risotto à la milanaise",
+    "emoji": "🍚",
+    "cat": "pates",
+    "chef": "kitchenfactoryprod",
+    "chefName": "Kitchen Factory Production 🍽",
+    "time": "44min",
+    "serves": "4 pers.",
+    "difficulty": "Moyen",
+    "image": "img/DZCUuoSsA6t.jpg",
+    "link": "https://www.instagram.com/kitchenfactoryprod/reel/DZCUuoSsA6t/",
+    "linkType": "instagram",
+    "veggie": false,
+    "techniques": [
+      {
+        "name": "nacrer",
+        "ask": "Faire revenir le riz dans la matière grasse jusqu'à ce qu'il devienne brillant."
+      },
+      {
+        "name": "déglacer",
+        "ask": "Verser un liquide dans la casserole chaude pour dissoudre les sucs."
+      }
     ],
-    steps: [
-      { text: "Bonjour, aujourd'hui on fait l'Italie et particulièrement Milan. C'est là que se réunit au 16e siècle, l'un des plans em", detail: "" },
-      { text: "Je vais suivre la recette classique et donc utiliser de la moelle. Mais si vous préférez passer votre tour, laissez de c", detail: "" },
-      { text: "Je plonge 3 eaux avec la moelle à l'intérieur dans une casserole. Un petit peu de bouillon de volaille, une demi-gousse ", detail: "" },
-      { text: "Et une petite feuille de laurier et là on va les laisser cuire pendant 15 minutes.", detail: "" },
-      { text: "La suite se déroule sur le feu. Dans une casserole, je mets 2 l'huile d'olive et je démarre par la cuisson des oignons.", detail: "" },
-      { text: "J'ajoute une noisette de beurre, j'ajoute le riz, je déglace au verme blanc pour apporter l'acidité à mon risotto.", detail: "" },
-      { text: "J'assaisonne de sel, de saffron et on va le cuire pendant 18 minutes petit à petit avec le bouillon.", detail: "" },
-      { text: "En fin de cuisson du riz, j'ajoute le parmesan râpé et j'ajoute le beurre frais.", detail: "" },
-      { text: "On l'air. On dresser le risotto, on le met directement dans l'assiette comme ça.", detail: "" },
-      { text: "Je récupère ma moelle, un petit peu de saffron, du parmesan râpé et quelques feuilles de basilic.", detail: "" },
+    "ingredients": [
+      {
+        "qty": "350 g",
+        "name": "riz Arborio",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1",
+        "name": "oignon ciselé",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "80 g",
+        "name": "beurre",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "4 os de 5 cm",
+        "name": "os à moelle (facultatif), trempés la veille dans l'eau froide vinaigrée",
+        "rayon": "boucherie"
+      },
+      {
+        "qty": "1 verre",
+        "name": "vin blanc sec",
+        "rayon": "boissons"
+      },
+      {
+        "qty": "100 g",
+        "name": "parmesan râpé",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "2 l",
+        "name": "bouillon de volaille (cube)",
+        "rayon": "boissons"
+      },
+      {
+        "qty": "1 pointe de couteau",
+        "name": "safran",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1/4 l",
+        "name": "bouillon de légumes (facultatif)",
+        "rayon": "boissons"
+      },
+      {
+        "qty": "1 gousse",
+        "name": "ail (facultatif)",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1 branche",
+        "name": "thym (facultatif)",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1 feuille",
+        "name": "laurier (facultatif)",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "quelques feuilles",
+        "name": "basilic",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "huile d'olive",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "sel fin, poivre du moulin",
+        "rayon": "epicerie"
+      }
     ],
-    tips: ''
+    "steps": [
+      {
+        "text": "Cuire les os à moelle dans le bouillon de légumes avec ail, thym, laurier, sel, poivre",
+        "duration": "une quinzaine de minutes",
+        "detail": "Étape facultative, mais typique du risotto alla milanese."
+      },
+      {
+        "text": "Faire revenir l'oignon dans un fond d'huile d'olive",
+        "detail": ""
+      },
+      {
+        "text": "Ajouter le riz et une noix de beurre, remuer sans colorer",
+        "detail": "Le riz doit devenir brillant."
+      },
+      {
+        "text": "Déglacer au vin blanc et laisser réduire",
+        "detail": "Le vin apporte l'acidité au risotto."
+      },
+      {
+        "text": "Mouiller de bouillon safrané petit à petit jusqu'à cuisson du riz",
+        "duration": "environ 18 min",
+        "detail": "Rajouter du bouillon dès qu'il s'est évaporé, en récupérant les sucs sur les bords."
+      },
+      {
+        "text": "Hors cuisson, ajouter le parmesan et le reste du beurre en mélangeant énergiquement",
+        "detail": ""
+      },
+      {
+        "text": "Dresser sur assiette plate en tapant le fond pour étaler le risotto",
+        "detail": ""
+      },
+      {
+        "text": "Garnir de rondelles fines de moelle et de feuilles de basilic",
+        "detail": "Finir d'un filet d'huile d'olive."
+      }
+    ],
+    "tips": "Recette de Cyril Lignac. Préparation 20 min, cuisson 24 min. Sans moelle, sauter la première étape."
   },
   {
-    id: "panna-cotta-aux-fraises",
-    title: "Panna cotta aux fraises",
-    emoji: "🍰",
-    cat: "dessert",
-    chef: "mamy.etjordan",
-    chefName: "Mamy et Jordan",
-    time: "40min",
-    serves: "4 pers.",
-    difficulty: "Facile",
-    image: "img/DYSHmz7hmjL.jpg",
-    link: "https://www.instagram.com/mamy.etjordan/reel/DYSHmz7hmjL/",
-    linkType: "instagram",
-    veggie: false,
-    techniques: [],
-    ingredients: [
-      { qty: "50cl", name: "de crème semi épaisse", rayon: 'epicerie' },
-      { qty: "50g", name: "de sucre", rayon: 'epicerie' },
-      { qty: "2", name: "feuilles de gélatine", rayon: 'epicerie' },
-      { qty: "1", name: "bâton de vanille", rayon: 'epicerie' },
-      { qty: "10", name: "fraises (à votre convenance)", rayon: 'epicerie' },
+    "id": "panna-cotta-aux-fraises",
+    "title": "Panna cotta aux fraises",
+    "emoji": "🍓",
+    "cat": "dessert",
+    "chef": "mamy.etjordan",
+    "chefName": "Mamy et Jordan",
+    "time": "—",
+    "serves": "—",
+    "difficulty": "Facile",
+    "image": "img/DYSHmz7hmjL.jpg",
+    "link": "https://www.instagram.com/mamy.etjordan/reel/DYSHmz7hmjL/",
+    "linkType": "instagram",
+    "veggie": false,
+    "techniques": [],
+    "ingredients": [
+      {
+        "qty": "50 cl",
+        "name": "crème semi-épaisse",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "50 g",
+        "name": "sucre",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "2 feuilles",
+        "name": "gélatine",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1",
+        "name": "bâton de vanille",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "10",
+        "name": "fraises (à votre convenance)",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1 c.s.",
+        "name": "sucre pour le coulis",
+        "rayon": "epicerie"
+      }
     ],
-    steps: [
-      { text: "Mamie, on mange quoi aujourd'hui? Aujourd'hui j'ai fait une panna cotta à la fraise hmmm Je commence à mettre la crème 5", detail: "" },
+    "steps": [
+      {
+        "text": "Chauffer la crème avec le sucre et le bâton de vanille",
+        "detail": ""
+      },
+      {
+        "text": "Faire tremper la gélatine dans l'eau froide, puis l'essorer",
+        "detail": ""
+      },
+      {
+        "text": "À ébullition, incorporer la gélatine et mélanger quelques minutes sur le feu",
+        "detail": ""
+      },
+      {
+        "text": "Verser la crème dans des ramequins et réserver au frigo",
+        "duration": "3 h",
+        "detail": "La légende dit « quelques heures », la vidéo 3 heures."
+      },
+      {
+        "text": "Cuire les fraises avec 1 c.s. de sucre",
+        "detail": ""
+      },
+      {
+        "text": "Mixer les fraises et passer au tamis",
+        "detail": ""
+      },
+      {
+        "text": "Napper de coulis et déposer quelques fraises dessus",
+        "detail": ""
+      }
     ],
-    tips: ''
+    "tips": ""
   },
   {
-    id: "beignets-de-courgettes-DYxBCc",
-    title: "Beignets de courgettes",
-    emoji: "🥬",
-    cat: "accompagnement",
-    chef: "mamy.etjordan",
-    chefName: "Mamy et Jordan",
-    time: "3min",
-    serves: "4 pers.",
-    difficulty: "Facile",
-    image: "img/DYxBCcoMhDW.jpg",
-    link: "https://www.instagram.com/mamy.etjordan/reel/DYxBCcoMhDW/",
-    linkType: "instagram",
-    veggie: true,
-    techniques: [],
-    ingredients: [
-      { qty: "2", name: "œufs entiers", rayon: 'epicerie' },
-      { qty: "2", name: "c à s de farine", rayon: 'epicerie' },
-      { qty: "1", name: "courgette", rayon: 'epicerie' },
-      { qty: "QS", name: "Sel poivre", rayon: 'epicerie' },
-      { qty: "2", name: "c à s de pecorino", rayon: 'epicerie' },
-      { qty: "1", name: "c à s de chapelure", rayon: 'epicerie' },
-      { qty: "1", name: "pincée de levure chimique", rayon: 'epicerie' },
-      { qty: "1/2", name: "gousse d’ail", rayon: 'epicerie' },
-      { qty: "QS", name: "Persil, basilic", rayon: 'epicerie' },
+    "id": "beignets-de-courgettes-DYxBCc",
+    "title": "Beignets de courgettes au pecorino",
+    "emoji": "🥒",
+    "cat": "accompagnement",
+    "chef": "mamy.etjordan",
+    "chefName": "Mamy et Jordan",
+    "time": "—",
+    "serves": "—",
+    "difficulty": "Facile",
+    "image": "img/DYxBCcoMhDW.jpg",
+    "link": "https://www.instagram.com/mamy.etjordan/reel/DYxBCcoMhDW/",
+    "linkType": "instagram",
+    "veggie": true,
+    "techniques": [],
+    "ingredients": [
+      {
+        "qty": "1",
+        "name": "courgette",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "2",
+        "name": "œufs entiers",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "2 c.s.",
+        "name": "farine",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "2 c.s.",
+        "name": "pecorino râpé",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "1 c.s.",
+        "name": "chapelure",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 pincée",
+        "name": "levure chimique",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1/2 gousse",
+        "name": "ail",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "persil et basilic",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "sel, poivre",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "huile de friture",
+        "rayon": "epicerie"
+      }
     ],
-    steps: [
-      { text: "Mamie, on mange quoi aujourd'hui ? Des beignets de courgettes. Maintenant un peu de saine, que j'ai coupé les courgettes", detail: "" },
-      { text: "Saine. Des poivres. Un peu de vercil. Un peu d'ail, la moitié d'une mousse. Dans la pannure, je vais mettre une bonne co", detail: "" },
-      { text: "Du pécorino. Pécorino. Pécorino, ça change de parmesan. Il est plus fort, un peu plus de goût que le parmesan, c'est plu", detail: "" },
-      { text: "Une bonne couillère de farine. On va faire une pâte. Regarde, ça fait une pâte. Mais non, je ne vais pas faire ça.", detail: "" },
-      { text: "Maintenant on va sèler bien les courgettes et on va les mettre dedans. Ah, tu mets déjà tout dedans.", detail: "" },
-      { text: "Je mets tout dedans et après je mélange tout. Ok. Je laisse un peu l'eau qui sort, tu vois.", detail: "" },
-      { text: "Et puis on va mettre dans la poêle, il faut qu'il soit bien chaud. Je fais le test avec la goutte d'eau et maintenant on", detail: "" },
+    "steps": [
+      {
+        "text": "Laver la courgette, la couper en dés et la saler",
+        "detail": "Laisser l'eau sortir, puis bien presser les dés à la main."
+      },
+      {
+        "text": "Battre les œufs avec sel, poivre, basilic, persil et ail",
+        "detail": ""
+      },
+      {
+        "text": "Ajouter la chapelure, le pecorino, la farine et la levure",
+        "detail": "On obtient une pâte épaisse."
+      },
+      {
+        "text": "Incorporer les dés de courgette et mélanger",
+        "detail": ""
+      },
+      {
+        "text": "Chauffer l'huile dans une poêle",
+        "detail": "Test de la goutte d'eau : l'huile doit grésiller."
+      },
+      {
+        "text": "Déposer des cuillerées de pâte et cuire de chaque côté",
+        "duration": "2/3 min par face",
+        "detail": "Jusqu'à ce qu'ils soient bien dorés."
+      }
     ],
-    tips: ''
+    "tips": "Le pecorino a plus de goût que le parmesan."
   },
   {
-    id: "recette",
-    title: "Tiramisu",
-    emoji: "🍰",
-    cat: "dessert",
-    chef: "laurent.mariotte",
-    chefName: "",
-    time: "40min",
-    serves: "4 pers.",
-    difficulty: "Avancé",
-    image: "img/DY9WXOFibS5.jpg",
-    link: "https://www.instagram.com/laurent.mariotte/reel/DY9WXOFibS5/",
-    linkType: "instagram",
-    veggie: true,
-    techniques: [],
-    ingredients: [
-      { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
+    "id": "recette",
+    "title": "Tiramisu aux fraises et biscuits roses de Reims",
+    "emoji": "🍓",
+    "cat": "dessert",
+    "chef": "laurent.mariotte",
+    "chefName": "laurent.mariotte",
+    "time": "—",
+    "serves": "—",
+    "difficulty": "Facile",
+    "image": "img/DY9WXOFibS5.jpg",
+    "link": "https://www.instagram.com/laurent.mariotte/reel/DY9WXOFibS5/",
+    "linkType": "instagram",
+    "veggie": true,
+    "techniques": [
+      {
+        "name": "appareil",
+        "ask": "Mélange de plusieurs ingrédients prêt à être utilisé dans une recette."
+      }
     ],
-    steps: [
-      { text: "On est en train de faire un tiramisu au fraise. C'est la recette idéale pour la fête des mères.", detail: "" },
-      { text: "Vous allez voir cette recette est beaucoup plus simple que le fraisier qui a assez technique.", detail: "" },
-      { text: "On a besoin de fraises. Évidemment, j'ai choisi de la clérie parce qu'elle est bien parfumée, du sucre glace, des biscui", detail: "" },
-      { text: "Et du citron vert pour les ailes. Je vais faire mon jus de fraise qui va me permettre d'imbiber les biscuits roses de ri", detail: "" },
-      { text: "Comme dans le tiramisu où on trempe les biscuits dans le café. Hop, dans le fond du plat.", detail: "" },
-      { text: "Il nous faut des œufs et comme la nature est bien faite, on va utiliser le blanc d'un côté et les jaunes de l'autre pour", detail: "" },
-      { text: "Du sucre glace pour monter les blancs, 120 g. Ah bah oui, il y a du sucre dans le tiramisu.", detail: "" },
-      { text: "C'est la fête des mères. Faut de la douceur. Les blancs en robot, je les fais monter avec le sucre glace.", detail: "" },
-      { text: "C'est pour avoir vraiment une consistance bien onctueuse de l'autre côté. Je mélange mes jaunes avec le mascarpone.", detail: "" },
-      { text: "Pour la fraîcheur, quelques ailes de citron vert. Voilà, regarde, c'est beau ça.", detail: "" },
+    "ingredients": [
+      {
+        "qty": "750 g",
+        "name": "mascarpone",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "4",
+        "name": "œufs",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "120 g",
+        "name": "sucre glace",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "800 g",
+        "name": "fraises",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1",
+        "name": "citron vert (zeste)",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "2 paquets",
+        "name": "biscuits roses de Reims (environ une dizaine en tout)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "sucre glace pour finir",
+        "rayon": "epicerie"
+      }
     ],
-    tips: ''
+    "steps": [
+      {
+        "text": "Mixer la moitié des fraises et couper l'autre moitié en deux",
+        "detail": ""
+      },
+      {
+        "text": "Passer les fraises mixées à la passoire fine et réserver le coulis",
+        "detail": ""
+      },
+      {
+        "text": "Séparer les blancs des jaunes d'œufs",
+        "detail": ""
+      },
+      {
+        "text": "Mélanger le mascarpone, les jaunes et le zeste de citron vert",
+        "detail": ""
+      },
+      {
+        "text": "Fouetter les blancs avec le sucre glace",
+        "detail": "Monter au robot jusqu'à une vraie meringue, bien onctueuse."
+      },
+      {
+        "text": "Incorporer délicatement les blancs au mélange mascarpone",
+        "detail": ""
+      },
+      {
+        "text": "Imbiber les biscuits de coulis et les ranger au fond d'un plat à gratin",
+        "detail": ""
+      },
+      {
+        "text": "Couvrir de la moitié de l'appareil, aligner les fraises, puis le reste du mélange",
+        "detail": "Tasser légèrement l'ensemble."
+      },
+      {
+        "text": "Réserver une nuit au frais",
+        "duration": "1 nuit",
+        "detail": ""
+      },
+      {
+        "text": "Saupoudrer de sucre glace à la sortie du frigo et servir",
+        "detail": ""
+      }
+    ],
+    "tips": "Se prépare la veille. Fraises Cléry conseillées pour leur parfum."
   },
   {
-    id: "le-meilleur-morceau-du-cochon",
-    title: "Le meilleur morceau du cochon",
-    emoji: "🥩",
-    cat: "viande",
-    chef: "albs.cook",
-    chefName: "albs.cook",
-    time: "45min",
-    serves: "4 pers.",
-    difficulty: "Facile",
-    image: "img/DYxFA5_tuVT.jpg",
-    link: "https://www.instagram.com/albs.cook/reel/DYxFA5_tuVT/",
-    linkType: "instagram",
-    veggie: false,
-    techniques: [],
-    ingredients: [
-      { qty: "1", name: "filet mignon de porc (paré)", rayon: 'epicerie' },
-      { qty: "1", name: "gros oignon", rayon: 'epicerie' },
-      { qty: "1", name: "grosse cuillère à soupe de miel", rayon: 'epicerie' },
-      { qty: "1", name: "petit verre de vin blanc (ou de bouillon de table)", rayon: 'epicerie' },
-      { qty: "QS", name: "15-20 cl de crème liquide", rayon: 'epicerie' },
-      { qty: "1", name: "cuillère à café de moutarde fine de Dijon", rayon: 'epicerie' },
-      { qty: "1", name: "cuillère à café de moutarde à l’ancienne", rayon: 'epicerie' },
-      { qty: "QS", name: "Ciboulette fraîche", rayon: 'epicerie' },
-      { qty: "QS", name: "Huile de cuisson, sel et poivre", rayon: 'epicerie' },
-      { qty: "QS", name: "Préparation", rayon: 'epicerie' },
+    "id": "le-meilleur-morceau-du-cochon",
+    "title": "Filet mignon de porc, sauce miel et moutarde",
+    "emoji": "🍯",
+    "cat": "viande",
+    "chef": "albs.cook",
+    "chefName": "albs.cook",
+    "time": "—",
+    "serves": "—",
+    "difficulty": "Facile",
+    "image": "img/DYxFA5_tuVT.jpg",
+    "link": "https://www.instagram.com/albs.cook/reel/DYxFA5_tuVT/",
+    "linkType": "instagram",
+    "veggie": false,
+    "techniques": [
+      {
+        "name": "parer",
+        "ask": "Retirer d'une viande la membrane, les nerfs ou le gras inutiles."
+      },
+      {
+        "name": "déglacer",
+        "ask": "Verser un liquide dans la poêle chaude pour dissoudre les sucs."
+      }
     ],
-    steps: [
-      { text: "C'est le meilleur morceau du cochon et je te montre comment le réussir à coup sûr.", detail: "" },
-      { text: "T'as même pas besoin d'avoir de cuisine, juste d'une plaque et d'une poêle. Et la sauce qui l'accompagne, ma ma je te ra", detail: "" },
-      { text: "Si t'as pas envie de paraître toi-même le filet, ton boucher et ton meilleur ami, il fait ça bien mieux que moi, alors h", detail: "" },
-      { text: "Et si t'as pas envie de cuisiner toi-même, trouves-toi un pote cuisiné et invite-le à bouffer.", detail: "" },
-      { text: "Ça t'évitera d'aller au kebab. Et si lui aussi il a la flemme de cuisiner, il faut aller tous les deux au kebab.", detail: "" },
-      { text: "Imagine donc que t'as trouvé la déterre de refaire cette recette, les ingrédients sont tous en description et le plus im", detail: "" },
-      { text: "C'est ce qui crée à le goût dans la sauce et qui te fera comprendre que t'as bien fait de faire cette recette plutôt que", detail: "" },
+    "ingredients": [
+      {
+        "qty": "1",
+        "name": "filet mignon de porc paré",
+        "rayon": "boucherie"
+      },
+      {
+        "qty": "1 gros",
+        "name": "oignon émincé",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1 grosse c.s.",
+        "name": "miel",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 petit verre",
+        "name": "vin blanc (ou bouillon)",
+        "rayon": "boissons"
+      },
+      {
+        "qty": "15-20 cl",
+        "name": "crème liquide",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "1 c.c.",
+        "name": "moutarde fine de Dijon",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 c.c.",
+        "name": "moutarde à l'ancienne",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "ciboulette fraîche",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "huile, sel, poivre",
+        "rayon": "epicerie"
+      }
     ],
-    tips: ''
+    "steps": [
+      {
+        "text": "Parer le filet mignon et le couper en deux si besoin",
+        "detail": "Retirer la membrane blanche, ou demander au boucher."
+      },
+      {
+        "text": "Saisir le filet sur toutes ses faces dans l'huile bien chaude, puis réserver",
+        "detail": "Il doit être bien marqué et doré : ce sont les sucs qui font le goût de la sauce."
+      },
+      {
+        "text": "Faire revenir l'oignon émincé dans la même poêle",
+        "detail": "Ne pas laver la poêle pour garder les sucs."
+      },
+      {
+        "text": "Ajouter le miel et laisser caraméliser",
+        "detail": "Quand l'oignon commence à être fondant."
+      },
+      {
+        "text": "Déglacer au vin blanc en grattant le fond",
+        "detail": "Avec une spatule en bois."
+      },
+      {
+        "text": "Remettre la viande, couvrir et cuire à feu doux",
+        "duration": "une dizaine de minutes",
+        "detail": "Adapter selon l'épaisseur du filet."
+      },
+      {
+        "text": "Verser la crème et laisser réduire à petits bouillons",
+        "detail": ""
+      },
+      {
+        "text": "Retirer la viande, puis ajouter les deux moutardes hors du feu",
+        "detail": ""
+      },
+      {
+        "text": "Trancher, napper de sauce et parsemer de ciboulette ciselée",
+        "detail": ""
+      }
+    ],
+    "tips": ""
   },
   {
-    id: "artichauts-barigoules",
-    title: "Artichauts barigoules",
-    emoji: "🍽️",
-    cat: "plat",
-    chef: "ericfrechon",
-    chefName: "Eric Frechon",
-    time: "35min",
-    serves: "4 pers.",
-    difficulty: "Facile",
-    image: "img/DYAJ_z4MqyR.jpg",
-    link: "https://www.instagram.com/ericfrechon/reel/DYAJ_z4MqyR/",
-    linkType: "instagram",
-    veggie: true,
-    techniques: [],
-    ingredients: [
-      { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
+    "id": "artichauts-barigoules",
+    "title": "Artichauts à la barigoule",
+    "emoji": "🌿",
+    "cat": "entree",
+    "chef": "ericfrechon",
+    "chefName": "Eric Frechon",
+    "time": "—",
+    "serves": "—",
+    "difficulty": "Moyen",
+    "image": "img/DYAJ_z4MqyR.jpg",
+    "link": "https://www.instagram.com/ericfrechon/reel/DYAJ_z4MqyR/",
+    "linkType": "instagram",
+    "veggie": true,
+    "techniques": [
+      {
+        "name": "foin",
+        "ask": "Les poils au centre de l'artichaut, à retirer avant cuisson."
+      },
+      {
+        "name": "mouiller",
+        "ask": "Ajouter un liquide (vin, bouillon) pour la cuisson."
+      }
     ],
-    steps: [
-      { text: "pour les artichauts barigoules, on enlève avec une cuillère à pommes parisiennes le froid.", detail: "" },
-      { text: "Un des ingrédients quand même fards, c'est la coriandre en graine, qui parfume énormément l'artichaut.", detail: "" },
-      { text: "On met à chauffer de l'huile d'olive, les artichauts. Là, il faut les parfumer. Les herbes de garigues, les carottes, de", detail: "" },
-      { text: "Classiquement, on met un bouillon de poule. Moi, j'ai fait un bouillon de légumes avec les feuilles d'artichauts.", detail: "" },
-      { text: "Là maintenant, je vais couvrir et on va laisser cuire environ 10 minutes suivant la taille des artichauts.", detail: "" },
-      { text: "Sans gore, c'est cuit, c'est prêt et servi. Un petit peu de cerveau, ça termine bien la siette.", detail: "" },
-      { text: "Toi, c'est une belle entrée.", detail: "" },
+    "ingredients": [
+      {
+        "qty": "QS",
+        "name": "artichauts (petits, violets)",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "huile d'olive",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "ail",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "herbes de garrigue (thym…)",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "carottes en petits dés",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "oignons",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "vin blanc",
+        "rayon": "boissons"
+      },
+      {
+        "qty": "QS",
+        "name": "graines de coriandre pilées",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "bouillon de légumes (fait avec les feuilles d'artichaut)",
+        "rayon": "boissons"
+      }
     ],
-    tips: ''
+    "steps": [
+      {
+        "text": "Tourner les artichauts et retirer le foin à la cuillère à pomme parisienne",
+        "detail": "Garder les feuilles pour faire le bouillon."
+      },
+      {
+        "text": "Piler les graines de coriandre au mortier",
+        "detail": "C'est l'ingrédient phare : elle parfume énormément l'artichaut."
+      },
+      {
+        "text": "Chauffer l'huile d'olive et y mettre les artichauts et l'ail",
+        "detail": ""
+      },
+      {
+        "text": "Ajouter les herbes de garrigue, les carottes et les oignons",
+        "detail": ""
+      },
+      {
+        "text": "Mouiller au vin blanc et ajouter la coriandre pilée",
+        "detail": ""
+      },
+      {
+        "text": "Verser le bouillon de légumes",
+        "detail": "Classiquement on met un bouillon de poule ; ici un bouillon de feuilles d'artichaut."
+      },
+      {
+        "text": "Couvrir et laisser cuire",
+        "duration": "environ 10 min",
+        "detail": "Selon la taille des artichauts."
+      },
+      {
+        "text": "Dresser en assiette creuse avec les légumes et le jus",
+        "detail": ""
+      }
+    ],
+    "tips": "Recette provençale d'Eric Frechon. Finition de l'assiette avec une herbe (« serveux » dans l'audio, peut-être du cerfeuil — à vérifier). Avec un bouillon de poule, la recette n'est plus végétarienne."
   },
   {
-    id: "la-bearnaise",
-    title: "Sauce béarnaise",
-    emoji: "🫕",
-    cat: "sauce",
-    chef: "ericfrechon",
-    chefName: "Eric Frechon",
-    time: "15min",
-    serves: "4 pers.",
-    difficulty: "Moyen",
-    image: "img/DYZZ8ulMf6H.jpg",
-    link: "https://www.instagram.com/ericfrechon/reel/DYZZ8ulMf6H/",
-    linkType: "instagram",
-    veggie: true,
-    techniques: [],
-    ingredients: [
-      { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
+    "id": "la-bearnaise",
+    "title": "Sauce béarnaise",
+    "emoji": "🥚",
+    "cat": "sauce",
+    "chef": "ericfrechon",
+    "chefName": "Eric Frechon",
+    "time": "—",
+    "serves": "—",
+    "difficulty": "Avancé",
+    "image": "img/DYZZ8ulMf6H.jpg",
+    "link": "https://www.instagram.com/ericfrechon/reel/DYZZ8ulMf6H/",
+    "linkType": "instagram",
+    "veggie": true,
+    "techniques": [
+      {
+        "name": "sabayon",
+        "ask": "Jaunes d'œufs fouettés à chaud avec un liquide jusqu'à devenir mousseux et épais."
+      },
+      {
+        "name": "bain-marie",
+        "ask": "Cuire dans un récipient posé sur de l'eau frémissante pour une chaleur douce."
+      },
+      {
+        "name": "beurre clarifié",
+        "ask": "Beurre fondu débarrassé de son petit-lait, qui ne brûle pas."
+      }
     ],
-    steps: [
-      { text: "Aujourd'hui je vous fais voir une recette que j'adore, la sauce bernese. Cette compotée d'échalotes, on va s'en servir d", detail: "" },
-      { text: "Moi j'aime bien le monter au bain-marie. Les jaunes d'oeufs de l'eau, on mélange et on met notre éduction de bernese.", detail: "" },
-      { text: "On monte le savayon. Là on voit la consistance quand même qui commence à être bien.", detail: "" },
-      { text: "On incorpore notre beurre clarifié. Maintenant on va lâcher les herbes, un tiers d'estragon pour 3 quarts de cerfoyer.", detail: "" },
-      { text: "Ça c'est vraiment une de mes sauces préférées, surtout pour accompagner des viandes au barbecue entre autres le bœuf.", detail: "" },
-      { text: "Génial !", detail: "" },
+    "ingredients": [
+      {
+        "qty": "QS",
+        "name": "compotée (réduction) d'échalotes",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "jaunes d'œufs",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "QS",
+        "name": "eau",
+        "rayon": "boissons"
+      },
+      {
+        "qty": "QS",
+        "name": "beurre clarifié",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "à vérifier",
+        "name": "estragon haché",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "cerfeuil haché",
+        "rayon": "legumes"
+      }
     ],
-    tips: ''
+    "steps": [
+      {
+        "text": "Préparer la compotée d'échalotes, base de la sauce",
+        "detail": "C'est la réduction béarnaise qui parfume le sabayon."
+      },
+      {
+        "text": "Mélanger les jaunes d'œufs et l'eau dans une casserole",
+        "detail": ""
+      },
+      {
+        "text": "Ajouter la réduction d'échalotes",
+        "detail": ""
+      },
+      {
+        "text": "Monter le sabayon au fouet au bain-marie",
+        "detail": "Il est prêt quand il prend une consistance épaisse et mousseuse."
+      },
+      {
+        "text": "Incorporer le beurre clarifié petit à petit en fouettant",
+        "detail": ""
+      },
+      {
+        "text": "Hacher l'estragon et le cerfeuil et les ajouter à la sauce",
+        "detail": "Un tiers d'estragon pour le reste de cerfeuil."
+      }
+    ],
+    "tips": "Idéale avec les viandes au barbecue, notamment le bœuf. Proportion exacte du cerfeuil peu audible (« un tiers d'estragon pour … de cerfeuil ») : à vérifier."
   },
   {
-    id: "un-sauce-dans-l",
-    title: "Un sauce dans l",
-    emoji: "🫕",
-    cat: "sauce",
-    chef: "ericfrechon",
-    chefName: "Eric Frechon",
-    time: "15min",
-    serves: "4 pers.",
-    difficulty: "Moyen",
-    image: "img/DYfFQzusdSP.jpg",
-    link: "https://www.instagram.com/ericfrechon/reel/DYfFQzusdSP/",
-    linkType: "instagram",
-    veggie: true,
-    techniques: [],
-    ingredients: [
-      { qty: "400", name: "grammes de concassé de tomates", rayon: 'epicerie' },
-      { qty: "20", name: "grammes de gingembre haché", rayon: 'epicerie' },
-      { qty: "20", name: "grammes de cébettes thaï ciselées", rayon: 'epicerie' },
-      { qty: "QS", name: "½ botte de coriandre hachée", rayon: 'epicerie' },
-      { qty: "20", name: "grammes de sésame torréfié", rayon: 'epicerie' },
-      { qty: "20", name: "grammes de sauce soja", rayon: 'epicerie' },
+    "id": "un-sauce-dans-l",
+    "title": "Ketchup maison au gingembre, coriandre et sésame",
+    "emoji": "🍅",
+    "cat": "sauce",
+    "chef": "ericfrechon",
+    "chefName": "Eric Frechon",
+    "time": "—",
+    "serves": "—",
+    "difficulty": "Facile",
+    "image": "img/DYfFQzusdSP.jpg",
+    "link": "https://www.instagram.com/ericfrechon/reel/DYfFQzusdSP/",
+    "linkType": "instagram",
+    "veggie": true,
+    "techniques": [
+      {
+        "name": "ciseler",
+        "ask": "Couper finement en petits morceaux réguliers."
+      }
     ],
-    steps: [
-      { text: "Comment faire un ketchup maison ? Je vais concasser de la coriandre. Donc là, en 6 ailes de la c'est bête, je vais râper", detail: "" },
-      { text: "En base, j'ai fait un confit de tomates. Alors les petites astuces quand même, c'est toujours une pointe de miel dans le", detail: "" },
-      { text: "Nous ajoutons le gingembre râpé de la c'est bête, la coriandre, du sésame noir, du sésame doré.", detail: "" },
-      { text: "On va accentuer ce côté Oumami, un petit peu de soja. Et on mélange. Voici le ketchup maison.", detail: "" },
-      { text: "Donc pour les petits, pour les grands, barbecue ou quoi d'ailleurs.", detail: "" },
+    "ingredients": [
+      {
+        "qty": "400 g",
+        "name": "concassé de tomates (confit)",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "miel (une pointe)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "20 g",
+        "name": "gingembre haché",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "20 g",
+        "name": "cébettes thaï ciselées",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1/2 botte",
+        "name": "coriandre hachée",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "20 g",
+        "name": "sésame torréfié (noir et doré)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "20 g",
+        "name": "sauce soja",
+        "rayon": "epicerie"
+      }
     ],
-    tips: ''
+    "steps": [
+      {
+        "text": "Hacher la coriandre",
+        "detail": ""
+      },
+      {
+        "text": "Ciseler les cébettes",
+        "detail": ""
+      },
+      {
+        "text": "Râper le gingembre",
+        "detail": ""
+      },
+      {
+        "text": "Ajouter une pointe de miel au confit de tomates",
+        "detail": "C'est la petite astuce du chef."
+      },
+      {
+        "text": "Incorporer gingembre, cébette, coriandre et sésames noir et doré",
+        "detail": ""
+      },
+      {
+        "text": "Ajouter la sauce soja et mélanger",
+        "detail": "Le soja accentue le côté umami."
+      }
+    ],
+    "tips": "Recette d'Eric Frechon. Pour les petits et les grands, parfait au barbecue."
   },
   {
-    id: "marinade-asiatique-pour-accompagner-des-cotelettes",
-    title: "Marinade asiatique pour accompagner des côtelettes d",
-    emoji: "🥩",
-    cat: "viande",
-    chef: "ericfrechon",
-    chefName: "Eric Frechon",
-    time: "45min",
-    serves: "4 pers.",
-    difficulty: "Facile",
-    image: "img/DYSIi6Ps5mO.jpg",
-    link: "https://www.instagram.com/ericfrechon/reel/DYSIi6Ps5mO/",
-    linkType: "instagram",
-    veggie: false,
-    techniques: [],
-    ingredients: [
-      { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
+    "id": "marinade-asiatique-pour-accompagner-des-cotelettes",
+    "title": "Côtelettes d'agneau, marinade asiatique au gochujang",
+    "emoji": "🍖",
+    "cat": "viande",
+    "chef": "ericfrechon",
+    "chefName": "Eric Frechon",
+    "time": "—",
+    "serves": "—",
+    "difficulty": "Facile",
+    "image": "img/DYSIi6Ps5mO.jpg",
+    "link": "https://www.instagram.com/ericfrechon/reel/DYSIi6Ps5mO/",
+    "linkType": "instagram",
+    "veggie": false,
+    "techniques": [
+      {
+        "name": "mariner",
+        "ask": "Laisser tremper une viande dans un mélange aromatique pour la parfumer et l'attendrir."
+      }
     ],
-    steps: [
-      { text: "On va préparer une marinade pour de l'agneau, du miel, une pâte de miso pimenté coréenne, gossochang, du miso, du sucre ", detail: "" },
-      { text: "Les côtes d'agneaux ont mariné 12h, là maintenant on peut passer à la cuisson, soit au barbecue ou soit à la poêle, de l", detail: "" },
-      { text: "Je remets un petit peu de marinade dessus, on va emmener cette fraîcheur. En temps de cuisson, c'est à peu près 2 minute", detail: "" },
-      { text: "C'est prêt, on peut dresser. Un petit peu d'oregano, un petit peu de sésame, un tout petit peu d'huile d'olive.", detail: "" },
-      { text: "C'est prêt à être dégusté.", detail: "" },
+    "ingredients": [
+      {
+        "qty": "QS",
+        "name": "côtelettes d'agneau",
+        "rayon": "boucherie"
+      },
+      {
+        "qty": "QS",
+        "name": "miel",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "gochujang (pâte de piment coréenne)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "miso",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "sucre cassonade",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "sauce soja",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "huile de sésame",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "vinaigre de riz",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "mirin",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "ail",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "gingembre",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "poire nashi râpée",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "huile d'olive",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "origan",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "graines de sésame",
+        "rayon": "epicerie"
+      }
     ],
-    tips: ''
+    "steps": [
+      {
+        "text": "Mélanger miel, gochujang, miso, cassonade, soja, huile de sésame, vinaigre de riz, mirin",
+        "detail": ""
+      },
+      {
+        "text": "Ajouter l'ail, le gingembre et la poire nashi râpés, puis mélanger",
+        "detail": "La poire nashi apporte de l'onctuosité et un peu de sucrosité."
+      },
+      {
+        "text": "Faire mariner les côtelettes d'agneau dans la marinade",
+        "duration": "12 h",
+        "detail": ""
+      },
+      {
+        "text": "Saisir les côtelettes à la poêle dans l'huile d'olive, ou au barbecue",
+        "duration": "2 min de chaque côté",
+        "detail": "Pour une cuisson légèrement rosée."
+      },
+      {
+        "text": "Napper d'un peu de marinade pendant la cuisson",
+        "detail": "Pour amener de la fraîcheur."
+      },
+      {
+        "text": "Dresser avec un peu d'origan, de sésame et un filet d'huile d'olive",
+        "detail": ""
+      }
+    ],
+    "tips": "Recette d'Eric Frechon. Cuisson possible au barbecue ou à la poêle."
   },
   {
-    id: "recette-parmigiana-aux-courgettes",
-    title: "Recette parmigiana aux courgettes",
-    emoji: "🥬",
-    cat: "accompagnement",
-    chef: "mamy.etjordan",
-    chefName: "Mamy et Jordan",
-    time: "15min",
-    serves: "4 pers.",
-    difficulty: "Facile",
-    image: "img/DWx_K20MITy.jpg",
-    link: "https://www.instagram.com/mamy.etjordan/reel/DWx_K20MITy/",
-    linkType: "instagram",
-    veggie: true,
-    techniques: [],
-    ingredients: [
-      { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
+    "id": "recette-parmigiana-aux-courgettes",
+    "title": "Parmigiana de courgettes",
+    "emoji": "🥒",
+    "cat": "plat",
+    "chef": "mamy.etjordan",
+    "chefName": "Mamy et Jordan",
+    "time": "—",
+    "serves": "—",
+    "difficulty": "Moyen",
+    "image": "img/DWx_K20MITy.jpg",
+    "link": "https://www.instagram.com/mamy.etjordan/reel/DWx_K20MITy/",
+    "linkType": "instagram",
+    "veggie": true,
+    "techniques": [
+      {
+        "name": "dégorger",
+        "ask": "Saler un légume cru pour lui faire rendre son eau avant la cuisson."
+      }
     ],
-    steps: [
-      { text: "Mamy, on mange quoi Midi ? La pâle Midiana Donc là tu commences par quoi Mamy ? Je coupe les courgettes pour le faire dé", detail: "" },
-      { text: "Je prépare le montage de la pâle Midiana On commence d'abord par la sauce tomate Après on met les courgettes bien changé", detail: "" },
+    "ingredients": [
+      {
+        "qty": "1 kg",
+        "name": "courgettes",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "4/5",
+        "name": "tomates (sauce)",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1 branche",
+        "name": "céleri",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "quelques feuilles",
+        "name": "basilic",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "thym",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "sel, poivre",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "farine",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "œufs battus",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "QS",
+        "name": "huile de friture",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "pecorino râpé",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "QS",
+        "name": "mozzarella (ou scamorza) en tranches",
+        "rayon": "cremerie"
+      }
     ],
-    tips: ''
+    "steps": [
+      {
+        "text": "Faire mijoter la sauce tomate avec le céleri, le basilic, le thym, sel et poivre",
+        "detail": ""
+      },
+      {
+        "text": "Couper les courgettes en tranches dans la longueur et les dégorger au sel",
+        "detail": ""
+      },
+      {
+        "text": "Rouler les tranches dans la farine, puis dans l'œuf battu",
+        "detail": ""
+      },
+      {
+        "text": "Frire les courgettes dans l'huile bien chaude",
+        "detail": "Attendre que l'huile soit chaude avant d'y mettre les courgettes."
+      },
+      {
+        "text": "Dans un plat, étaler une couche de sauce tomate puis les courgettes bien rangées",
+        "detail": ""
+      },
+      {
+        "text": "Couvrir de mozzarella, de pecorino et d'un peu de poivre",
+        "detail": "Peu de poivre : il y en a déjà dans la sauce."
+      },
+      {
+        "text": "Répéter les couches jusqu'en haut du plat en croisant le sens des courgettes",
+        "detail": "Alterner le sens des tranches donne de jolis carrés à la découpe."
+      },
+      {
+        "text": "Enfourner",
+        "duration": "15 min",
+        "temperature": "180 °C",
+        "detail": "La légende dit 15 min, la mamie dit 25 min dans la vidéo."
+      }
+    ],
+    "tips": "Durée de cuisson : 15 min à 180 °C selon la légende, 25 min selon la vidéo. Dans la vidéo, la mamie utilise de la scamorza."
   },
   {
-    id: "lou-elsener-recette",
-    title: "Citronnade Brésilienne",
-    emoji: "🫕",
-    cat: "sauce",
-    chef: "louloukitchen_",
-    chefName: "Lou Elsener",
-    time: "15min",
-    serves: "4 pers.",
-    difficulty: "Moyen",
-    image: "img/DYwV4bQNf1b.jpg",
-    link: "https://www.instagram.com/louloukitchen_/reel/DYwV4bQNf1b/",
-    linkType: "instagram",
-    veggie: true,
-    techniques: [],
-    ingredients: [
-      { qty: "QS", name: "1L5 d’eau", rayon: 'epicerie' },
-      { qty: "1", name: "gousse de vanille", rayon: 'epicerie' },
-      { qty: "4/5", name: "citron bio", rayon: 'epicerie' },
-      { qty: "150g", name: "de glace vanille", rayon: 'epicerie' },
+    "id": "lou-elsener-recette",
+    "title": "Citronnade à la vanille (façon brésilienne)",
+    "emoji": "🍋",
+    "cat": "dessert",
+    "chef": "louloukitchen_",
+    "chefName": "Lou Elsener",
+    "time": "—",
+    "serves": "—",
+    "difficulty": "Facile",
+    "image": "img/DYwV4bQNf1b.jpg",
+    "link": "https://www.instagram.com/louloukitchen_/reel/DYwV4bQNf1b/",
+    "linkType": "instagram",
+    "veggie": true,
+    "techniques": [],
+    "ingredients": [
+      {
+        "qty": "à vérifier",
+        "name": "eau",
+        "rayon": "boissons"
+      },
+      {
+        "qty": "1 gousse",
+        "name": "vanille",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "4/5",
+        "name": "citrons bio",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "150 ml",
+        "name": "lait concentré sucré",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "150 g",
+        "name": "glace vanille",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "10",
+        "name": "glaçons",
+        "rayon": "boissons"
+      },
+      {
+        "qty": "150 g",
+        "name": "sucre (seulement si lait concentré non sucré)",
+        "rayon": "epicerie"
+      }
     ],
-    steps: [
-      { text: "Ça va venir sonner chez vous tout l'été pour cette citronade vanille. C'est la meilleure du monde, elle est extraordinai", detail: "" },
-      { text: "Franchement, j'en fais tous les étés des boissons, mais la citronade à la vanille, elle a un level inexplicable.", detail: "" },
-      { text: "Il vous suffit de découper 4 citrons bio, c'est très important de les prendre bio, de récupérer les gousses d'une vanill", detail: "" },
-      { text: "Vous avez vraiment besoin d'un blender pour la recette en vanche, ensuite vous filtrer ce mélange, comme ça on récupère ", detail: "" },
-      { text: "Et là, vous allez ajouter de la glace vanille, donc j'ai mis à peu près 150 g et du lait concentré.", detail: "" },
-      { text: "150 g aussi. Vous ajoutez des glaçons, on diront une dizaine, et le jus qu'on a filtré et là on va remixer le tout.", detail: "" },
-      { text: "Et si vous voulez utiliser du lait concentré non sucré, vous rajoutez un peu de sucre et ensuite vous n'avez plus qu'à v", detail: "" },
-      { text: "Écoutez, c'est frais, c'est crémeux, pas trop crémeux non plus. La subtilité de la vanille qui se marie parfaitement ave", detail: "" },
-      { text: "La boisson est merveilleuse, ça va avec tous les plats. Enfin c'est la boisson pour moi de l'été.", detail: "" },
-      { text: "Regardez cette petite vanille dans le verre, c'était délicieux.", detail: "" },
+    "steps": [
+      {
+        "text": "Couper les citrons bio en morceaux",
+        "detail": "Bio impératif : on mixe les citrons entiers avec la peau."
+      },
+      {
+        "text": "Mixer les citrons, les graines de vanille et l'eau au blender",
+        "detail": "Un blender est indispensable pour cette recette."
+      },
+      {
+        "text": "Filtrer le mélange pour ne garder que le jus",
+        "detail": ""
+      },
+      {
+        "text": "Mettre dans le blender la glace vanille, le lait concentré et les glaçons",
+        "detail": "Avec du lait concentré non sucré, ajouter le sucre."
+      },
+      {
+        "text": "Ajouter le jus filtré et remixer le tout",
+        "detail": ""
+      },
+      {
+        "text": "Verser en carafe et servir bien frais",
+        "detail": ""
+      }
     ],
-    tips: ''
+    "tips": "Boisson inspirée de la limonade brésilienne : fraîche, crémeuse sans excès. La légende dit 4 à 5 citrons, la vidéo 4."
   },
   {
-    id: "gateau-aux-fraises-sans-cuisson",
-    title: "Gâteau aux fraises sans cuisson",
-    emoji: "🥩",
-    cat: "viande",
-    chef: "laviedunefitmum",
-    chefName: "Anastasia Szymanski",
-    time: "10min",
-    serves: "4 pers.",
-    difficulty: "Facile",
-    image: "img/DYT_bUgMv2X.jpg",
-    link: "https://www.instagram.com/laviedunefitmum/reel/DYT_bUgMv2X/",
-    linkType: "instagram",
-    veggie: false,
-    techniques: [],
-    ingredients: [
-      { qty: "800g", name: "de fraises", rayon: 'epicerie' },
-      { qty: "25", name: "biscuits cuillères", rayon: 'epicerie' },
-      { qty: "100g", name: "de lait", rayon: 'epicerie' },
-      { qty: "300g", name: "de mascarpone", rayon: 'epicerie' },
-      { qty: "300g", name: "de crème liquide 30%", rayon: 'epicerie' },
-      { qty: "70g", name: "de sucre glace", rayon: 'epicerie' },
-      { qty: "1 cac", name: "de graines de vanille", rayon: 'epicerie' },
+    "id": "gateau-aux-fraises-sans-cuisson",
+    "title": "Gâteau aux fraises sans cuisson",
+    "emoji": "🍓",
+    "cat": "dessert",
+    "chef": "laviedunefitmum",
+    "chefName": "Anastasia Szymanski",
+    "time": "—",
+    "serves": "—",
+    "difficulty": "Facile",
+    "image": "img/DYT_bUgMv2X.jpg",
+    "link": "https://www.instagram.com/laviedunefitmum/reel/DYT_bUgMv2X/",
+    "linkType": "instagram",
+    "veggie": true,
+    "techniques": [],
+    "ingredients": [
+      {
+        "qty": "800 g",
+        "name": "fraises",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "25",
+        "name": "biscuits cuillère",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "100 g",
+        "name": "lait",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "300 g",
+        "name": "mascarpone",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "300 g",
+        "name": "crème liquide 30 %",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "70 g",
+        "name": "sucre glace",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 c.c.",
+        "name": "graines de vanille",
+        "rayon": "epicerie"
+      }
     ],
-    steps: [
-      { text: "Ce dessert est complètement addictif. Vous allez voir, il est facile à réaliser.", detail: "" },
-      { text: "Il est sans cuisson et il est juste incroyable. On commence par déposer des rondelles de fraises dans un saladier.", detail: "" },
-      { text: "On recouvre deux chantilliers et on répète l'opération. On dépose à nouveau de la crème, puis on ajoute des biscuits cui", detail: "" },
-      { text: "On recouvre à nouveau de crème et on dépose au centre des morceaux de fraises. On finit par une dernière couche de chant", detail: "" },
-      { text: "Et on réserve deux heures minimum offrés avant de démouler le tour.", detail: "" },
+    "steps": [
+      {
+        "text": "Fouetter mascarpone, crème, sucre glace et vanille en chantilly",
+        "detail": "Tout doit être bien froid : fouets et saladier 10 min au congélateur avant."
+      },
+      {
+        "text": "Tapisser de film alimentaire un saladier de 22 cm",
+        "detail": ""
+      },
+      {
+        "text": "Couvrir le fond et les parois de rondelles de fraises",
+        "detail": ""
+      },
+      {
+        "text": "Ajouter une couche de chantilly, puis répéter fraises et chantilly",
+        "detail": ""
+      },
+      {
+        "text": "Déposer des biscuits trempés dans le lait et recouvrir de chantilly",
+        "detail": ""
+      },
+      {
+        "text": "Mettre des morceaux de fraises au centre et couvrir de chantilly",
+        "detail": ""
+      },
+      {
+        "text": "Finir par une couche de biscuits trempés et bien tasser",
+        "detail": ""
+      },
+      {
+        "text": "Réserver au frais au moins 2 h, puis démouler et servir",
+        "duration": "2 h minimum",
+        "detail": "Retourner sur un plat et retirer le film."
+      }
     ],
-    tips: ''
+    "tips": "Moule : saladier de 22 cm."
   },
   {
-    id: "pour-les-ingredients",
-    title: "Pour les ingrédients",
-    emoji: "🍽️",
-    cat: "plat",
-    chef: "adopteuncake",
-    chefName: "Soraya | Cake designer • Formatrice 🧁🐝",
-    time: "20min",
-    serves: "4 pers.",
-    difficulty: "Facile",
-    image: "img/DWCMeHGjdmq.jpg",
-    link: "https://www.instagram.com/adopteuncake/reel/DWCMeHGjdmq/",
-    linkType: "instagram",
-    veggie: true,
-    techniques: [],
-    ingredients: [
-      { qty: "2", name: "boîtes de biscuits cuillère", rayon: 'epicerie' },
-      { qty: "500", name: "gr de mascarpone", rayon: 'epicerie' },
-      { qty: "QS", name: "150gr de crème liquide", rayon: 'epicerie' },
-      { qty: "40", name: "gr de sucre", rayon: 'epicerie' },
-      { qty: "200", name: "gr de fraises pour l’intérieur", rayon: 'epicerie' },
-      { qty: "QS", name: "Du lait pour imbiber", rayon: 'epicerie' },
-      { qty: "QS", name: "Des fruits pour la décoration", rayon: 'epicerie' },
+    "id": "pour-les-ingredients",
+    "title": "Charlotte express aux fraises et mascarpone",
+    "emoji": "🍓",
+    "cat": "dessert",
+    "chef": "adopteuncake",
+    "chefName": "Soraya | Cake designer • Formatrice 🧁🐝",
+    "time": "20min",
+    "serves": "—",
+    "difficulty": "Facile",
+    "image": "img/DWCMeHGjdmq.jpg",
+    "link": "https://www.instagram.com/adopteuncake/reel/DWCMeHGjdmq/",
+    "linkType": "instagram",
+    "veggie": true,
+    "techniques": [
+      {
+        "name": "brunoise",
+        "ask": "Taille en tout petits dés réguliers."
+      },
+      {
+        "name": "décercler",
+        "ask": "Retirer le cercle à pâtisserie une fois le gâteau pris."
+      }
     ],
-    steps: [
-      { text: "Je te donne la recette de ma Charlotte Express. C'est un dessert que j'ai l'habitude de faire quand je reçois.", detail: "" },
-      { text: "C'est toujours un sans faute. Franchement, c'est hyper simple à faire et surtout, t'en as pour à peine 20 minutes.", detail: "" },
-      { text: "Donc, je commence par réaliser ma chantilly avec de la mascarpone, de la crème liquide, un peu de sucre et de la vanille", detail: "" },
-      { text: "À côté de ça, je coupe mes fraises en brunoise, mais bien entendu, tu peux faire ça avec le fruit de ton choix.", detail: "" },
-      { text: "J'ajoute une petite cuillère de sucre et là, regarde, t'as un espèce de petit sirop, donc c'est parfait pour ta Charlott", detail: "" },
-      { text: "Et maintenant, je prends mes biscuits cuillères. Je viens couper l'extrémité pour pouvoir les placer autour d'un cercle ", detail: "" },
-      { text: "Pour l'intérieur, j'imbibes les biscuits avec du lait et puis je monte tout simplement ma Charlotte.", detail: "" },
-      { text: "Donc, une couche de biscuits, une couche de mascarpone, les fraises et on recommence encore une fois.", detail: "" },
-      { text: "Et là, t'as le choix. C'est soit tu places ta Charlotte offrée jusqu'au soir, soit tu es pressée.", detail: "" },
-      { text: "Là, tu peux la mettre au congélateur pour 20 minutes. Quand ton gâteau a bien refroidi et que ta crème a figé, tu vas po", detail: "" },
+    "ingredients": [
+      {
+        "qty": "2 boîtes",
+        "name": "biscuits cuillère",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "500 g",
+        "name": "mascarpone",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "150 g",
+        "name": "crème liquide",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "40 g",
+        "name": "sucre",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "vanille en poudre",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "200 g",
+        "name": "fraises pour l'intérieur",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1 petite cuillère",
+        "name": "sucre pour les fraises",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "lait pour imbiber",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "QS",
+        "name": "fruits rouges pour la décoration",
+        "rayon": "legumes"
+      }
     ],
-    tips: ''
+    "steps": [
+      {
+        "text": "Monter la mascarpone, la crème liquide, le sucre et la vanille en chantilly",
+        "detail": ""
+      },
+      {
+        "text": "Couper les fraises en brunoise et ajouter une petite cuillère de sucre",
+        "detail": "Le sucre fait rendre aux fraises un petit sirop, parfait pour la charlotte."
+      },
+      {
+        "text": "Couper l'extrémité des biscuits et les placer debout autour d'un cercle à pâtisserie",
+        "detail": ""
+      },
+      {
+        "text": "Imbiber de lait les biscuits destinés à l'intérieur",
+        "detail": ""
+      },
+      {
+        "text": "Monter une couche de biscuits, une couche de crème mascarpone, puis les fraises",
+        "detail": "Recommencer une seconde fois."
+      },
+      {
+        "text": "Mettre au frais jusqu'au soir, ou 20 minutes au congélateur si pressé",
+        "duration": "20 min (congélateur)",
+        "detail": "La crème doit avoir figé avant de décorer."
+      },
+      {
+        "text": "Décorer de fruits rouges, puis décercler",
+        "detail": "On peut aussi pocher de la crème sur le dessus."
+      },
+      {
+        "text": "Nouer un ruban autour de la charlotte",
+        "detail": "Il tient les biscuits et fait son effet."
+      }
+    ],
+    "tips": "Fonctionne avec le fruit de son choix à la place des fraises."
   },
   {
-    id: "deux-recettes-de-salades-toutes-simples-et-trop-be",
-    title: "Deux recettes de salades toutes simples et trop belles",
-    emoji: "🍝",
-    cat: "pates",
-    chef: "not_so_superflu",
-    chefName: "Monelle Godaert",
-    time: "25min",
-    serves: "4 pers.",
-    difficulty: "Facile",
-    image: "img/DYnMxgfo2yB.jpg",
-    link: "https://www.instagram.com/not_so_superflu/reel/DYnMxgfo2yB/",
-    linkType: "instagram",
-    veggie: true,
-    techniques: [],
-    ingredients: [
-      { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
+    "id": "deux-recettes-de-salades-toutes-simples-et-trop-be",
+    "title": "Salade de pâtes à la vinaigrette au parmesan",
+    "emoji": "🥗",
+    "cat": "pates",
+    "chef": "not_so_superflu",
+    "chefName": "Monelle Godaert",
+    "time": "—",
+    "serves": "—",
+    "difficulty": "Facile",
+    "image": "img/DYnMxgfo2yB.jpg",
+    "link": "https://www.instagram.com/not_so_superflu/reel/DYnMxgfo2yB/",
+    "linkType": "instagram",
+    "veggie": true,
+    "techniques": [
+      {
+        "name": "chiffonnade",
+        "ask": "Rouler des feuilles sur elles-mêmes puis les couper en fines lanières."
+      }
     ],
-    steps: [
-      { text: "Pour ce soir c'était encore recette très très simple j'ai fait deux belles salades vous me dites laquelle vous préférez ", detail: "" },
+    "ingredients": [
+      {
+        "qty": "QS",
+        "name": "huile d'olive",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 beau morceau",
+        "name": "parmesan râpé",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "à vérifier",
+        "name": "vinaigre",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 petite cuillère",
+        "name": "moutarde",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "poivre",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "pâtes (farfalle) cuites",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "concombre",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "tomates cerises",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "olives noires",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "quelques",
+        "name": "pignons grillés",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "mini scamorza",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "plein de",
+        "name": "feuilles de basilic",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "mélasse de grenade",
+        "rayon": "epicerie"
+      }
     ],
-    tips: ''
+    "steps": [
+      {
+        "text": "Verser l'huile d'olive au fond du plat de service",
+        "detail": ""
+      },
+      {
+        "text": "Râper le parmesan, ajouter vinaigre, moutarde et poivre, et mélanger",
+        "detail": "On obtient directement la vinaigrette au parmesan dans le plat."
+      },
+      {
+        "text": "Ajouter les pâtes cuites et les enrober de vinaigrette",
+        "detail": ""
+      },
+      {
+        "text": "Ajouter concombre, tomates cerises, olives noires et pignons grillés",
+        "detail": ""
+      },
+      {
+        "text": "Parsemer de mini scamorza",
+        "detail": ""
+      },
+      {
+        "text": "Rouler les feuilles de basilic et les tailler en fines lanières",
+        "detail": ""
+      },
+      {
+        "text": "Arroser de mélasse de grenade et mélanger",
+        "detail": ""
+      }
+    ],
+    "tips": "La vidéo montre aussi une salade de quinoa : vinaigrette huile d'olive, citron vert, un peu de miel, 3 c.s. de vinaigre de riz, poivre noir et sel ; puis 3 belles poignées de quinoa, 2 carottes râpées, 1 avocat entier, 1 mini concombre, 2 belles poignées de pois chiches, un peu d'oignon rouge, raisins secs ou cranberries, éclats de pistache grillée, feta et menthe."
   },
   {
     id: "tartinade-daubergines-et-poivrons",
