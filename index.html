@@ -15,30 +15,7 @@
 </head>
 <body>
 
-<!-- Netflix-style Onboarding -->
-<div class="onboarding" id="onboarding" style="display:none">
-  <div class="onboard-screen active">
-    <div class="onboard-title">Choisis tes chefs</div>
-    <div class="onboard-desc">Sélectionne ceux qui t'inspirent. Tu pourras changer plus tard.</div>
-    <div class="onboard-grid" id="onboard-chefs-grid"></div>
-  </div>
-  <div class="onboard-screen">
-    <div class="onboard-title">Qu'est-ce que tu aimes cuisiner ?</div>
-    <div class="onboard-desc">On te proposera des recettes adaptées à tes goûts.</div>
-    <div class="onboard-grid" id="onboard-cats-grid"></div>
-  </div>
-  <div class="onboard-screen">
-    <div class="onboard-title">Ton objectif</div>
-    <div class="onboard-desc">Qu'est-ce qui te motive en cuisine ?</div>
-    <div class="onboard-grid" id="onboard-goals-grid"></div>
-  </div>
-  <div class="onboard-dots">
-    <div class="onboard-dot active"></div>
-    <div class="onboard-dot"></div>
-    <div class="onboard-dot"></div>
-  </div>
-  <button class="onboard-btn">Suivant</button>
-</div>
+<div id="onboarding" hidden></div>
 
 <!-- Pages -->
 <div class="page active" id="page-home">
@@ -49,6 +26,9 @@
       placeholder="Plat, ingrédient, chef… (ex. courgette feta)" oninput="window.app.search(this.value)">
     <span class="search-count" id="search-count"></span>
   </div>
+  <div id="home-cats"></div>
+  <div id="home-list" hidden>
+    <button class="back-btn back-cats" onclick="window.app.backToCats()">← Catégories</button>
   <div class="filter-chips">
     <div class="chip active" onclick="window.app.filter('all',this)">Tout</div>
     <div class="chip" onclick="window.app.filter('favs',this)">♥ Favoris</div>
@@ -69,6 +49,7 @@
   </div>
   <div class="grid" id="home-grid"></div>
   <div class="search-empty" id="search-empty" hidden>Aucune recette ne correspond.</div>
+  </div>
 </div>
 
 <div class="page" id="page-chefs">

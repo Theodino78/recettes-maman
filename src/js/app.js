@@ -72,9 +72,45 @@ function updateBottomNav(page) {
 // ============================================
 // Recipe Rendering
 // ============================================
+
+// Nombre de convives : base = « N pers. » de la recette, sinon 4
+const servingsState = {};
+const baseServings = (recipe) => { const m = String(recipe.serves || '').match(/(\d+)/); return m ? +m[1] : 4; };
+const currentServings = (recipe) => servingsState[recipe.id] || baseServings(recipe);
+const servingsFactor = (recipe) => currentServings(recipe) / baseServings(recipe);
+function fmtNum(x, unitless) {
+  if (unitless) return String(Math.max(1, Math.round(x)));
+  const r = x >= 100 ? Math.round(x / 5) * 5 : x >= 10 ? Math.round(x) : Math.round(x * 10) / 10;
+  return String(r).replace('.', ',');
+}
+// Multiplie tous les nombres d'une quantité (« 200 g », « 1/2 », « 2 (≈ 500 g) », « 1,5 kg »)
+function scaleQty(qty, f) {
+  const q = String(qty || '');
+  if (f === 1 || !q || q === 'QS' || q === 'à vérifier' || !/\d|½|¼|¾/.test(q)) return q;
+  const unitless = /^\s*[≈~]?\s*[\d.,/½¼¾]+\s*$/.test(q);
+  return q.replace(/½/g, '1/2').replace(/¼/g, '1/4').replace(/¾/g, '3/4')
+    .replace(/(\d+(?:[.,]\d+)?)\s*\/\s*(\d+)|(\d+(?:[.,]\d+)?)/g, (m, a, b, c) => {
+      const v = a ? parseFloat(a.replace(',', '.')) / +b : parseFloat(c.replace(',', '.'));
+      return fmtNum(v * f, unitless);
+    });
+}
+function setServings(id, delta) {
+  const recipe = RECIPES.find(r => r.id === id);
+  if (!recipe) return;
+  servingsState[id] = Math.min(30, Math.max(1, currentServings(recipe) + delta));
+  const f = servingsFactor(recipe);
+  document.querySelectorAll('#page-recipe-detail .ing').forEach((el, i) => {
+    el.querySelector('.ing-qty').textContent = scaleQty(recipe.ingredients[i].qty, f);
+  });
+  const n = document.getElementById('servings-n');
+  if (n) n.textContent = currentServings(recipe);
+}
+
+let currentRecipeId = null;
 function showRecipe(id) {
   const recipe = RECIPES.find(r => r.id === id);
   if (!recipe) return;
+  currentRecipeId = id;
   
   expandedSteps = {};
   
@@ -107,7 +143,6 @@ function renderRecipeDetail(recipe) {
       <h2 class="detail-title">${recipe.title} ${favBtn(recipe.id, 'fav-detail')}</h2>
       <div class="detail-meta">
         ${recipe.time && recipe.time !== '—' ? `<span>⏱ ${recipe.time}</span>` : ''}
-        ${recipe.serves && recipe.serves !== '—' ? `<span>👤 ${recipe.serves}</span>` : ''}
         <span>📊 ${recipe.difficulty}</span>
       </div>
     </div>
@@ -124,12 +159,21 @@ function renderRecipeDetail(recipe) {
     html += '</div>';
   }
   
-  // Ingredients
-  html += '<div class="section-hdr">🧂 Ingrédients</div><div class="ing-list">';
+  // Ingredients + convives
+  const f = servingsFactor(recipe);
+  const baseKnown = /\d/.test(String(recipe.serves || ''));
+  html += `<div class="section-hdr servings-hdr">🧂 Ingrédients
+    <div class="servings">
+      <button onclick="window.app.setServings('${recipe.id}', -1)" aria-label="Moins">−</button>
+      <span>👤 <b id="servings-n">${currentServings(recipe)}</b> pers.</span>
+      <button onclick="window.app.setServings('${recipe.id}', 1)" aria-label="Plus">+</button>
+    </div></div>
+    ${baseKnown ? '' : '<div class="servings-note">Nombre de personnes non précisé par la recette : base de 4.</div>'}
+    <div class="ing-list">`;
   recipe.ingredients.forEach(ing => {
     html += `<div class="ing" onclick="window.app.checkIng(this)">
       <div class="ing-dot"></div>
-      <span class="ing-qty">${ing.qty}</span>
+      <span class="ing-qty">${scaleQty(ing.qty, f)}</span>
       <span class="ing-name">${ing.name}</span>
     </div>`;
   });
@@ -306,6 +350,73 @@ const RECIPE_TAGS = new Map(RECIPES.map(r => [r.id, recipeTags(r)]));
 RECIPES.forEach(r => SEARCH_INDEX.set(r.id, SEARCH_INDEX.get(r.id) + ' ' + RECIPE_TAGS.get(r.id).join(' ')));
 let currentTag = null;
 
+
+// Accueil : tuiles de catégories (types de plat + ingrédients), puis la liste filtrée
+const HOME_CATS = [
+  { kind: 'cat', id: 'entree', label: 'Entrées' }, { kind: 'cat', id: 'plat', label: 'Plats' },
+  { kind: 'cat', id: 'viande', label: 'Viandes' }, { kind: 'cat', id: 'poisson', label: 'Poissons' },
+  { kind: 'cat', id: 'pates', label: 'Pâtes & riz' }, { kind: 'cat', id: 'accompagnement', label: 'Accompagnements' },
+  { kind: 'cat', id: 'sauce', label: 'Sauces' }, { kind: 'cat', id: 'dessert', label: 'Desserts' },
+  { kind: 'cat', id: 'veggie', label: 'Veggie' },
+];
+function homeCatRecipes(c) {
+  if (c.kind === 'tag') return RECIPES.filter(r => (RECIPE_TAGS.get(r.id) || []).includes(c.id));
+  if (c.id === 'veggie') return RECIPES.filter(r => r.veggie && r.cat !== 'dessert');
+  return RECIPES.filter(r => r.cat === c.id);
+}
+function renderHomeCats() {
+  const box = document.getElementById('home-cats');
+  if (!box) return;
+  const tile = (c) => {
+    const list = homeCatRecipes(c);
+    if (!list.length) return '';
+    const cover = list.find(r => r.image) || {};
+    const bg = cover.image ? `background-image:url('${cover.image}')` : `background:${CAT_GRADIENTS[c.id] || CAT_GRADIENTS.default}`;
+    return `<div class="cat-tile" style="${bg}" onclick="window.app.openHomeCat('${c.kind}','${c.id}')">
+      <span class="cat-tile-label">${c.label}<small>${list.length}</small></span></div>`;
+  };
+  const tags = TAG_RULES.filter(t => homeCatRecipes({ kind: 'tag', id: t.id }).length >= 3)
+    .map(t => ({ kind: 'tag', id: t.id, label: t.label.replace(/^\S+\s/, '') }));
+  const favN = getFavs().length;
+  box.innerHTML = `
+    ${favN ? `<div class="cat-all" onclick="window.app.openHomeCat('cat','favs')">♥ Mes favoris <small>${favN}</small></div>` : ''}
+    <div class="cat-section">Par type de plat</div>
+    <div class="cat-grid">${HOME_CATS.map(tile).join('')}</div>
+    <div class="cat-section">Par ingrédient ou envie</div>
+    <div class="cat-grid">${tags.map(tile).join('')}</div>
+    <div class="cat-all" onclick="window.app.openHomeCat('cat','all')">Toutes les recettes <small>${RECIPES.length}</small></div>`;
+}
+function setHomeMode(mode) {
+  const list = document.getElementById('home-list'), cats = document.getElementById('home-cats');
+  if (!list || !cats) return;
+  list.hidden = mode !== 'list';
+  cats.hidden = mode !== 'cats';
+  if (mode === 'cats') renderHomeCats();
+}
+function openHomeCat(kind, id) {
+  currentTag = null; currentCat = 'all';
+  document.querySelectorAll('#tag-chips .chip, .filter-chips .chip').forEach(c => c.classList.remove('active'));
+  if (kind === 'tag') {
+    currentTag = id;
+    const chip = [...document.querySelectorAll('#tag-chips .chip')].find(c => c.getAttribute('onclick').includes(`'${id}'`));
+    if (chip) chip.classList.add('active');
+  } else {
+    currentCat = id;
+    const chip = [...document.querySelectorAll('.filter-chips:not(.tag-chips) .chip')].find(c => c.getAttribute('onclick').includes(`'${id}'`));
+    if (chip) chip.classList.add('active');
+  }
+  setHomeMode('list');
+  applyFilters();
+  window.scrollTo(0, 0);
+}
+function backToCats() {
+  const input = document.getElementById('home-search');
+  if (input) input.value = '';
+  currentQuery = []; currentTag = null; currentCat = 'all';
+  setHomeMode('cats');
+  window.scrollTo(0, 0);
+}
+
 function renderTagChips() {
   const box = document.getElementById('tag-chips');
   if (!box) return;
@@ -338,7 +449,7 @@ function applyFilters() {
     const tagOk = !currentTag || (RECIPE_TAGS.get(card.dataset.id) || []).includes(currentTag);
     const show = catOk && tagOk && currentQuery.every(w => text.includes(w));
     card.style.display = show ? '' : 'none';
-    if (show) card.style.animationDelay = `${Math.min(shown, 12) * 50}ms`;
+    card.style.animation = 'none'; // l'animation d'entrée ne sert qu'au premier affichage
     shown += show;
   });
   const count = document.getElementById('search-count');
@@ -358,6 +469,7 @@ function filter(cat, chipEl) {
 
 function search(q) {
   currentQuery = norm(q).split(/\s+/).filter(Boolean);
+  if (currentQuery.length) setHomeMode('list');
   applyFilters();
 }
 
@@ -516,7 +628,7 @@ function showShop(recipeId) {
   modal.className = 'shop-modal';
   modal.innerHTML = `
     <div class="shop-header">
-      <span class="shop-header-title">🛒 Liste de courses — ${recipe.title}</span>
+      <span class="shop-header-title">🛒 ${recipe.title} · ${currentServings(recipe)} pers.</span>
       <button class="shop-close" onclick="window.app.closeShop()">✕</button>
     </div>
     <div class="shop-body">
@@ -558,10 +670,11 @@ function shopName(name) {
 
 // Ce qu'on achète : la liste d'achat de la fiche si elle existe, sinon les ingrédients nettoyés
 function shopItems(recipe) {
+  const f = servingsFactor(recipe);
   if (recipe.shopping && recipe.shopping.length) {
-    return recipe.shopping.map(it => ({ name: it.product, qty: (it.estimate && !String(it.qty).includes('≈') ? '≈ ' : '') + it.qty, rayon: it.rayon, pantry: it.pantry, estimate: it.estimate }));
+    return recipe.shopping.map(it => ({ name: it.product, qty: (it.estimate && !String(it.qty).includes('≈') ? '≈ ' : '') + scaleQty(it.qty, f), rayon: it.rayon, pantry: it.pantry, estimate: it.estimate }));
   }
-  return recipe.ingredients.map(ing => ({ name: shopName(ing.name), qty: ing.qty, rayon: ing.rayon }));
+  return recipe.ingredients.map(ing => ({ name: shopName(ing.name), qty: scaleQty(ing.qty, f), rayon: ing.rayon }));
 }
 
 function buildOrderPrompt(recipe) {
@@ -571,7 +684,7 @@ function buildOrderPrompt(recipe) {
   if (!items.length) return null;
   const known = (q) => q && q !== 'QS' && q !== 'à vérifier';
   const line = (it) => `- ${it.name} : ${known((it.qty || '').trim()) ? it.qty : 'quantité à estimer'}`;
-  const serves = recipe.serves && recipe.serves !== '—' ? recipe.serves : '4 pers. (par défaut)';
+  const serves = `${currentServings(recipe)} personnes`;
   return `Sur biocoop.fr, remplis mon panier pour la recette « ${recipe.title} », pour ${serves}.\n\n` +
     `Produits à acheter :\n${items.map(line).join('\n')}\n\n` +
     `Consignes :\n` +
@@ -591,38 +704,43 @@ function orderIngredients(recipeId) {
     navigator.share({ title: `Courses — ${recipe.title}`, text: prompt }).catch(() => {});
     return;
   }
-  navigator.clipboard.writeText(prompt).finally(() => {
+  copyText(prompt).finally(() => {
     showToast('✅ Prompt copié — colle-le dans Grok');
     window.open('https://grok.com/?q=' + encodeURIComponent(prompt), '_blank');
   });
 }
 
+function copyText(text) {
+  const fallback = () => {
+    const ta = document.createElement('textarea');
+    ta.value = text; ta.setAttribute('readonly', ''); ta.style.position = 'fixed'; ta.style.opacity = '0';
+    document.body.appendChild(ta); ta.select(); ta.setSelectionRange(0, text.length);
+    const ok = document.execCommand('copy'); ta.remove(); return ok;
+  };
+  if (navigator.clipboard && window.isSecureContext) {
+    return navigator.clipboard.writeText(text).then(() => true).catch(() => fallback());
+  }
+  return Promise.resolve(fallback());
+}
+
 function copyShopList(recipeId) {
   const recipe = RECIPES.find(r => r.id === recipeId);
   if (!recipe) return;
-
+  const modal = [...document.querySelectorAll('.shop-modal')].pop();
+  const have = new Set(modal ? [...modal.querySelectorAll('.shop-item.checked')].map(el => +el.dataset.idx) : []);
   const grouped = {};
-  recipe.ingredients.forEach(ing => {
-    const rayon = ing.rayon || 'epicerie';
-    if (!grouped[rayon]) grouped[rayon] = [];
-    grouped[rayon].push(ing);
+  shopItems(recipe).forEach((it, i) => {
+    if (have.has(i)) return;
+    (grouped[it.rayon || 'epicerie'] = grouped[it.rayon || 'epicerie'] || []).push(it);
   });
-
-  let text = `🛒 ${recipe.title}\n\n`;
+  let text = `🛒 ${recipe.title} — ${currentServings(recipe)} pers.\n\n`;
   RAYON_ORDER.forEach(rayon => {
     if (!grouped[rayon]) return;
-    text += `${RAYON_LABELS[rayon]}\n`;
-    grouped[rayon].forEach(ing => {
-      text += `  □ ${ing.qty} ${ing.name}\n`;
-    });
+    text += `${RAYON_LABELS[rayon] || rayon}\n`;
+    grouped[rayon].forEach(it => { text += `  □ ${it.qty} ${it.name}\n`; });
     text += '\n';
   });
-
-  navigator.clipboard.writeText(text).then(() => {
-    showToast('✅ Liste copiée !');
-  }).catch(() => {
-    showToast('❌ Impossible de copier');
-  });
+  copyText(text.trim()).then(ok => showToast(ok ? '✅ Liste copiée !' : '❌ Impossible de copier'));
 }
 
 // ============================================
@@ -727,9 +845,7 @@ function showInteract() {
     return;
   }
   
-  // Find the recipe by title match
-  const title = titleEl.textContent;
-  chatRecipe = RECIPES.find(r => r.title === title);
+  chatRecipe = RECIPES.find(r => r.id === currentRecipeId);
   if (!chatRecipe) {
     showToast('💬 Recette introuvable');
     return;
@@ -1072,7 +1188,6 @@ function registerSW() {
 function init() {
   renderHomeGrid();
   renderChefsList();
-  initOnboarding();
   registerSW();
   
   // Bottom nav
@@ -1081,6 +1196,7 @@ function init() {
   });
   
   updateBottomNav('home');
+  setHomeMode('cats');
 }
 
 // Export for inline handlers
@@ -1128,7 +1244,7 @@ function deleteRecipe(id) {
 }
 
 window.app = {
-  search, toggleFav, orderIngredients, filterTag,
+  search, setServings, openHomeCat, backToCats, toggleFav, orderIngredients, filterTag,
   nav, goBack, deleteRecipe, setView, showRecipe, showChef, filter, filterChef,
   checkIng, checkStep, toggleDetail, showAsk, closeAsk, showShop, closeShop,
   toggleShopItem, copyShopList,
