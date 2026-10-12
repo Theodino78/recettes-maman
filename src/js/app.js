@@ -692,18 +692,21 @@ function showShop(recipeId) {
     grouped[rayon].push({ ...ing, idx });
   });
 
-  let bodyHtml = '<div class="shop-hint">Touche ce que tu as déjà : le reste part dans la commande.</div>';
-  RAYON_ORDER.forEach(rayon => {
-    if (!grouped[rayon]) return;
-    bodyHtml += `<div class="shop-rayon">${RAYON_LABELS[rayon] || rayon}</div>`;
-    grouped[rayon].forEach((ing, i) => {
-      bodyHtml += `<div class="shop-item${ing.pantry ? ' checked' : ''}" data-idx="${ing.idx}" onclick="window.app.toggleShopItem(this)">
-        <div class="shop-item-dot">${ing.pantry ? '✓' : ''}</div>
+  let bodyHtml = '<div class="shop-hint">Touche ce que tu as déjà : c\'est barré et ça ne part ni dans la commande ni dans la copie.</div>';
+  const itemHtml = (ing) => `<div class="shop-item" data-idx="${ing.idx}" onclick="window.app.toggleShopItem(this)">
+        <div class="shop-item-dot"></div>
         <span class="shop-item-text">${ing.name}</span>
         <span class="shop-item-qty">${ing.qty}</span>
       </div>`;
-    });
+  RAYON_ORDER.forEach(rayon => {
+    const items = (grouped[rayon] || []).filter(ing => !ing.pantry);
+    if (!items.length) return;
+    bodyHtml += `<div class="shop-rayon">${RAYON_LABELS[rayon] || rayon}</div>` + items.map(itemHtml).join('');
   });
+  const pantry = Object.values(grouped).flat().filter(ing => ing.pantry);
+  if (pantry.length) {
+    bodyHtml += '<div class="shop-rayon">🧂 Basiques du placard <small>souvent déjà à la maison</small></div>' + pantry.map(itemHtml).join('');
+  }
 
   const overlay = document.createElement('div');
   overlay.className = 'shop-overlay';
@@ -719,8 +722,8 @@ function showShop(recipeId) {
     </div>
     <div class="shop-body">
       ${bodyHtml}
-      <div class="shop-order" onclick="window.app.orderIngredients('${recipeId}')">🌿 Commander chez Biocoop <span class="shop-order-sub">prompt pour Grok</span></div>
-      <div class="shop-copy" onclick="window.app.copyShopList('${recipeId}')">📋 Copier la liste</div>
+      <button type="button" class="shop-order" onclick="window.app.orderIngredients('${recipeId}')">🌿 Commander chez Biocoop <span class="shop-order-sub">prompt pour Grok</span></button>
+      <button type="button" class="shop-copy" onclick="window.app.copyShopList('${recipeId}')">📋 Copier la liste</button>
     </div>
   `;
   document.body.appendChild(modal);
@@ -769,7 +772,7 @@ function buildOrderPrompt(recipe) {
   const items = shopItems(recipe).filter((_, i) => !have.has(i));
   if (!items.length) return null;
   const known = (q) => q && q !== 'QS' && q !== 'à vérifier';
-  const line = (it) => `- ${it.name} : ${known((it.qty || '').trim()) ? it.qty : 'quantité à estimer'}`;
+  const line = (it) => `- ${it.name} : ${known((it.qty || '').trim()) ? it.qty : 'quantité à estimer'}${it.pantry ? ' (basique de placard)' : ''}`;
   const serves = `${currentServings(recipe)} personnes`;
   return `Sur biocoop.fr, remplis mon panier pour la recette « ${recipe.title} », pour ${serves}.\n\n` +
     `Produits à acheter :\n${items.map(line).join('\n')}\n\n` +
@@ -797,16 +800,28 @@ function orderIngredients(recipeId) {
 }
 
 function copyText(text) {
-  const fallback = () => {
-    const ta = document.createElement('textarea');
-    ta.value = text; ta.setAttribute('readonly', ''); ta.style.position = 'fixed'; ta.style.opacity = '0';
-    document.body.appendChild(ta); ta.select(); ta.setSelectionRange(0, text.length);
-    const ok = document.execCommand('copy'); ta.remove(); return ok;
-  };
+  // iOS : la copie doit se faire pendant le toucher ; on essaie d'abord la méthode synchrone.
+  const ta = document.createElement('textarea');
+  ta.value = text;
+  ta.setAttribute('readonly', '');
+  ta.contentEditable = 'true';
+  ta.style.cssText = 'position:fixed;top:0;left:0;width:1px;height:1px;opacity:0;font-size:16px';
+  document.body.appendChild(ta);
+  const range = document.createRange();
+  range.selectNodeContents(ta);
+  const sel = window.getSelection();
+  sel.removeAllRanges();
+  sel.addRange(range);
+  ta.setSelectionRange(0, text.length);
+  let ok = false;
+  try { ok = document.execCommand('copy'); } catch {}
+  ta.remove();
+  sel.removeAllRanges();
+  if (ok) return Promise.resolve(true);
   if (navigator.clipboard && window.isSecureContext) {
-    return navigator.clipboard.writeText(text).then(() => true).catch(() => fallback());
+    return navigator.clipboard.writeText(text).then(() => true).catch(() => false);
   }
-  return Promise.resolve(fallback());
+  return Promise.resolve(false);
 }
 
 function copyShopList(recipeId) {
@@ -826,7 +841,11 @@ function copyShopList(recipeId) {
     grouped[rayon].forEach(it => { text += `  □ ${it.qty} ${it.name}\n`; });
     text += '\n';
   });
-  copyText(text.trim()).then(ok => showToast(ok ? '✅ Liste copiée !' : '❌ Impossible de copier'));
+  copyText(text.trim()).then(ok => {
+    if (ok) showToast('✅ Liste copiée !');
+    else if (navigator.share) navigator.share({ title: `Courses — ${recipe.title}`, text: text.trim() }).catch(() => {});
+    else showToast('❌ Impossible de copier');
+  });
 }
 
 // ============================================
