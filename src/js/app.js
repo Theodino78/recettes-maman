@@ -631,13 +631,18 @@ function homeCatRecipes(c) {
   if (c.id === 'veggie') return RECIPES.filter(r => r.veggie && r.cat !== 'dessert');
   return RECIPES.filter(r => r.cat === c.id);
 }
+const HOME_COVERS = {"entree": "monelle-godaert-recette-DaDfSf", "plat": "monelle-godaert-recette", "viande": "le-one-pot-dinner-qu", "poisson": "mes-diners-sains-du-soir", "pates": "la-pasta-tomate-des-fistons", "accompagnement": "une-recette-a-retenir-et-a-refaire-tellement", "sauce": "sauce-chimichurri", "dessert": "gateaux-myrtilles-vanille-huile-d", "veggie": "qui-mange-encore-ses-courgettes-cuites-en-plein", "courgette": "qui-mange-encore-ses-courgettes-cuites-en-plein", "fruits": "depuis-ma-normandie"};
 function renderHomeCats() {
   const box = document.getElementById('home-cats');
   if (!box) return;
   const tile = (c) => {
     const list = homeCatRecipes(c);
     if (!list.length) return '';
-    const cover = list.find(r => r.image) || {};
+    // photo représentative : choix manuel, sinon une recette dont le TITRE correspond à la catégorie
+    const rule = TAG_RULES.find(t => t.id === c.id);
+    const cover = list.find(r => r.id === HOME_COVERS[c.id] && r.image)
+      || (rule && list.find(r => r.image && rule.re.test(norm(r.title))))
+      || list.find(r => r.image) || {};
     const bg = cover.image ? `background-image:url('${cover.image}')` : `background:${CAT_GRADIENTS[c.id] || CAT_GRADIENTS.default}`;
     return `<div class="cat-tile" style="${bg}" onclick="window.app.openHomeCat('${c.kind}','${c.id}')">
       <span class="cat-tile-label">${c.label}<small>${list.length}</small></span></div>`;
