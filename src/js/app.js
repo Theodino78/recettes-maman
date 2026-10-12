@@ -229,7 +229,7 @@ function renderCard(recipe, showChef = true) {
     onclick="window.app.showRecipe('${recipe.id}')">
     ${isCooked ? '<span class="card-cooked-badge">✅</span>' : ''}
     <div class="card-img" style="${imgStyle}">
-      <span class="card-emoji-overlay">${recipe.emoji}</span>
+      ${recipe.image ? '' : `<span class="card-emoji-overlay">${recipe.emoji}</span>`}
     </div>
     <div class="card-body">
       <div class="card-title">${recipe.title}</div>

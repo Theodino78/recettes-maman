@@ -1640,3 +1640,12 @@ h1, h2, h3 { font-family: 'Playfair Display', serif; }
 }
 .shop-order-sub { display: block; font-size: 11px; font-weight: 500; opacity: .75; margin-top: 2px; }
 .shop-item.checked .shop-item-text, .shop-item.checked .shop-item-qty { text-decoration: line-through; opacity: .45; }
+
+/* Cartes portrait façon Instagram : cover verticale 3:4, bord à bord */
+.grid:not(.list-view) .card-img {
+  height: auto;
+  aspect-ratio: 3 / 4;
+  background-size: cover;
+  background-position: center 35%;
+}
+.grid:not(.list-view) .card-img::after { height: 40px; }
