@@ -80606,6 +80606,139 @@ const RECIPES = [
         "pantry": true
       }
     ]
+  },
+  {
+    "id": "rigatoni-merguez",
+    "title": "Rigatoni merguez",
+    "emoji": "🍝",
+    "cat": "pates",
+    "chef": "steflequellec",
+    "chefName": "Stéphanie Le Quellec",
+    "time": "—",
+    "serves": "4 pers.",
+    "difficulty": "Facile",
+    "image": "img/DXhDAuJEq3c.jpg",
+    "link": "https://www.instagram.com/reel/DXhDAuJEq3c/",
+    "linkType": "instagram",
+    "veggie": false,
+    "techniques": [],
+    "ingredients": [
+      {
+        "qty": "500 g",
+        "name": "rigatoni",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "3",
+        "name": "merguez",
+        "rayon": "boucherie"
+      },
+      {
+        "qty": "4",
+        "name": "gousses d'ail",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "2",
+        "name": "tomates",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1/4 de botte",
+        "name": "persil",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1",
+        "name": "citron",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "4 c.s.",
+        "name": "huile d'olive",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "80 g",
+        "name": "parmesan",
+        "rayon": "cremerie"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cuire les rigatoni dans une grande eau salée",
+        "detail": ""
+      },
+      {
+        "text": "Retirer la peau des merguez et faire revenir la chair émiettée à l'huile d'olive",
+        "detail": ""
+      },
+      {
+        "text": "Ajouter l'ail et les tomates, laisser compoter",
+        "detail": ""
+      },
+      {
+        "text": "Mélanger les rigatoni égouttés avec la sauce",
+        "detail": ""
+      },
+      {
+        "text": "Finir avec parmesan, persil ciselé et citron",
+        "detail": ""
+      }
+    ],
+    "tips": "Étapes déduites de la vidéo : la légende ne donne que les ingrédients et l'audio est inexploitable.",
+    "shopping": [
+      {
+        "product": "rigatoni",
+        "qty": "500 g",
+        "estimate": false,
+        "rayon": "epicerie"
+      },
+      {
+        "product": "merguez",
+        "qty": "3",
+        "estimate": false,
+        "rayon": "boucherie"
+      },
+      {
+        "product": "ail",
+        "qty": "1 tête",
+        "estimate": false,
+        "rayon": "legumes",
+        "pantry": true
+      },
+      {
+        "product": "tomates",
+        "qty": "2",
+        "estimate": false,
+        "rayon": "legumes"
+      },
+      {
+        "product": "persil plat",
+        "qty": "1 botte",
+        "estimate": false,
+        "rayon": "legumes"
+      },
+      {
+        "product": "citron",
+        "qty": "1",
+        "estimate": false,
+        "rayon": "legumes"
+      },
+      {
+        "product": "huile d'olive",
+        "qty": "4 c.s.",
+        "estimate": false,
+        "rayon": "epicerie",
+        "pantry": true
+      },
+      {
+        "product": "parmesan",
+        "qty": "80 g",
+        "estimate": false,
+        "rayon": "cremerie"
+      }
+    ]
   }
 ];
 
