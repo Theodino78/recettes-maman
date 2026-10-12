@@ -106,8 +106,8 @@ function renderRecipeDetail(recipe) {
       <button class="back-btn" onclick="window.app.goBack()">← Retour</button>
       <h2 class="detail-title">${recipe.title}</h2>
       <div class="detail-meta">
-        <span>⏱ ${recipe.time}</span>
-        <span>👤 ${recipe.serves}</span>
+        ${recipe.time && recipe.time !== '—' ? `<span>⏱ ${recipe.time}</span>` : ''}
+        ${recipe.serves && recipe.serves !== '—' ? `<span>👤 ${recipe.serves}</span>` : ''}
         <span>📊 ${recipe.difficulty}</span>
       </div>
     </div>
@@ -211,6 +211,8 @@ function renderHomeGrid() {
   const grid = document.getElementById('home-grid');
   const hidden = JSON.parse(localStorage.getItem('august-hidden') || '[]');
   grid.innerHTML = RECIPES.filter(r => !hidden.includes(r.id)).map(r => renderCard(r, true)).join('');
+  renderTagChips();
+  applyFilters();
 }
 
 function renderCard(recipe, showChef = true) {
@@ -232,7 +234,7 @@ function renderCard(recipe, showChef = true) {
     <div class="card-body">
       <div class="card-title">${recipe.title}</div>
       ${showChef ? `<div class="card-chef">${recipe.chefName}</div>` : ''}
-      <div class="card-meta">⏱${recipe.time} · ${recipe.difficulty}</div>
+      <div class="card-meta">${recipe.time && recipe.time !== '—' ? `⏱${recipe.time} · ` : ''}${recipe.difficulty}</div>
     </div>
   </div>`;
 }
@@ -250,6 +252,60 @@ const SEARCH_INDEX = new Map(RECIPES.map(r => [r.id, norm([
   r.title, r.chefName, r.chef, CAT_WORDS[r.cat] || r.cat, r.veggie ? 'veggie vegetarien' : '',
   ...(r.ingredients || []).map(i => i.name)
 ].join(' '))]));
+// Catégories par ingrédient principal et par type de plat, déduites du titre et des ingrédients.
+// where: 'title' = titre seulement ; 'all' = titre + ingrédients (viandes/poissons : présents = plat principal).
+const TAG_RULES = [
+  { id: 'poulet', label: '🐔 Poulet', where: 'all', re: /\b(poulet|volaille|dinde|pintade)\b/ },
+  { id: 'boeuf', label: '🐄 Bœuf & veau', where: 'all', re: /\b(boeuf|veau|steak|entrecote|bavette|paleron)\b/ },
+  { id: 'porc', label: '🐖 Porc', where: 'all', re: /\b(porc|jambon|lardons?|chorizo|saucisses?|filet mignon|travers)\b/ },
+  { id: 'agneau', label: '🐑 Agneau', where: 'all', re: /\b(agneau|souris d'agneau|gigot)\b/ },
+  { id: 'poisson', label: '🐟 Poisson', where: 'all', re: /\b(poissons?|saumon|thon|cabillaud|bar|daurade|dorade|lotte|sardines?|maquereau|truite|merlu|colin|lieu|sole|haddock|anchois)\b/ },
+  { id: 'fruits-de-mer', label: '🦐 Fruits de mer', where: 'all', re: /\b(crevettes?|gambas|saint-jacques|st-jacques|moules|calamars?|encornets?|poulpe|seiche|homard|crabe|langoustines?)\b/ },
+  { id: 'oeufs', label: '🥚 Œufs', where: 'title', re: /\b(oeufs?|omelette|frittata|shakshuka)\b/ },
+  { id: 'pates-riz', label: '🍝 Pâtes & riz', where: 'title', re: /\b(pates|pasta|spaghetti|tagliatelles?|linguine|rigatoni|penne|orecchiette|lasagnes?|gnocchis?|risotto|riz|nouilles|vermicelles)\b/ },
+  { id: 'courgette', label: '🥒 Courgette', where: 'title', re: /\bcourgettes?\b/ },
+  { id: 'aubergine', label: '🍆 Aubergine', where: 'title', re: /\baubergines?\b/ },
+  { id: 'tomate', label: '🍅 Tomate', where: 'title', re: /\btomates?\b/ },
+  { id: 'pomme-de-terre', label: '🥔 Pomme de terre', where: 'title', re: /\b(pommes? de terre|patates?|frites|puree)\b/ },
+  { id: 'champignons', label: '🍄 Champignons', where: 'title', re: /\b(champignons?|cepes?|girolles?|morilles?)\b/ },
+  { id: 'chocolat', label: '🍫 Chocolat', where: 'title', re: /\b(chocolat|cacao|brownies?)\b/ },
+  { id: 'fruits', label: '🍓 Fruits', where: 'title', re: /\b(fraises?|framboises?|myrtilles?|mures?|cerises?|abricots?|peches?|prunes?|mirabelles?|pommes?|poires?|citron|orange|mangue|ananas|banane|figues?|rhubarbe|fruits)\b/ },
+  { id: 'tarte', label: '🥧 Tartes & quiches', where: 'title', re: /\b(tartes?|tartelettes?|quiches?|tatin|galette)\b/ },
+  { id: 'gateau', label: '🍰 Gâteaux', where: 'title', re: /\b(gateaux?|cakes?|clafoutis|fondant|moelleux|cheesecake|financiers?|madeleines?|cookies?|biscuits?|muffins?|crumble)\b/ },
+  { id: 'creme', label: '🍮 Crèmes & mousses', where: 'title', re: /\b(cremes?|mousses?|panna cotta|tiramisu|flan|sorbet|glace)\b/ },
+  { id: 'soupe', label: '🥣 Soupes', where: 'title', re: /\b(soupes?|veloute|potage|bouillon|gaspacho|ramen|pho)\b/ },
+  { id: 'salade', label: '🥗 Salades', where: 'title', re: /\b(salades?|taboule|bowl)\b/ },
+  { id: 'gratin', label: '🧀 Gratins & four', where: 'title', re: /\b(gratin|gratine|parmentier|lasagnes?|au four|roti|rotie)\b/ },
+  { id: 'sandwich', label: '🥪 Sandwichs & wraps', where: 'title', re: /\b(sandwichs?|burgers?|wraps?|tacos?|croque|pita|shawarma|bagel|toast)\b/ },
+  { id: 'apero', label: '🫒 Apéro', where: 'title', re: /\b(apero|dips?|houmous|tapenade|rillettes|tartinade|bruschetta|blinis|gougeres)\b/ },
+];
+const recipeTags = (r) => {
+  const title = norm(r.title);
+  const all = title + ' ' + norm((r.ingredients || []).map(i => i.name).join(' '));
+  return TAG_RULES.filter(t => t.re.test(t.where === 'all' ? all : title)).map(t => t.id);
+};
+const RECIPE_TAGS = new Map(RECIPES.map(r => [r.id, recipeTags(r)]));
+RECIPES.forEach(r => SEARCH_INDEX.set(r.id, SEARCH_INDEX.get(r.id) + ' ' + RECIPE_TAGS.get(r.id).join(' ')));
+let currentTag = null;
+
+function renderTagChips() {
+  const box = document.getElementById('tag-chips');
+  if (!box) return;
+  const hidden = JSON.parse(localStorage.getItem('august-hidden') || '[]');
+  const counts = {};
+  RECIPES.filter(r => !hidden.includes(r.id)).forEach(r => RECIPE_TAGS.get(r.id).forEach(t => counts[t] = (counts[t] || 0) + 1));
+  const min = RECIPES.length > 60 ? 3 : 1; // n'affiche que les catégories assez remplies
+  box.innerHTML = TAG_RULES.filter(t => (counts[t.id] || 0) >= min).map(t =>
+    `<div class="chip chip-tag${currentTag === t.id ? ' active' : ''}" onclick="window.app.filterTag('${t.id}', this)">${t.label} <span class="chip-count">${counts[t.id]}</span></div>`
+  ).join('');
+}
+
+function filterTag(tag, chipEl) {
+  currentTag = currentTag === tag ? null : tag; // re-taper désélectionne
+  document.querySelectorAll('#tag-chips .chip').forEach(c => c.classList.remove('active'));
+  if (currentTag && chipEl) chipEl.classList.add('active');
+  applyFilters();
+}
 let currentCat = 'all';
 let currentQuery = [];
 
@@ -260,13 +316,14 @@ function applyFilters() {
     const catOk = currentCat === 'all' || card.dataset.cat === currentCat ||
       (currentCat === 'veggie' && card.dataset.veggie === 'true' && card.dataset.cat !== 'dessert');
     const text = SEARCH_INDEX.get(card.dataset.id) || '';
-    const show = catOk && currentQuery.every(w => text.includes(w));
+    const tagOk = !currentTag || (RECIPE_TAGS.get(card.dataset.id) || []).includes(currentTag);
+    const show = catOk && tagOk && currentQuery.every(w => text.includes(w));
     card.style.display = show ? '' : 'none';
     if (show) card.style.animationDelay = `${Math.min(shown, 12) * 50}ms`;
     shown += show;
   });
   const count = document.getElementById('search-count');
-  if (count) count.textContent = currentQuery.length ? `${shown}` : '';
+  if (count) count.textContent = (currentQuery.length || currentTag) ? `${shown}` : '';
   const empty = document.getElementById('search-empty');
   if (empty) empty.hidden = shown > 0;
 }
@@ -1001,7 +1058,7 @@ function deleteRecipe(id) {
 }
 
 window.app = {
-  search,
+  search, filterTag,
   nav, goBack, deleteRecipe, setView, showRecipe, showChef, filter, filterChef,
   checkIng, checkStep, toggleDetail, showAsk, closeAsk, showShop, closeShop,
   toggleShopItem, copyShopList,

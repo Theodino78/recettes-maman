@@ -1625,3 +1625,9 @@ h1, h2, h3 { font-family: 'Playfair Display', serif; }
   color: #d97706; font: 600 13px Inter, sans-serif;
 }
 .search-empty { text-align: center; color: #888; padding: 40px 20px; }
+
+/* Catégories par ingrédient / type de plat */
+.tag-chips { margin-top: -4px; }
+.chip-tag { background: transparent; border-style: dashed; }
+.chip-tag.active { border-style: solid; }
+.chip-count { opacity: .55; font-size: 11px; margin-left: 2px; }
