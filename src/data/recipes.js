@@ -14968,192 +14968,1112 @@ const RECIPES = [
     "shopping": [{"product": "fenouils", "qty": "2", "estimate": false, "rayon": "legumes", "pantry": false}, {"product": "œufs", "qty": "2", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "yaourt au lait de coco", "qty": "1 pot (100 g)", "estimate": false, "rayon": "cremerie", "pantry": false}, {"product": "sauce sriracha", "qty": "1 bouteille (1 filet)", "estimate": false, "rayon": "epicerie", "pantry": false}, {"product": "aneth", "qty": "1 botte", "estimate": true, "rayon": "legumes", "pantry": false}]
   },
   {
-    id: "saumon-a-la-toscane",
-    title: "Saumon A La Toscane",
-    emoji: "🐟",
-    cat: "poisson",
-    chef: "lesudatable",
-    chefName: "Sylvia Mareuse",
-    time: "1min",
-    serves: "4 pers.",
-    difficulty: "Facile",
-    image: "img/DUqEKM7Dauj.jpg",
-    link: "https://www.instagram.com/lesudatable/reel/DUqEKM7Dauj/",
-    linkType: "instagram",
-    veggie: false,
-    techniques: [],
-    ingredients: [
-      { qty: "QS", name: "🍀4 pavés de saumon", rayon: 'epicerie' },
-      { qty: "QS", name: "🍀250 g de pâtes ORZO", rayon: 'epicerie' },
-      { qty: "QS", name: "🍀2 échalotes", rayon: 'epicerie' },
-      { qty: "QS", name: "🍀2 gousses d’ail", rayon: 'epicerie' },
-      { qty: "QS", name: "🍀1 poignée de tomates séchées", rayon: 'epicerie' },
-      { qty: "QS", name: "🍀30cl de crème", rayon: 'epicerie' },
-      { qty: "QS", name: "🍀50g de Patlesan", rayon: 'epicerie' },
-      { qty: "QS", name: "🍀2 grosses poignées de bébé épinards", rayon: 'epicerie' },
-      { qty: "QS", name: "🍀45cl de bouillon chaud", rayon: 'epicerie' },
-      { qty: "QS", name: "🍀Huile d’olive", rayon: 'epicerie' },
-      { qty: "QS", name: "🍀Sel et poivre", rayon: 'epicerie' },
+    "id": "saumon-a-la-toscane",
+    "title": "Saumon à la toscane et orzo crémeuses",
+    "emoji": "🐟",
+    "cat": "poisson",
+    "chef": "lesudatable",
+    "chefName": "Sylvia Mareuse",
+    "time": "—",
+    "serves": "—",
+    "difficulty": "Facile",
+    "image": "img/DUqEKM7Dauj.jpg",
+    "link": "https://www.instagram.com/lesudatable/reel/DUqEKM7Dauj/",
+    "linkType": "instagram",
+    "veggie": false,
+    "techniques": [
+      {
+        "name": "saisir",
+        "ask": "Cuire vivement à feu fort pour colorer la surface."
+      },
+      {
+        "name": "cuisson façon risotto",
+        "ask": "Ajouter le liquide progressivement en remuant pour que l'amidon rende le plat crémeux."
+      }
     ],
-    steps: [
-      { text: "Avec ce genre de plein, on a l'impression que tu as cuisiné pendant trois heures, mais en fait pas du tout.", detail: "" },
-      { text: "Tu commences par snacker tes pavés de saumon et ôter la peau. Dans une poêle, tu ajoutes un peu d'huile d'olive et tu fa", detail: "" },
-      { text: "Tu ajoutes les tomates confites, puis les pâteaux rosaux, le bouillon et la crème liquide.", detail: "" },
-      { text: "Tu cuites comme un réseau tôt et tu ajoutes du parmesan râpé. Les jeunes pouces et pinares, c'est en fin de cuisson.", detail: "" },
-      { text: "Encore quelques minutes de patience et tu vas te régaler.", detail: "" },
+    "ingredients": [
+      {
+        "qty": "4",
+        "name": "pavés de saumon",
+        "rayon": "boucherie"
+      },
+      {
+        "qty": "250 g",
+        "name": "pâtes orzo",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "2",
+        "name": "échalotes émincées",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "2 gousses",
+        "name": "ail haché",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1 poignée",
+        "name": "tomates séchées (ou confites)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "30 cl",
+        "name": "crème liquide",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "50 g",
+        "name": "parmesan râpé",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "2 grosses poignées",
+        "name": "jeunes pousses d'épinards",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "45 cl",
+        "name": "bouillon chaud",
+        "rayon": "boissons"
+      },
+      {
+        "qty": "QS",
+        "name": "huile d'olive",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "sel et poivre",
+        "rayon": "epicerie"
+      }
     ],
-    tips: ''
+    "steps": [
+      {
+        "text": "Saisir les pavés de saumon dans une poêle chaude avec un filet d'huile d'olive",
+        "duration": "2 min côté peau, 1 min côté chair",
+        "detail": "La vidéo retire ensuite la peau. Réserver le saumon."
+      },
+      {
+        "text": "Faire revenir l'échalote et l'ail dans la même poêle",
+        "detail": "L'ail est facultatif selon l'audio."
+      },
+      {
+        "text": "Ajouter les tomates séchées",
+        "detail": ""
+      },
+      {
+        "text": "Ajouter les orzo crues et mélanger",
+        "duration": "30 secondes",
+        "detail": "Les pâtes s'enrobent de matière grasse, comme le riz d'un risotto."
+      },
+      {
+        "text": "Verser la crème et le bouillon progressivement",
+        "detail": ""
+      },
+      {
+        "text": "Cuire en remuant",
+        "duration": "11 min environ",
+        "detail": "On cuit comme un risotto, en remuant régulièrement."
+      },
+      {
+        "text": "Ajouter le parmesan et les épinards quand les pâtes sont presque cuites",
+        "detail": "Les jeunes pousses d'épinards se mettent en fin de cuisson pour juste fondre."
+      },
+      {
+        "text": "Poser le saumon sur le dessus, couvrir et cuire",
+        "duration": "3 min",
+        "detail": "Le saumon finit de cuire en s'imprégnant des saveurs."
+      }
+    ],
+    "tips": "Tout se fait dans une seule poêle. La légende écrit « Patlesan » et « la cela » : lus comme parmesan et crème (confirmé par l'audio). Elle cite tantôt des tomates séchées, tantôt confites.",
+    "shopping": [
+      {
+        "product": "pavés de saumon",
+        "qty": "4",
+        "estimate": false,
+        "rayon": "boucherie"
+      },
+      {
+        "product": "orzo",
+        "qty": "1 paquet (250 g utilisés)",
+        "estimate": false,
+        "rayon": "epicerie"
+      },
+      {
+        "product": "échalotes",
+        "qty": "2",
+        "estimate": false,
+        "rayon": "legumes"
+      },
+      {
+        "product": "ail",
+        "qty": "1 tête (2 gousses)",
+        "estimate": false,
+        "rayon": "legumes"
+      },
+      {
+        "product": "tomates séchées",
+        "qty": "1 bocal",
+        "estimate": true,
+        "rayon": "epicerie"
+      },
+      {
+        "product": "crème liquide",
+        "qty": "1 brique 30 cl",
+        "estimate": false,
+        "rayon": "cremerie"
+      },
+      {
+        "product": "parmesan",
+        "qty": "50 g",
+        "estimate": false,
+        "rayon": "cremerie"
+      },
+      {
+        "product": "jeunes pousses d'épinards",
+        "qty": "1 sachet (≈ 100 g)",
+        "estimate": true,
+        "rayon": "legumes"
+      },
+      {
+        "product": "bouillon (cube ou tablette)",
+        "qty": "1 cube pour 45 cl",
+        "estimate": true,
+        "rayon": "epicerie"
+      },
+      {
+        "product": "huile d'olive",
+        "qty": "QS",
+        "estimate": true,
+        "rayon": "epicerie",
+        "pantry": true
+      },
+      {
+        "product": "sel et poivre",
+        "qty": "QS",
+        "estimate": true,
+        "rayon": "epicerie",
+        "pantry": true
+      }
+    ]
   },
   {
-    id: "veloute-pas-chiant",
-    title: "Velouté pas chiant",
-    emoji: "🥩",
-    cat: "viande",
-    chef: "justine_piluso",
-    chefName: "Justine Piluso",
-    time: "4min",
-    serves: "4 pers.",
-    difficulty: "Facile",
-    image: "img/DVOorZDiGrM.jpg",
-    link: "https://www.instagram.com/justine_piluso/reel/DVOorZDiGrM/",
-    linkType: "instagram",
-    veggie: false,
-    techniques: [],
-    ingredients: [
-      { qty: "250 g", name: "pois cassés (rincés)", rayon: 'epicerie' },
-      { qty: "120 g", name: "lard fumé (ou poitrine fumée)", rayon: 'epicerie' },
-      { qty: "1", name: "poireau (150 g net)", rayon: 'epicerie' },
-      { qty: "1", name: "échalote (40 g)", rayon: 'epicerie' },
-      { qty: "1", name: "gousse d’ail", rayon: 'epicerie' },
-      { qty: "30 g", name: "beurre", rayon: 'epicerie' },
-      { qty: "5 cl", name: "vin blanc sec", rayon: 'epicerie' },
-      { qty: "1 L", name: "eau (ajuster à hauteur)", rayon: 'epicerie' },
-      { qty: "1", name: "bouquet garni", rayon: 'epicerie' },
-      { qty: "8 g", name: "sel (à ajuster selon salinité du lard)", rayon: 'epicerie' },
-      { qty: "QS", name: "Poivre", rayon: 'epicerie' },
-      { qty: "4", name: "tranches pain de campagne", rayon: 'epicerie' },
-      { qty: "60 g", name: "pancetta", rayon: 'epicerie' },
-      { qty: "30 g", name: "noisettes", rayon: 'epicerie' },
-      { qty: "40 g", name: "parmesan râpé", rayon: 'epicerie' },
+    "id": "veloute-pas-chiant",
+    "title": "Velouté de pois cassés au lard et tartine croustillante",
+    "emoji": "🥣",
+    "cat": "entree",
+    "chef": "justine_piluso",
+    "chefName": "Justine Piluso",
+    "time": "—",
+    "serves": "—",
+    "difficulty": "Facile",
+    "image": "img/DVOorZDiGrM.jpg",
+    "link": "https://www.instagram.com/justine_piluso/reel/DVOorZDiGrM/",
+    "linkType": "instagram",
+    "veggie": false,
+    "techniques": [
+      {
+        "name": "suer",
+        "ask": "Cuire doucement des légumes dans une matière grasse pour qu'ils rendent leur eau sans colorer."
+      },
+      {
+        "name": "déglacer",
+        "ask": "Verser un liquide pour décoller les sucs du fond de la casserole."
+      },
+      {
+        "name": "torréfier",
+        "ask": "Griller à sec des fruits secs pour développer leurs arômes."
+      }
     ],
-    steps: [
-      { text: "Tu savais que le poids cassé c'était du petit poids, épluché, cassé et séché ? Ce que j'aime avec ce produit, bon c'est ", detail: "" },
-      { text: "Une histoire de roi, de paysan, de moine et de soldat. Il raconte l'histoire d'un temps où le séchage était une technolo", detail: "" },
-      { text: "Aujourd'hui on sent un peu déconnecté de tout ça. Et pourtant nos corps ont l'air de s'en rappeler.", detail: "" },
-      { text: "Il n'y a qu'à voir le bonheur immense qu'on ressent en mangeant un bon potage de poids cassé en plein hiver.", detail: "" },
-      { text: "Bon ok, surtout quand y'a beaucoup de l'art dedans. On va accompagner notre velouté d'une tartine, peint gratée à l'ail,", detail: "" },
-      { text: "On mixe le velouté, on veut quelque chose de très lissant, attention, donc on ne l'hésine pas sur la puissance.", detail: "" },
-      { text: "Petit trait de crème liquide et d'huile d'olive. Tartine et quelques feuilles d'herbe fraîche.", detail: "" },
-      { text: "Et bienvenue à la table de Louis XIV pour 2 euros par personne. À table !", detail: "" },
+    "ingredients": [
+      {
+        "qty": "250 g",
+        "name": "pois cassés rincés",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "120 g",
+        "name": "lard fumé (ou poitrine fumée) en lardons",
+        "rayon": "boucherie"
+      },
+      {
+        "qty": "1 (150 g net)",
+        "name": "poireau émincé",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1 (40 g)",
+        "name": "échalote",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1 gousse",
+        "name": "ail",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "30 g",
+        "name": "beurre",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "5 cl",
+        "name": "vin blanc sec",
+        "rayon": "boissons"
+      },
+      {
+        "qty": "1 L",
+        "name": "eau (ajuster à hauteur)",
+        "rayon": "boissons"
+      },
+      {
+        "qty": "1",
+        "name": "bouquet garni",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "8 g",
+        "name": "sel (à ajuster selon la salinité du lard)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "poivre",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "4 tranches",
+        "name": "pain de campagne (tartine)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "60 g",
+        "name": "pancetta (tartine)",
+        "rayon": "boucherie"
+      },
+      {
+        "qty": "30 g",
+        "name": "noisettes (tartine)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "40 g",
+        "name": "parmesan râpé (tartine)",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "1 petite gousse",
+        "name": "ail (tartine)",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "40 ml",
+        "name": "crème liquide (finition)",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "1 c.s.",
+        "name": "huile d'olive (finition)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "quelques",
+        "name": "herbes fraîches : persil ou cerfeuil (finition)",
+        "rayon": "legumes"
+      }
     ],
-    tips: ''
+    "steps": [
+      {
+        "text": "Rincer les pois cassés jusqu'à eau claire",
+        "detail": ""
+      },
+      {
+        "text": "Faire revenir les lardons sans matière grasse, puis réserver",
+        "duration": "3-4 min",
+        "detail": "À feu moyen, dans la casserole qui servira au velouté."
+      },
+      {
+        "text": "Faire suer poireau, échalote et ail dans le beurre",
+        "duration": "5 min",
+        "detail": "Dans la même casserole, sans coloration."
+      },
+      {
+        "text": "Ajouter les pois cassés, mélanger et déglacer au vin blanc",
+        "detail": "5 cl de vin blanc."
+      },
+      {
+        "text": "Remettre le lard, mouiller à hauteur d'eau et ajouter le bouquet garni",
+        "detail": "Environ 1 L d'eau."
+      },
+      {
+        "text": "Cuire à frémissement jusqu'à ce que les pois soient fondants",
+        "duration": "35-40 min",
+        "detail": ""
+      },
+      {
+        "text": "Retirer le bouquet garni et mixer longuement à pleine puissance",
+        "duration": "1 à 2 min",
+        "detail": "Texture recherchée : nappante, lisse, sans grain. Si trop épais, ajouter un peu d'eau chaude."
+      },
+      {
+        "text": "Torréfier les noisettes au four puis les concasser",
+        "duration": "8 min",
+        "temperature": "170°C",
+        "detail": ""
+      },
+      {
+        "text": "Griller la pancetta et le pain, frotter le pain à l'ail",
+        "detail": "Hacher grossièrement la pancetta, puis garnir le pain de pancetta, noisettes et parmesan."
+      },
+      {
+        "text": "Servir avec un trait de crème, l'huile d'olive et les herbes",
+        "detail": "La tartine se sert à côté du bol."
+      }
+    ],
+    "tips": "« Velouté pas chiant » ep. 1 de Justine Piluso, environ 2 € par personne selon l'audio.",
+    "shopping": [
+      {
+        "product": "pois cassés",
+        "qty": "1 sachet 500 g (250 g utilisés)",
+        "estimate": false,
+        "rayon": "epicerie"
+      },
+      {
+        "product": "lardons fumés (ou poitrine fumée)",
+        "qty": "1 barquette (120 g utilisés)",
+        "estimate": false,
+        "rayon": "boucherie"
+      },
+      {
+        "product": "pancetta en tranches",
+        "qty": "60 g",
+        "estimate": false,
+        "rayon": "boucherie"
+      },
+      {
+        "product": "poireau",
+        "qty": "1",
+        "estimate": false,
+        "rayon": "legumes"
+      },
+      {
+        "product": "échalote",
+        "qty": "1",
+        "estimate": false,
+        "rayon": "legumes"
+      },
+      {
+        "product": "ail",
+        "qty": "1 tête (2 gousses)",
+        "estimate": false,
+        "rayon": "legumes"
+      },
+      {
+        "product": "bouquet garni",
+        "qty": "1",
+        "estimate": false,
+        "rayon": "legumes"
+      },
+      {
+        "product": "persil ou cerfeuil",
+        "qty": "1 bouquet",
+        "estimate": true,
+        "rayon": "legumes"
+      },
+      {
+        "product": "beurre",
+        "qty": "30 g",
+        "estimate": false,
+        "rayon": "cremerie"
+      },
+      {
+        "product": "parmesan",
+        "qty": "40 g",
+        "estimate": false,
+        "rayon": "cremerie"
+      },
+      {
+        "product": "crème liquide",
+        "qty": "1 petite brique 20 cl (40 ml utilisés)",
+        "estimate": false,
+        "rayon": "cremerie"
+      },
+      {
+        "product": "vin blanc sec",
+        "qty": "1 bouteille (5 cl utilisés)",
+        "estimate": false,
+        "rayon": "boissons"
+      },
+      {
+        "product": "pain de campagne",
+        "qty": "4 tranches",
+        "estimate": false,
+        "rayon": "epicerie"
+      },
+      {
+        "product": "noisettes",
+        "qty": "30 g",
+        "estimate": false,
+        "rayon": "epicerie"
+      },
+      {
+        "product": "huile d'olive",
+        "qty": "1 c.s.",
+        "estimate": false,
+        "rayon": "epicerie",
+        "pantry": true
+      },
+      {
+        "product": "sel et poivre",
+        "qty": "QS",
+        "estimate": true,
+        "rayon": "epicerie",
+        "pantry": true
+      }
+    ]
   },
   {
-    id: "salade-de-lentilles",
-    title: "Salade De Lentilles",
-    emoji: "🥩",
-    cat: "viande",
-    chef: "angeleferreuxmaeght",
-    chefName: "Angèle Ferreux-Maeght",
-    time: "45min",
-    serves: "4 pers.",
-    difficulty: "Facile",
-    image: "img/DVnbAY9KQml.jpg",
-    link: "https://www.instagram.com/angeleferreuxmaeght/reel/DVnbAY9KQml/",
-    linkType: "instagram",
-    veggie: false,
-    techniques: [],
-    ingredients: [
-      { qty: "QS", name: "Lentilles vertes du puy", rayon: 'epicerie' },
-      { qty: "2", name: "cebettes ( oignons, nouveaux ou échalotes)", rayon: 'epicerie' },
-      { qty: "1", name: "botte de persil frais", rayon: 'epicerie' },
-      { qty: "QS", name: "Ricotta fumée ( ou fêta )", rayon: 'epicerie' },
+    "id": "salade-de-lentilles",
+    "title": "Salade de lentilles à la ricotta fumée",
+    "emoji": "🥗",
+    "cat": "entree",
+    "chef": "angeleferreuxmaeght",
+    "chefName": "Angèle Maeght",
+    "time": "—",
+    "serves": "—",
+    "difficulty": "Facile",
+    "image": "img/DVnbAY9KQml.jpg",
+    "link": "https://www.instagram.com/angeleferreuxmaeght/reel/DVnbAY9KQml/",
+    "linkType": "instagram",
+    "veggie": true,
+    "techniques": [],
+    "ingredients": [
+      {
+        "qty": "QS",
+        "name": "lentilles vertes du Puy",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "2",
+        "name": "cébettes (ou oignons nouveaux, ou échalotes)",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1 botte",
+        "name": "persil frais",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "ricotta fumée (ou feta)",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "3 c.s.",
+        "name": "huile d'olive",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 c.s.",
+        "name": "vinaigre de cidre non pasteurisé",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 c.s.",
+        "name": "miel",
+        "rayon": "epicerie"
+      }
     ],
-    steps: [
-      { text: "mais mais c'est comme d", detail: "" },
+    "steps": [
+      {
+        "text": "Cuire les lentilles",
+        "duration": "20 min environ",
+        "detail": "La légende dit « une vingtaine de minutes »."
+      },
+      {
+        "text": "Égoutter les lentilles et les verser dans un saladier",
+        "detail": ""
+      },
+      {
+        "text": "Hacher grossièrement le persil",
+        "detail": ""
+      },
+      {
+        "text": "Couper finement les cébettes",
+        "detail": ""
+      },
+      {
+        "text": "Émincer la ricotta fumée et l'ajouter",
+        "detail": "Tranches fines coupées dans le rouleau de ricotta fumée, comme à l'image."
+      },
+      {
+        "text": "Préparer la vinaigrette : huile d'olive, vinaigre de cidre et miel",
+        "detail": ""
+      },
+      {
+        "text": "Verser la vinaigrette sur les lentilles et bien mélanger",
+        "detail": ""
+      }
     ],
-    tips: ''
+    "tips": "Recette d'Angèle Ferreux-Maeght. La ricotta fumée peut être remplacée par de la feta, les cébettes par des oignons nouveaux ou des échalotes. Classée en entrée, mais peut faire un plat complet végétarien.",
+    "shopping": [
+      {
+        "product": "lentilles vertes du Puy",
+        "qty": "1 sachet 500 g (≈ 250 g utilisés)",
+        "estimate": true,
+        "rayon": "epicerie"
+      },
+      {
+        "product": "cébettes (oignons nouveaux)",
+        "qty": "1 botte (2 utilisées)",
+        "estimate": false,
+        "rayon": "legumes"
+      },
+      {
+        "product": "persil plat",
+        "qty": "1 botte",
+        "estimate": false,
+        "rayon": "legumes"
+      },
+      {
+        "product": "ricotta fumée (ou feta)",
+        "qty": "150 g",
+        "estimate": true,
+        "rayon": "cremerie"
+      },
+      {
+        "product": "vinaigre de cidre non pasteurisé",
+        "qty": "1 bouteille (1 c.s. utilisée)",
+        "estimate": false,
+        "rayon": "epicerie"
+      },
+      {
+        "product": "huile d'olive",
+        "qty": "3 c.s.",
+        "estimate": false,
+        "rayon": "epicerie",
+        "pantry": true
+      },
+      {
+        "product": "miel",
+        "qty": "1 c.s.",
+        "estimate": false,
+        "rayon": "epicerie",
+        "pantry": true
+      }
+    ]
   },
   {
-    id: "salade-pas-chiante-DVeFka",
-    title: "Salade pas chiante",
-    emoji: "🥗",
-    cat: "entree",
-    chef: "justine_piluso",
-    chefName: "Justine Piluso",
-    time: "30min",
-    serves: "4 pers.",
-    difficulty: "Facile",
-    image: "img/DVeFka1iJnb.jpg",
-    link: "https://www.instagram.com/justine_piluso/reel/DVeFka1iJnb/",
-    linkType: "instagram",
-    veggie: true,
-    techniques: [],
-    ingredients: [
-      { qty: "500 g", name: "bavette", rayon: 'epicerie' },
-      { qty: "30 ml", name: "sauce soja", rayon: 'epicerie' },
-      { qty: "15 ml", name: "vinaigre de riz", rayon: 'epicerie' },
-      { qty: "10 g", name: "miel", rayon: 'epicerie' },
-      { qty: "1", name: "c. à c. moutarde", rayon: 'epicerie' },
-      { qty: "1", name: "gousse ail râpée", rayon: 'epicerie' },
-      { qty: "1", name: "c. à c. paprika fumé", rayon: 'epicerie' },
-      { qty: "1", name: "pincée bicarbonate (1 g)", rayon: 'epicerie' },
-      { qty: "1", name: "c. à s. huile neutre", rayon: 'epicerie' },
-      { qty: "1", name: "carotte râpée", rayon: 'epicerie' },
-      { qty: "QS", name: "¼ chou rouge (250 g)", rayon: 'epicerie' },
-      { qty: "1", name: "oignon rouge", rayon: 'epicerie' },
-      { qty: "1", name: "bouquet coriandre", rayon: 'epicerie' },
-      { qty: "1", name: "bouquet menthe", rayon: 'epicerie' },
-      { qty: "30 ml", name: "sauce soja", rayon: 'epicerie' },
+    "id": "salade-pas-chiante-DVeFka",
+    "title": "Salade thaï à la bavette",
+    "emoji": "🥩",
+    "cat": "viande",
+    "chef": "justine_piluso",
+    "chefName": "Justine Piluso",
+    "time": "—",
+    "serves": "—",
+    "difficulty": "Facile",
+    "image": "img/DVeFka1iJnb.jpg",
+    "link": "https://www.instagram.com/justine_piluso/reel/DVeFka1iJnb/",
+    "linkType": "instagram",
+    "veggie": false,
+    "techniques": [
+      {
+        "name": "mariner",
+        "ask": "Laisser reposer la viande dans un mélange aromatique pour la parfumer et l'attendrir."
+      },
+      {
+        "name": "bicarbonate dans la marinade",
+        "ask": "Une pincée de bicarbonate attendrit la viande, technique courante en cuisine asiatique."
+      }
     ],
-    steps: [
-      { text: "Salade patiente, épisode 1. Maté-moi cette belle bavette ! On la taille dans le sens des fibres, puis dans l'autre sens ", detail: "" },
-      { text: "On la marine, huile neutre, sauce soja, vinaigre rouge, bicarbonate, petit secret bien connu des restaurants pour attend", detail: "" },
-      { text: "Paprika fumée, du miel, moutarde, aérapée, oignons ciselés. Et on mélange bien, avec les mains là, comme ça.", detail: "" },
-      { text: "On n'est pas bien là. Allez, on enchaîne avec les légumes de la salade. On se taille un oignon rouge, carottes, choux ro", detail: "" },
-      { text: "Tim Corriandre, comment elle va cette viande marinée ? Hummm, allez, on va faire griller tout ça.", detail: "" },
-      { text: "Une petite sauce soja, sauce poisson, miel, zest et jus de citron, un petit peu d'eau, piment en flocon et c'est parti, ", detail: "" },
-      { text: "Au purée, c'est chaud. Mais qu'est-ce que c'est bon ? Vous voulez un deuxième épisode de Salade patiente ?", detail: "" },
-      { text: "Commentez, je suis pas un lapin. Fais faux, mais fais bon.", detail: "" },
+    "ingredients": [
+      {
+        "qty": "500 g",
+        "name": "bavette en morceaux",
+        "rayon": "boucherie"
+      },
+      {
+        "qty": "30 ml",
+        "name": "sauce soja (marinade)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "15 ml",
+        "name": "vinaigre de riz",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "10 g",
+        "name": "miel (marinade)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 c.c.",
+        "name": "moutarde",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 gousse",
+        "name": "ail râpé",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1 c.c.",
+        "name": "paprika fumé",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 pincée (1 g)",
+        "name": "bicarbonate",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 c.s.",
+        "name": "huile neutre",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1",
+        "name": "carotte râpée",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1/4 (250 g)",
+        "name": "chou rouge émincé",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1",
+        "name": "oignon rouge",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1 bouquet",
+        "name": "coriandre",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1 bouquet",
+        "name": "menthe",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "30 ml",
+        "name": "sauce soja (sauce)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "15 ml",
+        "name": "sauce poisson (nuoc-mâm)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "15 g",
+        "name": "miel (sauce)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "20 g",
+        "name": "jus de citron vert",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "20 ml",
+        "name": "eau",
+        "rayon": "boissons"
+      },
+      {
+        "qty": "QS",
+        "name": "piment (flocons) selon goût",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "40 g",
+        "name": "cacahuètes concassées",
+        "rayon": "epicerie"
+      }
     ],
-    tips: ''
+    "steps": [
+      {
+        "text": "Mélanger la bavette avec les ingrédients de la marinade",
+        "detail": "Sauce soja, vinaigre, miel, moutarde, ail, paprika fumé, bicarbonate et huile : masser à la main pour bien enrober."
+      },
+      {
+        "text": "Laisser mariner",
+        "duration": "30 min minimum",
+        "detail": ""
+      },
+      {
+        "text": "Émincer l'oignon rouge et le chou rouge, râper la carotte",
+        "detail": ""
+      },
+      {
+        "text": "Effeuiller la coriandre et la menthe",
+        "detail": ""
+      },
+      {
+        "text": "Faire griller la viande marinée",
+        "detail": "Elle doit bien colorer."
+      },
+      {
+        "text": "Préparer la sauce",
+        "detail": "Mélanger sauce soja, sauce poisson, miel, jus (et zeste selon l'audio) de citron vert, eau et piment."
+      },
+      {
+        "text": "Mélanger légumes, herbes, viande et sauce",
+        "detail": ""
+      },
+      {
+        "text": "Parsemer de cacahuètes concassées",
+        "detail": "Servir aussitôt, la viande encore chaude."
+      }
+    ],
+    "tips": "« Salade pas chiante » ep. 1 de Justine Piluso. Les sous-titres parlent de vinaigre rouge et de citron jaune visible à l'image ; la légende indique vinaigre de riz et citron vert, retenus ici.",
+    "shopping": [
+      {
+        "product": "bavette de bœuf",
+        "qty": "500 g",
+        "estimate": false,
+        "rayon": "boucherie"
+      },
+      {
+        "product": "carotte",
+        "qty": "1",
+        "estimate": false,
+        "rayon": "legumes"
+      },
+      {
+        "product": "chou rouge",
+        "qty": "1 petit (250 g utilisés)",
+        "estimate": false,
+        "rayon": "legumes"
+      },
+      {
+        "product": "oignon rouge",
+        "qty": "1",
+        "estimate": false,
+        "rayon": "legumes"
+      },
+      {
+        "product": "coriandre",
+        "qty": "1 bouquet",
+        "estimate": false,
+        "rayon": "legumes"
+      },
+      {
+        "product": "menthe",
+        "qty": "1 bouquet",
+        "estimate": false,
+        "rayon": "legumes"
+      },
+      {
+        "product": "citrons verts",
+        "qty": "2",
+        "estimate": true,
+        "rayon": "legumes"
+      },
+      {
+        "product": "ail",
+        "qty": "1 tête (1 gousse)",
+        "estimate": false,
+        "rayon": "legumes"
+      },
+      {
+        "product": "sauce soja",
+        "qty": "1 bouteille (60 ml utilisés)",
+        "estimate": false,
+        "rayon": "epicerie"
+      },
+      {
+        "product": "sauce poisson (nuoc-mâm)",
+        "qty": "1 bouteille (15 ml utilisés)",
+        "estimate": false,
+        "rayon": "epicerie"
+      },
+      {
+        "product": "vinaigre de riz",
+        "qty": "1 bouteille (15 ml utilisés)",
+        "estimate": false,
+        "rayon": "epicerie"
+      },
+      {
+        "product": "cacahuètes grillées",
+        "qty": "1 sachet (40 g utilisés)",
+        "estimate": false,
+        "rayon": "epicerie"
+      },
+      {
+        "product": "miel",
+        "qty": "25 g",
+        "estimate": false,
+        "rayon": "epicerie",
+        "pantry": true
+      },
+      {
+        "product": "moutarde",
+        "qty": "1 c.c.",
+        "estimate": false,
+        "rayon": "epicerie",
+        "pantry": true
+      },
+      {
+        "product": "paprika fumé",
+        "qty": "1 c.c.",
+        "estimate": false,
+        "rayon": "epicerie",
+        "pantry": true
+      },
+      {
+        "product": "bicarbonate alimentaire",
+        "qty": "1 pincée",
+        "estimate": false,
+        "rayon": "epicerie",
+        "pantry": true
+      },
+      {
+        "product": "piment en flocons",
+        "qty": "QS",
+        "estimate": true,
+        "rayon": "epicerie",
+        "pantry": true
+      },
+      {
+        "product": "huile neutre",
+        "qty": "1 c.s.",
+        "estimate": false,
+        "rayon": "epicerie",
+        "pantry": true
+      }
+    ]
   },
   {
-    id: "pas-de-panique",
-    title: "Pas de panique",
-    emoji: "🥩",
-    cat: "viande",
-    chef: "justine_piluso",
-    chefName: "Justine Piluso",
-    time: "30min",
-    serves: "4 pers.",
-    difficulty: "Facile",
-    image: "img/DVtkFFiiI64.jpg",
-    link: "https://www.instagram.com/justine_piluso/reel/DVtkFFiiI64/",
-    linkType: "instagram",
-    veggie: false,
-    techniques: [],
-    ingredients: [
-      { qty: "1", name: "gousse d’ail", rayon: 'epicerie' },
-      { qty: "25 g", name: "de pignons de pin torréfiés", rayon: 'epicerie' },
-      { qty: "30 g", name: "de parmesan râpé", rayon: 'epicerie' },
-      { qty: "40 g", name: "de feuilles de basilic", rayon: 'epicerie' },
-      { qty: "60 g", name: "d’huile d’olive", rayon: 'epicerie' },
-      { qty: "1", name: "pincée de sel", rayon: 'epicerie' },
+    "id": "pas-de-panique",
+    "title": "Filet mignon farci au pesto, jambon cru et tomates séchées",
+    "emoji": "🐷",
+    "cat": "viande",
+    "chef": "justine_piluso",
+    "chefName": "Justine Piluso",
+    "time": "—",
+    "serves": "—",
+    "difficulty": "Moyen",
+    "image": "img/DVtkFFiiI64.jpg",
+    "link": "https://www.instagram.com/justine_piluso/reel/DVtkFFiiI64/",
+    "linkType": "instagram",
+    "veggie": false,
+    "techniques": [
+      {
+        "name": "ouvrir en portefeuille",
+        "ask": "Fendre la viande dans l'épaisseur sans la séparer pour l'ouvrir comme un livre."
+      },
+      {
+        "name": "ficeler",
+        "ask": "Entourer un rôti de ficelle à intervalles réguliers pour qu'il garde sa forme à la cuisson."
+      },
+      {
+        "name": "déglacer",
+        "ask": "Verser un liquide dans la poêle chaude pour décoller les sucs et faire un jus."
+      }
     ],
-    steps: [
-      { text: "Avec un filet mignon, vous pouvez faire ça, ce petit roti ultra gourmand ! Et c'est super facile !", detail: "" },
-      { text: "Je vous montre ! On commence par le dégresser, puis on l'ouvre en portefeuille pour le mettre bien à plat.", detail: "" },
-      { text: "Un petit coup de casserole pour la plattire, et on incise l'intérieur en cadrillage pour que l'assaisonnement pénètre bi", detail: "" },
-      { text: "Maintenant, le pesto, dans un mortier ou un blender, aille, pignons torréfiés, parmesants, huile d'olive.", detail: "" },
-      { text: "Et ensuite, le basilic, on écrase jusqu'à obtenir cette texture-là. Hummm... On étale le pesto partout, puis quelques tr", detail: "" },
-      { text: "Tu commences à le sentir le banger ? On roule bien serré et en ficelle comme un roti.", detail: "" },
-      { text: "Petit souvenir d'un stage en boucherie. J'avais 15 ans à l'époque, wow ! Direction la poêle, coloration bien homogène su", detail: "" },
-      { text: "Et surtout, on garde les sucres pour un petit jus express. Et chalote, un peu d'eau pour déglacer.", detail: "" },
-      { text: "Teint, une bonne noisette de beurre, et on laisse réduire. On retire la ficelle, on coupe en tronçon, et regarde-moi ça ", detail: "" },
-      { text: "Servi avec un bon écrasé de pommes de terre et beaucoup de jus. Franchement, si vous cherchez un plat qui envoie pour un", detail: "" },
+    "ingredients": [
+      {
+        "qty": "1",
+        "name": "filet mignon de porc (ou filet de poulet)",
+        "rayon": "boucherie"
+      },
+      {
+        "qty": "1 gousse",
+        "name": "ail (pesto)",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "25 g",
+        "name": "pignons de pin torréfiés",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "30 g",
+        "name": "parmesan râpé (pesto)",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "40 g",
+        "name": "feuilles de basilic",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "60 g",
+        "name": "huile d'olive",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 pincée",
+        "name": "sel",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "fines tranches de jambon cru",
+        "rayon": "boucherie"
+      },
+      {
+        "qty": "QS",
+        "name": "tomates séchées",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "parmesan en copeaux",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "QS",
+        "name": "échalotes (jus)",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "thym (jus)",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "1 noisette",
+        "name": "beurre (jus)",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "QS",
+        "name": "eau pour déglacer",
+        "rayon": "boissons"
+      },
+      {
+        "qty": "QS",
+        "name": "ficelle de cuisine",
+        "rayon": "epicerie"
+      }
     ],
-    tips: ''
+    "steps": [
+      {
+        "text": "Dégraisser le filet mignon et l'ouvrir en portefeuille",
+        "detail": "Il doit être bien à plat."
+      },
+      {
+        "text": "Aplatir la viande et inciser l'intérieur en quadrillage",
+        "detail": "Aplatir à la casserole sous film alimentaire ; le quadrillage fait pénétrer l'assaisonnement."
+      },
+      {
+        "text": "Préparer le pesto au mortier ou au blender",
+        "detail": "Ail, pignons torréfiés, parmesan, huile d'olive, sel, puis le basilic en dernier ; écraser jusqu'à une pâte."
+      },
+      {
+        "text": "Étaler le pesto sur toute la viande",
+        "detail": ""
+      },
+      {
+        "text": "Garnir de jambon cru, de tomates séchées et de copeaux de parmesan",
+        "detail": "Quelques tranches fines de jambon."
+      },
+      {
+        "text": "Rouler bien serré et ficeler comme un rôti",
+        "detail": ""
+      },
+      {
+        "text": "Colorer le rôti à la poêle sur toutes les faces",
+        "detail": "Coloration bien homogène ; garder les sucs dans la poêle pour le jus."
+      },
+      {
+        "text": "Faire le jus : échalotes, eau pour déglacer, thym et beurre, puis réduire",
+        "detail": "Une bonne noisette de beurre, on laisse réduire."
+      },
+      {
+        "text": "Retirer la ficelle et couper en tronçons",
+        "detail": "Servi avec un écrasé de pommes de terre et beaucoup de jus."
+      }
+    ],
+    "tips": "Recette de Justine Piluso. Marche aussi avec du poulet. Servir avec un écrasé de pommes de terre. Le temps de cuisson du rôti n'est pas donné (la légende parle de 30 min pour cuisiner, sans détail).",
+    "shopping": [
+      {
+        "product": "filet mignon de porc",
+        "qty": "1 (≈ 500 g)",
+        "estimate": false,
+        "rayon": "boucherie"
+      },
+      {
+        "product": "jambon cru en tranches fines",
+        "qty": "1 barquette (≈ 4 tranches)",
+        "estimate": true,
+        "rayon": "boucherie"
+      },
+      {
+        "product": "basilic frais",
+        "qty": "1 gros bouquet (40 g de feuilles)",
+        "estimate": false,
+        "rayon": "legumes"
+      },
+      {
+        "product": "ail",
+        "qty": "1 tête (1 gousse)",
+        "estimate": false,
+        "rayon": "legumes"
+      },
+      {
+        "product": "échalotes",
+        "qty": "2",
+        "estimate": true,
+        "rayon": "legumes"
+      },
+      {
+        "product": "thym",
+        "qty": "1 bouquet",
+        "estimate": true,
+        "rayon": "legumes"
+      },
+      {
+        "product": "parmesan",
+        "qty": "1 morceau ≈ 60 g (30 g râpé + copeaux)",
+        "estimate": true,
+        "rayon": "cremerie"
+      },
+      {
+        "product": "beurre",
+        "qty": "1 noisette",
+        "estimate": false,
+        "rayon": "cremerie"
+      },
+      {
+        "product": "pignons de pin",
+        "qty": "1 sachet (25 g utilisés)",
+        "estimate": false,
+        "rayon": "epicerie"
+      },
+      {
+        "product": "tomates séchées",
+        "qty": "1 bocal",
+        "estimate": true,
+        "rayon": "epicerie"
+      },
+      {
+        "product": "ficelle de cuisine",
+        "qty": "1 pelote",
+        "estimate": true,
+        "rayon": "epicerie"
+      },
+      {
+        "product": "huile d'olive",
+        "qty": "60 g",
+        "estimate": false,
+        "rayon": "epicerie",
+        "pantry": true
+      },
+      {
+        "product": "sel",
+        "qty": "1 pincée",
+        "estimate": false,
+        "rayon": "epicerie",
+        "pantry": true
+      }
+    ]
   },
   {
     "id": "une-patate-douce",
@@ -32633,27 +33553,112 @@ const RECIPES = [
     ]
   },
   {
-    id: "de-fines-escalopes-de-l",
-    title: "De fines escalopes de l",
-    emoji: "🥩",
-    cat: "viande",
-    chef: "frgaudry",
-    chefName: "François-Régis Gaudry",
-    time: "45min",
-    serves: "4 pers.",
-    difficulty: "Facile",
-    image: "img/DNNNMHdoz9K.jpg",
-    link: "https://www.instagram.com/frgaudry/p/DNNNMHdoz9K/",
-    linkType: "instagram",
-    veggie: false,
-    techniques: [],
-    ingredients: [
-      { qty: "", name: "Voir la vidéo", rayon: 'epicerie' },
+    "id": "de-fines-escalopes-de-l",
+    "title": "Saltimbocca alla romana",
+    "emoji": "🌿",
+    "cat": "viande",
+    "chef": "frgaudry",
+    "chefName": "François-Régis Gaudry",
+    "time": "—",
+    "serves": "—",
+    "difficulty": "Moyen",
+    "image": "img/DNNNMHdoz9K.jpg",
+    "link": "https://www.instagram.com/frgaudry/p/DNNNMHdoz9K/",
+    "linkType": "instagram",
+    "veggie": false,
+    "techniques": [
+      {
+        "name": "déglacer",
+        "ask": "Verser un liquide dans la poêle chaude pour décoller les sucs de cuisson et faire une sauce."
+      },
+      {
+        "name": "aller-retour",
+        "ask": "Saisir rapidement d'un côté puis de l'autre."
+      }
     ],
-    steps: [
-      { text: "Regarder la vidéo", detail: "" },
+    "ingredients": [
+      {
+        "qty": "QS",
+        "name": "fines escalopes de veau",
+        "rayon": "boucherie"
+      },
+      {
+        "qty": "QS",
+        "name": "fines tranches de jambon de Parme",
+        "rayon": "boucherie"
+      },
+      {
+        "qty": "QS",
+        "name": "feuilles de sauge fraîche",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "beurre",
+        "rayon": "cremerie"
+      },
+      {
+        "qty": "QS",
+        "name": "vin blanc (vermentinu de Patrimonio)",
+        "rayon": "boissons"
+      }
     ],
-    tips: ''
+    "steps": [
+      {
+        "text": "Couvrir chaque escalope de veau d'une fine tranche de jambon de Parme",
+        "detail": "Le montage demande un peu de doigté."
+      },
+      {
+        "text": "Poser une feuille de sauge sur le jambon",
+        "detail": "Une feuille par escalope, au centre, comme sur la photo."
+      },
+      {
+        "text": "Faire fondre un peu de beurre dans une poêle",
+        "detail": ""
+      },
+      {
+        "text": "Cuire les saltimbocca aller-retour",
+        "duration": "quelques minutes",
+        "detail": "Cuisson très rapide : des escalopes fines cuisent en quelques minutes."
+      },
+      {
+        "text": "Déglacer d'un trait de vin blanc",
+        "detail": "Dans la source : un vermentinu de Patrimonio."
+      }
+    ],
+    "tips": "Plat emblématique de Rome, « saute-en-bouche ». Recette de François-Régis Gaudry, faite avec du veau corse de la boucherie de Saint-Florent. La légende ne donne ni quantités ni méthode de fixation du jambon (cure-dent ou non).",
+    "shopping": [
+      {
+        "product": "escalopes de veau fines",
+        "qty": "8 (≈ 600 g)",
+        "estimate": true,
+        "rayon": "boucherie"
+      },
+      {
+        "product": "jambon de Parme en tranches fines",
+        "qty": "8 tranches (≈ 120 g)",
+        "estimate": true,
+        "rayon": "boucherie"
+      },
+      {
+        "product": "sauge fraîche",
+        "qty": "1 bouquet",
+        "estimate": true,
+        "rayon": "legumes"
+      },
+      {
+        "product": "beurre",
+        "qty": "50 g",
+        "estimate": true,
+        "rayon": "cremerie"
+      },
+      {
+        "product": "vin blanc sec",
+        "qty": "1 bouteille (un trait utilisé)",
+        "estimate": true,
+        "rayon": "boissons"
+      }
+    ]
   },
   {
     "id": "crepone",
@@ -38503,34 +39508,174 @@ const RECIPES = [
     ]
   },
   {
-    id: "pour-une-carafe-de",
-    title: "Pour une carafe de",
-    emoji: "🍽️",
-    cat: "plat",
-    chef: "margot.combat",
-    chefName: "Margot Lecarpentier",
-    time: "24h",
-    serves: "4 pers.",
-    difficulty: "Facile",
-    image: "img/DKCECynMDSX.jpg",
-    link: "https://www.instagram.com/margot.combat/p/DKCECynMDSX/",
-    linkType: "instagram",
-    veggie: true,
-    techniques: [],
-    ingredients: [
-      { qty: "15cl", name: "de verjus ou de jus de citron jaune", rayon: 'epicerie' },
-      { qty: "2 CAS", name: "de miel (à ajuster selon vos goûts)", rayon: 'epicerie' },
-      { qty: "1 CAS", name: "de vinaigre de cidre", rayon: 'epicerie' },
-      { qty: "1/2 CAC", name: "d’eau de fleur d’oranger", rayon: 'epicerie' },
-      { qty: "4", name: "fraises coupées en petits morceaux", rayon: 'epicerie' },
-      { qty: "6", name: "feuilles de basilic coupées en petits morceaux", rayon: 'epicerie' },
-      { qty: "2", name: "tranches de concombre", rayon: 'epicerie' },
-      { qty: "3", name: "tranches de citron jaune", rayon: 'epicerie' },
+    "id": "pour-une-carafe-de",
+    "title": "Sangria blanche sans alcool",
+    "emoji": "🍓",
+    "cat": "dessert",
+    "chef": "margot.combat",
+    "chefName": "Margot Lecarpentier",
+    "time": "24h",
+    "serves": "1 carafe de 50 cl",
+    "difficulty": "Facile",
+    "image": "img/DKCECynMDSX.jpg",
+    "link": "https://www.instagram.com/margot.combat/p/DKCECynMDSX/",
+    "linkType": "instagram",
+    "veggie": true,
+    "techniques": [
+      {
+        "name": "infuser",
+        "ask": "Laisser tremper fruits et herbes dans un liquide pour qu'ils lui transmettent leur parfum."
+      },
+      {
+        "name": "verjus",
+        "ask": "Jus acide de raisins verts, utilisé comme le jus de citron."
+      }
     ],
-    steps: [
-      { text: "Regarder la vidéo", detail: "" },
+    "ingredients": [
+      {
+        "qty": "35 cl",
+        "name": "vin blanc sans alcool, ou jus de raisin blanc, ou thé blanc bien infusé et refroidi",
+        "rayon": "boissons"
+      },
+      {
+        "qty": "15 cl",
+        "name": "verjus ou jus de citron jaune",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "2 c.s.",
+        "name": "miel (à ajuster selon les goûts)",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1 c.s.",
+        "name": "vinaigre de cidre",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "1/2 c.c.",
+        "name": "eau de fleur d'oranger",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "4",
+        "name": "fraises coupées en petits morceaux",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "6",
+        "name": "feuilles de basilic coupées en petits morceaux",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "2 tranches",
+        "name": "concombre",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "3 tranches",
+        "name": "citron jaune",
+        "rayon": "legumes"
+      },
+      {
+        "qty": "QS",
+        "name": "glaçons",
+        "rayon": "epicerie"
+      },
+      {
+        "qty": "QS",
+        "name": "tranches de fraise, concombre, citron et feuilles de basilic pour décorer",
+        "rayon": "legumes"
+      }
     ],
-    tips: ''
+    "steps": [
+      {
+        "text": "Couper les fraises et les feuilles de basilic en petits morceaux",
+        "detail": ""
+      },
+      {
+        "text": "Verser tous les ingrédients dans un pot et mélanger",
+        "detail": "Vin sans alcool (ou jus de raisin, ou thé blanc refroidi), verjus, miel, vinaigre, fleur d'oranger, fruits et basilic."
+      },
+      {
+        "text": "Laisser infuser au frais",
+        "duration": "24h",
+        "detail": ""
+      },
+      {
+        "text": "Présenter dans une carafe avec les ingrédients",
+        "detail": "On laisse les fruits et le basilic dans la carafe : ils continuent d'infuser la préparation."
+      },
+      {
+        "text": "Servir dans des verres remplis de glaçons",
+        "detail": "Décorer de tranches de fraise, de concombre, de citron et de feuilles de basilic."
+      }
+    ],
+    "tips": "Boisson (classée en dessert). Recette de Margot Lecarpentier présentée dans « Petits plats en équilibre » de Laurent Mariotte. Le miel est à ajuster selon les goûts.",
+    "shopping": [
+      {
+        "product": "vin blanc sans alcool (ou jus de raisin blanc)",
+        "qty": "1 bouteille 75 cl",
+        "estimate": true,
+        "rayon": "boissons"
+      },
+      {
+        "product": "verjus (ou citrons jaunes pour le jus)",
+        "qty": "1 bouteille (15 cl utilisés)",
+        "estimate": true,
+        "rayon": "epicerie"
+      },
+      {
+        "product": "citron jaune",
+        "qty": "1",
+        "estimate": true,
+        "rayon": "legumes"
+      },
+      {
+        "product": "fraises",
+        "qty": "1 barquette 250 g",
+        "estimate": true,
+        "rayon": "legumes"
+      },
+      {
+        "product": "basilic",
+        "qty": "1 pot",
+        "estimate": true,
+        "rayon": "legumes"
+      },
+      {
+        "product": "concombre",
+        "qty": "1",
+        "estimate": true,
+        "rayon": "legumes"
+      },
+      {
+        "product": "miel",
+        "qty": "2 c.s.",
+        "estimate": false,
+        "rayon": "epicerie",
+        "pantry": true
+      },
+      {
+        "product": "vinaigre de cidre",
+        "qty": "1 c.s.",
+        "estimate": false,
+        "rayon": "epicerie",
+        "pantry": true
+      },
+      {
+        "product": "eau de fleur d'oranger",
+        "qty": "1 petite bouteille",
+        "estimate": true,
+        "rayon": "epicerie"
+      },
+      {
+        "product": "glaçons",
+        "qty": "1 sac",
+        "estimate": true,
+        "rayon": "epicerie"
+      }
+    ]
   },
   {
     "id": "ingredients-DKAIQJ",
