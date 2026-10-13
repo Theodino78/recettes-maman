@@ -4,7 +4,7 @@
 // Le Mac (august-import) dépile la file, rédige la fiche, déploie, puis écrit done/<code>.json.
 import { put, head } from '@vercel/blob';
 
-const APPS = ['maman', 'pwa'];
+const APPS = ['maman', 'pwa', 'lequellec'];
 const ALLOWED = /^https:\/\/(www\.)?(instagram\.com|tiktok\.com|vm\.tiktok\.com|vt\.tiktok\.com|youtube\.com|youtu\.be|m\.youtube\.com)\//i;
 
 function codeOf(url) {
