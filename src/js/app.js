@@ -45,6 +45,7 @@ function nav(page) {
   document.querySelectorAll('.page').forEach(p => {
     p.classList.remove('active');
   });
+  if (page === 'placard') renderPlacardPage();
   const target = document.getElementById('page-' + page);
   if (target) {
     target.classList.add('active');
@@ -339,6 +340,127 @@ function stopCooking() {
   cook.recipe = null;
 }
 
+
+// ============================================
+// Mon placard + « Qu'est-ce que j'ai dans mon frigo ? »
+// ============================================
+const PLACARD_SUGGESTIONS = ['sel', 'poivre', "huile d'olive", 'huile neutre', 'vinaigre', 'moutarde', 'sauce soja',
+  'farine', 'sucre', 'sucre glace', 'levure chimique', 'maïzena', 'beurre', 'œufs', 'lait', 'crème fraîche', 'parmesan',
+  'ail', 'oignon', 'échalote', 'citron', 'miel', 'concentré de tomate', 'bouillon cube', 'riz', 'pâtes',
+  'thym', 'laurier', 'herbes de Provence', 'paprika', 'cumin', 'curry', 'cannelle', 'vanille', 'piment'];
+const getPlacard = () => { try { return JSON.parse(localStorage.getItem('august-placard') || 'null') || ['sel', 'poivre', "huile d'olive"]; } catch { return ['sel', 'poivre', "huile d'olive"]; } };
+const savePlacard = (l) => { try { localStorage.setItem('august-placard', JSON.stringify([...new Set(l)])); } catch {} };
+
+// Mots significatifs d'un ingrédient, au singulier (« tomates cerises » → tomate, cerise)
+const STOP = new Set(['de', 'du', 'des', 'la', 'le', 'les', 'l', 'd', 'un', 'une', 'et', 'ou', 'a', 'au', 'aux', 'en', 'pour',
+  'frais', 'fraiche', 'fraiches', 'fraîche', 'gros', 'grosse', 'petit', 'petite', 'bio', 'entier', 'entiere', 'qs', 'facultatif',
+  'cuillere', 'soupe', 'cafe', 'pincee', 'gousse', 'gousses', 'brin', 'brins', 'botte', 'feuille', 'feuilles', 'morceau', 'tranche', 'tranches']);
+const singular = (w) => w.length > 3 ? w.replace(/(aux|eaux)$/, 'au').replace(/[sx]$/, '') : w;
+const keyWords = (txt) => norm(String(txt).replace(/\([^)]*\)/g, ' ')).split(/[^a-z0-9œ]+/)
+  .filter(w => w.length > 2 && !STOP.has(w)).map(singular);
+function hasItem(ingName, itemsWords) {
+  const iw = keyWords(shopName(ingName));
+  return itemsWords.some(ws => ws.length && ws.every(w => iw.includes(w)));
+}
+
+function renderPlacardPage() {
+  const page = document.getElementById('page-placard');
+  if (!page) return;
+  const mine = getPlacard();
+  const all = [...new Set([...PLACARD_SUGGESTIONS, ...mine])];
+  page.innerHTML = `
+    <div class="header"><h1>Mon placard</h1></div>
+    <div class="placard-intro">Coche ce que tu as toujours à la maison. Ça compte comme disponible dans « Mon frigo », et c'est déjà coché (« j'ai ») dans les listes de courses.</div>
+    <div class="placard-chips">${all.map(x => `<button class="placard-chip${mine.includes(x) ? ' on' : ''}" onclick="window.app.togglePlacard(this, '${escapeAttr(x)}')">${x}</button>`).join('')}</div>
+    <div class="add-row placard-add">
+      <input id="placard-new" placeholder="Ajouter un ingrédient (ex. tahini)" autocomplete="off" onkeydown="if(event.key==='Enter')window.app.addPlacard()">
+      <button class="add-paste" onclick="window.app.addPlacard()">Ajouter</button>
+    </div>`;
+}
+function togglePlacard(el, item) {
+  const l = getPlacard();
+  savePlacard(l.includes(item) ? l.filter(x => x !== item) : [...l, item]);
+  el.classList.toggle('on');
+}
+function addPlacard() {
+  const input = document.getElementById('placard-new');
+  const v = (input.value || '').trim().toLowerCase();
+  if (!v) return;
+  savePlacard([...getPlacard(), ...v.split(/\s*,\s*/).filter(Boolean)]);
+  renderPlacardPage();
+}
+
+// Frigo : dictée ou saisie → recettes de l'app les mieux couvertes
+function openFridge() {
+  document.querySelectorAll('.fridge-overlay, .fridge-modal').forEach(el => el.remove());
+  const overlay = document.createElement('div');
+  overlay.className = 'shop-overlay fridge-overlay';
+  overlay.onclick = closeFridge;
+  const modal = document.createElement('div');
+  modal.className = 'shop-modal add-modal fridge-modal';
+  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  modal.innerHTML = `
+    <div class="shop-header">
+      <span class="shop-header-title">🧊 Qu'est-ce que j'ai dans mon frigo ?</span>
+      <button class="shop-close" onclick="window.app.closeFridge()">✕</button>
+    </div>
+    <div class="shop-body">
+      <div class="add-hint">Dis ou écris ce que tu as (« courgettes, feta, œufs, un reste de poulet »). Ton placard (${getPlacard().length} basiques) est pris en compte.</div>
+      <textarea id="fridge-text" rows="3" placeholder="courgettes, feta, œufs…"></textarea>
+      <div class="fridge-actions">
+        ${SR ? '<button class="add-paste fridge-mic" id="fridge-mic" onclick="window.app.dictateFridge()">🎙️ Dicter</button>' : ''}
+        <button class="shop-order" onclick="window.app.suggestFromFridge()">Trouver des recettes</button>
+      </div>
+      <div id="fridge-results"></div>
+    </div>`;
+  document.body.appendChild(overlay);
+  document.body.appendChild(modal);
+  requestAnimationFrame(() => { overlay.classList.add('open'); modal.classList.add('open'); });
+}
+function closeFridge() {
+  document.querySelectorAll('.fridge-overlay, .fridge-modal').forEach(el => { el.classList.remove('open'); setTimeout(() => el.remove(), 300); });
+}
+function dictateFridge() {
+  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (!SR) return;
+  const rec = new SR();
+  rec.lang = 'fr-FR'; rec.interimResults = true; rec.continuous = false;
+  const box = document.getElementById('fridge-text'), mic = document.getElementById('fridge-mic');
+  const before = box.value ? box.value.replace(/\s*$/, ', ') : '';
+  mic.textContent = '🔴 J\'écoute…';
+  rec.onresult = (e) => { box.value = before + [...e.results].map(r => r[0].transcript).join(' '); };
+  rec.onend = () => { mic.textContent = '🎙️ Dicter'; if (box.value.trim()) suggestFromFridge(); };
+  rec.onerror = () => { mic.textContent = '🎙️ Dicter'; };
+  try { rec.start(); } catch {}
+}
+function suggestFromFridge() {
+  const text = document.getElementById('fridge-text').value;
+  const fridge = norm(text).replace(/\b(j ai|j'ai|il me reste|un reste de|des|du|de la|un peu de)\b/g, ' ')
+    .split(/,|;|\bet\b|\n|\+/).map(x => keyWords(x)).filter(ws => ws.length);
+  const out = document.getElementById('fridge-results');
+  if (!fridge.length) { out.innerHTML = '<div class="add-hint">Indique au moins un ingrédient.</div>'; return; }
+  const placard = getPlacard().map(keyWords).filter(ws => ws.length);
+  const scored = RECIPES.map(r => {
+    const ings = (r.ingredients || []).filter(i => !/^(eau|glaçons?)\b/i.test(i.name));
+    if (!ings.length) return null;
+    const fromFridge = ings.filter(i => hasItem(i.name, fridge));
+    if (!fromFridge.length) return null;               // au moins un ingrédient du frigo
+    const missing = ings.filter(i => !hasItem(i.name, fridge) && !hasItem(i.name, placard));
+    const score = (ings.length - missing.length) / ings.length + fromFridge.length * 0.08;
+    return { r, missing, used: fromFridge.length, score };
+  }).filter(Boolean).sort((a, b) => b.score - a.score).slice(0, 12);
+  if (!scored.length) { out.innerHTML = '<div class="add-hint">Aucune recette de l\'app n\'utilise ces ingrédients. Essaie avec d\'autres mots (ex. « poulet » plutôt que « blanc de volaille »).</div>'; return; }
+  out.innerHTML = '<div class="shop-rayon">Tu peux faire</div>' + scored.map(({ r, missing }) => {
+    const pct = Math.round(100 * (1 - missing.length / r.ingredients.length));
+    const miss = missing.slice(0, 4).map(i => shopName(i.name)).join(', ') + (missing.length > 4 ? '…' : '');
+    return `<div class="fridge-item" onclick="window.app.closeFridge(); window.app.showRecipe('${r.id}')">
+      <div class="fridge-thumb" style="${r.image ? `background-image:url('${r.image}')` : `background:${CAT_GRADIENTS[r.cat] || CAT_GRADIENTS.default}`}"></div>
+      <div class="fridge-info"><div class="fridge-title">${r.title}</div>
+        <div class="fridge-meta"><b>${pct} %</b> ${missing.length ? '· il manque : ' + escapeHtml(miss) : '· tu as tout ✓'}</div></div>
+    </div>`;
+  }).join('');
+}
+
 // Nombre de convives : base = « N pers. » de la recette, sinon 4
 const servingsState = {};
 const baseServings = (recipe) => { const m = String(recipe.serves || '').match(/(\d+)/); return m ? +m[1] : 4; };
@@ -619,19 +741,21 @@ let currentTag = null;
 
 
 // Accueil : tuiles de catégories (types de plat + ingrédients), puis la liste filtrée
+const MAIN_CATS = ['plat', 'viande', 'poisson', 'pates'];
 const HOME_CATS = [
-  { kind: 'cat', id: 'entree', label: 'Entrées' }, { kind: 'cat', id: 'plat', label: 'Plats' },
+  { kind: 'cat', id: 'entree', label: 'Entrées' }, { kind: 'cat', id: 'plats', label: 'Plats' },
   { kind: 'cat', id: 'viande', label: 'Viandes' }, { kind: 'cat', id: 'poisson', label: 'Poissons' },
   { kind: 'cat', id: 'pates', label: 'Pâtes & riz' }, { kind: 'cat', id: 'accompagnement', label: 'Accompagnements' },
   { kind: 'cat', id: 'sauce', label: 'Sauces' }, { kind: 'cat', id: 'dessert', label: 'Desserts' },
-  { kind: 'cat', id: 'veggie', label: 'Veggie' },
+  { kind: 'cat', id: 'plat', label: 'Plats végétariens' },
 ];
 function homeCatRecipes(c) {
   if (c.kind === 'tag') return RECIPES.filter(r => (RECIPE_TAGS.get(r.id) || []).includes(c.id));
   if (c.id === 'veggie') return RECIPES.filter(r => r.veggie && r.cat !== 'dessert');
+  if (c.id === 'plats') return RECIPES.filter(r => MAIN_CATS.includes(r.cat));
   return RECIPES.filter(r => r.cat === c.id);
 }
-const HOME_COVERS = {"entree": "monelle-godaert-recette-DaDfSf", "plat": "monelle-godaert-recette", "viande": "le-one-pot-dinner-qu", "poisson": "mes-diners-sains-du-soir", "pates": "la-pasta-tomate-des-fistons", "accompagnement": "une-recette-a-retenir-et-a-refaire-tellement", "sauce": "sauce-chimichurri", "dessert": "gateaux-myrtilles-vanille-huile-d", "veggie": "qui-mange-encore-ses-courgettes-cuites-en-plein", "courgette": "qui-mange-encore-ses-courgettes-cuites-en-plein", "fruits": "depuis-ma-normandie", "gratin": "lasagnes-d", "poulet": "je-crois-que-les-recettes-les-plus", "sandwich": "une-idee-de-dej", "apero": "tartinade-daubergines-et-poivrons", "boeuf": "je-suis-fan-de-cette-salade-de-steak-virale"};
+const HOME_COVERS = {"entree": "monelle-godaert-recette-DaDfSf", "plats": "monelle-godaert-recette", "plat": "mon-repas-sain-du-soir", "viande": "le-one-pot-dinner-qu", "poisson": "mes-diners-sains-du-soir", "pates": "la-pasta-tomate-des-fistons", "accompagnement": "une-recette-a-retenir-et-a-refaire-tellement", "sauce": "sauce-chimichurri", "dessert": "gateaux-myrtilles-vanille-huile-d", "veggie": "qui-mange-encore-ses-courgettes-cuites-en-plein", "courgette": "qui-mange-encore-ses-courgettes-cuites-en-plein", "fruits": "depuis-ma-normandie", "gratin": "lasagnes-d", "poulet": "je-crois-que-les-recettes-les-plus", "sandwich": "une-idee-de-dej", "apero": "tartinade-daubergines-et-poivrons", "boeuf": "je-suis-fan-de-cette-salade-de-steak-virale"};
 function renderHomeCats() {
   const box = document.getElementById('home-cats');
   if (!box) return;
@@ -651,6 +775,7 @@ function renderHomeCats() {
     .map(t => ({ kind: 'tag', id: t.id, label: t.label.replace(/^\S+\s/, '') }));
   const favN = getFavs().length;
   box.innerHTML = `
+    <div class="fridge-cta" onclick="window.app.openFridge()"><span>🧊</span><div>Qu'est-ce que j'ai dans mon frigo ?<small>Dis ce que tu as, je te propose une recette</small></div></div>
     ${favN ? `<div class="cat-all" onclick="window.app.openHomeCat('cat','favs')">♥ Mes favoris <small>${favN}</small></div>` : ''}
     <div class="cat-section">Par type de plat</div>
     <div class="cat-grid">${HOME_CATS.map(tile).join('')}</div>
@@ -715,6 +840,7 @@ function applyFilters() {
   let shown = 0;
   grid.querySelectorAll('.card').forEach((card, i) => {
     const catOk = currentCat === 'all' || card.dataset.cat === currentCat ||
+      (currentCat === 'plats' && MAIN_CATS.includes(card.dataset.cat)) ||
       (currentCat === 'favs' && isFav(card.dataset.id)) ||
       (currentCat === 'veggie' && card.dataset.veggie === 'true' && card.dataset.cat !== 'dessert');
     const text = SEARCH_INDEX.get(card.dataset.id) || '';
@@ -772,7 +898,7 @@ function showChef(id) {
   const catLabels = {
     sauce: '🫕 Sauce', pates: '🍝 Pâtes', entree: '🥗 Entrée',
     poisson: '🐟 Poisson', dessert: '🍫 Dessert', viande: '🥩 Viande',
-    accompagnement: '🥬 Accomp.'
+    accompagnement: '🥬 Accomp.', plat: '🥕 Plats végé'
   };
   
   let chipsHtml = '<div class="filter-chips"><div class="chip active" onclick="window.app.filterChef(this,\'all\')">Tout</div>';
@@ -878,12 +1004,13 @@ function showShop(recipeId) {
     grouped[rayon].push({ ...ing, idx });
   });
 
-  let bodyHtml = '<div class="shop-hint">Touche ce que tu as déjà : c\'est barré et ça ne part ni dans la commande ni dans la copie.</div>';
-  const itemHtml = (ing) => `<div class="shop-item" data-idx="${ing.idx}" onclick="window.app.toggleShopItem(this)">
-        <div class="shop-item-dot"></div>
+  let bodyHtml = '<div class="shop-hint">Ce qui est dans ton placard est déjà barré. Touche ce que tu as aussi : ça ne part ni dans la commande ni dans la copie.</div>';
+  const placardWords = getPlacard().map(keyWords).filter(ws => ws.length);
+  const itemHtml = (ing) => { const have = hasItem(ing.name, placardWords); return `<div class="shop-item${have ? ' checked' : ''}" data-idx="${ing.idx}" onclick="window.app.toggleShopItem(this)">
+        <div class="shop-item-dot">${have ? '✓' : ''}</div>
         <span class="shop-item-text">${ing.name}</span>
         <span class="shop-item-qty">${ing.qty}</span>
-      </div>`;
+      </div>`; };
   RAYON_ORDER.forEach(rayon => {
     const items = (grouped[rayon] || []).filter(ing => !ing.pantry);
     if (!items.length) return;
@@ -1541,7 +1668,7 @@ function deleteRecipe(id) {
 }
 
 window.app = {
-  search, startCooking, stopCooking, cookGo, addTimer, removeTimer, toggleVoice, openAdd, closeAdd, pasteAdd, submitAdd, openImported, setServings, openHomeCat, backToCats, toggleFav, orderIngredients, filterTag,
+  search, openFridge, closeFridge, dictateFridge, suggestFromFridge, togglePlacard, addPlacard, startCooking, stopCooking, cookGo, addTimer, removeTimer, toggleVoice, openAdd, closeAdd, pasteAdd, submitAdd, openImported, setServings, openHomeCat, backToCats, toggleFav, orderIngredients, filterTag,
   nav, goBack, deleteRecipe, setView, showRecipe, showChef, filter, filterChef,
   checkIng, checkStep, toggleDetail, showAsk, closeAsk, showShop, closeShop,
   toggleShopItem, copyShopList,
